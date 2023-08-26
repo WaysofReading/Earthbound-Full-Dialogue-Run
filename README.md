@@ -3,13 +3,14 @@ A full-dialogue run of Earthbound is a playthrough of the game in which every no
 
 This project repository serves to house and document materials used to develop this complex run.
 
-Note: While I am working on this project as t hough it were a conventional speedrun, it is also an attempt to explore certain ideas around video game writing, identities, and unconventional play. As such, I am as interested in ways of interpreting this game, run, and route as I am in actually executing it. Additional non-technical discussion can be found in the `docs\` segment of the repository with published posts on at (https://waysofreadingblog.com/tags/earthbound).
+Note: While I am working on this project as though it were a conventional speedrun, it is also an attempt to explore certain ideas around video game writing, identities, and unconventional play. As such, I am as interested in ways of interpreting this game, run, and route as I am in actually executing it. Additional non-technical discussion can be found in the `docs\` segment of the repository with published posts on at (https://waysofreadingblog.com/tags/earthbound).
 
 ## Repository Map
 
 * `resources\` Data, information, and materials
     * `flat_dialog.json` Earthbound dialogue processed for ease of reading
-    * `decompilations\` Decompiled game data from CoilSnake (https://pk-hack.github.io/CoilSnake/)
+    * `decompilation_20230106\` Decompiled game data from CoilSnake (https://pk-hack.github.io/CoilSnake/)
+        * `_cleanscript\cleanscript.txt` Tidied version of the game script from `utilities\earthbound-script-dumper`
     * `regions-and-rooms_trimmed-flat\` Image files for each overworld region and room, named descriptively:
         * e.g. `06144_06016_06400_06144_Dusty Dunes Desert_Monkey Cave_Start_Left_Left-(Hallway)`
             * x0 (bounding box)
