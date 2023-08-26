@@ -7,43 +7,43 @@ Note: While I am working on this project as t hough it were a conventional speed
 
 ## Repository Map
 
-* `constants\` English labels for flags, items, etc. Invaluable. (https://github.com/CataLatas/earthbound-script-dumper/tree/main/constants)
 * `resources\` Data, information, and materials
     * `flat_dialog.json` Earthbound dialogue processed for ease of reading
     * `decompilations\` Decompiled game data from CoilSnake (https://pk-hack.github.io/CoilSnake/)
-    * `regions-and-rooms\` Materials for visualizing overworld regions and rooms in Earthbound
-        * `trimmed-flat\` Image files for each overworld region and room, named descriptively:
-            * e.g. `06144_06016_06400_06144_Dusty Dunes Desert_Monkey Cave_Start_Left_Left-(Hallway)`
-                * x0 (bounding box)
-                * x1 (bounding box)
-                * y0 (bounding box)
-                * y1 (bounding box)
-                * Area (English label)
-                * SubArea (English label) ...
-                * (Note)
-                * .png
-        * `map-sliced.psd` Nested cut Layers for each room and region on Earthbound map
-        * `map-with-npcs_spread_nogrid.png` Earthbound map image file used in Photoshop file
-        * `regions_and_rooms.csv` Table of rooms and overworld regions
+    * `regions-and-rooms_trimmed-flat\` Image files for each overworld region and room, named descriptively:
+        * e.g. `06144_06016_06400_06144_Dusty Dunes Desert_Monkey Cave_Start_Left_Left-(Hallway)`
+            * x0 (bounding box)
+            * x1 (bounding box)
+            * y0 (bounding box)
+            * y1 (bounding box)
+            * Area (English label)
+            * SubArea (English label) ...
+            * (Note)
+            * .png
+    * `map-sliced_202302011.psd` Nested cut Layers for each room and region on Earthbound map
+        * **Not pushed due to size constraints - I can share on request**
+    * `map-with-npcs_spread_nogrid.png` Earthbound map image file used in Photoshop file
     * `npc_values.csv` Table of NPCs combining data
         * from `sprite_groups.csv` (sprite + location details)
         * from `decompilations\...\npc_config_table.yml` (NPC details, CoilSnake output)
         * from `regions-and-rooms.csv` (location details)
-    * `route.gsheet` The current draft of the run route. See below for definitions.
+    * `regions_and_rooms.csv` Table of rooms and overworld regions
+    * `route.txt` Link to the current draft of the run route (Google Sheet)
     * `sprite_groups.csv` English names (Author: me) for each sprite in the `SpriteGroups` folder
-* `utilities\` Scripts, utilities, and tools. Supporting tools mostly created by other authors as annotated below. 
+* `utilities\` Scripts, utilities, and tools. Supporting tools created by other authors as annotated below. 
     * `bizhawk\` Technical/TASing/Scripting emulator (https://tasvideos.org/BizHawk)
     * `earthbound-script-dumper-main\` Tool for refining dumped script (https://github.com/CataLatas/earthbound-script-dumper)
+        * `constants\` includes English labels for flags, items, etc. Invaluable.
     * `Photoshop-Export-Layers-to-Files-Fast-2.7.1` Tool to split PSD by layer with options (https://github.com/antipalindrome/Photoshop-Export-Layers-to-Files-Fast)
     * `map-splitter-namer\` Generates outputs for `resources\regions-and-rooms\`
-        * `process-images.py` Trims, names, processes output from antipalindrome's tool (Author: me)
     * `roms\` Expects `EarthBound (USA).sfc`
-* `main.py`. Recursively unrolls dumped script yielding `resources\flat_dialog.json`
+* `process-images.py` Trims, names, processes output from antipalindrome's tool (Author: me)
+* `process-dialogue.py`. Recursively unrolls dumped script yielding `resources\flat_dialog.json` (Author: me)
 
 Additional documentation may be available in the Python source code and elsewhere.
 
 ## The Run File
-The run itself is documented on a Google Sheet located at `resources\route.gsheet` in this repository. The sheet includes one row for each action and event that must occur to fulfill the requirements of run. The primary "main_sequence" tab contains the following fields:
+The run itself is documented on a Google Sheet linked in `resources\route.txt` in this repository, or accessible at (https://docs.google.com/spreadsheets/d/1W9WpMgIaLJZUDxKTG1n-6-2rl2r4qpdpA_hOta7AWX0). The sheet includes one row for each action and event that must occur to fulfill the requirements of run. The primary "main_sequence" tab contains the following fields:
 
 * **Playthrough #**. The ordinal of the game playthrough where this action/event occurs. It is expected that fulfilling the requirements for a "Full Dialogue Run" will require multiple playthroughs.
 * **Segment #**. The ordinal of the run segment of this action/event in the current playthrough
