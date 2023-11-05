@@ -1,0 +1,49 @@
+{
+  "Sprite": 122,
+  "sprite_label": "girl_blonde_yellow-dress",
+  "map_location_label": "Fourside_Department Store_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C82B06",
+  "d1_flags": [
+    "1. goto C82B27 if FOURSIDE_DEPT_BLACKOUT_JUST_ENDED is set"
+  ],
+  "d1_addresses": [
+    "C82B27",
+    "Npc0928"
+  ],
+  "d1_text": "Npc0928:\r\n[GOTO_IF_FLAG FOURSIDE_DEPT_BLACKOUT_JUST_ENDED L_C82B27]\r\n\u00ef\u00bf\u00bdOh, so you're skipping school too, right?[HALT][END]",
+  "d1_lines": [
+    "Npc0928:",
+    "[GOTO_IF_FLAG FOURSIDE_DEPT_BLACKOUT_JUST_ENDED L_C82B27]",
+    "\u00ef\u00bf\u00bdOh, so you're skipping school too, right?[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG FOURSIDE_DEPT_BLACKOUT_JUST_ENDED L_C82B27]:C82B27": {
+      "\u00ef\u00bf\u00bdI heard a sound like \u00ef\u00bf\u00bdgwaaargh!\u00ef\u00bf\u00bd and it was loud.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI wonder if someone was fighting.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdOh, so you're skipping school too, right?[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4560,
+  "y_pixel_abs": 6168,
+  "x_tile": 142,
+  "y_tile": 192,
+  "x_sector": 17,
+  "y_sector": 24,
+  "x_sector_offset": 208,
+  "y_sector_offset": 24,
+  "Event Flag": 57,
+  "flag_label": "FOURSIDE_DEPT_BLACKOUT",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 16,
+  "Text Pointer 1": "data_36.l_0xc82b06",
+  "Text Pointer 2": "$0"
+}

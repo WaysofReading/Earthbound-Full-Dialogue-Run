@@ -1,0 +1,43 @@
+{
+  "Sprite": 66,
+  "sprite_label": "woman_blonde_red-blazer",
+  "map_location_label": "Onett_Hotel (Hotel Onett)_1F_Lobby",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C768F4",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0062"
+  ],
+  "d1_text": "Npc0062:\r\n\u00ef\u00bf\u00bdYou look like you'd be a real target for the Sharks.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou'd better be careful.[HALT][END]",
+  "d1_lines": [
+    "Npc0062:",
+    "\u00ef\u00bf\u00bdYou look like you'd be a real target for the Sharks.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou'd better be careful.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdYou look like you'd be a real target for the Sharks.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou'd better be careful.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7600,
+  "y_pixel_abs": 72,
+  "x_tile": 237,
+  "y_tile": 2,
+  "x_sector": 29,
+  "y_sector": 0,
+  "x_sector_offset": 176,
+  "y_sector_offset": 72,
+  "Event Flag": 106,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_29.l_0xc768f4",
+  "Text Pointer 2": "$0"
+}

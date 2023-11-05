@@ -1,0 +1,45 @@
+{
+  "Sprite": 140,
+  "sprite_label": "nurse",
+  "map_location_label": "Fourside_Hospital_1F_Doctor's-Office",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C827DB",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0917"
+  ],
+  "d1_text": "Npc0917:\r\n\u00ef\u00bf\u00bdOne person requested a \u00ef\u00bf\u00bdshampoo and cut.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThey must have thought that a \u00ef\u00bf\u00bdbad hair day\u00ef\u00bf\u00bd could be treated at the hospital.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdEither that or they wanted their medical insurance to cover their grooming.[HALT][END]",
+  "d1_lines": [
+    "Npc0917:",
+    "\u00ef\u00bf\u00bdOne person requested a \u00ef\u00bf\u00bdshampoo and cut.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThey must have thought that a \u00ef\u00bf\u00bdbad hair day\u00ef\u00bf\u00bd could be treated at the hospital.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdEither that or they wanted their medical insurance to cover their grooming.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdOne person requested a \u00ef\u00bf\u00bdshampoo and cut.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThey must have thought that a \u00ef\u00bf\u00bdbad hair day\u00ef\u00bf\u00bd could be treated at the hospital.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdEither that or they wanted their medical insurance to cover their grooming.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4400,
+  "y_pixel_abs": 5088,
+  "x_tile": 137,
+  "y_tile": 159,
+  "x_sector": 17,
+  "y_sector": 19,
+  "x_sector_offset": 48,
+  "y_sector_offset": 224,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_36.l_0xc827db",
+  "Text Pointer 2": "$0"
+}

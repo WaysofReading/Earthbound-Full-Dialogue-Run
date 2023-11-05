@@ -1,0 +1,232 @@
+{
+  "Sprite": 116,
+  "sprite_label": "woman_black-hair_red-clothes",
+  "map_location_label": "Twoson_Chaos Theater_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C81A88",
+  "d1_flags": [
+    "1. goto C81AC4 if VISITED_THREED is set",
+    "1. goto C81ADE if RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER is set",
+    "1. goto C81AFB if RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER is set",
+    "1. goto C81B04 if TEMP_2 is set",
+    "3. set TEMP_2"
+  ],
+  "d1_addresses": [
+    "C79211",
+    "C7921A",
+    "C7DC9B",
+    "C7DCB5",
+    "C81AC4",
+    "C81ADE",
+    "C81AFB",
+    "C81B04",
+    "Npc0226"
+  ],
+  "d1_text": "Npc0226:\r\n[GOTO_IF_FLAG VISITED_THREED L_C81AC4]\r\n[GOTO_IF_FLAG TEMP_2 L_C81B04]\r\n[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C81ADE]\r\n[GET_DIR_FROM_PMEMBER LEADER NPC 226][GOSUB L_C7DC9B]\r\n[GOTO_IF_FALSE L_C81ADE]\r\n\u00ef\u00bf\u00bdHello,[PAUSE 15] please present your ticket.[HALT][END]",
+  "d1_lines": [
+    "Npc0226:",
+    "[GOTO_IF_FLAG VISITED_THREED L_C81AC4]",
+    "[GOTO_IF_FLAG TEMP_2 L_C81B04]",
+    "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C81ADE]",
+    "[GET_DIR_FROM_PMEMBER LEADER NPC 226][GOSUB L_C7DC9B]",
+    "[GOTO_IF_FALSE L_C81ADE]",
+    "\u00ef\u00bf\u00bdHello,[PAUSE 15] please present your ticket.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG VISITED_THREED L_C81AC4]:C81AC4": {
+      "\u00ef\u00bf\u00bdSorry,[PAUSE 15] the show is on hold for a while.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG TEMP_2 L_C81B04]:C81B04": {
+      "\u00ef\u00bf\u00bdSee you.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C81ADE]:C81ADE": {
+      "\u00ef\u00bf\u00bdOh, pardon me.[WAIT][CLOSE_ALL_TBOXES]": null,
+      "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C81AFB]:C81AFB": {
+        "[GOSUB L_C79211]:C79211": {
+          "[SET_NPC_MOVEMENT_SCRIPT 226 120]": null,
+          "[WAIT_MOVEMENT]": null,
+          "[END]": null
+        },
+        "[SET_FLAG TEMP_2]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C7921A]:C7921A": {
+        "[SET_NPC_MOVEMENT_SCRIPT 226 121]": null,
+        "[WAIT_MOVEMENT]": null,
+        "[END]": null
+      },
+      "[SET_FLAG TEMP_2]": null,
+      "[END]": null
+    },
+    "[GET_DIR_FROM_PMEMBER LEADER NPC 226][GOSUB L_C7DC9B]:C7DC9B": {
+      "[SWAP_ARG_RESULT]": null,
+      "[BACKUP_REGS_LOCAL]": null,
+      "[CHECK_EQUAL 1][GOTO_IF_TRUE L_C7DCB5]:C7DCB5": {
+        "[END]": null
+      },
+      "[RESTORE_REGS_LOCAL]": null,
+      "[CHECK_EQUAL 2][GOTO_IF_TRUE L_C7DCB5]:C7DCB5": {
+        "[END]": null
+      },
+      "[CHECK_EQUAL 8]; $C7DCB5": null,
+      "[END]": null
+    },
+    "[GOTO_IF_FALSE L_C81ADE]:C81ADE": {
+      "\u00ef\u00bf\u00bdOh, pardon me.[WAIT][CLOSE_ALL_TBOXES]": null,
+      "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C81AFB]:C81AFB": {
+        "[GOSUB L_C79211]:C79211": {
+          "[SET_NPC_MOVEMENT_SCRIPT 226 120]": null,
+          "[WAIT_MOVEMENT]": null,
+          "[END]": null
+        },
+        "[SET_FLAG TEMP_2]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C7921A]:C7921A": {
+        "[SET_NPC_MOVEMENT_SCRIPT 226 121]": null,
+        "[WAIT_MOVEMENT]": null,
+        "[END]": null
+      },
+      "[SET_FLAG TEMP_2]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdHello,[PAUSE 15] please present your ticket.[HALT][END]": null
+  },
+  "d2_pointer": "C81B0C",
+  "d2_flags": [
+    "1. goto C81AFB if RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER is set",
+    "1. goto C81B9B if RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER is set",
+    "1. goto C81BAF if TEMP_2 is set",
+    "3. set QUEUE_OUTSIDE_CHAOS_THEATER",
+    "3. set TEMP_2"
+  ],
+  "d2_addresses": [
+    "C79211",
+    "C7921A",
+    "C7DC9B",
+    "C7DCB5",
+    "C81ADE",
+    "C81AFB",
+    "C81B0C",
+    "C81B50",
+    "C81B9B",
+    "C81BAF"
+  ],
+  "d2_text": "L_C81B0C:\r\n[BACKUP_REGS_LOCAL]\r\n[GOTO_IF_FLAG TEMP_2 L_C81BAF]\r\n[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C81B9B]\r\n[RESTORE_REGS_LOCAL]\r\n[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]\r\n[BACKUP_REGS_LOCAL]\r\n[CHECK_EQUAL 125][GOTO_IF_TRUE L_C81B50]\r\n[GET_DIR_FROM_PMEMBER LEADER NPC 226][GOSUB L_C7DC9B]\r\n[GOTO_IF_FALSE L_C81ADE]\r\n\u00ef\u00bf\u00bdPlease show me your ticket.[HALT][END]",
+  "d2_lines": [
+    "L_C81B0C:",
+    "[BACKUP_REGS_LOCAL]",
+    "[GOTO_IF_FLAG TEMP_2 L_C81BAF]",
+    "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C81B9B]",
+    "[RESTORE_REGS_LOCAL]",
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]",
+    "[BACKUP_REGS_LOCAL]",
+    "[CHECK_EQUAL 125][GOTO_IF_TRUE L_C81B50]",
+    "[GET_DIR_FROM_PMEMBER LEADER NPC 226][GOSUB L_C7DC9B]",
+    "[GOTO_IF_FALSE L_C81ADE]",
+    "\u00ef\u00bf\u00bdPlease show me your ticket.[HALT][END]"
+  ],
+  "d2_unrolled": {
+    "[BACKUP_REGS_LOCAL]": null,
+    "[GOTO_IF_FLAG TEMP_2 L_C81BAF]:C81BAF": {
+      "\u00ef\u00bf\u00bdHow do you do?[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C81B9B]:C81B9B": {
+      "\u00ef\u00bf\u00bdThe show is on hold for a while.[HALT][END]": null
+    },
+    "[RESTORE_REGS_LOCAL]": null,
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+    "[CHECK_EQUAL 125][GOTO_IF_TRUE L_C81B50]:C81B50": {
+      "[GET_DIR_FROM_PMEMBER LEADER NPC 226][GOSUB L_C7DC9B]:C7DC9B": {
+        "[SWAP_ARG_RESULT]": null,
+        "[BACKUP_REGS_LOCAL]": null,
+        "[CHECK_EQUAL 1][GOTO_IF_TRUE L_C7DCB5]:C7DCB5": {
+          "[END]": null
+        },
+        "[RESTORE_REGS_LOCAL]": null,
+        "[CHECK_EQUAL 2][GOTO_IF_TRUE L_C7DCB5]:C7DCB5": {
+          "[END]": null
+        },
+        "[CHECK_EQUAL 8]; $C7DCB5": null,
+        "[END]": null
+      },
+      "[GOTO_IF_FALSE L_C81ADE]:C81ADE": {
+        "\u00ef\u00bf\u00bdOh, pardon me.[WAIT][CLOSE_ALL_TBOXES]": null,
+        "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C81AFB]:C81AFB": {
+          "[GOSUB L_C79211]:C79211": {
+            "[SET_NPC_MOVEMENT_SCRIPT 226 120]": null,
+            "[WAIT_MOVEMENT]": null,
+            "[END]": null
+          },
+          "[SET_FLAG TEMP_2]": null,
+          "[END]": null
+        },
+        "[GOSUB L_C7921A]:C7921A": {
+          "[SET_NPC_MOVEMENT_SCRIPT 226 121]": null,
+          "[WAIT_MOVEMENT]": null,
+          "[END]": null
+        },
+        "[SET_FLAG TEMP_2]": null,
+        "[END]": null
+      },
+      "[PLAY_SFX 118]": null,
+      "\u00ef\u00bf\u00bdHere you go.[PAUSE 15]  Hurry![PAUSE 20]  You're just in time to see the Runaway Five show![WAIT][GOSUB L_C79211]:C79211": {
+        "[SET_NPC_MOVEMENT_SCRIPT 226 120]": null,
+        "[WAIT_MOVEMENT]": null,
+        "[END]": null
+      },
+      "[SET_FLAG QUEUE_OUTSIDE_CHAOS_THEATER]": null,
+      "[SET_FLAG TEMP_2]": null,
+      "[END]": null
+    },
+    "[GET_DIR_FROM_PMEMBER LEADER NPC 226][GOSUB L_C7DC9B]:C7DC9B": {
+      "[SWAP_ARG_RESULT]": null,
+      "[BACKUP_REGS_LOCAL]": null,
+      "[CHECK_EQUAL 1][GOTO_IF_TRUE L_C7DCB5]:C7DCB5": {
+        "[END]": null
+      },
+      "[RESTORE_REGS_LOCAL]": null,
+      "[CHECK_EQUAL 2][GOTO_IF_TRUE L_C7DCB5]:C7DCB5": {
+        "[END]": null
+      },
+      "[CHECK_EQUAL 8]; $C7DCB5": null,
+      "[END]": null
+    },
+    "[GOTO_IF_FALSE L_C81ADE]:C81ADE": {
+      "\u00ef\u00bf\u00bdOh, pardon me.[WAIT][CLOSE_ALL_TBOXES]": null,
+      "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C81AFB]:C81AFB": {
+        "[GOSUB L_C79211]:C79211": {
+          "[SET_NPC_MOVEMENT_SCRIPT 226 120]": null,
+          "[WAIT_MOVEMENT]": null,
+          "[END]": null
+        },
+        "[SET_FLAG TEMP_2]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C7921A]:C7921A": {
+        "[SET_NPC_MOVEMENT_SCRIPT 226 121]": null,
+        "[WAIT_MOVEMENT]": null,
+        "[END]": null
+      },
+      "[SET_FLAG TEMP_2]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdPlease show me your ticket.[HALT][END]": null
+  },
+  "x_pixel_abs": 7576,
+  "y_pixel_abs": 7376,
+  "x_tile": 236,
+  "y_tile": 230,
+  "x_sector": 29,
+  "y_sector": 28,
+  "x_sector_offset": 152,
+  "y_sector_offset": 208,
+  "Event Flag": 41,
+  "flag_label": "CHAOS_THEATER_STAGE_UNBLOCKED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_35.l_0xc81a88",
+  "Text Pointer 2": "data_35.l_0xc81b0c"
+}

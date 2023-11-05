@@ -1,0 +1,52 @@
+{
+  "Sprite": 119,
+  "sprite_label": "lookalike_shy-guy-mask",
+  "map_location_label": "Threed_Hospital_2F_Right-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8E0AD",
+  "d1_flags": [
+    "1. goto C8E0D8 if MASTER_BELCH_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C8E0D8",
+    "Npc0502"
+  ],
+  "d1_text": "Npc0502:\r\n[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E0D8]\r\n\u00ef\u00bf\u00bdThe zombies got me...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI should have gotten some zombie insurance.[HALT][END]",
+  "d1_lines": [
+    "Npc0502:",
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E0D8]",
+    "\u00ef\u00bf\u00bdThe zombies got me...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI should have gotten some zombie insurance.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E0D8]:C8E0D8": {
+      "\u00ef\u00bf\u00bdI'm not afraid of no zombie.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWhen they come out, I'll beat them by myself.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdActually I don't want them to come out.[PAUSE 20]  They're way too scary.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThe zombies got me...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI should have gotten some zombie insurance.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7512,
+  "y_pixel_abs": 9304,
+  "x_tile": 234,
+  "y_tile": 290,
+  "x_sector": 29,
+  "y_sector": 36,
+  "x_sector_offset": 88,
+  "y_sector_offset": 88,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_42.l_0xc8e0ad",
+  "Text Pointer 2": "$0"
+}

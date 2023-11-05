@@ -1,0 +1,95 @@
+{
+  "Sprite": 381,
+  "sprite_label": "invisible_3",
+  "map_location_label": "Onett_Overworld_Northwest",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "EFA2C9",
+  "d1_flags": [
+    "1. goto EFA2D5 if ENTERTAINERS_SHACK_UNLOCKED is set"
+  ],
+  "d1_addresses": [
+    "C6FB20",
+    "EFA2D5",
+    "Npc0147"
+  ],
+  "d1_text": "Npc0147:\r\n[GOTO_IF_FLAG ENTERTAINERS_SHACK_UNLOCKED L_EFA2D5]\r\n[GOSUB L_C6FB20]\r\n; $EFA2D5\r\nL_EFA2D5:\r\n[END]",
+  "d1_lines": [
+    "Npc0147:",
+    "[GOTO_IF_FLAG ENTERTAINERS_SHACK_UNLOCKED L_EFA2D5]",
+    "[GOSUB L_C6FB20]",
+    "; $EFA2D5",
+    "L_EFA2D5:",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG ENTERTAINERS_SHACK_UNLOCKED L_EFA2D5]:EFA2D5": {
+      "[END]": null
+    },
+    "[GOSUB L_C6FB20]:C6FB20": {
+      "[OPEN_TBOX 1]": null,
+      "\u00ef\u00bf\u00bdThe door is locked.[HALT][CLOSE_ALL_TBOXES]": null,
+      "[END]": null
+    },
+    "; $EFA2D5": null,
+    "[END]": null
+  },
+  "d2_pointer": "EFA2D6",
+  "d2_flags": [
+    "3. set ENTERTAINERS_SHACK_UNLOCKED"
+  ],
+  "d2_addresses": [
+    "C6FB33",
+    "C6FB5D",
+    "EFA2D6"
+  ],
+  "d2_text": "L_EFA2D6:\r\n[BACKUP_REGS_LOCAL]\r\n[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]\r\n[CHECK_EQUAL 170][GOTO_IF_FALSE L_C6FB5D]\r\n[GOSUB L_C6FB33]\r\n[RESTORE_REGS_LOCAL]\r\n[REMOVE_ITEM_SLOT REG_ARGUMENT 0]\r\n[DELETE_NPC 147 6]\r\n[SET_FLAG ENTERTAINERS_SHACK_UNLOCKED]\r\n[END]",
+  "d2_lines": [
+    "L_EFA2D6:",
+    "[BACKUP_REGS_LOCAL]",
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]",
+    "[CHECK_EQUAL 170][GOTO_IF_FALSE L_C6FB5D]",
+    "[GOSUB L_C6FB33]",
+    "[RESTORE_REGS_LOCAL]",
+    "[REMOVE_ITEM_SLOT REG_ARGUMENT 0]",
+    "[DELETE_NPC 147 6]",
+    "[SET_FLAG ENTERTAINERS_SHACK_UNLOCKED]",
+    "[END]"
+  ],
+  "d2_unrolled": {
+    "[BACKUP_REGS_LOCAL]": null,
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+    "[CHECK_EQUAL 170][GOTO_IF_FALSE L_C6FB5D]:C6FB5D": {
+      "\u00ef\u00bf\u00bdIt wasn't the right key.[HALT][END]": null
+    },
+    "[GOSUB L_C6FB33]:C6FB33": {
+      "[RESTORE_REGS_LOCAL]": null,
+      "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bd[PRINT_NAME REG_ARGUMENT][SWAP_ARG_RESULT]": null,
+      " used[LINE_BREAK]": null,
+      "  the [PRINT_ITEM REG_ARGUMENT].[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThe door opened.[HALT][PLAY_SFX 119]": null,
+      "[END]": null
+    },
+    "[RESTORE_REGS_LOCAL]": null,
+    "[REMOVE_ITEM_SLOT REG_ARGUMENT 0]": null,
+    "[DELETE_NPC 147 6]": null,
+    "[SET_FLAG ENTERTAINERS_SHACK_UNLOCKED]": null,
+    "[END]": null
+  },
+  "x_pixel_abs": 1456,
+  "y_pixel_abs": 568,
+  "x_tile": 45,
+  "y_tile": 17,
+  "x_sector": 5,
+  "y_sector": 2,
+  "x_sector_offset": 176,
+  "y_sector_offset": 56,
+  "Event Flag": 108,
+  "flag_label": "ENTERTAINERS_SHACK_UNLOCKED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 7,
+  "Text Pointer 1": "data_61.l_0xefa2c9",
+  "Text Pointer 2": "data_61.l_0xefa2d6"
+}

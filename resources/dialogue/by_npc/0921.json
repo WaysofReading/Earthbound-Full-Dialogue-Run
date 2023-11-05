@@ -1,0 +1,123 @@
+{
+  "Sprite": 67,
+  "sprite_label": "elevator-atatendant",
+  "map_location_label": "Fourside_Department Store_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8287A",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C828B3",
+    "C828CA",
+    "C82945",
+    "C82986",
+    "C829DF",
+    "Npc0921"
+  ],
+  "d1_text": "Npc0921:\r\n\u00ef\u00bf\u00bdWould you like to buy tickets for the Topolla Theater?[WAIT][LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n[LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C828CA L_C828B3]\r\n; $C828B3\r\nL_C828B3:\r\n\u00ef\u00bf\u00bdOh, I see.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou're not a customer.[HALT][END]",
+  "d1_lines": [
+    "Npc0921:",
+    "\u00ef\u00bf\u00bdWould you like to buy tickets for the Topolla Theater?[WAIT][LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    "[LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C828CA L_C828B3]",
+    "; $C828B3",
+    "L_C828B3:",
+    "\u00ef\u00bf\u00bdOh, I see.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou're not a customer.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdWould you like to buy tickets for the Topolla Theater?[WAIT][LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    "[LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C828CA L_C828B3]:C828CA": {
+      "\u00ef\u00bf\u00bdOrchestra seats and balcony seats are sold out.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdNow, there's \u00ef\u00bf\u00bdstanding room only\u00ef\u00bf\u00bd left.[PAUSE 20]  It's $30 per person.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIs that okay with you?[LINE_BREAK]": null,
+      "[SHOW_WALLET]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C82945 L_C828B3]:C82945": {
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C829DF]:C829DF": {
+          "[PLAY_SFX 5]": null,
+          "\u00ef\u00bf\u00bdSorry, but you can't carry all of these...[HALT][END]": null
+        },
+        "[BACKUP_REGS_LOCAL]": null,
+        "[CHECK_HASNT_MONEY 30][GOTO_IF_TRUE L_C82986]:C82986": {
+          "\u00ef\u00bf\u00bdI've never heard of anyone who doesn't even have $30![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdHo[PAUSE 15] ho[PAUSE 5] ho ho ho ho ho ho ho.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdOh, excuse me for my laughing in your face.[HALT][END]": null
+        },
+        "[PLAY_SFX 118]": null,
+        "[PAUSE 1][REMOVE_MONEY 30]": null,
+        "[SHOW_WALLET]": null,
+        "\u00ef\u00bf\u00bdThanks a lot.[PAUSE 20]  Enjoy the show.[HALT][PLAY_SFX 116]": null,
+        "[RESTORE_REGS_LOCAL]": null,
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT SHOW_TICKET]": null,
+        "[END]": null
+      },
+      "[MULTI_GOTO L_C82945 L_C828B3]:C828B3": {
+        "\u00ef\u00bf\u00bdOh, I see.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou're not a customer.[HALT][END]": null
+      },
+      "[GOTO L_C828B3]:C828B3": {
+        "\u00ef\u00bf\u00bdOh, I see.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou're not a customer.[HALT][END]": null
+      },
+      "; $C82945": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C829DF]:C829DF": {
+        "[PLAY_SFX 5]": null,
+        "\u00ef\u00bf\u00bdSorry, but you can't carry all of these...[HALT][END]": null
+      },
+      "[BACKUP_REGS_LOCAL]": null,
+      "[CHECK_HASNT_MONEY 30][GOTO_IF_TRUE L_C82986]:C82986": {
+        "\u00ef\u00bf\u00bdI've never heard of anyone who doesn't even have $30![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdHo[PAUSE 15] ho[PAUSE 5] ho ho ho ho ho ho ho.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdOh, excuse me for my laughing in your face.[HALT][END]": null
+      },
+      "[PLAY_SFX 118]": null,
+      "[PAUSE 1][REMOVE_MONEY 30]": null,
+      "\u00ef\u00bf\u00bdThanks a lot.[PAUSE 20]  Enjoy the show.[HALT][PLAY_SFX 116]": null,
+      "[RESTORE_REGS_LOCAL]": null,
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT SHOW_TICKET]": null,
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C828CA L_C828B3]:C828B3": {
+      "\u00ef\u00bf\u00bdOh, I see.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou're not a customer.[HALT][END]": null
+    },
+    "; $C828B3": null,
+    "\u00ef\u00bf\u00bdOh, I see.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou're not a customer.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5160,
+  "y_pixel_abs": 6784,
+  "x_tile": 161,
+  "y_tile": 212,
+  "x_sector": 20,
+  "y_sector": 26,
+  "x_sector_offset": 40,
+  "y_sector_offset": 128,
+  "Event Flag": 57,
+  "flag_label": "FOURSIDE_DEPT_BLACKOUT",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_36.l_0xc8287a",
+  "Text Pointer 2": "$0"
+}

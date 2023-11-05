@@ -1,0 +1,57 @@
+{
+  "Sprite": 73,
+  "sprite_label": "bellhop",
+  "map_location_label": "Threed_Hotel (Threed Sunset Hotel)_1F_Lobby",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8F240",
+  "d1_flags": [
+    "4. clear 589"
+  ],
+  "d1_addresses": [
+    "C7DC7F",
+    "C8F296",
+    "Npc0491"
+  ],
+  "d1_text": "Npc0491:\r\n\u00ef\u00bf\u00bdA few days ago, the zombies got some kids at this hotel.[WAIT][LINE_BREAK]\r\n[CLR_FLAG 589]\r\n[SET_COUNTER 1]\r\n[GOSUB L_C7DC7F]\r\n[GOTO_IF_FALSE L_C8F296]\r\n\u00ef\u00bf\u00bdThe boy had a red cap...[PAUSE 30] or was it a blue cap?[HALT][END]",
+  "d1_lines": [
+    "Npc0491:",
+    "\u00ef\u00bf\u00bdA few days ago, the zombies got some kids at this hotel.[WAIT][LINE_BREAK]",
+    "[CLR_FLAG 589]",
+    "[SET_COUNTER 1]",
+    "[GOSUB L_C7DC7F]",
+    "[GOTO_IF_FALSE L_C8F296]",
+    "\u00ef\u00bf\u00bdThe boy had a red cap...[PAUSE 30] or was it a blue cap?[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdA few days ago, the zombies got some kids at this hotel.[WAIT][LINE_BREAK]": null,
+    "[CLR_FLAG 589]": null,
+    "[SET_COUNTER 1]": null,
+    "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+    "[GOTO_IF_FALSE L_C8F296]:C8F296": {
+      "\u00ef\u00bf\u00bdThe boy had a red cap...[PAUSE 30]  Hey![PAUSE 15]  It was you![HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThe boy had a red cap...[PAUSE 30] or was it a blue cap?[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7944,
+  "y_pixel_abs": 9304,
+  "x_tile": 248,
+  "y_tile": 290,
+  "x_sector": 31,
+  "y_sector": 36,
+  "x_sector_offset": 8,
+  "y_sector_offset": 88,
+  "Event Flag": 589,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_42.l_0xc8f240",
+  "Text Pointer 2": "$0"
+}

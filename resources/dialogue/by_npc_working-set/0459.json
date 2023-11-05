@@ -1,0 +1,93 @@
+{
+  "Sprite": 59,
+  "sprite_label": "prettyman",
+  "map_location_label": "Threed_Circus Tent_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8DD35",
+  "d1_flags": [
+    "1. goto C8DD98 if JEFF_JOINS is set",
+    "1. goto C8DE13 if GOT_ZOMBIE_PAPER is set",
+    "1. goto C8DE2C if ZOMBIE_PAPER_ON_TENT is set",
+    "1. goto C8DE88 if MASTER_BELCH_DEFEATED is set",
+    "1. goto C8DF28 if VISITED_FOURSIDE is set"
+  ],
+  "d1_addresses": [
+    "C8DD98",
+    "C8DE13",
+    "C8DE2C",
+    "C8DE88",
+    "C8DEF6",
+    "C8DF0D",
+    "C8DF28",
+    "Npc0459"
+  ],
+  "d1_text": "Npc0459:\r\n[GOTO_IF_FLAG VISITED_FOURSIDE L_C8DF28]\r\n[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8DE88]\r\n[GOTO_IF_FLAG ZOMBIE_PAPER_ON_TENT L_C8DE2C]\r\n[GOTO_IF_FLAG GOT_ZOMBIE_PAPER L_C8DE13]\r\n[GOTO_IF_FLAG JEFF_JOINS L_C8DD98]\r\n\u00ef\u00bf\u00bdThe zombies are slowly advancing toward the tent.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdEveryone, I repeat--[PAUSE 15]the zombies are on the move![HALT][END]",
+  "d1_lines": [
+    "Npc0459:",
+    "[GOTO_IF_FLAG VISITED_FOURSIDE L_C8DF28]",
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8DE88]",
+    "[GOTO_IF_FLAG ZOMBIE_PAPER_ON_TENT L_C8DE2C]",
+    "[GOTO_IF_FLAG GOT_ZOMBIE_PAPER L_C8DE13]",
+    "[GOTO_IF_FLAG JEFF_JOINS L_C8DD98]",
+    "\u00ef\u00bf\u00bdThe zombies are slowly advancing toward the tent.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdEveryone, I repeat--[PAUSE 15]the zombies are on the move![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG VISITED_FOURSIDE L_C8DF28]:C8DF28": {
+      "\u00ef\u00bf\u00bdI didn't like fighting the zombies,[PAUSE 15] but those days were never dull![HALT][END]": null
+    },
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8DE88]:C8DE88": {
+      "\u00ef\u00bf\u00bdThat round flying object... a kid with glasses was on board.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThe craft landed near the graveyard, right?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdCan you fix it?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      " [LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C8DEF6 L_C8DF0D]:C8DEF6": {
+        "\u00ef\u00bf\u00bdIt was heavily damaged, though, right?[HALT][END]": null
+      },
+      "[MULTI_GOTO L_C8DEF6 L_C8DF0D]:C8DF0D": {
+        "\u00ef\u00bf\u00bdIt's such a waste, but we can't do much about it...[HALT][END]": null
+      },
+      "; $C8DEF6": null,
+      "\u00ef\u00bf\u00bdIt was heavily damaged, though, right?[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG ZOMBIE_PAPER_ON_TENT L_C8DE2C]:C8DE2C": {
+      "\u00ef\u00bf\u00bdHey, hey, hey! ...stupid zombies... come on over![HALT][END]": null
+    },
+    "[GOTO_IF_FLAG GOT_ZOMBIE_PAPER L_C8DE13]:C8DE13": {
+      "\u00ef\u00bf\u00bdSo you're going to use this tent as a trap...[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG JEFF_JOINS L_C8DD98]:C8DD98": {
+      "\u00ef\u00bf\u00bdSo, this weird object was flying around and crashed in the graveyard...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt looked like it was straight out of a[PAUSE 20] Saturday morning cartoon![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWow!  Did you come here in that flying contraption?[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThe zombies are slowly advancing toward the tent.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdEveryone, I repeat--[PAUSE 15]the zombies are on the move![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8135,
+  "y_pixel_abs": 10073,
+  "x_tile": 254,
+  "y_tile": 314,
+  "x_sector": 31,
+  "y_sector": 39,
+  "x_sector_offset": 199,
+  "y_sector_offset": 89,
+  "Event Flag": 773,
+  "flag_label": "NERDY_GUY_AND_FAT_GUY_AT_CIRCUS_TENT",
+  "Show Sprite": "when event flag unset",
+  "Direction": "left",
+  "Movement": 606,
+  "Text Pointer 1": "data_42.l_0xc8dd35",
+  "Text Pointer 2": "$0"
+}

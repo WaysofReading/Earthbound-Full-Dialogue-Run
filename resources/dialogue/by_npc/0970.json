@@ -1,0 +1,125 @@
+{
+  "Sprite": 446,
+  "sprite_label": "hint-man_holding-sign",
+  "map_location_label": "Fourside_Overworld_Northwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C70165",
+  "d1_flags": [
+    "1. goto C72348 if GOT_METEORITE_PIECE is set",
+    "1. goto C72398 if GIYGAS_DEFEATED is set",
+    "1. goto C726DA if TEMP_8 is set",
+    "3. set ALT_BUY_SOUND_EFFECT",
+    "3. set SHOW_FOURSIDE_HINT_TOWN_MAP",
+    "4. clear ALT_BUY_SOUND_EFFECT"
+  ],
+  "d1_addresses": [
+    "C70198",
+    "C701F6",
+    "C7030F",
+    "C70329",
+    "C72348",
+    "C72398",
+    "C726B2",
+    "C726DA",
+    "C7DD4D",
+    "C7DD4F",
+    "Npc0078",
+    "Npc0970"
+  ],
+  "d1_text": "Npc0970:\r\n[SET_FLAG SHOW_FOURSIDE_HINT_TOWN_MAP]\r\n[SET_FLAG ALT_BUY_SOUND_EFFECT]\r\n[SET_COUNTER 75]\r\n[GOSUB L_C70198]\r\n[CLR_FLAG ALT_BUY_SOUND_EFFECT]\r\n[END]",
+  "d1_lines": [
+    "Npc0970:",
+    "[SET_FLAG SHOW_FOURSIDE_HINT_TOWN_MAP]",
+    "[SET_FLAG ALT_BUY_SOUND_EFFECT]",
+    "[SET_COUNTER 75]",
+    "[GOSUB L_C70198]",
+    "[CLR_FLAG ALT_BUY_SOUND_EFFECT]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[SET_FLAG SHOW_FOURSIDE_HINT_TOWN_MAP]": null,
+    "[SET_FLAG ALT_BUY_SOUND_EFFECT]": null,
+    "[SET_COUNTER 75]": null,
+    "[GOSUB L_C70198]:C70198": {
+      "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C72398]:C72398": {
+        "\u00ef\u00bf\u00bdWell, I want to thank you for all the times[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdthat you used the hint shop.  It's been a while since I first saw you...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is my final day in business.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bd[PAUSE 10]..[PAUSE 10]..[PAUSE 10]..[PAUSE 10]..[PAUSE 30]..[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdWell, so long kid,[LINE_BREAK]": null,
+        "  No, no... Master [PRINT_NAME NESS].[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdSee you again,[LINE_BREAK]": null,
+        "  if fate allows it.[HALT][END]": null
+      },
+      "[GOTO_IF_FLAG GOT_METEORITE_PIECE L_C72348]:C72348": {
+        "\u00ef\u00bf\u00bdI have no more hints for you.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou've done such a good job to this point.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdFrom here on out...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdTrust your judgement, and also your luck.[HALT][END]": null
+      },
+      "[COUNTER_TO_ARG][GOTO_IF_FLAG TEMP_8 L_C726DA]:C726DA": {
+        "\u00ef\u00bf\u00bdDo you want to hear the hint once more?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a special service just for you...[WAIT][LINE_BREAK]": null,
+        "[GOTO L_C70329]:C70329": "Case/Switch - Hint Man Hint Selector",
+        "; $C72709": null,
+        "\u00ef\u00bf\u00bdThere are lots of snakes and stray dogs around Onett.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIs the mayor going to let them just run around, doing whatever they want?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to protest![HALT][END]": null
+      },
+      "[GOSUB L_C726B2]:C726B2": {
+        "\u00ef\u00bf\u00bdNow wait a minute, youngster![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bdI could give you a great hint for just $[PRINT_NUM 0].[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou'd like a hint, wouldn't you?[LINE_BREAK]": null,
+      "[GOSUB L_C7DD4D]:C7DD4D": {
+        "[SHOW_WALLET]": null,
+        "; $C7DD4F": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        "[LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[END]": null
+      },
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C7030F L_C701F6]:C7030F": "Loop - Hint Man Hint",
+      "[MULTI_GOTO L_C7030F L_C701F6]:C701F6": {
+        "\u00ef\u00bf\u00bdSo you're telling me that you don't want a hint?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou're either awfully confident or $[PRINT_NUM 0] is too much to pay.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdAnyway, a young man like you is very unusual these days.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIf you happen to need a hint, c'mon back![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here all the time...[HALT][END]": null
+      },
+      "; $C701F6": null,
+      "\u00ef\u00bf\u00bdSo you're telling me that you don't want a hint?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou're either awfully confident or $[PRINT_NUM 0] is too much to pay.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdAnyway, a young man like you is very unusual these days.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIf you happen to need a hint, c'mon back![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'm here all the time...[HALT][END]": null
+    },
+    "[CLR_FLAG ALT_BUY_SOUND_EFFECT]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2776,
+  "y_pixel_abs": 4448,
+  "x_tile": 86,
+  "y_tile": 139,
+  "x_sector": 10,
+  "y_sector": 17,
+  "x_sector_offset": 216,
+  "y_sector_offset": 96,
+  "Event Flag": 752,
+  "flag_label": "HINT_GUY_ABSENT",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_25.l_0xc70165",
+  "Text Pointer 2": "$0"
+}

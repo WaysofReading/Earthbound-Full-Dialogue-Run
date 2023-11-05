@@ -1,0 +1,43 @@
+{
+  "Sprite": 186,
+  "sprite_label": "runaway-5_nice",
+  "map_location_label": "Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6D93F",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0844"
+  ],
+  "d1_text": "Npc0844:\r\n\u00ef\u00bf\u00bdWe know how to sing but we don't know how to handle money or women.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDo-wap, do do wop.[HALT][END]",
+  "d1_lines": [
+    "Npc0844:",
+    "\u00ef\u00bf\u00bdWe know how to sing but we don't know how to handle money or women.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDo-wap, do do wop.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdWe know how to sing but we don't know how to handle money or women.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDo-wap, do do wop.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5440,
+  "y_pixel_abs": 6744,
+  "x_tile": 170,
+  "y_tile": 210,
+  "x_sector": 21,
+  "y_sector": 26,
+  "x_sector_offset": 64,
+  "y_sector_offset": 88,
+  "Event Flag": 147,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 606,
+  "Text Pointer 1": "data_24.l_0xc6d93f",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,45 @@
+{
+  "Sprite": 86,
+  "sprite_label": "man_redhead_swimwear",
+  "map_location_label": "Summers and Toto_Overworld_West",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8B2F8",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1058"
+  ],
+  "d1_text": "Npc1058:\r\n\u00ef\u00bf\u00bdThe sky's blue and the sun is high.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThe prices here are so high, it'll make your face turn blue![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThat's Summers![HALT][END]",
+  "d1_lines": [
+    "Npc1058:",
+    "\u00ef\u00bf\u00bdThe sky's blue and the sun is high.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThe prices here are so high, it'll make your face turn blue![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThat's Summers![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdThe sky's blue and the sun is high.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThe prices here are so high, it'll make your face turn blue![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThat's Summers![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4632,
+  "y_pixel_abs": 2752,
+  "x_tile": 144,
+  "y_tile": 86,
+  "x_sector": 18,
+  "y_sector": 10,
+  "x_sector_offset": 24,
+  "y_sector_offset": 192,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_41.l_0xc8b2f8",
+  "Text Pointer 2": "$0"
+}

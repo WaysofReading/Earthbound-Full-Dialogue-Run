@@ -1,0 +1,45 @@
+{
+  "Sprite": 86,
+  "sprite_label": "man_redhead_swimwear",
+  "map_location_label": "Summers and Toto_Overworld_Central",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8B0D4",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1055"
+  ],
+  "d1_text": "Npc1055:\r\n\u00ef\u00bf\u00bdAre you from Eagleland?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIf you like adventure,[PAUSE 15] this isn't your kind of place.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou should travel across the sea to Scaraba from Toto, the port town.[HALT][END]",
+  "d1_lines": [
+    "Npc1055:",
+    "\u00ef\u00bf\u00bdAre you from Eagleland?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIf you like adventure,[PAUSE 15] this isn't your kind of place.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou should travel across the sea to Scaraba from Toto, the port town.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdAre you from Eagleland?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIf you like adventure,[PAUSE 15] this isn't your kind of place.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou should travel across the sea to Scaraba from Toto, the port town.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5968,
+  "y_pixel_abs": 3024,
+  "x_tile": 186,
+  "y_tile": 94,
+  "x_sector": 23,
+  "y_sector": 11,
+  "x_sector_offset": 80,
+  "y_sector_offset": 208,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 13,
+  "Text Pointer 1": "data_41.l_0xc8b0d4",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,56 @@
+{
+  "Sprite": 74,
+  "sprite_label": "cop",
+  "map_location_label": "Onett_Overworld_Central-South",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C66002",
+  "d1_flags": [
+    "1. goto C6605F if PATH_TO_TWOSON_OPEN is set"
+  ],
+  "d1_addresses": [
+    "C6605F",
+    "Npc0144"
+  ],
+  "d1_text": "Npc0144:\r\n[GOTO_IF_FLAG PATH_TO_TWOSON_OPEN L_C6605F]\r\n\u00ef\u00bf\u00bdThe road to Twoson[LINE_BREAK]\r\n  is closed.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou can't just squeeze through road blocks,[PAUSE 15] either![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdOnett is famous for roadblocks![HALT][END]",
+  "d1_lines": [
+    "Npc0144:",
+    "[GOTO_IF_FLAG PATH_TO_TWOSON_OPEN L_C6605F]",
+    "\u00ef\u00bf\u00bdThe road to Twoson[LINE_BREAK]",
+    "  is closed.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou can't just squeeze through road blocks,[PAUSE 15] either![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdOnett is famous for roadblocks![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG PATH_TO_TWOSON_OPEN L_C6605F]:C6605F": {
+      "\u00ef\u00bf\u00bdHey,[PAUSE 15] aren't you [PRINT_NAME NESS]?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWell,[PAUSE 15] I got the okay from Chief Strong to let you through.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdTake care of yourself.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThe road to Twoson[LINE_BREAK]": null,
+    "  is closed.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou can't just squeeze through road blocks,[PAUSE 15] either![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdOnett is famous for roadblocks![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1712,
+  "y_pixel_abs": 1984,
+  "x_tile": 53,
+  "y_tile": 62,
+  "x_sector": 6,
+  "y_sector": 7,
+  "x_sector_offset": 176,
+  "y_sector_offset": 192,
+  "Event Flag": 210,
+  "flag_label": "VISITED_TWOSON",
+  "Show Sprite": "when event flag unset",
+  "Direction": "up",
+  "Movement": 606,
+  "Text Pointer 1": "data_20.l_0xc66002",
+  "Text Pointer 2": "$0"
+}

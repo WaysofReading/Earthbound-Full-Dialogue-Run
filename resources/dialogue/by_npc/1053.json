@@ -1,0 +1,43 @@
+{
+  "Sprite": 80,
+  "sprite_label": "man_blonde_swimwear",
+  "map_location_label": "Summers and Toto_Overworld_West",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8B038",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1053"
+  ],
+  "d1_text": "Npc1053:\r\n\u00ef\u00bf\u00bdI wonder why such serious looking kids as you would come to this resort town...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou guys are spoiling the atmosphere...[HALT][END]",
+  "d1_lines": [
+    "Npc1053:",
+    "\u00ef\u00bf\u00bdI wonder why such serious looking kids as you would come to this resort town...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou guys are spoiling the atmosphere...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI wonder why such serious looking kids as you would come to this resort town...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou guys are spoiling the atmosphere...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4952,
+  "y_pixel_abs": 2968,
+  "x_tile": 154,
+  "y_tile": 92,
+  "x_sector": 19,
+  "y_sector": 11,
+  "x_sector_offset": 88,
+  "y_sector_offset": 152,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 13,
+  "Text Pointer 1": "data_41.l_0xc8b038",
+  "Text Pointer 2": "$0"
+}

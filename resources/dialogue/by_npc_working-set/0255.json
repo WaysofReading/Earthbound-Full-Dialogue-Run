@@ -1,0 +1,81 @@
+{
+  "Sprite": 138,
+  "sprite_label": "fast-food-clerk",
+  "map_location_label": "Threed_Under Graveyard_Stairs-from-Skyrunner",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C96124",
+  "d1_flags": [
+    "1. goto C961D1 if GOT_MACH_PIZZA_PHONE is set",
+    "1. goto C9623F if TEMP_10 is set",
+    "1. goto C96267 if GIYGAS_DEFEATED is set",
+    "3. set GOT_MACH_PIZZA_PHONE",
+    "3. set TEMP_10"
+  ],
+  "d1_addresses": [
+    "C961D1",
+    "C9623F",
+    "C96267",
+    "Npc0255"
+  ],
+  "d1_text": "Npc0255:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C96267]\r\n[GOTO_IF_FLAG GOT_MACH_PIZZA_PHONE L_C961D1]\r\n\u00ef\u00bf\u00bdWelcome to Mach Pizza![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWe don't sell pizza here.[PAUSE 20]  We only deliver.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdLet me give you our number so you can place an order sometime.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThe best pizza is Mach Pizza.[PAUSE 20]  The number is... *psst psst psst*.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou got that?[HALT][PLAY_SFX 116]\r\n[SET_FLAG GOT_MACH_PIZZA_PHONE]\r\n[END]",
+  "d1_lines": [
+    "Npc0255:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C96267]",
+    "[GOTO_IF_FLAG GOT_MACH_PIZZA_PHONE L_C961D1]",
+    "\u00ef\u00bf\u00bdWelcome to Mach Pizza![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWe don't sell pizza here.[PAUSE 20]  We only deliver.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdLet me give you our number so you can place an order sometime.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThe best pizza is Mach Pizza.[PAUSE 20]  The number is... *psst psst psst*.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou got that?[HALT][PLAY_SFX 116]",
+    "[SET_FLAG GOT_MACH_PIZZA_PHONE]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C96267]:C96267": {
+      "\u00ef\u00bf\u00bdI wonder if we're going out of business?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI thought business was pretty good.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdOh well,[PAUSE 15] I don't think I want to deliver pizza.[PAUSE 20]  I'd just get too tired...[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG GOT_MACH_PIZZA_PHONE L_C961D1]:C961D1": {
+      "[GOTO_IF_FLAG TEMP_10 L_C9623F]:C9623F": {
+        "\u00ef\u00bf\u00bdAs you may know,[PAUSE 15] you need to order by phone, okay?[HALT][SET_FLAG TEMP_10]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd*Munch*[PAUSE 30]munch*[PAUSE 30]gulp*[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdUh... no,[PAUSE 15] I didn't take a piece of pizza.[PAUSE 20]  I would never think of doing that![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt was delicious, though.[PAUSE 20]  Enjoy![WAIT][LINE_BREAK]": null,
+      "; $C9623F": null,
+      "\u00ef\u00bf\u00bdAs you may know,[PAUSE 15] you need to order by phone, okay?[HALT][SET_FLAG TEMP_10]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdWelcome to Mach Pizza![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWe don't sell pizza here.[PAUSE 20]  We only deliver.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdLet me give you our number so you can place an order sometime.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThe best pizza is Mach Pizza.[PAUSE 20]  The number is... *psst psst psst*.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou got that?[HALT][PLAY_SFX 116]": null,
+    "[SET_FLAG GOT_MACH_PIZZA_PHONE]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6528,
+  "y_pixel_abs": 7760,
+  "x_tile": 204,
+  "y_tile": 242,
+  "x_sector": 25,
+  "y_sector": 30,
+  "x_sector_offset": 128,
+  "y_sector_offset": 80,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_48.l_0xc96124",
+  "Text Pointer 2": "$0"
+}

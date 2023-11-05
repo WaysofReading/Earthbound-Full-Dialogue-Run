@@ -1,0 +1,53 @@
+{
+  "Sprite": 57,
+  "sprite_label": "woman_purse_black-dress",
+  "map_location_label": "Onett_Town Hall_1F_Left-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C72822",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0082"
+  ],
+  "d1_text": "Npc0082:\r\n\u00ef\u00bf\u00bdSome suspicious-looking kids are hanging out in the woods north of the library.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI wonder if they are members of the Sharks.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdTo stop the spread of the gang,[PAUSE 15] someone should shut down their gathering places,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bddon't you think?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI've started a movement[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdthat will stop all of the bad influences on the children of Onett.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI call it the \u00ef\u00bf\u00bdFresh Breeze Movement.\u00ef\u00bf\u00bd[PAUSE 15]  Hum de dum dum...[HALT][END]",
+  "d1_lines": [
+    "Npc0082:",
+    "\u00ef\u00bf\u00bdSome suspicious-looking kids are hanging out in the woods north of the library.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI wonder if they are members of the Sharks.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdTo stop the spread of the gang,[PAUSE 15] someone should shut down their gathering places,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bddon't you think?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI've started a movement[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdthat will stop all of the bad influences on the children of Onett.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI call it the \u00ef\u00bf\u00bdFresh Breeze Movement.\u00ef\u00bf\u00bd[PAUSE 15]  Hum de dum dum...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdSome suspicious-looking kids are hanging out in the woods north of the library.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI wonder if they are members of the Sharks.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdTo stop the spread of the gang,[PAUSE 15] someone should shut down their gathering places,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bddon't you think?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI've started a movement[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdthat will stop all of the bad influences on the children of Onett.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI call it the \u00ef\u00bf\u00bdFresh Breeze Movement.\u00ef\u00bf\u00bd[PAUSE 15]  Hum de dum dum...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7064,
+  "y_pixel_abs": 136,
+  "x_tile": 220,
+  "y_tile": 4,
+  "x_sector": 27,
+  "y_sector": 0,
+  "x_sector_offset": 152,
+  "y_sector_offset": 136,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_26.l_0xc72822",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,45 @@
+{
+  "Sprite": 59,
+  "sprite_label": "prettyman",
+  "map_location_label": "Onett_Town Hall_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C72709",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0078"
+  ],
+  "d1_text": "Npc0078:\r\n\u00ef\u00bf\u00bdThere are lots of snakes and stray dogs around Onett.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIs the mayor going to let them just run around, doing whatever they want?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm here to protest![HALT][END]",
+  "d1_lines": [
+    "Npc0078:",
+    "\u00ef\u00bf\u00bdThere are lots of snakes and stray dogs around Onett.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIs the mayor going to let them just run around, doing whatever they want?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm here to protest![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdThere are lots of snakes and stray dogs around Onett.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIs the mayor going to let them just run around, doing whatever they want?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm here to protest![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7848,
+  "y_pixel_abs": 592,
+  "x_tile": 245,
+  "y_tile": 18,
+  "x_sector": 30,
+  "y_sector": 2,
+  "x_sector_offset": 168,
+  "y_sector_offset": 80,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_26.l_0xc72709",
+  "Text Pointer 2": "$0"
+}

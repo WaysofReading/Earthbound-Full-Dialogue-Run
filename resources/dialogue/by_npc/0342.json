@@ -1,0 +1,51 @@
+{
+  "Sprite": 68,
+  "sprite_label": "woman_blonde_red-dress",
+  "map_location_label": "Twoson_Overworld_Central-West-(Burglin-Park)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6A458",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0342"
+  ],
+  "d1_text": "Npc0342:\r\n\u00ef\u00bf\u00bdI came to buy condiments...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI wonder what would be good...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThe right condiment makes a dish taste better,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdwhile the wrong one makes it taste worse.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIf the condiment matches the food,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdyou will get more power than if you ate the food item plain.[HALT][END]",
+  "d1_lines": [
+    "Npc0342:",
+    "\u00ef\u00bf\u00bdI came to buy condiments...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI wonder what would be good...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThe right condiment makes a dish taste better,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdwhile the wrong one makes it taste worse.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIf the condiment matches the food,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdyou will get more power than if you ate the food item plain.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI came to buy condiments...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI wonder what would be good...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThe right condiment makes a dish taste better,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdwhile the wrong one makes it taste worse.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIf the condiment matches the food,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdyou will get more power than if you ate the food item plain.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1624,
+  "y_pixel_abs": 6848,
+  "x_tile": 50,
+  "y_tile": 214,
+  "x_sector": 6,
+  "y_sector": 26,
+  "x_sector_offset": 88,
+  "y_sector_offset": 192,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "up",
+  "Movement": 606,
+  "Text Pointer 1": "data_22.l_0xc6a458",
+  "Text Pointer 2": "$0"
+}

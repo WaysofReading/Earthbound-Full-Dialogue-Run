@@ -1,0 +1,85 @@
+{
+  "Sprite": 333,
+  "sprite_label": "monster_your-sanctuary",
+  "map_location_label": "Grapefruit Falls_Belch's Base_Main",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9D2BA",
+  "d1_flags": [
+    "1. goto C7C588 if CONQUERED_SANCTUARY_6 is set",
+    "3. set CONQUERED_SANCTUARY_6"
+  ],
+  "d1_addresses": [
+    "C683DE",
+    "C6842C",
+    "C690A6",
+    "C7C588",
+    "C7DC7F",
+    "Npc0463",
+    "Npc1118"
+  ],
+  "d1_text": "Npc1118:\r\n[GOTO_IF_FLAG CONQUERED_SANCTUARY_6 L_C7C588]\r\n[SET_COUNTER 1]\r\n[GOSUB L_C7DC7F]\r\n[GOTO_IF_TRUE L_C690A6]\r\n[PLAY_MUSIC 155]\r\n\u00ef\u00bf\u00bdYou finally got here.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThis is the sixth \u00ef\u00bf\u00bdYour Sanctuary\u00ef\u00bf\u00bd location.[PAUSE 20]  But it's mine now.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdTake it from me,[PAUSE 30] if you dare...[WAIT][GOSUB L_C6842C]\r\n[GOTO_IF_TRUE L_C683DE]\r\n[DELETE_NPC 1118 8]\r\n[PAUSE 120][SET_FLAG CONQUERED_SANCTUARY_6]\r\n[END]",
+  "d1_lines": [
+    "Npc1118:",
+    "[GOTO_IF_FLAG CONQUERED_SANCTUARY_6 L_C7C588]",
+    "[SET_COUNTER 1]",
+    "[GOSUB L_C7DC7F]",
+    "[GOTO_IF_TRUE L_C690A6]",
+    "[PLAY_MUSIC 155]",
+    "\u00ef\u00bf\u00bdYou finally got here.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThis is the sixth \u00ef\u00bf\u00bdYour Sanctuary\u00ef\u00bf\u00bd location.[PAUSE 20]  But it's mine now.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdTake it from me,[PAUSE 30] if you dare...[WAIT][GOSUB L_C6842C]",
+    "[GOTO_IF_TRUE L_C683DE]",
+    "[DELETE_NPC 1118 8]",
+    "[PAUSE 120][SET_FLAG CONQUERED_SANCTUARY_6]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG CONQUERED_SANCTUARY_6 L_C7C588]:C7C588": {
+      "[GOTO_IF_FLAG ALT_NO_TALK_TEXT Npc0463]:Npc0463": {
+        "\u00ef\u00bf\u00bd(There's no response.)[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdWho are you talking to?[HALT][END]": null
+    },
+    "[SET_COUNTER 1]": null,
+    "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+    "[GOTO_IF_TRUE L_C690A6]:C690A6": {
+      "\u00ef\u00bf\u00bdOnly [PRINT_NAME NESS] can absorb the power of this place.[HALT][END]": null
+    },
+    "[PLAY_MUSIC 155]": null,
+    "\u00ef\u00bf\u00bdYou finally got here.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThis is the sixth \u00ef\u00bf\u00bdYour Sanctuary\u00ef\u00bf\u00bd location.[PAUSE 20]  But it's mine now.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdTake it from me,[PAUSE 30] if you dare...[WAIT][GOSUB L_C6842C]:C6842C": {
+      "[CLOSE_ALL_TBOXES]": null,
+      "[START_BATTLE 464]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_TRUE L_C683DE]:C683DE": {
+      "[END]": null
+    },
+    "[DELETE_NPC 1118 8]": null,
+    "[PAUSE 120][SET_FLAG CONQUERED_SANCTUARY_6]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2080,
+  "y_pixel_abs": 5512,
+  "x_tile": 65,
+  "y_tile": 172,
+  "x_sector": 8,
+  "y_sector": 21,
+  "x_sector_offset": 32,
+  "y_sector_offset": 136,
+  "Event Flag": 195,
+  "flag_label": "CONQUERED_SANCTUARY_6",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 693,
+  "Text Pointer 1": "data_53.l_0xc9d2ba",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,49 @@
+{
+  "Sprite": 139,
+  "sprite_label": "doctor",
+  "map_location_label": "Scaraba_Hospital_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C56E61",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C90077",
+    "C90FEC",
+    "Npc1132"
+  ],
+  "d1_text": "Npc1132:\r\n[GOSUB L_C90077]\r\n[END]",
+  "d1_lines": [
+    "Npc1132:",
+    "[GOSUB L_C90077]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C90077]:C90077": {
+      "[SET_COUNTER 80]": null,
+      "[GOSUB L_C90FEC]:C90FEC": "Doctor Menu",
+      "[END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7824,
+  "y_pixel_abs": 8512,
+  "x_tile": 244,
+  "y_tile": 266,
+  "x_sector": 30,
+  "y_sector": 33,
+  "x_sector_offset": 144,
+  "y_sector_offset": 64,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_05.l_0xc56e61",
+  "Text Pointer 2": "$0"
+}

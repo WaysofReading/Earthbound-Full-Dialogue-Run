@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e7bf064-7534-4ed1-972c-f52d26dc4c07" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/process-dialogue.py" beforeDir="false" afterPath="$PROJECT_DIR$/process-dialogue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process-images.py" beforeDir="false" afterPath="$PROJECT_DIR$/process-images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/decompilation_20230106/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/flat_dialog.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/map-with-npcs_spread_nogrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/npc_values.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/regions-and-rooms.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/regions-and-rooms_trimmed-flat/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/route.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sprite_groups.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/earthbound-script-dumper/constants/flags.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/earthbound-script-dumper/constants/flags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/map-splitter-namer/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2X8t0iMMR83aIfTiyXAjEvoKJHK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e7bf064-7534-4ed1-972c-f52d26dc4c07" name="Changes" comment="" />
+      <created>1698022314111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698022314111</updated>
+    </task>
+    <servers />
+  </component>
+</project>

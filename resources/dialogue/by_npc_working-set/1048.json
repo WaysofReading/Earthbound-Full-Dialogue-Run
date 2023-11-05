@@ -1,0 +1,51 @@
+{
+  "Sprite": 189,
+  "sprite_label": "healer",
+  "map_location_label": "Summers and Toto_Hospital_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C916DF",
+  "d1_flags": [
+    "3. set 231",
+    "4. clear 231"
+  ],
+  "d1_addresses": [
+    "C91805",
+    "Npc1048"
+  ],
+  "d1_text": "Npc1048:\r\n[SET_FLAG 231]\r\n[GOSUB L_C91805]\r\n[CLR_FLAG 231]\r\n[END]",
+  "d1_lines": [
+    "Npc1048:",
+    "[SET_FLAG 231]",
+    "[GOSUB L_C91805]",
+    "[CLR_FLAG 231]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[SET_FLAG 231]": null,
+    "[GOSUB L_C91805]:C91805": "Healer Menu",
+    "[CLR_FLAG 231]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6824,
+  "y_pixel_abs": 9688,
+  "x_tile": 213,
+  "y_tile": 302,
+  "x_sector": 26,
+  "y_sector": 37,
+  "x_sector_offset": 168,
+  "y_sector_offset": 216,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_45.l_0xc916df",
+  "Text Pointer 2": "$0"
+}

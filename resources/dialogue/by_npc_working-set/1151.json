@@ -1,0 +1,88 @@
+{
+  "Sprite": 102,
+  "sprite_label": "man_tribal",
+  "map_location_label": "Scaraba_Overworld_South-(Dungeon-Man)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C577D8",
+  "d1_flags": [
+    "1. goto C57911 if VISITED_DEEP_DARKNESS is set",
+    "3. set DUNGEON_MAN_GOODBYE_EXIT_SIGN",
+    "3. set QUEST_TO_SUBMARINE"
+  ],
+  "d1_addresses": [
+    "C57878",
+    "C578B3",
+    "C57911",
+    "Npc1151"
+  ],
+  "d1_text": "Npc1151:\r\n[GOTO_IF_FLAG VISITED_DEEP_DARKNESS L_C57911]\r\n\u00ef\u00bf\u00bdA scary place called Deep Darkness is on the other side of the river.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThe monsters are very strong and you can lose your health[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdjust by wandering in the swamp.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDo you want to cross the river,[PAUSE 15] even though you know it's a stupid idea?[WAIT][LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n[LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C578B3 L_C57878]\r\n; $C57878\r\nL_C57878:\r\n\u00ef\u00bf\u00bdIt was stupid of me to ask.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdLet's watch the sunset over Deep Darkness together from here.[HALT][END]",
+  "d1_lines": [
+    "Npc1151:",
+    "[GOTO_IF_FLAG VISITED_DEEP_DARKNESS L_C57911]",
+    "\u00ef\u00bf\u00bdA scary place called Deep Darkness is on the other side of the river.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThe monsters are very strong and you can lose your health[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdjust by wandering in the swamp.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDo you want to cross the river,[PAUSE 15] even though you know it's a stupid idea?[WAIT][LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    "[LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C578B3 L_C57878]",
+    "; $C57878",
+    "L_C57878:",
+    "\u00ef\u00bf\u00bdIt was stupid of me to ask.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdLet's watch the sunset over Deep Darkness together from here.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG VISITED_DEEP_DARKNESS L_C57911]:C57911": {
+      "\u00ef\u00bf\u00bdYou returned from exploring the Deep Darkness?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI cannot believe you made it back alive.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdA scary place called Deep Darkness is on the other side of the river.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThe monsters are very strong and you can lose your health[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdjust by wandering in the swamp.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDo you want to cross the river,[PAUSE 15] even though you know it's a stupid idea?[WAIT][LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    "[LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C578B3 L_C57878]:C578B3": {
+      "\u00ef\u00bf\u00bdThe swamp is bottomless.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdEven if you're swimming, you'll be dragged in.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt is a different story if you have a submarine.[HALT][SET_FLAG QUEST_TO_SUBMARINE]": null,
+      "[SET_FLAG DUNGEON_MAN_GOODBYE_EXIT_SIGN]": null,
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C578B3 L_C57878]:C57878": {
+      "\u00ef\u00bf\u00bdIt was stupid of me to ask.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdLet's watch the sunset over Deep Darkness together from here.[HALT][END]": null
+    },
+    "; $C57878": null,
+    "\u00ef\u00bf\u00bdIt was stupid of me to ask.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdLet's watch the sunset over Deep Darkness together from here.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1736,
+  "y_pixel_abs": 5784,
+  "x_tile": 54,
+  "y_tile": 180,
+  "x_sector": 6,
+  "y_sector": 22,
+  "x_sector_offset": 200,
+  "y_sector_offset": 152,
+  "Event Flag": 445,
+  "flag_label": "TALKED_TO_BRICK_ROADS_HEAD",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_06.l_0xc577d8",
+  "Text Pointer 2": "$0"
+}

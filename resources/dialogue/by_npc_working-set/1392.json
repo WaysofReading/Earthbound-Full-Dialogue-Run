@@ -1,0 +1,49 @@
+{
+  "Sprite": 117,
+  "sprite_label": "man_orange-hair_sunglasses",
+  "map_location_label": "Moonside_Overworld_South",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9743D",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1392"
+  ],
+  "d1_text": "Npc1392:\r\n\u00ef\u00bf\u00bdHow about I sharpen you?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI just love sharpening.[LINE_BREAK]\r\n  You don't want me to sharpen?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdSidem[PAUSE 5] oonsi[PAUSE 5] demoon.[LINE_BREAK]\r\n  Welc welc omewelc omeome.[HALT][END]",
+  "d1_lines": [
+    "Npc1392:",
+    "\u00ef\u00bf\u00bdHow about I sharpen you?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI just love sharpening.[LINE_BREAK]",
+    "  You don't want me to sharpen?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdSidem[PAUSE 5] oonsi[PAUSE 5] demoon.[LINE_BREAK]",
+    "  Welc welc omewelc omeome.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdHow about I sharpen you?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI just love sharpening.[LINE_BREAK]": null,
+    "  You don't want me to sharpen?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdSidem[PAUSE 5] oonsi[PAUSE 5] demoon.[LINE_BREAK]": null,
+    "  Welc welc omewelc omeome.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7840,
+  "y_pixel_abs": 4360,
+  "x_tile": 245,
+  "y_tile": 136,
+  "x_sector": 30,
+  "y_sector": 17,
+  "x_sector_offset": 160,
+  "y_sector_offset": 8,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_49.l_0xc9743d",
+  "Text Pointer 2": "$0"
+}

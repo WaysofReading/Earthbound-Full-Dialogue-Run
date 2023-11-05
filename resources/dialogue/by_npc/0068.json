@@ -1,0 +1,51 @@
+{
+  "Sprite": 141,
+  "sprite_label": "lookalike_marcie",
+  "map_location_label": "Onett_Police Station_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C76B87",
+  "d1_flags": [
+    "1. goto C76BD2 if PATH_TO_TWOSON_OPEN is set"
+  ],
+  "d1_addresses": [
+    "C76BD2",
+    "Npc0068"
+  ],
+  "d1_text": "Npc0068:\r\n[GOTO_IF_FLAG PATH_TO_TWOSON_OPEN L_C76BD2]\r\n\u00ef\u00bf\u00bdI would rather be working as a parking meter cop...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt's just been too busy lately.[PAUSE 15]  I'm sick of it.[HALT][END]",
+  "d1_lines": [
+    "Npc0068:",
+    "[GOTO_IF_FLAG PATH_TO_TWOSON_OPEN L_C76BD2]",
+    "\u00ef\u00bf\u00bdI would rather be working as a parking meter cop...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt's just been too busy lately.[PAUSE 15]  I'm sick of it.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG PATH_TO_TWOSON_OPEN L_C76BD2]:C76BD2": {
+      "\u00ef\u00bf\u00bdWell,[PAUSE 15] the riot's over.[PAUSE 15]  Now I can move on to parking enforcement![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHooray![PAUSE 15]  Life is good.[PAUSE 20]  Dum dee dee dee...[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI would rather be working as a parking meter cop...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt's just been too busy lately.[PAUSE 15]  I'm sick of it.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7112,
+  "y_pixel_abs": 352,
+  "x_tile": 222,
+  "y_tile": 11,
+  "x_sector": 27,
+  "y_sector": 1,
+  "x_sector_offset": 200,
+  "y_sector_offset": 96,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_29.l_0xc76b87",
+  "Text Pointer 2": "$0"
+}

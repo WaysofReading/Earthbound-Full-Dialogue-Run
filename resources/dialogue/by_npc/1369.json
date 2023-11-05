@@ -1,0 +1,71 @@
+{
+  "Sprite": 64,
+  "sprite_label": "man_glasses_orange-cardigan",
+  "map_location_label": "Threed_Under Graveyard_Stairs-from-Skyrunner",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C979E5",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C97A1D",
+    "C97A35",
+    "Npc1369"
+  ],
+  "d1_text": "Npc1369:\r\n\u00ef\u00bf\u00bdBones are great![PAUSE 20][LINE_BREAK]\r\n  Do you like bones, too?[WAIT][LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n[LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C97A35 L_C97A1D]\r\n; $C97A1D\r\nL_C97A1D:\r\n\u00ef\u00bf\u00bdYou like bones?[PAUSE 20][LINE_BREAK]\r\n  Bone bone bone.[HALT][END]",
+  "d1_lines": [
+    "Npc1369:",
+    "\u00ef\u00bf\u00bdBones are great![PAUSE 20][LINE_BREAK]",
+    "  Do you like bones, too?[WAIT][LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    "[LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C97A35 L_C97A1D]",
+    "; $C97A1D",
+    "L_C97A1D:",
+    "\u00ef\u00bf\u00bdYou like bones?[PAUSE 20][LINE_BREAK]",
+    "  Bone bone bone.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdBones are great![PAUSE 20][LINE_BREAK]": null,
+    "  Do you like bones, too?[WAIT][LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    "[LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C97A35 L_C97A1D]:C97A35": {
+      "\u00ef\u00bf\u00bdYou don't like bones?[PAUSE 20][LINE_BREAK]": null,
+      "  Bone Bone Bone.[HALT][END]": null
+    },
+    "[MULTI_GOTO L_C97A35 L_C97A1D]:C97A1D": {
+      "\u00ef\u00bf\u00bdYou like bones?[PAUSE 20][LINE_BREAK]": null,
+      "  Bone bone bone.[HALT][END]": null
+    },
+    "; $C97A1D": null,
+    "\u00ef\u00bf\u00bdYou like bones?[PAUSE 20][LINE_BREAK]": null,
+    "  Bone bone bone.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6200,
+  "y_pixel_abs": 4224,
+  "x_tile": 193,
+  "y_tile": 132,
+  "x_sector": 24,
+  "y_sector": 16,
+  "x_sector_offset": 56,
+  "y_sector_offset": 128,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "up",
+  "Movement": 606,
+  "Text Pointer 1": "data_49.l_0xc979e5",
+  "Text Pointer 2": "$0"
+}

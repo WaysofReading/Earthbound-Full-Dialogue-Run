@@ -1,0 +1,65 @@
+{
+  "Sprite": 128,
+  "sprite_label": "girl_redhead_pigtails",
+  "map_location_label": "Twoson_Polestar_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C80B7F",
+  "d1_flags": [
+    "1. goto C80BF2 if VISITED_THREED is set"
+  ],
+  "d1_addresses": [
+    "C7DC7F",
+    "C80BC6",
+    "C80BE4",
+    "C80BF2",
+    "Npc0216"
+  ],
+  "d1_text": "Npc0216:\r\n[GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C80BC6]\r\n[SET_COUNTER 2]\r\n[GOSUB L_C7DC7F]\r\n[GOTO_IF_TRUE L_C80BE4]\r\n\u00ef\u00bf\u00bdWhen I grow up,[PAUSE 15] I wanna be[LINE_BREAK]\r\n  ju[PAUSE 5]u[PAUSE 5]u[PAUSE 5]u[PAUSE 5]st like [PRINT_NAME PAULA].[HALT][END]",
+  "d1_lines": [
+    "Npc0216:",
+    "[GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C80BC6]",
+    "[SET_COUNTER 2]",
+    "[GOSUB L_C7DC7F]",
+    "[GOTO_IF_TRUE L_C80BE4]",
+    "\u00ef\u00bf\u00bdWhen I grow up,[PAUSE 15] I wanna be[LINE_BREAK]",
+    "  ju[PAUSE 5]u[PAUSE 5]u[PAUSE 5]u[PAUSE 5]st like [PRINT_NAME PAULA].[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C80BC6]:C80BC6": {
+      "[GOTO_IF_FLAG VISITED_THREED L_C80BF2]:C80BF2": {
+        "\u00ef\u00bf\u00bdWhen I get big,[PAUSE 15] I'm gonna be grown-up [PRINT_NAME PAULA].[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThen,[PAUSE 20] later I'll be old lady [PRINT_NAME PAULA].[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdYou skinned your knee,[PAUSE 10] huh.[HALT][END]": null
+    },
+    "[SET_COUNTER 2]": null,
+    "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+    "[GOTO_IF_TRUE L_C80BE4]:C80BE4": {
+      "\u00ef\u00bf\u00bdWhat happened to [PRINT_NAME PAULA]?[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdWhen I grow up,[PAUSE 15] I wanna be[LINE_BREAK]": null,
+    "  ju[PAUSE 5]u[PAUSE 5]u[PAUSE 5]u[PAUSE 5]st like [PRINT_NAME PAULA].[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7640,
+  "y_pixel_abs": 7496,
+  "x_tile": 238,
+  "y_tile": 234,
+  "x_sector": 29,
+  "y_sector": 29,
+  "x_sector_offset": 216,
+  "y_sector_offset": 72,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_35.l_0xc80b7f",
+  "Text Pointer 2": "$0"
+}

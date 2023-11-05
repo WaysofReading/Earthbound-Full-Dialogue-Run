@@ -1,0 +1,71 @@
+{
+  "Sprite": 63,
+  "sprite_label": "man_hat_black-suit",
+  "map_location_label": "Threed_Overworld_Northeast",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8F5D0",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C8F64D",
+    "C8F656",
+    "Npc0563"
+  ],
+  "d1_text": "Npc0563:\r\n\u00ef\u00bf\u00bdI'm a detective from Twoson.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThe statue called Mani Mani or something or other[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdwas stolen from the Happy-Happyism headquarters.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDo you have any clues for me?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n [LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C8F656 L_C8F64D]\r\n; $C8F64D\r\nL_C8F64D:\r\n\u00ef\u00bf\u00bdOh, I see...[HALT][END]",
+  "d1_lines": [
+    "Npc0563:",
+    "\u00ef\u00bf\u00bdI'm a detective from Twoson.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThe statue called Mani Mani or something or other[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdwas stolen from the Happy-Happyism headquarters.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDo you have any clues for me?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    " [LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C8F656 L_C8F64D]",
+    "; $C8F64D",
+    "L_C8F64D:",
+    "\u00ef\u00bf\u00bdOh, I see...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI'm a detective from Twoson.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThe statue called Mani Mani or something or other[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdwas stolen from the Happy-Happyism headquarters.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDo you have any clues for me?[LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    " [LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C8F656 L_C8F64D]:C8F656": {
+      "\u00ef\u00bf\u00bdDon't try to feed me your lies![HALT][END]": null
+    },
+    "[MULTI_GOTO L_C8F656 L_C8F64D]:C8F64D": {
+      "\u00ef\u00bf\u00bdOh, I see...[HALT][END]": null
+    },
+    "; $C8F64D": null,
+    "\u00ef\u00bf\u00bdOh, I see...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6240,
+  "y_pixel_abs": 8792,
+  "x_tile": 195,
+  "y_tile": 274,
+  "x_sector": 24,
+  "y_sector": 34,
+  "x_sector_offset": 96,
+  "y_sector_offset": 88,
+  "Event Flag": 610,
+  "flag_label": "DETECTIVE_IN_THREED",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_43.l_0xc8f5d0",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,43 @@
+{
+  "Sprite": 70,
+  "sprite_label": "man_blonde_blue-blazer",
+  "map_location_label": "Dusty Dunes Desert_Overworld_Southwest-(Drug-Store)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C60100",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0755"
+  ],
+  "d1_text": "Npc0755:\r\n\u00ef\u00bf\u00bdI heard that a little ways ahead a herd of buffalo is running across the road.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI can't move an inch![HALT][END]",
+  "d1_lines": [
+    "Npc0755:",
+    "\u00ef\u00bf\u00bdI heard that a little ways ahead a herd of buffalo is running across the road.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI can't move an inch![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI heard that a little ways ahead a herd of buffalo is running across the road.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI can't move an inch![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1880,
+  "y_pixel_abs": 10008,
+  "x_tile": 58,
+  "y_tile": 312,
+  "x_sector": 7,
+  "y_sector": 39,
+  "x_sector_offset": 88,
+  "y_sector_offset": 24,
+  "Event Flag": 136,
+  "flag_label": "TRAFFIC_JAM_CLEARED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 606,
+  "Text Pointer 1": "data_15.l_0xc60100",
+  "Text Pointer 2": "$0"
+}

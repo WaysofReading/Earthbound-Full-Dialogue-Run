@@ -1,0 +1,41 @@
+{
+  "Sprite": 114,
+  "sprite_label": "man_blonde_i-love-ny-shirt",
+  "map_location_label": "Fourside_Museum_1F_Exhibit-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C827AF",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0912"
+  ],
+  "d1_text": "Npc0912:\r\n\u00ef\u00bf\u00bdThis museum should sell dinosaur t-shirts.[HALT][END]",
+  "d1_lines": [
+    "Npc0912:",
+    "\u00ef\u00bf\u00bdThis museum should sell dinosaur t-shirts.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdThis museum should sell dinosaur t-shirts.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4624,
+  "y_pixel_abs": 5272,
+  "x_tile": 144,
+  "y_tile": 164,
+  "x_sector": 18,
+  "y_sector": 20,
+  "x_sector_offset": 16,
+  "y_sector_offset": 152,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "up",
+  "Movement": 12,
+  "Text Pointer 1": "data_36.l_0xc827af",
+  "Text Pointer 2": "$0"
+}

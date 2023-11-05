@@ -1,0 +1,70 @@
+{
+  "Sprite": 68,
+  "sprite_label": "woman_blonde_red-dress",
+  "map_location_label": "Moonside_Hospital_1F_Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C96F5D",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C96FAA",
+    "C96FD1",
+    "Npc1368"
+  ],
+  "d1_text": "Npc1368:\r\n\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdYes\u00ef\u00bf\u00bd means \u00ef\u00bf\u00bdNo\u00ef\u00bf\u00bd[LINE_BREAK]\r\n  \u00ef\u00bf\u00bdNo\u00ef\u00bf\u00bd means \u00ef\u00bf\u00bdYes.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdOr did you already know this?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n[LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C96FD1 L_C96FAA]\r\n; $C96FAA\r\nL_C96FAA:\r\n\u00ef\u00bf\u00bdAh!  You knew it.[PAUSE 20]  That's good.[PAUSE 20]  I was just wondering.[HALT][END]",
+  "d1_lines": [
+    "Npc1368:",
+    "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdYes\u00ef\u00bf\u00bd means \u00ef\u00bf\u00bdNo\u00ef\u00bf\u00bd[LINE_BREAK]",
+    "  \u00ef\u00bf\u00bdNo\u00ef\u00bf\u00bd means \u00ef\u00bf\u00bdYes.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdOr did you already know this?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    "[LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C96FD1 L_C96FAA]",
+    "; $C96FAA",
+    "L_C96FAA:",
+    "\u00ef\u00bf\u00bdAh!  You knew it.[PAUSE 20]  That's good.[PAUSE 20]  I was just wondering.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdYes\u00ef\u00bf\u00bd means \u00ef\u00bf\u00bdNo\u00ef\u00bf\u00bd[LINE_BREAK]": null,
+    "  \u00ef\u00bf\u00bdNo\u00ef\u00bf\u00bd means \u00ef\u00bf\u00bdYes.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdOr did you already know this?[LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    "[LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C96FD1 L_C96FAA]:C96FD1": {
+      "\u00ef\u00bf\u00bdOh yeah?[LINE_BREAK]": null,
+      "  You didn't know?[HALT][END]": null
+    },
+    "[MULTI_GOTO L_C96FD1 L_C96FAA]:C96FAA": {
+      "\u00ef\u00bf\u00bdAh!  You knew it.[PAUSE 20]  That's good.[PAUSE 20]  I was just wondering.[HALT][END]": null
+    },
+    "; $C96FAA": null,
+    "\u00ef\u00bf\u00bdAh!  You knew it.[PAUSE 20]  That's good.[PAUSE 20]  I was just wondering.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8040,
+  "y_pixel_abs": 5848,
+  "x_tile": 251,
+  "y_tile": 182,
+  "x_sector": 31,
+  "y_sector": 22,
+  "x_sector_offset": 104,
+  "y_sector_offset": 216,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 12,
+  "Text Pointer 1": "data_48.l_0xc96f5d",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,57 @@
+{
+  "Sprite": 83,
+  "sprite_label": "tessie-watcher",
+  "map_location_label": "Winters_Overworld_Central-North-(Tessie-and-Watchers)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6BB60",
+  "d1_flags": [
+    "1. goto C6BBAF if BUBBLE_MONKEY_IN_PARTY is set",
+    "1. goto C6BBE3 if LEARNED_ABOUT_SHYNESS_BOOK is set"
+  ],
+  "d1_addresses": [
+    "C6BBAF",
+    "C6BBE3",
+    "Npc0629"
+  ],
+  "d1_text": "Npc0629:\r\n[GOTO_IF_FLAG LEARNED_ABOUT_SHYNESS_BOOK L_C6BBE3]\r\n[GOTO_IF_FLAG BUBBLE_MONKEY_IN_PARTY L_C6BBAF]\r\n\u00ef\u00bf\u00bdWhy, hello![PAUSE 20]  I wonder if there are any monkeys around![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdY'know, they say that Tessie is friendly with monkeys...[HALT][END]",
+  "d1_lines": [
+    "Npc0629:",
+    "[GOTO_IF_FLAG LEARNED_ABOUT_SHYNESS_BOOK L_C6BBE3]",
+    "[GOTO_IF_FLAG BUBBLE_MONKEY_IN_PARTY L_C6BBAF]",
+    "\u00ef\u00bf\u00bdWhy, hello![PAUSE 20]  I wonder if there are any monkeys around![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdY'know, they say that Tessie is friendly with monkeys...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG LEARNED_ABOUT_SHYNESS_BOOK L_C6BBE3]:C6BBE3": {
+      "\u00ef\u00bf\u00bdI can't believe that I was so brave...[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG BUBBLE_MONKEY_IN_PARTY L_C6BBAF]:C6BBAF": {
+      "\u00ef\u00bf\u00bdWhat a cute little monkey.[PAUSE 15]  Would you like a piece of gum?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdMaybe monkeys don't like gum.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdWhy, hello![PAUSE 20]  I wonder if there are any monkeys around![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdY'know, they say that Tessie is friendly with monkeys...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 480,
+  "y_pixel_abs": 3408,
+  "x_tile": 15,
+  "y_tile": 106,
+  "x_sector": 1,
+  "y_sector": 13,
+  "x_sector_offset": 224,
+  "y_sector_offset": 80,
+  "Event Flag": 52,
+  "flag_label": "CAPTIVES_AT_STONEHENGE",
+  "Show Sprite": "when event flag unset",
+  "Direction": "left",
+  "Movement": 12,
+  "Text Pointer 1": "data_23.l_0xc6bb60",
+  "Text Pointer 2": "$0"
+}

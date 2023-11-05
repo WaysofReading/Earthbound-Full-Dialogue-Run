@@ -1,0 +1,202 @@
+{
+  "Sprite": 215,
+  "sprite_label": "phone_black",
+  "map_location_label": "Winters_Brickroad Dungeon_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C68091",
+  "d1_flags": [
+    "1. goto C630C7 if GOT_BAD_KEY_MACHINE is set",
+    "1. goto C6315A if 780 is set",
+    "1. goto C6809E if JEFF_JOINS is set"
+  ],
+  "d1_addresses": [
+    "C63029",
+    "C63032",
+    "C630AE",
+    "C630C7",
+    "C6311E",
+    "C63146",
+    "C6314B",
+    "C6314C",
+    "C6315A",
+    "C631A1",
+    "C631E3",
+    "C634EA",
+    "C6809E",
+    "C7DD4F",
+    "Npc0060",
+    "Npc0610"
+  ],
+  "d1_text": "Npc0610:\r\n[GOTO_IF_FLAG JEFF_JOINS L_C6809E]\r\n[GOSUB L_C630AE]\r\n[END]",
+  "d1_lines": [
+    "Npc0610:",
+    "[GOTO_IF_FLAG JEFF_JOINS L_C6809E]",
+    "[GOSUB L_C630AE]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG JEFF_JOINS L_C6809E]:C6809E": {
+      "[SET_COUNTER 6]": null,
+      "[GOSUB Npc0060]:Npc0060": {
+        "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd[PRINT_NAME REG_ARGUMENT] picked up the receiver.[WAIT][LINE_BREAK]": null,
+        "[PLAY_SFX 11]": null,
+        "[GOSUB L_C63029]:C63029": {
+          "[PHONE_MENU]": null,
+          "[GOTO_IF_TRUE L_C63032]:C63032": {
+            "[END]": null
+          },
+          "[START_LINE]": null,
+          "; $C63032": null,
+          "[END]": null
+        },
+        "[END]": null
+      },
+      "[END]": null
+    },
+    "[GOSUB L_C630AE]:C630AE": {
+      "[GOTO_IF_FLAG GOT_BAD_KEY_MACHINE L_C630C7]:C630C7": {
+        "[COUNTER_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+        "\u00ef\u00bf\u00bdHello!  Hello![LINE_BREAK]": null,
+        "  Maxwell Labs here.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdOh, hello [PRINT_STAT JEFF_NAME]![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdWould you like me to keep a record of your journey?[LINE_BREAK]": null,
+        "[GOSUB L_C7DD4F]:C7DD4F": "Loop - Yes/No - Options",
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C6314C L_C6311E]:C6314C": {
+          "[RESTORE_REGS_GLOBAL]": null,
+          "[SET_RESPAWN_POINT 0]": null,
+          "[GOTO_IF_FLAG 780 L_C6315A]:C6315A": {
+            "\u00ef\u00bf\u00bdAll right, I have everything written down.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdDo you want to take a break now?[LINE_BREAK]": null,
+            "[LOAD_STRING \"Continue\"]": null,
+            "[LOAD_STRING \"End\"]": null,
+            "[PRINT_STRINGS_HORZ 2]": null,
+            "[CREATE_MENU]": null,
+            "[CLEAR_LINE]": null,
+            "[MULTI_GOTO L_C631A1 L_C631E3]:C631A1": {
+              "\u00ef\u00bf\u00bdYou've become such a hard worker![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI've got to get back to work myself![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdGo for it, bad boy![WAIT][LINE_BREAK]": null,
+              "[GOTO L_C63146]:C63146": {},
+              "; $C631E3": null,
+              "\u00ef\u00bf\u00bdI don't know where you are planning on sleeping, but have a good rest![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdGo ahead and turn the power OFF, and have a good night.[DISABLE_INPUT]": null,
+              "[HALT][END]": null
+            },
+            "[MULTI_GOTO L_C631A1 L_C631E3]:C631E3": {
+              "\u00ef\u00bf\u00bdI don't know where you are planning on sleeping, but have a good rest![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdGo ahead and turn the power OFF, and have a good night.[DISABLE_INPUT]": null,
+              "[HALT][END]": null
+            },
+            "; $C631A1": null,
+            "\u00ef\u00bf\u00bdYou've become such a hard worker![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI've got to get back to work myself![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdGo for it, bad boy![WAIT][LINE_BREAK]": null,
+            "[GOTO L_C63146]:C63146": {
+              "[GOTO L_C634EA]:C634EA": {},
+              "; $C6314B": null,
+              "[END]": null
+            },
+            "; $C631E3": null,
+            "\u00ef\u00bf\u00bdI don't know where you are planning on sleeping, but have a good rest![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdGo ahead and turn the power OFF, and have a good night.[DISABLE_INPUT]": null,
+            "[HALT][END]": null
+          },
+          "[SAVE_GAME]": null,
+          "; $C6315A": null,
+          "\u00ef\u00bf\u00bdAll right, I have everything written down.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdDo you want to take a break now?[LINE_BREAK]": null,
+          "[LOAD_STRING \"Continue\"]": null,
+          "[LOAD_STRING \"End\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C631A1 L_C631E3]:C631A1": {
+            "\u00ef\u00bf\u00bdYou've become such a hard worker![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI've got to get back to work myself![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdGo for it, bad boy![WAIT][LINE_BREAK]": null,
+            "[GOTO L_C63146]:C63146": {
+              "[GOTO L_C634EA]:C634EA": {},
+              "; $C6314B": null,
+              "[END]": null
+            },
+            "; $C631E3": null,
+            "\u00ef\u00bf\u00bdI don't know where you are planning on sleeping, but have a good rest![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdGo ahead and turn the power OFF, and have a good night.[DISABLE_INPUT]": null,
+            "[HALT][END]": null
+          },
+          "[MULTI_GOTO L_C631A1 L_C631E3]:C631E3": {
+            "\u00ef\u00bf\u00bdI don't know where you are planning on sleeping, but have a good rest![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdGo ahead and turn the power OFF, and have a good night.[DISABLE_INPUT]": null,
+            "[HALT][END]": null
+          },
+          "; $C631A1": null,
+          "\u00ef\u00bf\u00bdYou've become such a hard worker![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI've got to get back to work myself![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdGo for it, bad boy![WAIT][LINE_BREAK]": null,
+          "[GOTO L_C63146]:C63146": {
+            "[GOTO L_C634EA]:C634EA": {
+              "[START_LINE]": null,
+              "[PLAY_SFX 11]": null,
+              "\u00ef\u00bf\u00bd(Click!  Beep-beep-beep...)[HALT][END]": null
+            },
+            "; $C6314B": null,
+            "[END]": null
+          },
+          "; $C631E3": null,
+          "\u00ef\u00bf\u00bdI don't know where you are planning on sleeping, but have a good rest![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdGo ahead and turn the power OFF, and have a good night.[DISABLE_INPUT]": null,
+          "[HALT][END]": null
+        },
+        "[MULTI_GOTO L_C6314C L_C6311E]:C6311E": {
+          "\u00ef\u00bf\u00bdYou just wanted to hear my voice?[LINE_BREAK]": null,
+          "  Gwahahahahahahah![WAIT][LINE_BREAK]": null,
+          "; $C63146": null,
+          "[GOTO L_C634EA]:C634EA": {
+            "[START_LINE]": null,
+            "[PLAY_SFX 11]": null,
+            "\u00ef\u00bf\u00bd(Click!  Beep-beep-beep...)[HALT][END]": null
+          },
+          "; $C6314B": null,
+          "[END]": null
+        },
+        "; $C6311E": null,
+        "\u00ef\u00bf\u00bdYou just wanted to hear my voice?[LINE_BREAK]": null,
+        "  Gwahahahahahahah![WAIT][LINE_BREAK]": null,
+        "; $C63146": null,
+        "[GOTO L_C634EA]:C634EA": {
+          "[START_LINE]": null,
+          "[PLAY_SFX 11]": null,
+          "\u00ef\u00bf\u00bd(Click!  Beep-beep-beep...)[HALT][END]": null
+        },
+        "; $C6314B": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd(Beep-beep-beep...)[HALT][END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1176,
+  "y_pixel_abs": 3720,
+  "x_tile": 36,
+  "y_tile": 116,
+  "x_sector": 4,
+  "y_sector": 14,
+  "x_sector_offset": 152,
+  "y_sector_offset": 136,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_20.l_0xc68091",
+  "Text Pointer 2": "$0"
+}

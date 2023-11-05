@@ -1,0 +1,56 @@
+{
+  "Sprite": 83,
+  "sprite_label": "tessie-watcher",
+  "map_location_label": "Winters_Tents_South-3_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6B0FA",
+  "d1_flags": [
+    "1. goto C6B144 if TESSIE_EMERGES is set",
+    "1. goto C6B161 if CAPTIVES_AT_STONEHENGE is set"
+  ],
+  "d1_addresses": [
+    "C6B144",
+    "C6B161",
+    "Npc0613"
+  ],
+  "d1_text": "Npc0613:\r\n[GOTO_IF_FLAG CAPTIVES_AT_STONEHENGE L_C6B161]\r\n[GOTO_IF_FLAG TESSIE_EMERGES L_C6B144]\r\n\u00ef\u00bf\u00bdIf I find Tessie, do you think I'll get in the newspaper?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm looking for my 15 minutes of fame...[HALT][END]",
+  "d1_lines": [
+    "Npc0613:",
+    "[GOTO_IF_FLAG CAPTIVES_AT_STONEHENGE L_C6B161]",
+    "[GOTO_IF_FLAG TESSIE_EMERGES L_C6B144]",
+    "\u00ef\u00bf\u00bdIf I find Tessie, do you think I'll get in the newspaper?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm looking for my 15 minutes of fame...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG CAPTIVES_AT_STONEHENGE L_C6B161]:C6B161": {
+      "\u00ef\u00bf\u00bdDo you think Sebastian's kidnapping will be in tomorrow's paper?[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG TESSIE_EMERGES L_C6B144]:C6B144": {
+      "\u00ef\u00bf\u00bdDo you think my name will make it into the newspaper?[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdIf I find Tessie, do you think I'll get in the newspaper?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm looking for my 15 minutes of fame...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7240,
+  "y_pixel_abs": 2000,
+  "x_tile": 226,
+  "y_tile": 62,
+  "x_sector": 28,
+  "y_sector": 7,
+  "x_sector_offset": 72,
+  "y_sector_offset": 208,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_23.l_0xc6b0fa",
+  "Text Pointer 2": "$0"
+}

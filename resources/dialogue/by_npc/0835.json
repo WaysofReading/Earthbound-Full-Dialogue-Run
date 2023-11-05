@@ -1,0 +1,41 @@
+{
+  "Sprite": 436,
+  "sprite_label": "exit-mouse",
+  "map_location_label": "Dusty Dunes Desert_Desert Gold Mine_Main-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C67820",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0095"
+  ],
+  "d1_text": "Npc0095:\r\n\u00ef\u00bf\u00bd(Trust me on the dark road.)[HALT][END]",
+  "d1_lines": [
+    "Npc0095:",
+    "\u00ef\u00bf\u00bd(Trust me on the dark road.)[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bd(Trust me on the dark road.)[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7240,
+  "y_pixel_abs": 6024,
+  "x_tile": 226,
+  "y_tile": 188,
+  "x_sector": 28,
+  "y_sector": 23,
+  "x_sector_offset": 72,
+  "y_sector_offset": 136,
+  "Event Flag": 512,
+  "flag_label": "HAS_EXIT_MOUSE",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_20.l_0xc67820",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,82 @@
+{
+  "Sprite": 52,
+  "sprite_label": "man_cane_green-jacket",
+  "map_location_label": "Threed_Drug Store_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8E13E",
+  "d1_flags": [
+    "1. goto C5DEFC if BOUGHT_OR_SOLD_AT_SHOP is set",
+    "3. set SHOP_THREED_DRUGSTORE_CONSUMABLES",
+    "4. clear BOUGHT_OR_SOLD_AT_SHOP",
+    "4. clear SHOP_THREED_DRUGSTORE_CONSUMABLES"
+  ],
+  "d1_addresses": [
+    "C50000",
+    "C50198",
+    "C50330",
+    "C5D323",
+    "C5DECB",
+    "C5DED3",
+    "C5DEEF",
+    "C5DEFC",
+    "C5DF05",
+    "C5DF3A",
+    "Npc0505"
+  ],
+  "d1_text": "Npc0505:\r\n[GOSUB L_C5D323]\r\n[END]",
+  "d1_lines": [
+    "Npc0505:",
+    "[GOSUB L_C5D323]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C5D323]:C5D323": {
+      "[SET_FLAG SHOP_THREED_DRUGSTORE_CONSUMABLES]": null,
+      "[GOSUB L_C5DECB]:C5DECB": {
+        "[CLR_FLAG BOUGHT_OR_SOLD_AT_SHOP]": null,
+        "[GOSUB L_C50000]:C50000": "Shop Case/Switch - Intro",
+        "; $C5DED3": null,
+        "[LOAD_STRING \"Buy\"]": null,
+        "[LOAD_STRING \"Sell\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C5DF05 L_C5DF3A]:C5DF05": "Shop Case/Switch - Buy Menu",
+        "[MULTI_GOTO L_C5DF05 L_C5DF3A]:C5DF3A": "Shop Case/Switch - Sell Menu",
+        "; $C5DEEF": null,
+        "[GOTO_IF_FLAG BOUGHT_OR_SOLD_AT_SHOP L_C5DEFC]:C5DEFC": {
+          "[GOSUB L_C50198]:C50198": "Shop Case/Switch - Goodbye (Buy or sell)",
+          "[CLR_FLAG BOUGHT_OR_SOLD_AT_SHOP]": null,
+          "[END]": null
+        },
+        "[GOSUB L_C50330]:C50330": "Shop Case/Switch - Goodbye (~Buy or sell)",
+        "[END]": null
+      },
+      "[CLR_FLAG SHOP_THREED_DRUGSTORE_CONSUMABLES]": null,
+      "[END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8104,
+  "y_pixel_abs": 9672,
+  "x_tile": 253,
+  "y_tile": 302,
+  "x_sector": 31,
+  "y_sector": 37,
+  "x_sector_offset": 168,
+  "y_sector_offset": 200,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_42.l_0xc8e13e",
+  "Text Pointer 2": "$0"
+}

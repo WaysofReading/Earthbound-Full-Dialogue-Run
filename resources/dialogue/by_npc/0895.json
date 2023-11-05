@@ -1,0 +1,232 @@
+{
+  "Sprite": 73,
+  "sprite_label": "bellhop",
+  "map_location_label": "Fourside_Hotel (Monotoli Grand Hotel)_1F_Lobby",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8567B",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C841DE",
+    "C856FC",
+    "C8574A",
+    "C85767",
+    "C85791",
+    "C857BB",
+    "C8581B",
+    "C858BA",
+    "C858F0",
+    "C85985",
+    "C859B5",
+    "C85A11",
+    "C85A6C",
+    "C85AD8",
+    "C85B55",
+    "C85BAB",
+    "Npc0895"
+  ],
+  "d1_text": "Npc0895:\r\n[GOSUB L_C841DE]\r\n[COUNTER_TO_ARG][SWAP_ARG_RESULT]\r\n[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]\r\n[END]",
+  "d1_lines": [
+    "Npc0895:",
+    "[GOSUB L_C841DE]",
+    "[COUNTER_TO_ARG][SWAP_ARG_RESULT]",
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C841DE]:C841DE": "Case/Switch - Newspaper Headline",
+    "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]:C85767": {
+      "[GOSUB L_C856FC]:C856FC": {
+        "\u00ef\u00bf\u00bdGood morning![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a unique service, exclusive to our hotel only![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to read you today's headline.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C8574A]:C8574A": {
+        "\u00ef\u00bf\u00bdOn the front page of the Fourside Post...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdOver 70% of Fourside citizens support Monotoli\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]:C85791": {
+      "[GOSUB L_C856FC]:C856FC": {
+        "\u00ef\u00bf\u00bdGood morning![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a unique service, exclusive to our hotel only![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to read you today's headline.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C8574A]:C8574A": {
+        "\u00ef\u00bf\u00bdOn the front page of the Fourside Post...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdOver 80% of Fourside citizens support Monotoli\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]:C857BB": {
+      "[GOSUB L_C856FC]:C856FC": {
+        "\u00ef\u00bf\u00bdGood morning![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a unique service, exclusive to our hotel only![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to read you today's headline.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C8574A]:C8574A": {
+        "\u00ef\u00bf\u00bdOn the front page of the Fourside Post...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdOver 90% of Fourside citizens support Monotoli\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThen on page 17, [WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdMysterious department store blackout caused by mouse\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]:C8581B": {
+      "[GOSUB L_C856FC]:C856FC": {
+        "\u00ef\u00bf\u00bdGood morning![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a unique service, exclusive to our hotel only![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to read you today's headline.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C8574A]:C8574A": {
+        "\u00ef\u00bf\u00bdOn the front page of the Fourside Post...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdOver 50% of Fourside citizens now support Anti-Monotoli campaign\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdAnd on page 23 of the Fourside Post.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdLonely demise in the city.  Long-haired man with beard,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdsunglasses and aloha shirt found in street\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]:C858BA": {
+      "[GOSUB L_C856FC]:C856FC": {
+        "\u00ef\u00bf\u00bdGood morning![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a unique service, exclusive to our hotel only![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to read you today's headline.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C8574A]:C8574A": {
+        "\u00ef\u00bf\u00bdOn the front page of the Fourside Post...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdFamed Mr. Monotoli leaves Fourside.  States he is going on a trip\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]:C858F0": {
+      "[GOSUB L_C856FC]:C856FC": {
+        "\u00ef\u00bf\u00bdGood morning![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a unique service, exclusive to our hotel only![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to read you today's headline.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "  The Fourside Post says...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYoicks!  I made a mistake and brought a newspaper called FoursideStar.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdLet me read this anyway...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdLucky of the Runaway Five found to have been in state House of Representatives\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...That's got to be a lie...[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]:C85985": {
+      "[GOSUB L_C856FC]:C856FC": {
+        "\u00ef\u00bf\u00bdGood morning![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a unique service, exclusive to our hotel only![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to read you today's headline.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C8574A]:C8574A": {
+        "\u00ef\u00bf\u00bdOn the front page of the Fourside Post...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdPrince [PRINT_NAME POO] of Dalaam visiting Fourside in secret?\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]:C859B5": {
+      "[GOSUB L_C856FC]:C856FC": {
+        "\u00ef\u00bf\u00bdGood morning![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a unique service, exclusive to our hotel only![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to read you today's headline.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "  On page 25 of the Fourside Post...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdVenus becomes toast of Fourside Autograph hunters creating problems for famed singer\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]:C85A11": {
+      "[GOSUB L_C856FC]:C856FC": {
+        "\u00ef\u00bf\u00bdGood morning![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a unique service, exclusive to our hotel only![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to read you today's headline.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "  On page 3 of the Fourside Post...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdCriminal activity in Scaraba?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdSacred treasure of pyramid, the [PRINT_ITEM HAWK_EYE] stolen\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]:C85A6C": {
+      "[GOSUB L_C856FC]:C856FC": {
+        "\u00ef\u00bf\u00bdGood morning![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a unique service, exclusive to our hotel only![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to read you today's headline.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "  Here's an advertisement in today's Fourside Post.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdHigher than everywhere else![LINE_BREAK]": null,
+      " (That's height, not price)[LINE_BREAK]": null,
+      " Monotoli Grand Hotel\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHey!  That's our hotel![HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]:C85AD8": {
+      "[GOSUB L_C856FC]:C856FC": {
+        "\u00ef\u00bf\u00bdGood morning![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a unique service, exclusive to our hotel only![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to read you today's headline.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "  On page 13 of the Fourside Post...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdNewspaper reading by bellboys is not exclusive to Fourside only[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDo not be taken in by bellboys just looking for a tip\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...I'm so ashamed...[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]:C85B55": {
+      "[GOSUB L_C856FC]:C856FC": {
+        "\u00ef\u00bf\u00bdGood morning![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a unique service, exclusive to our hotel only![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to read you today's headline.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C8574A]:C8574A": {
+        "\u00ef\u00bf\u00bdOn the front page of the Fourside Post...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdThe best newspaper of all the others[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdEveryone reads the Fourside Post each morning\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...Is this the page one headline?[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85767 L_C85791 L_C857BB L_C8581B L_C858BA L_C858F0 L_C85985 L_C859B5 L_C85A11 L_C85A6C L_C85AD8 L_C85B55 L_C85BAB]:C85BAB": {
+      "[GOSUB L_C856FC]:C856FC": {
+        "\u00ef\u00bf\u00bdGood morning![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis is a unique service, exclusive to our hotel only![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm here to read you today's headline.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C8574A]:C8574A": {
+        "\u00ef\u00bf\u00bdOn the front page of the Fourside Post...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdMegalopolis Fourside to have another busy day\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5640,
+  "y_pixel_abs": 6336,
+  "x_tile": 176,
+  "y_tile": 198,
+  "x_sector": 22,
+  "y_sector": 24,
+  "x_sector_offset": 8,
+  "y_sector_offset": 192,
+  "Event Flag": 383,
+  "flag_label": "JUST_RESTED",
+  "Show Sprite": "when event flag set",
+  "Direction": "left",
+  "Movement": 8,
+  "Text Pointer 1": "data_38.l_0xc8567b",
+  "Text Pointer 2": "$0"
+}

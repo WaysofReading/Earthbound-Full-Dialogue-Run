@@ -1,0 +1,49 @@
+{
+  "Sprite": 74,
+  "sprite_label": "cop",
+  "map_location_label": "Onett_Police Station_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C76C29",
+  "d1_flags": [
+    "1. goto C76C55 if PATH_TO_TWOSON_OPEN is set"
+  ],
+  "d1_addresses": [
+    "C76C55",
+    "Npc0069"
+  ],
+  "d1_text": "Npc0069:\r\n[GOTO_IF_FLAG PATH_TO_TWOSON_OPEN L_C76C55]\r\n\u00ef\u00bf\u00bdMan,[PAUSE 15] am I steamed...[PAUSE 20]  Don't even try talking to me.[HALT][END]",
+  "d1_lines": [
+    "Npc0069:",
+    "[GOTO_IF_FLAG PATH_TO_TWOSON_OPEN L_C76C55]",
+    "\u00ef\u00bf\u00bdMan,[PAUSE 15] am I steamed...[PAUSE 20]  Don't even try talking to me.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG PATH_TO_TWOSON_OPEN L_C76C55]:C76C55": {
+      "\u00ef\u00bf\u00bdWhy are you asking about a driver's license?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou're way too young to even think about getting behind the wheel,[PAUSE 15] you little pest.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdMan,[PAUSE 15] am I steamed...[PAUSE 20]  Don't even try talking to me.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7032,
+  "y_pixel_abs": 352,
+  "x_tile": 219,
+  "y_tile": 11,
+  "x_sector": 27,
+  "y_sector": 1,
+  "x_sector_offset": 120,
+  "y_sector_offset": 96,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_29.l_0xc76c29",
+  "Text Pointer 2": "$0"
+}

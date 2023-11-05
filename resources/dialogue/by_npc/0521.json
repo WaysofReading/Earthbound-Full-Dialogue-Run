@@ -1,0 +1,57 @@
+{
+  "Sprite": 67,
+  "sprite_label": "elevator-atatendant",
+  "map_location_label": "Threed_Overworld_East-(Tunnel-to-Dusty-Dunes)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8E515",
+  "d1_flags": [
+    "1. goto C8E576 if BOOGEY_TENT_DEFEATED is set",
+    "1. goto C8E5A4 if MASTER_BELCH_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C8E576",
+    "C8E5A4",
+    "Npc0521"
+  ],
+  "d1_text": "Npc0521:\r\n[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E5A4]\r\n[GOTO_IF_FLAG BOOGEY_TENT_DEFEATED L_C8E576]\r\n\u00ef\u00bf\u00bd?[PAUSE 5]?[PAUSE 5]?  There's been a circus tent at the center of town for a long time.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI saw another tent to the south.  I wonder when it went up?[HALT][END]",
+  "d1_lines": [
+    "Npc0521:",
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E5A4]",
+    "[GOTO_IF_FLAG BOOGEY_TENT_DEFEATED L_C8E576]",
+    "\u00ef\u00bf\u00bd?[PAUSE 5]?[PAUSE 5]?  There's been a circus tent at the center of town for a long time.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI saw another tent to the south.  I wonder when it went up?[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E5A4]:C8E5A4": {
+      "\u00ef\u00bf\u00bdVisit Threed again![HALT][END]": null
+    },
+    "[GOTO_IF_FLAG BOOGEY_TENT_DEFEATED L_C8E576]:C8E576": {
+      "\u00ef\u00bf\u00bdThat strange tent...[PAUSE 20]  It was a monster![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'm glad I didn't go inside![HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bd?[PAUSE 5]?[PAUSE 5]?  There's been a circus tent at the center of town for a long time.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI saw another tent to the south.  I wonder when it went up?[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6080,
+  "y_pixel_abs": 9056,
+  "x_tile": 190,
+  "y_tile": 283,
+  "x_sector": 23,
+  "y_sector": 35,
+  "x_sector_offset": 192,
+  "y_sector_offset": 96,
+  "Event Flag": 14,
+  "flag_label": "JEFF_JOINS",
+  "Show Sprite": "when event flag set",
+  "Direction": "up",
+  "Movement": 12,
+  "Text Pointer 1": "data_42.l_0xc8e515",
+  "Text Pointer 2": "$0"
+}

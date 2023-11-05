@@ -1,0 +1,43 @@
+{
+  "Sprite": 438,
+  "sprite_label": "monster_zombie_lying-head-right",
+  "map_location_label": "Threed_Circus Tent_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8F66A",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0464"
+  ],
+  "d1_text": "Npc0464:\r\n\u00ef\u00bf\u00bdIf I try to get away, my body will just fall apart.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt's because I'm a zombie...[HALT][END]",
+  "d1_lines": [
+    "Npc0464:",
+    "\u00ef\u00bf\u00bdIf I try to get away, my body will just fall apart.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt's because I'm a zombie...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdIf I try to get away, my body will just fall apart.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt's because I'm a zombie...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8147,
+  "y_pixel_abs": 10132,
+  "x_tile": 254,
+  "y_tile": 316,
+  "x_sector": 31,
+  "y_sector": 39,
+  "x_sector_offset": 211,
+  "y_sector_offset": 148,
+  "Event Flag": 125,
+  "flag_label": "ZOMBIES_ON_TENT_FLOOR",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_43.l_0xc8f66a",
+  "Text Pointer 2": "$0"
+}

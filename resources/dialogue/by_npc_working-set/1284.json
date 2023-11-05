@@ -1,0 +1,66 @@
+{
+  "Sprite": 398,
+  "sprite_label": "tenda_tiny",
+  "map_location_label": "Lost Underworld_Overworld_Northwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "EF5AED",
+  "d1_flags": [
+    "1. goto EF5B97 if TENDAKRAUT_STOLEN is set",
+    "1. goto EF5BC8 if UNDERWORLD_TALKING_ROCK_STOPPED_TALKING is set",
+    "3. set TENDAKRAUT_STOLEN"
+  ],
+  "d1_addresses": [
+    "EF5B97",
+    "EF5BC8",
+    "Npc1284"
+  ],
+  "d1_text": "Npc1284:\r\n[GOTO_IF_FLAG UNDERWORLD_TALKING_ROCK_STOPPED_TALKING L_EF5BC8]\r\n[GOTO_IF_FLAG TENDAKRAUT_STOLEN L_EF5B97]\r\n\u00ef\u00bf\u00bdWhat are you doing in the dinosaur's cage?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'll open the door for you, and you get out of the cage quick.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThat's an order from the boss.[PAUSE 15]  ...By the way,[PAUSE 15] thanks for the [PRINT_ITEM TENDAKRAUT].[WAIT][LINE_BREAK]\r\n[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT]'s [PRINT_ITEM TENDAKRAUT] was taken.)[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(That nasty smell left you at the same time!)[HALT][SET_FLAG TENDAKRAUT_STOLEN]\r\n[END]",
+  "d1_lines": [
+    "Npc1284:",
+    "[GOTO_IF_FLAG UNDERWORLD_TALKING_ROCK_STOPPED_TALKING L_EF5BC8]",
+    "[GOTO_IF_FLAG TENDAKRAUT_STOLEN L_EF5B97]",
+    "\u00ef\u00bf\u00bdWhat are you doing in the dinosaur's cage?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'll open the door for you, and you get out of the cage quick.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThat's an order from the boss.[PAUSE 15]  ...By the way,[PAUSE 15] thanks for the [PRINT_ITEM TENDAKRAUT].[WAIT][LINE_BREAK]",
+    "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT]'s [PRINT_ITEM TENDAKRAUT] was taken.)[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(That nasty smell left you at the same time!)[HALT][SET_FLAG TENDAKRAUT_STOLEN]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG UNDERWORLD_TALKING_ROCK_STOPPED_TALKING L_EF5BC8]:EF5BC8": {
+      "\u00ef\u00bf\u00bdA rock that doesn't talk is no fun at all.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG TENDAKRAUT_STOLEN L_EF5B97]:EF5B97": {
+      "\u00ef\u00bf\u00bdWhy don't you see the talkative mystery rock.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThat rock really jabbers away!![HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdWhat are you doing in the dinosaur's cage?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'll open the door for you, and you get out of the cage quick.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThat's an order from the boss.[PAUSE 15]  ...By the way,[PAUSE 15] thanks for the [PRINT_ITEM TENDAKRAUT].[WAIT][LINE_BREAK]": null,
+    "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT]'s [PRINT_ITEM TENDAKRAUT] was taken.)[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(That nasty smell left you at the same time!)[HALT][SET_FLAG TENDAKRAUT_STOLEN]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2362,
+  "y_pixel_abs": 2634,
+  "x_tile": 73,
+  "y_tile": 82,
+  "x_sector": 9,
+  "y_sector": 10,
+  "x_sector_offset": 58,
+  "y_sector_offset": 74,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_56.l_0xef5aed",
+  "Text Pointer 2": "$0"
+}

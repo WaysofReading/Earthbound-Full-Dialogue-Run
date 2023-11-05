@@ -1,0 +1,70 @@
+{
+  "Sprite": 83,
+  "sprite_label": "tessie-watcher",
+  "map_location_label": "Winters_Overworld_Central-North-(Tessie-and-Watchers)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6BA5F",
+  "d1_flags": [
+    "1. goto C6BAC0 if LAKE_TESS_WIND_BLOWING is set",
+    "1. goto C6BAD6 if LEARNED_TELEPORT is set",
+    "1. goto C6BB1D if LEARNED_ABOUT_SHYNESS_BOOK is set"
+  ],
+  "d1_addresses": [
+    "C6BAC0",
+    "C6BAD6",
+    "C6BB1D",
+    "Npc0628"
+  ],
+  "d1_text": "Npc0628:\r\n[GOTO_IF_FLAG LEARNED_ABOUT_SHYNESS_BOOK L_C6BB1D]\r\n[GOTO_IF_FLAG LAKE_TESS_WIND_BLOWING L_C6BAC0]\r\n[GOTO_IF_FLAG LEARNED_TELEPORT L_C6BAD6]\r\n\u00ef\u00bf\u00bdSo, you've also been bitten by Tessie-mania.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou're in luck.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWe may be able to see Tessie tomorrow.  I can't wait...[HALT][END]",
+  "d1_lines": [
+    "Npc0628:",
+    "[GOTO_IF_FLAG LEARNED_ABOUT_SHYNESS_BOOK L_C6BB1D]",
+    "[GOTO_IF_FLAG LAKE_TESS_WIND_BLOWING L_C6BAC0]",
+    "[GOTO_IF_FLAG LEARNED_TELEPORT L_C6BAD6]",
+    "\u00ef\u00bf\u00bdSo, you've also been bitten by Tessie-mania.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou're in luck.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWe may be able to see Tessie tomorrow.  I can't wait...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG LEARNED_ABOUT_SHYNESS_BOOK L_C6BB1D]:C6BB1D": {
+      "\u00ef\u00bf\u00bdI waited for you.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'm glad to see you again.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou're back, Sebastian.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...I just love making Haiku.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG LAKE_TESS_WIND_BLOWING L_C6BAC0]:C6BAC0": {
+      "\u00ef\u00bf\u00bdMaybe that whirlpool is...[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG LEARNED_TELEPORT L_C6BAD6]:C6BAD6": {
+      "\u00ef\u00bf\u00bdWhere are you, my friend?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThey came and took you away.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdCome back, Sebastian.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHey, that's a Haiku poem![HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdSo, you've also been bitten by Tessie-mania.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou're in luck.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWe may be able to see Tessie tomorrow.  I can't wait...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 304,
+  "y_pixel_abs": 3392,
+  "x_tile": 9,
+  "y_tile": 106,
+  "x_sector": 1,
+  "y_sector": 13,
+  "x_sector_offset": 48,
+  "y_sector_offset": 64,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_23.l_0xc6ba5f",
+  "Text Pointer 2": "$0"
+}

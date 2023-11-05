@@ -1,0 +1,43 @@
+{
+  "Sprite": 213,
+  "sprite_label": "sign_small",
+  "map_location_label": "Scaraba_Dungeon Man_1F",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "C87EEE",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1208"
+  ],
+  "d1_text": "Npc1208:\r\n\u00ef\u00bf\u00bdIf you check into this bench, it's just like checking into a hotel.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd                      ...Brick Road[HALT][END]",
+  "d1_lines": [
+    "Npc1208:",
+    "\u00ef\u00bf\u00bdIf you check into this bench, it's just like checking into a hotel.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd                      ...Brick Road[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdIf you check into this bench, it's just like checking into a hotel.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd                      ...Brick Road[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4264,
+  "y_pixel_abs": 696,
+  "x_tile": 133,
+  "y_tile": 21,
+  "x_sector": 16,
+  "y_sector": 2,
+  "x_sector_offset": 168,
+  "y_sector_offset": 184,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_39.l_0xc87eee",
+  "Text Pointer 2": "$0"
+}

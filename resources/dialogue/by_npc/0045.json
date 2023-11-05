@@ -1,0 +1,59 @@
+{
+  "Sprite": 148,
+  "sprite_label": "lardna",
+  "map_location_label": "Onett_Minch House_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C76663",
+  "d1_flags": [
+    "1. goto C76689 if POKEY_IN_PARTY is set",
+    "1. goto C766C5 if GIYGAS_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C76689",
+    "C766C5",
+    "Npc0045"
+  ],
+  "d1_text": "Npc0045:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C766C5]\r\n[GOTO_IF_FLAG POKEY_IN_PARTY L_C76689]\r\n\u00ef\u00bf\u00bdMy husband is very soft-hearted.[HALT][END]",
+  "d1_lines": [
+    "Npc0045:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C766C5]",
+    "[GOTO_IF_FLAG POKEY_IN_PARTY L_C76689]",
+    "\u00ef\u00bf\u00bdMy husband is very soft-hearted.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C766C5]:C766C5": {
+      "\u00ef\u00bf\u00bdAs usual,[PAUSE 15] you're wearing your grubbies![PAUSE 20]  So,[PAUSE 10] what do you want?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdMy son isn't at home now.[PAUSE 20]  He's walking around somewhere.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdMy husband is also gone.[PAUSE 30]  Oh yes,[PAUSE 15] this is Mr. Prettyman.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHe always has great advice.[PAUSE 15]  He's a real gentleman,[PAUSE 10] he is.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou'll be happy that you met him.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG POKEY_IN_PARTY L_C76689]:C76689": {
+      "\u00ef\u00bf\u00bdWhere in sam hill have you boys been?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'll have to think of a suitable punishment![HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdMy husband is very soft-hearted.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7128,
+  "y_pixel_abs": 864,
+  "x_tile": 222,
+  "y_tile": 27,
+  "x_sector": 27,
+  "y_sector": 3,
+  "x_sector_offset": 216,
+  "y_sector_offset": 96,
+  "Event Flag": 742,
+  "flag_label": "LARDNA_AT_HOME",
+  "Show Sprite": "when event flag set",
+  "Direction": "up",
+  "Movement": 13,
+  "Text Pointer 1": "data_29.l_0xc76663",
+  "Text Pointer 2": "$0"
+}

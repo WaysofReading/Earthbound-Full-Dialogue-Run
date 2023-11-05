@@ -1,0 +1,148 @@
+{
+  "Sprite": 95,
+  "sprite_label": "man_scaraban_blue-clothes",
+  "map_location_label": "Scaraba_Hotel_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C85F76",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C841DE",
+    "C85FF7",
+    "C8603C",
+    "C86059",
+    "C86088",
+    "C860B9",
+    "C860E4",
+    "C86112",
+    "C86147",
+    "C86186",
+    "Npc1126"
+  ],
+  "d1_text": "Npc1126:\r\n[GOSUB L_C841DE]\r\n[COUNTER_TO_ARG][SWAP_ARG_RESULT]\r\n[MULTI_GOSUB L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86088 L_C860B9 L_C860E4 L_C86112 L_C86147 L_C86186]\r\n[END]",
+  "d1_lines": [
+    "Npc1126:",
+    "[GOSUB L_C841DE]",
+    "[COUNTER_TO_ARG][SWAP_ARG_RESULT]",
+    "[MULTI_GOSUB L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86088 L_C860B9 L_C860E4 L_C86112 L_C86147 L_C86186]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C841DE]:C841DE": "Case/Switch - Newspaper Headline",
+    "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+    "[MULTI_GOSUB L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86088 L_C860B9 L_C860E4 L_C86112 L_C86147 L_C86186]:C86059": {
+      "[GOSUB L_C85FF7]:C85FF7": {
+        "\u00ef\u00bf\u00bdGood morning, good sir![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdPlease allow me to read to you from the local newspaper,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdthe Scaraba Papyrus...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdKraken, the evil sea monster, now gone forever!\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "[GOSUB L_C8603C]:C8603C": {
+        "\u00ef\u00bf\u00bd...[PAUSE 10]Well ...there is some news here about...[HALT][END]": null
+      },
+      "[END]": null
+    },
+    "[MULTI_GOSUB L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86088 L_C860B9 L_C860E4 L_C86112 L_C86147 L_C86186]:C86088": {
+      "[GOSUB L_C85FF7]:C85FF7": {
+        "\u00ef\u00bf\u00bdGood morning, good sir![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdPlease allow me to read to you from the local newspaper,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdthe Scaraba Papyrus...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdActivity at pyramid the first in 300 years\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "[GOSUB L_C8603C]:C8603C": {
+        "\u00ef\u00bf\u00bd...[PAUSE 10]Well ...there is some news here about...[HALT][END]": null
+      },
+      "[END]": null
+    },
+    "[MULTI_GOSUB L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86088 L_C860B9 L_C860E4 L_C86112 L_C86147 L_C86186]:C860B9": {
+      "[GOSUB L_C85FF7]:C85FF7": {
+        "\u00ef\u00bf\u00bdGood morning, good sir![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdPlease allow me to read to you from the local newspaper,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdthe Scaraba Papyrus...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bd[PRINT_ITEM HAWK_EYE] stolen from the pyramid in the desert!\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "[GOSUB L_C8603C]:C8603C": {
+        "\u00ef\u00bf\u00bd...[PAUSE 10]Well ...there is some news here about...[HALT][END]": null
+      },
+      "[END]": null
+    },
+    "[MULTI_GOSUB L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86088 L_C860B9 L_C860E4 L_C86112 L_C86147 L_C86186]:C860E4": {
+      "[GOSUB L_C85FF7]:C85FF7": {
+        "\u00ef\u00bf\u00bdGood morning, good sir![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdPlease allow me to read to you from the local newspaper,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdthe Scaraba Papyrus...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdMysterious moving tower sighted in desert!\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "[GOSUB L_C8603C]:C8603C": {
+        "\u00ef\u00bf\u00bd...[PAUSE 10]Well ...there is some news here about...[HALT][END]": null
+      },
+      "[END]": null
+    },
+    "[MULTI_GOSUB L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86088 L_C860B9 L_C860E4 L_C86112 L_C86147 L_C86186]:C86112": {
+      "[GOSUB L_C85FF7]:C85FF7": {
+        "\u00ef\u00bf\u00bdGood morning, good sir![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdPlease allow me to read to you from the local newspaper,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdthe Scaraba Papyrus...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdMiraculous foreign children overwhelm Kraken!\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "[GOSUB L_C8603C]:C8603C": {
+        "\u00ef\u00bf\u00bd...[PAUSE 10]Well ...there is some news here about...[HALT][END]": null
+      },
+      "[END]": null
+    },
+    "[MULTI_GOSUB L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86088 L_C860B9 L_C860E4 L_C86112 L_C86147 L_C86186]:C86147": {
+      "[GOSUB L_C85FF7]:C85FF7": {
+        "\u00ef\u00bf\u00bdGood morning, good sir![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdPlease allow me to read to you from the local newspaper,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdthe Scaraba Papyrus...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdChildren who dash then disappear sighted, but only for an instant\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "[GOSUB L_C8603C]:C8603C": {
+        "\u00ef\u00bf\u00bd...[PAUSE 10]Well ...there is some news here about...[HALT][END]": null
+      },
+      "[END]": null
+    },
+    "[MULTI_GOSUB L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86059 L_C86088 L_C860B9 L_C860E4 L_C86112 L_C86147 L_C86186]:C86186": {
+      "[GOSUB L_C85FF7]:C85FF7": {
+        "\u00ef\u00bf\u00bdGood morning, good sir![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdPlease allow me to read to you from the local newspaper,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdthe Scaraba Papyrus...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdTerrible sound recently heard[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdPossibly the sound of evil being destroyed beyond our time and space\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "[GOSUB L_C8603C]:C8603C": {
+        "\u00ef\u00bf\u00bd...[PAUSE 10]Well ...there is some news here about...[HALT][END]": null
+      },
+      "[END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7672,
+  "y_pixel_abs": 7008,
+  "x_tile": 239,
+  "y_tile": 219,
+  "x_sector": 29,
+  "y_sector": 27,
+  "x_sector_offset": 248,
+  "y_sector_offset": 96,
+  "Event Flag": 383,
+  "flag_label": "JUST_RESTED",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_38.l_0xc85f76",
+  "Text Pointer 2": "$0"
+}

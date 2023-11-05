@@ -1,0 +1,56 @@
+{
+  "Sprite": 70,
+  "sprite_label": "man_blonde_blue-blazer",
+  "map_location_label": "Happy Happy Village_Overworld_All",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C991C7",
+  "d1_flags": [
+    "1. goto C9922D if CARPAINTER_DEFEATED is set",
+    "1. goto C99260 if VISITED_THREED is set"
+  ],
+  "d1_addresses": [
+    "C9922D",
+    "C99260",
+    "Npc0416"
+  ],
+  "d1_text": "Npc0416:\r\n[GOTO_IF_FLAG VISITED_THREED L_C99260]\r\n[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C9922D]\r\n\u00ef\u00bf\u00bdI think that those who won't paint everything blue are opposed to peace.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI want them all to listen,[PAUSE 15] even if it requires kicking their butts.[HALT][END]",
+  "d1_lines": [
+    "Npc0416:",
+    "[GOTO_IF_FLAG VISITED_THREED L_C99260]",
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C9922D]",
+    "\u00ef\u00bf\u00bdI think that those who won't paint everything blue are opposed to peace.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI want them all to listen,[PAUSE 15] even if it requires kicking their butts.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG VISITED_THREED L_C99260]:C99260": {
+      "\u00ef\u00bf\u00bdI shouldn't be so desperate to chase after happiness.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C9922D]:C9922D": {
+      "\u00ef\u00bf\u00bdWe need to return the town to its original colors.[PAUSE 20]  I'll be very busy.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI think that those who won't paint everything blue are opposed to peace.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI want them all to listen,[PAUSE 15] even if it requires kicking their butts.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4096,
+  "y_pixel_abs": 7768,
+  "x_tile": 128,
+  "y_tile": 242,
+  "x_sector": 16,
+  "y_sector": 30,
+  "x_sector_offset": 0,
+  "y_sector_offset": 88,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_50.l_0xc991c7",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,366 @@
+{
+  "Sprite": 73,
+  "sprite_label": "bellhop",
+  "map_location_label": "Onett_Hotel (Hotel Onett)_1F_Lobby",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C842F9",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C841DE",
+    "C8437A",
+    "C843A7",
+    "C843C8",
+    "C843F6",
+    "C8442C",
+    "C8444C",
+    "C84485",
+    "C844BD",
+    "C844EA",
+    "C84525",
+    "C8455F",
+    "C84608",
+    "C84657",
+    "C84693",
+    "C846B6",
+    "C846FC",
+    "C84728",
+    "C8474D",
+    "C8477F",
+    "C847E6",
+    "C8481A",
+    "C8484C",
+    "C848A4",
+    "C848DB",
+    "C84930",
+    "C84973",
+    "C849AA",
+    "Npc0064"
+  ],
+  "d1_text": "Npc0064:\r\n[GOSUB L_C841DE]\r\n[COUNTER_TO_ARG][SWAP_ARG_RESULT]\r\n[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]\r\n[END]",
+  "d1_lines": [
+    "Npc0064:",
+    "[GOSUB L_C841DE]",
+    "[COUNTER_TO_ARG][SWAP_ARG_RESULT]",
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C841DE]:C841DE": "Case/Switch - Newspaper Headline",
+    "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C843F6": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdMysterious meteorite north of Onett still burning brightly\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C8442C": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdRoad to Twoson still closed\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C8444C": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdComplaints about Sharks gang suddenly melt into thin air\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C84485": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdMayor of Onett teaches Sharks a lesson, brings peace to Onett\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C844BD": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdTamer of the Sharks actually a boy in a red cap!\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C844EA": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdMany citizens of Onett suffer due to crooked real estate agents\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C84525": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdGirl named [PRINT_STAT PAULA_NAME] listed as missing in neighboring town of Twoson\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C8455F": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bdYes... the Onett Times... Uhhh...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWell, [PAUSE 10] I made a mistake and brought you a newspaper called OnettStar on accident.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdLet me read you the headline anyway...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdSo called Mr. Leader Guy running for mayor of Onett\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWell,[PAUSE 10] that's OnettStar for you.[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C84608": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843C8]:C843C8": {
+        "\u00ef\u00bf\u00bdThere's an advertisement in today's Onett Times that looks interesting.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdIsn't it about time for a fantastic vacation to the dream resort of Summers?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdSomeday, we'll see you there...\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C84657": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdTwoson kidnap victim [PRINT_STAT PAULA_NAME] rescued by local Onett hero [PRINT_NAME NESS]\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C84693": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdSituation in the town of Threed is dire\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C846B6": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843C8]:C843C8": {
+        "\u00ef\u00bf\u00bdThere's an advertisement in today's Onett Times that looks interesting.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdEven our clerks get lost in the store![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThe world's largest department store, the Fourside Grand\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C846FC": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdMeteorite north of Onett still burning hot\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C84728": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd...[PAUSE 10]Oh,[PAUSE 10] there's no issue today... sorry.[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C8474D": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bd[PRINT_STAT FAVORITE_FOOD] found to be major source of nutrition and energy\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C8477F": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843C8]:C843C8": {
+        "\u00ef\u00bf\u00bdThere's an advertisement in today's Onett Times that looks interesting.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdExotic atmosphere![LINE_BREAK]": null,
+      "  Historical sites![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdCome to the glorious jewel named Scaraba![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdScaraba Tourist Association\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C847E6": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdOnett Police chief still not through playing EarthBound!\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C8481A": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdPrince [PRINT_NAME POO] of Dalaam traveling incognito to Onett?\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C8484C": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843C8]:C843C8": {
+        "\u00ef\u00bf\u00bdThere's an advertisement in today's Onett Times that looks interesting.[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdEven a seasoned world traveler enjoys staying here.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHotel Onett in lovely downtown Onett.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...Hey, this is our ad![HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C848A4": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdInternational news:  Pyramid in Scaraba vandalized\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C848DB": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdOnett Library facing crisis[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdMany book borrowers giving library books away or never returning them\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C84930": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdLocal survey shows most popular career among kids in Onett is adventurer\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C84973": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdMeteorite landing in north Onett finally beginning to cool off\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C843F6 L_C8442C L_C8444C L_C84485 L_C844BD L_C844EA L_C84525 L_C8455F L_C84608 L_C84657 L_C84693 L_C84693 L_C84693 L_C84693 L_C84693 L_C846B6 L_C846B6 L_C846FC L_C84728 L_C8474D L_C8477F L_C847E6 L_C8481A L_C8484C L_C848A4 L_C848DB L_C84930 L_C84973 L_C849AA]:C849AA": {
+      "[GOSUB L_C8437A]:C8437A": {
+        "\u00ef\u00bf\u00bdGood morning![LINE_BREAK]": null,
+        "  Here's your free copy of the morning newspaper![WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C843A7]:C843A7": {
+        "\u00ef\u00bf\u00bdHere's today's headlines in the Onett Times...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdOnett police chief finishes EarthBound, asks, \u00ef\u00bf\u00bdWhere is the sequel?\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7696,
+  "y_pixel_abs": 64,
+  "x_tile": 240,
+  "y_tile": 2,
+  "x_sector": 30,
+  "y_sector": 0,
+  "x_sector_offset": 16,
+  "y_sector_offset": 64,
+  "Event Flag": 383,
+  "flag_label": "JUST_RESTED",
+  "Show Sprite": "when event flag set",
+  "Direction": "left",
+  "Movement": 10,
+  "Text Pointer 1": "data_37.l_0xc842f9",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,41 @@
+{
+  "Sprite": 243,
+  "sprite_label": "bus_runaway-5",
+  "map_location_label": "Twoson_Overworld_Northeast",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "C94769",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0373"
+  ],
+  "d1_text": "Npc0373:\r\n\u00ef\u00bf\u00bd(Runaway Five tour bus.)[HALT][END]",
+  "d1_lines": [
+    "Npc0373:",
+    "\u00ef\u00bf\u00bd(Runaway Five tour bus.)[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bd(Runaway Five tour bus.)[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2304,
+  "y_pixel_abs": 6520,
+  "x_tile": 72,
+  "y_tile": 203,
+  "x_sector": 9,
+  "y_sector": 25,
+  "x_sector_offset": 0,
+  "y_sector_offset": 120,
+  "Event Flag": 119,
+  "flag_label": "RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_47.l_0xc94769",
+  "Text Pointer 2": "$0"
+}

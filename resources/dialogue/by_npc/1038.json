@@ -1,0 +1,107 @@
+{
+  "Sprite": 95,
+  "sprite_label": "man_scaraban_blue-clothes",
+  "map_location_label": "Summers and Toto_Museum_1F_Exhibit-Room_Upstairs_Mummy-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8AAE6",
+  "d1_flags": [
+    "1. goto C8ABB0 if TEMP_10 is set",
+    "1. goto C9992F if QUEST_TO_VENUS_AUTOGRAPH is set",
+    "3. set GOT_HIEROGLYPH_COPY",
+    "3. set SCARABA_CULTURAL_MUSEUM_PHONE_RINGING",
+    "3. set TEMP_10",
+    "4. clear TEMP_10"
+  ],
+  "d1_addresses": [
+    "C7DC85",
+    "C7DCCF",
+    "C7DCDA",
+    "C7DD03",
+    "C8ABB0",
+    "C8AC30",
+    "C9992F",
+    "Npc1038"
+  ],
+  "d1_text": "Npc1038:\r\n[GOTO_IF_FLAG TEMP_10 L_C8ABB0]\r\n\u00ef\u00bf\u00bdExcellent![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDo you feel like you're really experiencing this great historical period?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThe experience is more valuable than a small gem...  Ha ha ha![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThe other day, a rich kid came to Summers by helicopter...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHe also took a picture of the Hieroglyphs.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI got lots of money from him.  Heh heh heh.[HALT][END]",
+  "d1_lines": [
+    "Npc1038:",
+    "[GOTO_IF_FLAG TEMP_10 L_C8ABB0]",
+    "\u00ef\u00bf\u00bdExcellent![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDo you feel like you're really experiencing this great historical period?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThe experience is more valuable than a small gem...  Ha ha ha![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThe other day, a rich kid came to Summers by helicopter...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHe also took a picture of the Hieroglyphs.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI got lots of money from him.  Heh heh heh.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TEMP_10 L_C8ABB0]:C8ABB0": {
+      "\u00ef\u00bf\u00bdHere's a picture of the hieroglyphs, just for you.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt's a reward for studying so hard.[WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C8AC30]:C8AC30": {
+        "[PLAY_SFX 5]": null,
+        "\u00ef\u00bf\u00bdOh, you can't carry it 'cause you have too much stuff.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIt's a pity.[PAUSE 20]  You're such a hard worker.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdHa ha ha![HALT][SET_FLAG TEMP_10]": null,
+        "[END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT HIEROGLYPH_COPY]": null,
+      "[GOSUB L_C7DCCF]:C7DCCF": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdUse it in your Human Civilization class.  Ha ha ha![HALT][SET_FLAG GOT_HIEROGLYPH_COPY]": null,
+      "[CLR_FLAG TEMP_10]": null,
+      "[GOTO_IF_FLAG QUEST_TO_VENUS_AUTOGRAPH L_C9992F]:C9992F": {
+        "[END]": null
+      },
+      "[SET_FLAG SCARABA_CULTURAL_MUSEUM_PHONE_RINGING]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdExcellent![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDo you feel like you're really experiencing this great historical period?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThe experience is more valuable than a small gem...  Ha ha ha![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThe other day, a rich kid came to Summers by helicopter...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHe also took a picture of the Hieroglyphs.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI got lots of money from him.  Heh heh heh.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8016,
+  "y_pixel_abs": 9560,
+  "x_tile": 250,
+  "y_tile": 298,
+  "x_sector": 31,
+  "y_sector": 37,
+  "x_sector_offset": 80,
+  "y_sector_offset": 88,
+  "Event Flag": 346,
+  "flag_label": "GAVE_RUBY_TO_HIEROGLYPHS_GUY",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_41.l_0xc8aae6",
+  "Text Pointer 2": "$0"
+}

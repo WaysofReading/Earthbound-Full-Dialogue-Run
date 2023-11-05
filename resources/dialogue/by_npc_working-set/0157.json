@@ -1,0 +1,51 @@
+{
+  "Sprite": 74,
+  "sprite_label": "cop",
+  "map_location_label": "Onett_Overworld_Northeast",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C671AD",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0157"
+  ],
+  "d1_text": "Npc0157:\r\n\u00ef\u00bf\u00bdClear out. Get out of my way.[LINE_BREAK]\r\n  Clear out. Get out of my way.[LINE_BREAK]\r\n  Clear out. Get out of my way.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdClear out. Of way out get my[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWhoops,[PAUSE 15] my mistake...[PAUSE 20][LINE_BREAK]\r\n  I mean \u00ef\u00bf\u00bdget out of my way!\u00ef\u00bf\u00bd[HALT][END]",
+  "d1_lines": [
+    "Npc0157:",
+    "\u00ef\u00bf\u00bdClear out. Get out of my way.[LINE_BREAK]",
+    "  Clear out. Get out of my way.[LINE_BREAK]",
+    "  Clear out. Get out of my way.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdClear out. Of way out get my[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWhoops,[PAUSE 15] my mistake...[PAUSE 20][LINE_BREAK]",
+    "  I mean \u00ef\u00bf\u00bdget out of my way!\u00ef\u00bf\u00bd[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdClear out. Get out of my way.[LINE_BREAK]": null,
+    "  Clear out. Get out of my way.[LINE_BREAK]": null,
+    "  Clear out. Get out of my way.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdClear out. Of way out get my[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWhoops,[PAUSE 15] my mistake...[PAUSE 20][LINE_BREAK]": null,
+    "  I mean \u00ef\u00bf\u00bdget out of my way!\u00ef\u00bf\u00bd[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2165,
+  "y_pixel_abs": 236,
+  "x_tile": 67,
+  "y_tile": 7,
+  "x_sector": 8,
+  "y_sector": 0,
+  "x_sector_offset": 117,
+  "y_sector_offset": 236,
+  "Event Flag": 469,
+  "flag_label": "POLICE_AT_METEORITE",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_20.l_0xc671ad",
+  "Text Pointer 2": "$0"
+}

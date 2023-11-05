@@ -1,0 +1,49 @@
+{
+  "Sprite": 139,
+  "sprite_label": "doctor",
+  "map_location_label": "Threed_Hospital_1F_Doctor's-Office",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8E132",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C9002B",
+    "C90FEC",
+    "Npc0503"
+  ],
+  "d1_text": "Npc0503:\r\n[GOSUB L_C9002B]\r\n[END]",
+  "d1_lines": [
+    "Npc0503:",
+    "[GOSUB L_C9002B]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C9002B]:C9002B": {
+      "[SET_COUNTER 40]": null,
+      "[GOSUB L_C90FEC]:C90FEC": "Doctor Menu",
+      "[END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7264,
+  "y_pixel_abs": 9928,
+  "x_tile": 227,
+  "y_tile": 310,
+  "x_sector": 28,
+  "y_sector": 38,
+  "x_sector_offset": 96,
+  "y_sector_offset": 200,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_42.l_0xc8e132",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,317 @@
+{
+  "Sprite": 158,
+  "sprite_label": "poochyfud",
+  "map_location_label": "Twoson_Chaos Theater_1F_Manager's-Office",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C959DB",
+  "d1_flags": [
+    "1. goto C959E2 if WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER is set",
+    "1. goto C95A5F if RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER is set",
+    "1. goto C95BA0 if QUEUE_OUTSIDE_CHAOS_THEATER is set"
+  ],
+  "d1_addresses": [
+    "C959E2",
+    "C95A5F",
+    "C95BA0",
+    "Npc0253"
+  ],
+  "d1_text": "Npc0253:\r\n[GOTO_IF_FLAG QUEUE_OUTSIDE_CHAOS_THEATER L_C95BA0]\r\n; $C959E2\r\nL_C959E2:\r\n[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C95A5F]\r\n\u00ef\u00bf\u00bdThe Runaway Five owe me a lot of money.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThey'll stay here until they pay me back.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThey might be here for 100 years,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdunless you decide to pay off their debt...  Heh, heh, heh.[HALT][END]",
+  "d1_lines": [
+    "Npc0253:",
+    "[GOTO_IF_FLAG QUEUE_OUTSIDE_CHAOS_THEATER L_C95BA0]",
+    "; $C959E2",
+    "L_C959E2:",
+    "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C95A5F]",
+    "\u00ef\u00bf\u00bdThe Runaway Five owe me a lot of money.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThey'll stay here until they pay me back.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThey might be here for 100 years,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdunless you decide to pay off their debt...  Heh, heh, heh.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG QUEUE_OUTSIDE_CHAOS_THEATER L_C95BA0]:C95BA0": {
+      "[GOTO_IF_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER L_C959E2]:C959E2": {
+        "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C95A5F]:C95A5F": {
+          "\u00ef\u00bf\u00bdThe Runaway Five are free to leave.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI've got no complaints now that I have my money.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdThe Runaway Five owe me a lot of money.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThey'll stay here until they pay me back.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThey might be here for 100 years,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdunless you decide to pay off their debt...  Heh, heh, heh.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdPardon?[PAUSE 30]  You want to talk about money?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHow about later, after the show, even if we're talking big bucks.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI've got definite rules about how I handle my money matters...[HALT][END]": null
+    },
+    "; $C959E2": null,
+    "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C95A5F]:C95A5F": {
+      "\u00ef\u00bf\u00bdThe Runaway Five are free to leave.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI've got no complaints now that I have my money.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThe Runaway Five owe me a lot of money.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThey'll stay here until they pay me back.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThey might be here for 100 years,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdunless you decide to pay off their debt...  Heh, heh, heh.[HALT][END]": null
+  },
+  "d2_pointer": "C95A8D",
+  "d2_flags": [
+    "1. goto C95988 if TEMP_3 is set",
+    "1. goto C95988 if WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER is set",
+    "1. goto C959E2 if WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER is set",
+    "1. goto C95A5F if RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER is set",
+    "2. goto C95BA0 if WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER is cleared",
+    "3. set ENEMY_SUPPRESS",
+    "3. set RUNAWAY_BUS_FROM_TWOSON_TO_THREED",
+    "3. set RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER",
+    "3. set RUNAWAY_FIVE_FREE_MUSIC",
+    "4. clear EVERDRED_AT_HIS_HOUSE",
+    "4. clear TEMP_2",
+    "4. clear TEMP_3",
+    "4. clear TEMP_4",
+    "4. clear TEMP_5",
+    "4. clear TEMP_6"
+  ],
+  "d2_addresses": [
+    "C799D7",
+    "C79A64",
+    "C79A98",
+    "C79AB9",
+    "C79AD7",
+    "C7C6B6",
+    "C95988",
+    "C959E2",
+    "C95A5F",
+    "C95A8D",
+    "C95AA0",
+    "C95B63",
+    "C95B64",
+    "C95BA0",
+    "Npc0251"
+  ],
+  "d2_text": "L_C95A8D:\r\n[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]\r\n[CHECK_EQUAL 180][GOTO_IF_TRUE L_C95AA0]\r\n[GOTO L_C7C6B6]\r\n; $C95AA0\r\nL_C95AA0:\r\n[LOAD_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER][GOTO_IF_FALSE L_C95BA0]\r\n[GET_PARTY_MEMBER 1][GET_DIR_FROM_PMEMBER REG_ARGUMENT NPC 253][SWAP_ARG_RESULT]\r\n[BACKUP_REGS_LOCAL]\r\n[CHECK_EQUAL 1][GOTO_IF_TRUE L_C95B64]\r\n[RESTORE_REGS_LOCAL]\r\n[CHECK_EQUAL 2][GOTO_IF_TRUE L_C95B64]\r\n[RESTORE_REGS_LOCAL]\r\n[CHECK_EQUAL 8][GOTO_IF_TRUE L_C95B64]\r\n[PLAY_SFX 118]\r\n[GET_DIR_FROM_NPC 253 PMEMBER NESS][SET_NPC_DIR 253 0]\r\n\u00ef\u00bf\u00bdYipes![PAUSE 60]  You surprised me.[PAUSE 20]  Now I'm not sure what to do.[WAIT][LINE_BREAK]\r\n[REMOVE_ITEM ANY WAD_OF_BILLS]\r\n\u00ef\u00bf\u00bdI got the money, of course,[PAUSE 15] and now the Runaway Five are free to leave.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI've got no complaints now that I have my money.[WAIT][SET_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER]\r\n[SET_FLAG RUNAWAY_BUS_FROM_TWOSON_TO_THREED]\r\n[CLR_FLAG EVERDRED_AT_HIS_HOUSE]\r\n[GOTO L_C799D7]\r\n; $C95B63\r\nL_C95B63:\r\n[END]",
+  "d2_lines": [
+    "L_C95A8D:",
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]",
+    "[CHECK_EQUAL 180][GOTO_IF_TRUE L_C95AA0]",
+    "[GOTO L_C7C6B6]",
+    "; $C95AA0",
+    "L_C95AA0:",
+    "[LOAD_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER][GOTO_IF_FALSE L_C95BA0]",
+    "[GET_PARTY_MEMBER 1][GET_DIR_FROM_PMEMBER REG_ARGUMENT NPC 253][SWAP_ARG_RESULT]",
+    "[BACKUP_REGS_LOCAL]",
+    "[CHECK_EQUAL 1][GOTO_IF_TRUE L_C95B64]",
+    "[RESTORE_REGS_LOCAL]",
+    "[CHECK_EQUAL 2][GOTO_IF_TRUE L_C95B64]",
+    "[RESTORE_REGS_LOCAL]",
+    "[CHECK_EQUAL 8][GOTO_IF_TRUE L_C95B64]",
+    "[PLAY_SFX 118]",
+    "[GET_DIR_FROM_NPC 253 PMEMBER NESS][SET_NPC_DIR 253 0]",
+    "\u00ef\u00bf\u00bdYipes![PAUSE 60]  You surprised me.[PAUSE 20]  Now I'm not sure what to do.[WAIT][LINE_BREAK]",
+    "[REMOVE_ITEM ANY WAD_OF_BILLS]",
+    "\u00ef\u00bf\u00bdI got the money, of course,[PAUSE 15] and now the Runaway Five are free to leave.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI've got no complaints now that I have my money.[WAIT][SET_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER]",
+    "[SET_FLAG RUNAWAY_BUS_FROM_TWOSON_TO_THREED]",
+    "[CLR_FLAG EVERDRED_AT_HIS_HOUSE]",
+    "[GOTO L_C799D7]",
+    "; $C95B63",
+    "L_C95B63:",
+    "[END]"
+  ],
+  "d2_unrolled": {
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+    "[CHECK_EQUAL 180][GOTO_IF_TRUE L_C95AA0]:C95AA0": {
+      "[LOAD_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER][GOTO_IF_FALSE L_C95BA0]:C95BA0": {
+        "[GOTO_IF_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER L_C959E2]:C959E2": {
+          "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C95A5F]:C95A5F": {
+            "\u00ef\u00bf\u00bdThe Runaway Five are free to leave.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI've got no complaints now that I have my money.[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdThe Runaway Five owe me a lot of money.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThey'll stay here until they pay me back.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThey might be here for 100 years,[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdunless you decide to pay off their debt...  Heh, heh, heh.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdPardon?[PAUSE 30]  You want to talk about money?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdHow about later, after the show, even if we're talking big bucks.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI've got definite rules about how I handle my money matters...[HALT][END]": null
+      },
+      "[GET_PARTY_MEMBER 1][GET_DIR_FROM_PMEMBER REG_ARGUMENT NPC 253][SWAP_ARG_RESULT]": null,
+      "[BACKUP_REGS_LOCAL]": null,
+      "[CHECK_EQUAL 1][GOTO_IF_TRUE L_C95B64]:C95B64": {
+        "\u00ef\u00bf\u00bd'scuse me?[PAUSE 15]  What's that you got there?  Let me take a[LINE_BREAK]": null,
+        "  re[PAUSE 5]e[PAUSE 5]e[PAUSE 5]e[PAUSE 5]al close look.[HALT][END]": null
+      },
+      "[RESTORE_REGS_LOCAL]": null,
+      "[CHECK_EQUAL 2][GOTO_IF_TRUE L_C95B64]:C95B64": {
+        "\u00ef\u00bf\u00bd'scuse me?[PAUSE 15]  What's that you got there?  Let me take a[LINE_BREAK]": null,
+        "  re[PAUSE 5]e[PAUSE 5]e[PAUSE 5]e[PAUSE 5]al close look.[HALT][END]": null
+      },
+      "[CHECK_EQUAL 8][GOTO_IF_TRUE L_C95B64]:C95B64": {
+        "\u00ef\u00bf\u00bd'scuse me?[PAUSE 15]  What's that you got there?  Let me take a[LINE_BREAK]": null,
+        "  re[PAUSE 5]e[PAUSE 5]e[PAUSE 5]e[PAUSE 5]al close look.[HALT][END]": null
+      },
+      "[PLAY_SFX 118]": null,
+      "[GET_DIR_FROM_NPC 253 PMEMBER NESS][SET_NPC_DIR 253 0]": null,
+      "\u00ef\u00bf\u00bdYipes![PAUSE 60]  You surprised me.[PAUSE 20]  Now I'm not sure what to do.[WAIT][LINE_BREAK]": null,
+      "[REMOVE_ITEM ANY WAD_OF_BILLS]": null,
+      "\u00ef\u00bf\u00bdI got the money, of course,[PAUSE 15] and now the Runaway Five are free to leave.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI've got no complaints now that I have my money.[WAIT][SET_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER]": null,
+      "[SET_FLAG RUNAWAY_BUS_FROM_TWOSON_TO_THREED]": null,
+      "[CLR_FLAG EVERDRED_AT_HIS_HOUSE]": null,
+      "[GOTO L_C799D7]:C799D7": {
+        "[SET_FLAG ENEMY_SUPPRESS]": null,
+        "[SET_OSS_FLAG]": null,
+        "[SET_FLAG RUNAWAY_FIVE_FREE_MUSIC]": null,
+        "[RESTORE_MUSIC]": null,
+        "[CREATE_OBJ 149 115 1]": null,
+        "[CREATE_OBJ 150 116 1]": null,
+        "[CREATE_OBJ 185 117 1]": null,
+        "[CREATE_OBJ 186 118 1]": null,
+        "[CREATE_OBJ 187 119 1]": null,
+        "[CLOSE_ALL_TBOXES]": null,
+        "[CLR_FLAG TEMP_2]": null,
+        "[CLR_FLAG TEMP_3]": null,
+        "[CLR_FLAG TEMP_4]": null,
+        "[CLR_FLAG TEMP_5]": null,
+        "[CLR_FLAG TEMP_6]": null,
+        "[WAIT_MOVEMENT]": null,
+        "[OPEN_TBOX 1]": null,
+        "[GOSUB L_C79A64]:C79A64": {
+          "\u00ef\u00bf\u00bdWell, what do you know?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThis little nipper took us from a nightmare to a dream...[WAIT][END]": null
+        },
+        "[GOSUB L_C79A98]:C79A98": {
+          "\u00ef\u00bf\u00bdOw![PAUSE 20]  This means we can get out of this dump![WAIT][END]": null
+        },
+        "[GOSUB L_C79AB9]:C79AB9": {
+          "\u00ef\u00bf\u00bdI'm a good driver.[PAUSE 15]  C'mon, I'll show you.[WAIT][END]": null
+        },
+        "[GOSUB L_C79AD7]:C79AD7": {
+          "\u00ef\u00bf\u00bdAll right,[PAUSE 15] let's move on to the next town.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI'm sure our ol' hunk o' junk will get us there...[WAIT][END]": null
+        },
+        "[GOSUB Npc0251]:Npc0251": {
+          "[GOTO_IF_FLAG TEMP_3 L_C95988]:C95988": {
+            "\u00ef\u00bf\u00bdI didn't make a spectacle of myself, did I?[HALT][END]": null
+          },
+          "[GOTO_IF_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER L_C95988]:C95988": {
+            "\u00ef\u00bf\u00bdI didn't make a spectacle of myself, did I?[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdI want some bread.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI need the coinage.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI want more dough all the time.[HALT][END]": null
+        },
+        "[END]": null
+      },
+      "; $C95B63": null,
+      "[END]": null
+    },
+    "[GOTO L_C7C6B6]:C7C6B6": {
+      "[GET_ACTION_ARG][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bdYou can't use[LINE_BREAK]": null,
+      "  the [PRINT_ITEM REG_ARGUMENT].[HALT][END]": null
+    },
+    "; $C95AA0": null,
+    "[LOAD_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER][GOTO_IF_FALSE L_C95BA0]:C95BA0": {
+      "[GOTO_IF_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER L_C959E2]:C959E2": {
+        "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C95A5F]:C95A5F": {
+          "\u00ef\u00bf\u00bdThe Runaway Five are free to leave.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI've got no complaints now that I have my money.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdThe Runaway Five owe me a lot of money.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThey'll stay here until they pay me back.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThey might be here for 100 years,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdunless you decide to pay off their debt...  Heh, heh, heh.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdPardon?[PAUSE 30]  You want to talk about money?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHow about later, after the show, even if we're talking big bucks.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI've got definite rules about how I handle my money matters...[HALT][END]": null
+    },
+    "[GET_PARTY_MEMBER 1][GET_DIR_FROM_PMEMBER REG_ARGUMENT NPC 253][SWAP_ARG_RESULT]": null,
+    "[BACKUP_REGS_LOCAL]": null,
+    "[CHECK_EQUAL 1][GOTO_IF_TRUE L_C95B64]:C95B64": {
+      "\u00ef\u00bf\u00bd'scuse me?[PAUSE 15]  What's that you got there?  Let me take a[LINE_BREAK]": null,
+      "  re[PAUSE 5]e[PAUSE 5]e[PAUSE 5]e[PAUSE 5]al close look.[HALT][END]": null
+    },
+    "[RESTORE_REGS_LOCAL]": null,
+    "[CHECK_EQUAL 2][GOTO_IF_TRUE L_C95B64]:C95B64": {
+      "\u00ef\u00bf\u00bd'scuse me?[PAUSE 15]  What's that you got there?  Let me take a[LINE_BREAK]": null,
+      "  re[PAUSE 5]e[PAUSE 5]e[PAUSE 5]e[PAUSE 5]al close look.[HALT][END]": null
+    },
+    "[CHECK_EQUAL 8][GOTO_IF_TRUE L_C95B64]:C95B64": {
+      "\u00ef\u00bf\u00bd'scuse me?[PAUSE 15]  What's that you got there?  Let me take a[LINE_BREAK]": null,
+      "  re[PAUSE 5]e[PAUSE 5]e[PAUSE 5]e[PAUSE 5]al close look.[HALT][END]": null
+    },
+    "[PLAY_SFX 118]": null,
+    "[GET_DIR_FROM_NPC 253 PMEMBER NESS][SET_NPC_DIR 253 0]": null,
+    "\u00ef\u00bf\u00bdYipes![PAUSE 60]  You surprised me.[PAUSE 20]  Now I'm not sure what to do.[WAIT][LINE_BREAK]": null,
+    "[REMOVE_ITEM ANY WAD_OF_BILLS]": null,
+    "\u00ef\u00bf\u00bdI got the money, of course,[PAUSE 15] and now the Runaway Five are free to leave.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI've got no complaints now that I have my money.[WAIT][SET_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER]": null,
+    "[SET_FLAG RUNAWAY_BUS_FROM_TWOSON_TO_THREED]": null,
+    "[CLR_FLAG EVERDRED_AT_HIS_HOUSE]": null,
+    "[GOTO L_C799D7]:C799D7": {
+      "[SET_FLAG ENEMY_SUPPRESS]": null,
+      "[SET_OSS_FLAG]": null,
+      "[SET_FLAG RUNAWAY_FIVE_FREE_MUSIC]": null,
+      "[RESTORE_MUSIC]": null,
+      "[CREATE_OBJ 149 115 1]": null,
+      "[CREATE_OBJ 150 116 1]": null,
+      "[CREATE_OBJ 185 117 1]": null,
+      "[CREATE_OBJ 186 118 1]": null,
+      "[CREATE_OBJ 187 119 1]": null,
+      "[CLOSE_ALL_TBOXES]": null,
+      "[CLR_FLAG TEMP_2]": null,
+      "[CLR_FLAG TEMP_3]": null,
+      "[CLR_FLAG TEMP_4]": null,
+      "[CLR_FLAG TEMP_5]": null,
+      "[CLR_FLAG TEMP_6]": null,
+      "[WAIT_MOVEMENT]": null,
+      "[OPEN_TBOX 1]": null,
+      "[GOSUB L_C79A64]:C79A64": {
+        "\u00ef\u00bf\u00bdWell, what do you know?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis little nipper took us from a nightmare to a dream...[WAIT][END]": null
+      },
+      "[GOSUB L_C79A98]:C79A98": {
+        "\u00ef\u00bf\u00bdOw![PAUSE 20]  This means we can get out of this dump![WAIT][END]": null
+      },
+      "[GOSUB L_C79AB9]:C79AB9": {
+        "\u00ef\u00bf\u00bdI'm a good driver.[PAUSE 15]  C'mon, I'll show you.[WAIT][END]": null
+      },
+      "[GOSUB L_C79AD7]:C79AD7": {
+        "\u00ef\u00bf\u00bdAll right,[PAUSE 15] let's move on to the next town.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm sure our ol' hunk o' junk will get us there...[WAIT][END]": null
+      },
+      "[GOSUB Npc0251]:Npc0251": {
+        "[GOTO_IF_FLAG TEMP_3 L_C95988]:C95988": {
+          "\u00ef\u00bf\u00bdI didn't make a spectacle of myself, did I?[HALT][END]": null
+        },
+        "[GOTO_IF_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER L_C95988]:C95988": {
+          "\u00ef\u00bf\u00bdI didn't make a spectacle of myself, did I?[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdI want some bread.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI need the coinage.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI want more dough all the time.[HALT][END]": null
+      },
+      "[END]": null
+    },
+    "; $C95B63": null,
+    "[END]": null
+  },
+  "x_pixel_abs": 7584,
+  "y_pixel_abs": 7624,
+  "x_tile": 237,
+  "y_tile": 238,
+  "x_sector": 29,
+  "y_sector": 29,
+  "x_sector_offset": 160,
+  "y_sector_offset": 200,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_47.l_0xc959db",
+  "Text Pointer 2": "data_48.l_0xc95a8d"
+}

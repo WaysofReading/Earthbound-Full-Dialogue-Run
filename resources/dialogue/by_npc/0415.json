@@ -1,0 +1,56 @@
+{
+  "Sprite": 56,
+  "sprite_label": "man_bald_black-suit",
+  "map_location_label": "Happy Happy Village_Overworld_All",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C99120",
+  "d1_flags": [
+    "1. goto C99171 if CARPAINTER_DEFEATED is set",
+    "1. goto C9919B if GIYGAS_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C99171",
+    "C9919B",
+    "Npc0415"
+  ],
+  "d1_text": "Npc0415:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C9919B]\r\n[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C99171]\r\n\u00ef\u00bf\u00bdWhen I painted everything blue, as Mr. Carpainter said,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdmy wife who had run out on me returned home![HALT][END]",
+  "d1_lines": [
+    "Npc0415:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C9919B]",
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C99171]",
+    "\u00ef\u00bf\u00bdWhen I painted everything blue, as Mr. Carpainter said,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdmy wife who had run out on me returned home![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C9919B]:C9919B": {
+      "\u00ef\u00bf\u00bdWow, it's been a long time.[PAUSE 20]  Your cap...  Do you ever wash it?[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C99171]:C99171": {
+      "\u00ef\u00bf\u00bdMy wife has run away for a second time.[PAUSE 20]  I'm such a lucky man![HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdWhen I painted everything blue, as Mr. Carpainter said,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdmy wife who had run out on me returned home![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 3992,
+  "y_pixel_abs": 8136,
+  "x_tile": 124,
+  "y_tile": 254,
+  "x_sector": 15,
+  "y_sector": 31,
+  "x_sector_offset": 152,
+  "y_sector_offset": 200,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 12,
+  "Text Pointer 1": "data_50.l_0xc99120",
+  "Text Pointer 2": "$0"
+}

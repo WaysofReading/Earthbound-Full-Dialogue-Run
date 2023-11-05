@@ -1,0 +1,45 @@
+{
+  "Sprite": 159,
+  "sprite_label": "carpainter",
+  "map_location_label": "Happy Happy Village_Overworld_All",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9985A",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0426"
+  ],
+  "d1_text": "Npc0426:\r\n\u00ef\u00bf\u00bdHey [PRINT_STAT NESS_NAME], it's been a long time.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdSince we last met, the whole town has woken up.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThe best happiness comes from being free... you kids made me realize that.[HALT][END]",
+  "d1_lines": [
+    "Npc0426:",
+    "\u00ef\u00bf\u00bdHey [PRINT_STAT NESS_NAME], it's been a long time.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdSince we last met, the whole town has woken up.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThe best happiness comes from being free... you kids made me realize that.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdHey [PRINT_STAT NESS_NAME], it's been a long time.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdSince we last met, the whole town has woken up.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThe best happiness comes from being free... you kids made me realize that.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 3752,
+  "y_pixel_abs": 8120,
+  "x_tile": 117,
+  "y_tile": 253,
+  "x_sector": 14,
+  "y_sector": 31,
+  "x_sector_offset": 168,
+  "y_sector_offset": 184,
+  "Event Flag": 71,
+  "flag_label": "MASTER_BELCH_DEFEATED",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_50.l_0xc9985a",
+  "Text Pointer 2": "$0"
+}

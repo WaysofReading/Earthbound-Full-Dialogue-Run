@@ -1,0 +1,52 @@
+{
+  "Sprite": 178,
+  "sprite_label": "woman_blonde_black-dress",
+  "map_location_label": "Twoson_Houses_East-Orange_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C96675",
+  "d1_flags": [
+    "1. goto C966D6 if GOT_SIGNED_BANANA is set"
+  ],
+  "d1_addresses": [
+    "C966D6",
+    "Npc0277"
+  ],
+  "d1_text": "Npc0277:\r\n[GOTO_IF_FLAG GOT_SIGNED_BANANA L_C966D6]\r\n\u00ef\u00bf\u00bdMy daughter left for the big city to become a superstar.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdShe's using a stage name--[PAUSE 20]Vein... oh, vein something... she's working hard.[HALT][END]",
+  "d1_lines": [
+    "Npc0277:",
+    "[GOTO_IF_FLAG GOT_SIGNED_BANANA L_C966D6]",
+    "\u00ef\u00bf\u00bdMy daughter left for the big city to become a superstar.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdShe's using a stage name--[PAUSE 20]Vein... oh, vein something... she's working hard.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GOT_SIGNED_BANANA L_C966D6]:C966D6": {
+      "\u00ef\u00bf\u00bdI got a letter from my daughter.[PAUSE 20]  She wants me to see her next show.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdA book of photographs of her is coming out soon.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI really hope she kept her clothes on...[PAUSE 20]  Times have sure changed...[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdMy daughter left for the big city to become a superstar.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdShe's using a stage name--[PAUSE 20]Vein... oh, vein something... she's working hard.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8064,
+  "y_pixel_abs": 7768,
+  "x_tile": 252,
+  "y_tile": 242,
+  "x_sector": 31,
+  "y_sector": 30,
+  "x_sector_offset": 128,
+  "y_sector_offset": 88,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_48.l_0xc96675",
+  "Text Pointer 2": "$0"
+}

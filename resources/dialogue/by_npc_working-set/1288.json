@@ -1,0 +1,57 @@
+{
+  "Sprite": 398,
+  "sprite_label": "tenda_tiny",
+  "map_location_label": "Lost Underworld_Overworld_Northwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "EF5E94",
+  "d1_flags": [
+    "1. goto EF5F31 if GIYGAS_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "EF5F31",
+    "Npc1288"
+  ],
+  "d1_text": "Npc1288:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_EF5F31]\r\n\u00ef\u00bf\u00bdTenda who like to talk came to the Lost Underworld[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdbecause we couldn't stand the quiet up above.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdSo, we established a separate tribe.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI hope we can be friendly again some day.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd...Yeah,[PAUSE 20] it was a lot easier to live up above.[HALT][END]",
+  "d1_lines": [
+    "Npc1288:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_EF5F31]",
+    "\u00ef\u00bf\u00bdTenda who like to talk came to the Lost Underworld[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdbecause we couldn't stand the quiet up above.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdSo, we established a separate tribe.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI hope we can be friendly again some day.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd...Yeah,[PAUSE 20] it was a lot easier to live up above.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_EF5F31]:EF5F31": {
+      "\u00ef\u00bf\u00bdYou guys helped the upper tribe and the lower tribe gain unity again.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdSoon, we'll be one village again![PAUSE 20]  Thank you.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdTenda who like to talk came to the Lost Underworld[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdbecause we couldn't stand the quiet up above.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdSo, we established a separate tribe.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI hope we can be friendly again some day.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd...Yeah,[PAUSE 20] it was a lot easier to live up above.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2320,
+  "y_pixel_abs": 2608,
+  "x_tile": 72,
+  "y_tile": 81,
+  "x_sector": 9,
+  "y_sector": 10,
+  "x_sector_offset": 16,
+  "y_sector_offset": 48,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 606,
+  "Text Pointer 1": "data_56.l_0xef5e94",
+  "Text Pointer 2": "$0"
+}

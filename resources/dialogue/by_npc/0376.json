@@ -1,0 +1,440 @@
+{
+  "Sprite": 159,
+  "sprite_label": "carpainter",
+  "map_location_label": "Happy Happy Village_Happy Happy HQ_1F_Carpainter",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C98024",
+  "d1_flags": [
+    "1. goto C981C6 if CARPAINTER_HAS_KEY is set",
+    "1. goto C982B3 if CARPAINTER_DEFEATED is set",
+    "3. set CARPAINTER_DEFEATED",
+    "3. set CARPAINTER_HAS_KEY",
+    "3. set HH_HQ_CULTIST_1_DEFEATED",
+    "3. set HH_HQ_CULTIST_2_DEFEATED",
+    "3. set HH_HQ_CULTIST_3_DEFEATED",
+    "3. set HH_HQ_CULTIST_4_DEFEATED",
+    "3. set HH_HQ_CULTIST_5_DEFEATED",
+    "3. set HH_HQ_CULTIST_6_DEFEATED",
+    "3. set POKEY_OUTSIDE_HH_HQ",
+    "3. set TALKED_TO_CARPAINTER",
+    "3. set TEMP_10",
+    "4. clear 175",
+    "4. clear CARPAINTER_HAS_KEY",
+    "4. clear POKEY_OUTSIDE_PAULA_CABIN"
+  ],
+  "d1_addresses": [
+    "C683DE",
+    "C6847A",
+    "C684A6",
+    "C684CE",
+    "C7DC85",
+    "C7DCB6",
+    "C7DCDA",
+    "C7DD03",
+    "C980C1",
+    "C98148",
+    "C9817A",
+    "C981C6",
+    "C9827C",
+    "C982B3",
+    "Npc0376"
+  ],
+  "d1_text": "Npc0376:\r\n[GOTO_IF_FLAG CARPAINTER_HAS_KEY L_C981C6]\r\n[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C982B3]\r\n[SET_FLAG TALKED_TO_CARPAINTER]\r\n\u00ef\u00bf\u00bdThanks for coming![PAUSE 15]  I've been waiting for you.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI need your assistance to help make the world blue[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdand change it into a happy and peaceful society.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWill you be my right-hand assistant?[LINE_BREAK]\r\n  [LOAD_STRING \"Yes\"]\r\n  [LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C98148 L_C980C1]\r\n; $C980C1\r\nL_C980C1:\r\n\u00ef\u00bf\u00bdIf you don't want to be my right hand,[PAUSE 15] my left would be just fine...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdJust kidding![PAUSE 20]  Your existence is a problem for me and my religion.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDefy me,[PAUSE 15] and I'll end your pitiful game![WAIT][GOSUB L_C6847A]\r\n[GOTO_IF_TRUE L_C683DE]\r\n[CHECK_HAS_ITEM ANY FRANKLIN_BADGE][GOTO_IF_TRUE L_C9817A]\r\n[END]",
+  "d1_lines": [
+    "Npc0376:",
+    "[GOTO_IF_FLAG CARPAINTER_HAS_KEY L_C981C6]",
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C982B3]",
+    "[SET_FLAG TALKED_TO_CARPAINTER]",
+    "\u00ef\u00bf\u00bdThanks for coming![PAUSE 15]  I've been waiting for you.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI need your assistance to help make the world blue[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdand change it into a happy and peaceful society.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWill you be my right-hand assistant?[LINE_BREAK]",
+    "  [LOAD_STRING \"Yes\"]",
+    "  [LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C98148 L_C980C1]",
+    "; $C980C1",
+    "L_C980C1:",
+    "\u00ef\u00bf\u00bdIf you don't want to be my right hand,[PAUSE 15] my left would be just fine...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdJust kidding![PAUSE 20]  Your existence is a problem for me and my religion.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDefy me,[PAUSE 15] and I'll end your pitiful game![WAIT][GOSUB L_C6847A]",
+    "[GOTO_IF_TRUE L_C683DE]",
+    "[CHECK_HAS_ITEM ANY FRANKLIN_BADGE][GOTO_IF_TRUE L_C9817A]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG CARPAINTER_HAS_KEY L_C981C6]:C981C6": {
+      "\u00ef\u00bf\u00bdPlease forgive me, if you can...[PAUSE 20]  I just wanted to have a normal life.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI apologize[PAUSE 20] to everyone.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHere's the key to open the jail in the mountain cabin where [PRINT_NAME PAULA] is being held.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdTake the key and go.[WAIT][LINE_BREAK]": null,
+      "[SET_FLAG CARPAINTER_DEFEATED]": null,
+      "[CLR_FLAG 175]": null,
+      "[CLR_FLAG POKEY_OUTSIDE_PAULA_CABIN]": null,
+      "[SET_FLAG HH_HQ_CULTIST_1_DEFEATED]": null,
+      "[SET_FLAG HH_HQ_CULTIST_2_DEFEATED]": null,
+      "[SET_FLAG HH_HQ_CULTIST_3_DEFEATED]": null,
+      "[SET_FLAG HH_HQ_CULTIST_4_DEFEATED]": null,
+      "[SET_FLAG HH_HQ_CULTIST_5_DEFEATED]": null,
+      "[SET_FLAG HH_HQ_CULTIST_6_DEFEATED]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C9827C]:C9827C": {
+        "[SET_FLAG CARPAINTER_HAS_KEY]": null,
+        "\u00ef\u00bf\u00bdYour backpack is full...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou should take this even if you need to throw away one of your items.[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT KEY_TO_THE_CABIN]": null,
+      "[GOSUB L_C7DCB6]:C7DCB6": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+        "[CLOSE_ALL_TBOXES]": null,
+        "[PLAY_SFX 102]": null,
+        "[PAUSE 100][OPEN_TBOX 1]": null,
+        "[RESTORE_REGS_GLOBAL]": null,
+        "[GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[HALT][CLOSE_ALL_TBOXES]": null,
+      "[CLR_FLAG CARPAINTER_HAS_KEY]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C982B3]:C982B3": {
+      "\u00ef\u00bf\u00bdPlease forgive me, if you can...[PAUSE 20]  I just wanted to have a normal life.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI apologize to everyone.[HALT][END]": null
+    },
+    "[SET_FLAG TALKED_TO_CARPAINTER]": null,
+    "\u00ef\u00bf\u00bdThanks for coming![PAUSE 15]  I've been waiting for you.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI need your assistance to help make the world blue[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdand change it into a happy and peaceful society.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWill you be my right-hand assistant?[LINE_BREAK]": null,
+    "  [LOAD_STRING \"Yes\"]": null,
+    "  [LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C98148 L_C980C1]:C98148": {
+      "\u00ef\u00bf\u00bdYou fool,[PAUSE 20] I have drawn you into my trap.[HALT][GOSUB L_C6847A]:C6847A": {
+        "[CHECK_HAS_ITEM ANY FRANKLIN_BADGE][GOTO_IF_TRUE L_C684A6]:C684A6": {
+          "[CLOSE_ALL_TBOXES]": null,
+          "[PAUSE 1][PLAY_MUSIC 124]": null,
+          "[CREATE_OBJ 106 706 1]": null,
+          "[WAIT_MOVEMENT]": null,
+          "[MUSIC_EFFECT 2]": null,
+          "[OPEN_TBOX 1]": null,
+          "[CHECK_HAS_ITEM PAULA FRANKLIN_BADGE][GOTO_IF_TRUE L_C684CE]:C684CE": {
+            "\u00ef\u00bf\u00bdCarpainter's lightning was reflected by the Franklin Badge.[WAIT][CLOSE_ALL_TBOXES]": null,
+            "[START_BATTLE 454]": null,
+            "[END]": null
+          },
+          "[GOTO L_C684CE]:C684CE": {
+            "\u00ef\u00bf\u00bdCarpainter's lightning was reflected by the Franklin Badge.[WAIT][CLOSE_ALL_TBOXES]": null,
+            "[START_BATTLE 454]": null,
+            "[END]": null
+          },
+          "; $C684CE": null,
+          "\u00ef\u00bf\u00bdCarpainter's lightning was reflected by the Franklin Badge.[WAIT][CLOSE_ALL_TBOXES]": null,
+          "[START_BATTLE 454]": null,
+          "[END]": null
+        },
+        "[CLOSE_ALL_TBOXES]": null,
+        "[PAUSE 1][PLAY_MUSIC 124]": null,
+        "[CREATE_OBJ 106 705 1]": null,
+        "[PAUSE 80][HIDE_PMEMBER ALL 6]": null,
+        "[PAUSE 70][PRESET_TELEPORT 105]": null,
+        "[SHOW_PMEMBER ALL 2]": null,
+        "[SET_FLAG TEMP_10]": null,
+        "[END]": null
+      },
+      "[GOTO_IF_TRUE L_C683DE]:C683DE": {
+        "[END]": null
+      },
+      "[CHECK_HAS_ITEM ANY FRANKLIN_BADGE][GOTO_IF_TRUE L_C9817A]:C9817A": {
+        "[OPEN_TBOX 1]": null,
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bdDo you see the Mani Mani Statue behind me...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdSince I got the statue,[PAUSE 15] I have been doing peculiar things.[WAIT][LINE_BREAK]": null,
+        "[SET_FLAG POKEY_OUTSIDE_HH_HQ]": null,
+        "; $C981C6": null,
+        "\u00ef\u00bf\u00bdPlease forgive me, if you can...[PAUSE 20]  I just wanted to have a normal life.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI apologize[PAUSE 20] to everyone.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdHere's the key to open the jail in the mountain cabin where [PRINT_NAME PAULA] is being held.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdTake the key and go.[WAIT][LINE_BREAK]": null,
+        "[SET_FLAG CARPAINTER_DEFEATED]": null,
+        "[CLR_FLAG 175]": null,
+        "[CLR_FLAG POKEY_OUTSIDE_PAULA_CABIN]": null,
+        "[SET_FLAG HH_HQ_CULTIST_1_DEFEATED]": null,
+        "[SET_FLAG HH_HQ_CULTIST_2_DEFEATED]": null,
+        "[SET_FLAG HH_HQ_CULTIST_3_DEFEATED]": null,
+        "[SET_FLAG HH_HQ_CULTIST_4_DEFEATED]": null,
+        "[SET_FLAG HH_HQ_CULTIST_5_DEFEATED]": null,
+        "[SET_FLAG HH_HQ_CULTIST_6_DEFEATED]": null,
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C9827C]:C9827C": {
+          "[SET_FLAG CARPAINTER_HAS_KEY]": null,
+          "\u00ef\u00bf\u00bdYour backpack is full...[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYou should take this even if you need to throw away one of your items.[HALT][END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT KEY_TO_THE_CABIN]": null,
+        "[GOSUB L_C7DCB6]:C7DCB6": {
+          "[PLAY_SFX 116]": null,
+          "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+          "[CLOSE_ALL_TBOXES]": null,
+          "[PLAY_SFX 102]": null,
+          "[PAUSE 100][OPEN_TBOX 1]": null,
+          "[RESTORE_REGS_GLOBAL]": null,
+          "[GOSUB L_C7DCDA]:C7DCDA": {
+            "[BACKUP_REGS_LOCAL]": null,
+            "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+            "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+              "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+              "  to [SWAP_ARG_RESULT]": null,
+              "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+            "  the [SWAP_ARG_RESULT]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+          },
+          "[END]": null
+        },
+        "[HALT][CLOSE_ALL_TBOXES]": null,
+        "[CLR_FLAG CARPAINTER_HAS_KEY]": null,
+        "[END]": null
+      },
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C98148 L_C980C1]:C980C1": {
+      "\u00ef\u00bf\u00bdIf you don't want to be my right hand,[PAUSE 15] my left would be just fine...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdJust kidding![PAUSE 20]  Your existence is a problem for me and my religion.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDefy me,[PAUSE 15] and I'll end your pitiful game![WAIT][GOSUB L_C6847A]:C6847A": {
+        "[CHECK_HAS_ITEM ANY FRANKLIN_BADGE][GOTO_IF_TRUE L_C684A6]:C684A6": {
+          "[CLOSE_ALL_TBOXES]": null,
+          "[PAUSE 1][PLAY_MUSIC 124]": null,
+          "[CREATE_OBJ 106 706 1]": null,
+          "[WAIT_MOVEMENT]": null,
+          "[MUSIC_EFFECT 2]": null,
+          "[OPEN_TBOX 1]": null,
+          "[CHECK_HAS_ITEM PAULA FRANKLIN_BADGE][GOTO_IF_TRUE L_C684CE]:C684CE": {
+            "\u00ef\u00bf\u00bdCarpainter's lightning was reflected by the Franklin Badge.[WAIT][CLOSE_ALL_TBOXES]": null,
+            "[START_BATTLE 454]": null,
+            "[END]": null
+          },
+          "[GOTO L_C684CE]:C684CE": {
+            "\u00ef\u00bf\u00bdCarpainter's lightning was reflected by the Franklin Badge.[WAIT][CLOSE_ALL_TBOXES]": null,
+            "[START_BATTLE 454]": null,
+            "[END]": null
+          },
+          "; $C684CE": null,
+          "\u00ef\u00bf\u00bdCarpainter's lightning was reflected by the Franklin Badge.[WAIT][CLOSE_ALL_TBOXES]": null,
+          "[START_BATTLE 454]": null,
+          "[END]": null
+        },
+        "[CLOSE_ALL_TBOXES]": null,
+        "[PAUSE 1][PLAY_MUSIC 124]": null,
+        "[CREATE_OBJ 106 705 1]": null,
+        "[PAUSE 80][HIDE_PMEMBER ALL 6]": null,
+        "[PAUSE 70][PRESET_TELEPORT 105]": null,
+        "[SHOW_PMEMBER ALL 2]": null,
+        "[SET_FLAG TEMP_10]": null,
+        "[END]": null
+      },
+      "[GOTO_IF_TRUE L_C683DE]:C683DE": {
+        "[END]": null
+      },
+      "[CHECK_HAS_ITEM ANY FRANKLIN_BADGE][GOTO_IF_TRUE L_C9817A]:C9817A": {
+        "[OPEN_TBOX 1]": null,
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bdDo you see the Mani Mani Statue behind me...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdSince I got the statue,[PAUSE 15] I have been doing peculiar things.[WAIT][LINE_BREAK]": null,
+        "[SET_FLAG POKEY_OUTSIDE_HH_HQ]": null,
+        "; $C981C6": null,
+        "\u00ef\u00bf\u00bdPlease forgive me, if you can...[PAUSE 20]  I just wanted to have a normal life.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI apologize[PAUSE 20] to everyone.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdHere's the key to open the jail in the mountain cabin where [PRINT_NAME PAULA] is being held.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdTake the key and go.[WAIT][LINE_BREAK]": null,
+        "[SET_FLAG CARPAINTER_DEFEATED]": null,
+        "[CLR_FLAG 175]": null,
+        "[CLR_FLAG POKEY_OUTSIDE_PAULA_CABIN]": null,
+        "[SET_FLAG HH_HQ_CULTIST_1_DEFEATED]": null,
+        "[SET_FLAG HH_HQ_CULTIST_2_DEFEATED]": null,
+        "[SET_FLAG HH_HQ_CULTIST_3_DEFEATED]": null,
+        "[SET_FLAG HH_HQ_CULTIST_4_DEFEATED]": null,
+        "[SET_FLAG HH_HQ_CULTIST_5_DEFEATED]": null,
+        "[SET_FLAG HH_HQ_CULTIST_6_DEFEATED]": null,
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C9827C]:C9827C": {
+          "[SET_FLAG CARPAINTER_HAS_KEY]": null,
+          "\u00ef\u00bf\u00bdYour backpack is full...[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYou should take this even if you need to throw away one of your items.[HALT][END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT KEY_TO_THE_CABIN]": null,
+        "[GOSUB L_C7DCB6]:C7DCB6": {
+          "[PLAY_SFX 116]": null,
+          "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+          "[CLOSE_ALL_TBOXES]": null,
+          "[PLAY_SFX 102]": null,
+          "[PAUSE 100][OPEN_TBOX 1]": null,
+          "[RESTORE_REGS_GLOBAL]": null,
+          "[GOSUB L_C7DCDA]:C7DCDA": {
+            "[BACKUP_REGS_LOCAL]": null,
+            "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+            "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+              "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+              "  to [SWAP_ARG_RESULT]": null,
+              "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+            "  the [SWAP_ARG_RESULT]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+          },
+          "[END]": null
+        },
+        "[HALT][CLOSE_ALL_TBOXES]": null,
+        "[CLR_FLAG CARPAINTER_HAS_KEY]": null,
+        "[END]": null
+      },
+      "[END]": null
+    },
+    "; $C980C1": null,
+    "\u00ef\u00bf\u00bdIf you don't want to be my right hand,[PAUSE 15] my left would be just fine...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdJust kidding![PAUSE 20]  Your existence is a problem for me and my religion.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDefy me,[PAUSE 15] and I'll end your pitiful game![WAIT][GOSUB L_C6847A]:C6847A": {
+      "[CHECK_HAS_ITEM ANY FRANKLIN_BADGE][GOTO_IF_TRUE L_C684A6]:C684A6": {
+        "[CLOSE_ALL_TBOXES]": null,
+        "[PAUSE 1][PLAY_MUSIC 124]": null,
+        "[CREATE_OBJ 106 706 1]": null,
+        "[WAIT_MOVEMENT]": null,
+        "[MUSIC_EFFECT 2]": null,
+        "[OPEN_TBOX 1]": null,
+        "[CHECK_HAS_ITEM PAULA FRANKLIN_BADGE][GOTO_IF_TRUE L_C684CE]:C684CE": {
+          "\u00ef\u00bf\u00bdCarpainter's lightning was reflected by the Franklin Badge.[WAIT][CLOSE_ALL_TBOXES]": null,
+          "[START_BATTLE 454]": null,
+          "[END]": null
+        },
+        "[GOTO L_C684CE]:C684CE": {
+          "\u00ef\u00bf\u00bdCarpainter's lightning was reflected by the Franklin Badge.[WAIT][CLOSE_ALL_TBOXES]": null,
+          "[START_BATTLE 454]": null,
+          "[END]": null
+        },
+        "; $C684CE": null,
+        "\u00ef\u00bf\u00bdCarpainter's lightning was reflected by the Franklin Badge.[WAIT][CLOSE_ALL_TBOXES]": null,
+        "[START_BATTLE 454]": null,
+        "[END]": null
+      },
+      "[CLOSE_ALL_TBOXES]": null,
+      "[PAUSE 1][PLAY_MUSIC 124]": null,
+      "[CREATE_OBJ 106 705 1]": null,
+      "[PAUSE 80][HIDE_PMEMBER ALL 6]": null,
+      "[PAUSE 70][PRESET_TELEPORT 105]": null,
+      "[SHOW_PMEMBER ALL 2]": null,
+      "[SET_FLAG TEMP_10]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_TRUE L_C683DE]:C683DE": {
+      "[END]": null
+    },
+    "[CHECK_HAS_ITEM ANY FRANKLIN_BADGE][GOTO_IF_TRUE L_C9817A]:C9817A": {
+      "[OPEN_TBOX 1]": null,
+      "[START_LINE]": null,
+      "\u00ef\u00bf\u00bdDo you see the Mani Mani Statue behind me...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdSince I got the statue,[PAUSE 15] I have been doing peculiar things.[WAIT][LINE_BREAK]": null,
+      "[SET_FLAG POKEY_OUTSIDE_HH_HQ]": null,
+      "; $C981C6": null,
+      "\u00ef\u00bf\u00bdPlease forgive me, if you can...[PAUSE 20]  I just wanted to have a normal life.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI apologize[PAUSE 20] to everyone.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHere's the key to open the jail in the mountain cabin where [PRINT_NAME PAULA] is being held.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdTake the key and go.[WAIT][LINE_BREAK]": null,
+      "[SET_FLAG CARPAINTER_DEFEATED]": null,
+      "[CLR_FLAG 175]": null,
+      "[CLR_FLAG POKEY_OUTSIDE_PAULA_CABIN]": null,
+      "[SET_FLAG HH_HQ_CULTIST_1_DEFEATED]": null,
+      "[SET_FLAG HH_HQ_CULTIST_2_DEFEATED]": null,
+      "[SET_FLAG HH_HQ_CULTIST_3_DEFEATED]": null,
+      "[SET_FLAG HH_HQ_CULTIST_4_DEFEATED]": null,
+      "[SET_FLAG HH_HQ_CULTIST_5_DEFEATED]": null,
+      "[SET_FLAG HH_HQ_CULTIST_6_DEFEATED]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C9827C]:C9827C": {
+        "[SET_FLAG CARPAINTER_HAS_KEY]": null,
+        "\u00ef\u00bf\u00bdYour backpack is full...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou should take this even if you need to throw away one of your items.[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT KEY_TO_THE_CABIN]": null,
+      "[GOSUB L_C7DCB6]:C7DCB6": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+        "[CLOSE_ALL_TBOXES]": null,
+        "[PLAY_SFX 102]": null,
+        "[PAUSE 100][OPEN_TBOX 1]": null,
+        "[RESTORE_REGS_GLOBAL]": null,
+        "[GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[HALT][CLOSE_ALL_TBOXES]": null,
+      "[CLR_FLAG CARPAINTER_HAS_KEY]": null,
+      "[END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7552,
+  "y_pixel_abs": 1904,
+  "x_tile": 236,
+  "y_tile": 59,
+  "x_sector": 29,
+  "y_sector": 7,
+  "x_sector_offset": 128,
+  "y_sector_offset": 112,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_49.l_0xc98024",
+  "Text Pointer 2": "$0"
+}

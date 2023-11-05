@@ -1,0 +1,188 @@
+{
+  "Sprite": 450,
+  "sprite_label": "invisible-man",
+  "map_location_label": "Magicant_Overworld_Southwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C975CC",
+  "d1_flags": [
+    "3. set ENEMY_SUPPRESS",
+    "3. set INVISIBLE_MAN_JOINS",
+    "4. clear ENEMY_SUPPRESS"
+  ],
+  "d1_addresses": [
+    "C975F1",
+    "C9763A",
+    "C97689",
+    "C97705",
+    "C97728",
+    "C97780",
+    "C977A8",
+    "C977D1",
+    "Npc1378"
+  ],
+  "d1_text": "Npc1378:\r\n\u00ef\u00bf\u00bdCan you see me?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n[LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C9763A L_C975F1]\r\n; $C975F1\r\nL_C975F1:\r\n\u00ef\u00bf\u00bdHa ha.[LINE_BREAK]\r\n  You can, huh?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHe he.  You've become a real Moonsidian, haven't you?[HALT][SET_FLAG INVISIBLE_MAN_JOINS]\r\n[ENABLE_HOTSPOT 1 32 L_C97689]\r\n[SET_OSS_FLAG]\r\n[SET_FLAG ENEMY_SUPPRESS]\r\n[END]",
+  "d1_lines": [
+    "Npc1378:",
+    "\u00ef\u00bf\u00bdCan you see me?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    "[LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C9763A L_C975F1]",
+    "; $C975F1",
+    "L_C975F1:",
+    "\u00ef\u00bf\u00bdHa ha.[LINE_BREAK]",
+    "  You can, huh?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHe he.  You've become a real Moonsidian, haven't you?[HALT][SET_FLAG INVISIBLE_MAN_JOINS]",
+    "[ENABLE_HOTSPOT 1 32 L_C97689]",
+    "[SET_OSS_FLAG]",
+    "[SET_FLAG ENEMY_SUPPRESS]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdCan you see me?[LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    "[LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C9763A L_C975F1]:C9763A": {
+      "\u00ef\u00bf\u00bdHa ha.[LINE_BREAK]": null,
+      "  You can't?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou're definitely not from around here.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHee hee.  Get going now.[PAUSE 20]  Here's your hat, what's your hurry...[HALT][END]": null
+    },
+    "[MULTI_GOTO L_C9763A L_C975F1]:C975F1": {
+      "\u00ef\u00bf\u00bdHa ha.[LINE_BREAK]": null,
+      "  You can, huh?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHe he.  You've become a real Moonsidian, haven't you?[HALT][SET_FLAG INVISIBLE_MAN_JOINS]": null,
+      "[ENABLE_HOTSPOT 1 32 L_C97689]:C97689": {
+        "[OPEN_TBOX 1]": null,
+        "\u00ef\u00bf\u00bdHe he ha!  It's me![PAUSE 20]  You can see me, right?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThere's something interesting about you, so I'm going to follow you.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdDon't worry, though...  Heh heh...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIf you get into a fight,[PAUSE 20] I'll stay out of it...[HALT][ENABLE_HOTSPOT 1 33 L_C97705]:C97705": {
+          "[OPEN_TBOX 1]": null,
+          "\u00ef\u00bf\u00bdHeh heh.[LINE_BREAK]": null,
+          "  You can't see me... right?[HALT][ENABLE_HOTSPOT 1 34 L_C97728]:C97728": {
+            "[OPEN_TBOX 1]": null,
+            "\u00ef\u00bf\u00bdHyuk huyk.[LINE_BREAK]": null,
+            "  Hey![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdDon't you wish you had a gold tooth like mine?[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdGive me a smile!  Heh heh[HALT][ENABLE_HOTSPOT 1 35 L_C97780]:C97780": {
+              "[OPEN_TBOX 1]": null,
+              "\u00ef\u00bf\u00bd*Grin*Grin*.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdHeh heh.[HALT][DISABLE_HOTSPOT 2]": null,
+              "[ENABLE_HOTSPOT 1 37 L_C977D1]:C977D1": {},
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[END]": null
+            },
+            "[ENABLE_HOTSPOT 2 36 L_C977A8]:C977A8": {
+              "[OPEN_TBOX 1]": null,
+              "\u00ef\u00bf\u00bd*Smile*Smile*[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdHeh heh.[HALT][DISABLE_HOTSPOT 1]": null,
+              "[ENABLE_HOTSPOT 1 38 L_C977D1]:C977D1": {},
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[END]": null
+            },
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[END]": null
+          },
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[END]": null
+        },
+        "[CLOSE_FOCUS_TBOX]": null,
+        "[END]": null
+      },
+      "[SET_OSS_FLAG]": null,
+      "[SET_FLAG ENEMY_SUPPRESS]": null,
+      "[END]": null
+    },
+    "; $C975F1": null,
+    "\u00ef\u00bf\u00bdHa ha.[LINE_BREAK]": null,
+    "  You can, huh?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHe he.  You've become a real Moonsidian, haven't you?[HALT][SET_FLAG INVISIBLE_MAN_JOINS]": null,
+    "[ENABLE_HOTSPOT 1 32 L_C97689]:C97689": {
+      "[OPEN_TBOX 1]": null,
+      "\u00ef\u00bf\u00bdHe he ha!  It's me![PAUSE 20]  You can see me, right?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThere's something interesting about you, so I'm going to follow you.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDon't worry, though...  Heh heh...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIf you get into a fight,[PAUSE 20] I'll stay out of it...[HALT][ENABLE_HOTSPOT 1 33 L_C97705]:C97705": {
+        "[OPEN_TBOX 1]": null,
+        "\u00ef\u00bf\u00bdHeh heh.[LINE_BREAK]": null,
+        "  You can't see me... right?[HALT][ENABLE_HOTSPOT 1 34 L_C97728]:C97728": {
+          "[OPEN_TBOX 1]": null,
+          "\u00ef\u00bf\u00bdHyuk huyk.[LINE_BREAK]": null,
+          "  Hey![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdDon't you wish you had a gold tooth like mine?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdGive me a smile!  Heh heh[HALT][ENABLE_HOTSPOT 1 35 L_C97780]:C97780": {
+            "[OPEN_TBOX 1]": null,
+            "\u00ef\u00bf\u00bd*Grin*Grin*.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdHeh heh.[HALT][DISABLE_HOTSPOT 2]": null,
+            "[ENABLE_HOTSPOT 1 37 L_C977D1]:C977D1": {
+              "[OPEN_TBOX 1]": null,
+              "\u00ef\u00bf\u00bdUh... Heh heh...[PAUSE 20][LINE_BREAK]": null,
+              "  Yo![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdDon't you think my eyebrows rock?[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdCheck'em out... they're connected![HALT][CLOSE_FOCUS_TBOX]": null,
+              "[RESET_OSS_FLAG]": null,
+              "[CLR_FLAG ENEMY_SUPPRESS]": null,
+              "[END]": null
+            },
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[END]": null
+          },
+          "[ENABLE_HOTSPOT 2 36 L_C977A8]:C977A8": {
+            "[OPEN_TBOX 1]": null,
+            "\u00ef\u00bf\u00bd*Smile*Smile*[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdHeh heh.[HALT][DISABLE_HOTSPOT 1]": null,
+            "[ENABLE_HOTSPOT 1 38 L_C977D1]:C977D1": {
+              "[OPEN_TBOX 1]": null,
+              "\u00ef\u00bf\u00bdUh... Heh heh...[PAUSE 20][LINE_BREAK]": null,
+              "  Yo![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdDon't you think my eyebrows rock?[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdCheck'em out... they're connected![HALT][CLOSE_FOCUS_TBOX]": null,
+              "[RESET_OSS_FLAG]": null,
+              "[CLR_FLAG ENEMY_SUPPRESS]": null,
+              "[END]": null
+            },
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[END]": null
+          },
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[END]": null
+        },
+        "[CLOSE_FOCUS_TBOX]": null,
+        "[END]": null
+      },
+      "[CLOSE_FOCUS_TBOX]": null,
+      "[END]": null
+    },
+    "[SET_OSS_FLAG]": null,
+    "[SET_FLAG ENEMY_SUPPRESS]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5504,
+  "y_pixel_abs": 4456,
+  "x_tile": 172,
+  "y_tile": 139,
+  "x_sector": 21,
+  "y_sector": 17,
+  "x_sector_offset": 128,
+  "y_sector_offset": 104,
+  "Event Flag": 165,
+  "flag_label": "INVISIBLE_MAN_JOINS",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_49.l_0xc975cc",
+  "Text Pointer 2": "$0"
+}

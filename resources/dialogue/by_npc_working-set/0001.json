@@ -1,0 +1,109 @@
+{
+  "Sprite": 284,
+  "sprite_label": "monster_shark",
+  "map_location_label": "Onett_Arcade_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C74C07",
+  "d1_flags": [
+    "1. goto C74C85 if FRANKYSTEIN_MKII_DEFEATED is set",
+    "1. goto C7C588 if SHARK_GUARDING_FRANK_DEFEATED is set",
+    "3. set SHARK_GUARDING_FRANK_DEFEATED"
+  ],
+  "d1_addresses": [
+    "C683DE",
+    "C683F4",
+    "C74C49",
+    "C74C6C",
+    "C74C85",
+    "C7C588",
+    "Npc0001",
+    "Npc0463"
+  ],
+  "d1_text": "Npc0001:\r\n[GOTO_IF_FLAG SHARK_GUARDING_FRANK_DEFEATED L_C7C588]\r\n[GOTO_IF_FLAG FRANKYSTEIN_MKII_DEFEATED L_C74C85]\r\n\u00ef\u00bf\u00bdHey kid![PAUSE 20]  Do you wanna become a member?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n[LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C74C6C L_C74C49]\r\n; $C74C49\r\nL_C74C49:\r\n\u00ef\u00bf\u00bdDon't be such a snob![WAIT][GOSUB L_C683F4]\r\n[GOTO_IF_TRUE L_C683DE]\r\n[DELETE_NPC 1 6]\r\n[SET_FLAG SHARK_GUARDING_FRANK_DEFEATED]\r\n[END]",
+  "d1_lines": [
+    "Npc0001:",
+    "[GOTO_IF_FLAG SHARK_GUARDING_FRANK_DEFEATED L_C7C588]",
+    "[GOTO_IF_FLAG FRANKYSTEIN_MKII_DEFEATED L_C74C85]",
+    "\u00ef\u00bf\u00bdHey kid![PAUSE 20]  Do you wanna become a member?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    "[LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C74C6C L_C74C49]",
+    "; $C74C49",
+    "L_C74C49:",
+    "\u00ef\u00bf\u00bdDon't be such a snob![WAIT][GOSUB L_C683F4]",
+    "[GOTO_IF_TRUE L_C683DE]",
+    "[DELETE_NPC 1 6]",
+    "[SET_FLAG SHARK_GUARDING_FRANK_DEFEATED]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG SHARK_GUARDING_FRANK_DEFEATED L_C7C588]:C7C588": {
+      "[GOTO_IF_FLAG ALT_NO_TALK_TEXT Npc0463]:Npc0463": {
+        "\u00ef\u00bf\u00bd(There's no response.)[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdWho are you talking to?[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG FRANKYSTEIN_MKII_DEFEATED L_C74C85]:C74C85": {
+      "\u00ef\u00bf\u00bdHello![HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdHey kid![PAUSE 20]  Do you wanna become a member?[LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    "[LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C74C6C L_C74C49]:C74C6C": {
+      "\u00ef\u00bf\u00bdCome back after you finish EarthBound![HALT][END]": null
+    },
+    "[MULTI_GOTO L_C74C6C L_C74C49]:C74C49": {
+      "\u00ef\u00bf\u00bdDon't be such a snob![WAIT][GOSUB L_C683F4]:C683F4": {
+        "[CLOSE_ALL_TBOXES]": null,
+        "[START_BATTLE 433]": null,
+        "[END]": null
+      },
+      "[GOTO_IF_TRUE L_C683DE]:C683DE": {
+        "[END]": null
+      },
+      "[DELETE_NPC 1 6]": null,
+      "[SET_FLAG SHARK_GUARDING_FRANK_DEFEATED]": null,
+      "[END]": null
+    },
+    "; $C74C49": null,
+    "\u00ef\u00bf\u00bdDon't be such a snob![WAIT][GOSUB L_C683F4]:C683F4": {
+      "[CLOSE_ALL_TBOXES]": null,
+      "[START_BATTLE 433]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_TRUE L_C683DE]:C683DE": {
+      "[END]": null
+    },
+    "[DELETE_NPC 1 6]": null,
+    "[SET_FLAG SHARK_GUARDING_FRANK_DEFEATED]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7824,
+  "y_pixel_abs": 688,
+  "x_tile": 244,
+  "y_tile": 21,
+  "x_sector": 30,
+  "y_sector": 2,
+  "x_sector_offset": 144,
+  "y_sector_offset": 176,
+  "Event Flag": 40,
+  "flag_label": "SHARK_GUARDING_FRANK_DEFEATED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_28.l_0xc74c07",
+  "Text Pointer 2": "$0"
+}

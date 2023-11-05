@@ -1,0 +1,45 @@
+{
+  "Sprite": 69,
+  "sprite_label": "maxwell-labs",
+  "map_location_label": "Summers and Toto_Hotel (L'hotel du Summer)_1F_Lobby",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8A43D",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1016"
+  ],
+  "d1_text": "Npc1016:\r\n\u00ef\u00bf\u00bdDon't get too excited about this town.[PAUSE 20]  It's a tourist trap.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdEveryone seems to be nice,[PAUSE 15] but they're just doing it for the money.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI know from experience.[HALT][END]",
+  "d1_lines": [
+    "Npc1016:",
+    "\u00ef\u00bf\u00bdDon't get too excited about this town.[PAUSE 20]  It's a tourist trap.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdEveryone seems to be nice,[PAUSE 15] but they're just doing it for the money.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI know from experience.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdDon't get too excited about this town.[PAUSE 20]  It's a tourist trap.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdEveryone seems to be nice,[PAUSE 15] but they're just doing it for the money.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI know from experience.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7440,
+  "y_pixel_abs": 8768,
+  "x_tile": 232,
+  "y_tile": 274,
+  "x_sector": 29,
+  "y_sector": 34,
+  "x_sector_offset": 16,
+  "y_sector_offset": 64,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 12,
+  "Text Pointer 1": "data_40.l_0xc8a43d",
+  "Text Pointer 2": "$0"
+}

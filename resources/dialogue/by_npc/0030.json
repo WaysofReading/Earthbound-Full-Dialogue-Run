@@ -1,0 +1,455 @@
+{
+  "Sprite": 146,
+  "sprite_label": "tracy",
+  "map_location_label": "Onett_Ness' House_2F_Tracy's-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C66AA4",
+  "d1_flags": [
+    "1. goto C64672 if GOT_TRACY_COOKIE is set",
+    "1. goto C646FA if GIYGAS_DEFEATED is set",
+    "1. goto C66AFE if TALKED_TO_TRACY_AT_HER_ROOM is set",
+    "1. goto C66B33 if MONSTERS_IN_ONETT is set",
+    "1. goto C66BC0 if ESCARGO_EXPRESS_HAS_PAULAS_PENCIL_ERASER is set",
+    "1. goto C66C7D if ESCARGO_EXPRESS_HAS_POOS_HAWK_EYE is set",
+    "1. goto C761EB if TRACY_HAS_SOUND_STONE is set",
+    "1. goto C7625E if GIYGAS_DEFEATED is set",
+    "1. goto C76357 if 769 is set",
+    "3. set GOT_TRACY_COOKIE",
+    "3. set TALKED_TO_TRACY_AT_HER_ROOM",
+    "4. clear ESCARGO_EXPRESS_HAS_PAULAS_PENCIL_ERASER",
+    "4. clear ESCARGO_EXPRESS_HAS_POOS_HAWK_EYE",
+    "4. clear TRACY_HAS_SOUND_STONE"
+  ],
+  "d1_addresses": [
+    "C64672",
+    "C64687",
+    "C64698",
+    "C646AE",
+    "C646BB",
+    "C646FA",
+    "C6474F",
+    "C6483C",
+    "C66AFE",
+    "C66B33",
+    "C66BC0",
+    "C66BF6",
+    "C66C15",
+    "C66C7D",
+    "C66CC1",
+    "C66D2B",
+    "C761CC",
+    "C761D7",
+    "C761DD",
+    "C761EB",
+    "C7623E",
+    "C7625E",
+    "C76357",
+    "C76391",
+    "C7DC85",
+    "C7DCB6",
+    "C7DCCF",
+    "C7DCDA",
+    "C7DD03",
+    "C7DD4F",
+    "Npc0020",
+    "Npc0025",
+    "Npc0030"
+  ],
+  "d1_text": "Npc0030:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C7625E]\r\n[GOTO_IF_FLAG ESCARGO_EXPRESS_HAS_PAULAS_PENCIL_ERASER L_C66BC0]\r\n[GOTO_IF_FLAG ESCARGO_EXPRESS_HAS_POOS_HAWK_EYE L_C66C7D]\r\n[GOTO_IF_FLAG MONSTERS_IN_ONETT L_C66B33]\r\n[GOTO_IF_FLAG NESS_HOUSE_POKEY_MUSIC Npc0020]\r\n[GOTO_IF_FLAG TALKED_TO_TRACY_AT_HER_ROOM L_C66AFE]\r\n\u00ef\u00bf\u00bdHey,[PAUSE 10] bro.[PAUSE 20]  Did the sound wake you up?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWere you freaked out?[HALT][SET_FLAG TALKED_TO_TRACY_AT_HER_ROOM]\r\n[END]",
+  "d1_lines": [
+    "Npc0030:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C7625E]",
+    "[GOTO_IF_FLAG ESCARGO_EXPRESS_HAS_PAULAS_PENCIL_ERASER L_C66BC0]",
+    "[GOTO_IF_FLAG ESCARGO_EXPRESS_HAS_POOS_HAWK_EYE L_C66C7D]",
+    "[GOTO_IF_FLAG MONSTERS_IN_ONETT L_C66B33]",
+    "[GOTO_IF_FLAG NESS_HOUSE_POKEY_MUSIC Npc0020]",
+    "[GOTO_IF_FLAG TALKED_TO_TRACY_AT_HER_ROOM L_C66AFE]",
+    "\u00ef\u00bf\u00bdHey,[PAUSE 10] bro.[PAUSE 20]  Did the sound wake you up?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWere you freaked out?[HALT][SET_FLAG TALKED_TO_TRACY_AT_HER_ROOM]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C7625E]:C7625E": {
+      "[GOTO_IF_FLAG 769 L_C76357]:C76357": {
+        "\u00ef\u00bf\u00bdDo you need help with anything other than your schoolwork?[WAIT][LINE_BREAK]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        " [LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C646AE L_C76391]:C646AE": {
+          "\u00ef\u00bf\u00bdWhat do you want me to do?[LINE_BREAK]": null,
+          "; $C646BB": null,
+          "[LOAD_STRING \"Store\"]": null,
+          "[LOAD_STRING \"Check out\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C6474F L_C6483C]:C6474F": "Escargo Express - Store",
+          "[MULTI_GOTO L_C6474F L_C6483C]:C6483C": "Escargo Express - Check Out",
+          "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C646FA]:C646FA": {
+            "\u00ef\u00bf\u00bdWell, take care and talk to you later![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdOh, I said \u00ef\u00bf\u00bdtake care\u00ef\u00bf\u00bd![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdIt just slipped out of my mouth,[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdjust like I was talking to you when you were gone...[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdWell, take care and I'll talk to you later![HALT][END]": null
+        },
+        "[MULTI_GOTO L_C646AE L_C76391]:C76391": {
+          "\u00ef\u00bf\u00bdOkay,[PAUSE 15] you relax now.[HALT][END]": null
+        },
+        "; $C76391": null,
+        "\u00ef\u00bf\u00bdOkay,[PAUSE 15] you relax now.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdGoody![PAUSE 20]  My brother is back![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou've got a lot of catching up to do with your schoolwork, *Hyork*![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIf you have any problems with your assignments,[PAUSE 15] I'll help you.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDon't get freaked out.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDid Escargo Express,[PAUSE 15] my old company,[PAUSE 15] help you?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI've saved some money,[PAUSE 15] so we'll do the lunch thing sometime.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou also got a new girlfriend?[WAIT]\u00ef\u00bf\u00bdYour adventure must have been pretty good![WAIT][LINE_BREAK]": null,
+      "; $C76357": null,
+      "\u00ef\u00bf\u00bdDo you need help with anything other than your schoolwork?[WAIT][LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      " [LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C646AE L_C76391]:C646AE": {
+        "\u00ef\u00bf\u00bdWhat do you want me to do?[LINE_BREAK]": null,
+        "; $C646BB": null,
+        "[LOAD_STRING \"Store\"]": null,
+        "[LOAD_STRING \"Check out\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C6474F L_C6483C]:C6474F": "Escargo Express - Store",
+        "[MULTI_GOTO L_C6474F L_C6483C]:C6483C": "Escargo Express - Check Out",
+        "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C646FA]:C646FA": {
+          "\u00ef\u00bf\u00bdWell, take care and talk to you later![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdOh, I said \u00ef\u00bf\u00bdtake care\u00ef\u00bf\u00bd![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdIt just slipped out of my mouth,[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdjust like I was talking to you when you were gone...[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdWell, take care and I'll talk to you later![HALT][END]": null
+      },
+      "[MULTI_GOTO L_C646AE L_C76391]:C76391": {
+        "\u00ef\u00bf\u00bdOkay,[PAUSE 15] you relax now.[HALT][END]": null
+      },
+      "; $C76391": null,
+      "\u00ef\u00bf\u00bdOkay,[PAUSE 15] you relax now.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG ESCARGO_EXPRESS_HAS_PAULAS_PENCIL_ERASER L_C66BC0]:C66BC0": {
+      "\u00ef\u00bf\u00bdHey bro... you're here for the [PRINT_ITEM PENCIL_ERASER],[PAUSE 15] aren't you?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      " [LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C66C15 L_C66BF6]:C66C15": {
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C66D2B]:C66D2B": {
+          "\u00ef\u00bf\u00bdIt seems you have too many items to carry![HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdHere's the [PRINT_ITEM PENCIL_ERASER].[PAUSE 20]  What are you going to use it for?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdSorry...[PAUSE 15]  I really shouldn't inquire about a customer's private matters.[WAIT][GIVE_ITEM_RETURN_SLOT REG_RESULT PENCIL_ERASER]": null,
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][CLR_FLAG ESCARGO_EXPRESS_HAS_PAULAS_PENCIL_ERASER]": null,
+        "[END]": null
+      },
+      "[MULTI_GOTO L_C66C15 L_C66BF6]:C66BF6": {
+        "\u00ef\u00bf\u00bdOh,[PAUSE 15] you aren't?[PAUSE 20]  ...I was ready to give it to you...[HALT][END]": null
+      },
+      "; $C66BF6": null,
+      "\u00ef\u00bf\u00bdOh,[PAUSE 15] you aren't?[PAUSE 20]  ...I was ready to give it to you...[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG ESCARGO_EXPRESS_HAS_POOS_HAWK_EYE L_C66C7D]:C66C7D": {
+      "\u00ef\u00bf\u00bdHey,[PAUSE 10] bro.[PAUSE 20]  You're here for the \u00ef\u00bf\u00bd[PRINT_ITEM HAWK_EYE],\u00ef\u00bf\u00bd[PAUSE 15] aren't you?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      " [LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C66CC1 L_C66BF6]:C66CC1": {
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C66D2B]:C66D2B": {
+          "\u00ef\u00bf\u00bdIt seems you have too many items to carry![HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdHere's the \u00ef\u00bf\u00bd[PRINT_ITEM HAWK_EYE].\u00ef\u00bf\u00bd[PAUSE 20]  What are you going to use it for?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdSorry.[PAUSE 20]  I'm not supposed to inquire about a customer's private matters.[WAIT][GIVE_ITEM_RETURN_SLOT REG_RESULT HAWK_EYE]": null,
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][CLR_FLAG ESCARGO_EXPRESS_HAS_POOS_HAWK_EYE]": null,
+        "[END]": null
+      },
+      "[MULTI_GOTO L_C66CC1 L_C66BF6]:C66BF6": {
+        "\u00ef\u00bf\u00bdOh,[PAUSE 15] you aren't?[PAUSE 20]  ...I was ready to give it to you...[HALT][END]": null
+      },
+      "[GOTO L_C66BF6]:C66BF6": {
+        "\u00ef\u00bf\u00bdOh,[PAUSE 15] you aren't?[PAUSE 20]  ...I was ready to give it to you...[HALT][END]": null
+      },
+      "; $C66CC1": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C66D2B]:C66D2B": {
+        "\u00ef\u00bf\u00bdIt seems you have too many items to carry![HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdHere's the \u00ef\u00bf\u00bd[PRINT_ITEM HAWK_EYE].\u00ef\u00bf\u00bd[PAUSE 20]  What are you going to use it for?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdSorry.[PAUSE 20]  I'm not supposed to inquire about a customer's private matters.[WAIT][GIVE_ITEM_RETURN_SLOT REG_RESULT HAWK_EYE]": null,
+      "[PLAY_SFX 116]": null,
+      "[PAUSE 60][CLR_FLAG ESCARGO_EXPRESS_HAS_POOS_HAWK_EYE]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_FLAG MONSTERS_IN_ONETT L_C66B33]:C66B33": {
+      "\u00ef\u00bf\u00bdI can only help by keeping your items here...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI support you whole-heartedly.[PAUSE 20]  Don't get yourself knocked off.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...I will be strong while you're gone.[WAIT][LINE_BREAK]": null,
+      "[GOTO L_C64672]:C64672": {
+        "\u00ef\u00bf\u00bdOh, it's my line now? Ooops![LINE_BREAK]": null,
+        "; $C64687": null,
+        "[GOSUB L_C7DD4F]:C7DD4F": "Loop - Yes/No - Options",
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C646AE L_C64698]:C646AE": {
+          "\u00ef\u00bf\u00bdWhat do you want me to do?[LINE_BREAK]": null,
+          "; $C646BB": null,
+          "[LOAD_STRING \"Store\"]": null,
+          "[LOAD_STRING \"Check out\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C6474F L_C6483C]:C6474F": "Escargo Express - Store",
+          "[MULTI_GOTO L_C6474F L_C6483C]:C6483C": "Escargo Express - Check Out",
+          "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C646FA]:C646FA": {
+            "\u00ef\u00bf\u00bdWell, take care and talk to you later![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdOh, I said \u00ef\u00bf\u00bdtake care\u00ef\u00bf\u00bd![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdIt just slipped out of my mouth,[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdjust like I was talking to you when you were gone...[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdWell, take care and I'll talk to you later![HALT][END]": null
+        },
+        "[MULTI_GOTO L_C646AE L_C64698]:C64698": {
+          "\u00ef\u00bf\u00bdWhat the hey?[LINE_BREAK]": null,
+          "  Well, see you![HALT][END]": null
+        },
+        "; $C64698": null,
+        "\u00ef\u00bf\u00bdWhat the hey?[LINE_BREAK]": null,
+        "  Well, see you![HALT][END]": null
+      },
+      "; $C66B97": null,
+      "\u00ef\u00bf\u00bdSomeone's knocking at the door.[PAUSE 20]  What an annoying knock![HALT][END]": null
+    },
+    "[GOTO_IF_FLAG NESS_HOUSE_POKEY_MUSIC Npc0020]:Npc0020": {
+      "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C7625E]:C7625E": {
+        "[GOTO_IF_FLAG 769 L_C76357]:C76357": {
+          "\u00ef\u00bf\u00bdDo you need help with anything other than your schoolwork?[WAIT][LINE_BREAK]": null,
+          "[LOAD_STRING \"Yes\"]": null,
+          " [LOAD_STRING \"No\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C646AE L_C76391]:C646AE": {
+            "\u00ef\u00bf\u00bdWhat do you want me to do?[LINE_BREAK]": null,
+            "; $C646BB": null,
+            "[LOAD_STRING \"Store\"]": null,
+            "[LOAD_STRING \"Check out\"]": null,
+            "[PRINT_STRINGS_HORZ 2]": null,
+            "[CREATE_MENU]": null,
+            "[CLEAR_LINE]": null,
+            "[MULTI_GOTO L_C6474F L_C6483C]:C6474F": "Escargo Express - Store",
+            "[MULTI_GOTO L_C6474F L_C6483C]:C6483C": "Escargo Express - Check Out",
+            "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C646FA]:C646FA": {
+              "\u00ef\u00bf\u00bdWell, take care and talk to you later![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdOh, I said \u00ef\u00bf\u00bdtake care\u00ef\u00bf\u00bd![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdIt just slipped out of my mouth,[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdjust like I was talking to you when you were gone...[HALT][END]": null
+            },
+            "\u00ef\u00bf\u00bdWell, take care and I'll talk to you later![HALT][END]": null
+          },
+          "[MULTI_GOTO L_C646AE L_C76391]:C76391": {
+            "\u00ef\u00bf\u00bdOkay,[PAUSE 15] you relax now.[HALT][END]": null
+          },
+          "; $C76391": null,
+          "\u00ef\u00bf\u00bdOkay,[PAUSE 15] you relax now.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdGoody![PAUSE 20]  My brother is back![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou've got a lot of catching up to do with your schoolwork, *Hyork*![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIf you have any problems with your assignments,[PAUSE 15] I'll help you.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdDon't get freaked out.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdDid Escargo Express,[PAUSE 15] my old company,[PAUSE 15] help you?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI've saved some money,[PAUSE 15] so we'll do the lunch thing sometime.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou also got a new girlfriend?[WAIT]\u00ef\u00bf\u00bdYour adventure must have been pretty good![WAIT][LINE_BREAK]": null,
+        "; $C76357": null,
+        "\u00ef\u00bf\u00bdDo you need help with anything other than your schoolwork?[WAIT][LINE_BREAK]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        " [LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C646AE L_C76391]:C646AE": {
+          "\u00ef\u00bf\u00bdWhat do you want me to do?[LINE_BREAK]": null,
+          "; $C646BB": null,
+          "[LOAD_STRING \"Store\"]": null,
+          "[LOAD_STRING \"Check out\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C6474F L_C6483C]:C6474F": "Escargo Express - Store",
+          "[MULTI_GOTO L_C6474F L_C6483C]:C6483C": "Escargo Express - Check Out",
+          "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C646FA]:C646FA": {
+            "\u00ef\u00bf\u00bdWell, take care and talk to you later![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdOh, I said \u00ef\u00bf\u00bdtake care\u00ef\u00bf\u00bd![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdIt just slipped out of my mouth,[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdjust like I was talking to you when you were gone...[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdWell, take care and I'll talk to you later![HALT][END]": null
+        },
+        "[MULTI_GOTO L_C646AE L_C76391]:C76391": {
+          "\u00ef\u00bf\u00bdOkay,[PAUSE 15] you relax now.[HALT][END]": null
+        },
+        "; $C76391": null,
+        "\u00ef\u00bf\u00bdOkay,[PAUSE 15] you relax now.[HALT][END]": null
+      },
+      "[GOTO_IF_FLAG TRACY_HAS_SOUND_STONE L_C761EB]:C761EB": {
+        "\u00ef\u00bf\u00bdWhat?[PAUSE 20]  The Sound Stone?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI wonder when I got this from you?[PAUSE 20]  Let me give it back to you...[WAIT][LINE_BREAK]": null,
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C7623E]:C7623E": {
+          "\u00ef\u00bf\u00bdOoops![PAUSE 20]  You seem to be carrying too much stuff already![HALT][END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT SOUND_STONE]": null,
+        "[SET_FLAG GOT_TRACY_COOKIE]": null,
+        "[GOSUB L_C7DCB6]:C7DCB6": {
+          "[PLAY_SFX 116]": null,
+          "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+          "[CLOSE_ALL_TBOXES]": null,
+          "[PLAY_SFX 102]": null,
+          "[PAUSE 100][OPEN_TBOX 1]": null,
+          "[RESTORE_REGS_GLOBAL]": null,
+          "[GOSUB L_C7DCDA]:C7DCDA": {
+            "[BACKUP_REGS_LOCAL]": null,
+            "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+            "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+              "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+              "  to [SWAP_ARG_RESULT]": null,
+              "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+            "  the [SWAP_ARG_RESULT]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+          },
+          "[END]": null
+        },
+        "[HALT][CLR_FLAG TRACY_HAS_SOUND_STONE]": null,
+        "[END]": null
+      },
+      "[GOTO_IF_FLAG GOT_TRACY_COOKIE L_C64672]:C64672": {
+        "\u00ef\u00bf\u00bdOh, it's my line now? Ooops![LINE_BREAK]": null,
+        "; $C64687": null,
+        "[GOSUB L_C7DD4F]:C7DD4F": "Loop - Yes/No - Options",
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C646AE L_C64698]:C646AE": {
+          "\u00ef\u00bf\u00bdWhat do you want me to do?[LINE_BREAK]": null,
+          "; $C646BB": null,
+          "[LOAD_STRING \"Store\"]": null,
+          "[LOAD_STRING \"Check out\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C6474F L_C6483C]:C6474F": "Escargo Express - Store",
+          "[MULTI_GOTO L_C6474F L_C6483C]:C6483C": "Escargo Express - Check Out",
+          "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C646FA]:C646FA": {
+            "\u00ef\u00bf\u00bdWell, take care and talk to you later![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdOh, I said \u00ef\u00bf\u00bdtake care\u00ef\u00bf\u00bd![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdIt just slipped out of my mouth,[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdjust like I was talking to you when you were gone...[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdWell, take care and I'll talk to you later![HALT][END]": null
+        },
+        "[MULTI_GOTO L_C646AE L_C64698]:C64698": {
+          "\u00ef\u00bf\u00bdWhat the hey?[LINE_BREAK]": null,
+          "  Well, see you![HALT][END]": null
+        },
+        "; $C64698": null,
+        "\u00ef\u00bf\u00bdWhat the hey?[LINE_BREAK]": null,
+        "  Well, see you![HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdI'll do everything I can to help you![PAUSE 20]  Good luck on your adventure.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou might get hungry along the way,[PAUSE 15] so here is a [PRINT_ITEM COOKIE].[WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C761DD]:C761DD": {
+        "[START_LINE]": null,
+        "[PLAY_SFX 5]": null,
+        "\u00ef\u00bf\u00bdYou have too much stuff.[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT COOKIE]": null,
+      "[SET_FLAG GOT_TRACY_COOKIE]": null,
+      "[GOSUB L_C7DCCF]:C7DCCF": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou can also leave anything you don't need with me.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDo you want me to hang on to something?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      " [LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C761D7 L_C761CC]:C761D7": {
+        "[GOSUB L_C6474F]:C6474F": "Escargo Express - Store",
+        "[END]": null
+      },
+      "[MULTI_GOTO L_C761D7 L_C761CC]:C761CC": {
+        "\u00ef\u00bf\u00bdBe careful![HALT][END]": null
+      },
+      "; $C761CC": null,
+      "\u00ef\u00bf\u00bdBe careful![HALT][END]": null
+    },
+    "[GOTO_IF_FLAG TALKED_TO_TRACY_AT_HER_ROOM L_C66AFE]:C66AFE": {
+      "\u00ef\u00bf\u00bdDo you think Mom will let me stay up late tonight?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI can't seem to fall back asleep.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdHey,[PAUSE 10] bro.[PAUSE 20]  Did the sound wake you up?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWere you freaked out?[HALT][SET_FLAG TALKED_TO_TRACY_AT_HER_ROOM]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7568,
+  "y_pixel_abs": 728,
+  "x_tile": 236,
+  "y_tile": 22,
+  "x_sector": 29,
+  "y_sector": 2,
+  "x_sector_offset": 144,
+  "y_sector_offset": 216,
+  "Event Flag": 530,
+  "flag_label": "TRACY_NOT_AT_HER_ROOM",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_20.l_0xc66aa4",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,990 @@
+{
+  "Sprite": 176,
+  "sprite_label": "apple-kid",
+  "map_location_label": "Twoson_Apple Kid's House_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C81676",
+  "d1_flags": [
+    "1. goto C818B9 if INVESTED_IN_APPLE_KID is set",
+    "1. goto C818F1 if GOT_RECEIVER_PHONE is set",
+    "1. goto C81915 if GAVE_FOOD_TO_APPLE_KID is set",
+    "1. goto C81945 if GOT_RECEIVER_PHONE is set",
+    "1. goto C81970 if INVESTED_IN_APPLE_KID is set",
+    "1. goto C819F1 if TEMP_4 is set",
+    "3. set 522",
+    "3. set APPLE_MOUSE_BLOCKING_DOOR",
+    "3. set GAVE_FOOD_TO_APPLE_KID",
+    "3. set GOT_RECEIVER_PHONE",
+    "3. set INVESTED_IN_APPLE_KID",
+    "3. set TEMP_4",
+    "4. clear APPLE_MOUSE_BLOCKING_DOOR",
+    "4. clear TEMP_4"
+  ],
+  "d1_addresses": [
+    "C5E456",
+    "C5E48E",
+    "C5E499",
+    "C5E4C2",
+    "C5E584",
+    "C5E58B",
+    "C5E592",
+    "C5E599",
+    "C79028",
+    "C79034",
+    "C7DC85",
+    "C7DCB6",
+    "C7DCDA",
+    "C7DD03",
+    "C7DD4D",
+    "C7DD4F",
+    "C81751",
+    "C81789",
+    "C817DC",
+    "C8180C",
+    "C81848",
+    "C818A2",
+    "C818B9",
+    "C818DC",
+    "C818DD",
+    "C818F1",
+    "C81913",
+    "C81915",
+    "C81945",
+    "C81970",
+    "C819F1",
+    "C81A26",
+    "C81A5D",
+    "C81A84",
+    "Npc0221",
+    "Npc0222"
+  ],
+  "d1_text": "Npc0221:\r\n[GOTO_IF_FLAG GOT_RECEIVER_PHONE L_C818F1]\r\n[GOTO_IF_FLAG INVESTED_IN_APPLE_KID L_C818B9]\r\n[GOTO_IF_FLAG GAVE_FOOD_TO_APPLE_KID L_C81915]\r\n\u00ef\u00bf\u00bdWell,[PAUSE 15] I have sort of neglected doing my housework...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI know it's a bit of a pig sty,[PAUSE 15] but anyway...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm Apple Kid.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI haven't taken a bath in quite a while,[PAUSE 15] so I may be kind of stinky.[WAIT][LINE_BREAK]\r\n[PAUSE 60]\u00ef\u00bf\u00bdBy the way,[PAUSE 15] I'm starving.[PAUSE 20]  Do you have something to eat?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIf you do,[PAUSE 15] can I have some?[LINE_BREAK]\r\n[GOSUB L_C7DD4F]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C81789 L_C81751]\r\n; $C81751\r\nL_C81751:\r\n\u00ef\u00bf\u00bdWell, go ahead and make yourself comfortable anyway.[PAUSE 15]  You can flop down anywhere.[GOTO L_C81913]\r\n; $C81789\r\nL_C81789:\r\n\u00ef\u00bf\u00bdWhat can you give me?[WAIT][OPEN_HP_PP]\r\n[GOSUB L_C5E456]\r\n[START_LINE]\r\n[GOTO_IF_FALSE L_C81751]\r\n[BACKUP_REGS_LOCAL]\r\n[GET_INV_ITEM REG_RESULT 0][CHECK_ITEM_TYPE EDIBLE][GOTO_IF_TRUE L_C817DC]\r\n\u00ef\u00bf\u00bdPlease choose something edible... I'm not a garbage can, you know.[GOTO L_C81913]\r\n; $C817DC\r\nL_C817DC:\r\n[RESTORE_REGS_LOCAL]\r\n[REMOVE_ITEM_SLOT REG_ARGUMENT 0]\r\n[PLAY_SFX 118]\r\n[PAUSE 1]\u00ef\u00bf\u00bdThanks.[PAUSE 20]  You seem very nice.[PAUSE 20]  Uh,[PAUSE 15] I wonder if...[WAIT][LINE_BREAK]\r\n[SET_FLAG GAVE_FOOD_TO_APPLE_KID]\r\n; $C8180C\r\nL_C8180C:\r\n\u00ef\u00bf\u00bdMaybe you would like to invest some money in my inventions?[WAIT][LINE_BREAK]\r\n[GOSUB L_C7DD4F]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C81848 L_C81751]\r\n[GOTO L_C81751]\r\n; $C81848\r\nL_C81848:\r\n\u00ef\u00bf\u00bdYes![PAUSE 15]  Yes![PAUSE 15]  Yes!  Oh.[PAUSE 20]  Excuse me.  I mean thank you![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdBy the way, I could really use $200.[WAIT][LINE_BREAK]\r\n[GOSUB L_C7DD4D]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C818A2 L_C81751]\r\n[GOTO L_C81751]\r\n; $C818A2\r\nL_C818A2:\r\n[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]\r\n[REMOVE_MONEY 200]\r\n[SHOW_WALLET]\r\n[PLAY_SFX 118]\r\n[PAUSE 1]; $C818B9\r\nL_C818B9:\r\n\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]\r\n[SET_FLAG INVESTED_IN_APPLE_KID]\r\n[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]\r\n[SET_OSS_FLAG]\r\n[GOTO L_C79028]\r\n; $C818DC\r\nL_C818DC:\r\n[END]",
+  "d1_lines": [
+    "Npc0221:",
+    "[GOTO_IF_FLAG GOT_RECEIVER_PHONE L_C818F1]",
+    "[GOTO_IF_FLAG INVESTED_IN_APPLE_KID L_C818B9]",
+    "[GOTO_IF_FLAG GAVE_FOOD_TO_APPLE_KID L_C81915]",
+    "\u00ef\u00bf\u00bdWell,[PAUSE 15] I have sort of neglected doing my housework...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI know it's a bit of a pig sty,[PAUSE 15] but anyway...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm Apple Kid.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI haven't taken a bath in quite a while,[PAUSE 15] so I may be kind of stinky.[WAIT][LINE_BREAK]",
+    "[PAUSE 60]\u00ef\u00bf\u00bdBy the way,[PAUSE 15] I'm starving.[PAUSE 20]  Do you have something to eat?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIf you do,[PAUSE 15] can I have some?[LINE_BREAK]",
+    "[GOSUB L_C7DD4F]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C81789 L_C81751]",
+    "; $C81751",
+    "L_C81751:",
+    "\u00ef\u00bf\u00bdWell, go ahead and make yourself comfortable anyway.[PAUSE 15]  You can flop down anywhere.[GOTO L_C81913]",
+    "; $C81789",
+    "L_C81789:",
+    "\u00ef\u00bf\u00bdWhat can you give me?[WAIT][OPEN_HP_PP]",
+    "[GOSUB L_C5E456]",
+    "[START_LINE]",
+    "[GOTO_IF_FALSE L_C81751]",
+    "[BACKUP_REGS_LOCAL]",
+    "[GET_INV_ITEM REG_RESULT 0][CHECK_ITEM_TYPE EDIBLE][GOTO_IF_TRUE L_C817DC]",
+    "\u00ef\u00bf\u00bdPlease choose something edible... I'm not a garbage can, you know.[GOTO L_C81913]",
+    "; $C817DC",
+    "L_C817DC:",
+    "[RESTORE_REGS_LOCAL]",
+    "[REMOVE_ITEM_SLOT REG_ARGUMENT 0]",
+    "[PLAY_SFX 118]",
+    "[PAUSE 1]\u00ef\u00bf\u00bdThanks.[PAUSE 20]  You seem very nice.[PAUSE 20]  Uh,[PAUSE 15] I wonder if...[WAIT][LINE_BREAK]",
+    "[SET_FLAG GAVE_FOOD_TO_APPLE_KID]",
+    "; $C8180C",
+    "L_C8180C:",
+    "\u00ef\u00bf\u00bdMaybe you would like to invest some money in my inventions?[WAIT][LINE_BREAK]",
+    "[GOSUB L_C7DD4F]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C81848 L_C81751]",
+    "[GOTO L_C81751]",
+    "; $C81848",
+    "L_C81848:",
+    "\u00ef\u00bf\u00bdYes![PAUSE 15]  Yes![PAUSE 15]  Yes!  Oh.[PAUSE 20]  Excuse me.  I mean thank you![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdBy the way, I could really use $200.[WAIT][LINE_BREAK]",
+    "[GOSUB L_C7DD4D]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C818A2 L_C81751]",
+    "[GOTO L_C81751]",
+    "; $C818A2",
+    "L_C818A2:",
+    "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]",
+    "[REMOVE_MONEY 200]",
+    "[SHOW_WALLET]",
+    "[PLAY_SFX 118]",
+    "[PAUSE 1]; $C818B9",
+    "L_C818B9:",
+    "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]",
+    "[SET_FLAG INVESTED_IN_APPLE_KID]",
+    "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]",
+    "[SET_OSS_FLAG]",
+    "[GOTO L_C79028]",
+    "; $C818DC",
+    "L_C818DC:",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GOT_RECEIVER_PHONE L_C818F1]:C818F1": {
+      "\u00ef\u00bf\u00bdMaybe you shouldn't spend too much time wandering around Twoson.; $C81913": null,
+      "[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG INVESTED_IN_APPLE_KID L_C818B9]:C818B9": {
+      "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]": null,
+      "[SET_FLAG INVESTED_IN_APPLE_KID]": null,
+      "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+      "[SET_OSS_FLAG]": null,
+      "[GOTO L_C79028]:C79028": {
+        "[SET_NPC_MOVEMENT_SCRIPT 222 101]": null,
+        "[WAIT_MOVEMENT]": null,
+        "[SET_FLAG TEMP_4]": null,
+        "[END]": null
+      },
+      "; $C818DC": null,
+      "[END]": null
+    },
+    "[GOTO_IF_FLAG GAVE_FOOD_TO_APPLE_KID L_C81915]:C81915": {
+      "\u00ef\u00bf\u00bdIt seems like you are expecting something from me.[WAIT][LINE_BREAK]": null,
+      "[GOTO L_C8180C]:C8180C": {
+        "\u00ef\u00bf\u00bdMaybe you would like to invest some money in my inventions?[WAIT][LINE_BREAK]": null,
+        "[GOSUB L_C7DD4F]:C7DD4F": "Loop - Yes/No - Options",
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C81848 L_C81751]:C81848": {
+          "\u00ef\u00bf\u00bdYes![PAUSE 15]  Yes![PAUSE 15]  Yes!  Oh.[PAUSE 20]  Excuse me.  I mean thank you![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdBy the way, I could really use $200.[WAIT][LINE_BREAK]": null,
+          "[GOSUB L_C7DD4D]:C7DD4D": {
+            "[SHOW_WALLET]": null,
+            "; $C7DD4F": null,
+            "[LOAD_STRING \"Yes\"]": null,
+            "[LOAD_STRING \"No\"]": null,
+            "[PRINT_STRINGS_HORZ 2]": null,
+            "[END]": null
+          },
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C818A2 L_C81751]:C818A2": {
+            "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]:C818DD": {
+              "\u00ef\u00bf\u00bdOh, you don't have any money, do you?[WAIT][LINE_BREAK]": null,
+              "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+              "; $C818F1": null,
+              "\u00ef\u00bf\u00bdMaybe you shouldn't spend too much time wandering around Twoson.; $C81913": null,
+              "[HALT][END]": null
+            },
+            "[REMOVE_MONEY 200]": null,
+            "[SHOW_WALLET]": null,
+            "[PLAY_SFX 118]": null,
+            "[PAUSE 1]; $C818B9": null,
+            "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[SET_FLAG INVESTED_IN_APPLE_KID]": null,
+            "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+            "[SET_OSS_FLAG]": null,
+            "[GOTO L_C79028]:C79028": {
+              "[SET_NPC_MOVEMENT_SCRIPT 222 101]": null,
+              "[WAIT_MOVEMENT]": null,
+              "[SET_FLAG TEMP_4]": null,
+              "[END]": null
+            },
+            "; $C818DC": null,
+            "[END]": null
+          },
+          "[MULTI_GOTO L_C818A2 L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+          "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+          "; $C818A2": null,
+          "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]:C818DD": {
+            "\u00ef\u00bf\u00bdOh, you don't have any money, do you?[WAIT][LINE_BREAK]": null,
+            "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+            "; $C818F1": null,
+            "\u00ef\u00bf\u00bdMaybe you shouldn't spend too much time wandering around Twoson.; $C81913": null,
+            "[HALT][END]": null
+          },
+          "[REMOVE_MONEY 200]": null,
+          "[SHOW_WALLET]": null,
+          "[PLAY_SFX 118]": null,
+          "[PAUSE 1]; $C818B9": null,
+          "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]": null,
+          "[SET_FLAG INVESTED_IN_APPLE_KID]": null,
+          "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+          "[SET_OSS_FLAG]": null,
+          "[GOTO L_C79028]:C79028": {
+            "[SET_NPC_MOVEMENT_SCRIPT 222 101]": null,
+            "[WAIT_MOVEMENT]": null,
+            "[SET_FLAG TEMP_4]": null,
+            "[END]": null
+          },
+          "; $C818DC": null,
+          "[END]": null
+        },
+        "[MULTI_GOTO L_C81848 L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+        "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+        "; $C81848": null,
+        "\u00ef\u00bf\u00bdYes![PAUSE 15]  Yes![PAUSE 15]  Yes!  Oh.[PAUSE 20]  Excuse me.  I mean thank you![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdBy the way, I could really use $200.[WAIT][LINE_BREAK]": null,
+        "[GOSUB L_C7DD4D]:C7DD4D": {
+          "[SHOW_WALLET]": null,
+          "; $C7DD4F": null,
+          "[LOAD_STRING \"Yes\"]": null,
+          "[LOAD_STRING \"No\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[END]": null
+        },
+        "[MULTI_GOTO L_C818A2 L_C81751]:C818A2": {
+          "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]:C818DD": {
+            "\u00ef\u00bf\u00bdOh, you don't have any money, do you?[WAIT][LINE_BREAK]": null,
+            "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+            "; $C818F1": null,
+            "\u00ef\u00bf\u00bdMaybe you shouldn't spend too much time wandering around Twoson.; $C81913": null,
+            "[HALT][END]": null
+          },
+          "[REMOVE_MONEY 200]": null,
+          "[SHOW_WALLET]": null,
+          "[PLAY_SFX 118]": null,
+          "[PAUSE 1]; $C818B9": null,
+          "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]": null,
+          "[SET_FLAG INVESTED_IN_APPLE_KID]": null,
+          "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+          "[SET_OSS_FLAG]": null,
+          "[GOTO L_C79028]:C79028": {
+            "[SET_NPC_MOVEMENT_SCRIPT 222 101]": null,
+            "[WAIT_MOVEMENT]": null,
+            "[SET_FLAG TEMP_4]": null,
+            "[END]": null
+          },
+          "; $C818DC": null,
+          "[END]": null
+        },
+        "[MULTI_GOTO L_C818A2 L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+        "; $C818A2": null,
+        "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]:C818DD": {
+          "\u00ef\u00bf\u00bdOh, you don't have any money, do you?[WAIT][LINE_BREAK]": null,
+          "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+          "; $C818F1": null,
+          "\u00ef\u00bf\u00bdMaybe you shouldn't spend too much time wandering around Twoson.; $C81913": null,
+          "[HALT][END]": null
+        },
+        "[REMOVE_MONEY 200]": null,
+        "[SHOW_WALLET]": null,
+        "[PLAY_SFX 118]": null,
+        "[PAUSE 1]; $C818B9": null,
+        "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]": null,
+        "[SET_FLAG INVESTED_IN_APPLE_KID]": null,
+        "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+        "[SET_OSS_FLAG]": null,
+        "[GOTO L_C79028]:C79028": {
+          "[SET_NPC_MOVEMENT_SCRIPT 222 101]": null,
+          "[WAIT_MOVEMENT]": null,
+          "[SET_FLAG TEMP_4]": null,
+          "[END]": null
+        },
+        "; $C818DC": null,
+        "[END]": null
+      },
+      "; $C81934": null,
+      "[CLR_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+      "[GOTO_IF_FLAG GOT_RECEIVER_PHONE L_C81945]:C81945": {
+        "\u00ef\u00bf\u00bdI am a mouse.[PAUSE 20]  No one has given me a name yet.[GOTO_IF_FLAG TEMP_4 L_C819F1]:C819F1": {
+          "[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdOh! [PAUSE 20] I must be in your way![PAUSE 10] *zziipp!*[WAIT][CLOSE_ALL_TBOXES]": null,
+          "[GOSUB L_C81A5D]:C81A5D": {
+            "[GET_DIR_FROM_PMEMBER LEADER NPC 222][SWAP_ARG_RESULT]": null,
+            "[BACKUP_REGS_LOCAL]": null,
+            "[CHECK_EQUAL 1][GOTO_IF_TRUE L_C81A84]:C81A84": {
+              "[SET_FLAG 522]": null,
+              "[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[CHECK_EQUAL 2][GOTO_IF_TRUE L_C81A84]:C81A84": {
+              "[SET_FLAG 522]": null,
+              "[END]": null
+            },
+            "[CHECK_EQUAL 8][GOTO_IF_TRUE L_C81A84]:C81A84": {
+              "[SET_FLAG 522]": null,
+              "[END]": null
+            },
+            "[END]": null
+          },
+          "[GOSUB L_C79034]:C79034": {
+            "[SET_NPC_MOVEMENT_SCRIPT 222 604]": null,
+            "[END]": null
+          },
+          "[CLR_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+          "[CLR_FLAG TEMP_4]": null,
+          "[END]": null
+        },
+        "[HALT][END]": null
+      },
+      "[GOTO_IF_FLAG INVESTED_IN_APPLE_KID L_C81970]:C81970": {
+        "[RESET_OSS_FLAG]": null,
+        "\u00ef\u00bf\u00bdI am a mouse.[PAUSE 20]  No one has given me a name yet.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou took care of my master.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIn return,[PAUSE 15] I want to give you this.[PAUSE 20]  Please take it and say nothing.[WAIT][INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C81A26]:C81A26": {
+          "[PAUSE 60][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdUnfortunately,[PAUSE 15] you have too many items.[PAUSE 20]  Therefore, I can't give this to you.[GOTO_IF_FLAG TEMP_4 L_C819F1]:C819F1": {
+            "[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdOh! [PAUSE 20] I must be in your way![PAUSE 10] *zziipp!*[WAIT][CLOSE_ALL_TBOXES]": null,
+            "[GOSUB L_C81A5D]:C81A5D": {
+              "[GET_DIR_FROM_PMEMBER LEADER NPC 222][SWAP_ARG_RESULT]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[CHECK_EQUAL 1][GOTO_IF_TRUE L_C81A84]:C81A84": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[CHECK_EQUAL 2][GOTO_IF_TRUE L_C81A84]:C81A84": {},
+              "[CHECK_EQUAL 8][GOTO_IF_TRUE L_C81A84]:C81A84": {},
+              "[END]": null
+            },
+            "[GOSUB L_C79034]:C79034": {
+              "[SET_NPC_MOVEMENT_SCRIPT 222 604]": null,
+              "[END]": null
+            },
+            "[CLR_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+            "[CLR_FLAG TEMP_4]": null,
+            "[END]": null
+          },
+          "[HALT][END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT RECEIVER_PHONE]": null,
+        "[GOSUB L_C7DCB6]:C7DCB6": {
+          "[PLAY_SFX 116]": null,
+          "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+          "[CLOSE_ALL_TBOXES]": null,
+          "[PLAY_SFX 102]": null,
+          "[PAUSE 100][OPEN_TBOX 1]": null,
+          "[RESTORE_REGS_GLOBAL]": null,
+          "[GOSUB L_C7DCDA]:C7DCDA": {
+            "[BACKUP_REGS_LOCAL]": null,
+            "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+            "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+              "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+              "  to [SWAP_ARG_RESULT]": null,
+              "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+            "  the [SWAP_ARG_RESULT]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+          },
+          "[END]": null
+        },
+        "[SET_FLAG GOT_RECEIVER_PHONE]": null,
+        "[GOTO_IF_FLAG TEMP_4 L_C819F1]:C819F1": {
+          "[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdOh! [PAUSE 20] I must be in your way![PAUSE 10] *zziipp!*[WAIT][CLOSE_ALL_TBOXES]": null,
+          "[GOSUB L_C81A5D]:C81A5D": {
+            "[GET_DIR_FROM_PMEMBER LEADER NPC 222][SWAP_ARG_RESULT]": null,
+            "[BACKUP_REGS_LOCAL]": null,
+            "[CHECK_EQUAL 1][GOTO_IF_TRUE L_C81A84]:C81A84": {
+              "[SET_FLAG 522]": null,
+              "[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[CHECK_EQUAL 2][GOTO_IF_TRUE L_C81A84]:C81A84": {
+              "[SET_FLAG 522]": null,
+              "[END]": null
+            },
+            "[CHECK_EQUAL 8][GOTO_IF_TRUE L_C81A84]:C81A84": {
+              "[SET_FLAG 522]": null,
+              "[END]": null
+            },
+            "[END]": null
+          },
+          "[GOSUB L_C79034]:C79034": {
+            "[SET_NPC_MOVEMENT_SCRIPT 222 604]": null,
+            "[END]": null
+          },
+          "[CLR_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+          "[CLR_FLAG TEMP_4]": null,
+          "[END]": null
+        },
+        "[HALT][END]": null
+      },
+      "; $C81945": null,
+      "\u00ef\u00bf\u00bdI am a mouse.[PAUSE 20]  No one has given me a name yet.[GOTO_IF_FLAG TEMP_4 L_C819F1]:C819F1": {
+        "[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdOh! [PAUSE 20] I must be in your way![PAUSE 10] *zziipp!*[WAIT][CLOSE_ALL_TBOXES]": null,
+        "[GOSUB L_C81A5D]:C81A5D": {
+          "[GET_DIR_FROM_PMEMBER LEADER NPC 222][SWAP_ARG_RESULT]": null,
+          "[BACKUP_REGS_LOCAL]": null,
+          "[CHECK_EQUAL 1][GOTO_IF_TRUE L_C81A84]:C81A84": {
+            "[SET_FLAG 522]": null,
+            "[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[CHECK_EQUAL 2][GOTO_IF_TRUE L_C81A84]:C81A84": {
+            "[SET_FLAG 522]": null,
+            "[END]": null
+          },
+          "[CHECK_EQUAL 8][GOTO_IF_TRUE L_C81A84]:C81A84": {
+            "[SET_FLAG 522]": null,
+            "[END]": null
+          },
+          "[END]": null
+        },
+        "[GOSUB L_C79034]:C79034": {
+          "[SET_NPC_MOVEMENT_SCRIPT 222 604]": null,
+          "[END]": null
+        },
+        "[CLR_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+        "[CLR_FLAG TEMP_4]": null,
+        "[END]": null
+      },
+      "[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdWell,[PAUSE 15] I have sort of neglected doing my housework...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI know it's a bit of a pig sty,[PAUSE 15] but anyway...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm Apple Kid.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI haven't taken a bath in quite a while,[PAUSE 15] so I may be kind of stinky.[WAIT][LINE_BREAK]": null,
+    "[PAUSE 60]\u00ef\u00bf\u00bdBy the way,[PAUSE 15] I'm starving.[PAUSE 20]  Do you have something to eat?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIf you do,[PAUSE 15] can I have some?[LINE_BREAK]": null,
+    "[GOSUB L_C7DD4F]:C7DD4F": "Loop - Yes/No - Options",
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C81789 L_C81751]:C81789": "Loop - Apple Kid Give Food Menu",
+    "[MULTI_GOTO L_C81789 L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+    "; $C81751": null,
+    "\u00ef\u00bf\u00bdWell, go ahead and make yourself comfortable anyway.[PAUSE 15]  You can flop down anywhere.[GOTO L_C81913]:C81913": {
+      "[HALT][END]": null
+    },
+    "; $C81789": null,
+    "\u00ef\u00bf\u00bdWhat can you give me?[WAIT][OPEN_HP_PP]": null,
+    "[GOSUB L_C5E456]:C5E456": {
+      "[OPEN_HP_PP]": null,
+      "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {
+        "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+        "[SAVE_TBOX_CTX]": null,
+        "[RESTORE_REGS_GLOBAL]": null,
+        "[DISPLAY_INV 2 REG_ARGUMENT]": null,
+        "[MENU_TBOX 2]": null,
+        "[BACKUP_REGS_GLOBAL]": null,
+        "[SET_FOCUS_TBOX 2]": null,
+        "[CLOSE_FOCUS_TBOX]": null,
+        "[SET_FOCUS_TBOX 1]": null,
+        "[GOTO_IF_FALSE L_C5E4C2]:C5E4C2": {
+          "[END]": null
+        },
+        "[SWAP_ARG_RESULT]": null,
+        "[END]": null
+      },
+      "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {
+        "[SAVE_TBOX_CTX]": null,
+        "[DISPLAY_INV 2 NESS]": null,
+        "[END]": null
+      },
+      "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {
+        "[SAVE_TBOX_CTX]": null,
+        "[DISPLAY_INV 2 PAULA]": null,
+        "[END]": null
+      },
+      "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {
+        "[SAVE_TBOX_CTX]": null,
+        "[DISPLAY_INV 2 JEFF]": null,
+        "[END]": null
+      },
+      "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {
+        "[SAVE_TBOX_CTX]": null,
+        "[DISPLAY_INV 2 POO]": null,
+        "[END]": null
+      },
+      "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {
+        "[SET_FOCUS_TBOX 2]": null,
+        "[CLOSE_FOCUS_TBOX]": null,
+        "[SET_FOCUS_TBOX 1]": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[END]": null
+      },
+      "[GET_TBOX_OPTION_COUNT 2]": null,
+      "[GOTO_IF_FALSE L_C5E456]:C5E456": {
+        "[OPEN_HP_PP]": null,
+        "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {
+          "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+          "[SAVE_TBOX_CTX]": null,
+          "[RESTORE_REGS_GLOBAL]": null,
+          "[DISPLAY_INV 2 REG_ARGUMENT]": null,
+          "[MENU_TBOX 2]": null,
+          "[BACKUP_REGS_GLOBAL]": null,
+          "[SET_FOCUS_TBOX 2]": null,
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[SET_FOCUS_TBOX 1]": null,
+          "[GOTO_IF_FALSE L_C5E4C2]:C5E4C2": {
+            "[END]": null
+          },
+          "[SWAP_ARG_RESULT]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 NESS]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 PAULA]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 JEFF]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 POO]": null,
+          "[END]": null
+        },
+        "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {
+          "[SET_FOCUS_TBOX 2]": null,
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[SET_FOCUS_TBOX 1]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[END]": null
+        },
+        "[GET_TBOX_OPTION_COUNT 2]": null,
+        "[GOTO_IF_FALSE L_C5E456]:C5E456": {
+          "[OPEN_HP_PP]": null,
+          "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {
+            "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+            "[SAVE_TBOX_CTX]": null,
+            "[RESTORE_REGS_GLOBAL]": null,
+            "[DISPLAY_INV 2 REG_ARGUMENT]": null,
+            "[MENU_TBOX 2]": null,
+            "[BACKUP_REGS_GLOBAL]": null,
+            "[SET_FOCUS_TBOX 2]": null,
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[SET_FOCUS_TBOX 1]": null,
+            "[GOTO_IF_FALSE L_C5E4C2]:C5E4C2": {
+              "[END]": null
+            },
+            "[SWAP_ARG_RESULT]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 NESS]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 PAULA]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 JEFF]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 POO]": null,
+            "[END]": null
+          },
+          "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {
+            "[SET_FOCUS_TBOX 2]": null,
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[SET_FOCUS_TBOX 1]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[END]": null
+          },
+          "[GET_TBOX_OPTION_COUNT 2]": null,
+          "[GOTO_IF_FALSE L_C5E456]:C5E456": {
+            "[OPEN_HP_PP]": null,
+            "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {
+              "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+              "[SAVE_TBOX_CTX]": null,
+              "[RESTORE_REGS_GLOBAL]": null,
+              "[DISPLAY_INV 2 REG_ARGUMENT]": null,
+              "[MENU_TBOX 2]": null,
+              "[BACKUP_REGS_GLOBAL]": null,
+              "[SET_FOCUS_TBOX 2]": null,
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[SET_FOCUS_TBOX 1]": null,
+              "[GOTO_IF_FALSE L_C5E4C2]:C5E4C2": {},
+              "[SWAP_ARG_RESULT]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 NESS]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 PAULA]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 JEFF]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 POO]": null,
+              "[END]": null
+            },
+            "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {
+              "[SET_FOCUS_TBOX 2]": null,
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[SET_FOCUS_TBOX 1]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[END]": null
+            },
+            "[GET_TBOX_OPTION_COUNT 2]": null,
+            "[GOTO_IF_FALSE L_C5E456]:C5E456": {
+              "[OPEN_HP_PP]": null,
+              "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {},
+              "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {},
+              "[GET_TBOX_OPTION_COUNT 2]": null,
+              "[GOTO_IF_FALSE L_C5E456]:C5E456": {},
+              "[MENU_TBOX 2]": null,
+              "; $C5E48E": null,
+              "[SET_FOCUS_TBOX 2]": null,
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[SET_FOCUS_TBOX 1]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[END]": null
+            },
+            "[MENU_TBOX 2]": null,
+            "; $C5E48E": null,
+            "[SET_FOCUS_TBOX 2]": null,
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[SET_FOCUS_TBOX 1]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[END]": null
+          },
+          "[MENU_TBOX 2]": null,
+          "; $C5E48E": null,
+          "[SET_FOCUS_TBOX 2]": null,
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[SET_FOCUS_TBOX 1]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[END]": null
+        },
+        "[MENU_TBOX 2]": null,
+        "; $C5E48E": null,
+        "[SET_FOCUS_TBOX 2]": null,
+        "[CLOSE_FOCUS_TBOX]": null,
+        "[SET_FOCUS_TBOX 1]": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[END]": null
+      },
+      "[MENU_TBOX 2]": null,
+      "; $C5E48E": null,
+      "[SET_FOCUS_TBOX 2]": null,
+      "[CLOSE_FOCUS_TBOX]": null,
+      "[SET_FOCUS_TBOX 1]": null,
+      "[SWAP_ARG_RESULT]": null,
+      "[END]": null
+    },
+    "[START_LINE]": null,
+    "[GOTO_IF_FALSE L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+    "[BACKUP_REGS_LOCAL]": null,
+    "[GET_INV_ITEM REG_RESULT 0][CHECK_ITEM_TYPE EDIBLE][GOTO_IF_TRUE L_C817DC]:C817DC": {
+      "[RESTORE_REGS_LOCAL]": null,
+      "[REMOVE_ITEM_SLOT REG_ARGUMENT 0]": null,
+      "[PLAY_SFX 118]": null,
+      "[PAUSE 1]\u00ef\u00bf\u00bdThanks.[PAUSE 20]  You seem very nice.[PAUSE 20]  Uh,[PAUSE 15] I wonder if...[WAIT][LINE_BREAK]": null,
+      "[SET_FLAG GAVE_FOOD_TO_APPLE_KID]": null,
+      "; $C8180C": null,
+      "\u00ef\u00bf\u00bdMaybe you would like to invest some money in my inventions?[WAIT][LINE_BREAK]": null,
+      "[GOSUB L_C7DD4F]:C7DD4F": "Loop - Yes/No - Options",
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C81848 L_C81751]:C81848": {
+        "\u00ef\u00bf\u00bdYes![PAUSE 15]  Yes![PAUSE 15]  Yes!  Oh.[PAUSE 20]  Excuse me.  I mean thank you![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdBy the way, I could really use $200.[WAIT][LINE_BREAK]": null,
+        "[GOSUB L_C7DD4D]:C7DD4D": {
+          "[SHOW_WALLET]": null,
+          "; $C7DD4F": null,
+          "[LOAD_STRING \"Yes\"]": null,
+          "[LOAD_STRING \"No\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[END]": null
+        },
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C818A2 L_C81751]:C818A2": {
+          "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]:C818DD": {
+            "\u00ef\u00bf\u00bdOh, you don't have any money, do you?[WAIT][LINE_BREAK]": null,
+            "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+            "; $C818F1": null,
+            "\u00ef\u00bf\u00bdMaybe you shouldn't spend too much time wandering around Twoson.; $C81913": null,
+            "[HALT][END]": null
+          },
+          "[REMOVE_MONEY 200]": null,
+          "[SHOW_WALLET]": null,
+          "[PLAY_SFX 118]": null,
+          "[PAUSE 1]; $C818B9": null,
+          "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]": null,
+          "[SET_FLAG INVESTED_IN_APPLE_KID]": null,
+          "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+          "[SET_OSS_FLAG]": null,
+          "[GOTO L_C79028]:C79028": {
+            "[SET_NPC_MOVEMENT_SCRIPT 222 101]": null,
+            "[WAIT_MOVEMENT]": null,
+            "[SET_FLAG TEMP_4]": null,
+            "[END]": null
+          },
+          "; $C818DC": null,
+          "[END]": null
+        },
+        "[MULTI_GOTO L_C818A2 L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+        "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+        "; $C818A2": null,
+        "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]:C818DD": {
+          "\u00ef\u00bf\u00bdOh, you don't have any money, do you?[WAIT][LINE_BREAK]": null,
+          "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+          "; $C818F1": null,
+          "\u00ef\u00bf\u00bdMaybe you shouldn't spend too much time wandering around Twoson.; $C81913": null,
+          "[HALT][END]": null
+        },
+        "[REMOVE_MONEY 200]": null,
+        "[SHOW_WALLET]": null,
+        "[PLAY_SFX 118]": null,
+        "[PAUSE 1]; $C818B9": null,
+        "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]": null,
+        "[SET_FLAG INVESTED_IN_APPLE_KID]": null,
+        "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+        "[SET_OSS_FLAG]": null,
+        "[GOTO L_C79028]:C79028": {
+          "[SET_NPC_MOVEMENT_SCRIPT 222 101]": null,
+          "[WAIT_MOVEMENT]": null,
+          "[SET_FLAG TEMP_4]": null,
+          "[END]": null
+        },
+        "; $C818DC": null,
+        "[END]": null
+      },
+      "[MULTI_GOTO L_C81848 L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+      "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+      "; $C81848": null,
+      "\u00ef\u00bf\u00bdYes![PAUSE 15]  Yes![PAUSE 15]  Yes!  Oh.[PAUSE 20]  Excuse me.  I mean thank you![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdBy the way, I could really use $200.[WAIT][LINE_BREAK]": null,
+      "[GOSUB L_C7DD4D]:C7DD4D": {
+        "[SHOW_WALLET]": null,
+        "; $C7DD4F": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        "[LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[END]": null
+      },
+      "[MULTI_GOTO L_C818A2 L_C81751]:C818A2": {
+        "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]:C818DD": {
+          "\u00ef\u00bf\u00bdOh, you don't have any money, do you?[WAIT][LINE_BREAK]": null,
+          "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+          "; $C818F1": null,
+          "\u00ef\u00bf\u00bdMaybe you shouldn't spend too much time wandering around Twoson.; $C81913": null,
+          "[HALT][END]": null
+        },
+        "[REMOVE_MONEY 200]": null,
+        "[SHOW_WALLET]": null,
+        "[PLAY_SFX 118]": null,
+        "[PAUSE 1]; $C818B9": null,
+        "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]": null,
+        "[SET_FLAG INVESTED_IN_APPLE_KID]": null,
+        "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+        "[SET_OSS_FLAG]": null,
+        "[GOTO L_C79028]:C79028": {
+          "[SET_NPC_MOVEMENT_SCRIPT 222 101]": null,
+          "[WAIT_MOVEMENT]": null,
+          "[SET_FLAG TEMP_4]": null,
+          "[END]": null
+        },
+        "; $C818DC": null,
+        "[END]": null
+      },
+      "[MULTI_GOTO L_C818A2 L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+      "; $C818A2": null,
+      "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]:C818DD": {
+        "\u00ef\u00bf\u00bdOh, you don't have any money, do you?[WAIT][LINE_BREAK]": null,
+        "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+        "; $C818F1": null,
+        "\u00ef\u00bf\u00bdMaybe you shouldn't spend too much time wandering around Twoson.; $C81913": null,
+        "[HALT][END]": null
+      },
+      "[REMOVE_MONEY 200]": null,
+      "[SHOW_WALLET]": null,
+      "[PAUSE 1]; $C818B9": null,
+      "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]": null,
+      "[SET_FLAG INVESTED_IN_APPLE_KID]": null,
+      "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+      "[SET_OSS_FLAG]": null,
+      "[GOTO L_C79028]:C79028": {
+        "[SET_NPC_MOVEMENT_SCRIPT 222 101]": null,
+        "[WAIT_MOVEMENT]": null,
+        "[SET_FLAG TEMP_4]": null,
+        "[END]": null
+      },
+      "; $C818DC": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdPlease choose something edible... I'm not a garbage can, you know.[GOTO L_C81913]:C81913": {
+      "[HALT][END]": null
+    },
+    "; $C817DC": null,
+    "[RESTORE_REGS_LOCAL]": null,
+    "[REMOVE_ITEM_SLOT REG_ARGUMENT 0]": null,
+    "[PLAY_SFX 118]": null,
+    "[PAUSE 1]\u00ef\u00bf\u00bdThanks.[PAUSE 20]  You seem very nice.[PAUSE 20]  Uh,[PAUSE 15] I wonder if...[WAIT][LINE_BREAK]": null,
+    "[SET_FLAG GAVE_FOOD_TO_APPLE_KID]": null,
+    "; $C8180C": null,
+    "\u00ef\u00bf\u00bdMaybe you would like to invest some money in my inventions?[WAIT][LINE_BREAK]": null,
+    "[MULTI_GOTO L_C81848 L_C81751]:C81848": {
+      "\u00ef\u00bf\u00bdYes![PAUSE 15]  Yes![PAUSE 15]  Yes!  Oh.[PAUSE 20]  Excuse me.  I mean thank you![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdBy the way, I could really use $200.[WAIT][LINE_BREAK]": null,
+      "[GOSUB L_C7DD4D]:C7DD4D": {
+        "[SHOW_WALLET]": null,
+        "; $C7DD4F": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        "[LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[END]": null
+      },
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C818A2 L_C81751]:C818A2": {
+        "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]:C818DD": {
+          "\u00ef\u00bf\u00bdOh, you don't have any money, do you?[WAIT][LINE_BREAK]": null,
+          "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+          "; $C818F1": null,
+          "\u00ef\u00bf\u00bdMaybe you shouldn't spend too much time wandering around Twoson.; $C81913": null,
+          "[HALT][END]": null
+        },
+        "[REMOVE_MONEY 200]": null,
+        "[SHOW_WALLET]": null,
+        "[PLAY_SFX 118]": null,
+        "[PAUSE 1]; $C818B9": null,
+        "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]": null,
+        "[SET_FLAG INVESTED_IN_APPLE_KID]": null,
+        "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+        "[SET_OSS_FLAG]": null,
+        "[GOTO L_C79028]:C79028": {
+          "[SET_NPC_MOVEMENT_SCRIPT 222 101]": null,
+          "[WAIT_MOVEMENT]": null,
+          "[SET_FLAG TEMP_4]": null,
+          "[END]": null
+        },
+        "; $C818DC": null,
+        "[END]": null
+      },
+      "[MULTI_GOTO L_C818A2 L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+      "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+      "; $C818A2": null,
+      "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]:C818DD": {
+        "\u00ef\u00bf\u00bdOh, you don't have any money, do you?[WAIT][LINE_BREAK]": null,
+        "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+        "; $C818F1": null,
+        "\u00ef\u00bf\u00bdMaybe you shouldn't spend too much time wandering around Twoson.; $C81913": null,
+        "[HALT][END]": null
+      },
+      "[REMOVE_MONEY 200]": null,
+      "[SHOW_WALLET]": null,
+      "[PLAY_SFX 118]": null,
+      "[PAUSE 1]; $C818B9": null,
+      "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]": null,
+      "[SET_FLAG INVESTED_IN_APPLE_KID]": null,
+      "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+      "[SET_OSS_FLAG]": null,
+      "[GOTO L_C79028]:C79028": {
+        "[SET_NPC_MOVEMENT_SCRIPT 222 101]": null,
+        "[WAIT_MOVEMENT]": null,
+        "[SET_FLAG TEMP_4]": null,
+        "[END]": null
+      },
+      "; $C818DC": null,
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C81848 L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+    "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+    "; $C81848": null,
+    "\u00ef\u00bf\u00bdYes![PAUSE 15]  Yes![PAUSE 15]  Yes!  Oh.[PAUSE 20]  Excuse me.  I mean thank you![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdBy the way, I could really use $200.[WAIT][LINE_BREAK]": null,
+    "[GOSUB L_C7DD4D]:C7DD4D": {
+      "[SHOW_WALLET]": null,
+      "; $C7DD4F": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C818A2 L_C81751]:C818A2": {
+      "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]:C818DD": {
+        "\u00ef\u00bf\u00bdOh, you don't have any money, do you?[WAIT][LINE_BREAK]": null,
+        "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+        "; $C818F1": null,
+        "\u00ef\u00bf\u00bdMaybe you shouldn't spend too much time wandering around Twoson.; $C81913": null,
+        "[HALT][END]": null
+      },
+      "[REMOVE_MONEY 200]": null,
+      "[SHOW_WALLET]": null,
+      "[PLAY_SFX 118]": null,
+      "[PAUSE 1]; $C818B9": null,
+      "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]": null,
+      "[SET_FLAG INVESTED_IN_APPLE_KID]": null,
+      "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+      "[SET_OSS_FLAG]": null,
+      "[GOTO L_C79028]:C79028": {
+        "[SET_NPC_MOVEMENT_SCRIPT 222 101]": null,
+        "[WAIT_MOVEMENT]": null,
+        "[SET_FLAG TEMP_4]": null,
+        "[END]": null
+      },
+      "; $C818DC": null,
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C818A2 L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+    "; $C818A2": null,
+    "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C818DD]:C818DD": {
+      "\u00ef\u00bf\u00bdOh, you don't have any money, do you?[WAIT][LINE_BREAK]": null,
+      "[GOTO L_C81751]:C81751": "Loop - Apple Kid ~Give Food Dialogue",
+      "; $C818F1": null,
+      "\u00ef\u00bf\u00bdMaybe you shouldn't spend too much time wandering around Twoson.; $C81913": null,
+      "[HALT][END]": null
+    },
+    "[REMOVE_MONEY 200]": null,
+    "[SHOW_WALLET]": null,
+    "[PAUSE 1]; $C818B9": null,
+    "\u00ef\u00bf\u00bdThank you.[PAUSE 20]  I won't let you down.[HALT][CLOSE_ALL_TBOXES]": null,
+    "[SET_FLAG INVESTED_IN_APPLE_KID]": null,
+    "[SET_FLAG APPLE_MOUSE_BLOCKING_DOOR]": null,
+    "[SET_OSS_FLAG]": null,
+    "[GOTO L_C79028]:C79028": {
+      "[SET_NPC_MOVEMENT_SCRIPT 222 101]": null,
+      "[WAIT_MOVEMENT]": null,
+      "[SET_FLAG TEMP_4]": null,
+      "[END]": null
+    },
+    "; $C818DC": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7800,
+  "y_pixel_abs": 7896,
+  "x_tile": 243,
+  "y_tile": 246,
+  "x_sector": 30,
+  "y_sector": 30,
+  "x_sector_offset": 120,
+  "y_sector_offset": 216,
+  "Event Flag": 339,
+  "flag_label": "APPLE_KID_NOT_AT_HIS_HOUSE",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 14,
+  "Text Pointer 1": "data_35.l_0xc81676",
+  "Text Pointer 2": "$0"
+}

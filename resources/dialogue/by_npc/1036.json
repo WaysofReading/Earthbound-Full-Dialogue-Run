@@ -1,0 +1,52 @@
+{
+  "Sprite": 71,
+  "sprite_label": "man_blonde_resortwear",
+  "map_location_label": "Summers and Toto_Museum_1F_Exhibit-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8AEC1",
+  "d1_flags": [
+    "1. goto C8AF0F if GIYGAS_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C8AF0F",
+    "Npc1036"
+  ],
+  "d1_text": "Npc1036:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C8AF0F]\r\n\u00ef\u00bf\u00bdI saw a chubby kid about your age here.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHe looked like he was awfully wealthy.  He was being extravagant![HALT][END]",
+  "d1_lines": [
+    "Npc1036:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C8AF0F]",
+    "\u00ef\u00bf\u00bdI saw a chubby kid about your age here.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHe looked like he was awfully wealthy.  He was being extravagant![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C8AF0F]:C8AF0F": {
+      "\u00ef\u00bf\u00bdIt's nice seeing you in such good shape.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI wonder what porky Pokey's doing.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYeah, that's the boy I met before.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI saw a chubby kid about your age here.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHe looked like he was awfully wealthy.  He was being extravagant![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6792,
+  "y_pixel_abs": 8912,
+  "x_tile": 212,
+  "y_tile": 278,
+  "x_sector": 26,
+  "y_sector": 34,
+  "x_sector_offset": 136,
+  "y_sector_offset": 208,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_41.l_0xc8aec1",
+  "Text Pointer 2": "$0"
+}

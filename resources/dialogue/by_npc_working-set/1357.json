@@ -1,0 +1,45 @@
+{
+  "Sprite": 200,
+  "sprite_label": "tentacle",
+  "map_location_label": "Dusty Dunes Desert_Overworld_West-(Tunnel-to-Threed)",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "C77DA5",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1357"
+  ],
+  "d1_text": "Npc1357:\r\n[CLOSE_ALL_TBOXES]\r\n[PRESET_TELEPORT 40]\r\n[END]",
+  "d1_lines": [
+    "Npc1357:",
+    "[CLOSE_ALL_TBOXES]",
+    "[PRESET_TELEPORT 40]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[CLOSE_ALL_TBOXES]": null,
+    "[PRESET_TELEPORT 40]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 424,
+  "y_pixel_abs": 9600,
+  "x_tile": 13,
+  "y_tile": 300,
+  "x_sector": 1,
+  "y_sector": 37,
+  "x_sector_offset": 168,
+  "y_sector_offset": 128,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_29.l_0xc77da5",
+  "Text Pointer 2": "$0"
+}

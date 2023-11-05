@@ -1,0 +1,60 @@
+{
+  "Sprite": 66,
+  "sprite_label": "woman_blonde_red-blazer",
+  "map_location_label": "Threed_Houses_Center-Northeast_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8ED1E",
+  "d1_flags": [
+    "1. goto C8ED87 if MASTER_BELCH_DEFEATED is set",
+    "1. goto C8EDCC if VISITED_FOURSIDE is set"
+  ],
+  "d1_addresses": [
+    "C8ED87",
+    "C8EDCC",
+    "Npc0513"
+  ],
+  "d1_text": "Npc0513:\r\n[GOTO_IF_FLAG VISITED_FOURSIDE L_C8EDCC]\r\n[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8ED87]\r\n\u00ef\u00bf\u00bdI overheard the zombies whisper,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdMaster Belch will give us our lives back.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd...Master Belch is the zombie leader.[PAUSE 15]  He must be really pukey.[HALT][END]",
+  "d1_lines": [
+    "Npc0513:",
+    "[GOTO_IF_FLAG VISITED_FOURSIDE L_C8EDCC]",
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8ED87]",
+    "\u00ef\u00bf\u00bdI overheard the zombies whisper,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdMaster Belch will give us our lives back.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd...Master Belch is the zombie leader.[PAUSE 15]  He must be really pukey.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG VISITED_FOURSIDE L_C8EDCC]:C8EDCC": {
+      "\u00ef\u00bf\u00bdThis town has completely changed from the first time you were here.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdCan you feel the love?[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8ED87]:C8ED87": {
+      "\u00ef\u00bf\u00bdLike I told you, there was a barfy bad guy named Belch.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThank you for giving him the big flush.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI overheard the zombies whisper,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdMaster Belch will give us our lives back.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd...Master Belch is the zombie leader.[PAUSE 15]  He must be really pukey.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7544,
+  "y_pixel_abs": 9672,
+  "x_tile": 235,
+  "y_tile": 302,
+  "x_sector": 29,
+  "y_sector": 37,
+  "x_sector_offset": 120,
+  "y_sector_offset": 200,
+  "Event Flag": 214,
+  "flag_label": "VISITED_FOURSIDE",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_42.l_0xc8ed1e",
+  "Text Pointer 2": "$0"
+}

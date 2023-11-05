@@ -1,0 +1,286 @@
+{
+  "Sprite": 133,
+  "sprite_label": "monkey-boy",
+  "map_location_label": "Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hamburger,-King-Banana)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C61F07",
+  "d1_flags": [
+    "1. goto C62008 if MONKEY_CAVE_KING_BANANA is set",
+    "3. set MONKEY_CAVE_KING_BANANA"
+  ],
+  "d1_addresses": [
+    "C5E456",
+    "C5E48E",
+    "C5E499",
+    "C5E4C2",
+    "C5E584",
+    "C5E58B",
+    "C5E592",
+    "C5E599",
+    "C61F97",
+    "C61FAB",
+    "C62008",
+    "C7DD4F",
+    "Npc0823"
+  ],
+  "d1_text": "Npc0823:\r\n[GOTO_IF_FLAG MONKEY_CAVE_KING_BANANA L_C62008]\r\n\u00ef\u00bf\u00bdUkie Ukikikie[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(I am Man K. Man.)[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdUkie Ukikikie[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(To me the most interesting thing is the [PRINT_ITEM KING_BANANA].)[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdUkie Ukikikie[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(What?[PAUSE 20]  Are you giving me a present?)[WAIT][LINE_BREAK]\r\n[GOSUB L_C7DD4F]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C61FAB L_C61F97]\r\n; $C61F97\r\nL_C61F97:\r\n\u00ef\u00bf\u00bdUki...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(Tight wad...)[HALT][END]",
+  "d1_lines": [
+    "Npc0823:",
+    "[GOTO_IF_FLAG MONKEY_CAVE_KING_BANANA L_C62008]",
+    "\u00ef\u00bf\u00bdUkie Ukikikie[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(I am Man K. Man.)[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdUkie Ukikikie[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(To me the most interesting thing is the [PRINT_ITEM KING_BANANA].)[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdUkie Ukikikie[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(What?[PAUSE 20]  Are you giving me a present?)[WAIT][LINE_BREAK]",
+    "[GOSUB L_C7DD4F]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C61FAB L_C61F97]",
+    "; $C61F97",
+    "L_C61F97:",
+    "\u00ef\u00bf\u00bdUki...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(Tight wad...)[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MONKEY_CAVE_KING_BANANA L_C62008]:C62008": {
+      "\u00ef\u00bf\u00bdUkki Ukikie[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(I am Man K. Man.)[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdUkie Ukikikie[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(I am Man K. Man.)[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(To me the most interesting thing is the [PRINT_ITEM KING_BANANA].)[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(What?[PAUSE 20]  Are you giving me a present?)[WAIT][LINE_BREAK]": null,
+    "[GOSUB L_C7DD4F]:C7DD4F": "Loop - Yes/No - Options",
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C61FAB L_C61F97]:C61FAB": {
+      "[GOSUB L_C5E456]:C5E456": {
+        "[OPEN_HP_PP]": null,
+        "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {
+          "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+          "[SAVE_TBOX_CTX]": null,
+          "[RESTORE_REGS_GLOBAL]": null,
+          "[DISPLAY_INV 2 REG_ARGUMENT]": null,
+          "[MENU_TBOX 2]": null,
+          "[BACKUP_REGS_GLOBAL]": null,
+          "[SET_FOCUS_TBOX 2]": null,
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[SET_FOCUS_TBOX 1]": null,
+          "[GOTO_IF_FALSE L_C5E4C2]:C5E4C2": {
+            "[END]": null
+          },
+          "[SWAP_ARG_RESULT]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 NESS]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 PAULA]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 JEFF]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 POO]": null,
+          "[END]": null
+        },
+        "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {
+          "[SET_FOCUS_TBOX 2]": null,
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[SET_FOCUS_TBOX 1]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[END]": null
+        },
+        "[GET_TBOX_OPTION_COUNT 2]": null,
+        "[GOTO_IF_FALSE L_C5E456]:C5E456": {
+          "[OPEN_HP_PP]": null,
+          "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {
+            "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+            "[SAVE_TBOX_CTX]": null,
+            "[RESTORE_REGS_GLOBAL]": null,
+            "[DISPLAY_INV 2 REG_ARGUMENT]": null,
+            "[MENU_TBOX 2]": null,
+            "[BACKUP_REGS_GLOBAL]": null,
+            "[SET_FOCUS_TBOX 2]": null,
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[SET_FOCUS_TBOX 1]": null,
+            "[GOTO_IF_FALSE L_C5E4C2]:C5E4C2": {
+              "[END]": null
+            },
+            "[SWAP_ARG_RESULT]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 NESS]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 PAULA]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 JEFF]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 POO]": null,
+            "[END]": null
+          },
+          "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {
+            "[SET_FOCUS_TBOX 2]": null,
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[SET_FOCUS_TBOX 1]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[END]": null
+          },
+          "[GET_TBOX_OPTION_COUNT 2]": null,
+          "[GOTO_IF_FALSE L_C5E456]:C5E456": {
+            "[OPEN_HP_PP]": null,
+            "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {
+              "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+              "[SAVE_TBOX_CTX]": null,
+              "[RESTORE_REGS_GLOBAL]": null,
+              "[DISPLAY_INV 2 REG_ARGUMENT]": null,
+              "[MENU_TBOX 2]": null,
+              "[BACKUP_REGS_GLOBAL]": null,
+              "[SET_FOCUS_TBOX 2]": null,
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[SET_FOCUS_TBOX 1]": null,
+              "[GOTO_IF_FALSE L_C5E4C2]:C5E4C2": {},
+              "[SWAP_ARG_RESULT]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 NESS]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 PAULA]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 JEFF]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 POO]": null,
+              "[END]": null
+            },
+            "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {
+              "[SET_FOCUS_TBOX 2]": null,
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[SET_FOCUS_TBOX 1]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[END]": null
+            },
+            "[GET_TBOX_OPTION_COUNT 2]": null,
+            "[GOTO_IF_FALSE L_C5E456]:C5E456": {
+              "[OPEN_HP_PP]": null,
+              "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {},
+              "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {},
+              "[GET_TBOX_OPTION_COUNT 2]": null,
+              "[GOTO_IF_FALSE L_C5E456]:C5E456": {},
+              "[MENU_TBOX 2]": null,
+              "; $C5E48E": null,
+              "[SET_FOCUS_TBOX 2]": null,
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[SET_FOCUS_TBOX 1]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[END]": null
+            },
+            "[MENU_TBOX 2]": null,
+            "; $C5E48E": null,
+            "[SET_FOCUS_TBOX 2]": null,
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[SET_FOCUS_TBOX 1]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[END]": null
+          },
+          "[MENU_TBOX 2]": null,
+          "; $C5E48E": null,
+          "[SET_FOCUS_TBOX 2]": null,
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[SET_FOCUS_TBOX 1]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[END]": null
+        },
+        "[MENU_TBOX 2]": null,
+        "; $C5E48E": null,
+        "[SET_FOCUS_TBOX 2]": null,
+        "[CLOSE_FOCUS_TBOX]": null,
+        "[SET_FOCUS_TBOX 1]": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[END]": null
+      },
+      "[GOTO_IF_FALSE L_C61F97]:C61F97": {
+        "\u00ef\u00bf\u00bdUki...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bd(Tight wad...)[HALT][END]": null
+      },
+      "[BACKUP_REGS_LOCAL]": null,
+      "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+      "[CHECK_EQUAL 166][GOTO_IF_FALSE L_C61F97]:C61F97": {
+        "\u00ef\u00bf\u00bdUki...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bd(Tight wad...)[HALT][END]": null
+      },
+      "[RESTORE_REGS_LOCAL]": null,
+      "[REMOVE_ITEM_SLOT REG_ARGUMENT 0]": null,
+      "[PLAY_SFX 118]": null,
+      "[PAUSE 10]\u00ef\u00bf\u00bdUkie![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(Oh, I've died and gone to monkey heaven!)[HALT][CLOSE_ALL_TBOXES]": null,
+      "[DELETE_NPC 823 6]": null,
+      "[CREATE_NPC 825 43 1]": null,
+      "[SET_FLAG MONKEY_CAVE_KING_BANANA]": null,
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C61FAB L_C61F97]:C61F97": {
+      "\u00ef\u00bf\u00bdUki...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(Tight wad...)[HALT][END]": null
+    },
+    "; $C61F97": null,
+    "\u00ef\u00bf\u00bdUki...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(Tight wad...)[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7798,
+  "y_pixel_abs": 5959,
+  "x_tile": 243,
+  "y_tile": 186,
+  "x_sector": 30,
+  "y_sector": 23,
+  "x_sector_offset": 118,
+  "y_sector_offset": 71,
+  "Event Flag": 459,
+  "flag_label": "MONKEY_CAVE_KING_BANANA",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_16.l_0xc61f07",
+  "Text Pointer 2": "$0"
+}

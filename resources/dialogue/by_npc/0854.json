@@ -1,0 +1,43 @@
+{
+  "Sprite": 58,
+  "sprite_label": "woman_purse_green-dress",
+  "map_location_label": "Fourside_Bakery_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6DC93",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0854"
+  ],
+  "d1_text": "Npc0854:\r\n\u00ef\u00bf\u00bdBread in this town has a very plain, nondescript flavor to it.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdTo tell you the truth,[PAUSE 20] I'm the owner of this bakery.[HALT][END]",
+  "d1_lines": [
+    "Npc0854:",
+    "\u00ef\u00bf\u00bdBread in this town has a very plain, nondescript flavor to it.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdTo tell you the truth,[PAUSE 20] I'm the owner of this bakery.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdBread in this town has a very plain, nondescript flavor to it.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdTo tell you the truth,[PAUSE 20] I'm the owner of this bakery.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4432,
+  "y_pixel_abs": 5488,
+  "x_tile": 138,
+  "y_tile": 171,
+  "x_sector": 17,
+  "y_sector": 21,
+  "x_sector_offset": 80,
+  "y_sector_offset": 112,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_24.l_0xc6dc93",
+  "Text Pointer 2": "$0"
+}

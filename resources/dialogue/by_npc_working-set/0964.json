@@ -1,0 +1,43 @@
+{
+  "Sprite": 70,
+  "sprite_label": "man_blonde_blue-blazer",
+  "map_location_label": "Fourside_Overworld_South",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C83ECD",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0964"
+  ],
+  "d1_text": "Npc0964:\r\n\u00ef\u00bf\u00bdI heard the department store finally re-opened.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHope they have a boffo sale.[HALT][END]",
+  "d1_lines": [
+    "Npc0964:",
+    "\u00ef\u00bf\u00bdI heard the department store finally re-opened.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHope they have a boffo sale.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI heard the department store finally re-opened.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHope they have a boffo sale.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 3160,
+  "y_pixel_abs": 4584,
+  "x_tile": 98,
+  "y_tile": 143,
+  "x_sector": 12,
+  "y_sector": 17,
+  "x_sector_offset": 88,
+  "y_sector_offset": 232,
+  "Event Flag": 594,
+  "flag_label": "BLOND_GUY_IN_FOURSIDE",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_37.l_0xc83ecd",
+  "Text Pointer 2": "$0"
+}

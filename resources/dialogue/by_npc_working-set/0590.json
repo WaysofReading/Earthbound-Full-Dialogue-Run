@@ -1,0 +1,98 @@
+{
+  "Sprite": 315,
+  "sprite_label": "monster_little-pile",
+  "map_location_label": "Threed_Under Graveyard_Boss-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "EF9502",
+  "d1_flags": [
+    "1. goto C7C588 if MINI_BARF_DEFEATED is set",
+    "3. set MINI_BARF_DEFEATED"
+  ],
+  "d1_addresses": [
+    "C77EFF",
+    "C7C588",
+    "EF681A",
+    "EF6874",
+    "EF68D7",
+    "EF6954",
+    "Npc0463",
+    "Npc0590"
+  ],
+  "d1_text": "Npc0590:\r\n[GOTO_IF_FLAG MINI_BARF_DEFEATED L_C7C588]\r\n[OPEN_TBOX 1]\r\n[GOSUB L_EF681A]\r\n[CLOSE_ALL_TBOXES]\r\n[START_BATTLE 482]\r\n[GOTO_IF_TRUE L_C77EFF]\r\n[GOSUB L_EF68D7]\r\n[SET_FLAG MINI_BARF_DEFEATED]\r\n[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 590 635]\r\n[END]",
+  "d1_lines": [
+    "Npc0590:",
+    "[GOTO_IF_FLAG MINI_BARF_DEFEATED L_C7C588]",
+    "[OPEN_TBOX 1]",
+    "[GOSUB L_EF681A]",
+    "[CLOSE_ALL_TBOXES]",
+    "[START_BATTLE 482]",
+    "[GOTO_IF_TRUE L_C77EFF]",
+    "[GOSUB L_EF68D7]",
+    "[SET_FLAG MINI_BARF_DEFEATED]",
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 590 635]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MINI_BARF_DEFEATED L_C7C588]:C7C588": {
+      "[GOTO_IF_FLAG ALT_NO_TALK_TEXT Npc0463]:Npc0463": {
+        "\u00ef\u00bf\u00bd(There's no response.)[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdWho are you talking to?[HALT][END]": null
+    },
+    "[OPEN_TBOX 1]": null,
+    "[GOSUB L_EF681A]:EF681A": {
+      "[CHECK_HAS_ITEM ANY JAR_OF_FLY_HONEY][GOTO_IF_TRUE L_EF6874]:EF6874": {
+        "\u00ef\u00bf\u00bdGyork!  Gyork![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdSince you had \u00ef\u00bf\u00bdFly Honey,\u00ef\u00bf\u00bd I considered you a friend.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdBut actually, you're just a commoner![PAUSE 20]  I am the mortal enemy of your kind.[WAIT][END]": null
+      },
+      "\u00ef\u00bf\u00bdGyork Gyork![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHey you, commoner![PAUSE 20]  You there wandering around without any \u00ef\u00bf\u00bdFly Honey\u00ef\u00bf\u00bd...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI am the mortal enemy of your kind.[WAIT][END]": null
+    },
+    "[CLOSE_ALL_TBOXES]": null,
+    "[START_BATTLE 482]": null,
+    "[GOTO_IF_TRUE L_C77EFF]:C77EFF": {
+      "[END]": null
+    },
+    "[GOSUB L_EF68D7]:EF68D7": {
+      "[OPEN_TBOX 1]": null,
+      "[CHECK_HAS_ITEM ANY JAR_OF_FLY_HONEY][GOTO_IF_TRUE L_EF6954]:EF6954": {
+        "\u00ef\u00bf\u00bdI wanted to get your Fly Honey and gulp it down.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdMaster Belch and I love Fly Honey.[PAUSE 20][LINE_BREAK]": null,
+        "  Gyorg Gyorg!...[WAIT][CLOSE_ALL_TBOXES]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bdYou have defeated me...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdAllow me to eat some Fly Honey for the last time...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdMaster Belch hates people like you.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...You see, those who don't have \u00ef\u00bf\u00bdFly Honey\u00ef\u00bf\u00bd are our mortal enemies...[WAIT][CLOSE_ALL_TBOXES]": null,
+      "[END]": null
+    },
+    "[SET_FLAG MINI_BARF_DEFEATED]": null,
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 590 635]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4048,
+  "y_pixel_abs": 5672,
+  "x_tile": 126,
+  "y_tile": 177,
+  "x_sector": 15,
+  "y_sector": 22,
+  "x_sector_offset": 208,
+  "y_sector_offset": 40,
+  "Event Flag": 603,
+  "flag_label": "MINI_BARF_DEFEATED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "left",
+  "Movement": 599,
+  "Text Pointer 1": "data_60.l_0xef9502",
+  "Text Pointer 2": "$0"
+}

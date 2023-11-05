@@ -1,0 +1,49 @@
+{
+  "Sprite": 45,
+  "sprite_label": "picky",
+  "map_location_label": "Onett_Minch House_2F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C7683A",
+  "d1_flags": [
+    "1. goto C7685A if GIYGAS_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C7685A",
+    "Npc0053"
+  ],
+  "d1_text": "Npc0053:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C7685A]\r\n\u00ef\u00bf\u00bdI don't wanna look at the meteorite anymore.[HALT][END]",
+  "d1_lines": [
+    "Npc0053:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C7685A]",
+    "\u00ef\u00bf\u00bdI don't wanna look at the meteorite anymore.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C7685A]:C7685A": {
+      "\u00ef\u00bf\u00bdI haven't seen you in a while.[PAUSE 20]  You look cool.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'm nowhere near as cool as you.[PAUSE 20]  I'm just average cool.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI don't wanna look at the meteorite anymore.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7200,
+  "y_pixel_abs": 608,
+  "x_tile": 225,
+  "y_tile": 19,
+  "x_sector": 28,
+  "y_sector": 2,
+  "x_sector_offset": 32,
+  "y_sector_offset": 96,
+  "Event Flag": 34,
+  "flag_label": "PICKY_AT_HIS_ROOM",
+  "Show Sprite": "when event flag set",
+  "Direction": "up",
+  "Movement": 606,
+  "Text Pointer 1": "data_29.l_0xc7683a",
+  "Text Pointer 2": "$0"
+}

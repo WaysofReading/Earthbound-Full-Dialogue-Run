@@ -1,0 +1,71 @@
+{
+  "Sprite": 101,
+  "sprite_label": "happy-happyist",
+  "map_location_label": "Happy Happy Village_Happy Happy HQ_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9881E",
+  "d1_flags": [
+    "1. goto C7C588 if HH_HQ_CULTIST_5_DEFEATED is set",
+    "3. set HH_HQ_CULTIST_5_DEFEATED"
+  ],
+  "d1_addresses": [
+    "C683DE",
+    "C6851C",
+    "C7C588",
+    "Npc0389",
+    "Npc0463"
+  ],
+  "d1_text": "Npc0389:\r\n[GOTO_IF_FLAG HH_HQ_CULTIST_5_DEFEATED L_C7C588]\r\n\u00ef\u00bf\u00bdBlue, blue.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThose who aren't believers must not be good![PAUSE 15]  To eternity with you![WAIT][GOSUB L_C6851C]\r\n[GOTO_IF_TRUE L_C683DE]\r\n[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 389 635]\r\n[SET_FLAG HH_HQ_CULTIST_5_DEFEATED]\r\n[END]",
+  "d1_lines": [
+    "Npc0389:",
+    "[GOTO_IF_FLAG HH_HQ_CULTIST_5_DEFEATED L_C7C588]",
+    "\u00ef\u00bf\u00bdBlue, blue.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThose who aren't believers must not be good![PAUSE 15]  To eternity with you![WAIT][GOSUB L_C6851C]",
+    "[GOTO_IF_TRUE L_C683DE]",
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 389 635]",
+    "[SET_FLAG HH_HQ_CULTIST_5_DEFEATED]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG HH_HQ_CULTIST_5_DEFEATED L_C7C588]:C7C588": {
+      "[GOTO_IF_FLAG ALT_NO_TALK_TEXT Npc0463]:Npc0463": {
+        "\u00ef\u00bf\u00bd(There's no response.)[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdWho are you talking to?[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdBlue, blue.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThose who aren't believers must not be good![PAUSE 15]  To eternity with you![WAIT][GOSUB L_C6851C]:C6851C": {
+      "[CLOSE_ALL_TBOXES]": null,
+      "[START_BATTLE 434]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_TRUE L_C683DE]:C683DE": {
+      "[END]": null
+    },
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 389 635]": null,
+    "[SET_FLAG HH_HQ_CULTIST_5_DEFEATED]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7776,
+  "y_pixel_abs": 2360,
+  "x_tile": 243,
+  "y_tile": 73,
+  "x_sector": 30,
+  "y_sector": 9,
+  "x_sector_offset": 96,
+  "y_sector_offset": 56,
+  "Event Flag": 355,
+  "flag_label": "HH_HQ_CULTIST_5_DEFEATED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 281,
+  "Text Pointer 1": "data_49.l_0xc9881e",
+  "Text Pointer 2": "$0"
+}

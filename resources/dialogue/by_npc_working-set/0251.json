@@ -1,0 +1,75 @@
+{
+  "Sprite": 186,
+  "sprite_label": "runaway-5_nice",
+  "map_location_label": "Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9594D",
+  "d1_flags": [
+    "1. goto C95988 if TEMP_3 is set",
+    "1. goto C95988 if WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER is set"
+  ],
+  "d1_addresses": [
+    "C95988",
+    "Npc0251"
+  ],
+  "d1_text": "Npc0251:\r\n[GOTO_IF_FLAG TEMP_3 L_C95988]\r\n[GOTO_IF_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER L_C95988]\r\n\u00ef\u00bf\u00bdI want some bread.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI need the coinage.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI want more dough all the time.[HALT][END]",
+  "d1_lines": [
+    "Npc0251:",
+    "[GOTO_IF_FLAG TEMP_3 L_C95988]",
+    "[GOTO_IF_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER L_C95988]",
+    "\u00ef\u00bf\u00bdI want some bread.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI need the coinage.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI want more dough all the time.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TEMP_3 L_C95988]:C95988": {
+      "\u00ef\u00bf\u00bdI didn't make a spectacle of myself, did I?[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER L_C95988]:C95988": {
+      "\u00ef\u00bf\u00bdI didn't make a spectacle of myself, did I?[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI want some bread.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI need the coinage.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI want more dough all the time.[HALT][END]": null
+  },
+  "d2_pointer": "C959A5",
+  "d2_flags": [],
+  "d2_addresses": [
+    "C7C6B6",
+    "C959A5"
+  ],
+  "d2_text": "L_C959A5:\r\n[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]\r\n[CHECK_EQUAL 180][GOTO_IF_FALSE L_C7C6B6]\r\n\u00ef\u00bf\u00bdThat is exactly what I want.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI can't believe that you have that much...[HALT][END]",
+  "d2_lines": [
+    "L_C959A5:",
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]",
+    "[CHECK_EQUAL 180][GOTO_IF_FALSE L_C7C6B6]",
+    "\u00ef\u00bf\u00bdThat is exactly what I want.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI can't believe that you have that much...[HALT][END]"
+  ],
+  "d2_unrolled": {
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+    "[CHECK_EQUAL 180][GOTO_IF_FALSE L_C7C6B6]:C7C6B6": {
+      "[GET_ACTION_ARG][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bdYou can't use[LINE_BREAK]": null,
+      "  the [PRINT_ITEM REG_ARGUMENT].[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThat is exactly what I want.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI can't believe that you have that much...[HALT][END]": null
+  },
+  "x_pixel_abs": 8000,
+  "y_pixel_abs": 7480,
+  "x_tile": 250,
+  "y_tile": 233,
+  "x_sector": 31,
+  "y_sector": 29,
+  "x_sector_offset": 64,
+  "y_sector_offset": 56,
+  "Event Flag": 119,
+  "flag_label": "RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_47.l_0xc9594d",
+  "Text Pointer 2": "data_47.l_0xc959a5"
+}

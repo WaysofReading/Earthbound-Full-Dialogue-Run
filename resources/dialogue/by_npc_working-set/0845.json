@@ -1,0 +1,43 @@
+{
+  "Sprite": 185,
+  "sprite_label": "runaway-5_okay",
+  "map_location_label": "Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6D97A",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0845"
+  ],
+  "d1_text": "Npc0845:\r\n\u00ef\u00bf\u00bdWe owe you guys so much.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdSorry.[HALT][END]",
+  "d1_lines": [
+    "Npc0845:",
+    "\u00ef\u00bf\u00bdWe owe you guys so much.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdSorry.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdWe owe you guys so much.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdSorry.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5488,
+  "y_pixel_abs": 6736,
+  "x_tile": 171,
+  "y_tile": 210,
+  "x_sector": 21,
+  "y_sector": 26,
+  "x_sector_offset": 112,
+  "y_sector_offset": 80,
+  "Event Flag": 147,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_24.l_0xc6d97a",
+  "Text Pointer 2": "$0"
+}

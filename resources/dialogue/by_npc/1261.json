@@ -1,0 +1,107 @@
+{
+  "Sprite": 97,
+  "sprite_label": "tenda",
+  "map_location_label": "Deep Darkness_Tenda Village_Main",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9DC2C",
+  "d1_flags": [
+    "1. goto C9DD78 if TEMP_2 is set",
+    "1. goto C9DD87 if TENDAS_NOT_SHY is set",
+    "3. set TEMP_2"
+  ],
+  "d1_addresses": [
+    "C9DD78",
+    "C9DD87",
+    "Npc1261"
+  ],
+  "d1_text": "Npc1261:\r\n[GOTO_IF_FLAG TENDAS_NOT_SHY L_C9DD87]\r\n[GOTO_IF_FLAG TEMP_2 L_C9DD78]\r\n\u00ef\u00bf\u00bdThere's only one Tenda who's not shy.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt's me, bubby![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou know what?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThere's something scary that comes from the underground.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdSo, we covered up the hole.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThere are lots of dinosaurs there.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI went there once, but I came right back, 'cause I was so surprised![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThere was a talking stone that talks a lot.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDo you wanna go and see?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI understand.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdBut I'm not as strong as I look.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm sorry, I guess I can't help you.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThe guy next to me is strong, but he lacks conversation skills.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHe needs to overcome his shyness first.[HALT][SET_FLAG TEMP_2]\r\n[END]",
+  "d1_lines": [
+    "Npc1261:",
+    "[GOTO_IF_FLAG TENDAS_NOT_SHY L_C9DD87]",
+    "[GOTO_IF_FLAG TEMP_2 L_C9DD78]",
+    "\u00ef\u00bf\u00bdThere's only one Tenda who's not shy.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt's me, bubby![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou know what?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThere's something scary that comes from the underground.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdSo, we covered up the hole.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThere are lots of dinosaurs there.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI went there once, but I came right back, 'cause I was so surprised![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThere was a talking stone that talks a lot.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDo you wanna go and see?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI understand.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdBut I'm not as strong as I look.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm sorry, I guess I can't help you.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThe guy next to me is strong, but he lacks conversation skills.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHe needs to overcome his shyness first.[HALT][SET_FLAG TEMP_2]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TENDAS_NOT_SHY L_C9DD87]:C9DD87": {
+      "\u00ef\u00bf\u00bdRecently,[PAUSE 15] everyone is able to talk a lot,[PAUSE 15] so I've lost my identity.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG TEMP_2 L_C9DD78]:C9DD78": {
+      "\u00ef\u00bf\u00bdOh, I wanna talk...[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThere's only one Tenda who's not shy.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt's me, bubby![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou know what?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThere's something scary that comes from the underground.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdSo, we covered up the hole.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThere are lots of dinosaurs there.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI went there once, but I came right back, 'cause I was so surprised![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThere was a talking stone that talks a lot.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDo you wanna go and see?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI understand.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdBut I'm not as strong as I look.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm sorry, I guess I can't help you.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThe guy next to me is strong, but he lacks conversation skills.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHe needs to overcome his shyness first.[HALT][SET_FLAG TEMP_2]": null,
+    "[END]": null
+  },
+  "d2_pointer": "C9D6F8",
+  "d2_flags": [],
+  "d2_addresses": [
+    "C7C6B6",
+    "C9D6F8",
+    "C9D70B"
+  ],
+  "d2_text": "L_C9D6F8:\r\n[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]\r\n[CHECK_EQUAL 211][GOTO_IF_TRUE L_C9D70B]\r\n[GOTO L_C7C6B6]\r\n; $C9D70B\r\nL_C9D70B:\r\n\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]",
+  "d2_lines": [
+    "L_C9D6F8:",
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]",
+    "[CHECK_EQUAL 211][GOTO_IF_TRUE L_C9D70B]",
+    "[GOTO L_C7C6B6]",
+    "; $C9D70B",
+    "L_C9D70B:",
+    "\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]"
+  ],
+  "d2_unrolled": {
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+    "[CHECK_EQUAL 211][GOTO_IF_TRUE L_C9D70B]:C9D70B": {
+      "\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]": null
+    },
+    "[GOTO L_C7C6B6]:C7C6B6": {
+      "[GET_ACTION_ARG][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bdYou can't use[LINE_BREAK]": null,
+      "  the [PRINT_ITEM REG_ARGUMENT].[HALT][END]": null
+    },
+    "; $C9D70B": null,
+    "\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]": null
+  },
+  "x_pixel_abs": 80,
+  "y_pixel_abs": 416,
+  "x_tile": 2,
+  "y_tile": 13,
+  "x_sector": 0,
+  "y_sector": 1,
+  "x_sector_offset": 80,
+  "y_sector_offset": 160,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_53.l_0xc9dc2c",
+  "Text Pointer 2": "data_53.l_0xc9d6f8"
+}

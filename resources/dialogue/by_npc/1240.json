@@ -1,0 +1,286 @@
+{
+  "Sprite": 376,
+  "sprite_label": "truffle",
+  "map_location_label": "Deep Darkness_Overworld_Northeast",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "C9E79F",
+  "d1_flags": [
+    "3. set GOT_MAGIC_TRUFFLE_1"
+  ],
+  "d1_addresses": [
+    "C7DC85",
+    "C7DCCF",
+    "C7DCDA",
+    "C7DD03",
+    "C7E6D7",
+    "C7E6E1",
+    "C7E70E",
+    "C7E729",
+    "C7E72A",
+    "C7E735",
+    "C7E748",
+    "C9E81C",
+    "C9E838",
+    "C9E843",
+    "Npc1240"
+  ],
+  "d1_text": "Npc1240:\r\n[GOSUB L_C9E81C]\r\n[GOTO_IF_FALSE L_C9E843]\r\n[GOSUB L_C9E838]\r\n[SET_FLAG GOT_MAGIC_TRUFFLE_1]\r\n[DELETE_NPC 1240 6]\r\n[END]",
+  "d1_lines": [
+    "Npc1240:",
+    "[GOSUB L_C9E81C]",
+    "[GOTO_IF_FALSE L_C9E843]",
+    "[GOSUB L_C9E838]",
+    "[SET_FLAG GOT_MAGIC_TRUFFLE_1]",
+    "[DELETE_NPC 1240 6]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C9E81C]:C9E81C": {
+      "\u00ef\u00bf\u00bdHey![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThere's a [PRINT_ITEM MAGIC_TRUFFLE] at your feet.[WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][END]": null
+    },
+    "[GOTO_IF_FALSE L_C9E843]:C9E843": {
+      "\u00ef\u00bf\u00bdBut you have no room.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd[GOSUB L_C7E6D7]:C7E6D7": {
+        "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+        "[PRINT_NAME REG_ARGUMENT][SET_COUNTER 1]": null,
+        "; $C7E6E1": null,
+        "[INC_COUNTER]": null,
+        "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C7E70E]:C7E70E": {
+          "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+          "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E729": {
+            "[END]": null
+          },
+          "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E72A": {
+            "[GET_PARTY_MEMBER 2][SWAP_ARG_RESULT]": null,
+            " and [PRINT_NAME REG_ARGUMENT][END]": null
+          },
+          "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E735": {
+            " and [GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C7E748]:C7E748": {
+              "her friends[END]": null
+            },
+            "his friends[END]": null
+          },
+          "[END]": null
+        },
+        "[GET_PARTY_MEMBER 0][CHECK_STATUS REG_RESULT PERSISTENT KO][GOTO_IF_TRUE L_C7E70E]:C7E70E": {
+          "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+          "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E729": {
+            "[END]": null
+          },
+          "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E72A": {
+            "[GET_PARTY_MEMBER 2][SWAP_ARG_RESULT]": null,
+            " and [PRINT_NAME REG_ARGUMENT][END]": null
+          },
+          "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E735": {
+            " and [GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C7E748]:C7E748": {
+              "her friends[END]": null
+            },
+            "his friends[END]": null
+          },
+          "[END]": null
+        },
+        "[GET_PARTY_MEMBER 0][CHECK_STATUS REG_RESULT PERSISTENT DIAMOND][GOTO_IF_TRUE L_C7E70E]:C7E70E": {
+          "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+          "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E729": {
+            "[END]": null
+          },
+          "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E72A": {
+            "[GET_PARTY_MEMBER 2][SWAP_ARG_RESULT]": null,
+            " and [PRINT_NAME REG_ARGUMENT][END]": null
+          },
+          "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E735": {
+            " and [GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C7E748]:C7E748": {
+              "her friends[END]": null
+            },
+            "his friends[END]": null
+          },
+          "[END]": null
+        },
+        "[GOTO L_C7E6E1]:C7E6E1": {
+          "[INC_COUNTER]": null,
+          "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C7E70E]:C7E70E": {
+            "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+            "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E729": {
+              "[END]": null
+            },
+            "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E72A": {
+              "[GET_PARTY_MEMBER 2][SWAP_ARG_RESULT]": null,
+              " and [PRINT_NAME REG_ARGUMENT][END]": null
+            },
+            "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E735": {
+              " and [GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C7E748]:C7E748": {},
+              "his friends[END]": null
+            },
+            "[END]": null
+          },
+          "[GET_PARTY_MEMBER 0][CHECK_STATUS REG_RESULT PERSISTENT KO][GOTO_IF_TRUE L_C7E70E]:C7E70E": {
+            "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+            "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E729": {
+              "[END]": null
+            },
+            "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E72A": {
+              "[GET_PARTY_MEMBER 2][SWAP_ARG_RESULT]": null,
+              " and [PRINT_NAME REG_ARGUMENT][END]": null
+            },
+            "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E735": {
+              " and [GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C7E748]:C7E748": {},
+              "his friends[END]": null
+            },
+            "[END]": null
+          },
+          "[GET_PARTY_MEMBER 0][CHECK_STATUS REG_RESULT PERSISTENT DIAMOND][GOTO_IF_TRUE L_C7E70E]:C7E70E": {
+            "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+            "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E729": {
+              "[END]": null
+            },
+            "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E72A": {
+              "[GET_PARTY_MEMBER 2][SWAP_ARG_RESULT]": null,
+              " and [PRINT_NAME REG_ARGUMENT][END]": null
+            },
+            "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E735": {
+              " and [GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C7E748]:C7E748": {},
+              "his friends[END]": null
+            },
+            "[END]": null
+          },
+          "[GOTO L_C7E6E1]:C7E6E1": {
+            "[INC_COUNTER]": null,
+            "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C7E70E]:C7E70E": {
+              "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+              "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E729": {},
+              "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E72A": {},
+              "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E735": {},
+              "[END]": null
+            },
+            "[GET_PARTY_MEMBER 0][CHECK_STATUS REG_RESULT PERSISTENT KO][GOTO_IF_TRUE L_C7E70E]:C7E70E": {
+              "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+              "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E729": {},
+              "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E72A": {},
+              "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E735": {},
+              "[END]": null
+            },
+            "[GET_PARTY_MEMBER 0][CHECK_STATUS REG_RESULT PERSISTENT DIAMOND][GOTO_IF_TRUE L_C7E70E]:C7E70E": {
+              "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+              "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E729": {},
+              "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E72A": {},
+              "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E735": {},
+              "[END]": null
+            },
+            "[GOTO L_C7E6E1]:C7E6E1": {
+              "[INC_COUNTER]": null,
+              "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C7E70E]:C7E70E": {},
+              "[GET_PARTY_MEMBER 0][CHECK_STATUS REG_RESULT PERSISTENT KO][GOTO_IF_TRUE L_C7E70E]:C7E70E": {},
+              "[GET_PARTY_MEMBER 0][CHECK_STATUS REG_RESULT PERSISTENT DIAMOND][GOTO_IF_TRUE L_C7E70E]:C7E70E": {},
+              "[GOTO L_C7E6E1]:C7E6E1": {},
+              "; $C7E70E": null,
+              "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+              "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E729": {},
+              "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E72A": {},
+              "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E735": {},
+              "[END]": null
+            },
+            "; $C7E70E": null,
+            "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+            "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E729": {
+              "[END]": null
+            },
+            "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E72A": {
+              "[GET_PARTY_MEMBER 2][SWAP_ARG_RESULT]": null,
+              " and [PRINT_NAME REG_ARGUMENT][END]": null
+            },
+            "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E735": {
+              " and [GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C7E748]:C7E748": {},
+              "his friends[END]": null
+            },
+            "[END]": null
+          },
+          "; $C7E70E": null,
+          "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+          "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E729": {
+            "[END]": null
+          },
+          "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E72A": {
+            "[GET_PARTY_MEMBER 2][SWAP_ARG_RESULT]": null,
+            " and [PRINT_NAME REG_ARGUMENT][END]": null
+          },
+          "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E735": {
+            " and [GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C7E748]:C7E748": {
+              "her friends[END]": null
+            },
+            "his friends[END]": null
+          },
+          "[END]": null
+        },
+        "; $C7E70E": null,
+        "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+        "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E729": {
+          "[END]": null
+        },
+        "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E72A": {
+          "[GET_PARTY_MEMBER 2][SWAP_ARG_RESULT]": null,
+          " and [PRINT_NAME REG_ARGUMENT][END]": null
+        },
+        "[MULTI_GOTO L_C7E729 L_C7E729 L_C7E72A L_C7E735 L_C7E735]:C7E735": {
+          " and [GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C7E748]:C7E748": {
+            "her friends[END]": null
+          },
+          "his friends[END]": null
+        },
+        "[END]": null
+      },
+      " gives up the [PRINT_ITEM MAGIC_TRUFFLE].[HALT][END]": null
+    },
+    "[GOSUB L_C9E838]:C9E838": {
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT MAGIC_TRUFFLE]": null,
+      "[GOSUB L_C7DCCF]:C7DCCF": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[HALT][END]": null
+    },
+    "[SET_FLAG GOT_MAGIC_TRUFFLE_1]": null,
+    "[DELETE_NPC 1240 6]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6144,
+  "y_pixel_abs": 7264,
+  "x_tile": 192,
+  "y_tile": 227,
+  "x_sector": 24,
+  "y_sector": 28,
+  "x_sector_offset": 0,
+  "y_sector_offset": 96,
+  "Event Flag": 439,
+  "flag_label": "GOT_MAGIC_TRUFFLE_1",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_54.l_0xc9e79f",
+  "Text Pointer 2": "$0"
+}

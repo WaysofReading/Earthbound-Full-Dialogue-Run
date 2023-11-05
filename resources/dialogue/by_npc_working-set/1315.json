@@ -1,0 +1,132 @@
+{
+  "Sprite": 39,
+  "sprite_label": "flying-man",
+  "map_location_label": "Magicant_Flying Man House_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C76F5E",
+  "d1_flags": [
+    "1. goto C77007 if FLYING_MAN_1_DEAD is set",
+    "1. goto C7703F if FLYING_MAN_2_DEAD is set",
+    "1. goto C7706A if FLYING_MAN_3_DEAD is set",
+    "1. goto C770B0 if FLYING_MAN_4_DEAD is set",
+    "3. set FLYING_MAN_3_JOINS",
+    "3. set FLYING_MAN_MUSIC"
+  ],
+  "d1_addresses": [
+    "C6831B",
+    "C76FB2",
+    "C77007",
+    "C7703F",
+    "C7706A",
+    "C770B0",
+    "C77148",
+    "C7716D",
+    "C7719C",
+    "Npc1315"
+  ],
+  "d1_text": "Npc1315:\r\n[GOSUB L_C7716D]\r\n[GOTO_IF_TRUE L_C77148]\r\n[GOSUB L_C76FB2]\r\n[GOSUB L_C6831B]\r\n[SET_FLAG FLYING_MAN_MUSIC]\r\n[SET_FLAG FLYING_MAN_3_JOINS]\r\n[END]",
+  "d1_lines": [
+    "Npc1315:",
+    "[GOSUB L_C7716D]",
+    "[GOTO_IF_TRUE L_C77148]",
+    "[GOSUB L_C76FB2]",
+    "[GOSUB L_C6831B]",
+    "[SET_FLAG FLYING_MAN_MUSIC]",
+    "[SET_FLAG FLYING_MAN_3_JOINS]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C7716D]:C7716D": {
+      "[GET_PARTY_MEMBER 2][BACKUP_REGS_LOCAL]": null,
+      "[CHECK_EQUAL 11][GOTO_IF_TRUE L_C7719C]:C7719C": {
+        "[END]": null
+      },
+      "[RESTORE_REGS_LOCAL]": null,
+      "[CHECK_EQUAL 12][GOTO_IF_TRUE L_C7719C]:C7719C": {
+        "[END]": null
+      },
+      "[CHECK_EQUAL 13][GOTO_IF_TRUE L_C7719C]:C7719C": {
+        "[END]": null
+      },
+      "[CHECK_EQUAL 14][GOTO_IF_TRUE L_C7719C]:C7719C": {
+        "[END]": null
+      },
+      "[CHECK_EQUAL 15]; $C7719C": null,
+      "[END]": null
+    },
+    "[GOTO_IF_TRUE L_C77148]:C77148": {
+      "\u00ef\u00bf\u00bdDid you want to talk to me?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'm sorry,[PAUSE 15] there's really not much to say...[HALT][END]": null
+    },
+    "[GOSUB L_C76FB2]:C76FB2": {
+      "[GOTO_IF_FLAG FLYING_MAN_4_DEAD L_C770B0]:C770B0": {
+        "\u00ef\u00bf\u00bdOf course, we're your courage.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdBut we warned you not to treat us like trash![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdDidn't you get it?![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThis isn't courage, it's desperation.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIf you don't understand \u00ef\u00bf\u00bdcourage,\u00ef\u00bf\u00bd[PAUSE 15] look it up in the dictionary.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdOkay?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdMy name's The Final Flying Man.[WAIT][END]": null
+      },
+      "[GOTO_IF_FLAG FLYING_MAN_3_DEAD L_C7706A]:C7706A": {
+        "\u00ef\u00bf\u00bdI'm also your courage.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdCall me Return of the Flying Man![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bd...How's that?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdHowever... don't treat us like trash.[WAIT][END]": null
+      },
+      "[GOTO_IF_FLAG FLYING_MAN_2_DEAD L_C7703F]:C7703F": {
+        "\u00ef\u00bf\u00bdI'm Flying Man 3.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYour courage hasn't died yet.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdLet's go![WAIT][END]": null
+      },
+      "[GOTO_IF_FLAG FLYING_MAN_1_DEAD L_C77007]:C77007": {
+        "\u00ef\u00bf\u00bdI'll be your courage.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'll remain unless you lose your courage.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdCall me Flying Man 2.[WAIT][END]": null
+      },
+      "\u00ef\u00bf\u00bdI am your courage.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI follow you here in Magicant.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...My name?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdLet's say Flying Man.[WAIT][END]": null
+    },
+    "[GOSUB L_C6831B]:C6831B": {
+      "[CLOSE_ALL_TBOXES]": null,
+      "[ADD_PMEMBER FLYING_MAN_3]": null,
+      "[HIDE_PMEMBER FLYING_MAN_3 6]": null,
+      "[SET_NPC_MOVEMENT_SCRIPT 1315 47]": null,
+      "[WAIT_MOVEMENT]": null,
+      "[DELETE_NPC 1315 6]": null,
+      "[SHOW_PMEMBER FLYING_MAN_3 1]": null,
+      "[PLAY_MUSIC 123]": null,
+      "[PAUSE 120][PAUSE 60][RESTORE_MUSIC]": null,
+      "[OPEN_TBOX 1]": null,
+      "\u00ef\u00bf\u00bd(The Flying Man joins you.)[WAIT][CLOSE_ALL_TBOXES]": null,
+      "[END]": null
+    },
+    "[SET_FLAG FLYING_MAN_MUSIC]": null,
+    "[SET_FLAG FLYING_MAN_3_JOINS]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8008,
+  "y_pixel_abs": 8152,
+  "x_tile": 250,
+  "y_tile": 254,
+  "x_sector": 31,
+  "y_sector": 31,
+  "x_sector_offset": 72,
+  "y_sector_offset": 216,
+  "Event Flag": 27,
+  "flag_label": "FLYING_MAN_3_JOINS",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_29.l_0xc76f5e",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,43 @@
+{
+  "Sprite": 281,
+  "sprite_label": "monster_mouse",
+  "map_location_label": "Saturn Valley_Overworld_North",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6C942",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0733"
+  ],
+  "d1_text": "Npc0733:\r\n\u00ef\u00bf\u00bdIt was in Winters that we last met?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI just got here.  Tee tee tee.[HALT][END]",
+  "d1_lines": [
+    "Npc0733:",
+    "\u00ef\u00bf\u00bdIt was in Winters that we last met?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI just got here.  Tee tee tee.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdIt was in Winters that we last met?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI just got here.  Tee tee tee.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 312,
+  "y_pixel_abs": 7632,
+  "x_tile": 9,
+  "y_tile": 238,
+  "x_sector": 1,
+  "y_sector": 29,
+  "x_sector_offset": 56,
+  "y_sector_offset": 208,
+  "Event Flag": 73,
+  "flag_label": "GIYGAS_DEFEATED",
+  "Show Sprite": "when event flag set",
+  "Direction": "right",
+  "Movement": 606,
+  "Text Pointer 1": "data_24.l_0xc6c942",
+  "Text Pointer 2": "$0"
+}

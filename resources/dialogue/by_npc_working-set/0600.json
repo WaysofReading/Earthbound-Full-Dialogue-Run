@@ -1,0 +1,43 @@
+{
+  "Sprite": 61,
+  "sprite_label": "man_blonde_black-suit",
+  "map_location_label": "Winters_Snow Wood_2F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6C42C",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0600"
+  ],
+  "d1_text": "Npc0600:\r\n\u00ef\u00bf\u00bdI heard a creature called Tessie lives in the southern lake...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI don't believe it![PAUSE 20]  I think someone made a model and placed it in the lake.[HALT][END]",
+  "d1_lines": [
+    "Npc0600:",
+    "\u00ef\u00bf\u00bdI heard a creature called Tessie lives in the southern lake...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI don't believe it![PAUSE 20]  I think someone made a model and placed it in the lake.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI heard a creature called Tessie lives in the southern lake...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI don't believe it![PAUSE 20]  I think someone made a model and placed it in the lake.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7952,
+  "y_pixel_abs": 3104,
+  "x_tile": 248,
+  "y_tile": 97,
+  "x_sector": 31,
+  "y_sector": 12,
+  "x_sector_offset": 16,
+  "y_sector_offset": 32,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 606,
+  "Text Pointer 1": "data_23.l_0xc6c42c",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,60 @@
+{
+  "Sprite": 133,
+  "sprite_label": "monkey-boy",
+  "map_location_label": "Fourside_Overworld_Northwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C7B550",
+  "d1_flags": [
+    "3. set MONKEY_OUTSIDE_JACKIES_CAFE",
+    "4. clear CHARRED_MONKEY_OUTSIDE_JACKIES_CAFE"
+  ],
+  "d1_addresses": [
+    "Npc0967"
+  ],
+  "d1_text": "Npc0967:\r\n[CREATE_NPC_EMOTE 967 EXCLAMATION]\r\n[PAUSE 60][DELETE_NPC_EMOTE 967]\r\n[SET_NPC_MOVEMENT_SCRIPT 967 636]\r\n[WAIT_MOVEMENT]\r\n[DELETE_NPC 967 6]\r\n[CREATE_NPC 968 8 1]\r\n[SET_FLAG MONKEY_OUTSIDE_JACKIES_CAFE]\r\n[CLR_FLAG CHARRED_MONKEY_OUTSIDE_JACKIES_CAFE]\r\n[END]",
+  "d1_lines": [
+    "Npc0967:",
+    "[CREATE_NPC_EMOTE 967 EXCLAMATION]",
+    "[PAUSE 60][DELETE_NPC_EMOTE 967]",
+    "[SET_NPC_MOVEMENT_SCRIPT 967 636]",
+    "[WAIT_MOVEMENT]",
+    "[DELETE_NPC 967 6]",
+    "[CREATE_NPC 968 8 1]",
+    "[SET_FLAG MONKEY_OUTSIDE_JACKIES_CAFE]",
+    "[CLR_FLAG CHARRED_MONKEY_OUTSIDE_JACKIES_CAFE]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[CREATE_NPC_EMOTE 967 EXCLAMATION]": null,
+    "[PAUSE 60][DELETE_NPC_EMOTE 967]": null,
+    "[SET_NPC_MOVEMENT_SCRIPT 967 636]": null,
+    "[WAIT_MOVEMENT]": null,
+    "[DELETE_NPC 967 6]": null,
+    "[CREATE_NPC 968 8 1]": null,
+    "[SET_FLAG MONKEY_OUTSIDE_JACKIES_CAFE]": null,
+    "[CLR_FLAG CHARRED_MONKEY_OUTSIDE_JACKIES_CAFE]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2488,
+  "y_pixel_abs": 3848,
+  "x_tile": 77,
+  "y_tile": 120,
+  "x_sector": 9,
+  "y_sector": 15,
+  "x_sector_offset": 184,
+  "y_sector_offset": 8,
+  "Event Flag": 591,
+  "flag_label": "CHARRED_MONKEY_OUTSIDE_JACKIES_CAFE",
+  "Show Sprite": "when event flag set",
+  "Direction": "right",
+  "Movement": 8,
+  "Text Pointer 1": "data_31.l_0xc7b550",
+  "Text Pointer 2": "$0"
+}

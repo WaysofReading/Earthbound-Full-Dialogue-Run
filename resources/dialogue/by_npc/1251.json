@@ -1,0 +1,141 @@
+{
+  "Sprite": 97,
+  "sprite_label": "tenda",
+  "map_location_label": "Deep Darkness_Tenda Village_Main",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9D779",
+  "d1_flags": [
+    "1. goto C68C3F if PAULA_TELEPATHY_DREAM_1 is set",
+    "1. goto C68CC3 if PAULA_TELEPATHY_DREAM_2 is set",
+    "1. goto C68D5A if PAULA_TELEPATHY_DREAM_JEFF is set",
+    "1. goto C90E3D if JUST_RESTED is set",
+    "1. goto C90FB1 if ZOMBIE_PAPER_ON_TENT is set",
+    "3. set JUST_RESTED",
+    "4. clear JUST_RESTED"
+  ],
+  "d1_addresses": [
+    "C685DA",
+    "C68C3F",
+    "C68CC3",
+    "C68D5A",
+    "C7DD4D",
+    "C7DD4F",
+    "C90DEA",
+    "C90E22",
+    "C90E26",
+    "C90E3D",
+    "C90F7D",
+    "C90F90",
+    "C90FB1",
+    "C91582",
+    "C915D6",
+    "C91693",
+    "Npc1251"
+  ],
+  "d1_text": "Npc1251:\r\n[GOSUB L_C90DEA]\r\n[END]",
+  "d1_lines": [
+    "Npc1251:",
+    "[GOSUB L_C90DEA]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C90DEA]:C90DEA": {
+      "[GOTO_IF_FLAG JUST_RESTED L_C90E3D]:C90E3D": {
+        "\u00ef\u00bf\u00bdNice stay?[HALT][CLR_FLAG JUST_RESTED]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bdIn the hole, inn we have.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdFree. Stay?[LINE_BREAK]": null,
+      "[GOSUB L_C7DD4D]:C7DD4D": {
+        "[SHOW_WALLET]": null,
+        "; $C7DD4F": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        "[LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[END]": null
+      },
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C90E26 L_C90E22]:C90E26": {
+        "\u00ef\u00bf\u00bdOkay. You stay.[HALT][GOSUB L_C91693]:C91693": {
+          "[GOSUB L_C90F7D]:C90F7D": {
+            "[CLOSE_ALL_TBOXES]": null,
+            "[PAUSE 1][SET_FLAG JUST_RESTED]": null,
+            "[MUSIC_EFFECT 3]": null,
+            "[CREATE_OBJ 106 633 1]": null,
+            "[WAIT_MOVEMENT]": null,
+            "; $C90F90": null,
+            "[GOTO_IF_FLAG PAULA_TELEPATHY_DREAM_1 L_C68C3F]:C68C3F": "Sleep Dialogue - PAULA_TELEPATHY_DREAM_1",
+            "[GOTO_IF_FLAG PAULA_TELEPATHY_DREAM_2 L_C68CC3]:C68CC3": "Sleep Dialogue - PAULA_TELEPATHY_DREAM_2",
+            "[GOTO_IF_FLAG PAULA_TELEPATHY_DREAM_JEFF L_C68D5A]:C68D5A": "Sleep Dialogue - PAULA_TELEPATHY_DREAM_JEFF",
+            "[GOTO_IF_FLAG ZOMBIE_PAPER_ON_TENT L_C90FB1]:C90FB1": "Sleep Dialogue - ZOMBIE_PAPER_ON_TENT",
+            "[GOSUB L_C685DA]:C685DA": "Function - Jeff Repairs",
+            "; $C90FB1": null,
+            "[END]": null
+          },
+          "[GOSUB L_C915D6]:C915D6": {
+            "[PLAY_MUSIC 12]": null,
+            "[PAUSE 200][RESTORE_MUSIC]": null,
+            "[PAUSE 1][END]": null
+          },
+          "[GOSUB L_C91582]:C91582": "Function - Sleep for the Night",
+          "[END]": null
+        },
+        "[PRESET_TELEPORT 50]": null,
+        "[END]": null
+      },
+      "[MULTI_GOTO L_C90E26 L_C90E22]:C90E22": {
+        "\u00ef\u00bf\u00bd.....[HALT][END]": null
+      },
+      "; $C90E22": null,
+      "\u00ef\u00bf\u00bd.....[HALT][END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": "C9D6F8",
+  "d2_flags": [],
+  "d2_addresses": [
+    "C7C6B6",
+    "C9D6F8",
+    "C9D70B"
+  ],
+  "d2_text": "L_C9D6F8:\r\n[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]\r\n[CHECK_EQUAL 211][GOTO_IF_TRUE L_C9D70B]\r\n[GOTO L_C7C6B6]\r\n; $C9D70B\r\nL_C9D70B:\r\n\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]",
+  "d2_lines": [
+    "L_C9D6F8:",
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]",
+    "[CHECK_EQUAL 211][GOTO_IF_TRUE L_C9D70B]",
+    "[GOTO L_C7C6B6]",
+    "; $C9D70B",
+    "L_C9D70B:",
+    "\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]"
+  ],
+  "d2_unrolled": {
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+    "[CHECK_EQUAL 211][GOTO_IF_TRUE L_C9D70B]:C9D70B": {
+      "\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]": null
+    },
+    "[GOTO L_C7C6B6]:C7C6B6": {
+      "[GET_ACTION_ARG][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bdYou can't use[LINE_BREAK]": null,
+      "  the [PRINT_ITEM REG_ARGUMENT].[HALT][END]": null
+    },
+    "; $C9D70B": null,
+    "\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]": null
+  },
+  "x_pixel_abs": 464,
+  "y_pixel_abs": 112,
+  "x_tile": 14,
+  "y_tile": 3,
+  "x_sector": 1,
+  "y_sector": 0,
+  "x_sector_offset": 208,
+  "y_sector_offset": 112,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_53.l_0xc9d779",
+  "Text Pointer 2": "data_53.l_0xc9d6f8"
+}

@@ -1,0 +1,51 @@
+{
+  "Sprite": 172,
+  "sprite_label": "george-montague",
+  "map_location_label": "Dusty Dunes Desert_Desert Gold Mine_Main-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C61228",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0830"
+  ],
+  "d1_text": "Npc0830:\r\n\u00ef\u00bf\u00bdI didn't have a problem digging until this...[PAUSE 20] I found a maze.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdLots of monsters appeared, so I couldn't proceed.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThere's 5 big moles...![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIf I beat the monsters, I can continue on.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI think I have a bleeding ulcer from worrying too much.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm helpless to really do anything.[HALT][END]",
+  "d1_lines": [
+    "Npc0830:",
+    "\u00ef\u00bf\u00bdI didn't have a problem digging until this...[PAUSE 20] I found a maze.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdLots of monsters appeared, so I couldn't proceed.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThere's 5 big moles...![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIf I beat the monsters, I can continue on.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI think I have a bleeding ulcer from worrying too much.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm helpless to really do anything.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI didn't have a problem digging until this...[PAUSE 20] I found a maze.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdLots of monsters appeared, so I couldn't proceed.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThere's 5 big moles...![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIf I beat the monsters, I can continue on.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI think I have a bleeding ulcer from worrying too much.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm helpless to really do anything.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8048,
+  "y_pixel_abs": 6832,
+  "x_tile": 251,
+  "y_tile": 213,
+  "x_sector": 31,
+  "y_sector": 26,
+  "x_sector_offset": 112,
+  "y_sector_offset": 176,
+  "Event Flag": 54,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 13,
+  "Text Pointer 1": "data_16.l_0xc61228",
+  "Text Pointer 2": "$0"
+}

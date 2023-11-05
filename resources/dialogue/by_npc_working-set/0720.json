@@ -1,0 +1,74 @@
+{
+  "Sprite": 171,
+  "sprite_label": "mr-saturn",
+  "map_location_label": "Saturn Valley_Overworld_North",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C7E96C",
+  "d1_flags": [
+    "1. goto C7E9B9 if MASTER_BELCH_DEFEATED is set",
+    "1. goto C7E9ED if NESS_NIGHTMARE_DEFEATED is set",
+    "2. goto C7E9ED if PARTY_IS_DIRTY_FROM_BELCH_FIGHT is cleared"
+  ],
+  "d1_addresses": [
+    "C7E9B9",
+    "C7E9ED",
+    "Npc0720"
+  ],
+  "d1_text": "Npc0720:\r\n[SATURN_FONT][GOTO_IF_FLAG NESS_NIGHTMARE_DEFEATED L_C7E9ED]\r\n[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C7E9B9]\r\n\u00ef\u00bf\u00bdHot springs[LINE_BREAK]\r\n  make happy...![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHappy happy![LINE_BREAK]\r\n  Ding ding![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdJump in[LINE_BREAK]\r\n  hot spring![HALT][NORMAL_FONT][END]",
+  "d1_lines": [
+    "Npc0720:",
+    "[SATURN_FONT][GOTO_IF_FLAG NESS_NIGHTMARE_DEFEATED L_C7E9ED]",
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C7E9B9]",
+    "\u00ef\u00bf\u00bdHot springs[LINE_BREAK]",
+    "  make happy...![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHappy happy![LINE_BREAK]",
+    "  Ding ding![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdJump in[LINE_BREAK]",
+    "  hot spring![HALT][NORMAL_FONT][END]"
+  ],
+  "d1_unrolled": {
+    "[SATURN_FONT][GOTO_IF_FLAG NESS_NIGHTMARE_DEFEATED L_C7E9ED]:C7E9ED": {
+      "\u00ef\u00bf\u00bdSweet fresh[LINE_BREAK]": null,
+      "  feel.[HALT][NORMAL_FONT][END]": null
+    },
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C7E9B9]:C7E9B9": {
+      "[LOAD_FLAG PARTY_IS_DIRTY_FROM_BELCH_FIGHT][GOTO_IF_FALSE L_C7E9ED]:C7E9ED": {
+        "\u00ef\u00bf\u00bdSweet fresh[LINE_BREAK]": null,
+        "  feel.[HALT][NORMAL_FONT][END]": null
+      },
+      "\u00ef\u00bf\u00bdGo in hot[LINE_BREAK]": null,
+      "  spring.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWash[LINE_BREAK]": null,
+      "  barf off[LINE_BREAK]": null,
+      "  you body![HALT][NORMAL_FONT][END]": null
+    },
+    "\u00ef\u00bf\u00bdHot springs[LINE_BREAK]": null,
+    "  make happy...![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHappy happy![LINE_BREAK]": null,
+    "  Ding ding![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdJump in[LINE_BREAK]": null,
+    "  hot spring![HALT][NORMAL_FONT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 400,
+  "y_pixel_abs": 7344,
+  "x_tile": 12,
+  "y_tile": 229,
+  "x_sector": 1,
+  "y_sector": 28,
+  "x_sector_offset": 144,
+  "y_sector_offset": 176,
+  "Event Flag": 71,
+  "flag_label": "MASTER_BELCH_DEFEATED",
+  "Show Sprite": "when event flag set",
+  "Direction": "left",
+  "Movement": 12,
+  "Text Pointer 1": "data_34.l_0xc7e96c",
+  "Text Pointer 2": "$0"
+}

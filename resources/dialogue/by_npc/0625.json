@@ -1,0 +1,128 @@
+{
+  "Sprite": 70,
+  "sprite_label": "man_blonde_blue-blazer",
+  "map_location_label": "Winters_Tents_North_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6C68F",
+  "d1_flags": [
+    "1. goto C68C3F if PAULA_TELEPATHY_DREAM_1 is set",
+    "1. goto C68CC3 if PAULA_TELEPATHY_DREAM_2 is set",
+    "1. goto C68D5A if PAULA_TELEPATHY_DREAM_JEFF is set",
+    "1. goto C6C720 if 287 is set",
+    "1. goto C6C729 if JUST_RESTED is set",
+    "1. goto C90FB1 if ZOMBIE_PAPER_ON_TENT is set",
+    "3. set JUST_RESTED"
+  ],
+  "d1_addresses": [
+    "C685DA",
+    "C68C3F",
+    "C68CC3",
+    "C68D5A",
+    "C6C6EB",
+    "C6C6EC",
+    "C6C720",
+    "C6C729",
+    "C90F7D",
+    "C90F90",
+    "C90FB1",
+    "C91582",
+    "C915D6",
+    "C91693",
+    "Npc0625"
+  ],
+  "d1_text": "Npc0625:\r\n[GOTO_IF_FLAG JUST_RESTED L_C6C729]\r\n\u00ef\u00bf\u00bdSo, why don't you rest here for a short while...[PAUSE 15]  Have something to drink,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdperhaps some tea?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n [LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C6C6EC L_C6C6EB]\r\n; $C6C6EB\r\nL_C6C6EB:\r\n[END]",
+  "d1_lines": [
+    "Npc0625:",
+    "[GOTO_IF_FLAG JUST_RESTED L_C6C729]",
+    "\u00ef\u00bf\u00bdSo, why don't you rest here for a short while...[PAUSE 15]  Have something to drink,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdperhaps some tea?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    " [LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C6C6EC L_C6C6EB]",
+    "; $C6C6EB",
+    "L_C6C6EB:",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG JUST_RESTED L_C6C729]:C6C729": {
+      "\u00ef\u00bf\u00bdAre you feeling much better now?[PAUSE 20]  Good luck.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdSo, why don't you rest here for a short while...[PAUSE 15]  Have something to drink,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdperhaps some tea?[LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    " [LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C6C6EC L_C6C6EB]:C6C6EC": {
+      "[GOTO_IF_FLAG 287 L_C6C720]:C6C720": {
+        "[GOSUB L_C91693]:C91693": {
+          "[GOSUB L_C90F7D]:C90F7D": {
+            "[CLOSE_ALL_TBOXES]": null,
+            "[PAUSE 1][SET_FLAG JUST_RESTED]": null,
+            "[MUSIC_EFFECT 3]": null,
+            "[CREATE_OBJ 106 633 1]": null,
+            "[WAIT_MOVEMENT]": null,
+            "; $C90F90": null,
+            "[GOTO_IF_FLAG PAULA_TELEPATHY_DREAM_1 L_C68C3F]:C68C3F": "Sleep Dialogue - PAULA_TELEPATHY_DREAM_1",
+            "[GOTO_IF_FLAG PAULA_TELEPATHY_DREAM_2 L_C68CC3]:C68CC3": "Sleep Dialogue - PAULA_TELEPATHY_DREAM_2",
+            "[GOTO_IF_FLAG PAULA_TELEPATHY_DREAM_JEFF L_C68D5A]:C68D5A": "Sleep Dialogue - PAULA_TELEPATHY_DREAM_JEFF",
+            "[GOTO_IF_FLAG ZOMBIE_PAPER_ON_TENT L_C90FB1]:C90FB1": "Sleep Dialogue - ZOMBIE_PAPER_ON_TENT",
+            "[GOSUB L_C685DA]:C685DA": "Function - Jeff Repairs",
+            "; $C90FB1": null,
+            "[END]": null
+          },
+          "[GOSUB L_C915D6]:C915D6": {
+            "[PLAY_MUSIC 12]": null,
+            "[PAUSE 200][RESTORE_MUSIC]": null,
+            "[PAUSE 1][END]": null
+          },
+          "[GOSUB L_C91582]:C91582": "Function - Sleep for the Night",
+          "[END]": null
+        },
+        "[PRESET_TELEPORT 45]": null,
+        "[END]": null
+      },
+      "[SET_FLAG JUST_RESTED]": null,
+      "[GOSUB L_C915D6]:C915D6": {
+        "[PLAY_MUSIC 12]": null,
+        "[PAUSE 200][RESTORE_MUSIC]": null,
+        "[PAUSE 1][END]": null
+      },
+      "[GOSUB L_C91582]:C91582": "Function - Sleep for the Night",
+      "[OPEN_TBOX 1]": null,
+      "\u00ef\u00bf\u00bdAre you feeling much better now?[PAUSE 20]  Good luck.[HALT][CLOSE_ALL_TBOXES]": null,
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C6C6EC L_C6C6EB]:C6C6EB": {
+      "[END]": null
+    },
+    "; $C6C6EB": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4132,
+  "y_pixel_abs": 5973,
+  "x_tile": 129,
+  "y_tile": 186,
+  "x_sector": 16,
+  "y_sector": 23,
+  "x_sector_offset": 36,
+  "y_sector_offset": 85,
+  "Event Flag": 73,
+  "flag_label": "GIYGAS_DEFEATED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 606,
+  "Text Pointer 1": "data_24.l_0xc6c68f",
+  "Text Pointer 2": "$0"
+}

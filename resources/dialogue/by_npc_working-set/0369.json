@@ -1,0 +1,41 @@
+{
+  "Sprite": 433,
+  "sprite_label": "sign_burglin-park",
+  "map_location_label": "Twoson_Overworld_Central",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "C95365",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0369"
+  ],
+  "d1_text": "Npc0369:\r\n\u00ef\u00bf\u00bd(One of the biggest markets you'll ever find--now in Burglin Park.)[HALT][END]",
+  "d1_lines": [
+    "Npc0369:",
+    "\u00ef\u00bf\u00bd(One of the biggest markets you'll ever find--now in Burglin Park.)[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bd(One of the biggest markets you'll ever find--now in Burglin Park.)[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1872,
+  "y_pixel_abs": 6904,
+  "x_tile": 58,
+  "y_tile": 215,
+  "x_sector": 7,
+  "y_sector": 26,
+  "x_sector_offset": 80,
+  "y_sector_offset": 248,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_47.l_0xc95365",
+  "Text Pointer 2": "$0"
+}

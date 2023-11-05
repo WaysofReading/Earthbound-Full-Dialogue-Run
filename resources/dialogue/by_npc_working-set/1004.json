@@ -1,0 +1,47 @@
+{
+  "Sprite": 91,
+  "sprite_label": "man_sailor_red-clothes",
+  "map_location_label": "Summers and Toto_Toto Houses_West-2_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8A1E1",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1004"
+  ],
+  "d1_text": "Npc1004:\r\n\u00ef\u00bf\u00bdI'm a grave robber.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI was scared of the pyramid in Scaraba...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdso, I didn't go in...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdbut I tell people that I saw mummy-type monsters with my very own eyes![HALT][END]",
+  "d1_lines": [
+    "Npc1004:",
+    "\u00ef\u00bf\u00bdI'm a grave robber.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI was scared of the pyramid in Scaraba...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdso, I didn't go in...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdbut I tell people that I saw mummy-type monsters with my very own eyes![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI'm a grave robber.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI was scared of the pyramid in Scaraba...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdso, I didn't go in...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdbut I tell people that I saw mummy-type monsters with my very own eyes![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7248,
+  "y_pixel_abs": 9568,
+  "x_tile": 226,
+  "y_tile": 299,
+  "x_sector": 28,
+  "y_sector": 37,
+  "x_sector_offset": 80,
+  "y_sector_offset": 96,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_40.l_0xc8a1e1",
+  "Text Pointer 2": "$0"
+}

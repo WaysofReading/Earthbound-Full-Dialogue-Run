@@ -1,0 +1,204 @@
+{
+  "Sprite": 124,
+  "sprite_label": "boy_baseball-helmet",
+  "map_location_label": "Onett_Secret Hideout_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C73F0F",
+  "d1_flags": [
+    "1. goto C73FBC if GOT_MR_BASEBALL_CAP is set",
+    "1. goto C74046 if GOT_MR_BASEBALL_CAP is set",
+    "1. goto C740AD if GIYGAS_DEFEATED is set",
+    "3. set GOT_MR_BASEBALL_CAP"
+  ],
+  "d1_addresses": [
+    "C73F6C",
+    "C73F83",
+    "C73FBC",
+    "C73FE9",
+    "C74046",
+    "C7407E",
+    "C74096",
+    "C740AD",
+    "C7410C",
+    "C74141",
+    "C7DC7F",
+    "C7DC85",
+    "C7DCCF",
+    "C7DCDA",
+    "C7DD03",
+    "Npc0122"
+  ],
+  "d1_text": "Npc0122:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C740AD]\r\n[SET_COUNTER 1]\r\n[GOSUB L_C7DC7F]\r\n[GOTO_IF_TRUE L_C73FE9]\r\n[GOTO_IF_FLAG GOT_MR_BASEBALL_CAP L_C73FBC]\r\n\u00ef\u00bf\u00bdI'll give you my [PRINT_ITEM MR_BASEBALL_CAP],[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI know you've wanted it for a long time.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt's the best cap for someone really brave like you.[WAIT][LINE_BREAK]\r\n; $C73F6C\r\nL_C73F6C:\r\n[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C73F83]\r\n[GIVE_ITEM_RETURN_SLOT REG_RESULT MR_BASEBALL_CAP]\r\n[GOSUB L_C7DCCF]\r\n[SET_FLAG GOT_MR_BASEBALL_CAP]\r\n[HALT][END]",
+  "d1_lines": [
+    "Npc0122:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C740AD]",
+    "[SET_COUNTER 1]",
+    "[GOSUB L_C7DC7F]",
+    "[GOTO_IF_TRUE L_C73FE9]",
+    "[GOTO_IF_FLAG GOT_MR_BASEBALL_CAP L_C73FBC]",
+    "\u00ef\u00bf\u00bdI'll give you my [PRINT_ITEM MR_BASEBALL_CAP],[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI know you've wanted it for a long time.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt's the best cap for someone really brave like you.[WAIT][LINE_BREAK]",
+    "; $C73F6C",
+    "L_C73F6C:",
+    "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C73F83]",
+    "[GIVE_ITEM_RETURN_SLOT REG_RESULT MR_BASEBALL_CAP]",
+    "[GOSUB L_C7DCCF]",
+    "[SET_FLAG GOT_MR_BASEBALL_CAP]",
+    "[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C740AD]:C740AD": {
+      "\u00ef\u00bf\u00bd[PRINT_STAT NESS_NAME],[PAUSE 15] I've been thinking about our gang's name.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt's \u00ef\u00bf\u00bdWe'll laugh about it tomorrow.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDo you like it?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C74141 L_C7410C]:C74141": {
+        "\u00ef\u00bf\u00bdMy philosophy is \u00ef\u00bf\u00bdpeace to all men\u00ef\u00bf\u00bd![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdReally? You like it?[PAUSE 20]  I knew you would understand.[HALT][END]": null
+      },
+      "[MULTI_GOTO L_C74141 L_C7410C]:C7410C": {
+        "\u00ef\u00bf\u00bd...Okay.[PAUSE 30]  Laugh doesn't really mean \u00ef\u00bf\u00bdlaugh.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIt means \u00ef\u00bf\u00bdchuckle.\u00ef\u00bf\u00bd[HALT][END]": null
+      },
+      "; $C7410C": null,
+      "\u00ef\u00bf\u00bd...Okay.[PAUSE 30]  Laugh doesn't really mean \u00ef\u00bf\u00bdlaugh.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt means \u00ef\u00bf\u00bdchuckle.\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[SET_COUNTER 1]": null,
+    "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+    "[GOTO_IF_TRUE L_C73FE9]:C73FE9": {
+      "[GOTO_IF_FLAG GOT_MR_BASEBALL_CAP L_C74046]:C74046": {
+        "\u00ef\u00bf\u00bdAre you [PRINT_STAT NESS_NAME]'s friend?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdDid he ever talk about me?[WAIT][LINE_BREAK]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        "[LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C74096 L_C7407E]:C74096": {
+          "\u00ef\u00bf\u00bdOh![PAUSE 20]  That's the [PRINT_STAT NESS_NAME] I know...![HALT][END]": null
+        },
+        "[MULTI_GOTO L_C74096 L_C7407E]:C7407E": {
+          "\u00ef\u00bf\u00bdMaybe he didn't talk much about his friends.[HALT][END]": null
+        },
+        "; $C7407E": null,
+        "\u00ef\u00bf\u00bdMaybe he didn't talk much about his friends.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdI'll give you my [PRINT_ITEM MR_BASEBALL_CAP],[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI know [PRINT_STAT NESS_NAME] wanted it for a long time.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdPutting this cap on will make you stronger.[PAUSE 15]  Yep,[PAUSE 5] yep,[PAUSE 5] yep![WAIT][LINE_BREAK]": null,
+      "[GOTO L_C73F6C]:C73F6C": {
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C73F83]:C73F83": {
+          "[START_LINE]": null,
+          "[PLAY_SFX 5]": null,
+          "\u00ef\u00bf\u00bdAh![PAUSE 20]  You can't carry anything else.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYou should either sell or throw away some junk and come back.[HALT][END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT MR_BASEBALL_CAP]": null,
+        "[GOSUB L_C7DCCF]:C7DCCF": {
+          "[PLAY_SFX 116]": null,
+          "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+            "[BACKUP_REGS_LOCAL]": null,
+            "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+            "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+              "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+              "  to [SWAP_ARG_RESULT]": null,
+              "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+            "  the [SWAP_ARG_RESULT]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+          },
+          "[END]": null
+        },
+        "[SET_FLAG GOT_MR_BASEBALL_CAP]": null,
+        "[HALT][END]": null
+      },
+      "; $C74046": null,
+      "\u00ef\u00bf\u00bdAre you [PRINT_STAT NESS_NAME]'s friend?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDid he ever talk about me?[WAIT][LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C74096 L_C7407E]:C74096": {
+        "\u00ef\u00bf\u00bdOh![PAUSE 20]  That's the [PRINT_STAT NESS_NAME] I know...![HALT][END]": null
+      },
+      "[MULTI_GOTO L_C74096 L_C7407E]:C7407E": {
+        "\u00ef\u00bf\u00bdMaybe he didn't talk much about his friends.[HALT][END]": null
+      },
+      "; $C7407E": null,
+      "\u00ef\u00bf\u00bdMaybe he didn't talk much about his friends.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG GOT_MR_BASEBALL_CAP L_C73FBC]:C73FBC": {
+      "\u00ef\u00bf\u00bdI'd like to go on an adventure with you once I become a little stronger.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI'll give you my [PRINT_ITEM MR_BASEBALL_CAP],[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI know you've wanted it for a long time.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt's the best cap for someone really brave like you.[WAIT][LINE_BREAK]": null,
+    "; $C73F6C": null,
+    "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C73F83]:C73F83": {
+      "[START_LINE]": null,
+      "[PLAY_SFX 5]": null,
+      "\u00ef\u00bf\u00bdAh![PAUSE 20]  You can't carry anything else.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou should either sell or throw away some junk and come back.[HALT][END]": null
+    },
+    "[GIVE_ITEM_RETURN_SLOT REG_RESULT MR_BASEBALL_CAP]": null,
+    "[GOSUB L_C7DCCF]:C7DCCF": {
+      "[PLAY_SFX 116]": null,
+      "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+        "[BACKUP_REGS_LOCAL]": null,
+        "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+        "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+          "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+          "  to [SWAP_ARG_RESULT]": null,
+          "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+        },
+        "[RESTORE_REGS_LOCAL]": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+        "  the [SWAP_ARG_RESULT]": null,
+        "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+      },
+      "[END]": null
+    },
+    "[SET_FLAG GOT_MR_BASEBALL_CAP]": null,
+    "[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8040,
+  "y_pixel_abs": 1360,
+  "x_tile": 251,
+  "y_tile": 42,
+  "x_sector": 31,
+  "y_sector": 5,
+  "x_sector_offset": 104,
+  "y_sector_offset": 80,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 8,
+  "Text Pointer 1": "data_27.l_0xc73f0f",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,43 @@
+{
+  "Sprite": 127,
+  "sprite_label": "girl_blonde_ponytail",
+  "map_location_label": "Onett_Burger Shop_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C7640B",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0035"
+  ],
+  "d1_text": "Npc0035:\r\n\u00ef\u00bf\u00bdI'm so much more relaxed here...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThey never ask me[PAUSE 30] \u00ef\u00bf\u00bdWould you like fries with that shake?\u00ef\u00bf\u00bd[HALT][END]",
+  "d1_lines": [
+    "Npc0035:",
+    "\u00ef\u00bf\u00bdI'm so much more relaxed here...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThey never ask me[PAUSE 30] \u00ef\u00bf\u00bdWould you like fries with that shake?\u00ef\u00bf\u00bd[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI'm so much more relaxed here...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThey never ask me[PAUSE 30] \u00ef\u00bf\u00bdWould you like fries with that shake?\u00ef\u00bf\u00bd[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7520,
+  "y_pixel_abs": 488,
+  "x_tile": 235,
+  "y_tile": 15,
+  "x_sector": 29,
+  "y_sector": 1,
+  "x_sector_offset": 96,
+  "y_sector_offset": 232,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 12,
+  "Text Pointer 1": "data_28.l_0xc7640b",
+  "Text Pointer 2": "$0"
+}

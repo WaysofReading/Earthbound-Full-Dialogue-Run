@@ -1,0 +1,430 @@
+filename,size_x,size_y,x0,y0,x1,y1,hierarchy_level
+Fourside_Monotoli_L3_Left_Up_Left_-Right_Left_Left-(Monotoli),512,256,5376,5888,5888,6144,8
+Fourside_Monotoli_L3_Left_Up_Left_-Right_Left_Left-(to-Roof),256,128,5376,4096,5632,4224,8
+Fourside_Monotoli_L3_Left_Up_Left_-Right_Left-(Clumsy-Robot),256,128,5888,5888,6144,6016,7
+Fourside_Monotoli_L3_Left_Up_Left_-Right_Up-(Electra),256,128,5888,5632,6144,5760,7
+Fourside_Monotoli_L3_Left_Up_Left_-Right,256,128,5120,5632,5376,5760,6
+Fourside_Monotoli_L3_Left_Up_Left_Left,256,128,5888,5376,6144,5504,6
+Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules_Boss,256,256,7936,4608,8192,4864,6
+Dusty Dunes Desert_Monkey Cave_Start_Left_Right_Left-(Trashcan),128,64,6144,6400,6272,6464,5
+Dusty Dunes Desert_Monkey Cave_Start_Left_Right_Right-(Chest),192,128,6144,6656,6336,6784,5
+Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Left-(Chest),128,128,7680,6144,7808,6272,5
+Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Hallway),512,128,6656,6272,7168,6400,5
+Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Pencil-Eraser),192,128,7936,5632,8128,5760,5
+Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Talah-Rama-Room),256,192,7424,6656,7680,6848,5
+Dusty Dunes Desert_Monkey Cave_Start_Right_Right_Left-(get-King-Banana),128,128,6656,5888,6784,6016,5
+Dusty Dunes Desert_Monkey Cave_Start_Right_Right_Right-(Trash-can),256,128,6656,6400,6912,6528,5
+Fourside_Monotoli_L3_Left_Up_Left,256,128,5120,5376,5376,5504,5
+Fourside_Monotoli_L3_Left_Up_Up,256,128,5888,5120,6144,5248,5
+Summers and Toto_Museum_1F_Exhibit-Room_Upstairs_Mummy-Room,256,128,7936,9472,8192,9600,5
+Twoson_Polestar_1F_Den_Bedroom_Paula's-Room,256,128,7936,8832,8192,8960,5
+Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,256,128,7680,6016,7936,6144,5
+Dusty Dunes Desert_Monkey Cave_Start_Left_Left-(get-Fresh-Egg),128,128,6144,5888,6272,6016,4
+Dusty Dunes Desert_Monkey Cave_Start_Left_Left-(Hallway),256,128,6144,6016,6400,6144,4
+Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hallway),256,128,6144,6272,6400,6400,4
+"Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hamburger,-Hamburger)",256,128,6144,6144,6400,6272,4
+Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hallway),256,128,6656,6016,6912,6144,4
+"Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hamburger,-King-Banana)",192,128,7680,5888,7872,6016,4
+Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Hallway),256,128,6144,6784,6400,6912,4
+"Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Ruler,-Fresh-Egg)",256,128,6656,5632,6912,5760,4
+Fourside_Monotoli_L1_Lobby_Elevator-Up,128,128,5120,4992,5248,5120,4
+Fourside_Monotoli_L2_Lobby_Elevator-Down,128,128,5120,5248,5248,5376,4
+Fourside_Monotoli_L2_Lobby_Elevator-Up,128,128,5120,5504,5248,5632,4
+Fourside_Monotoli_L3_Lobby_Elevator-Down,128,128,5120,5760,5248,5888,4
+Fourside_Museum_1F_Exhibit-Room_Sewer-Room,256,128,5376,6784,5632,6912,4
+Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room,256,128,5376,6656,5632,6784,4
+Summers and Toto_Museum_1F_Exhibit-Room_Upstairs,192,128,7424,9472,7616,9600,4
+Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room,256,128,7936,7424,8192,7552,4
+Twoson_Polestar_1F_Den_Bedroom,256,128,6656,7936,6912,8064,4
+Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout,512,512,6400,4096,6912,4608,4
+Cave of the Past_Rooms_1F_Past,768,1280,0,5888,768,7168,3
+Cave of the Past_Rooms_1F_Present-Day,768,512,5376,0,6144,512,3
+Cutscenes_Flashback_2F_Ness'-Room,256,128,5888,2048,6144,2176,3
+Dalaam_Palace_1F_Throne-Room,384,192,6656,8192,7040,8384,3
+Deep Darkness_Tenda Village_Main_Hotel-Room,192,128,6144,9600,6336,9728,3
+Deep Darkness_Tenda Village_Main_Talking-Rock-Room,256,256,1024,2560,1280,2816,3
+Dusty Dunes Desert_Monkey Cave_Start_Left-(Hallway),256,128,6144,5760,6400,5888,3
+"Dusty Dunes Desert_Monkey Cave_Start_Left-(Pizza,-Wet-Towel)",192,128,6144,5632,6336,5760,3
+Dusty Dunes Desert_Monkey Cave_Start_Right-(Hallway),256,128,6144,6528,6400,6656,3
+"Dusty Dunes Desert_Monkey Cave_Start_Right-(Pizza,-Protein-Drink)",128,128,6400,5120,6528,5248,3
+Fourside_Department Store_1F_2nd-Flight-Room,256,128,5888,5504,6144,5632,3
+Fourside_Department Store_1F_3rd-Flight-Room,256,128,5888,5248,6144,5376,3
+Fourside_Department Store_1F_Boss-Room,256,128,5888,4992,6144,5120,3
+Fourside_Hospital_1F_Doctor's-Office,256,128,4352,4992,4608,5120,3
+Fourside_Hospital_2F_Left-Room,256,128,5888,6272,6144,6400,3
+Fourside_Hospital_2F_Right-Room,256,128,5632,6656,5888,6784,3
+Fourside_Hotel (Monotoli Grand Hotel)_1F_ATM,128,128,5888,5760,6016,5888,3
+Fourside_Hotel (Monotoli Grand Hotel)_1F_Left-Room,256,128,5632,6528,5888,6656,3
+Fourside_Hotel (Monotoli Grand Hotel)_1F_Lobby,384,128,5376,6272,5760,6400,3
+Fourside_Hotel (Monotoli Grand Hotel)_1F_Right-Room,256,128,5632,6784,5888,6912,3
+Fourside_Jackie's Cafe_1F_Backroom,384,192,4608,4864,4992,5056,3
+Fourside_Monotoli_L1_Lobby,448,256,5376,5248,5824,5504,3
+Fourside_Monotoli_L2_Hallway,384,128,5376,4864,5760,4992,3
+Fourside_Monotoli_L2_Left-Room-(Aloysius),320,192,5376,4992,5696,5184,3
+Fourside_Monotoli_L2_Lobby,256,128,5888,6400,6144,6528,3
+Fourside_Monotoli_L2_Right-Room-(Pokey),384,192,5376,5504,5760,5696,3
+Fourside_Monotoli_L3_Hallway,512,128,5376,5760,5888,5888,3
+"Fourside_Monotoli_L3_Left,-Up",256,128,5120,5120,5376,5248,3
+Fourside_Monotoli_L3_Left,256,128,5888,4864,6144,4992,3
+Fourside_Monotoli_L3_Lobby,256,128,5888,6144,6144,6272,3
+Fourside_Monotoli_L3_Right,256,128,5120,4864,5376,4992,3
+Fourside_Museum_1F_Exhibit-Room,768,256,4352,5120,5120,5376,3
+Fourside_Topolla Theater_1F_Concert-Hall,768,384,4352,5632,5120,6016,3
+Fourside_Topolla Theater_1F_Manager's-Office,256,128,4352,4864,4608,4992,3
+Happy Happy Village_Happy Happy HQ_1F_Carpainter,256,192,7424,1792,7680,1984,3
+Happy Happy Village_Happy Happy HQ_1F_Reception,256,128,7936,1664,8192,1792,3
+Moonside_Hospital_1F_Room,256,128,7936,5760,8192,5888,3
+Moonside_Hotel_1F_Room,192,128,6400,6400,6592,6528,3
+Onett_Hospital_1F_Doctor's-Office,256,128,7168,1152,7424,1280,3
+Onett_Hospital_2F_Left-Room,256,128,7680,896,7936,1024,3
+Onett_Hospital_2F_Right-Room,256,128,7680,1152,7936,1280,3
+Onett_Hotel (Hotel Onett)_1F_ATM,128,128,7168,1024,7296,1152,3
+Onett_Hotel (Hotel Onett)_1F_Left-Room,256,128,7680,1280,7936,1408,3
+Onett_Hotel (Hotel Onett)_1F_Lobby,384,128,7424,0,7808,128,3
+Onett_Hotel (Hotel Onett)_1F_Right-Room,256,121,7936,1536,8192,1657,3
+Onett_Houses_East-Blue-Roof_1F,256,128,7424,1024,7680,1152,3
+Onett_Houses_East-Orange_1F,256,128,6912,1152,7168,1280,3
+Onett_Houses_North-Blue-Roof_1F,256,128,6912,896,7168,1024,3
+Onett_Houses_West-Blue-Roof_1F,256,128,7424,512,7680,640,3
+Onett_Houses_West-Orange_1F,256,128,7424,768,7680,896,3
+Onett_Houses_West-Violet-Roof_1F,256,128,7936,256,8192,384,3
+Onett_Library_1F_Left-Room,256,128,6912,1024,7168,1152,3
+Onett_Library_1F_Right-Room,256,128,6912,1280,7168,1408,3
+Onett_Library_2F_Room,256,128,7936,768,8192,896,3
+Onett_Ness' House_2F_Ness'-Room,256,128,7936,1024,8192,1152,3
+Onett_Ness' House_2F_Tracy's-Room,256,128,7424,640,7680,768,3
+Onett_Police Station_1F_Backroom,256,128,7424,128,7680,256,3
+Onett_Police Station_1F_Cells,256,128,7936,0,8192,128,3
+Onett_Town Hall_1F_Left-Room,320,192,6912,0,7232,192,3
+Onett_Town Hall_1F_Reception,192,128,7680,768,7872,896,3
+Onett_Town Hall_1F_Right-Room,256,128,7680,1024,7936,1152,3
+Scaraba_Dungeon Man_1F_Doctor's-Office,256,192,5888,6592,6144,6784,3
+Scaraba_Houses_North_1F,192,128,6400,7808,6592,7936,3
+Scaraba_Houses_South_1F,192,128,6400,8064,6592,8192,3
+Summers and Toto_Hospital_1F_Doctor's-Office,256,128,7168,9600,7424,9728,3
+Summers and Toto_Hospital_2F_Left-Room,192,128,6656,8960,6848,9088,3
+Summers and Toto_Hospital_2F_Right-Room,192,128,7680,8960,7872,9088,3
+Summers and Toto_Hotel (L'hotel du Summer)_1F_Left-Room,256,128,7168,9344,7424,9472,3
+Summers and Toto_Hotel (L'hotel du Summer)_1F_Lobby,512,256,7168,8704,7680,8960,3
+Summers and Toto_Hotel (L'hotel du Summer)_1F_Right-Room,256,128,7680,9344,7936,9472,3
+Summers and Toto_Hotel (L'hotel du Summer)_1F_Stairwell,256,256,7936,8960,8192,9216,3
+Summers and Toto_Museum_1F_Exhibit-Room,512,256,6656,8704,7168,8960,3
+Summers and Toto_Toto Houses_West-1_1F,256,128,6656,9472,6912,9600,3
+Summers and Toto_Toto Houses_West-2_1F,192,128,7168,9472,7360,9600,3
+Summers and Toto_Toto Houses_West-3_1F,192,128,7680,9472,7872,9600,3
+Summers and Toto_Toto Houses_West-4_1F,192,128,6656,9728,6848,9856,3
+Summers and Toto_Toto Houses_West-5_1F,192,128,7168,9728,7360,9856,3
+Threed_Hospital_1F_Doctor's-Office,256,128,7168,9856,7424,9984,3
+Threed_Hospital_2F_Left-Room,256,128,6912,9216,7168,9344,3
+Threed_Hospital_2F_Right-Room,256,128,7424,9216,7680,9344,3
+Threed_Hotel (Threed Sunset Hotel)_1F_ATM,128,128,7168,9216,7296,9344,3
+Threed_Hotel (Threed Sunset Hotel)_1F_Left-Room,256,128,7424,9344,7680,9472,3
+Threed_Hotel (Threed Sunset Hotel)_1F_Lobby,320,128,7680,9216,8000,9344,3
+Threed_Hotel (Threed Sunset Hotel)_1F_Right-Room,256,128,7936,9344,8192,9472,3
+Threed_Houses_Center-Northeast_1F,256,128,7424,9600,7680,9728,3
+Threed_Houses_Southeast-Mailbox_1F,256,128,6912,9856,7168,9984,3
+Threed_Houses_Southeast_1F,256,128,7424,9856,7680,9984,3
+Threed_Houses_Southwest_1F,192,128,6912,9600,7104,9728,3
+Twoson_Chaos Theater_1F_Concert-Hall,512,256,6656,8448,7168,8704,3
+Twoson_Chaos Theater_1F_Manager's-Office,256,128,7424,7552,7680,7680,3
+Twoson_Hospital_1F_Doctor's-Office,256,128,7680,7296,7936,7424,3
+Twoson_Hospital_2F_Left-Room,256,128,7168,7552,7424,7680,3
+Twoson_Hospital_2F_Right-Room,256,128,6656,7552,6912,7680,3
+Twoson_Hotel (Twoson Hotel)_1F_ATM,128,128,7680,8832,7808,8960,3
+Twoson_Hotel (Twoson Hotel)_1F_Left-Room,256,128,7168,7680,7424,7808,3
+Twoson_Hotel (Twoson Hotel)_1F_Lobby,512,192,7168,8192,7680,8384,3
+Twoson_Hotel (Twoson Hotel)_1F_Right-Room,256,128,7680,7680,7936,7808,3
+Twoson_Houses_East-Orange_1F,256,128,7936,7680,8192,7808,3
+Twoson_Houses_East-Orange_2F,256,128,7936,7936,8192,8064,3
+Twoson_Houses_Northwest-Green-Roof_1F,256,128,7168,8064,7424,8192,3
+Twoson_Houses_Northwest-Green-Roof_2F,256,128,7168,7808,7424,7936,3
+Twoson_Houses_Northwest-Red-Roof_1F,256,128,6656,8064,6912,8192,3
+Twoson_Houses_Northwest-Red-Roof_2F,256,128,6656,7808,6912,7936,3
+Twoson_Houses_Southeast-Green-Roof_1F,256,128,6912,8064,7168,8192,3
+Twoson_Polestar_1F_Den,256,128,6656,7680,6912,7808,3
+Winters_Snow Wood_1F_Locker-Room,256,128,7168,1536,7424,1664,3
+Winters_Snow Wood_1F_Maxwell's-Room,256,128,7680,1536,7936,1664,3
+Winters_Snow Wood_2F_Jeff-and-Tony's-Room,256,128,7168,1792,7424,1920,3
+Winters_Snow Wood_2F_Present-Room,256,128,7680,1792,7936,1920,3
+Winters_Stonehenge Base_B7F_Exit-Mouse,256,128,6656,5760,6912,5888,3
+Winters_Tents_North_1F,128,128,4096,5888,4224,6016,3
+Winters_Tents_South-1_1F,128,128,7168,1664,7296,1792,3
+Winters_Tents_South-2_1F,128,128,7680,1664,7808,1792,3
+Winters_Tents_South-3_1F,128,128,7168,1920,7296,2048,3
+Winters_Tents_South-4_1F,128,128,7680,1920,7808,2048,3
+Cave of the Past_Rooms_2F,512,515,768,7293,1280,7808,2
+Cave of the Past_Rooms_Boss-Room,256,1280,4096,768,4352,2048,2
+Cutscenes_Boat_Water,256,2048,0,8192,256,10240,2
+Cutscenes_Flashback_1F,512,128,1536,8704,2048,8832,2
+Cutscenes_Flashback_2F,256,128,5376,4736,5632,4864,2
+Cutscenes_Flashback_Outside,256,768,6144,512,6400,1280,2
+Cutscenes_Skyrunner_Sky,1024,256,2048,2048,3072,2304,2
+Dalaam_Houses_East,192,128,7424,7808,7616,7936,2
+Dalaam_Houses_North,192,128,6912,7680,7104,7808,2
+Dalaam_Houses_South,192,128,6912,7936,7104,8064,2
+Dalaam_Overworld_North,1024,480,4096,3328,5120,3808,2
+Dalaam_Overworld_South,1024,544,4096,3808,5120,4352,2
+Dalaam_Palace_1F,512,192,7680,8192,8192,8384,2
+Dalaam_Shop_1F,192,128,7424,8064,7616,8192,2
+Deep Darkness_Overworld_Northeast,1024,736,5376,6912,6400,7648,2
+Deep Darkness_Overworld_Northwest,1024,736,4352,6912,5376,7648,2
+Deep Darkness_Overworld_Southeast,1024,544,5376,7648,6400,8192,2
+Deep Darkness_Overworld_Southwest,1024,544,4352,7648,5376,8192,2
+Deep Darkness_Tenda Village_Main,768,512,0,0,768,512,2
+Dusty Dunes Desert_Construction Shack_1F,192,128,7936,1792,8128,1920,2
+Dusty Dunes Desert_Desert Gold Mine_Initial-Layout,256,256,256,8192,512,8448,2
+Dusty Dunes Desert_Desert Gold Mine_Main-Room,1792,1536,6400,5376,8192,6912,2
+Dusty Dunes Desert_Desert Gold Mine_Room-1,512,256,6144,5120,6656,5376,2
+Dusty Dunes Desert_Desert Gold Mine_Room-2,1024,384,7168,5120,8192,5504,2
+Dusty Dunes Desert_Desert Gold Mine_Room-3,256,128,6400,5632,6656,5760,2
+Dusty Dunes Desert_Drug Store_1F,256,128,7680,2048,7936,2176,2
+Dusty Dunes Desert_Monkey Cave_Entryway-Room,512,128,7168,5248,7680,5376,2
+"Dusty Dunes Desert_Monkey Cave_Start-(Picnic-Lunch,-Skip-Sandwich)",192,128,6144,5376,6336,5504,2
+Dusty Dunes Desert_Overworld_East-(Dig-Site),1088,1024,3264,8704,4352,9728,2
+Dusty Dunes Desert_Overworld_North,1024,1024,2240,8704,3264,9728,2
+Dusty Dunes Desert_Overworld_Northwest,1024,864,1216,8704,2240,9568,2
+Dusty Dunes Desert_Overworld_South,1024,512,2240,9728,3264,10240,2
+Dusty Dunes Desert_Overworld_Southeast-Tunnel-to-Foursisde),1088,512,3264,9728,4352,10240,2
+Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),1024,672,1216,9568,2240,10240,2
+Dusty Dunes Desert_Overworld_West-(Tunnel-to-Threed),960,1024,256,9216,1216,10240,2
+Fourside Sewers_Rooms_Boss-Room,768,256,3072,3072,3840,3328,2
+Fourside Sewers_Rooms_Hallway-1,1280,256,6912,3328,8192,3584,2
+Fourside Sewers_Rooms_Hallway-2,1280,256,4864,512,6144,768,2
+Fourside Sewers_Rooms_Room-1,256,256,0,1280,256,1536,2
+Fourside Sewers_Rooms_Room-2,224,128,4096,4352,4320,4480,2
+Fourside Sewers_Rooms_Room-3,224,128,4096,4608,4320,4736,2
+Fourside Sewers_Rooms_Room-4,256,128,4096,4864,4352,4992,2
+Fourside Sewers_Rooms_Room-5,256,128,5632,3456,5888,3584,2
+Fourside_Bakery_1F,256,192,4352,5376,4608,5568,2
+Fourside_Bakery_2F,256,128,5120,5888,5376,6016,2
+Fourside_Department Store_1F,1024,896,4352,6016,5376,6912,2
+Fourside_Hospital_1F,512,128,5376,6144,5888,6272,2
+Fourside_Hospital_2F,1366,621,5376,6400,6742,7021,2
+Fourside_Hotel (Monotoli Grand Hotel)_1F,256,128,5888,6016,6144,6144,2
+Fourside_Jackie's Cafe_1F,256,128,5376,6528,5632,6656,2
+Fourside_Museum_1F,256,128,5888,6784,6144,6912,2
+Fourside_Overworld_Central,576,608,2816,3840,3392,4448,2
+Fourside_Overworld_East,704,992,3392,3648,4096,4640,2
+Fourside_Overworld_Fourside,416,2048,3680,3328,4096,5376,2
+Fourside_Overworld_North,1120,512,2560,3328,3680,3840,2
+Fourside_Overworld_Northwest,768,1120,2048,3328,2816,4448,2
+Fourside_Overworld_South,1120,928,2560,4448,3680,5376,2
+Fourside_Overworld_Southwest-(to-Dusty-Dunes),512,928,2048,4448,2560,5376,2
+Fourside_Topolla Theater_1F,512,192,4608,5376,5120,5568,2
+Giant Step_Rooms_Boss-Room,128,512,1024,2048,1152,2560,2
+Giant Step_Rooms_Hallway-1,256,128,5888,2432,6144,2560,2
+Giant Step_Rooms_Main-Room,1024,768,1792,7936,2816,8704,2
+Giant Step_Rooms_Room-1,256,128,3840,4992,4096,5120,2
+Giant Step_Rooms_Room-2,256,128,3584,5504,3840,5632,2
+Giant Step_Rooms_Room-3,256,128,3584,5760,3840,5888,2
+Grapefruit Falls_Belch's Base_Boss-Room,384,192,4352,4608,4736,4800,2
+Grapefruit Falls_Belch's Base_Main,1536,512,2048,5376,3584,5888,2
+Grapefruit Falls_Belch's Base_Room-1,256,128,3840,5248,4096,5376,2
+Grapefruit Falls_Belch's Base_Room-2,192,128,3840,5504,4032,5632,2
+Grapefruit Falls_Belch's Base_Room-3,192,128,3840,5760,4032,5888,2
+Grapefruit Falls_Belch's Base_Room-4,192,128,3840,6016,4032,6144,2
+Grapefruit Falls_Overworld_All,768,2432,6144,128,6912,2560,2
+Happy Happy Village_Drug Store_1F,1024,384,6912,1408,7936,1792,2
+Happy Happy Village_Happy Happy HQ_1F,768,256,7424,2176,8192,2432,2
+Happy Happy Village_Hospital_1F,256,128,7424,1664,7680,1792,2
+Happy Happy Village_Hotel (Meager Livin' Farm)_1F,256,128,6912,1536,7168,1664,2
+Happy Happy Village_Hotel (Meager Livin' Farm)_2F,256,128,7424,1536,7680,1664,2
+Happy Happy Village_Mr Saturn's House_1F,192,192,7936,1920,8128,2112,2
+Happy Happy Village_Overworld_All,1024,1024,3328,7424,4352,8448,2
+Happy Happy Village_Town Hall_1F,256,128,7424,2048,7680,2176,2
+Lilliput Steps_Rooms_Boss-Room,512,512,6912,2048,7424,2560,2
+Lilliput Steps_Rooms_Main-Room,1024,1024,3072,1024,4096,2048,2
+Lilliput Steps_Rooms_Sanctuary-Room,512,512,2816,7936,3328,8448,2
+Lost Underworld_Fire Springs_Hallway-1,256,128,3584,5632,3840,5760,2
+Lost Underworld_Fire Springs_Hallway-2,128,128,4096,5376,4224,5504,2
+Lost Underworld_Fire Springs_Hallway-3,192,128,4096,5120,4288,5248,2
+Lost Underworld_Fire Springs_Hallway-4,320,192,6656,2368,6976,2560,2
+Lost Underworld_Fire Springs_Main-Room,1024,640,2816,6272,3840,6912,2
+Lost Underworld_Fire Springs_Room-1,256,128,3584,5376,3840,5504,2
+Lost Underworld_Fire Springs_Room-2,128,128,3584,5888,3712,6016,2
+Lost Underworld_Fire Springs_Room-3,192,128,4096,5632,4288,5760,2
+Lost Underworld_Fire Springs_Sanctuary-Room,640,400,5888,9712,6528,10112,2
+Lost Underworld_Overworld_Northeast,608,416,2464,2304,3072,2720,2
+Lost Underworld_Overworld_Northwest,672,448,1792,2304,2464,2752,2
+Lost Underworld_Overworld_Southeast,608,608,2464,2720,3072,3328,2
+Lost Underworld_Overworld_Southwest,672,576,1792,2752,2464,3328,2
+Lumine Hall_Rooms_1F,1024,1024,3072,0,4096,1024,2
+Lumine Hall_Rooms_2F,1024,1024,3072,2048,4096,3072,2
+Lumine Hall_Rooms_Sanctuary-Room,1024,256,6400,4608,7424,4864,2
+Magicant_Flying Man House_1F,256,128,7936,8064,8192,8192,2
+Magicant_Hotel_1F,256,128,7424,7936,7680,8064,2
+Magicant_Overworld_North,1024,768,5120,3584,6144,4352,2
+Magicant_Overworld_Southeast,864,512,5536,4352,6400,4864,2
+Magicant_Overworld_Southwest,768,768,4864,4096,5632,4864,2
+Magicant_Sea of Eden_1F,768,768,256,8960,1024,9728,2
+Magicant_Shop_1F,256,128,7424,7680,7680,7808,2
+Magicant_Southeast House_1F,256,128,7936,7808,8192,7936,2
+Milky Well_Rooms_Main-Room,1027,774,0,5116,1027,5890,2
+Moonside_Hidden Room_1F,256,128,5376,4352,5632,4480,2
+Moonside_Hospital_1F,512,128,7168,4864,7680,4992,2
+Moonside_Hotel_1F,256,128,6400,5760,6656,5888,2
+Moonside_Jackie's Cafe_1F,192,128,6400,4864,6592,4992,2
+Moonside_Overworld_North,1024,704,7168,3584,8192,4288,2
+Moonside_Overworld_South,768,576,7424,4288,8192,4864,2
+Onett_Arcade_1F,384,128,7680,640,8064,768,2
+Onett_Arcade_2F,256,128,7936,896,8192,1024,2
+Onett_Bakery_1F,256,128,7168,1280,7424,1408,2
+Onett_Burger Shop_1F,256,128,7424,384,7680,512,2
+Onett_Entertainers' Shack_1F,256,128,6912,1408,7168,1536,2
+Onett_Exit Mouse House_1F,192,128,7424,1280,7616,1408,2
+Onett_Hint Man's House_1F,256,128,7936,1152,8192,1280,2
+Onett_Hospital_1F,256,128,7168,896,7424,1024,2
+Onett_Hospital_2F,256,128,7168,1408,7424,1536,2
+Onett_Hotel (Hotel Onett)_1F,256,128,7936,1408,8192,1536,2
+Onett_Library_1F,448,128,7680,384,8128,512,2
+Onett_Library_2F,384,128,6912,640,7296,768,2
+Onett_Lier X Agerate's Shack_1F,192,128,7424,1152,7616,1280,2
+Onett_Lier X Agerate's Shack_B1F,256,256,3840,6912,4096,7168,2
+Onett_Lier X Agerate's Shack_B2F,256,128,5376,2432,5632,2560,2
+Onett_Lier X Agerate's Shack_B3F,512,128,3072,2048,3584,2176,2
+Onett_Lier X Agerate's Shack_B4F,256,128,3840,5888,4096,6016,2
+Onett_Minch House_1F,512,128,6912,768,7424,896,2
+Onett_Minch House_2F,384,128,6912,512,7296,640,2
+Onett_Ness' House_1F,448,128,7424,256,7872,384,2
+Onett_Ness' House_2F,256,128,7424,896,7680,1024,2
+Onett_Overworld_Central-North,1664,608,1408,704,3072,1312,2
+Onett_Overworld_Central-South,1664,736,1408,1312,3072,2048,2
+Onett_Overworld_Northeast,1568,704,1504,0,3072,704,2
+Onett_Overworld_Northwest,736,1184,768,0,1504,1184,2
+Onett_Overworld_South-(to-Twoson),1024,1504,1024,1824,2048,3328,2
+Onett_Overworld_West,1408,864,0,1184,1408,2048,2
+Onett_Police Station_1F,320,192,6912,256,7232,448,2
+Onett_Scam House_1F,256,128,7424,1408,7680,1536,2
+Onett_Secret Hideout_1F,192,128,7936,1280,8128,1408,2
+Onett_Town Hall_1F,384,128,7680,512,8064,640,2
+Onett_Town Hall_2F,320,128,7680,128,8000,256,2
+Peaceful Rest Valley_Overworld_All,2048,1792,4096,768,6144,2560,2
+Peaceful Rest Valley_Paula's Cabin_1F,256,128,6912,9728,7168,9856,2
+Pink Cloud_Rooms_Boss-Room,512,256,2048,5376,2560,5632,2
+Pink Cloud_Rooms_Room-1,512,256,4352,4352,4864,4608,2
+Pink Cloud_Rooms_Room-2,512,768,3840,6656,4352,7424,2
+Pink Cloud_Rooms_Room-3,512,768,4096,8448,4608,9216,2
+Pink Cloud_Rooms_Room-4,320,256,4096,8448,4416,8704,2
+Pink Cloud_Rooms_Sanctuary-Room,512,384,3328,6016,3840,6400,2
+Rainy Circle_Rooms_Hallway-1,768,256,6144,4864,6912,5120,2
+Rainy Circle_Rooms_Hallway-2,768,256,2816,8448,3584,8704,2
+Rainy Circle_Rooms_Main-Room,512,512,4864,0,5376,512,2
+Saturn Valley_Doctor Saturn_1F,128,128,7168,7936,7296,8064,2
+Saturn Valley_Hotel_1F,128,144,6400,7920,6528,8064,2
+Saturn Valley_Ladder Room_1F,256,192,3072,5120,3328,5312,2
+Saturn Valley_Overworld_North,768,640,0,7168,768,7808,2
+Saturn Valley_Overworld_South,768,384,0,7808,768,8192,2
+Saturn Valley_Saturn Shop_1F,128,128,7680,7936,7808,8064,2
+Saturn Valley_Trash Room_1F,192,128,6656,3328,6848,3456,2
+Scaraba_Dungeon Man_1F,768,1024,4096,0,4864,1024,2
+Scaraba_Dungeon Man_2F,768,768,0,512,768,1280,2
+Scaraba_Dungeon Man_3F,512,512,3840,6144,4352,6656,2
+Scaraba_Dungeon Man_4F,256,512,1536,8192,1792,8704,2
+Scaraba_Hospital_1F,384,128,7680,8448,8064,8576,2
+Scaraba_Hotel_1F,640,128,7424,6912,8064,7040,2
+Scaraba_Overworld_Central-(Pyramids),1024,640,1024,4608,2048,5248,2
+Scaraba_Overworld_North-(Town),1024,768,1024,3840,2048,4608,2
+Scaraba_Overworld_South-(Dungeon-Man),1024,640,1024,5248,2048,5888,2
+Scaraba_Pyramid_Hallway-1,768,256,5888,3328,6656,3584,2
+Scaraba_Pyramid_Hawk-Eye-Room,256,128,4096,5504,4352,5632,2
+Scaraba_Pyramid_Room-1,256,128,4096,4480,4352,4608,2
+Scaraba_Pyramid_Room-2,128,128,4096,4736,4224,4864,2
+Scaraba_Pyramid_Room-3,256,128,4096,4992,4352,5120,2
+Scaraba_Pyramid_Room-4,256,128,4096,5248,4352,5376,2
+Scaraba_Pyramid_Room-5,192,128,5632,2432,5824,2560,2
+Scaraba_Pyramid_Room-6,192,128,4096,5760,4288,5888,2
+Scaraba_Pyramid_Room-7,192,128,4096,6016,4288,6144,2
+Scaraba_Pyramid_Sarcophagus-Room,256,256,768,3584,1024,3840,2
+Scaraba_Pyramid_Stairs-1,320,256,256,1280,576,1536,2
+Scaraba_Pyramid_Stairs-2,768,512,2816,5888,3584,6400,2
+Scaraba_Pyramid_Stairs-3,384,256,3840,3072,4224,3328,2
+Scaraba_Pyramid_Stairs-4,384,256,5120,3328,5504,3584,2
+Scaraba_Pyramid_Stairs-5,768,512,3584,8448,4352,8960,2
+Scaraba_Pyramid_Stairs-6,384,256,4352,9600,4736,9856,2
+Scaraba_Shop_1F,192,128,6400,7552,6592,7680,2
+Summers and Toto_Hospital_1F,256,128,6656,9600,6912,9728,2
+Summers and Toto_Hospital_2F,256,128,7680,9600,7936,9728,2
+Summers and Toto_Hotel (L'hotel du Summer)_1F,256,128,6656,9344,6912,9472,2
+Summers and Toto_Museum_1F,256,128,6912,9472,7168,9600,2
+Summers and Toto_Overworld_Central,1376,768,5280,2560,6656,3328,2
+Summers and Toto_Overworld_East-(Toto),1024,768,6656,2560,7680,3328,2
+Summers and Toto_Overworld_West,1184,768,4096,2560,5280,3328,2
+Summers and Toto_Restaurant_1F,640,256,6912,8960,7552,9216,2
+Summers and Toto_Stoic Club_1F,256,128,7680,9088,7936,9216,2
+Summers and Toto_Summers Shop_1F,256,128,6656,9088,6912,9216,2
+Summers and Toto_Toto Shop_1F,192,128,7680,9728,7872,9856,2
+Threed_Bakery_1F,256,128,7936,9856,8192,9984,2
+Threed_Circus Tent_1F,256,256,7936,9984,8192,10240,2
+Threed_Drug Store_1F,256,128,7936,9600,8192,9728,2
+Threed_Hint Man's House_1F,256,128,7936,9728,8192,9856,2
+Threed_Hospital_1F,256,128,6656,9856,6912,9984,2
+Threed_Hospital_2F,256,128,7680,9856,7936,9984,2
+Threed_Hotel (Threed Sunset Hotel)_1F,256,128,6656,9216,6912,9344,2
+Threed_Mach Pizza_1F,256,128,6912,9344,7168,9472,2
+Threed_Overworld_Central,768,544,5088,8864,5856,9408,2
+Threed_Overworld_East-(Tunnel-to-Dusty-Dunes),800,928,5856,8928,6656,9856,2
+Threed_Overworld_Northeast,1120,736,5536,8192,6656,8928,2
+Threed_Overworld_Northwest,928,672,4608,8192,5536,8864,2
+Threed_Overworld_South,768,448,5088,9408,5856,9856,2
+Threed_Overworld_West-(Tunnel-to-Twoson),736,992,4352,8864,5088,9856,2
+Threed_Under Graveyard_Boss-Room,256,128,3840,5632,4096,5760,2
+Threed_Under Graveyard_Room-A,256,256,4352,8192,4608,8448,2
+Threed_Under Graveyard_Room-B,256,128,3840,2304,4096,2432,2
+Threed_Under Graveyard_Room-C,256,128,3840,5120,4096,5248,2
+Threed_Under Graveyard_Skyrunner-Room,256,135,6656,9977,6912,10112,2
+Threed_Under Graveyard_Stairs-A,256,128,5376,3456,5632,3584,2
+Threed_Under Graveyard_Stairs-B,256,128,3840,5376,4096,5504,2
+Threed_Under Graveyard_Stairs-from-Skyrunner,512,5632,6144,4096,6656,9728,2
+Transitions_Dusty Dunes to Fourside_Dusty-Dunes-to-Fourside-Bridge,512,128,7680,8576,8192,8704,2
+Transitions_Dusty Dunes to Fourside_Fourside-Bridge-to-Fourside,768,128,5632,3328,6400,3456,2
+Transitions_Dusty Dunes to Fourside_Fourside-Bridge,1536,256,4352,9856,5888,10112,2
+Transitions_Grapefruit Falls to Saturn Valley_Hallway-1,768,128,7424,3200,8192,3328,2
+Transitions_Grapefruit Falls to Saturn Valley_Hallway-2,256,128,6656,3456,6912,3584,2
+Transitions_Grapefruit Falls to Saturn Valley_Room-1,192,128,6656,3200,6848,3328,2
+Transitions_Other Transitions_Belch's-Base-to-Saturn-Valley,768,128,7424,7040,8192,7168,2
+Transitions_Other Transitions_Paula's-Cabin-to-Happy-Happy,512,128,3840,3328,4352,3456,2
+Transitions_Other Transitions_Peaceful-Rest-Valley-to-Happy-Happy,512,128,4864,2432,5376,2560,2
+Transitions_Other Transitions_Saturn-Valley-to-Milky-Well,512,128,7168,4992,7680,5120,2
+Transitions_Other Transitions_Threed-to-Dusty-Dunes,1280,128,4352,10112,5632,10240,2
+Transitions_Twoson to Peaceful Rest Valley_Tunnel-1,256,128,6912,9984,7168,10112,2
+Transitions_Twoson to Peaceful Rest Valley_Tunnel-2,512,128,7424,9984,7936,10112,2
+Transitions_Twoson to Threed_Tunnel-A,2048,128,5888,10112,7936,10240,2
+Transitions_Twoson to Threed_Tunnel-B,768,128,6144,0,6912,128,2
+Twoson_Apple Kid's House_1F,256,128,7680,7808,7936,7936,2
+Twoson_Bus Station_1F,384,192,7168,8448,7552,8640,2
+Twoson_Chaos Theater_1F,256,128,7424,7296,7680,7424,2
+Twoson_Cycle Shop_1F,256,128,6912,7552,7168,7680,2
+Twoson_Department Store_1F,1024,640,6400,6912,7424,7552,2
+Twoson_Everdred's Shack_1F,192,128,7680,8064,7872,8192,2
+Twoson_Hint Man's House_1F,256,128,7936,7168,8192,7296,2
+Twoson_Hospital_1F,384,128,7680,8704,8064,8832,2
+Twoson_Hospital_2F,256,128,6912,7808,7168,7936,2
+Twoson_Hotel (Twoson Hotel)_1F,320,128,7424,7168,7744,7296,2
+Twoson_Mach Pizza_1F,192,128,6400,7680,6592,7808,2
+Twoson_Orange Kid's House_1F,256,128,7680,7552,7936,7680,2
+Twoson_Overworld_Central-East-(to-Peaceful-Rest-Valley),1312,640,2528,6784,3840,7424,2
+Twoson_Overworld_Central-West-(Burglin-Park),768,512,1024,6784,1792,7296,2
+Twoson_Overworld_Central,736,704,1792,6784,2528,7488,2
+Twoson_Overworld_Northeast,960,896,1856,5888,2816,6784,2
+Twoson_Overworld_Northwest,1088,896,768,5888,1856,6784,2
+Twoson_Overworld_Road-to-Threed,1024,512,2304,7424,3328,7936,2
+Twoson_Overworld_South-(to-Threed-Tunnel),3594,3077,256,5883,3850,8960,2
+Twoson_Polestar_1F,320,128,7424,7424,7744,7552,2
+Winters_Andonuts Lab_1F,512,256,7680,2688,8192,2944,2
+Winters_Andonuts Lab_2F,256,192,6912,1792,7168,1984,2
+Winters_Brickroad Dungeon_1F,1024,512,1024,3328,2048,3840,2
+Winters_Drug Store_1F,256,128,7424,2432,7680,2560,2
+Winters_Overworld_Central-North-(Tessie-and-Watchers),1024,768,0,2816,1024,3584,2
+Winters_Overworld_Central-South-(Rainy-Pond),1024,608,0,3584,1024,4192,2
+Winters_Overworld_North-(Boarding-School),1024,768,0,2048,1024,2816,2
+Winters_Overworld_South-(Stonehenge),1024,928,0,4192,1024,5120,2
+Winters_Snow Wood_1F,384,192,7680,2432,8064,2624,2
+Winters_Snow Wood_2F,384,192,7680,2944,8064,3136,2
+Winters_Stonehenge Base_B1F,256,256,6912,3584,7168,3840,2
+Winters_Stonehenge Base_B2F,256,512,6400,5888,6656,6400,2
+Winters_Stonehenge Base_B3F,512,256,7680,4864,8192,5120,2
+Winters_Stonehenge Base_B4F,768,256,7424,5376,8192,5632,2
+Winters_Stonehenge Base_B5F,1024,768,6144,4864,7168,5632,2
+Winters_Stonehenge Base_B6F,1024,256,6400,6656,7424,6912,2
+Winters_Stonehenge Base_B7F,1280,1024,6144,3584,7424,4608,2
+Background,8192,10240,0,0,8192,10240,0

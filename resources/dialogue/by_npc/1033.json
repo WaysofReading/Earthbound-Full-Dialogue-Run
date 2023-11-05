@@ -1,0 +1,128 @@
+{
+  "Sprite": 68,
+  "sprite_label": "woman_blonde_red-dress",
+  "map_location_label": "Summers and Toto_Museum_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8A737",
+  "d1_flags": [
+    "1. goto C8A88C if PAID_MUSEUM_ENTRANCE_FEE is set",
+    "1. goto C9992F if GIYGAS_DEFEATED is set",
+    "3. set PAID_MUSEUM_ENTRANCE_FEE"
+  ],
+  "d1_addresses": [
+    "C8A792",
+    "C8A7C5",
+    "C8A805",
+    "C8A82E",
+    "C8A88C",
+    "C9992F",
+    "Npc1033"
+  ],
+  "d1_text": "Npc1033:\r\n[GOTO_IF_FLAG PAID_MUSEUM_ENTRANCE_FEE L_C8A88C]\r\n\u00ef\u00bf\u00bdRight now, part of the Scaraba Cultural Museum is being remodeled.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDo you still want to enter?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n[LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C8A7C5 L_C8A792]\r\n; $C8A792\r\nL_C8A792:\r\n\u00ef\u00bf\u00bdSince the Hieroglyph display is closed,[PAUSE 15] people haven't wanted to visit.[HALT][END]",
+  "d1_lines": [
+    "Npc1033:",
+    "[GOTO_IF_FLAG PAID_MUSEUM_ENTRANCE_FEE L_C8A88C]",
+    "\u00ef\u00bf\u00bdRight now, part of the Scaraba Cultural Museum is being remodeled.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDo you still want to enter?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    "[LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C8A7C5 L_C8A792]",
+    "; $C8A792",
+    "L_C8A792:",
+    "\u00ef\u00bf\u00bdSince the Hieroglyph display is closed,[PAUSE 15] people haven't wanted to visit.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG PAID_MUSEUM_ENTRANCE_FEE L_C8A88C]:C8A88C": {
+      "\u00ef\u00bf\u00bdSince the Hieroglyph display is closed,[PAUSE 15] people haven't wanted to visit.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdRight now, part of the Scaraba Cultural Museum is being remodeled.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDo you still want to enter?[LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    "[LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C8A7C5 L_C8A792]:C8A7C5": {
+      "\u00ef\u00bf\u00bdThree dollars per person.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdStudy hard.[LINE_BREAK]": null,
+      "[SHOW_WALLET]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C8A805 L_C8A792]:C8A805": {
+        "[STORE_ARG_MULT_PMEMBERS 3]": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C8A82E]:C8A82E": {
+          "\u00ef\u00bf\u00bdYou don't have any money, right?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdOkay, since you kids look like you would study hard, you may enter,[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdfree of charge![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdOh wait... I can't do that!  Good bye.[HALT][END]": null
+        },
+        "[PLAY_SFX 118]": null,
+        "[REMOVE_MONEY 0]": null,
+        "[SHOW_WALLET]": null,
+        "[SET_FLAG PAID_MUSEUM_ENTRANCE_FEE]": null,
+        "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C9992F]:C9992F": {
+          "[END]": null
+        },
+        "[DISABLE_HOTSPOT 1]": null,
+        "[END]": null
+      },
+      "[MULTI_GOTO L_C8A805 L_C8A792]:C8A792": {
+        "\u00ef\u00bf\u00bdSince the Hieroglyph display is closed,[PAUSE 15] people haven't wanted to visit.[HALT][END]": null
+      },
+      "[GOTO L_C8A792]:C8A792": {
+        "\u00ef\u00bf\u00bdSince the Hieroglyph display is closed,[PAUSE 15] people haven't wanted to visit.[HALT][END]": null
+      },
+      "; $C8A805": null,
+      "[STORE_ARG_MULT_PMEMBERS 3]": null,
+      "[SWAP_ARG_RESULT]": null,
+      "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C8A82E]:C8A82E": {
+        "\u00ef\u00bf\u00bdYou don't have any money, right?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdOkay, since you kids look like you would study hard, you may enter,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdfree of charge![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdOh wait... I can't do that!  Good bye.[HALT][END]": null
+      },
+      "[PLAY_SFX 118]": null,
+      "[REMOVE_MONEY 0]": null,
+      "[SET_FLAG PAID_MUSEUM_ENTRANCE_FEE]": null,
+      "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C9992F]:C9992F": {
+        "[END]": null
+      },
+      "[DISABLE_HOTSPOT 1]": null,
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C8A7C5 L_C8A792]:C8A792": {
+      "\u00ef\u00bf\u00bdSince the Hieroglyph display is closed,[PAUSE 15] people haven't wanted to visit.[HALT][END]": null
+    },
+    "; $C8A792": null,
+    "\u00ef\u00bf\u00bdSince the Hieroglyph display is closed,[PAUSE 15] people haven't wanted to visit.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7024,
+  "y_pixel_abs": 9544,
+  "x_tile": 219,
+  "y_tile": 298,
+  "x_sector": 27,
+  "y_sector": 37,
+  "x_sector_offset": 112,
+  "y_sector_offset": 72,
+  "Event Flag": 687,
+  "flag_label": "SCARABA_CULTURAL_MUSEUM_PHONE_RINGING",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_41.l_0xc8a737",
+  "Text Pointer 2": "$0"
+}

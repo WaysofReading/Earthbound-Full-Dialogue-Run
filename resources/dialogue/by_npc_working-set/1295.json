@@ -1,0 +1,55 @@
+{
+  "Sprite": 427,
+  "sprite_label": "phone_bird_small",
+  "map_location_label": "Lost Underworld_Overworld_Southeast",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "EF60F2",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C63029",
+    "C63032",
+    "Npc1295"
+  ],
+  "d1_text": "Npc1295:\r\n\u00ef\u00bf\u00bdRing, ring, rrriiing!![WAIT][LINE_BREAK]\r\n[GOSUB L_C63029]\r\n[END]",
+  "d1_lines": [
+    "Npc1295:",
+    "\u00ef\u00bf\u00bdRing, ring, rrriiing!![WAIT][LINE_BREAK]",
+    "[GOSUB L_C63029]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdRing, ring, rrriiing!![WAIT][LINE_BREAK]": null,
+    "[GOSUB L_C63029]:C63029": {
+      "[PHONE_MENU]": null,
+      "[GOTO_IF_TRUE L_C63032]:C63032": {
+        "[END]": null
+      },
+      "[START_LINE]": null,
+      "; $C63032": null,
+      "[END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2520,
+  "y_pixel_abs": 2824,
+  "x_tile": 78,
+  "y_tile": 88,
+  "x_sector": 9,
+  "y_sector": 11,
+  "x_sector_offset": 216,
+  "y_sector_offset": 8,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_56.l_0xef60f2",
+  "Text Pointer 2": "$0"
+}

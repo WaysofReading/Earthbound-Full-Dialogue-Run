@@ -1,0 +1,114 @@
+{
+  "Sprite": 152,
+  "sprite_label": "lier-x-agerate",
+  "map_location_label": "Onett_Lier X Agerate's Shack_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C73940",
+  "d1_flags": [
+    "1. goto C73A03 if VISITED_TWOSON is set",
+    "1. goto C73AB9 if GIYGAS_DEFEATED is set",
+    "3. set LIER_INSIDE_CAVE_1",
+    "4. clear LIER_INSIDE_HOUSE"
+  ],
+  "d1_addresses": [
+    "C5F639",
+    "C73A03",
+    "C73AB9",
+    "C73B87",
+    "C73B9D",
+    "C73BCC",
+    "C7DC7F",
+    "Npc0119"
+  ],
+  "d1_text": "Npc0119:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C73AB9]\r\n[GOTO_IF_FLAG VISITED_TWOSON L_C73A03]\r\n\u00ef\u00bf\u00bdI'm doing this because I trust you.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdFirst,[PAUSE 15] let's go to the basement.[WAIT][CLOSE_ALL_TBOXES]\r\n[PAUSE 60][OPEN_TBOX 1]\r\n\u00ef\u00bf\u00bdAh![PAUSE 15]  I can tell by the look on your face you don't want to hang out,[PAUSE 10] do you?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThat's all right.[PAUSE 20]  After all,[PAUSE 15] we are not even related.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI know you think I'm a big liar but maybe I'll surprise you![HALT][CLOSE_ALL_TBOXES]\r\n[GOSUB L_C5F639]\r\n[CLR_FLAG LIER_INSIDE_HOUSE]\r\n[SET_FLAG LIER_INSIDE_CAVE_1]\r\n[END]",
+  "d1_lines": [
+    "Npc0119:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C73AB9]",
+    "[GOTO_IF_FLAG VISITED_TWOSON L_C73A03]",
+    "\u00ef\u00bf\u00bdI'm doing this because I trust you.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdFirst,[PAUSE 15] let's go to the basement.[WAIT][CLOSE_ALL_TBOXES]",
+    "[PAUSE 60][OPEN_TBOX 1]",
+    "\u00ef\u00bf\u00bdAh![PAUSE 15]  I can tell by the look on your face you don't want to hang out,[PAUSE 10] do you?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThat's all right.[PAUSE 20]  After all,[PAUSE 15] we are not even related.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI know you think I'm a big liar but maybe I'll surprise you![HALT][CLOSE_ALL_TBOXES]",
+    "[GOSUB L_C5F639]",
+    "[CLR_FLAG LIER_INSIDE_HOUSE]",
+    "[SET_FLAG LIER_INSIDE_CAVE_1]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C73AB9]:C73AB9": {
+      "\u00ef\u00bf\u00bdYou're being vain, [PRINT_STAT NESS_NAME].[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdLife is...[PAUSE 20]  Not that easy.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou just saved the Earth from a crisis...[PAUSE 15]  Don't act so stuck up.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...When I was younger I too saved the Earth many times.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI live a modest life.[PAUSE 20]  That's the way it should be.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDon't you think a real hero is someone like me?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C73B9D L_C73B87]:C73B9D": {
+        "\u00ef\u00bf\u00bdWhen you grow up,[PAUSE 15] why don't you become my partner and we'll make lots of money.[HALT][END]": null
+      },
+      "[MULTI_GOTO L_C73B9D L_C73B87]:C73B87": {
+        "\u00ef\u00bf\u00bd[PRINT_STAT NESS_NAME],[LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdDon't be such a snob![HALT][END]": null
+      },
+      "; $C73B87": null,
+      "\u00ef\u00bf\u00bd[PRINT_STAT NESS_NAME],[LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDon't be such a snob![HALT][END]": null
+    },
+    "[GOTO_IF_FLAG VISITED_TWOSON L_C73A03]:C73A03": {
+      "[SET_COUNTER 1]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C73BCC]:C73BCC": {
+        "\u00ef\u00bf\u00bdYou might think me a fool but when I do a job,[PAUSE 15] I do it well.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'm a[PAUSE 15] man[PAUSE 10]'s man.  I'll be a big hero.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIgnore me for now if you want...[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdI'm doing this because I trust you.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdFirst,[PAUSE 15] let's go to the basement.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdAh![PAUSE 15]  I can tell by the look on your face you don't want to hang out,[PAUSE 10] do you?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThat's all right.[PAUSE 20]  After all,[PAUSE 15] we are not even related.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdSomeone like you should just hang around that dreamer Gerardo Montague.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI'm doing this because I trust you.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdFirst,[PAUSE 15] let's go to the basement.[WAIT][CLOSE_ALL_TBOXES]": null,
+    "[PAUSE 60][OPEN_TBOX 1]": null,
+    "\u00ef\u00bf\u00bdAh![PAUSE 15]  I can tell by the look on your face you don't want to hang out,[PAUSE 10] do you?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThat's all right.[PAUSE 20]  After all,[PAUSE 15] we are not even related.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI know you think I'm a big liar but maybe I'll surprise you![HALT][CLOSE_ALL_TBOXES]": null,
+    "[GOSUB L_C5F639]:C5F639": {
+      "[SET_NPC_MOVEMENT_SCRIPT 119 56]": null,
+      "[WAIT_MOVEMENT]": null,
+      "[END]": null
+    },
+    "[CLR_FLAG LIER_INSIDE_HOUSE]": null,
+    "[SET_FLAG LIER_INSIDE_CAVE_1]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7528,
+  "y_pixel_abs": 1232,
+  "x_tile": 235,
+  "y_tile": 38,
+  "x_sector": 29,
+  "y_sector": 4,
+  "x_sector_offset": 104,
+  "y_sector_offset": 208,
+  "Event Flag": 31,
+  "flag_label": "LIER_INSIDE_HOUSE",
+  "Show Sprite": "when event flag set",
+  "Direction": "right",
+  "Movement": 8,
+  "Text Pointer 1": "data_27.l_0xc73940",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,43 @@
+{
+  "Sprite": 101,
+  "sprite_label": "happy-happyist",
+  "map_location_label": "Happy Happy Village_Happy Happy HQ_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C99720",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0395"
+  ],
+  "d1_text": "Npc0395:\r\n\u00ef\u00bf\u00bdThere are only three people remaining...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI don't want to stay.[PAUSE 20]  I'll get out of here...[HALT][END]",
+  "d1_lines": [
+    "Npc0395:",
+    "\u00ef\u00bf\u00bdThere are only three people remaining...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI don't want to stay.[PAUSE 20]  I'll get out of here...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdThere are only three people remaining...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI don't want to stay.[PAUSE 20]  I'll get out of here...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7720,
+  "y_pixel_abs": 2344,
+  "x_tile": 241,
+  "y_tile": 73,
+  "x_sector": 30,
+  "y_sector": 9,
+  "x_sector_offset": 40,
+  "y_sector_offset": 40,
+  "Event Flag": 68,
+  "flag_label": "CARPAINTER_DEFEATED",
+  "Show Sprite": "when event flag set",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_50.l_0xc99720",
+  "Text Pointer 2": "$0"
+}

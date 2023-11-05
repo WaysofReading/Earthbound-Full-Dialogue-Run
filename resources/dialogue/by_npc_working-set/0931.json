@@ -1,0 +1,78 @@
+{
+  "Sprite": 281,
+  "sprite_label": "monster_mouse",
+  "map_location_label": "Fourside_Department Store_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8972A",
+  "d1_flags": [
+    "1. goto C897A4 if DEPT_STORE_SPOOK_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C7DC7F",
+    "C89758",
+    "C897A4",
+    "C897F3",
+    "Npc0931"
+  ],
+  "d1_text": "Npc0931:\r\n[GOTO_IF_FLAG DEPT_STORE_SPOOK_DEFEATED L_C897A4]\r\n[SET_COUNTER 2]\r\n[GOSUB L_C7DC7F]\r\n[GOTO_IF_TRUE L_C897F3]\r\n[SET_COUNTER 1]\r\n[GOSUB L_C7DC7F]\r\n[GOTO_IF_FALSE L_C89758]\r\n[SET_COUNTER 3]\r\n[GOSUB L_C7DC7F]\r\n[GOTO_IF_TRUE L_C897F3]\r\n; $C89758\r\nL_C89758:\r\n\u00ef\u00bf\u00bd(Somehow, I feel like the lights will get turned off in the department store.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI guess it's just a mouse's sixth sense...)[HALT][END]",
+  "d1_lines": [
+    "Npc0931:",
+    "[GOTO_IF_FLAG DEPT_STORE_SPOOK_DEFEATED L_C897A4]",
+    "[SET_COUNTER 2]",
+    "[GOSUB L_C7DC7F]",
+    "[GOTO_IF_TRUE L_C897F3]",
+    "[SET_COUNTER 1]",
+    "[GOSUB L_C7DC7F]",
+    "[GOTO_IF_FALSE L_C89758]",
+    "[SET_COUNTER 3]",
+    "[GOSUB L_C7DC7F]",
+    "[GOTO_IF_TRUE L_C897F3]",
+    "; $C89758",
+    "L_C89758:",
+    "\u00ef\u00bf\u00bd(Somehow, I feel like the lights will get turned off in the department store.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI guess it's just a mouse's sixth sense...)[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG DEPT_STORE_SPOOK_DEFEATED L_C897A4]:C897A4": {
+      "\u00ef\u00bf\u00bd(Somehow, I felt like the lights would get turned off in the department store.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI guess it's just a mouse's sixth sense...)[HALT][END]": null
+    },
+    "[SET_COUNTER 2]": null,
+    "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+    "[GOTO_IF_TRUE L_C897F3]:C897F3": {
+      "\u00ef\u00bf\u00bd(Hey you![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI've got this eerie feeling... like there's a ghost walking along with you...)[HALT][END]": null
+    },
+    "[SET_COUNTER 1]": null,
+    "[GOTO_IF_FALSE L_C89758]:C89758": {
+      "\u00ef\u00bf\u00bd(Somehow, I feel like the lights will get turned off in the department store.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI guess it's just a mouse's sixth sense...)[HALT][END]": null
+    },
+    "[SET_COUNTER 3]": null,
+    "; $C89758": null,
+    "\u00ef\u00bf\u00bd(Somehow, I feel like the lights will get turned off in the department store.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI guess it's just a mouse's sixth sense...)[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5000,
+  "y_pixel_abs": 6808,
+  "x_tile": 156,
+  "y_tile": 212,
+  "x_sector": 19,
+  "y_sector": 26,
+  "x_sector_offset": 136,
+  "y_sector_offset": 152,
+  "Event Flag": 57,
+  "flag_label": "FOURSIDE_DEPT_BLACKOUT",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 13,
+  "Text Pointer 1": "data_40.l_0xc8972a",
+  "Text Pointer 2": "$0"
+}

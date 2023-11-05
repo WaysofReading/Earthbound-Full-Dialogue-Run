@@ -1,0 +1,143 @@
+{
+  "Sprite": 97,
+  "sprite_label": "tenda",
+  "map_location_label": "Deep Darkness_Tenda Village_Main",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9DBD6",
+  "d1_flags": [
+    "1. goto C9992F if VISITED_UNDERWORLD is set",
+    "1. goto C9DBE2 if TENDAS_NOT_SHY is set"
+  ],
+  "d1_addresses": [
+    "C7DD74",
+    "C9992F",
+    "C9D735",
+    "C9DBE2",
+    "C9DC08",
+    "C9DC0E",
+    "Npc1257"
+  ],
+  "d1_text": "Npc1257:\r\n[GOTO_IF_FLAG TENDAS_NOT_SHY L_C9DBE2]\r\n[GOTO L_C9D735]\r\n; $C9DBE2\r\nL_C9DBE2:\r\n\u00ef\u00bf\u00bdWould you like some tea?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n[LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C9DC0E L_C9DC08]\r\n; $C9DC08\r\nL_C9DC08:\r\n\u00ef\u00bf\u00bdOK.[HALT][END]",
+  "d1_lines": [
+    "Npc1257:",
+    "[GOTO_IF_FLAG TENDAS_NOT_SHY L_C9DBE2]",
+    "[GOTO L_C9D735]",
+    "; $C9DBE2",
+    "L_C9DBE2:",
+    "\u00ef\u00bf\u00bdWould you like some tea?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    "[LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C9DC0E L_C9DC08]",
+    "; $C9DC08",
+    "L_C9DC08:",
+    "\u00ef\u00bf\u00bdOK.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TENDAS_NOT_SHY L_C9DBE2]:C9DBE2": {
+      "\u00ef\u00bf\u00bdWould you like some tea?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C9DC0E L_C9DC08]:C9DC0E": {
+        "\u00ef\u00bf\u00bdDrink.[HALT][CLOSE_ALL_TBOXES]": null,
+        "[GOTO_IF_FLAG VISITED_UNDERWORLD L_C9992F]:C9992F": {
+          "[END]": null
+        },
+        "[GOSUB L_C7DD74]:C7DD74": {
+          "[MUSIC_EFFECT 2]": null,
+          "[PAUSE 30][STOP_MUSIC]": null,
+          "[END]": null
+        },
+        "[PLAY_MUSIC 92]": null,
+        "[SHOW_TEA]": null,
+        "[END]": null
+      },
+      "[MULTI_GOTO L_C9DC0E L_C9DC08]:C9DC08": {
+        "\u00ef\u00bf\u00bdOK.[HALT][END]": null
+      },
+      "; $C9DC08": null,
+      "\u00ef\u00bf\u00bdOK.[HALT][END]": null
+    },
+    "[GOTO L_C9D735]:C9D735": {
+      "\u00ef\u00bf\u00bd.....[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWe're shy...[HALT][END]": null
+    },
+    "; $C9DBE2": null,
+    "\u00ef\u00bf\u00bdWould you like some tea?[LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    "[LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C9DC0E L_C9DC08]:C9DC0E": {
+      "\u00ef\u00bf\u00bdDrink.[HALT][CLOSE_ALL_TBOXES]": null,
+      "[GOTO_IF_FLAG VISITED_UNDERWORLD L_C9992F]:C9992F": {
+        "[END]": null
+      },
+      "[GOSUB L_C7DD74]:C7DD74": {
+        "[MUSIC_EFFECT 2]": null,
+        "[PAUSE 30][STOP_MUSIC]": null,
+        "[END]": null
+      },
+      "[PLAY_MUSIC 92]": null,
+      "[SHOW_TEA]": null,
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C9DC0E L_C9DC08]:C9DC08": {
+      "\u00ef\u00bf\u00bdOK.[HALT][END]": null
+    },
+    "; $C9DC08": null,
+    "\u00ef\u00bf\u00bdOK.[HALT][END]": null
+  },
+  "d2_pointer": "C9D6F8",
+  "d2_flags": [],
+  "d2_addresses": [
+    "C7C6B6",
+    "C9D6F8",
+    "C9D70B"
+  ],
+  "d2_text": "L_C9D6F8:\r\n[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]\r\n[CHECK_EQUAL 211][GOTO_IF_TRUE L_C9D70B]\r\n[GOTO L_C7C6B6]\r\n; $C9D70B\r\nL_C9D70B:\r\n\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]",
+  "d2_lines": [
+    "L_C9D6F8:",
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]",
+    "[CHECK_EQUAL 211][GOTO_IF_TRUE L_C9D70B]",
+    "[GOTO L_C7C6B6]",
+    "; $C9D70B",
+    "L_C9D70B:",
+    "\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]"
+  ],
+  "d2_unrolled": {
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+    "[CHECK_EQUAL 211][GOTO_IF_TRUE L_C9D70B]:C9D70B": {
+      "\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]": null
+    },
+    "[GOTO L_C7C6B6]:C7C6B6": {
+      "[GET_ACTION_ARG][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bdYou can't use[LINE_BREAK]": null,
+      "  the [PRINT_ITEM REG_ARGUMENT].[HALT][END]": null
+    },
+    "; $C9D70B": null,
+    "\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]": null
+  },
+  "x_pixel_abs": 352,
+  "y_pixel_abs": 328,
+  "x_tile": 11,
+  "y_tile": 10,
+  "x_sector": 1,
+  "y_sector": 1,
+  "x_sector_offset": 96,
+  "y_sector_offset": 72,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_53.l_0xc9dbd6",
+  "Text Pointer 2": "data_53.l_0xc9d6f8"
+}

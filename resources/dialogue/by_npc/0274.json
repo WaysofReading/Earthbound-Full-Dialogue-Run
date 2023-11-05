@@ -1,0 +1,68 @@
+{
+  "Sprite": 111,
+  "sprite_label": "bus-driver",
+  "map_location_label": "Twoson_Bus Station_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C965A4",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C96625",
+    "C96650",
+    "C96657",
+    "C96661",
+    "C96667",
+    "Npc0274"
+  ],
+  "d1_text": "Npc0274:\r\n\u00ef\u00bf\u00bdThat's right,[PAUSE 15] I'm a bus driver.[PAUSE 20]  For now,[PAUSE 15] I'm resting.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdLife is long... take it easy,[PAUSE 15][GET_PARTY_MEMBER 1][MULTI_GOSUB L_C96650 L_C96657 L_C96661 L_C96667]\r\n[WAIT][LINE_BREAK]\r\n[CHECK_HAS_ITEM ANY TOWN_MAP][GOTO_IF_FALSE L_C96625]\r\n\u00ef\u00bf\u00bdWhy don't you check out your town map and learn about this area.[HALT][END]",
+  "d1_lines": [
+    "Npc0274:",
+    "\u00ef\u00bf\u00bdThat's right,[PAUSE 15] I'm a bus driver.[PAUSE 20]  For now,[PAUSE 15] I'm resting.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdLife is long... take it easy,[PAUSE 15][GET_PARTY_MEMBER 1][MULTI_GOSUB L_C96650 L_C96657 L_C96661 L_C96667]",
+    "[WAIT][LINE_BREAK]",
+    "[CHECK_HAS_ITEM ANY TOWN_MAP][GOTO_IF_FALSE L_C96625]",
+    "\u00ef\u00bf\u00bdWhy don't you check out your town map and learn about this area.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdThat's right,[PAUSE 15] I'm a bus driver.[PAUSE 20]  For now,[PAUSE 15] I'm resting.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdLife is long... take it easy,[PAUSE 15][GET_PARTY_MEMBER 1][MULTI_GOSUB L_C96650 L_C96657 L_C96661 L_C96667]:C96650": {
+      " chubs.[END]": null
+    },
+    "\u00ef\u00bf\u00bdLife is long... take it easy,[PAUSE 15][GET_PARTY_MEMBER 1][MULTI_GOSUB L_C96650 L_C96657 L_C96661 L_C96667]:C96657": {
+      " girlie girl.[END]": null
+    },
+    "\u00ef\u00bf\u00bdLife is long... take it easy,[PAUSE 15][GET_PARTY_MEMBER 1][MULTI_GOSUB L_C96650 L_C96657 L_C96661 L_C96667]:C96661": {
+      " specs.[END]": null
+    },
+    "\u00ef\u00bf\u00bdLife is long... take it easy,[PAUSE 15][GET_PARTY_MEMBER 1][MULTI_GOSUB L_C96650 L_C96657 L_C96661 L_C96667]:C96667": {
+      " pajama boy.[WAIT][LINE_BREAK]": null,
+      "[END]": null
+    },
+    "[WAIT][LINE_BREAK]": null,
+    "[CHECK_HAS_ITEM ANY TOWN_MAP][GOTO_IF_FALSE L_C96625]:C96625": {
+      "\u00ef\u00bf\u00bdYou don't have a town map?[PAUSE 15]  You didn't borrow one from the Onett library?[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdWhy don't you check out your town map and learn about this area.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7408,
+  "y_pixel_abs": 8520,
+  "x_tile": 231,
+  "y_tile": 266,
+  "x_sector": 28,
+  "y_sector": 33,
+  "x_sector_offset": 240,
+  "y_sector_offset": 72,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 605,
+  "Text Pointer 1": "data_48.l_0xc965a4",
+  "Text Pointer 2": "$0"
+}

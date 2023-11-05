@@ -1,0 +1,43 @@
+{
+  "Sprite": 68,
+  "sprite_label": "woman_blonde_red-dress",
+  "map_location_label": "Twoson_Overworld_Northeast",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C946E6",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0327"
+  ],
+  "d1_text": "Npc0327:\r\n\u00ef\u00bf\u00bdI love standing in a queue.[PAUSE 20]  I also love words that start with \u00ef\u00bf\u00bdQ.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdQueen,[PAUSE 15] quiet,[PAUSE 15] quick...[HALT][END]",
+  "d1_lines": [
+    "Npc0327:",
+    "\u00ef\u00bf\u00bdI love standing in a queue.[PAUSE 20]  I also love words that start with \u00ef\u00bf\u00bdQ.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdQueen,[PAUSE 15] quiet,[PAUSE 15] quick...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI love standing in a queue.[PAUSE 20]  I also love words that start with \u00ef\u00bf\u00bdQ.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdQueen,[PAUSE 15] quiet,[PAUSE 15] quick...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2151,
+  "y_pixel_abs": 6525,
+  "x_tile": 67,
+  "y_tile": 203,
+  "x_sector": 8,
+  "y_sector": 25,
+  "x_sector_offset": 103,
+  "y_sector_offset": 125,
+  "Event Flag": 549,
+  "flag_label": "QUEUE_OUTSIDE_CHAOS_THEATER",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 605,
+  "Text Pointer 1": "data_47.l_0xc946e6",
+  "Text Pointer 2": "$0"
+}

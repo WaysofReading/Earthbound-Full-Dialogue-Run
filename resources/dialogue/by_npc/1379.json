@@ -1,0 +1,43 @@
+{
+  "Sprite": 63,
+  "sprite_label": "man_hat_black-suit",
+  "map_location_label": "Moonside_Overworld_North",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C96D10",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1379"
+  ],
+  "d1_text": "Npc1379:\r\n\u00ef\u00bf\u00bdWelcome to Moonside.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWel[PAUSE 15]  come[PAUSE 15]  to moo[PAUSE 20]   nsi[PAUSE 15]  ns[PAUSE 15]  dem[PAUSE 5] oons[PAUSE 5] ide.[HALT][END]",
+  "d1_lines": [
+    "Npc1379:",
+    "\u00ef\u00bf\u00bdWelcome to Moonside.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWel[PAUSE 15]  come[PAUSE 15]  to moo[PAUSE 20]   nsi[PAUSE 15]  ns[PAUSE 15]  dem[PAUSE 5] oons[PAUSE 5] ide.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdWelcome to Moonside.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWel[PAUSE 15]  come[PAUSE 15]  to moo[PAUSE 20]   nsi[PAUSE 15]  ns[PAUSE 15]  dem[PAUSE 5] oons[PAUSE 5] ide.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7288,
+  "y_pixel_abs": 3768,
+  "x_tile": 227,
+  "y_tile": 117,
+  "x_sector": 28,
+  "y_sector": 14,
+  "x_sector_offset": 120,
+  "y_sector_offset": 184,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_48.l_0xc96d10",
+  "Text Pointer 2": "$0"
+}

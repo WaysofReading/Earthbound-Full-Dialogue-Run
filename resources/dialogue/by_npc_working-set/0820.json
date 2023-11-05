@@ -1,0 +1,288 @@
+{
+  "Sprite": 133,
+  "sprite_label": "monkey-boy",
+  "map_location_label": "Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Ruler,-Fresh-Egg)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C620F7",
+  "d1_flags": [
+    "1. goto C62236 if MONKEY_CAVE_FRESH_EGG is set",
+    "3. set MONKEY_CAVE_FRESH_EGG"
+  ],
+  "d1_addresses": [
+    "C5E456",
+    "C5E48E",
+    "C5E499",
+    "C5E4C2",
+    "C5E584",
+    "C5E58B",
+    "C5E592",
+    "C5E599",
+    "C6219A",
+    "C621D0",
+    "C62236",
+    "C7DD4F",
+    "Npc0818"
+  ],
+  "d1_text": "Npc0818:\r\n[GOTO_IF_FLAG MONKEY_CAVE_FRESH_EGG L_C62236]\r\n\u00ef\u00bf\u00bdMeow Meow fss fss fssss?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(What strange chattering for a monkey.)[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdCoo Coo pepepe.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(If I eat a [PRINT_ITEM FRESH_EGG],[PAUSE 15] I recover some health.)[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdCroak croak breeeeeep?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(If you have one, can I have one?)[LINE_BREAK]\r\n[GOSUB L_C7DD4F]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C621D0 L_C6219A]\r\n; $C6219A\r\nL_C6219A:\r\n\u00ef\u00bf\u00bdBow wow ruff ruff bark![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(Fine,[PAUSE 15] I'll just be a weird monkey.)[HALT][END]",
+  "d1_lines": [
+    "Npc0818:",
+    "[GOTO_IF_FLAG MONKEY_CAVE_FRESH_EGG L_C62236]",
+    "\u00ef\u00bf\u00bdMeow Meow fss fss fssss?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(What strange chattering for a monkey.)[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdCoo Coo pepepe.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(If I eat a [PRINT_ITEM FRESH_EGG],[PAUSE 15] I recover some health.)[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdCroak croak breeeeeep?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(If you have one, can I have one?)[LINE_BREAK]",
+    "[GOSUB L_C7DD4F]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C621D0 L_C6219A]",
+    "; $C6219A",
+    "L_C6219A:",
+    "\u00ef\u00bf\u00bdBow wow ruff ruff bark![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(Fine,[PAUSE 15] I'll just be a weird monkey.)[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MONKEY_CAVE_FRESH_EGG L_C62236]:C62236": {
+      "\u00ef\u00bf\u00bdUkiki![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(Monkey's true chattering!)[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdMeow Meow fss fss fssss?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(What strange chattering for a monkey.)[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdCoo Coo pepepe.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(If I eat a [PRINT_ITEM FRESH_EGG],[PAUSE 15] I recover some health.)[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdCroak croak breeeeeep?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(If you have one, can I have one?)[LINE_BREAK]": null,
+    "[GOSUB L_C7DD4F]:C7DD4F": "Loop - Yes/No - Options",
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C621D0 L_C6219A]:C621D0": {
+      "[GOSUB L_C5E456]:C5E456": {
+        "[OPEN_HP_PP]": null,
+        "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {
+          "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+          "[SAVE_TBOX_CTX]": null,
+          "[RESTORE_REGS_GLOBAL]": null,
+          "[DISPLAY_INV 2 REG_ARGUMENT]": null,
+          "[MENU_TBOX 2]": null,
+          "[BACKUP_REGS_GLOBAL]": null,
+          "[SET_FOCUS_TBOX 2]": null,
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[SET_FOCUS_TBOX 1]": null,
+          "[GOTO_IF_FALSE L_C5E4C2]:C5E4C2": {
+            "[END]": null
+          },
+          "[SWAP_ARG_RESULT]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 NESS]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 PAULA]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 JEFF]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 POO]": null,
+          "[END]": null
+        },
+        "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {
+          "[SET_FOCUS_TBOX 2]": null,
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[SET_FOCUS_TBOX 1]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[END]": null
+        },
+        "[GET_TBOX_OPTION_COUNT 2]": null,
+        "[GOTO_IF_FALSE L_C5E456]:C5E456": {
+          "[OPEN_HP_PP]": null,
+          "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {
+            "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+            "[SAVE_TBOX_CTX]": null,
+            "[RESTORE_REGS_GLOBAL]": null,
+            "[DISPLAY_INV 2 REG_ARGUMENT]": null,
+            "[MENU_TBOX 2]": null,
+            "[BACKUP_REGS_GLOBAL]": null,
+            "[SET_FOCUS_TBOX 2]": null,
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[SET_FOCUS_TBOX 1]": null,
+            "[GOTO_IF_FALSE L_C5E4C2]:C5E4C2": {
+              "[END]": null
+            },
+            "[SWAP_ARG_RESULT]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 NESS]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 PAULA]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 JEFF]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 POO]": null,
+            "[END]": null
+          },
+          "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {
+            "[SET_FOCUS_TBOX 2]": null,
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[SET_FOCUS_TBOX 1]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[END]": null
+          },
+          "[GET_TBOX_OPTION_COUNT 2]": null,
+          "[GOTO_IF_FALSE L_C5E456]:C5E456": {
+            "[OPEN_HP_PP]": null,
+            "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {
+              "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+              "[SAVE_TBOX_CTX]": null,
+              "[RESTORE_REGS_GLOBAL]": null,
+              "[DISPLAY_INV 2 REG_ARGUMENT]": null,
+              "[MENU_TBOX 2]": null,
+              "[BACKUP_REGS_GLOBAL]": null,
+              "[SET_FOCUS_TBOX 2]": null,
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[SET_FOCUS_TBOX 1]": null,
+              "[GOTO_IF_FALSE L_C5E4C2]:C5E4C2": {},
+              "[SWAP_ARG_RESULT]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 NESS]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 PAULA]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 JEFF]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 POO]": null,
+              "[END]": null
+            },
+            "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {
+              "[SET_FOCUS_TBOX 2]": null,
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[SET_FOCUS_TBOX 1]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[END]": null
+            },
+            "[GET_TBOX_OPTION_COUNT 2]": null,
+            "[GOTO_IF_FALSE L_C5E456]:C5E456": {
+              "[OPEN_HP_PP]": null,
+              "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {},
+              "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {},
+              "[GET_TBOX_OPTION_COUNT 2]": null,
+              "[GOTO_IF_FALSE L_C5E456]:C5E456": {},
+              "[MENU_TBOX 2]": null,
+              "; $C5E48E": null,
+              "[SET_FOCUS_TBOX 2]": null,
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[SET_FOCUS_TBOX 1]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[END]": null
+            },
+            "[MENU_TBOX 2]": null,
+            "; $C5E48E": null,
+            "[SET_FOCUS_TBOX 2]": null,
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[SET_FOCUS_TBOX 1]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[END]": null
+          },
+          "[MENU_TBOX 2]": null,
+          "; $C5E48E": null,
+          "[SET_FOCUS_TBOX 2]": null,
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[SET_FOCUS_TBOX 1]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[END]": null
+        },
+        "[MENU_TBOX 2]": null,
+        "; $C5E48E": null,
+        "[SET_FOCUS_TBOX 2]": null,
+        "[CLOSE_FOCUS_TBOX]": null,
+        "[SET_FOCUS_TBOX 1]": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[END]": null
+      },
+      "[GOTO_IF_FALSE L_C6219A]:C6219A": {
+        "\u00ef\u00bf\u00bdBow wow ruff ruff bark![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bd(Fine,[PAUSE 15] I'll just be a weird monkey.)[HALT][END]": null
+      },
+      "[BACKUP_REGS_LOCAL]": null,
+      "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+      "[CHECK_EQUAL 92][GOTO_IF_FALSE L_C6219A]:C6219A": {
+        "\u00ef\u00bf\u00bdBow wow ruff ruff bark![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bd(Fine,[PAUSE 15] I'll just be a weird monkey.)[HALT][END]": null
+      },
+      "[RESTORE_REGS_LOCAL]": null,
+      "[REMOVE_ITEM_SLOT REG_ARGUMENT 0]": null,
+      "[PLAY_SFX 118]": null,
+      "[PAUSE 10]\u00ef\u00bf\u00bdGulp,[PAUSE 15] gulp...[PAUSE 20] Ukiki![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(Gulp,[PAUSE 15] gulp...[PAUSE 20] See!)[HALT][CLOSE_ALL_TBOXES]": null,
+      "[DELETE_NPC 818 6]": null,
+      "[CREATE_NPC 820 43 1]": null,
+      "[SET_FLAG MONKEY_CAVE_FRESH_EGG]": null,
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C621D0 L_C6219A]:C6219A": {
+      "\u00ef\u00bf\u00bdBow wow ruff ruff bark![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(Fine,[PAUSE 15] I'll just be a weird monkey.)[HALT][END]": null
+    },
+    "; $C6219A": null,
+    "\u00ef\u00bf\u00bdBow wow ruff ruff bark![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(Fine,[PAUSE 15] I'll just be a weird monkey.)[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6808,
+  "y_pixel_abs": 5667,
+  "x_tile": 212,
+  "y_tile": 177,
+  "x_sector": 26,
+  "y_sector": 22,
+  "x_sector_offset": 152,
+  "y_sector_offset": 35,
+  "Event Flag": 461,
+  "flag_label": "MONKEY_CAVE_FRESH_EGG",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_16.l_0xc620f7",
+  "Text Pointer 2": "$0"
+}

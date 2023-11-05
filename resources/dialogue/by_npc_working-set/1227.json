@@ -1,0 +1,54 @@
+{
+  "Sprite": 133,
+  "sprite_label": "monkey-boy",
+  "map_location_label": "Deep Darkness_Overworld_Northeast",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9E578",
+  "d1_flags": [
+    "1. goto C9E5C9 if USED_HAWK_EYE is set"
+  ],
+  "d1_addresses": [
+    "C9E5C9",
+    "Npc1227"
+  ],
+  "d1_text": "Npc1227:\r\n[GOTO_IF_FLAG USED_HAWK_EYE L_C9E5C9]\r\n\u00ef\u00bf\u00bdIt's really dark here in the Deep Darkness, isn't it?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt's pretty creepy, don't you think?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIf you don't have the [PRINT_ITEM HAWK_EYE] here, you're helpless.[HALT][END]",
+  "d1_lines": [
+    "Npc1227:",
+    "[GOTO_IF_FLAG USED_HAWK_EYE L_C9E5C9]",
+    "\u00ef\u00bf\u00bdIt's really dark here in the Deep Darkness, isn't it?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt's pretty creepy, don't you think?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIf you don't have the [PRINT_ITEM HAWK_EYE] here, you're helpless.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG USED_HAWK_EYE L_C9E5C9]:C9E5C9": {
+      "\u00ef\u00bf\u00bdI was born in this dark, creepy area.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI live, grow up... and die here.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThat's my entire life as a monkey!...[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdIt's really dark here in the Deep Darkness, isn't it?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt's pretty creepy, don't you think?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIf you don't have the [PRINT_ITEM HAWK_EYE] here, you're helpless.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5808,
+  "y_pixel_abs": 7208,
+  "x_tile": 181,
+  "y_tile": 225,
+  "x_sector": 22,
+  "y_sector": 28,
+  "x_sector_offset": 176,
+  "y_sector_offset": 40,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 13,
+  "Text Pointer 1": "data_54.l_0xc9e578",
+  "Text Pointer 2": "$0"
+}

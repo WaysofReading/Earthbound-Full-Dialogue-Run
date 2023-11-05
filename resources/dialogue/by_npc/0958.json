@@ -1,0 +1,49 @@
+{
+  "Sprite": 58,
+  "sprite_label": "woman_purse_green-dress",
+  "map_location_label": "Fourside_Overworld_Northwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C83CDD",
+  "d1_flags": [
+    "1. goto C83CF9 if TALKED_TO_DYING_EVERDRED is set"
+  ],
+  "d1_addresses": [
+    "C83CF9",
+    "Npc0958"
+  ],
+  "d1_text": "Npc0958:\r\n[GOTO_IF_FLAG TALKED_TO_DYING_EVERDRED L_C83CF9]\r\n\u00ef\u00bf\u00bdHe doesn't look like a nice man.[HALT][END]",
+  "d1_lines": [
+    "Npc0958:",
+    "[GOTO_IF_FLAG TALKED_TO_DYING_EVERDRED L_C83CF9]",
+    "\u00ef\u00bf\u00bdHe doesn't look like a nice man.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TALKED_TO_DYING_EVERDRED L_C83CF9]:C83CF9": {
+      "\u00ef\u00bf\u00bdHe stared right at me...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdOoo... it was scary![HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdHe doesn't look like a nice man.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2601,
+  "y_pixel_abs": 3913,
+  "x_tile": 81,
+  "y_tile": 122,
+  "x_sector": 10,
+  "y_sector": 15,
+  "x_sector_offset": 41,
+  "y_sector_offset": 73,
+  "Event Flag": 60,
+  "flag_label": "EVERDRED_OUTSIDE_CAFE",
+  "Show Sprite": "when event flag set",
+  "Direction": "right",
+  "Movement": 606,
+  "Text Pointer 1": "data_36.l_0xc83cdd",
+  "Text Pointer 2": "$0"
+}

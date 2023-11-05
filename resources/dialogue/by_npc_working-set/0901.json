@@ -1,0 +1,63 @@
+{
+  "Sprite": 59,
+  "sprite_label": "prettyman",
+  "map_location_label": "Fourside_Hospital_2F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6F757",
+  "d1_flags": [
+    "1. goto C6F819 if FOURSIDE_FREE_FROM_MONOTOLI is set"
+  ],
+  "d1_addresses": [
+    "C6F819",
+    "Npc0901"
+  ],
+  "d1_text": "Npc0901:\r\n[GOTO_IF_FLAG FOURSIDE_FREE_FROM_MONOTOLI L_C6F819]\r\n\u00ef\u00bf\u00bdI used to be Monotoli's employer.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThen I realized his schemes made my company go bankrupt.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdMy house and land were taken away...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdNow I'm homeless...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdMonotoli didn't used to be so powerful.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI want to find out his secrets, so I'm spending my time here,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdwatching to see if he ever drops in.[HALT][END]",
+  "d1_lines": [
+    "Npc0901:",
+    "[GOTO_IF_FLAG FOURSIDE_FREE_FROM_MONOTOLI L_C6F819]",
+    "\u00ef\u00bf\u00bdI used to be Monotoli's employer.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThen I realized his schemes made my company go bankrupt.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdMy house and land were taken away...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdNow I'm homeless...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdMonotoli didn't used to be so powerful.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI want to find out his secrets, so I'm spending my time here,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdwatching to see if he ever drops in.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG FOURSIDE_FREE_FROM_MONOTOLI L_C6F819]:C6F819": {
+      "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bdI wanna say thanks.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdMonotoli destroyed my life... but I've decided not to blame anyone.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'm having a wonderful time each and every day now.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThank you, thank you![HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI used to be Monotoli's employer.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThen I realized his schemes made my company go bankrupt.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdMy house and land were taken away...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdNow I'm homeless...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdMonotoli didn't used to be so powerful.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI want to find out his secrets, so I'm spending my time here,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdwatching to see if he ever drops in.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5528,
+  "y_pixel_abs": 6624,
+  "x_tile": 172,
+  "y_tile": 207,
+  "x_sector": 21,
+  "y_sector": 25,
+  "x_sector_offset": 152,
+  "y_sector_offset": 224,
+  "Event Flag": 73,
+  "flag_label": "GIYGAS_DEFEATED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_25.l_0xc6f757",
+  "Text Pointer 2": "$0"
+}

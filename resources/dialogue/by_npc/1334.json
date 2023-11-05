@@ -1,0 +1,45 @@
+{
+  "Sprite": 107,
+  "sprite_label": "rabbit-statue",
+  "map_location_label": "Magicant_Overworld_Southwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C775BF",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1334"
+  ],
+  "d1_text": "Npc1334:\r\n\u00ef\u00bf\u00bdI'd like you to take your time,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd'cause this country will disappear when you wake up.[HALT][SET_MAP_PAL 5 0 60]\r\n[END]",
+  "d1_lines": [
+    "Npc1334:",
+    "\u00ef\u00bf\u00bdI'd like you to take your time,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd'cause this country will disappear when you wake up.[HALT][SET_MAP_PAL 5 0 60]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI'd like you to take your time,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd'cause this country will disappear when you wake up.[HALT][SET_MAP_PAL 5 0 60]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5234,
+  "y_pixel_abs": 4605,
+  "x_tile": 163,
+  "y_tile": 143,
+  "x_sector": 20,
+  "y_sector": 17,
+  "x_sector_offset": 114,
+  "y_sector_offset": 253,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 606,
+  "Text Pointer 1": "data_29.l_0xc775bf",
+  "Text Pointer 2": "$0"
+}

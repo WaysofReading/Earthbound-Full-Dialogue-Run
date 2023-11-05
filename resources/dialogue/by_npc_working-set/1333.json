@@ -1,0 +1,43 @@
+{
+  "Sprite": 126,
+  "sprite_label": "boy_fedora",
+  "map_location_label": "Magicant_Overworld_Southwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C7759C",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1333"
+  ],
+  "d1_text": "Npc1333:\r\n\u00ef\u00bf\u00bdPeace![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWe haven't played together lately.[HALT][END]",
+  "d1_lines": [
+    "Npc1333:",
+    "\u00ef\u00bf\u00bdPeace![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWe haven't played together lately.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdPeace![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWe haven't played together lately.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5201,
+  "y_pixel_abs": 4627,
+  "x_tile": 162,
+  "y_tile": 144,
+  "x_sector": 20,
+  "y_sector": 18,
+  "x_sector_offset": 81,
+  "y_sector_offset": 19,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 606,
+  "Text Pointer 1": "data_29.l_0xc7759c",
+  "Text Pointer 2": "$0"
+}

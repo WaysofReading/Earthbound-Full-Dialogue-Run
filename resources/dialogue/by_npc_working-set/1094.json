@@ -1,0 +1,216 @@
+{
+  "Sprite": 89,
+  "sprite_label": "woman_dalaamese",
+  "map_location_label": "Dalaam_Palace_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9CD4F",
+  "d1_flags": [
+    "1. goto C9CDF7 if GIYGAS_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C7DC7F",
+    "C9CD58",
+    "C9CD74",
+    "C9CDAF",
+    "C9CDF7",
+    "Npc1094"
+  ],
+  "d1_text": "Npc1094:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C9CDF7]\r\n[SET_COUNTER 1]\r\n; $C9CD58\r\nL_C9CD58:\r\n[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C9CDAF]\r\n[GET_PARTY_MEMBER 0][CHECK_EQUAL 4][GOTO_IF_TRUE L_C9CD74]\r\n[INC_COUNTER]\r\n[GOTO L_C9CD58]\r\n; $C9CD74\r\nL_C9CD74:\r\n[SET_COUNTER 4]\r\n[GOSUB L_C7DC7F]\r\n[GOTO_IF_TRUE L_C9CDAF]\r\n\u00ef\u00bf\u00bdPrince [PRINT_NAME POO].[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou're my favorite.  (blush)[LINE_BREAK]\r\n  tee hee hee.[HALT][END]",
+  "d1_lines": [
+    "Npc1094:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C9CDF7]",
+    "[SET_COUNTER 1]",
+    "; $C9CD58",
+    "L_C9CD58:",
+    "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C9CDAF]",
+    "[GET_PARTY_MEMBER 0][CHECK_EQUAL 4][GOTO_IF_TRUE L_C9CD74]",
+    "[INC_COUNTER]",
+    "[GOTO L_C9CD58]",
+    "; $C9CD74",
+    "L_C9CD74:",
+    "[SET_COUNTER 4]",
+    "[GOSUB L_C7DC7F]",
+    "[GOTO_IF_TRUE L_C9CDAF]",
+    "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO].[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou're my favorite.  (blush)[LINE_BREAK]",
+    "  tee hee hee.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C9CDF7]:C9CDF7": {
+      "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO] has returned, so everyone is extremely happy.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdPlease stay and relax.[HALT][END]": null
+    },
+    "[SET_COUNTER 1]": null,
+    "; $C9CD58": null,
+    "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+      "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+    },
+    "[GET_PARTY_MEMBER 0][CHECK_EQUAL 4][GOTO_IF_TRUE L_C9CD74]:C9CD74": {
+      "[SET_COUNTER 4]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+        "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO].[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou're my favorite.  (blush)[LINE_BREAK]": null,
+      "  tee hee hee.[HALT][END]": null
+    },
+    "[INC_COUNTER]": null,
+    "[GOTO L_C9CD58]:C9CD58": {
+      "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+        "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+      },
+      "[GET_PARTY_MEMBER 0][CHECK_EQUAL 4][GOTO_IF_TRUE L_C9CD74]:C9CD74": {
+        "[SET_COUNTER 4]": null,
+        "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+        "[GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+          "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO].[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou're my favorite.  (blush)[LINE_BREAK]": null,
+        "  tee hee hee.[HALT][END]": null
+      },
+      "[INC_COUNTER]": null,
+      "[GOTO L_C9CD58]:C9CD58": {
+        "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+          "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+        },
+        "[GET_PARTY_MEMBER 0][CHECK_EQUAL 4][GOTO_IF_TRUE L_C9CD74]:C9CD74": {
+          "[SET_COUNTER 4]": null,
+          "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+            "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO].[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYou're my favorite.  (blush)[LINE_BREAK]": null,
+          "  tee hee hee.[HALT][END]": null
+        },
+        "[INC_COUNTER]": null,
+        "[GOTO L_C9CD58]:C9CD58": {
+          "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+            "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+          },
+          "[GET_PARTY_MEMBER 0][CHECK_EQUAL 4][GOTO_IF_TRUE L_C9CD74]:C9CD74": {
+            "[SET_COUNTER 4]": null,
+            "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+            "[GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+              "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+            },
+            "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO].[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdYou're my favorite.  (blush)[LINE_BREAK]": null,
+            "  tee hee hee.[HALT][END]": null
+          },
+          "[INC_COUNTER]": null,
+          "[GOTO L_C9CD58]:C9CD58": {
+            "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+              "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+            },
+            "[GET_PARTY_MEMBER 0][CHECK_EQUAL 4][GOTO_IF_TRUE L_C9CD74]:C9CD74": {
+              "[SET_COUNTER 4]": null,
+              "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {},
+              "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO].[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdYou're my favorite.  (blush)[LINE_BREAK]": null,
+              "  tee hee hee.[HALT][END]": null
+            },
+            "[INC_COUNTER]": null,
+            "[GOTO L_C9CD58]:C9CD58": {
+              "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {},
+              "[GET_PARTY_MEMBER 0][CHECK_EQUAL 4][GOTO_IF_TRUE L_C9CD74]:C9CD74": {},
+              "[INC_COUNTER]": null,
+              "[GOTO L_C9CD58]:C9CD58": {},
+              "; $C9CD74": null,
+              "[SET_COUNTER 4]": null,
+              "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {},
+              "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO].[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdYou're my favorite.  (blush)[LINE_BREAK]": null,
+              "  tee hee hee.[HALT][END]": null
+            },
+            "; $C9CD74": null,
+            "[SET_COUNTER 4]": null,
+            "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+            "[GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+              "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+            },
+            "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO].[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdYou're my favorite.  (blush)[LINE_BREAK]": null,
+            "  tee hee hee.[HALT][END]": null
+          },
+          "; $C9CD74": null,
+          "[SET_COUNTER 4]": null,
+          "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+            "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO].[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYou're my favorite.  (blush)[LINE_BREAK]": null,
+          "  tee hee hee.[HALT][END]": null
+        },
+        "; $C9CD74": null,
+        "[SET_COUNTER 4]": null,
+        "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+        "[GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+          "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO].[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou're my favorite.  (blush)[LINE_BREAK]": null,
+        "  tee hee hee.[HALT][END]": null
+      },
+      "; $C9CD74": null,
+      "[SET_COUNTER 4]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+        "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO].[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou're my favorite.  (blush)[LINE_BREAK]": null,
+      "  tee hee hee.[HALT][END]": null
+    },
+    "; $C9CD74": null,
+    "[SET_COUNTER 4]": null,
+    "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+    "[GOTO_IF_TRUE L_C9CDAF]:C9CDAF": {
+      "\u00ef\u00bf\u00bdSince you left for a foreign country,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdthe girls of Dalaam have had to endure their loneliness without you.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO].[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou're my favorite.  (blush)[LINE_BREAK]": null,
+    "  tee hee hee.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8016,
+  "y_pixel_abs": 8352,
+  "x_tile": 250,
+  "y_tile": 261,
+  "x_sector": 31,
+  "y_sector": 32,
+  "x_sector_offset": 80,
+  "y_sector_offset": 160,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 16,
+  "Text Pointer 1": "data_53.l_0xc9cd4f",
+  "Text Pointer 2": "$0"
+}

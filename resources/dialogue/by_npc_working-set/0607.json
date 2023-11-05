@@ -1,0 +1,158 @@
+{
+  "Sprite": 68,
+  "sprite_label": "woman_blonde_red-dress",
+  "map_location_label": "Winters_Drug Store_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6AD6E",
+  "d1_flags": [
+    "1. goto C6AF0B if GOT_PAK_OF_BUBBLE_GUM is set",
+    "3. set GOT_PAK_OF_BUBBLE_GUM"
+  ],
+  "d1_addresses": [
+    "C6AE07",
+    "C6AE36",
+    "C6AE77",
+    "C6AEE1",
+    "C6AF0B",
+    "C7DC85",
+    "C7DCB6",
+    "C7DCDA",
+    "C7DD03",
+    "Npc0607"
+  ],
+  "d1_text": "Npc0607:\r\n[GOTO_IF_FLAG GOT_PAK_OF_BUBBLE_GUM L_C6AF0B]\r\n\u00ef\u00bf\u00bdThere's a monkey at the entrance.[PAUSE 15]  Take the monkey.  He's really noisy.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIf you buy a pack of bubble gum, you can have the monkey for free.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdOtherwise,[PAUSE 15] he will cost you a buck.  So, do you want him?[WAIT][LINE_BREAK]\r\n[SHOW_WALLET]\r\n[LOAD_STRING \"Yes\"]\r\n [LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C6AE36 L_C6AE07]\r\n; $C6AE07\r\nL_C6AE07:\r\n\u00ef\u00bf\u00bdYou absolutely,[PAUSE 15] positively should buy him.[PAUSE 20]  You know what I mean?[HALT][END]",
+  "d1_lines": [
+    "Npc0607:",
+    "[GOTO_IF_FLAG GOT_PAK_OF_BUBBLE_GUM L_C6AF0B]",
+    "\u00ef\u00bf\u00bdThere's a monkey at the entrance.[PAUSE 15]  Take the monkey.  He's really noisy.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIf you buy a pack of bubble gum, you can have the monkey for free.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdOtherwise,[PAUSE 15] he will cost you a buck.  So, do you want him?[WAIT][LINE_BREAK]",
+    "[SHOW_WALLET]",
+    "[LOAD_STRING \"Yes\"]",
+    " [LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C6AE36 L_C6AE07]",
+    "; $C6AE07",
+    "L_C6AE07:",
+    "\u00ef\u00bf\u00bdYou absolutely,[PAUSE 15] positively should buy him.[PAUSE 20]  You know what I mean?[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GOT_PAK_OF_BUBBLE_GUM L_C6AF0B]:C6AF0B": {
+      "\u00ef\u00bf\u00bdSorry, the bubble gum is sold out.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThere's a monkey at the entrance.[PAUSE 15]  Take the monkey.  He's really noisy.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIf you buy a pack of bubble gum, you can have the monkey for free.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdOtherwise,[PAUSE 15] he will cost you a buck.  So, do you want him?[WAIT][LINE_BREAK]": null,
+    "[SHOW_WALLET]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    " [LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C6AE36 L_C6AE07]:C6AE36": {
+      "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C6AE77]:C6AE77": {
+        "\u00ef\u00bf\u00bdWhat?[PAUSE 20]  You don't even have a buck?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThen, I'll let you have the monkey for free.[WAIT][LINE_BREAK]": null,
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C6AEE1]:C6AEE1": {
+          "\u00ef\u00bf\u00bdOh, oh,[PAUSE 15] you can't carry anything else.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdWhy don't you return after you get rid of something.[HALT][END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT PAK_OF_BUBBLE_GUM]": null,
+        "\u00ef\u00bf\u00bdHere's a pack of bubble gum.[PAUSE 20]  Don't forget to take the monkey.[GOSUB L_C7DCB6]:C7DCB6": {
+          "[PLAY_SFX 116]": null,
+          "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+          "[CLOSE_ALL_TBOXES]": null,
+          "[PLAY_SFX 102]": null,
+          "[PAUSE 100][OPEN_TBOX 1]": null,
+          "[RESTORE_REGS_GLOBAL]": null,
+          "[GOSUB L_C7DCDA]:C7DCDA": {
+            "[BACKUP_REGS_LOCAL]": null,
+            "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+            "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+              "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+              "  to [SWAP_ARG_RESULT]": null,
+              "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+            "  the [SWAP_ARG_RESULT]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+          },
+          "[END]": null
+        },
+        "[SET_FLAG GOT_PAK_OF_BUBBLE_GUM]": null,
+        "[HALT][END]": null
+      },
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C6AEE1]:C6AEE1": {
+        "\u00ef\u00bf\u00bdOh, oh,[PAUSE 15] you can't carry anything else.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdWhy don't you return after you get rid of something.[HALT][END]": null
+      },
+      "[PAUSE 1][REMOVE_MONEY 1]": null,
+      "[GIVE_ITEM_RETURN_SLOT JEFF PAK_OF_BUBBLE_GUM]": null,
+      "[BACKUP_REGS_LOCAL]": null,
+      "[PLAY_SFX 118]": null,
+      "[SHOW_WALLET]": null,
+      "\u00ef\u00bf\u00bdThanks![PAUSE 15]  The monkey's yours.[GOSUB L_C7DCB6]:C7DCB6": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+        "[CLOSE_ALL_TBOXES]": null,
+        "[PLAY_SFX 102]": null,
+        "[PAUSE 100][OPEN_TBOX 1]": null,
+        "[RESTORE_REGS_GLOBAL]": null,
+        "[GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[SET_FLAG GOT_PAK_OF_BUBBLE_GUM]": null,
+      "[HALT][END]": null
+    },
+    "[MULTI_GOTO L_C6AE36 L_C6AE07]:C6AE07": {
+      "\u00ef\u00bf\u00bdYou absolutely,[PAUSE 15] positively should buy him.[PAUSE 20]  You know what I mean?[HALT][END]": null
+    },
+    "; $C6AE07": null,
+    "\u00ef\u00bf\u00bdYou absolutely,[PAUSE 15] positively should buy him.[PAUSE 20]  You know what I mean?[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7520,
+  "y_pixel_abs": 2504,
+  "x_tile": 235,
+  "y_tile": 78,
+  "x_sector": 29,
+  "y_sector": 9,
+  "x_sector_offset": 96,
+  "y_sector_offset": 200,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_23.l_0xc6ad6e",
+  "Text Pointer 2": "$0"
+}

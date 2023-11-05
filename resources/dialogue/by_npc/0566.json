@@ -1,0 +1,68 @@
+{
+  "Sprite": 56,
+  "sprite_label": "man_bald_black-suit",
+  "map_location_label": "Threed_Overworld_Central",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8F11B",
+  "d1_flags": [
+    "1. goto C8F193 if GOT_ZOMBIE_PAPER is set",
+    "1. goto C8F1B5 if ZOMBIES_ON_TENT_FLOOR is set",
+    "1. goto C8F208 if MASTER_BELCH_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C8F193",
+    "C8F1B5",
+    "C8F208",
+    "Npc0476"
+  ],
+  "d1_text": "Npc0476:\r\n[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8F208]\r\n[GOTO_IF_FLAG ZOMBIES_ON_TENT_FLOOR L_C8F1B5]\r\n[GOTO_IF_FLAG GOT_ZOMBIE_PAPER L_C8F193]\r\n\u00ef\u00bf\u00bdPeople used to call me evil, but these zombies are much more scary.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI left my wife and kids at home to escape to this tent.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThat's how scary the zombies are.[HALT][END]",
+  "d1_lines": [
+    "Npc0476:",
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8F208]",
+    "[GOTO_IF_FLAG ZOMBIES_ON_TENT_FLOOR L_C8F1B5]",
+    "[GOTO_IF_FLAG GOT_ZOMBIE_PAPER L_C8F193]",
+    "\u00ef\u00bf\u00bdPeople used to call me evil, but these zombies are much more scary.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI left my wife and kids at home to escape to this tent.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThat's how scary the zombies are.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8F208]:C8F208": {
+      "\u00ef\u00bf\u00bdThe town is at peace,[PAUSE 15] but my wife and kids won't speak to me.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWhat's the problem?[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG ZOMBIES_ON_TENT_FLOOR L_C8F1B5]:C8F1B5": {
+      "\u00ef\u00bf\u00bdThose zombies stuck to the floor...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI wonder if they could still get me.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI don't care what happens to anyone else,[PAUSE 15] I just want to save my own skin![HALT][END]": null
+    },
+    "[GOTO_IF_FLAG GOT_ZOMBIE_PAPER L_C8F193]:C8F193": {
+      "\u00ef\u00bf\u00bdYou can do whatever you want--[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdjust save my life.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdPeople used to call me evil, but these zombies are much more scary.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI left my wife and kids at home to escape to this tent.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThat's how scary the zombies are.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5664,
+  "y_pixel_abs": 9168,
+  "x_tile": 177,
+  "y_tile": 286,
+  "x_sector": 22,
+  "y_sector": 35,
+  "x_sector_offset": 32,
+  "y_sector_offset": 208,
+  "Event Flag": 626,
+  "flag_label": "MEN_ABOUT_TO_ENTER_CIRCUS_TENT",
+  "Show Sprite": "when event flag set",
+  "Direction": "left",
+  "Movement": 666,
+  "Text Pointer 1": "data_42.l_0xc8f11b",
+  "Text Pointer 2": "$0"
+}

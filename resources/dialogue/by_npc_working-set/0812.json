@@ -1,0 +1,136 @@
+{
+  "Sprite": 133,
+  "sprite_label": "monkey-boy",
+  "map_location_label": "Dusty Dunes Desert_Monkey Cave_Start_Left_Left-(get-Fresh-Egg)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C623BF",
+  "d1_flags": [
+    "1. goto C624F5 if TALKED_TO_FRESH_EGG_GIVING_MONKEY is set",
+    "3. set TALKED_TO_FRESH_EGG_GIVING_MONKEY"
+  ],
+  "d1_addresses": [
+    "C624D6",
+    "C624F5",
+    "C7DC85",
+    "C7DCCF",
+    "C7DCDA",
+    "C7DD03",
+    "Npc0811"
+  ],
+  "d1_text": "Npc0811:\r\n[GOTO_IF_FLAG TALKED_TO_FRESH_EGG_GIVING_MONKEY L_C624F5]\r\n\u00ef\u00bf\u00bdKyakyako Kyakie[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(Somewhere amongst all these rooms...)[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdUkkiki Kyako Kyakki[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(you should be able to obtain Dragonite.)[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdUkyakki Kikiyakoke?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(Do you think Dragonite is really made from dragons?)[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdKyokeKyoke Ukyokie[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(By the way, I'll give you a [PRINT_ITEM FRESH_EGG].)[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdUkyakyokyo Kiekyo[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(If you run out,[PAUSE 15] just come back and I'll give you as many eggs as you want.)[WAIT][INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C624D6]\r\n[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]\r\n[GOSUB L_C7DCCF]\r\n[SET_FLAG TALKED_TO_FRESH_EGG_GIVING_MONKEY]\r\n[HALT][END]",
+  "d1_lines": [
+    "Npc0811:",
+    "[GOTO_IF_FLAG TALKED_TO_FRESH_EGG_GIVING_MONKEY L_C624F5]",
+    "\u00ef\u00bf\u00bdKyakyako Kyakie[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(Somewhere amongst all these rooms...)[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdUkkiki Kyako Kyakki[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(you should be able to obtain Dragonite.)[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdUkyakki Kikiyakoke?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(Do you think Dragonite is really made from dragons?)[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdKyokeKyoke Ukyokie[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(By the way, I'll give you a [PRINT_ITEM FRESH_EGG].)[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdUkyakyokyo Kiekyo[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(If you run out,[PAUSE 15] just come back and I'll give you as many eggs as you want.)[WAIT][INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C624D6]",
+    "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]",
+    "[GOSUB L_C7DCCF]",
+    "[SET_FLAG TALKED_TO_FRESH_EGG_GIVING_MONKEY]",
+    "[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TALKED_TO_FRESH_EGG_GIVING_MONKEY L_C624F5]:C624F5": {
+      "\u00ef\u00bf\u00bdUkyako kyakki?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(Did you find a [PRINT_ITEM FLAME_PENDANT]?)[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdUkyakki Kokekyakya?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(Oh no,[PAUSE 15] you don't have to answer.)[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdKyokeKyoke Ukyokie[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(Here's another [PRINT_ITEM FRESH_EGG]...)[WAIT][INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C624D6]:C624D6": {
+        "[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdKyokyukyo kyakie[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bd(You have too much stuff!)[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+      "[GOSUB L_C7DCCF]:C7DCCF": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdKyakyako Kyakie[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(Somewhere amongst all these rooms...)[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdUkkiki Kyako Kyakki[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(you should be able to obtain Dragonite.)[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdUkyakki Kikiyakoke?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(Do you think Dragonite is really made from dragons?)[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdKyokeKyoke Ukyokie[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(By the way, I'll give you a [PRINT_ITEM FRESH_EGG].)[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdUkyakyokyo Kiekyo[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(If you run out,[PAUSE 15] just come back and I'll give you as many eggs as you want.)[WAIT][INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C624D6]:C624D6": {
+      "[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdKyokyukyo kyakie[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(You have too much stuff!)[HALT][END]": null
+    },
+    "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+    "[GOSUB L_C7DCCF]:C7DCCF": {
+      "[PLAY_SFX 116]": null,
+      "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+        "[BACKUP_REGS_LOCAL]": null,
+        "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+        "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+          "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+          "  to [SWAP_ARG_RESULT]": null,
+          "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+        },
+        "[RESTORE_REGS_LOCAL]": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+        "  the [SWAP_ARG_RESULT]": null,
+        "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+      },
+      "[END]": null
+    },
+    "[SET_FLAG TALKED_TO_FRESH_EGG_GIVING_MONKEY]": null,
+    "[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6184,
+  "y_pixel_abs": 5960,
+  "x_tile": 193,
+  "y_tile": 186,
+  "x_sector": 24,
+  "y_sector": 23,
+  "x_sector_offset": 40,
+  "y_sector_offset": 72,
+  "Event Flag": 463,
+  "flag_label": "TALKED_TO_FRESH_EGG_GIVING_MONKEY",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_16.l_0xc623bf",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,75 @@
+{
+  "Sprite": 284,
+  "sprite_label": "monster_shark",
+  "map_location_label": "Onett_Arcade_2F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6A666",
+  "d1_flags": [
+    "3. set SHARK_AT_ARCADE_UPSTAIRS_DEFEATED"
+  ],
+  "d1_addresses": [
+    "C683DE",
+    "C683DF",
+    "Npc0007"
+  ],
+  "d1_text": "Npc0007:\r\n[OPEN_TBOX 1]\r\n\u00ef\u00bf\u00bdWhen you buy an item that should be equipped,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bddo you bother to actually equip it?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHeh eh, I gave a hint to my own enemy...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm such a rockin' dude![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI obviously have total confidence in my own abilities.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdSo... are you ready to get it on, Spanky?[WAIT][CLOSE_ALL_TBOXES]\r\n[GOSUB L_C683DF]\r\n[GOTO_IF_TRUE L_C683DE]\r\n[DELETE_NPC 7 6]\r\n[SET_FLAG SHARK_AT_ARCADE_UPSTAIRS_DEFEATED]\r\n[CLOSE_ALL_TBOXES]\r\n[END]",
+  "d1_lines": [
+    "Npc0007:",
+    "[OPEN_TBOX 1]",
+    "\u00ef\u00bf\u00bdWhen you buy an item that should be equipped,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bddo you bother to actually equip it?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHeh eh, I gave a hint to my own enemy...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm such a rockin' dude![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI obviously have total confidence in my own abilities.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdSo... are you ready to get it on, Spanky?[WAIT][CLOSE_ALL_TBOXES]",
+    "[GOSUB L_C683DF]",
+    "[GOTO_IF_TRUE L_C683DE]",
+    "[DELETE_NPC 7 6]",
+    "[SET_FLAG SHARK_AT_ARCADE_UPSTAIRS_DEFEATED]",
+    "[CLOSE_ALL_TBOXES]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[OPEN_TBOX 1]": null,
+    "\u00ef\u00bf\u00bdWhen you buy an item that should be equipped,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bddo you bother to actually equip it?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHeh eh, I gave a hint to my own enemy...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm such a rockin' dude![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI obviously have total confidence in my own abilities.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdSo... are you ready to get it on, Spanky?[WAIT][CLOSE_ALL_TBOXES]": null,
+    "[GOSUB L_C683DF]:C683DF": {
+      "[CLOSE_ALL_TBOXES]": null,
+      "[START_BATTLE 431]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_TRUE L_C683DE]:C683DE": {
+      "[END]": null
+    },
+    "[DELETE_NPC 7 6]": null,
+    "[SET_FLAG SHARK_AT_ARCADE_UPSTAIRS_DEFEATED]": null,
+    "[CLOSE_ALL_TBOXES]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8104,
+  "y_pixel_abs": 1008,
+  "x_tile": 253,
+  "y_tile": 31,
+  "x_sector": 31,
+  "y_sector": 3,
+  "x_sector_offset": 168,
+  "y_sector_offset": 240,
+  "Event Flag": 697,
+  "flag_label": "SHARK_AT_ARCADE_UPSTAIRS_DEFEATED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "up",
+  "Movement": 598,
+  "Text Pointer 1": "data_22.l_0xc6a666",
+  "Text Pointer 2": "$0"
+}

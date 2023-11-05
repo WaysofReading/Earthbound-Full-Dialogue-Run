@@ -1,0 +1,110 @@
+{
+  "Sprite": 281,
+  "sprite_label": "monster_mouse",
+  "map_location_label": "Winters_Andonuts Lab_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6C7D9",
+  "d1_flags": [
+    "1. goto C6C8D3 if GOT_ERASER_ERASER is set",
+    "1. goto C6C8DD if STARMAN_DX_DEFEATED is set",
+    "3. set GOT_ERASER_ERASER",
+    "4. clear APPLE_MOUSE_AT_WINTERS_LAB"
+  ],
+  "d1_addresses": [
+    "C6C8A3",
+    "C6C8D3",
+    "C6C8DD",
+    "C7DC85",
+    "C7DCB6",
+    "C7DCDA",
+    "C7DD03",
+    "Npc0616"
+  ],
+  "d1_text": "Npc0616:\r\n[GOTO_IF_FLAG STARMAN_DX_DEFEATED L_C6C8DD]\r\n[GOTO_IF_FLAG GOT_ERASER_ERASER L_C6C8D3]\r\n\u00ef\u00bf\u00bdI've been waiting for you.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdMy master, Apple Kid completed this \u00ef\u00bf\u00bdEraser Eraser Machine.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWhile he was calling you, he was kidnapped.[PAUSE 20]  He felt like this...![PAUSE 5]![PAUSE 5]![PAUSE 5]![PAUSE 5]![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI was there, but was helpless.[PAUSE 15]  Sorry about that.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdAnyway, take this machine.[WAIT][LINE_BREAK]\r\n[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C6C8A3]\r\n[GIVE_ITEM_RETURN_SLOT REG_RESULT ERASER_ERASER]\r\n[GOSUB L_C7DCB6]\r\n[HALT][SET_FLAG GOT_ERASER_ERASER]\r\n[END]",
+  "d1_lines": [
+    "Npc0616:",
+    "[GOTO_IF_FLAG STARMAN_DX_DEFEATED L_C6C8DD]",
+    "[GOTO_IF_FLAG GOT_ERASER_ERASER L_C6C8D3]",
+    "\u00ef\u00bf\u00bdI've been waiting for you.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdMy master, Apple Kid completed this \u00ef\u00bf\u00bdEraser Eraser Machine.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWhile he was calling you, he was kidnapped.[PAUSE 20]  He felt like this...![PAUSE 5]![PAUSE 5]![PAUSE 5]![PAUSE 5]![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI was there, but was helpless.[PAUSE 15]  Sorry about that.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdAnyway, take this machine.[WAIT][LINE_BREAK]",
+    "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C6C8A3]",
+    "[GIVE_ITEM_RETURN_SLOT REG_RESULT ERASER_ERASER]",
+    "[GOSUB L_C7DCB6]",
+    "[HALT][SET_FLAG GOT_ERASER_ERASER]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG STARMAN_DX_DEFEATED L_C6C8DD]:C6C8DD": {
+      "\u00ef\u00bf\u00bdI've been taking care of this place while waiting for you.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI no longer need to stay, since you have arrived...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'll leave for Saturn Valley as quiet as a mouse.[HALT][CLR_FLAG APPLE_MOUSE_AT_WINTERS_LAB]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_FLAG GOT_ERASER_ERASER L_C6C8D3]:C6C8D3": {
+      "\u00ef\u00bf\u00bdWay to go.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI've been waiting for you.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdMy master, Apple Kid completed this \u00ef\u00bf\u00bdEraser Eraser Machine.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWhile he was calling you, he was kidnapped.[PAUSE 20]  He felt like this...![PAUSE 5]![PAUSE 5]![PAUSE 5]![PAUSE 5]![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI was there, but was helpless.[PAUSE 15]  Sorry about that.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdAnyway, take this machine.[WAIT][LINE_BREAK]": null,
+    "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C6C8A3]:C6C8A3": {
+      "\u00ef\u00bf\u00bdI think this is an important item.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdGet rid of something you don't need, and come back for it.[HALT][END]": null
+    },
+    "[GIVE_ITEM_RETURN_SLOT REG_RESULT ERASER_ERASER]": null,
+    "[GOSUB L_C7DCB6]:C7DCB6": {
+      "[PLAY_SFX 116]": null,
+      "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+      "[CLOSE_ALL_TBOXES]": null,
+      "[PLAY_SFX 102]": null,
+      "[PAUSE 100][OPEN_TBOX 1]": null,
+      "[RESTORE_REGS_GLOBAL]": null,
+      "[GOSUB L_C7DCDA]:C7DCDA": {
+        "[BACKUP_REGS_LOCAL]": null,
+        "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+        "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+          "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+          "  to [SWAP_ARG_RESULT]": null,
+          "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+        },
+        "[RESTORE_REGS_LOCAL]": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+        "  the [SWAP_ARG_RESULT]": null,
+        "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+      },
+      "[END]": null
+    },
+    "[HALT][SET_FLAG GOT_ERASER_ERASER]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8096,
+  "y_pixel_abs": 2904,
+  "x_tile": 253,
+  "y_tile": 90,
+  "x_sector": 31,
+  "y_sector": 11,
+  "x_sector_offset": 160,
+  "y_sector_offset": 88,
+  "Event Flag": 620,
+  "flag_label": "APPLE_MOUSE_AT_WINTERS_LAB",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_24.l_0xc6c7d9",
+  "Text Pointer 2": "$0"
+}

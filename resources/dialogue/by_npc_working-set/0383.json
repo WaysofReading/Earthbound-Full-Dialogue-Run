@@ -1,0 +1,58 @@
+{
+  "Sprite": 101,
+  "sprite_label": "happy-happyist",
+  "map_location_label": "Happy Happy Village_Happy Happy HQ_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C98602",
+  "d1_flags": [
+    "1. goto C98631 if TEMP_7 is set",
+    "3. set TEMP_7"
+  ],
+  "d1_addresses": [
+    "C98631",
+    "Npc0383"
+  ],
+  "d1_text": "Npc0383:\r\n[GOTO_IF_FLAG TEMP_7 L_C98631]\r\n\u00ef\u00bf\u00bdBlue, blue.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'll stand somewhere else.[WAIT][SET_NPC_MOVEMENT_SCRIPT 383 278]\r\n[WAIT_MOVEMENT]\r\n[SET_FLAG TEMP_7]\r\n[END]",
+  "d1_lines": [
+    "Npc0383:",
+    "[GOTO_IF_FLAG TEMP_7 L_C98631]",
+    "\u00ef\u00bf\u00bdBlue, blue.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'll stand somewhere else.[WAIT][SET_NPC_MOVEMENT_SCRIPT 383 278]",
+    "[WAIT_MOVEMENT]",
+    "[SET_FLAG TEMP_7]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TEMP_7 L_C98631]:C98631": {
+      "\u00ef\u00bf\u00bdBlue, blue[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdLagoon blue, blue.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdBlue, blue.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'll stand somewhere else.[WAIT][SET_NPC_MOVEMENT_SCRIPT 383 278]": null,
+    "[WAIT_MOVEMENT]": null,
+    "[SET_FLAG TEMP_7]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7896,
+  "y_pixel_abs": 2344,
+  "x_tile": 246,
+  "y_tile": 73,
+  "x_sector": 30,
+  "y_sector": 9,
+  "x_sector_offset": 216,
+  "y_sector_offset": 40,
+  "Event Flag": 68,
+  "flag_label": "CARPAINTER_DEFEATED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_49.l_0xc98602",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,248 @@
+{
+  "Sprite": 215,
+  "sprite_label": "phone_black",
+  "map_location_label": "Onett_Ness' House_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C75909",
+  "d1_flags": [
+    "1. goto C75936 if DAD_CALLING_HOME is set",
+    "1. goto C75B0F if GIYGAS_DEFEATED is set",
+    "2. goto C75910 if DEEP_DARKNESS_BUSINESSMAN_PAID_DOCTORS_FEE is cleared",
+    "2. goto C75910 if NESS_HOUSE_PHONE_RINGING is cleared",
+    "3. set ANSWERED_DADS_CALL",
+    "3. set GOT_DAD_PHONE",
+    "4. clear 467",
+    "4. clear DAD_CALLING_HOME",
+    "4. clear DEEP_DARKNESS_BUSINESSMAN_PAID_DOCTORS_FEE",
+    "4. clear GOT_ESCARGO_EXPRESS_PHONE",
+    "4. clear GOT_MOM_PHONE",
+    "4. clear NESS_HOUSE_PHONE_RINGING"
+  ],
+  "d1_addresses": [
+    "C5E812",
+    "C63029",
+    "C63032",
+    "C75910",
+    "C75929",
+    "C75936",
+    "C75B0F",
+    "Npc0021",
+    "Npc0060"
+  ],
+  "d1_text": "Npc0021:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C75B0F]\r\n; $C75910\r\nL_C75910:\r\n[CLR_FLAG GOT_MOM_PHONE]\r\n[CLR_FLAG GOT_ESCARGO_EXPRESS_PHONE]\r\n[GOTO_IF_FLAG ANSWERED_DADS_CALL Npc0060]\r\n[GOTO_IF_FLAG DAD_CALLING_HOME L_C75936]\r\n[PLAY_SFX 11]\r\n[PAUSE 20]; $C75929\r\nL_C75929:\r\n\u00ef\u00bf\u00bdBeeeep...[HALT][PLAY_SFX 11]\r\n[END]",
+  "d1_lines": [
+    "Npc0021:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C75B0F]",
+    "; $C75910",
+    "L_C75910:",
+    "[CLR_FLAG GOT_MOM_PHONE]",
+    "[CLR_FLAG GOT_ESCARGO_EXPRESS_PHONE]",
+    "[GOTO_IF_FLAG ANSWERED_DADS_CALL Npc0060]",
+    "[GOTO_IF_FLAG DAD_CALLING_HOME L_C75936]",
+    "[PLAY_SFX 11]",
+    "[PAUSE 20]; $C75929",
+    "L_C75929:",
+    "\u00ef\u00bf\u00bdBeeeep...[HALT][PLAY_SFX 11]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C75B0F]:C75B0F": {
+      "[LOAD_FLAG NESS_HOUSE_PHONE_RINGING][GOTO_IF_FALSE L_C75910]:C75910": {
+        "[CLR_FLAG GOT_MOM_PHONE]": null,
+        "[CLR_FLAG GOT_ESCARGO_EXPRESS_PHONE]": null,
+        "[GOTO_IF_FLAG ANSWERED_DADS_CALL Npc0060]:Npc0060": {
+          "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd[PRINT_NAME REG_ARGUMENT] picked up the receiver.[WAIT][LINE_BREAK]": null,
+          "[PLAY_SFX 11]": null,
+          "[GOSUB L_C63029]:C63029": {
+            "[PHONE_MENU]": null,
+            "[GOTO_IF_TRUE L_C63032]:C63032": {
+              "[END]": null
+            },
+            "[START_LINE]": null,
+            "; $C63032": null,
+            "[END]": null
+          },
+          "[END]": null
+        },
+        "[GOTO_IF_FLAG DAD_CALLING_HOME L_C75936]:C75936": {
+          "\u00ef\u00bf\u00bd[PRINT_STAT NESS_NAME] answered the phone.[WAIT][LINE_BREAK]": null,
+          "[PLAY_SFX 11]": null,
+          "[PAUSE 20][GOSUB L_C5E812]:C5E812": {
+            "[SET_NPC_MOVEMENT_SCRIPT 21 8]": null,
+            "[END]": null
+          },
+          "\u00ef\u00bf\u00bdHello,[PAUSE 10] it's your dad.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdWork to exhaustion when you're young...\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdHave you ever heard of a weird saying like this?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdJust remember,[PAUSE 15] I'm always behind you 100%.  Don't be afraid.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI know that you're brave.[PAUSE 20]  You can do it![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdDon't forget to call me periodically during your adventure.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI can make a record of your progress when you call me.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdOh yeah,[PAUSE 15] I deposited $30 into your bank account.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdDo you have your ATM card?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdWithdraw your money from any cash machine and buy whatever you need.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdGood Luck,[PAUSE 15] m'boy![PAUSE 20]  I feel like such a hero![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdWhat?[PAUSE 10]  Well,[PAUSE 10] the father of a hero,[PAUSE 10] at least.  Wa ha ha![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdSlam![PAUSE 20]  Beeeeeeeep![HALT][PLAY_SFX 11]": null,
+          "[SET_FLAG ANSWERED_DADS_CALL]": null,
+          "[CLR_FLAG DAD_CALLING_HOME]": null,
+          "[CLR_FLAG NESS_HOUSE_PHONE_RINGING]": null,
+          "[CLR_FLAG 467]": null,
+          "[SET_FLAG GOT_DAD_PHONE]": null,
+          "[ADD_ATM_MONEY 30]": null,
+          "[SAVE_GAME]": null,
+          "[SET_RESPAWN_POINT 1]": null,
+          "[END]": null
+        },
+        "[PLAY_SFX 11]": null,
+        "[PAUSE 20]; $C75929": null,
+        "\u00ef\u00bf\u00bdBeeeep...[HALT][PLAY_SFX 11]": null,
+        "[END]": null
+      },
+      "[LOAD_FLAG DEEP_DARKNESS_BUSINESSMAN_PAID_DOCTORS_FEE][GOTO_IF_FALSE L_C75910]:C75910": {
+        "[CLR_FLAG GOT_MOM_PHONE]": null,
+        "[CLR_FLAG GOT_ESCARGO_EXPRESS_PHONE]": null,
+        "[GOTO_IF_FLAG ANSWERED_DADS_CALL Npc0060]:Npc0060": {
+          "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd[PRINT_NAME REG_ARGUMENT] picked up the receiver.[WAIT][LINE_BREAK]": null,
+          "[PLAY_SFX 11]": null,
+          "[GOSUB L_C63029]:C63029": {
+            "[PHONE_MENU]": null,
+            "[GOTO_IF_TRUE L_C63032]:C63032": {
+              "[END]": null
+            },
+            "[START_LINE]": null,
+            "; $C63032": null,
+            "[END]": null
+          },
+          "[END]": null
+        },
+        "[GOTO_IF_FLAG DAD_CALLING_HOME L_C75936]:C75936": {
+          "\u00ef\u00bf\u00bd[PRINT_STAT NESS_NAME] answered the phone.[WAIT][LINE_BREAK]": null,
+          "[PLAY_SFX 11]": null,
+          "[PAUSE 20][GOSUB L_C5E812]:C5E812": {
+            "[SET_NPC_MOVEMENT_SCRIPT 21 8]": null,
+            "[END]": null
+          },
+          "\u00ef\u00bf\u00bdHello,[PAUSE 10] it's your dad.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdWork to exhaustion when you're young...\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdHave you ever heard of a weird saying like this?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdJust remember,[PAUSE 15] I'm always behind you 100%.  Don't be afraid.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI know that you're brave.[PAUSE 20]  You can do it![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdDon't forget to call me periodically during your adventure.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI can make a record of your progress when you call me.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdOh yeah,[PAUSE 15] I deposited $30 into your bank account.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdDo you have your ATM card?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdWithdraw your money from any cash machine and buy whatever you need.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdGood Luck,[PAUSE 15] m'boy![PAUSE 20]  I feel like such a hero![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdWhat?[PAUSE 10]  Well,[PAUSE 10] the father of a hero,[PAUSE 10] at least.  Wa ha ha![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdSlam![PAUSE 20]  Beeeeeeeep![HALT][PLAY_SFX 11]": null,
+          "[SET_FLAG ANSWERED_DADS_CALL]": null,
+          "[CLR_FLAG DAD_CALLING_HOME]": null,
+          "[CLR_FLAG NESS_HOUSE_PHONE_RINGING]": null,
+          "[CLR_FLAG 467]": null,
+          "[SET_FLAG GOT_DAD_PHONE]": null,
+          "[ADD_ATM_MONEY 30]": null,
+          "[SAVE_GAME]": null,
+          "[SET_RESPAWN_POINT 1]": null,
+          "[END]": null
+        },
+        "[PLAY_SFX 11]": null,
+        "[PAUSE 20]; $C75929": null,
+        "\u00ef\u00bf\u00bdBeeeep...[HALT][PLAY_SFX 11]": null,
+        "[END]": null
+      },
+      "[PLAY_SFX 11]": null,
+      "[PAUSE 20][GOSUB L_C5E812]:C5E812": {
+        "[SET_NPC_MOVEMENT_SCRIPT 21 8]": null,
+        "[END]": null
+      },
+      "[OPEN_TBOX 1]": null,
+      "\u00ef\u00bf\u00bdHello?[PAUSE 20]  Is this [PRINT_NAME NESS]'s residence?[PAUSE 20]  Is [PRINT_NAME NESS] around?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdAh![PAUSE 20]  You're [PRINT_NAME NESS],[PAUSE 15] right?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt's me,[PAUSE 15] the tough business man![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou remember--[PAUSE 15]from the Deep Darkness.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI never got the money back that you borrowed,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdbut,[PAUSE 15] lucky you,[PAUSE 15] I bumped into your dad and he paid the debt for you.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI just wanted to let you know.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdGotta go now--[PAUSE 15]busy,[PAUSE 10] busy,[PAUSE 10] busy![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdSlam.[PAUSE 20]  Beeeeep![HALT][PLAY_SFX 11]": null,
+      "[CLOSE_ALL_TBOXES]": null,
+      "[CLR_FLAG DEEP_DARKNESS_BUSINESSMAN_PAID_DOCTORS_FEE]": null,
+      "[CLR_FLAG NESS_HOUSE_PHONE_RINGING]": null,
+      "[END]": null
+    },
+    "; $C75910": null,
+    "[CLR_FLAG GOT_MOM_PHONE]": null,
+    "[CLR_FLAG GOT_ESCARGO_EXPRESS_PHONE]": null,
+    "[GOTO_IF_FLAG ANSWERED_DADS_CALL Npc0060]:Npc0060": {
+      "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd[PRINT_NAME REG_ARGUMENT] picked up the receiver.[WAIT][LINE_BREAK]": null,
+      "[PLAY_SFX 11]": null,
+      "[GOSUB L_C63029]:C63029": {
+        "[PHONE_MENU]": null,
+        "[GOTO_IF_TRUE L_C63032]:C63032": {
+          "[END]": null
+        },
+        "[START_LINE]": null,
+        "; $C63032": null,
+        "[END]": null
+      },
+      "[END]": null
+    },
+    "[GOTO_IF_FLAG DAD_CALLING_HOME L_C75936]:C75936": {
+      "\u00ef\u00bf\u00bd[PRINT_STAT NESS_NAME] answered the phone.[WAIT][LINE_BREAK]": null,
+      "[PLAY_SFX 11]": null,
+      "[PAUSE 20][GOSUB L_C5E812]:C5E812": {
+        "[SET_NPC_MOVEMENT_SCRIPT 21 8]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bdHello,[PAUSE 10] it's your dad.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdWork to exhaustion when you're young...\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHave you ever heard of a weird saying like this?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdJust remember,[PAUSE 15] I'm always behind you 100%.  Don't be afraid.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI know that you're brave.[PAUSE 20]  You can do it![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDon't forget to call me periodically during your adventure.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI can make a record of your progress when you call me.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdOh yeah,[PAUSE 15] I deposited $30 into your bank account.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDo you have your ATM card?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWithdraw your money from any cash machine and buy whatever you need.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdGood Luck,[PAUSE 15] m'boy![PAUSE 20]  I feel like such a hero![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWhat?[PAUSE 10]  Well,[PAUSE 10] the father of a hero,[PAUSE 10] at least.  Wa ha ha![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdSlam![PAUSE 20]  Beeeeeeeep![HALT][PLAY_SFX 11]": null,
+      "[SET_FLAG ANSWERED_DADS_CALL]": null,
+      "[CLR_FLAG DAD_CALLING_HOME]": null,
+      "[CLR_FLAG NESS_HOUSE_PHONE_RINGING]": null,
+      "[CLR_FLAG 467]": null,
+      "[SET_FLAG GOT_DAD_PHONE]": null,
+      "[ADD_ATM_MONEY 30]": null,
+      "[SAVE_GAME]": null,
+      "[SET_RESPAWN_POINT 1]": null,
+      "[END]": null
+    },
+    "[PLAY_SFX 11]": null,
+    "[PAUSE 20]; $C75929": null,
+    "\u00ef\u00bf\u00bdBeeeep...[HALT][PLAY_SFX 11]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7664,
+  "y_pixel_abs": 312,
+  "x_tile": 239,
+  "y_tile": 9,
+  "x_sector": 29,
+  "y_sector": 1,
+  "x_sector_offset": 240,
+  "y_sector_offset": 56,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 40,
+  "Text Pointer 1": "data_28.l_0xc75909",
+  "Text Pointer 2": "$0"
+}

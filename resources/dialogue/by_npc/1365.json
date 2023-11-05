@@ -1,0 +1,54 @@
+{
+  "Sprite": 139,
+  "sprite_label": "doctor",
+  "map_location_label": "Moonside_Hospital_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C97B0C",
+  "d1_flags": [
+    "3. set MOONSIDE_SWITCH_YES_NO",
+    "4. clear MOONSIDE_SWITCH_YES_NO"
+  ],
+  "d1_addresses": [
+    "C9007F",
+    "C90FEC",
+    "Npc1365"
+  ],
+  "d1_text": "Npc1365:\r\n[GOSUB L_C9007F]\r\n[END]",
+  "d1_lines": [
+    "Npc1365:",
+    "[GOSUB L_C9007F]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C9007F]:C9007F": {
+      "[SET_COUNTER 60]": null,
+      "[SET_FLAG MOONSIDE_SWITCH_YES_NO]": null,
+      "[GOSUB L_C90FEC]:C90FEC": "Doctor Menu",
+      "[CLR_FLAG MOONSIDE_SWITCH_YES_NO]": null,
+      "[END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7312,
+  "y_pixel_abs": 4928,
+  "x_tile": 228,
+  "y_tile": 154,
+  "x_sector": 28,
+  "y_sector": 19,
+  "x_sector_offset": 144,
+  "y_sector_offset": 64,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_49.l_0xc97b0c",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,51 @@
+{
+  "Sprite": 122,
+  "sprite_label": "girl_blonde_yellow-dress",
+  "map_location_label": "Threed_Overworld_Northeast",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8E2EA",
+  "d1_flags": [
+    "1. goto C8E33B if MASTER_BELCH_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C8E33B",
+    "Npc0518"
+  ],
+  "d1_text": "Npc0518:\r\n[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E33B]\r\n\u00ef\u00bf\u00bdHey, you don't look so happy,[PAUSE 15] you'd better cheer up, or you'll become a zombie.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdSome people have already become tools of the zombies.[HALT][END]",
+  "d1_lines": [
+    "Npc0518:",
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E33B]",
+    "\u00ef\u00bf\u00bdHey, you don't look so happy,[PAUSE 15] you'd better cheer up, or you'll become a zombie.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdSome people have already become tools of the zombies.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E33B]:C8E33B": {
+      "[GET_PARTY_MEMBER 1][CHECK_EQUAL 2]\u00ef\u00bf\u00bdI'm so glad you wiped out the zombies.[PAUSE 15]  Let me give you a kiss.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd*smooch*  Tee hee hee...  I'm blushing.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdHey, you don't look so happy,[PAUSE 15] you'd better cheer up, or you'll become a zombie.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdSome people have already become tools of the zombies.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6024,
+  "y_pixel_abs": 8896,
+  "x_tile": 188,
+  "y_tile": 278,
+  "x_sector": 23,
+  "y_sector": 34,
+  "x_sector_offset": 136,
+  "y_sector_offset": 192,
+  "Event Flag": 740,
+  "flag_label": "PEOPLE_IN_THREED_ABSENT",
+  "Show Sprite": "when event flag unset",
+  "Direction": "up",
+  "Movement": 16,
+  "Text Pointer 1": "data_42.l_0xc8e2ea",
+  "Text Pointer 2": "$0"
+}

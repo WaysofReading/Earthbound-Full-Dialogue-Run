@@ -1,0 +1,51 @@
+{
+  "Sprite": 189,
+  "sprite_label": "healer",
+  "map_location_label": "Onett_Hospital_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C916A3",
+  "d1_flags": [
+    "3. set 226",
+    "4. clear 226"
+  ],
+  "d1_addresses": [
+    "C91805",
+    "Npc0111"
+  ],
+  "d1_text": "Npc0111:\r\n[SET_FLAG 226]\r\n[GOSUB L_C91805]\r\n[CLR_FLAG 226]\r\n[END]",
+  "d1_lines": [
+    "Npc0111:",
+    "[SET_FLAG 226]",
+    "[GOSUB L_C91805]",
+    "[CLR_FLAG 226]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[SET_FLAG 226]": null,
+    "[GOSUB L_C91805]:C91805": "Healer Menu",
+    "[CLR_FLAG 226]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7248,
+  "y_pixel_abs": 1000,
+  "x_tile": 226,
+  "y_tile": 31,
+  "x_sector": 28,
+  "y_sector": 3,
+  "x_sector_offset": 80,
+  "y_sector_offset": 232,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_45.l_0xc916a3",
+  "Text Pointer 2": "$0"
+}

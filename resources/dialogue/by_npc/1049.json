@@ -1,0 +1,49 @@
+{
+  "Sprite": 139,
+  "sprite_label": "doctor",
+  "map_location_label": "Summers and Toto_Hospital_1F_Doctor's-Office",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8AF5D",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C9006F",
+    "C90FEC",
+    "Npc1049"
+  ],
+  "d1_text": "Npc1049:\r\n[GOSUB L_C9006F]\r\n[END]",
+  "d1_lines": [
+    "Npc1049:",
+    "[GOSUB L_C9006F]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C9006F]:C9006F": {
+      "[SET_COUNTER 70]": null,
+      "[GOSUB L_C90FEC]:C90FEC": "Doctor Menu",
+      "[END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7264,
+  "y_pixel_abs": 9672,
+  "x_tile": 227,
+  "y_tile": 302,
+  "x_sector": 28,
+  "y_sector": 37,
+  "x_sector_offset": 96,
+  "y_sector_offset": 200,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_41.l_0xc8af5d",
+  "Text Pointer 2": "$0"
+}

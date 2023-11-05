@@ -1,0 +1,43 @@
+{
+  "Sprite": 61,
+  "sprite_label": "man_blonde_black-suit",
+  "map_location_label": "Fourside_Topolla Theater_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6DC62",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0850"
+  ],
+  "d1_text": "Npc0850:\r\n\u00ef\u00bf\u00bdThanks a lot.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdPlease hurry.[PAUSE 20]  The show will be starting at any moment.[HALT][END]",
+  "d1_lines": [
+    "Npc0850:",
+    "\u00ef\u00bf\u00bdThanks a lot.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdPlease hurry.[PAUSE 20]  The show will be starting at any moment.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdThanks a lot.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdPlease hurry.[PAUSE 20]  The show will be starting at any moment.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5008,
+  "y_pixel_abs": 5520,
+  "x_tile": 156,
+  "y_tile": 172,
+  "x_sector": 19,
+  "y_sector": 21,
+  "x_sector_offset": 144,
+  "y_sector_offset": 144,
+  "Event Flag": 56,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_24.l_0xc6dc62",
+  "Text Pointer 2": "$0"
+}

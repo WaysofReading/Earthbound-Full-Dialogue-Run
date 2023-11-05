@@ -1,0 +1,41 @@
+{
+  "Sprite": 68,
+  "sprite_label": "woman_blonde_red-dress",
+  "map_location_label": "Twoson_Chaos Theater_1F_Concert-Hall",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C81F2A",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0235"
+  ],
+  "d1_text": "Npc0235:\r\n\u00ef\u00bf\u00bdYou kids are bouncing around,[PAUSE 15] talking to everyone.[PAUSE 20]  It's getting annoying.[HALT][END]",
+  "d1_lines": [
+    "Npc0235:",
+    "\u00ef\u00bf\u00bdYou kids are bouncing around,[PAUSE 15] talking to everyone.[PAUSE 20]  It's getting annoying.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdYou kids are bouncing around,[PAUSE 15] talking to everyone.[PAUSE 20]  It's getting annoying.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6864,
+  "y_pixel_abs": 8624,
+  "x_tile": 214,
+  "y_tile": 269,
+  "x_sector": 26,
+  "y_sector": 33,
+  "x_sector_offset": 208,
+  "y_sector_offset": 176,
+  "Event Flag": 751,
+  "flag_label": "CHAOS_THEATER_AUDIENCE_ABSENT",
+  "Show Sprite": "when event flag unset",
+  "Direction": "up",
+  "Movement": 606,
+  "Text Pointer 1": "data_35.l_0xc81f2a",
+  "Text Pointer 2": "$0"
+}

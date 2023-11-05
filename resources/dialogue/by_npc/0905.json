@@ -1,0 +1,51 @@
+{
+  "Sprite": 246,
+  "sprite_label": "mani-mani-statue_broken",
+  "map_location_label": "Fourside_Jackie's Cafe_1F_Backroom",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "C97990",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0905"
+  ],
+  "d1_text": "Npc0905:\r\n[OPEN_TBOX 1]\r\n\u00ef\u00bf\u00bd(The Mani Mani statue was actually a device that created illusions.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThe illusion device was destroyed.)[HALT][CLOSE_ALL_TBOXES]\r\n[SET_RESPAWN_POINT 5]\r\n[UNFREEZE_PMEMBER ALL]\r\n[END]",
+  "d1_lines": [
+    "Npc0905:",
+    "[OPEN_TBOX 1]",
+    "\u00ef\u00bf\u00bd(The Mani Mani statue was actually a device that created illusions.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThe illusion device was destroyed.)[HALT][CLOSE_ALL_TBOXES]",
+    "[SET_RESPAWN_POINT 5]",
+    "[UNFREEZE_PMEMBER ALL]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[OPEN_TBOX 1]": null,
+    "\u00ef\u00bf\u00bd(The Mani Mani statue was actually a device that created illusions.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThe illusion device was destroyed.)[HALT][CLOSE_ALL_TBOXES]": null,
+    "[SET_RESPAWN_POINT 5]": null,
+    "[UNFREEZE_PMEMBER ALL]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4800,
+  "y_pixel_abs": 5024,
+  "x_tile": 150,
+  "y_tile": 157,
+  "x_sector": 18,
+  "y_sector": 19,
+  "x_sector_offset": 192,
+  "y_sector_offset": 160,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_49.l_0xc97990",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,49 @@
+{
+  "Sprite": 89,
+  "sprite_label": "woman_dalaamese",
+  "map_location_label": "Moonside_Overworld_South",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C972E7",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1387"
+  ],
+  "d1_text": "Npc1387:\r\n\u00ef\u00bf\u00bdI spy with my little eye...[PAUSE 15][LINE_BREAK]\r\n  Allakazam![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI see a country in summer and a big silver ball.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou're burnt,[PAUSE 15] but you're fine.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd...That is what I see.[HALT][END]",
+  "d1_lines": [
+    "Npc1387:",
+    "\u00ef\u00bf\u00bdI spy with my little eye...[PAUSE 15][LINE_BREAK]",
+    "  Allakazam![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI see a country in summer and a big silver ball.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou're burnt,[PAUSE 15] but you're fine.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd...That is what I see.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI spy with my little eye...[PAUSE 15][LINE_BREAK]": null,
+    "  Allakazam![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI see a country in summer and a big silver ball.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou're burnt,[PAUSE 15] but you're fine.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd...That is what I see.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7880,
+  "y_pixel_abs": 4760,
+  "x_tile": 246,
+  "y_tile": 148,
+  "x_sector": 30,
+  "y_sector": 18,
+  "x_sector_offset": 200,
+  "y_sector_offset": 152,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 12,
+  "Text Pointer 1": "data_49.l_0xc972e7",
+  "Text Pointer 2": "$0"
+}

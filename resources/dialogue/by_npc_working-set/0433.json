@@ -1,0 +1,177 @@
+{
+  "Sprite": 213,
+  "sprite_label": "sign_small",
+  "map_location_label": "Happy Happy Village_Overworld_All",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "C98E8D",
+  "d1_flags": [
+    "1. goto C98E9A if CARPAINTER_DEFEATED is set",
+    "3. set DID_NOT_PAY_FOOD_STAND",
+    "3. set SHOPPED_AT_FOOD_STAND"
+  ],
+  "d1_addresses": [
+    "C64ECA",
+    "C64F66",
+    "C64F73",
+    "C64F9F",
+    "C64FAB",
+    "C64FB3",
+    "C64FC8",
+    "C64FDE",
+    "C64FF3",
+    "C98E9A",
+    "Npc0433"
+  ],
+  "d1_text": "Npc0433:\r\n[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C98E9A]\r\n[GOSUB L_C64ECA]\r\n[END]",
+  "d1_lines": [
+    "Npc0433:",
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C98E9A]",
+    "[GOSUB L_C64ECA]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C98E9A]:C98E9A": {
+      "\u00ef\u00bf\u00bd(Thanks for your support over the years.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThe food stand is going out of business due to personal reasons.)[HALT][END]": null
+    },
+    "[GOSUB L_C64ECA]:C64ECA": {
+      "\u00ef\u00bf\u00bd(We trust you.  Feel free to shop here.)[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWhat would you like to buy?[WAIT][SHOW_WALLET]": null,
+      "[OPEN_HP_PP]": null,
+      "[DISPLAY_SHOP 48]": null,
+      "[START_LINE]": null,
+      "[GOTO_IF_FALSE L_C64FB3]:C64FB3": {
+        "\u00ef\u00bf\u00bd[PRINT_NAME NESS] decided not to buy anything.[HALT][END]": null
+      },
+      "[SWAP_ARG_RESULT]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C64FDE]:C64FDE": {
+        "\u00ef\u00bf\u00bd[PRINT_NAME NESS] could not  carry any more stuff.[HALT][END]": null
+      },
+      "[BACKUP_REGS_LOCAL]": null,
+      "\u00ef\u00bf\u00bdHow much do you want to pay?[LINE_BREAK]": null,
+      "[ALIGN_TEXT 9 2]": null,
+      "&[ALIGN_TEXT 4 2]": null,
+      "$[NUMBER_SELECTOR 4]": null,
+      "[CLEAR_LINE]": null,
+      "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C64FF3]:C64FF3": {
+        "\u00ef\u00bf\u00bd[PRINT_NAME NESS] did not have  that much money.[HALT][END]": null
+      },
+      "[RESTORE_REGS_LOCAL]": null,
+      "[GOTO_IF_FALSE L_C64FC8]:C64FC8": {
+        "\u00ef\u00bf\u00bd[PRINT_NAME NESS] did not pay.[HALT][SET_FLAG DID_NOT_PAY_FOOD_STAND]": null,
+        "[GOTO L_C64F9F]:C64F9F": {
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[GIVE_ITEM_RETURN_SLOT NESS REG_ARGUMENT]": null,
+          "[SET_FLAG SHOPPED_AT_FOOD_STAND]": null,
+          "[END]": null
+        },
+        "; $C64FDE": null,
+        "\u00ef\u00bf\u00bd[PRINT_NAME NESS] could not  carry any more stuff.[HALT][END]": null
+      },
+      "[CHECK_EQUAL 190][GOTO_IF_TRUE L_C64F66]:C64F66": {
+        "[COMPARE_REG 5 1][GOTO_IF_FALSE L_C64FAB]:C64FAB": {
+          "[SET_FLAG DID_NOT_PAY_FOOD_STAND]": null,
+          "[GOTO L_C64F73]:C64F73": {
+            "[RESTORE_REGS_LOCAL]": null,
+            "[REMOVE_MONEY 0]": null,
+            "[SHOW_WALLET]": null,
+            "[PLAY_SFX 118]": null,
+            "\u00ef\u00bf\u00bd[PRINT_NAME NESS] paid $[PRINT_NUM 0] at the self-service stand.[HALT]; $C64F9F": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[GIVE_ITEM_RETURN_SLOT NESS REG_ARGUMENT]": null,
+            "[SET_FLAG SHOPPED_AT_FOOD_STAND]": null,
+            "[END]": null
+          },
+          "; $C64FB3": null,
+          "\u00ef\u00bf\u00bd[PRINT_NAME NESS] decided not to buy anything.[HALT][END]": null
+        },
+        "; $C64F73": null,
+        "[RESTORE_REGS_LOCAL]": null,
+        "[REMOVE_MONEY 0]": null,
+        "[SHOW_WALLET]": null,
+        "[PLAY_SFX 118]": null,
+        "\u00ef\u00bf\u00bd[PRINT_NAME NESS] paid $[PRINT_NUM 0] at the self-service stand.[HALT]; $C64F9F": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[GIVE_ITEM_RETURN_SLOT NESS REG_ARGUMENT]": null,
+        "[SET_FLAG SHOPPED_AT_FOOD_STAND]": null,
+        "[END]": null
+      },
+      "[COMPARE_REG 12 1][GOTO_IF_FALSE L_C64FAB]:C64FAB": {
+        "[SET_FLAG DID_NOT_PAY_FOOD_STAND]": null,
+        "[GOTO L_C64F73]:C64F73": {
+          "[RESTORE_REGS_LOCAL]": null,
+          "[REMOVE_MONEY 0]": null,
+          "[SHOW_WALLET]": null,
+          "[PLAY_SFX 118]": null,
+          "\u00ef\u00bf\u00bd[PRINT_NAME NESS] paid $[PRINT_NUM 0] at the self-service stand.[HALT]; $C64F9F": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[GIVE_ITEM_RETURN_SLOT NESS REG_ARGUMENT]": null,
+          "[SET_FLAG SHOPPED_AT_FOOD_STAND]": null,
+          "[END]": null
+        },
+        "; $C64FB3": null,
+        "\u00ef\u00bf\u00bd[PRINT_NAME NESS] decided not to buy anything.[HALT][END]": null
+      },
+      "[GOTO L_C64F73]:C64F73": {
+        "[RESTORE_REGS_LOCAL]": null,
+        "[REMOVE_MONEY 0]": null,
+        "[SHOW_WALLET]": null,
+        "[PLAY_SFX 118]": null,
+        "\u00ef\u00bf\u00bd[PRINT_NAME NESS] paid $[PRINT_NUM 0] at the self-service stand.[HALT]; $C64F9F": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[GIVE_ITEM_RETURN_SLOT NESS REG_ARGUMENT]": null,
+        "[SET_FLAG SHOPPED_AT_FOOD_STAND]": null,
+        "[END]": null
+      },
+      "; $C64F66": null,
+      "[COMPARE_REG 5 1][GOTO_IF_FALSE L_C64FAB]:C64FAB": {
+        "[SET_FLAG DID_NOT_PAY_FOOD_STAND]": null,
+        "[GOTO L_C64F73]:C64F73": {
+          "[RESTORE_REGS_LOCAL]": null,
+          "[REMOVE_MONEY 0]": null,
+          "[SHOW_WALLET]": null,
+          "[PLAY_SFX 118]": null,
+          "\u00ef\u00bf\u00bd[PRINT_NAME NESS] paid $[PRINT_NUM 0] at the self-service stand.[HALT]; $C64F9F": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[GIVE_ITEM_RETURN_SLOT NESS REG_ARGUMENT]": null,
+          "[SET_FLAG SHOPPED_AT_FOOD_STAND]": null,
+          "[END]": null
+        },
+        "; $C64FB3": null,
+        "\u00ef\u00bf\u00bd[PRINT_NAME NESS] decided not to buy anything.[HALT][END]": null
+      },
+      "; $C64F73": null,
+      "[REMOVE_MONEY 0]": null,
+      "[SHOW_WALLET]": null,
+      "[PLAY_SFX 118]": null,
+      "\u00ef\u00bf\u00bd[PRINT_NAME NESS] paid $[PRINT_NUM 0] at the self-service stand.[HALT]; $C64F9F": null,
+      "[GIVE_ITEM_RETURN_SLOT NESS REG_ARGUMENT]": null,
+      "[SET_FLAG SHOPPED_AT_FOOD_STAND]": null,
+      "[END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 3986,
+  "y_pixel_abs": 7746,
+  "x_tile": 124,
+  "y_tile": 242,
+  "x_sector": 15,
+  "y_sector": 30,
+  "x_sector_offset": 146,
+  "y_sector_offset": 66,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_50.l_0xc98e8d",
+  "Text Pointer 2": "$0"
+}

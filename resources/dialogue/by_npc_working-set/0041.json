@@ -1,0 +1,86 @@
+{
+  "Sprite": 58,
+  "sprite_label": "woman_purse_green-dress",
+  "map_location_label": "Onett_Bakery_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C76449",
+  "d1_flags": [
+    "1. goto C7654C if TEMP_2 is set",
+    "1. goto C7659C if TALKED_TO_ONETT_BAKERY_LADY_TWICE is set",
+    "1. goto C765CF if GIYGAS_DEFEATED is set",
+    "1. goto C765EF if TALKED_TO_ONETT_BAKERY_LADY_TWICE is set",
+    "3. set TALKED_TO_ONETT_BAKERY_LADY_TWICE",
+    "3. set TEMP_2"
+  ],
+  "d1_addresses": [
+    "C7654C",
+    "C7659C",
+    "C765CF",
+    "C765EF",
+    "Npc0041"
+  ],
+  "d1_text": "Npc0041:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C765CF]\r\n[GOTO_IF_FLAG TALKED_TO_ONETT_BAKERY_LADY_TWICE L_C7659C]\r\n[GOTO_IF_FLAG TEMP_2 L_C7654C]\r\n\u00ef\u00bf\u00bdI want to tell you the story of the creature from the vegetable soup,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdbut I won't because I don't want to bother you with a story[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdthat has nothing to do with your adventure.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIf I keep talking about unrelated stuff,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdyou might start ignoring important messages.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt's important for you to talk to people.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdAlso,[PAUSE 15] a person might give you a different message,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bddepending on when you speak to them.[HALT][SET_FLAG TEMP_2]\r\n[END]",
+  "d1_lines": [
+    "Npc0041:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C765CF]",
+    "[GOTO_IF_FLAG TALKED_TO_ONETT_BAKERY_LADY_TWICE L_C7659C]",
+    "[GOTO_IF_FLAG TEMP_2 L_C7654C]",
+    "\u00ef\u00bf\u00bdI want to tell you the story of the creature from the vegetable soup,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdbut I won't because I don't want to bother you with a story[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdthat has nothing to do with your adventure.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIf I keep talking about unrelated stuff,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdyou might start ignoring important messages.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt's important for you to talk to people.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdAlso,[PAUSE 15] a person might give you a different message,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bddepending on when you speak to them.[HALT][SET_FLAG TEMP_2]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C765CF]:C765CF": {
+      "\u00ef\u00bf\u00bdIsn't it nice to talk to so many people?[GOTO_IF_FLAG TALKED_TO_ONETT_BAKERY_LADY_TWICE L_C765EF]:C765EF": {
+        "[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI gave you some advice when I spoke to you the first time,[PAUSE 15] right?[HALT][END]": null
+      },
+      "[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG TALKED_TO_ONETT_BAKERY_LADY_TWICE L_C7659C]:C7659C": {
+      "\u00ef\u00bf\u00bdYes![PAUSE 15]  Keep the lines of communication open.[PAUSE 15]  Just like you are doing now.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG TEMP_2 L_C7654C]:C7654C": {
+      "\u00ef\u00bf\u00bdThank you for taking the time to talk to me again.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdAh![PAUSE 30]  So you see what I mean![PAUSE 15]  It's important to take time out to talk with many people.[HALT][SET_FLAG TALKED_TO_ONETT_BAKERY_LADY_TWICE]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdI want to tell you the story of the creature from the vegetable soup,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdbut I won't because I don't want to bother you with a story[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdthat has nothing to do with your adventure.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIf I keep talking about unrelated stuff,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdyou might start ignoring important messages.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt's important for you to talk to people.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdAlso,[PAUSE 15] a person might give you a different message,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bddepending on when you speak to them.[HALT][SET_FLAG TEMP_2]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7296,
+  "y_pixel_abs": 1368,
+  "x_tile": 228,
+  "y_tile": 42,
+  "x_sector": 28,
+  "y_sector": 5,
+  "x_sector_offset": 128,
+  "y_sector_offset": 88,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "up",
+  "Movement": 606,
+  "Text Pointer 1": "data_28.l_0xc76449",
+  "Text Pointer 2": "$0"
+}

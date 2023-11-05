@@ -1,0 +1,122 @@
+{
+  "Sprite": 152,
+  "sprite_label": "lier-x-agerate",
+  "map_location_label": "Onett_Lier X Agerate's Shack_B4F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C66762",
+  "d1_flags": [
+    "1. goto C6681D if VISITED_TWOSON is set",
+    "1. goto C668E4 if TEMP_2 is set",
+    "1. goto C66980 if LEARNED_THAT_LIER_SOLD_THE_MANI_MANI is set",
+    "1. goto C73AB9 if GIYGAS_DEFEATED is set",
+    "3. set LEARNED_THAT_LIER_SOLD_THE_MANI_MANI",
+    "3. set TEMP_2"
+  ],
+  "d1_addresses": [
+    "C6681D",
+    "C668E4",
+    "C66980",
+    "C66A06",
+    "C73AB9",
+    "C73B87",
+    "C73B9D",
+    "C7DC7F",
+    "Npc0207"
+  ],
+  "d1_text": "Npc0207:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C73AB9]\r\n[GOTO_IF_FLAG VISITED_TWOSON L_C6681D]\r\n\u00ef\u00bf\u00bdIf this is a sign of what lies below,[PAUSE 15] I just need a little time.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdMy destiny is to find and dig up the buried treasure.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'll eat garlic and work out to help strengthen myself.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdGo home now.[PAUSE 20]  You're getting in the way of my work.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou may start to get greedy thoughts...[HALT][END]",
+  "d1_lines": [
+    "Npc0207:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C73AB9]",
+    "[GOTO_IF_FLAG VISITED_TWOSON L_C6681D]",
+    "\u00ef\u00bf\u00bdIf this is a sign of what lies below,[PAUSE 15] I just need a little time.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdMy destiny is to find and dig up the buried treasure.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'll eat garlic and work out to help strengthen myself.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdGo home now.[PAUSE 20]  You're getting in the way of my work.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou may start to get greedy thoughts...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C73AB9]:C73AB9": {
+      "\u00ef\u00bf\u00bdYou're being vain, [PRINT_STAT NESS_NAME].[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdLife is...[PAUSE 20]  Not that easy.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou just saved the Earth from a crisis...[PAUSE 15]  Don't act so stuck up.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...When I was younger I too saved the Earth many times.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI live a modest life.[PAUSE 20]  That's the way it should be.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDon't you think a real hero is someone like me?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C73B9D L_C73B87]:C73B9D": {
+        "\u00ef\u00bf\u00bdWhen you grow up,[PAUSE 15] why don't you become my partner and we'll make lots of money.[HALT][END]": null
+      },
+      "[MULTI_GOTO L_C73B9D L_C73B87]:C73B87": {
+        "\u00ef\u00bf\u00bd[PRINT_STAT NESS_NAME],[LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdDon't be such a snob![HALT][END]": null
+      },
+      "; $C73B87": null,
+      "\u00ef\u00bf\u00bd[PRINT_STAT NESS_NAME],[LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDon't be such a snob![HALT][END]": null
+    },
+    "[GOTO_IF_FLAG VISITED_TWOSON L_C6681D]:C6681D": {
+      "[SET_COUNTER 1]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C66A06]:C66A06": {
+        "\u00ef\u00bf\u00bdGo ahead and laugh at me.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdBut when I do a job,[PAUSE 15] I do it well.[PAUSE 20]  I'm a[PAUSE 10] man[PAUSE 5]'s man.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdWhen the game is over,[PAUSE 15] I may be a hero.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou might ignore me now,[PAUSE 15] but you'll see later...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOTO_IF_FLAG TEMP_2 L_C668E4]:C668E4": {
+        "\u00ef\u00bf\u00bdHey [PRINT_NAME NESS],[PAUSE 15] pal.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThere was a man who insisted that he buy the golden statue,[PAUSE 15] so I sold it to him.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIt's not that I needed the money...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIt's just that his mania affected me.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdAs you know,[PAUSE 15] I'm a sucker for sentiment.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdBye, for now.[HALT][END]": null
+      },
+      "[GOTO_IF_FLAG LEARNED_THAT_LIER_SOLD_THE_MANI_MANI L_C66980]:C66980": {
+        "\u00ef\u00bf\u00bdI haven't been able to get my hands on the treasure...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdBut when I do a job,[PAUSE 15] I do it well.[PAUSE 20]  I'm a[PAUSE 10] man[PAUSE 5]'s man.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdWhen the game is over,[PAUSE 15] I may be a hero.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou might ignore me now,[PAUSE 15] but you'll see later...[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdHey [PRINT_NAME NESS],[PAUSE 15] pal.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThere was a man who insisted that he buy the golden statue,[PAUSE 15] so I sold it to him.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt's not that I needed the money...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt's just that his unbridled mania affected me.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdAs you know,[PAUSE 15] I'm a sucker for sentiment.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdBye, for now.[HALT][SET_FLAG LEARNED_THAT_LIER_SOLD_THE_MANI_MANI]": null,
+      "[SET_FLAG TEMP_2]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdIf this is a sign of what lies below,[PAUSE 15] I just need a little time.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdMy destiny is to find and dig up the buried treasure.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'll eat garlic and work out to help strengthen myself.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdGo home now.[PAUSE 20]  You're getting in the way of my work.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou may start to get greedy thoughts...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 3984,
+  "y_pixel_abs": 5976,
+  "x_tile": 124,
+  "y_tile": 186,
+  "x_sector": 15,
+  "y_sector": 23,
+  "x_sector_offset": 144,
+  "y_sector_offset": 88,
+  "Event Flag": 308,
+  "flag_label": "LIER_BY_MANI_MANI",
+  "Show Sprite": "when event flag set",
+  "Direction": "up",
+  "Movement": 605,
+  "Text Pointer 1": "data_20.l_0xc66762",
+  "Text Pointer 2": "$0"
+}

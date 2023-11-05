@@ -1,0 +1,278 @@
+{
+  "Sprite": 154,
+  "sprite_label": "mayor-pirkle",
+  "map_location_label": "Onett_Town Hall_2F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C72AF8",
+  "d1_flags": [
+    "1. goto C72DD0 if GOT_KEY_TO_SHACK is set",
+    "1. goto C72E08 if GIYGAS_DEFEATED is set",
+    "3. set GOT_KEY_TO_SHACK"
+  ],
+  "d1_addresses": [
+    "C72CAC",
+    "C72CEE",
+    "C72D2F",
+    "C72D6E",
+    "C72DD0",
+    "C72E08",
+    "C72EF1",
+    "C72F18",
+    "C7DC85",
+    "C7DCB6",
+    "C7DCDA",
+    "C7DD03",
+    "Npc0086"
+  ],
+  "d1_text": "Npc0086:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C72E08]\r\n[GOTO_IF_FLAG GOT_KEY_TO_SHACK L_C72DD0]\r\n\u00ef\u00bf\u00bdHey[PAUSE 10] hey[PAUSE 10] hey![PAUSE 15]  I'm Mayor B.H. Pirkle.[PAUSE 15]  It's so nice to meet you.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou beat up the town bullies,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdpunched them out big time,[PAUSE 10] kicked their butts,[PAUSE 10] bit their heads off,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdspit in their eyes,[PAUSE 30] and made them wet their pants.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThen you forced them to promise not to make any more trouble.[PAUSE 15]  Thank you![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWhat?[PAUSE 15][LINE_BREAK]\r\n  You want a key to the touring entertainers' shack?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdFor someone as great as you,[PAUSE 15] giving you the key could help keep the town peaceful.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHowever,[PAUSE 15] if you encounter a dangerous situation,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdplease don't ask me to take any responsibility.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'll be able to avoid any responsibility, right?[WAIT][LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n[LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C72D2F L_C72CAC]\r\n; $C72CAC\r\nL_C72CAC:\r\n\u00ef\u00bf\u00bdI'm a very important man in these parts.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDo you think I'm important?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n[LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C72D2F L_C72CEE]\r\n; $C72CEE\r\nL_C72CEE:\r\n\u00ef\u00bf\u00bdLook,[PAUSE 10] I'm the big cheese around here,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdand a brat like you should realize when someone is trying to be nice.[HALT][END]",
+  "d1_lines": [
+    "Npc0086:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C72E08]",
+    "[GOTO_IF_FLAG GOT_KEY_TO_SHACK L_C72DD0]",
+    "\u00ef\u00bf\u00bdHey[PAUSE 10] hey[PAUSE 10] hey![PAUSE 15]  I'm Mayor B.H. Pirkle.[PAUSE 15]  It's so nice to meet you.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou beat up the town bullies,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdpunched them out big time,[PAUSE 10] kicked their butts,[PAUSE 10] bit their heads off,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdspit in their eyes,[PAUSE 30] and made them wet their pants.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThen you forced them to promise not to make any more trouble.[PAUSE 15]  Thank you![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWhat?[PAUSE 15][LINE_BREAK]",
+    "  You want a key to the touring entertainers' shack?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdFor someone as great as you,[PAUSE 15] giving you the key could help keep the town peaceful.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHowever,[PAUSE 15] if you encounter a dangerous situation,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdplease don't ask me to take any responsibility.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'll be able to avoid any responsibility, right?[WAIT][LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    "[LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C72D2F L_C72CAC]",
+    "; $C72CAC",
+    "L_C72CAC:",
+    "\u00ef\u00bf\u00bdI'm a very important man in these parts.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDo you think I'm important?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    "[LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C72D2F L_C72CEE]",
+    "; $C72CEE",
+    "L_C72CEE:",
+    "\u00ef\u00bf\u00bdLook,[PAUSE 10] I'm the big cheese around here,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdand a brat like you should realize when someone is trying to be nice.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C72E08]:C72E08": {
+      "\u00ef\u00bf\u00bdOh,[PAUSE 15] [PRINT_STAT NESS_NAME][WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI saw a picture in the international newspaper of someone who looks like you,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdbut there's no way it was you.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdMaybe you'd like to study my city management techniques[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdso that you could become Mayor someday?  Wa ha ha![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdSince I returned peace to the town of Onett I was re-elected Mayor.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdAre you here to celebrate?[LINE_BREAK]": null,
+      "  [LOAD_STRING \"YES\"]": null,
+      "  [LOAD_STRING \"NO\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C72F18 L_C72EF1]:C72F18": {
+        "\u00ef\u00bf\u00bdThanks a lot.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdFrom this day forward...[PAUSE 20] until the day I die... *sniff*[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI will dedicate my life *sniff* to peace in Onett... *boo hoo*[HALT][END]": null
+      },
+      "[MULTI_GOTO L_C72F18 L_C72EF1]:C72EF1": {
+        "\u00ef\u00bf\u00bdDon't be so shy![PAUSE 20]  A child shouldn't be so self conscious.[HALT][END]": null
+      },
+      "; $C72EF1": null,
+      "\u00ef\u00bf\u00bdDon't be so shy![PAUSE 20]  A child shouldn't be so self conscious.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG GOT_KEY_TO_SHACK L_C72DD0]:C72DD0": {
+      "\u00ef\u00bf\u00bdHey,[PAUSE 30] what's-your-name![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'm so busy with my election that I don't have time to meet with you.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdHey[PAUSE 10] hey[PAUSE 10] hey![PAUSE 15]  I'm Mayor B.H. Pirkle.[PAUSE 15]  It's so nice to meet you.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou beat up the town bullies,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdpunched them out big time,[PAUSE 10] kicked their butts,[PAUSE 10] bit their heads off,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdspit in their eyes,[PAUSE 30] and made them wet their pants.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThen you forced them to promise not to make any more trouble.[PAUSE 15]  Thank you![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWhat?[PAUSE 15][LINE_BREAK]": null,
+    "  You want a key to the touring entertainers' shack?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdFor someone as great as you,[PAUSE 15] giving you the key could help keep the town peaceful.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHowever,[PAUSE 15] if you encounter a dangerous situation,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdplease don't ask me to take any responsibility.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'll be able to avoid any responsibility, right?[WAIT][LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    "[LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C72D2F L_C72CAC]:C72D2F": {
+      "\u00ef\u00bf\u00bdYou're such a smart kid...[PAUSE 20]  Here's the key to the shack.[WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C72D6E]:C72D6E": {
+        "[PLAY_SFX 5]": null,
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bdAlthough it's small,[PAUSE 15] the key is very important.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou seem to have too much to carry.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdGet rid of some stuff you don't need,[PAUSE 15] and come back for the key later on.[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT KEY_TO_THE_SHACK]": null,
+      "[BACKUP_REGS_GLOBAL]": null,
+      "[GOSUB L_C7DCB6]:C7DCB6": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+        "[CLOSE_ALL_TBOXES]": null,
+        "[PLAY_SFX 102]": null,
+        "[PAUSE 100][OPEN_TBOX 1]": null,
+        "[RESTORE_REGS_GLOBAL]": null,
+        "[GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[SET_FLAG GOT_KEY_TO_SHACK]": null,
+      "[HALT][END]": null
+    },
+    "[MULTI_GOTO L_C72D2F L_C72CAC]:C72CAC": {
+      "\u00ef\u00bf\u00bdI'm a very important man in these parts.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDo you think I'm important?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C72D2F L_C72CEE]:C72D2F": {
+        "\u00ef\u00bf\u00bdYou're such a smart kid...[PAUSE 20]  Here's the key to the shack.[WAIT][LINE_BREAK]": null,
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C72D6E]:C72D6E": {
+          "[PLAY_SFX 5]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bdAlthough it's small,[PAUSE 15] the key is very important.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYou seem to have too much to carry.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdGet rid of some stuff you don't need,[PAUSE 15] and come back for the key later on.[HALT][END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT KEY_TO_THE_SHACK]": null,
+        "[BACKUP_REGS_GLOBAL]": null,
+        "[GOSUB L_C7DCB6]:C7DCB6": {
+          "[PLAY_SFX 116]": null,
+          "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+          "[CLOSE_ALL_TBOXES]": null,
+          "[PLAY_SFX 102]": null,
+          "[PAUSE 100][OPEN_TBOX 1]": null,
+          "[RESTORE_REGS_GLOBAL]": null,
+          "[GOSUB L_C7DCDA]:C7DCDA": {
+            "[BACKUP_REGS_LOCAL]": null,
+            "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+            "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+              "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+              "  to [SWAP_ARG_RESULT]": null,
+              "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+            "  the [SWAP_ARG_RESULT]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+          },
+          "[END]": null
+        },
+        "[SET_FLAG GOT_KEY_TO_SHACK]": null,
+        "[HALT][END]": null
+      },
+      "[MULTI_GOTO L_C72D2F L_C72CEE]:C72CEE": {
+        "\u00ef\u00bf\u00bdLook,[PAUSE 10] I'm the big cheese around here,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdand a brat like you should realize when someone is trying to be nice.[HALT][END]": null
+      },
+      "; $C72CEE": null,
+      "\u00ef\u00bf\u00bdLook,[PAUSE 10] I'm the big cheese around here,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdand a brat like you should realize when someone is trying to be nice.[HALT][END]": null
+    },
+    "; $C72CAC": null,
+    "\u00ef\u00bf\u00bdI'm a very important man in these parts.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDo you think I'm important?[LINE_BREAK]": null,
+    "[MULTI_GOTO L_C72D2F L_C72CEE]:C72D2F": {
+      "\u00ef\u00bf\u00bdYou're such a smart kid...[PAUSE 20]  Here's the key to the shack.[WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C72D6E]:C72D6E": {
+        "[PLAY_SFX 5]": null,
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bdAlthough it's small,[PAUSE 15] the key is very important.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou seem to have too much to carry.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdGet rid of some stuff you don't need,[PAUSE 15] and come back for the key later on.[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT KEY_TO_THE_SHACK]": null,
+      "[BACKUP_REGS_GLOBAL]": null,
+      "[GOSUB L_C7DCB6]:C7DCB6": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+        "[CLOSE_ALL_TBOXES]": null,
+        "[PLAY_SFX 102]": null,
+        "[PAUSE 100][OPEN_TBOX 1]": null,
+        "[RESTORE_REGS_GLOBAL]": null,
+        "[GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[SET_FLAG GOT_KEY_TO_SHACK]": null,
+      "[HALT][END]": null
+    },
+    "[MULTI_GOTO L_C72D2F L_C72CEE]:C72CEE": {
+      "\u00ef\u00bf\u00bdLook,[PAUSE 10] I'm the big cheese around here,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdand a brat like you should realize when someone is trying to be nice.[HALT][END]": null
+    },
+    "; $C72CEE": null,
+    "\u00ef\u00bf\u00bdLook,[PAUSE 10] I'm the big cheese around here,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdand a brat like you should realize when someone is trying to be nice.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7872,
+  "y_pixel_abs": 200,
+  "x_tile": 246,
+  "y_tile": 6,
+  "x_sector": 30,
+  "y_sector": 0,
+  "x_sector_offset": 192,
+  "y_sector_offset": 200,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_27.l_0xc72af8",
+  "Text Pointer 2": "$0"
+}

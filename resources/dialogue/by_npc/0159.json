@@ -1,0 +1,70 @@
+{
+  "Sprite": 74,
+  "sprite_label": "cop",
+  "map_location_label": "Onett_Overworld_Northeast",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C67237",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C6729B",
+    "C672CC",
+    "Npc0159"
+  ],
+  "d1_text": "Npc0159:\r\n\u00ef\u00bf\u00bdNice timing,[PAUSE 15] [PRINT_NAME NESS].[PAUSE 20]  Will you do something about Pokey?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHe's driving me nuts.[PAUSE 20]  Are you two friends?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n [LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C672CC L_C6729B]\r\n; $C6729B\r\nL_C6729B:\r\n\u00ef\u00bf\u00bdYou're not friends,[PAUSE 15] but aren't you neighbors?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdC'mon,[PAUSE 15] help me out here![HALT][END]",
+  "d1_lines": [
+    "Npc0159:",
+    "\u00ef\u00bf\u00bdNice timing,[PAUSE 15] [PRINT_NAME NESS].[PAUSE 20]  Will you do something about Pokey?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHe's driving me nuts.[PAUSE 20]  Are you two friends?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    " [LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C672CC L_C6729B]",
+    "; $C6729B",
+    "L_C6729B:",
+    "\u00ef\u00bf\u00bdYou're not friends,[PAUSE 15] but aren't you neighbors?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdC'mon,[PAUSE 15] help me out here![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdNice timing,[PAUSE 15] [PRINT_NAME NESS].[PAUSE 20]  Will you do something about Pokey?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHe's driving me nuts.[PAUSE 20]  Are you two friends?[LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    " [LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C672CC L_C6729B]:C672CC": {
+      "\u00ef\u00bf\u00bdAnd you live in the house next to his...[PAUSE 20]  I see...[HALT][END]": null
+    },
+    "[MULTI_GOTO L_C672CC L_C6729B]:C6729B": {
+      "\u00ef\u00bf\u00bdYou're not friends,[PAUSE 15] but aren't you neighbors?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdC'mon,[PAUSE 15] help me out here![HALT][END]": null
+    },
+    "; $C6729B": null,
+    "\u00ef\u00bf\u00bdYou're not friends,[PAUSE 15] but aren't you neighbors?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdC'mon,[PAUSE 15] help me out here![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2152,
+  "y_pixel_abs": 280,
+  "x_tile": 67,
+  "y_tile": 8,
+  "x_sector": 8,
+  "y_sector": 1,
+  "x_sector_offset": 104,
+  "y_sector_offset": 24,
+  "Event Flag": 469,
+  "flag_label": "POLICE_AT_METEORITE",
+  "Show Sprite": "when event flag unset",
+  "Direction": "left",
+  "Movement": 605,
+  "Text Pointer 1": "data_20.l_0xc67237",
+  "Text Pointer 2": "$0"
+}

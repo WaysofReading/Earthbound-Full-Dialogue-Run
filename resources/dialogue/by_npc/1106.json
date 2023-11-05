@@ -1,0 +1,50 @@
+{
+  "Sprite": 89,
+  "sprite_label": "woman_dalaamese",
+  "map_location_label": "Dalaam_Overworld_South",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9D4D3",
+  "d1_flags": [
+    "1. goto C9D4FD if POO_JOINS is set"
+  ],
+  "d1_addresses": [
+    "C9D4FD",
+    "Npc1106"
+  ],
+  "d1_text": "Npc1106:\r\n[GOTO_IF_FLAG POO_JOINS L_C9D4FD]\r\n\u00ef\u00bf\u00bdPrince [PRINT_NAME POO]... (blush).[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou are such a hunk.[HALT][END]",
+  "d1_lines": [
+    "Npc1106:",
+    "[GOTO_IF_FLAG POO_JOINS L_C9D4FD]",
+    "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO]... (blush).[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou are such a hunk.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG POO_JOINS L_C9D4FD]:C9D4FD": {
+      "\u00ef\u00bf\u00bdI'm waiting for Prince [PRINT_NAME POO] to see me and say \u00ef\u00bf\u00bdI love you.\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdPrince [PRINT_NAME POO]... (blush).[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou are such a hunk.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4296,
+  "y_pixel_abs": 3968,
+  "x_tile": 134,
+  "y_tile": 124,
+  "x_sector": 16,
+  "y_sector": 15,
+  "x_sector_offset": 200,
+  "y_sector_offset": 128,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_53.l_0xc9d4d3",
+  "Text Pointer 2": "$0"
+}

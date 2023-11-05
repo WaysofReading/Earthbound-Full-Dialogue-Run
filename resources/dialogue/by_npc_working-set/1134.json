@@ -1,0 +1,47 @@
+{
+  "Sprite": 95,
+  "sprite_label": "man_scaraban_blue-clothes",
+  "map_location_label": "Scaraba_Overworld_North-(Town)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C56E67",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1134"
+  ],
+  "d1_text": "Npc1134:\r\n\u00ef\u00bf\u00bdDid you come from Toto by ship?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThere's a scary monster in the sea...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd...Did you beat him?[PAUSE 20]  Or did you escape?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdEither way,[PAUSE 15] you are fantastic![HALT][END]",
+  "d1_lines": [
+    "Npc1134:",
+    "\u00ef\u00bf\u00bdDid you come from Toto by ship?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThere's a scary monster in the sea...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd...Did you beat him?[PAUSE 20]  Or did you escape?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdEither way,[PAUSE 15] you are fantastic![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdDid you come from Toto by ship?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThere's a scary monster in the sea...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd...Did you beat him?[PAUSE 20]  Or did you escape?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdEither way,[PAUSE 15] you are fantastic![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1492,
+  "y_pixel_abs": 3892,
+  "x_tile": 46,
+  "y_tile": 121,
+  "x_sector": 5,
+  "y_sector": 15,
+  "x_sector_offset": 212,
+  "y_sector_offset": 52,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "up",
+  "Movement": 606,
+  "Text Pointer 1": "data_05.l_0xc56e67",
+  "Text Pointer 2": "$0"
+}

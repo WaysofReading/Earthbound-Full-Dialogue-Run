@@ -1,0 +1,49 @@
+{
+  "Sprite": 114,
+  "sprite_label": "man_blonde_i-love-ny-shirt",
+  "map_location_label": "Onett_Overworld_Central-North",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C749C7",
+  "d1_flags": [
+    "1. goto C749EF if FRANKYSTEIN_MKII_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C749EF",
+    "Npc0131"
+  ],
+  "d1_text": "Npc0131:\r\n[GOTO_IF_FLAG FRANKYSTEIN_MKII_DEFEATED L_C749EF]\r\n\u00ef\u00bf\u00bdThe arcade is full of Sharks.[PAUSE 20]  I can't play there.[HALT][END]",
+  "d1_lines": [
+    "Npc0131:",
+    "[GOTO_IF_FLAG FRANKYSTEIN_MKII_DEFEATED L_C749EF]",
+    "\u00ef\u00bf\u00bdThe arcade is full of Sharks.[PAUSE 20]  I can't play there.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG FRANKYSTEIN_MKII_DEFEATED L_C749EF]:C749EF": {
+      "\u00ef\u00bf\u00bdHurray![PAUSE 15]  The Sharks are gone from the arcade![PAUSE 15]  Now I can go in...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdExcept I don't have any money to play the games...[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThe arcade is full of Sharks.[PAUSE 20]  I can't play there.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1872,
+  "y_pixel_abs": 1168,
+  "x_tile": 58,
+  "y_tile": 36,
+  "x_sector": 7,
+  "y_sector": 4,
+  "x_sector_offset": 80,
+  "y_sector_offset": 144,
+  "Event Flag": 375,
+  "flag_label": "PEOPLE_IN_ONETT",
+  "Show Sprite": "when event flag set",
+  "Direction": "left",
+  "Movement": 607,
+  "Text Pointer 1": "data_28.l_0xc749c7",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,50 @@
+{
+  "Sprite": 74,
+  "sprite_label": "cop",
+  "map_location_label": "Twoson_Chaos Theater_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C94A63",
+  "d1_flags": [
+    "1. goto C94A95 if RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER is set"
+  ],
+  "d1_addresses": [
+    "C94A95",
+    "Npc0230"
+  ],
+  "d1_text": "Npc0230:\r\n[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C94A95]\r\n\u00ef\u00bf\u00bdYou want to see Poochyfud, the manager?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdRight through this door, please.[HALT][END]",
+  "d1_lines": [
+    "Npc0230:",
+    "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C94A95]",
+    "\u00ef\u00bf\u00bdYou want to see Poochyfud, the manager?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdRight through this door, please.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C94A95]:C94A95": {
+      "\u00ef\u00bf\u00bdI'm not sure what happened,[PAUSE 15] but it looked like it was good news.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdYou want to see Poochyfud, the manager?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdRight through this door, please.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7464,
+  "y_pixel_abs": 7384,
+  "x_tile": 233,
+  "y_tile": 230,
+  "x_sector": 29,
+  "y_sector": 28,
+  "x_sector_offset": 40,
+  "y_sector_offset": 216,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 605,
+  "Text Pointer 1": "data_47.l_0xc94a63",
+  "Text Pointer 2": "$0"
+}

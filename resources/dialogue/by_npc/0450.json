@@ -1,0 +1,83 @@
+{
+  "Sprite": 265,
+  "sprite_label": "pencil-statue",
+  "map_location_label": "Peaceful Rest Valley_Overworld_All",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "C79088",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0450"
+  ],
+  "d1_text": "Npc0450:\r\n\u00ef\u00bf\u00bd(For some weird reason,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bda pencil-shaped iron statue is blocking the path.)[HALT][END]",
+  "d1_lines": [
+    "Npc0450:",
+    "\u00ef\u00bf\u00bd(For some weird reason,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bda pencil-shaped iron statue is blocking the path.)[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bd(For some weird reason,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bda pencil-shaped iron statue is blocking the path.)[HALT][END]": null
+  },
+  "d2_pointer": "C790C4",
+  "d2_flags": [
+    "3. set PEACEFUL_REST_PENCIL_ERASED",
+    "3. set PHOTO_PEACEFUL_REST_VALLEY_AVAILABLE"
+  ],
+  "d2_addresses": [
+    "C790C4",
+    "C7911E",
+    "C7C6F1",
+    "C7DD2C"
+  ],
+  "d2_text": "L_C790C4:\r\n[GOSUB L_C7DD2C]\r\n[CHECK_EQUAL 184][GOTO_IF_FALSE L_C7C6F1]\r\n[GOSUB L_C7911E]\r\n[DELETE_NPC 450 10]\r\n[CLOSE_ALL_TBOXES]\r\n[SET_FLAG PEACEFUL_REST_PENCIL_ERASED]\r\n[SET_FLAG PHOTO_PEACEFUL_REST_VALLEY_AVAILABLE]\r\n[END]",
+  "d2_lines": [
+    "L_C790C4:",
+    "[GOSUB L_C7DD2C]",
+    "[CHECK_EQUAL 184][GOTO_IF_FALSE L_C7C6F1]",
+    "[GOSUB L_C7911E]",
+    "[DELETE_NPC 450 10]",
+    "[CLOSE_ALL_TBOXES]",
+    "[SET_FLAG PEACEFUL_REST_PENCIL_ERASED]",
+    "[SET_FLAG PHOTO_PEACEFUL_REST_VALLEY_AVAILABLE]",
+    "[END]"
+  ],
+  "d2_unrolled": {
+    "[GOSUB L_C7DD2C]:C7DD2C": {
+      "[BACKUP_REGS_GLOBAL]": null,
+      "[GET_INV_ITEM REG_RESULT 0][BACKUP_REGS_LOCAL]": null,
+      "[SWAP_ARG_RESULT]": null,
+      "[END]": null
+    },
+    "[CHECK_EQUAL 184][GOTO_IF_FALSE L_C7C6F1]:C7C6F1": {
+      "[GET_ACTION_ARG][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bdThe [PRINT_ITEM REG_ARGUMENT] can't be used here.[HALT][END]": null
+    },
+    "[GOSUB L_C7911E]:C7911E": {
+      "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd[PRINT_NAME REG_ARGUMENT] used the Pencil Eraser.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdFor some weird reason, the iron pencil statue[LINE_BREAK]": null,
+      "  was erased![WAIT][PLAY_SFX 33]": null,
+      "[END]": null
+    },
+    "[DELETE_NPC 450 10]": null,
+    "[CLOSE_ALL_TBOXES]": null,
+    "[SET_FLAG PEACEFUL_REST_PENCIL_ERASED]": null,
+    "[SET_FLAG PHOTO_PEACEFUL_REST_VALLEY_AVAILABLE]": null,
+    "[END]": null
+  },
+  "x_pixel_abs": 4648,
+  "y_pixel_abs": 1400,
+  "x_tile": 145,
+  "y_tile": 43,
+  "x_sector": 18,
+  "y_sector": 5,
+  "x_sector_offset": 40,
+  "y_sector_offset": 120,
+  "Event Flag": 284,
+  "flag_label": "PEACEFUL_REST_PENCIL_ERASED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 107,
+  "Text Pointer 1": "data_30.l_0xc79088",
+  "Text Pointer 2": "data_30.l_0xc790c4"
+}

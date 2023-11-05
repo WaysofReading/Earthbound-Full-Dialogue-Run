@@ -1,0 +1,47 @@
+{
+  "Sprite": 60,
+  "sprite_label": "drunk-man",
+  "map_location_label": "Moonside_Jackie's Cafe_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C96D8A",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1361"
+  ],
+  "d1_text": "Npc1361:\r\n\u00ef\u00bf\u00bdWhat?[PAUSE 20][LINE_BREAK]\r\n  Fourside?[PAUSE 20][LINE_BREAK]\r\n  Are you still sleeping?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThis is Moonside.[HALT][END]",
+  "d1_lines": [
+    "Npc1361:",
+    "\u00ef\u00bf\u00bdWhat?[PAUSE 20][LINE_BREAK]",
+    "  Fourside?[PAUSE 20][LINE_BREAK]",
+    "  Are you still sleeping?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThis is Moonside.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdWhat?[PAUSE 20][LINE_BREAK]": null,
+    "  Fourside?[PAUSE 20][LINE_BREAK]": null,
+    "  Are you still sleeping?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThis is Moonside.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6560,
+  "y_pixel_abs": 4968,
+  "x_tile": 205,
+  "y_tile": 155,
+  "x_sector": 25,
+  "y_sector": 19,
+  "x_sector_offset": 160,
+  "y_sector_offset": 104,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_48.l_0xc96d8a",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,60 @@
+{
+  "Sprite": 64,
+  "sprite_label": "man_glasses_orange-cardigan",
+  "map_location_label": "Happy Happy Village_Overworld_All",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C98B6E",
+  "d1_flags": [
+    "1. goto C98940 if GIYGAS_DEFEATED is set",
+    "1. goto C98BE1 if CARPAINTER_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C98940",
+    "C98BE1",
+    "Npc0423"
+  ],
+  "d1_text": "Npc0423:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C98940]\r\n[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C98BE1]\r\n\u00ef\u00bf\u00bdMr. Carpainter wants a girl.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdNo, I don't mean it like that.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI meant he's looking for a girl who can be the high priestess of Happy-happyism.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI heard he's already got her.[HALT][END]",
+  "d1_lines": [
+    "Npc0423:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C98940]",
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C98BE1]",
+    "\u00ef\u00bf\u00bdMr. Carpainter wants a girl.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdNo, I don't mean it like that.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI meant he's looking for a girl who can be the high priestess of Happy-happyism.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI heard he's already got her.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C98940]:C98940": {
+      "\u00ef\u00bf\u00bdThanks, ahead of time.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C98BE1]:C98BE1": {
+      "\u00ef\u00bf\u00bdI apologize.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdMr. Carpainter wants a girl.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdNo, I don't mean it like that.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI meant he's looking for a girl who can be the high priestess of Happy-happyism.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI heard he's already got her.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4152,
+  "y_pixel_abs": 8232,
+  "x_tile": 129,
+  "y_tile": 257,
+  "x_sector": 16,
+  "y_sector": 32,
+  "x_sector_offset": 56,
+  "y_sector_offset": 40,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 12,
+  "Text Pointer 1": "data_50.l_0xc98b6e",
+  "Text Pointer 2": "$0"
+}

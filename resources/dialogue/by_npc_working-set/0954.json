@@ -1,0 +1,48 @@
+{
+  "Sprite": 68,
+  "sprite_label": "woman_blonde_red-dress",
+  "map_location_label": "Fourside_Overworld_Northwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C83A45",
+  "d1_flags": [
+    "1. goto C83A6A if TALKED_TO_DYING_EVERDRED is set"
+  ],
+  "d1_addresses": [
+    "C83A6A",
+    "Npc0954"
+  ],
+  "d1_text": "Npc0954:\r\n[GOTO_IF_FLAG TALKED_TO_DYING_EVERDRED L_C83A6A]\r\n\u00ef\u00bf\u00bdOooo... I don't like seeing a corpse around here.[HALT][END]",
+  "d1_lines": [
+    "Npc0954:",
+    "[GOTO_IF_FLAG TALKED_TO_DYING_EVERDRED L_C83A6A]",
+    "\u00ef\u00bf\u00bdOooo... I don't like seeing a corpse around here.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TALKED_TO_DYING_EVERDRED L_C83A6A]:C83A6A": {
+      "\u00ef\u00bf\u00bdHe should really go to the hospital like other sick people do.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdOooo... I don't like seeing a corpse around here.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2625,
+  "y_pixel_abs": 3953,
+  "x_tile": 82,
+  "y_tile": 123,
+  "x_sector": 10,
+  "y_sector": 15,
+  "x_sector_offset": 65,
+  "y_sector_offset": 113,
+  "Event Flag": 60,
+  "flag_label": "EVERDRED_OUTSIDE_CAFE",
+  "Show Sprite": "when event flag set",
+  "Direction": "up",
+  "Movement": 606,
+  "Text Pointer 1": "data_36.l_0xc83a45",
+  "Text Pointer 2": "$0"
+}

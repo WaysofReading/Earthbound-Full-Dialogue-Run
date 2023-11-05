@@ -1,0 +1,51 @@
+{
+  "Sprite": 116,
+  "sprite_label": "woman_black-hair_red-clothes",
+  "map_location_label": "Fourside_Overworld_Northwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C839F7",
+  "d1_flags": [
+    "1. goto C83A24 if TALKED_TO_DYING_EVERDRED is set"
+  ],
+  "d1_addresses": [
+    "C83A24",
+    "Npc0953"
+  ],
+  "d1_text": "Npc0953:\r\n[GOTO_IF_FLAG TALKED_TO_DYING_EVERDRED L_C83A24]\r\n\u00ef\u00bf\u00bdThere's a person lying on the ground.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI wonder if he's... he's...[HALT][END]",
+  "d1_lines": [
+    "Npc0953:",
+    "[GOTO_IF_FLAG TALKED_TO_DYING_EVERDRED L_C83A24]",
+    "\u00ef\u00bf\u00bdThere's a person lying on the ground.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI wonder if he's... he's...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TALKED_TO_DYING_EVERDRED L_C83A24]:C83A24": {
+      "\u00ef\u00bf\u00bdHe's not dead...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI thought he may have passed on.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThere's a person lying on the ground.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI wonder if he's... he's...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2612,
+  "y_pixel_abs": 3931,
+  "x_tile": 81,
+  "y_tile": 122,
+  "x_sector": 10,
+  "y_sector": 15,
+  "x_sector_offset": 52,
+  "y_sector_offset": 91,
+  "Event Flag": 60,
+  "flag_label": "EVERDRED_OUTSIDE_CAFE",
+  "Show Sprite": "when event flag set",
+  "Direction": "right",
+  "Movement": 606,
+  "Text Pointer 1": "data_36.l_0xc839f7",
+  "Text Pointer 2": "$0"
+}

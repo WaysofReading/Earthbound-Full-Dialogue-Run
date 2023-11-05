@@ -1,0 +1,93 @@
+{
+  "Sprite": 97,
+  "sprite_label": "tenda",
+  "map_location_label": "Deep Darkness_Tenda Village_Main",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9DDB4",
+  "d1_flags": [
+    "1. goto C9DDC0 if TENDAS_NOT_SHY is set"
+  ],
+  "d1_addresses": [
+    "C902F2",
+    "C9D735",
+    "C9DDC0",
+    "Npc1259"
+  ],
+  "d1_text": "Npc1259:\r\n[GOTO_IF_FLAG TENDAS_NOT_SHY L_C9DDC0]\r\n[GOTO L_C9D735]\r\n; $C9DDC0\r\nL_C9DDC0:\r\n[GOSUB L_C902F2]\r\n[END]",
+  "d1_lines": [
+    "Npc1259:",
+    "[GOTO_IF_FLAG TENDAS_NOT_SHY L_C9DDC0]",
+    "[GOTO L_C9D735]",
+    "; $C9DDC0",
+    "L_C9DDC0:",
+    "[GOSUB L_C902F2]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TENDAS_NOT_SHY L_C9DDC0]:C9DDC0": {
+      "[GOSUB L_C902F2]:C902F2": {
+        "\u00ef\u00bf\u00bdHi!  How are you today?[LINE_BREAK]": null,
+        "  Oh, you're not feeling well?[LINE_BREAK]": null,
+        "  Be healthy![HALT][END]": null
+      },
+      "[END]": null
+    },
+    "[GOTO L_C9D735]:C9D735": {
+      "\u00ef\u00bf\u00bd.....[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWe're shy...[HALT][END]": null
+    },
+    "; $C9DDC0": null,
+    "[GOSUB L_C902F2]:C902F2": {
+      "\u00ef\u00bf\u00bdHi!  How are you today?[LINE_BREAK]": null,
+      "  Oh, you're not feeling well?[LINE_BREAK]": null,
+      "  Be healthy![HALT][END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": "C9D6F8",
+  "d2_flags": [],
+  "d2_addresses": [
+    "C7C6B6",
+    "C9D6F8",
+    "C9D70B"
+  ],
+  "d2_text": "L_C9D6F8:\r\n[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]\r\n[CHECK_EQUAL 211][GOTO_IF_TRUE L_C9D70B]\r\n[GOTO L_C7C6B6]\r\n; $C9D70B\r\nL_C9D70B:\r\n\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]",
+  "d2_lines": [
+    "L_C9D6F8:",
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]",
+    "[CHECK_EQUAL 211][GOTO_IF_TRUE L_C9D70B]",
+    "[GOTO L_C7C6B6]",
+    "; $C9D70B",
+    "L_C9D70B:",
+    "\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]"
+  ],
+  "d2_unrolled": {
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+    "[CHECK_EQUAL 211][GOTO_IF_TRUE L_C9D70B]:C9D70B": {
+      "\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]": null
+    },
+    "[GOTO L_C7C6B6]:C7C6B6": {
+      "[GET_ACTION_ARG][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bdYou can't use[LINE_BREAK]": null,
+      "  the [PRINT_ITEM REG_ARGUMENT].[HALT][END]": null
+    },
+    "; $C9D70B": null,
+    "\u00ef\u00bf\u00bdThe Tenda turned it down, but really seemed tempted...[HALT][END]": null
+  },
+  "x_pixel_abs": 341,
+  "y_pixel_abs": 182,
+  "x_tile": 10,
+  "y_tile": 5,
+  "x_sector": 1,
+  "y_sector": 0,
+  "x_sector_offset": 85,
+  "y_sector_offset": 182,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_53.l_0xc9ddb4",
+  "Text Pointer 2": "data_53.l_0xc9d6f8"
+}

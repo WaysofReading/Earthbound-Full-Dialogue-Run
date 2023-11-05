@@ -1,0 +1,286 @@
+{
+  "Sprite": 133,
+  "sprite_label": "monkey-boy",
+  "map_location_label": "Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hamburger,-King-Banana)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C62026",
+  "d1_flags": [
+    "1. goto C620E3 if MONKEY_CAVE_HAMBURGER_3 is set",
+    "3. set MONKEY_CAVE_HAMBURGER_3"
+  ],
+  "d1_addresses": [
+    "C5E456",
+    "C5E48E",
+    "C5E499",
+    "C5E4C2",
+    "C5E584",
+    "C5E58B",
+    "C5E592",
+    "C5E599",
+    "C6206B",
+    "C62089",
+    "C620E3",
+    "C62380",
+    "C62394",
+    "C7DD4F",
+    "Npc0822"
+  ],
+  "d1_text": "Npc0822:\r\n[GOTO_IF_FLAG MONKEY_CAVE_HAMBURGER_3 L_C620E3]\r\n\u00ef\u00bf\u00bdUikkie Uiki Uki[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(Let's get to the point.[PAUSE 20]  Give me a [PRINT_ITEM HAMBURGER].)[LINE_BREAK]\r\n[GOSUB L_C7DD4F]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C62089 L_C6206B]\r\n; $C6206B\r\nL_C6206B:\r\n\u00ef\u00bf\u00bdUiki Uikki[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(Ok, shove off then.)[HALT][END]",
+  "d1_lines": [
+    "Npc0822:",
+    "[GOTO_IF_FLAG MONKEY_CAVE_HAMBURGER_3 L_C620E3]",
+    "\u00ef\u00bf\u00bdUikkie Uiki Uki[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(Let's get to the point.[PAUSE 20]  Give me a [PRINT_ITEM HAMBURGER].)[LINE_BREAK]",
+    "[GOSUB L_C7DD4F]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C62089 L_C6206B]",
+    "; $C6206B",
+    "L_C6206B:",
+    "\u00ef\u00bf\u00bdUiki Uikki[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(Ok, shove off then.)[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MONKEY_CAVE_HAMBURGER_3 L_C620E3]:C620E3": {
+      "\u00ef\u00bf\u00bdUiki[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(Please take care.)[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdUikkie Uiki Uki[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(Let's get to the point.[PAUSE 20]  Give me a [PRINT_ITEM HAMBURGER].)[LINE_BREAK]": null,
+    "[GOSUB L_C7DD4F]:C7DD4F": "Loop - Yes/No - Options",
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C62089 L_C6206B]:C62089": {
+      "[GOSUB L_C5E456]:C5E456": {
+        "[OPEN_HP_PP]": null,
+        "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {
+          "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+          "[SAVE_TBOX_CTX]": null,
+          "[RESTORE_REGS_GLOBAL]": null,
+          "[DISPLAY_INV 2 REG_ARGUMENT]": null,
+          "[MENU_TBOX 2]": null,
+          "[BACKUP_REGS_GLOBAL]": null,
+          "[SET_FOCUS_TBOX 2]": null,
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[SET_FOCUS_TBOX 1]": null,
+          "[GOTO_IF_FALSE L_C5E4C2]:C5E4C2": {
+            "[END]": null
+          },
+          "[SWAP_ARG_RESULT]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 NESS]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 PAULA]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 JEFF]": null,
+          "[END]": null
+        },
+        "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {
+          "[SAVE_TBOX_CTX]": null,
+          "[DISPLAY_INV 2 POO]": null,
+          "[END]": null
+        },
+        "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {
+          "[SET_FOCUS_TBOX 2]": null,
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[SET_FOCUS_TBOX 1]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[END]": null
+        },
+        "[GET_TBOX_OPTION_COUNT 2]": null,
+        "[GOTO_IF_FALSE L_C5E456]:C5E456": {
+          "[OPEN_HP_PP]": null,
+          "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {
+            "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+            "[SAVE_TBOX_CTX]": null,
+            "[RESTORE_REGS_GLOBAL]": null,
+            "[DISPLAY_INV 2 REG_ARGUMENT]": null,
+            "[MENU_TBOX 2]": null,
+            "[BACKUP_REGS_GLOBAL]": null,
+            "[SET_FOCUS_TBOX 2]": null,
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[SET_FOCUS_TBOX 1]": null,
+            "[GOTO_IF_FALSE L_C5E4C2]:C5E4C2": {
+              "[END]": null
+            },
+            "[SWAP_ARG_RESULT]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 NESS]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 PAULA]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 JEFF]": null,
+            "[END]": null
+          },
+          "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {
+            "[SAVE_TBOX_CTX]": null,
+            "[DISPLAY_INV 2 POO]": null,
+            "[END]": null
+          },
+          "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {
+            "[SET_FOCUS_TBOX 2]": null,
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[SET_FOCUS_TBOX 1]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[END]": null
+          },
+          "[GET_TBOX_OPTION_COUNT 2]": null,
+          "[GOTO_IF_FALSE L_C5E456]:C5E456": {
+            "[OPEN_HP_PP]": null,
+            "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {
+              "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][BACKUP_REGS_GLOBAL]": null,
+              "[SAVE_TBOX_CTX]": null,
+              "[RESTORE_REGS_GLOBAL]": null,
+              "[DISPLAY_INV 2 REG_ARGUMENT]": null,
+              "[MENU_TBOX 2]": null,
+              "[BACKUP_REGS_GLOBAL]": null,
+              "[SET_FOCUS_TBOX 2]": null,
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[SET_FOCUS_TBOX 1]": null,
+              "[GOTO_IF_FALSE L_C5E4C2]:C5E4C2": {},
+              "[SWAP_ARG_RESULT]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 NESS]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 PAULA]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 JEFF]": null,
+              "[END]": null
+            },
+            "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {
+              "[SAVE_TBOX_CTX]": null,
+              "[DISPLAY_INV 2 POO]": null,
+              "[END]": null
+            },
+            "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {
+              "[SET_FOCUS_TBOX 2]": null,
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[SET_FOCUS_TBOX 1]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[END]": null
+            },
+            "[GET_TBOX_OPTION_COUNT 2]": null,
+            "[GOTO_IF_FALSE L_C5E456]:C5E456": {
+              "[OPEN_HP_PP]": null,
+              "[CHECK_PARTY_COUNT 2][GOTO_IF_TRUE L_C5E499]:C5E499": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E584": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E58B": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E592": {},
+              "[SELECT_PMEMBER L_C5E584 L_C5E58B L_C5E592 L_C5E599 0]:C5E599": {},
+              "[RESULT_TO_ARG][GOTO_IF_FALSE L_C5E48E]:C5E48E": {},
+              "[GET_TBOX_OPTION_COUNT 2]": null,
+              "[GOTO_IF_FALSE L_C5E456]:C5E456": {},
+              "[MENU_TBOX 2]": null,
+              "; $C5E48E": null,
+              "[SET_FOCUS_TBOX 2]": null,
+              "[CLOSE_FOCUS_TBOX]": null,
+              "[SET_FOCUS_TBOX 1]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[END]": null
+            },
+            "[MENU_TBOX 2]": null,
+            "; $C5E48E": null,
+            "[SET_FOCUS_TBOX 2]": null,
+            "[CLOSE_FOCUS_TBOX]": null,
+            "[SET_FOCUS_TBOX 1]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[END]": null
+          },
+          "[MENU_TBOX 2]": null,
+          "; $C5E48E": null,
+          "[SET_FOCUS_TBOX 2]": null,
+          "[CLOSE_FOCUS_TBOX]": null,
+          "[SET_FOCUS_TBOX 1]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[END]": null
+        },
+        "[MENU_TBOX 2]": null,
+        "; $C5E48E": null,
+        "[SET_FOCUS_TBOX 2]": null,
+        "[CLOSE_FOCUS_TBOX]": null,
+        "[SET_FOCUS_TBOX 1]": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[END]": null
+      },
+      "[GOTO_IF_FALSE L_C6206B]:C6206B": {
+        "\u00ef\u00bf\u00bdUiki Uikki[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bd(Ok, shove off then.)[HALT][END]": null
+      },
+      "[BACKUP_REGS_LOCAL]": null,
+      "[GOSUB L_C62380]:C62380": {
+        "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+        "[RESULT_TO_ARG][CHECK_EQUAL 90][GOTO_IF_TRUE L_C62394]:C62394": {
+          "[END]": null
+        },
+        "[SWAP_ARG_RESULT]": null,
+        "[CHECK_EQUAL 233]; $C62394": null,
+        "[END]": null
+      },
+      "[RESTORE_REGS_LOCAL]": null,
+      "[REMOVE_ITEM_SLOT REG_ARGUMENT 0]": null,
+      "[PLAY_SFX 118]": null,
+      "[PAUSE 10]\u00ef\u00bf\u00bdUikki Uiki Uiki Uiki[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(I'm very grateful to you.)[HALT][CLOSE_ALL_TBOXES]": null,
+      "[DELETE_NPC 822 6]": null,
+      "[CREATE_NPC 824 43 1]": null,
+      "[SET_FLAG MONKEY_CAVE_HAMBURGER_3]": null,
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C62089 L_C6206B]:C6206B": {
+      "\u00ef\u00bf\u00bdUiki Uikki[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(Ok, shove off then.)[HALT][END]": null
+    },
+    "; $C6206B": null,
+    "\u00ef\u00bf\u00bdUiki Uikki[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(Ok, shove off then.)[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7742,
+  "y_pixel_abs": 5926,
+  "x_tile": 241,
+  "y_tile": 185,
+  "x_sector": 30,
+  "y_sector": 23,
+  "x_sector_offset": 62,
+  "y_sector_offset": 38,
+  "Event Flag": 460,
+  "flag_label": "MONKEY_CAVE_HAMBURGER_3",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_16.l_0xc62026",
+  "Text Pointer 2": "$0"
+}

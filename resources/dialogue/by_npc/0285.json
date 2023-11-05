@@ -1,0 +1,47 @@
+{
+  "Sprite": 64,
+  "sprite_label": "man_glasses_orange-cardigan",
+  "map_location_label": "Twoson_Houses_Southeast-Green-Roof_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6A5E0",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0285"
+  ],
+  "d1_text": "Npc0285:\r\n\u00ef\u00bf\u00bdI have a lot of old, broken junk, but I hate to throw anything away.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIf you have a friend who is knowledgeable about mechanics,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdthat person might be able to fix something for you overnight...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdMan, a friend like that would be so handy...[HALT][END]",
+  "d1_lines": [
+    "Npc0285:",
+    "\u00ef\u00bf\u00bdI have a lot of old, broken junk, but I hate to throw anything away.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIf you have a friend who is knowledgeable about mechanics,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdthat person might be able to fix something for you overnight...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdMan, a friend like that would be so handy...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI have a lot of old, broken junk, but I hate to throw anything away.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIf you have a friend who is knowledgeable about mechanics,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdthat person might be able to fix something for you overnight...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdMan, a friend like that would be so handy...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7016,
+  "y_pixel_abs": 8168,
+  "x_tile": 219,
+  "y_tile": 255,
+  "x_sector": 27,
+  "y_sector": 31,
+  "x_sector_offset": 104,
+  "y_sector_offset": 232,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_22.l_0xc6a5e0",
+  "Text Pointer 2": "$0"
+}

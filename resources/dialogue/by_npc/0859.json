@@ -1,0 +1,51 @@
+{
+  "Sprite": 67,
+  "sprite_label": "elevator-atatendant",
+  "map_location_label": "Fourside_Monotoli_L1_Lobby",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6E088",
+  "d1_flags": [
+    "1. goto C6E0B4 if GIYGAS_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C6E0B4",
+    "Npc0859"
+  ],
+  "d1_text": "Npc0859:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C6E0B4]\r\n\u00ef\u00bf\u00bdHello, baby face.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWhat brings you to the Monotoli Building?[HALT][END]",
+  "d1_lines": [
+    "Npc0859:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C6E0B4]",
+    "\u00ef\u00bf\u00bdHello, baby face.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWhat brings you to the Monotoli Building?[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C6E0B4]:C6E0B4": {
+      "\u00ef\u00bf\u00bdHello, baby face.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWhat brings you to the Enrich Flavor Building?[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdHello, baby face.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWhat brings you to the Monotoli Building?[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5584,
+  "y_pixel_abs": 5376,
+  "x_tile": 174,
+  "y_tile": 168,
+  "x_sector": 21,
+  "y_sector": 21,
+  "x_sector_offset": 208,
+  "y_sector_offset": 0,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_24.l_0xc6e088",
+  "Text Pointer 2": "$0"
+}

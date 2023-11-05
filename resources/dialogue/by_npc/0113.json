@@ -1,0 +1,49 @@
+{
+  "Sprite": 139,
+  "sprite_label": "doctor",
+  "map_location_label": "Onett_Hospital_1F_Doctor's-Office",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C73888",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C90000",
+    "C90FEC",
+    "Npc0113"
+  ],
+  "d1_text": "Npc0113:\r\n[GOSUB L_C90000]\r\n[END]",
+  "d1_lines": [
+    "Npc0113:",
+    "[GOSUB L_C90000]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C90000]:C90000": {
+      "[SET_COUNTER 20]": null,
+      "[GOSUB L_C90FEC]:C90FEC": "Doctor Menu",
+      "[END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7264,
+  "y_pixel_abs": 1224,
+  "x_tile": 227,
+  "y_tile": 38,
+  "x_sector": 28,
+  "y_sector": 4,
+  "x_sector_offset": 96,
+  "y_sector_offset": 200,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_27.l_0xc73888",
+  "Text Pointer 2": "$0"
+}

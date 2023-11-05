@@ -1,0 +1,51 @@
+{
+  "Sprite": 213,
+  "sprite_label": "sign_small",
+  "map_location_label": "Happy Happy Village_Overworld_All",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "C998C1",
+  "d1_flags": [
+    "1. goto C998FD if CARPAINTER_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C998FD",
+    "Npc0435"
+  ],
+  "d1_text": "Npc0435:\r\n[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C998FD]\r\n\u00ef\u00bf\u00bd(All of our products are blessed.[PAUSE 20][LINE_BREAK]\r\n             --Blue-Blue Drugstore)[HALT][END]",
+  "d1_lines": [
+    "Npc0435:",
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C998FD]",
+    "\u00ef\u00bf\u00bd(All of our products are blessed.[PAUSE 20][LINE_BREAK]",
+    "             --Blue-Blue Drugstore)[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C998FD]:C998FD": {
+      "\u00ef\u00bf\u00bd(Not all of our products are blessed.[LINE_BREAK]": null,
+      "     --Nothing Blue Drugstore)[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bd(All of our products are blessed.[PAUSE 20][LINE_BREAK]": null,
+    "             --Blue-Blue Drugstore)[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4096,
+  "y_pixel_abs": 7616,
+  "x_tile": 128,
+  "y_tile": 238,
+  "x_sector": 16,
+  "y_sector": 29,
+  "x_sector_offset": 0,
+  "y_sector_offset": 192,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_50.l_0xc998c1",
+  "Text Pointer 2": "$0"
+}

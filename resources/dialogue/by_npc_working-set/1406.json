@@ -1,0 +1,150 @@
+{
+  "Sprite": 293,
+  "sprite_label": "monster_mani-mani-statue",
+  "map_location_label": "Moonside_Overworld_South",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "C9794B",
+  "d1_flags": [
+    "3. set ELECTRA_OUTSIDE_BUILDING",
+    "3. set MANI_MANI_DEFEATED",
+    "4. clear ESCARGO_EXPRESS_DELIVERY",
+    "4. clear ESCARGO_EXPRESS_HAWK_EYE_DELIVERY",
+    "4. clear ESCARGO_EXPRESS_PENCIL_ERASER_DELIVERY",
+    "4. clear ESCARGO_EXPRESS_PICK_UP",
+    "4. clear FOR_SALE_SIGN_CUSTOMER_1",
+    "4. clear FOR_SALE_SIGN_CUSTOMER_2",
+    "4. clear FOR_SALE_SIGN_CUSTOMER_3",
+    "4. clear FOR_SALE_SIGN_CUSTOMER_4",
+    "4. clear PIZZA_DELIVERY",
+    "4. clear PREVENT_TELEPORT"
+  ],
+  "d1_addresses": [
+    "C64650",
+    "C64671",
+    "C683DE",
+    "C68583",
+    "C69082",
+    "Npc0905",
+    "Npc1406"
+  ],
+  "d1_text": "Npc1406:\r\n\u00ef\u00bf\u00bd(It is a golden statue that you have seen before.)[WAIT][GOSUB L_C68583]\r\n[GOTO_IF_TRUE L_C683DE]\r\n[PAUSE 1][GOSUB L_C69082]\r\n[SET_NPC_MOVEMENT_SCRIPT 1406 635]\r\n[SET_FLAG ELECTRA_OUTSIDE_BUILDING]\r\n[SET_FLAG MANI_MANI_DEFEATED]\r\n[PRESET_TELEPORT 154]\r\n[SET_OSS_FLAG]\r\n[FREEZE_PMEMBER ALL]\r\n[PAUSE 20]\r\n; $C97990\r\nNpc0905:\r\n[OPEN_TBOX 1]\r\n\u00ef\u00bf\u00bd(The Mani Mani statue was actually a device that created illusions.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThe illusion device was destroyed.)[HALT][CLOSE_ALL_TBOXES]\r\n[SET_RESPAWN_POINT 5]\r\n[UNFREEZE_PMEMBER ALL]\r\n[END]",
+  "d1_lines": [
+    "Npc1406:",
+    "\u00ef\u00bf\u00bd(It is a golden statue that you have seen before.)[WAIT][GOSUB L_C68583]",
+    "[GOTO_IF_TRUE L_C683DE]",
+    "[PAUSE 1][GOSUB L_C69082]",
+    "[SET_NPC_MOVEMENT_SCRIPT 1406 635]",
+    "[SET_FLAG ELECTRA_OUTSIDE_BUILDING]",
+    "[SET_FLAG MANI_MANI_DEFEATED]",
+    "[PRESET_TELEPORT 154]",
+    "[SET_OSS_FLAG]",
+    "[FREEZE_PMEMBER ALL]",
+    "[PAUSE 20]",
+    "; $C97990",
+    "Npc0905:",
+    "[OPEN_TBOX 1]",
+    "\u00ef\u00bf\u00bd(The Mani Mani statue was actually a device that created illusions.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThe illusion device was destroyed.)[HALT][CLOSE_ALL_TBOXES]",
+    "[SET_RESPAWN_POINT 5]",
+    "[UNFREEZE_PMEMBER ALL]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bd(It is a golden statue that you have seen before.)[WAIT][GOSUB L_C68583]:C68583": {
+      "[CLOSE_ALL_TBOXES]": null,
+      "[START_BATTLE 461]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_TRUE L_C683DE]:C683DE": {
+      "[END]": null
+    },
+    "[PAUSE 1][GOSUB L_C69082]:C69082": {
+      "[CLR_FLAG PIZZA_DELIVERY]": null,
+      "[CLR_FLAG ESCARGO_EXPRESS_DELIVERY]": null,
+      "[CLR_FLAG ESCARGO_EXPRESS_PICK_UP]": null,
+      "[CLR_FLAG FOR_SALE_SIGN_CUSTOMER_1]": null,
+      "[CLR_FLAG FOR_SALE_SIGN_CUSTOMER_2]": null,
+      "[CLR_FLAG FOR_SALE_SIGN_CUSTOMER_3]": null,
+      "[CLR_FLAG FOR_SALE_SIGN_CUSTOMER_4]": null,
+      "[CLR_FLAG ESCARGO_EXPRESS_PENCIL_ERASER_DELIVERY]": null,
+      "[CLR_FLAG ESCARGO_EXPRESS_HAWK_EYE_DELIVERY]": null,
+      "[GOSUB L_C64650]:C64650": {
+        "[UNK_19_1D 1 1][STORE_ITEM REG_ARGUMENT]": null,
+        "[UNK_19_1D 2 1][GOTO_IF_FALSE L_C64671]:C64671": {
+          "[END]": null
+        },
+        "[STORE_ITEM REG_ARGUMENT]": null,
+        "[UNK_19_1D 3 1][GOTO_IF_FALSE L_C64671]:C64671": {
+          "[END]": null
+        },
+        "; $C64671": null,
+        "[END]": null
+      },
+      "[CLR_FLAG PREVENT_TELEPORT]": null,
+      "[END]": null
+    },
+    "[SET_NPC_MOVEMENT_SCRIPT 1406 635]": null,
+    "[SET_FLAG ELECTRA_OUTSIDE_BUILDING]": null,
+    "[SET_FLAG MANI_MANI_DEFEATED]": null,
+    "[PRESET_TELEPORT 154]": null,
+    "[SET_OSS_FLAG]": null,
+    "[FREEZE_PMEMBER ALL]": null,
+    "[PAUSE 20]": null,
+    "; $C97990": null,
+    "[OPEN_TBOX 1]": null,
+    "\u00ef\u00bf\u00bd(The Mani Mani statue was actually a device that created illusions.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThe illusion device was destroyed.)[HALT][CLOSE_ALL_TBOXES]": null,
+    "[SET_RESPAWN_POINT 5]": null,
+    "[UNFREEZE_PMEMBER ALL]": null,
+    "[END]": null
+  },
+  "d2_pointer": "C68F74",
+  "d2_flags": [],
+  "d2_addresses": [
+    "C68F74",
+    "C68FA6",
+    "C7C6B6"
+  ],
+  "d2_text": "L_C68F74:\r\n[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]\r\n[BACKUP_REGS_LOCAL]\r\n[CHECK_EQUAL 210][GOTO_IF_TRUE L_C68FA6]\r\n[RESTORE_REGS_LOCAL]\r\n[CHECK_EQUAL 184][GOTO_IF_FALSE L_C7C6B6]\r\n\u00ef\u00bf\u00bdDo you really think this looks like a pencil?[HALT][END]",
+  "d2_lines": [
+    "L_C68F74:",
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]",
+    "[BACKUP_REGS_LOCAL]",
+    "[CHECK_EQUAL 210][GOTO_IF_TRUE L_C68FA6]",
+    "[RESTORE_REGS_LOCAL]",
+    "[CHECK_EQUAL 184][GOTO_IF_FALSE L_C7C6B6]",
+    "\u00ef\u00bf\u00bdDo you really think this looks like a pencil?[HALT][END]"
+  ],
+  "d2_unrolled": {
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+    "[BACKUP_REGS_LOCAL]": null,
+    "[CHECK_EQUAL 210][GOTO_IF_TRUE L_C68FA6]:C68FA6": {
+      "\u00ef\u00bf\u00bdIt looks sort of like some primitive human statue[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdif you look at it from the right angle...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdBut it definitely doesn't look like an eraser... does it?[HALT][END]": null
+    },
+    "[RESTORE_REGS_LOCAL]": null,
+    "[CHECK_EQUAL 184][GOTO_IF_FALSE L_C7C6B6]:C7C6B6": {
+      "[GET_ACTION_ARG][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bdYou can't use[LINE_BREAK]": null,
+      "  the [PRINT_ITEM REG_ARGUMENT].[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdDo you really think this looks like a pencil?[HALT][END]": null
+  },
+  "x_pixel_abs": 7641,
+  "y_pixel_abs": 4665,
+  "x_tile": 238,
+  "y_tile": 145,
+  "x_sector": 29,
+  "y_sector": 18,
+  "x_sector_offset": 217,
+  "y_sector_offset": 57,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_49.l_0xc9794b",
+  "Text Pointer 2": "data_22.l_0xc68f74"
+}

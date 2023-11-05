@@ -1,0 +1,83 @@
+{
+  "Sprite": 122,
+  "sprite_label": "girl_blonde_yellow-dress",
+  "map_location_label": "Onett_Overworld_Central-North",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C747ED",
+  "d1_flags": [
+    "1. goto C7484F if GOT_TOWN_MAP is set",
+    "1. goto C74874 if TEMP_9 is set",
+    "1. goto C7488D if GIYGAS_DEFEATED is set",
+    "1. goto C748BE if RETURNED_SHYNESS_BOOK is set",
+    "3. set TEMP_9"
+  ],
+  "d1_addresses": [
+    "C74802",
+    "C7484F",
+    "C74874",
+    "C7488D",
+    "C748BE",
+    "C7DC7F",
+    "Npc0129"
+  ],
+  "d1_text": "Npc0129:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C7488D]\r\n[GOTO_IF_FLAG TEMP_9 L_C74874]\r\n[GOTO_IF_FLAG GOT_TOWN_MAP L_C7484F]\r\n; $C74802\r\nL_C74802:\r\n\u00ef\u00bf\u00bdA library is a nice place to learn stuff.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI got a lot of info about EarthBound.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou can borrow maps for nothing![HALT][END]",
+  "d1_lines": [
+    "Npc0129:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C7488D]",
+    "[GOTO_IF_FLAG TEMP_9 L_C74874]",
+    "[GOTO_IF_FLAG GOT_TOWN_MAP L_C7484F]",
+    "; $C74802",
+    "L_C74802:",
+    "\u00ef\u00bf\u00bdA library is a nice place to learn stuff.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI got a lot of info about EarthBound.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou can borrow maps for nothing![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C7488D]:C7488D": {
+      "[GOTO_IF_FLAG RETURNED_SHYNESS_BOOK L_C748BE]:C748BE": {
+        "\u00ef\u00bf\u00bdHey![PAUSE 15]  You have lipstick on your cheek.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdIf she's in a good mood,[PAUSE 15] a lady in the library will kiss you.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG TEMP_9 L_C74874]:C74874": {
+      "\u00ef\u00bf\u00bdIt's a good idea to talk to lots of people.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG GOT_TOWN_MAP L_C7484F]:C7484F": {
+      "[SET_COUNTER 1]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C74802]:C74802": {
+        "\u00ef\u00bf\u00bdA library is a nice place to learn stuff.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI got a lot of info about EarthBound.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou can borrow maps for nothing![HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdWhat a cute, yellow backpack.[HALT][SET_FLAG TEMP_9]": null,
+      "[END]": null
+    },
+    "; $C74802": null,
+    "\u00ef\u00bf\u00bdA library is a nice place to learn stuff.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI got a lot of info about EarthBound.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou can borrow maps for nothing![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2152,
+  "y_pixel_abs": 960,
+  "x_tile": 67,
+  "y_tile": 30,
+  "x_sector": 8,
+  "y_sector": 3,
+  "x_sector_offset": 104,
+  "y_sector_offset": 192,
+  "Event Flag": 375,
+  "flag_label": "PEOPLE_IN_ONETT",
+  "Show Sprite": "when event flag set",
+  "Direction": "right",
+  "Movement": 607,
+  "Text Pointer 1": "data_28.l_0xc747ed",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,43 @@
+{
+  "Sprite": 104,
+  "sprite_label": "woman_lying-down_swimwear",
+  "map_location_label": "Dusty Dunes Desert_Overworld_Northwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C60239",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0759"
+  ],
+  "d1_text": "Npc0759:\r\n\u00ef\u00bf\u00bdAnnoying kids...[PAUSE 20]  What a group of brats!...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdScat you little monsters![HALT][END]",
+  "d1_lines": [
+    "Npc0759:",
+    "\u00ef\u00bf\u00bdAnnoying kids...[PAUSE 20]  What a group of brats!...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdScat you little monsters![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdAnnoying kids...[PAUSE 20]  What a group of brats!...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdScat you little monsters![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2060,
+  "y_pixel_abs": 9232,
+  "x_tile": 64,
+  "y_tile": 288,
+  "x_sector": 8,
+  "y_sector": 36,
+  "x_sector_offset": 12,
+  "y_sector_offset": 16,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_15.l_0xc60239",
+  "Text Pointer 2": "$0"
+}

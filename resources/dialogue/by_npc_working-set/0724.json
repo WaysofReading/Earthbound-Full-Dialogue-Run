@@ -1,0 +1,60 @@
+{
+  "Sprite": 171,
+  "sprite_label": "mr-saturn",
+  "map_location_label": "Saturn Valley_Overworld_North",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C7EE7B",
+  "d1_flags": [
+    "1. goto C7EEB1 if MASTER_BELCH_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C7EEB1",
+    "Npc0724"
+  ],
+  "d1_text": "Npc0724:\r\n[SATURN_FONT][GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C7EEB1]\r\n\u00ef\u00bf\u00bdWhy?  Why?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou no[LINE_BREAK]\r\n  go to[LINE_BREAK]\r\n  hot springs...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdBoo boo's.[HALT][END]",
+  "d1_lines": [
+    "Npc0724:",
+    "[SATURN_FONT][GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C7EEB1]",
+    "\u00ef\u00bf\u00bdWhy?  Why?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou no[LINE_BREAK]",
+    "  go to[LINE_BREAK]",
+    "  hot springs...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdBoo boo's.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[SATURN_FONT][GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C7EEB1]:C7EEB1": {
+      "\u00ef\u00bf\u00bdAppreciate![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI so happy,[LINE_BREAK]": null,
+      "  happy,[LINE_BREAK]": null,
+      "  happy...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdZoom![HALT][NORMAL_FONT][END]": null
+    },
+    "\u00ef\u00bf\u00bdWhy?  Why?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou no[LINE_BREAK]": null,
+    "  go to[LINE_BREAK]": null,
+    "  hot springs...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdBoo boo's.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 504,
+  "y_pixel_abs": 7480,
+  "x_tile": 15,
+  "y_tile": 233,
+  "x_sector": 1,
+  "y_sector": 29,
+  "x_sector_offset": 248,
+  "y_sector_offset": 56,
+  "Event Flag": 71,
+  "flag_label": "MASTER_BELCH_DEFEATED",
+  "Show Sprite": "when event flag set",
+  "Direction": "right",
+  "Movement": 10,
+  "Text Pointer 1": "data_34.l_0xc7ee7b",
+  "Text Pointer 2": "$0"
+}

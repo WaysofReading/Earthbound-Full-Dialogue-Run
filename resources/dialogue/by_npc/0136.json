@@ -1,0 +1,63 @@
+{
+  "Sprite": 58,
+  "sprite_label": "woman_purse_green-dress",
+  "map_location_label": "Onett_Overworld_Central-South",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C65AE9",
+  "d1_flags": [
+    "1. goto C65B66 if VISITED_TWOSON is set",
+    "1. goto C65B93 if GIYGAS_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C65B66",
+    "C65B93",
+    "Npc0136"
+  ],
+  "d1_text": "Npc0136:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C65B93]\r\n[GOTO_IF_FLAG VISITED_TWOSON L_C65B66]\r\n\u00ef\u00bf\u00bdThis town is out of control.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThe wild boys are hanging out in the town[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdand the cops have really been cracking down on everyone.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm considering moving to Twoson,[PAUSE 15] a town in the south.[HALT][END]",
+  "d1_lines": [
+    "Npc0136:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C65B93]",
+    "[GOTO_IF_FLAG VISITED_TWOSON L_C65B66]",
+    "\u00ef\u00bf\u00bdThis town is out of control.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThe wild boys are hanging out in the town[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdand the cops have really been cracking down on everyone.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm considering moving to Twoson,[PAUSE 15] a town in the south.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C65B93]:C65B93": {
+      "\u00ef\u00bf\u00bdIn this town, you're famous.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI heard you asked a Twoson girl out on a date.[PAUSE 20]  What's her name?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou know, you have one of those baby faces that really attracts the girls,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdyou lucky boy.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG VISITED_TWOSON L_C65B66]:C65B66": {
+      "\u00ef\u00bf\u00bdThe wild punks have calmed down,[PAUSE 15] but I still don't feel very safe.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThis town is out of control.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThe wild boys are hanging out in the town[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdand the cops have really been cracking down on everyone.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm considering moving to Twoson,[PAUSE 15] a town in the south.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2464,
+  "y_pixel_abs": 1456,
+  "x_tile": 77,
+  "y_tile": 45,
+  "x_sector": 9,
+  "y_sector": 5,
+  "x_sector_offset": 160,
+  "y_sector_offset": 176,
+  "Event Flag": 375,
+  "flag_label": "PEOPLE_IN_ONETT",
+  "Show Sprite": "when event flag set",
+  "Direction": "left",
+  "Movement": 609,
+  "Text Pointer 1": "data_19.l_0xc65ae9",
+  "Text Pointer 2": "$0"
+}

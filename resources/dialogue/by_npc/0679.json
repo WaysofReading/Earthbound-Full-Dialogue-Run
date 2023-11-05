@@ -1,0 +1,66 @@
+{
+  "Sprite": 287,
+  "sprite_label": "monster_duck",
+  "map_location_label": "Winters_Brickroad Dungeon_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "EF9384",
+  "d1_flags": [
+    "1. goto C7C588 if BRICK_ROAD_DUNGEON_DUCK_2_DEFEATED is set",
+    "3. set BRICK_ROAD_DUNGEON_DUCK_2_DEFEATED"
+  ],
+  "d1_addresses": [
+    "C77EFF",
+    "C7C588",
+    "Npc0463",
+    "Npc0679"
+  ],
+  "d1_text": "Npc0679:\r\n[GOTO_IF_FLAG BRICK_ROAD_DUNGEON_DUCK_2_DEFEATED L_C7C588]\r\n[CLOSE_ALL_TBOXES]\r\n[START_BATTLE 445]\r\n[GOTO_IF_TRUE L_C77EFF]\r\n[SET_FLAG BRICK_ROAD_DUNGEON_DUCK_2_DEFEATED]\r\n[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 679 635]\r\n[END]",
+  "d1_lines": [
+    "Npc0679:",
+    "[GOTO_IF_FLAG BRICK_ROAD_DUNGEON_DUCK_2_DEFEATED L_C7C588]",
+    "[CLOSE_ALL_TBOXES]",
+    "[START_BATTLE 445]",
+    "[GOTO_IF_TRUE L_C77EFF]",
+    "[SET_FLAG BRICK_ROAD_DUNGEON_DUCK_2_DEFEATED]",
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 679 635]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG BRICK_ROAD_DUNGEON_DUCK_2_DEFEATED L_C7C588]:C7C588": {
+      "[GOTO_IF_FLAG ALT_NO_TALK_TEXT Npc0463]:Npc0463": {
+        "\u00ef\u00bf\u00bd(There's no response.)[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdWho are you talking to?[HALT][END]": null
+    },
+    "[CLOSE_ALL_TBOXES]": null,
+    "[START_BATTLE 445]": null,
+    "[GOTO_IF_TRUE L_C77EFF]:C77EFF": {
+      "[END]": null
+    },
+    "[SET_FLAG BRICK_ROAD_DUNGEON_DUCK_2_DEFEATED]": null,
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 679 635]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1488,
+  "y_pixel_abs": 3616,
+  "x_tile": 46,
+  "y_tile": 113,
+  "x_sector": 5,
+  "y_sector": 14,
+  "x_sector_offset": 208,
+  "y_sector_offset": 32,
+  "Event Flag": 417,
+  "flag_label": "BRICK_ROAD_DUNGEON_DUCK_2_DEFEATED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 598,
+  "Text Pointer 1": "data_60.l_0xef9384",
+  "Text Pointer 2": "$0"
+}

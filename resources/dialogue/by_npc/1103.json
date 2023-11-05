@@ -1,0 +1,67 @@
+{
+  "Sprite": 98,
+  "sprite_label": "star-master",
+  "map_location_label": "Dalaam_Overworld_South",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C929AE",
+  "d1_flags": [
+    "3. set STAR_MASTER_NEXT_TO_MU"
+  ],
+  "d1_addresses": [
+    "C9D523",
+    "Npc1103"
+  ],
+  "d1_text": "Npc1103:\r\n[OPEN_TBOX 1]\r\n[GOSUB L_C9D523]\r\n[CLOSE_ALL_TBOXES]\r\n[DELETE_NPC 1103 6]\r\n[PLAY_SFX 99]\r\n[CREATE_OBJ 169 667 6]\r\n[WAIT_MOVEMENT]\r\n[END]",
+  "d1_lines": [
+    "Npc1103:",
+    "[OPEN_TBOX 1]",
+    "[GOSUB L_C9D523]",
+    "[CLOSE_ALL_TBOXES]",
+    "[DELETE_NPC 1103 6]",
+    "[PLAY_SFX 99]",
+    "[CREATE_OBJ 169 667 6]",
+    "[WAIT_MOVEMENT]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[OPEN_TBOX 1]": null,
+    "[GOSUB L_C9D523]:C9D523": {
+      "\u00ef\u00bf\u00bdYou have nice eyes.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...You must be Prince [PRINT_NAME POO].[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdLong ago, I completed Mu Training.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI want to show you a higher level of intelligence...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHowever, I'm still realizing and learning this high level...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'll see you again.  So long![HALT][PLAY_SFX 40]": null,
+      "[SET_FLAG STAR_MASTER_NEXT_TO_MU]": null,
+      "[END]": null
+    },
+    "[CLOSE_ALL_TBOXES]": null,
+    "[DELETE_NPC 1103 6]": null,
+    "[PLAY_SFX 99]": null,
+    "[CREATE_OBJ 169 667 6]": null,
+    "[WAIT_MOVEMENT]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4968,
+  "y_pixel_abs": 4128,
+  "x_tile": 155,
+  "y_tile": 129,
+  "x_sector": 19,
+  "y_sector": 16,
+  "x_sector_offset": 104,
+  "y_sector_offset": 32,
+  "Event Flag": 595,
+  "flag_label": "STAR_MASTER_NEXT_TO_MU",
+  "Show Sprite": "when event flag unset",
+  "Direction": "left",
+  "Movement": 10,
+  "Text Pointer 1": "data_46.l_0xc929ae",
+  "Text Pointer 2": "$0"
+}

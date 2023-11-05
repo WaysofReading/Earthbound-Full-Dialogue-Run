@@ -1,0 +1,82 @@
+{
+  "Sprite": 64,
+  "sprite_label": "man_glasses_orange-cardigan",
+  "map_location_label": "Winters_Drug Store_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6AD68",
+  "d1_flags": [
+    "1. goto C5DEFC if BOUGHT_OR_SOLD_AT_SHOP is set",
+    "3. set SHOP_WINTERS_DRUGSTORE",
+    "4. clear BOUGHT_OR_SOLD_AT_SHOP",
+    "4. clear SHOP_WINTERS_DRUGSTORE"
+  ],
+  "d1_addresses": [
+    "C50000",
+    "C50198",
+    "C50330",
+    "C5D34D",
+    "C5DECB",
+    "C5DED3",
+    "C5DEEF",
+    "C5DEFC",
+    "C5DF05",
+    "C5DF3A",
+    "Npc0606"
+  ],
+  "d1_text": "Npc0606:\r\n[GOSUB L_C5D34D]\r\n[END]",
+  "d1_lines": [
+    "Npc0606:",
+    "[GOSUB L_C5D34D]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C5D34D]:C5D34D": {
+      "[SET_FLAG SHOP_WINTERS_DRUGSTORE]": null,
+      "[GOSUB L_C5DECB]:C5DECB": {
+        "[CLR_FLAG BOUGHT_OR_SOLD_AT_SHOP]": null,
+        "[GOSUB L_C50000]:C50000": "Shop Case/Switch - Intro",
+        "; $C5DED3": null,
+        "[LOAD_STRING \"Buy\"]": null,
+        "[LOAD_STRING \"Sell\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C5DF05 L_C5DF3A]:C5DF05": "Shop Case/Switch - Buy Menu",
+        "[MULTI_GOTO L_C5DF05 L_C5DF3A]:C5DF3A": "Shop Case/Switch - Sell Menu",
+        "; $C5DEEF": null,
+        "[GOTO_IF_FLAG BOUGHT_OR_SOLD_AT_SHOP L_C5DEFC]:C5DEFC": {
+          "[GOSUB L_C50198]:C50198": "Shop Case/Switch - Goodbye (Buy or sell)",
+          "[CLR_FLAG BOUGHT_OR_SOLD_AT_SHOP]": null,
+          "[END]": null
+        },
+        "[GOSUB L_C50330]:C50330": "Shop Case/Switch - Goodbye (~Buy or sell)",
+        "[END]": null
+      },
+      "[CLR_FLAG SHOP_WINTERS_DRUGSTORE]": null,
+      "[END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7584,
+  "y_pixel_abs": 2504,
+  "x_tile": 237,
+  "y_tile": 78,
+  "x_sector": 29,
+  "y_sector": 9,
+  "x_sector_offset": 160,
+  "y_sector_offset": 200,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_23.l_0xc6ad68",
+  "Text Pointer 2": "$0"
+}

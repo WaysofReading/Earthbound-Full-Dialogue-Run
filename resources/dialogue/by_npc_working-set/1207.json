@@ -1,0 +1,310 @@
+{
+  "Sprite": 429,
+  "sprite_label": "rejuvenator",
+  "map_location_label": "Scaraba_Dungeon Man_1F",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "C6CDCD",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C915F4",
+    "C915F6",
+    "C91625",
+    "C9162B",
+    "Npc0622"
+  ],
+  "d1_text": "Npc0622:\r\n\u00ef\u00bf\u00bdInstant Revitalizing Device[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(In only a few seconds, this machine fully revitalizes you,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdjust like a good night's sleep.)[WAIT][GOSUB L_C915F4]\r\n[PLAY_MUSIC 12]\r\n[PAUSE 200][RESTORE_MUSIC]\r\n[END]",
+  "d1_lines": [
+    "Npc0622:",
+    "\u00ef\u00bf\u00bdInstant Revitalizing Device[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(In only a few seconds, this machine fully revitalizes you,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdjust like a good night's sleep.)[WAIT][GOSUB L_C915F4]",
+    "[PLAY_MUSIC 12]",
+    "[PAUSE 200][RESTORE_MUSIC]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdInstant Revitalizing Device[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(In only a few seconds, this machine fully revitalizes you,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdjust like a good night's sleep.)[WAIT][GOSUB L_C915F4]:C915F4": {
+      "[SET_COUNTER 1]": null,
+      "; $C915F6": null,
+      "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+      "[BACKUP_REGS_LOCAL]": null,
+      "[CHECK_EQUAL 5][GOTO_IF_TRUE L_C9162B]:C9162B": {
+        "[END]": null
+      },
+      "[RESTORE_REGS_LOCAL]": null,
+      "[SET_STATUS REG_RESULT PERSISTENT NONE]": null,
+      "[GOTO_IF_FALSE L_C91625]:C91625": {
+        "[INC_COUNTER]": null,
+        "[GOTO L_C915F6]:C915F6": {
+          "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+          "[BACKUP_REGS_LOCAL]": null,
+          "[CHECK_EQUAL 5][GOTO_IF_TRUE L_C9162B]:C9162B": {
+            "[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SET_STATUS REG_RESULT PERSISTENT NONE]": null,
+          "[GOTO_IF_FALSE L_C91625]:C91625": {
+            "[INC_COUNTER]": null,
+            "[GOTO L_C915F6]:C915F6": {
+              "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[CHECK_EQUAL 5][GOTO_IF_TRUE L_C9162B]:C9162B": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SET_STATUS REG_RESULT PERSISTENT NONE]": null,
+              "[GOTO_IF_FALSE L_C91625]:C91625": {},
+              "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+              "[SET_STATUS REG_RESULT HOMESICKNESS NOT_HOMESICK]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[RECOVER_HP_PERCENT REG_ARGUMENT 100]": null,
+              "[RESTORE_PP_PERCENT REG_ARGUMENT 100]": null,
+              "; $C91625": null,
+              "[INC_COUNTER]": null,
+              "[GOTO L_C915F6]:C915F6": {},
+              "; $C9162B": null,
+              "[END]": null
+            },
+            "; $C9162B": null,
+            "[END]": null
+          },
+          "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+          "[SET_STATUS REG_RESULT HOMESICKNESS NOT_HOMESICK]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[RECOVER_HP_PERCENT REG_ARGUMENT 100]": null,
+          "[RESTORE_PP_PERCENT REG_ARGUMENT 100]": null,
+          "; $C91625": null,
+          "[INC_COUNTER]": null,
+          "[GOTO L_C915F6]:C915F6": {
+            "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+            "[BACKUP_REGS_LOCAL]": null,
+            "[CHECK_EQUAL 5][GOTO_IF_TRUE L_C9162B]:C9162B": {
+              "[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SET_STATUS REG_RESULT PERSISTENT NONE]": null,
+            "[GOTO_IF_FALSE L_C91625]:C91625": {
+              "[INC_COUNTER]": null,
+              "[GOTO L_C915F6]:C915F6": {},
+              "; $C9162B": null,
+              "[END]": null
+            },
+            "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+            "[SET_STATUS REG_RESULT HOMESICKNESS NOT_HOMESICK]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[RECOVER_HP_PERCENT REG_ARGUMENT 100]": null,
+            "[RESTORE_PP_PERCENT REG_ARGUMENT 100]": null,
+            "; $C91625": null,
+            "[INC_COUNTER]": null,
+            "[GOTO L_C915F6]:C915F6": {
+              "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[CHECK_EQUAL 5][GOTO_IF_TRUE L_C9162B]:C9162B": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SET_STATUS REG_RESULT PERSISTENT NONE]": null,
+              "[GOTO_IF_FALSE L_C91625]:C91625": {},
+              "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+              "[SET_STATUS REG_RESULT HOMESICKNESS NOT_HOMESICK]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[RECOVER_HP_PERCENT REG_ARGUMENT 100]": null,
+              "[RESTORE_PP_PERCENT REG_ARGUMENT 100]": null,
+              "; $C91625": null,
+              "[INC_COUNTER]": null,
+              "[GOTO L_C915F6]:C915F6": {},
+              "; $C9162B": null,
+              "[END]": null
+            },
+            "; $C9162B": null,
+            "[END]": null
+          },
+          "; $C9162B": null,
+          "[END]": null
+        },
+        "; $C9162B": null,
+        "[END]": null
+      },
+      "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+      "[SET_STATUS REG_RESULT HOMESICKNESS NOT_HOMESICK]": null,
+      "[SWAP_ARG_RESULT]": null,
+      "[RECOVER_HP_PERCENT REG_ARGUMENT 100]": null,
+      "[RESTORE_PP_PERCENT REG_ARGUMENT 100]": null,
+      "; $C91625": null,
+      "[INC_COUNTER]": null,
+      "[GOTO L_C915F6]:C915F6": {
+        "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+        "[BACKUP_REGS_LOCAL]": null,
+        "[CHECK_EQUAL 5][GOTO_IF_TRUE L_C9162B]:C9162B": {
+          "[END]": null
+        },
+        "[RESTORE_REGS_LOCAL]": null,
+        "[SET_STATUS REG_RESULT PERSISTENT NONE]": null,
+        "[GOTO_IF_FALSE L_C91625]:C91625": {
+          "[INC_COUNTER]": null,
+          "[GOTO L_C915F6]:C915F6": {
+            "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+            "[BACKUP_REGS_LOCAL]": null,
+            "[CHECK_EQUAL 5][GOTO_IF_TRUE L_C9162B]:C9162B": {
+              "[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SET_STATUS REG_RESULT PERSISTENT NONE]": null,
+            "[GOTO_IF_FALSE L_C91625]:C91625": {
+              "[INC_COUNTER]": null,
+              "[GOTO L_C915F6]:C915F6": {},
+              "; $C9162B": null,
+              "[END]": null
+            },
+            "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+            "[SET_STATUS REG_RESULT HOMESICKNESS NOT_HOMESICK]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[RECOVER_HP_PERCENT REG_ARGUMENT 100]": null,
+            "[RESTORE_PP_PERCENT REG_ARGUMENT 100]": null,
+            "; $C91625": null,
+            "[INC_COUNTER]": null,
+            "[GOTO L_C915F6]:C915F6": {
+              "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[CHECK_EQUAL 5][GOTO_IF_TRUE L_C9162B]:C9162B": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SET_STATUS REG_RESULT PERSISTENT NONE]": null,
+              "[GOTO_IF_FALSE L_C91625]:C91625": {},
+              "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+              "[SET_STATUS REG_RESULT HOMESICKNESS NOT_HOMESICK]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[RECOVER_HP_PERCENT REG_ARGUMENT 100]": null,
+              "[RESTORE_PP_PERCENT REG_ARGUMENT 100]": null,
+              "; $C91625": null,
+              "[INC_COUNTER]": null,
+              "[GOTO L_C915F6]:C915F6": {},
+              "; $C9162B": null,
+              "[END]": null
+            },
+            "; $C9162B": null,
+            "[END]": null
+          },
+          "; $C9162B": null,
+          "[END]": null
+        },
+        "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+        "[SET_STATUS REG_RESULT HOMESICKNESS NOT_HOMESICK]": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[RECOVER_HP_PERCENT REG_ARGUMENT 100]": null,
+        "[RESTORE_PP_PERCENT REG_ARGUMENT 100]": null,
+        "; $C91625": null,
+        "[INC_COUNTER]": null,
+        "[GOTO L_C915F6]:C915F6": {
+          "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+          "[BACKUP_REGS_LOCAL]": null,
+          "[CHECK_EQUAL 5][GOTO_IF_TRUE L_C9162B]:C9162B": {
+            "[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SET_STATUS REG_RESULT PERSISTENT NONE]": null,
+          "[GOTO_IF_FALSE L_C91625]:C91625": {
+            "[INC_COUNTER]": null,
+            "[GOTO L_C915F6]:C915F6": {
+              "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[CHECK_EQUAL 5][GOTO_IF_TRUE L_C9162B]:C9162B": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SET_STATUS REG_RESULT PERSISTENT NONE]": null,
+              "[GOTO_IF_FALSE L_C91625]:C91625": {},
+              "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+              "[SET_STATUS REG_RESULT HOMESICKNESS NOT_HOMESICK]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[RECOVER_HP_PERCENT REG_ARGUMENT 100]": null,
+              "[RESTORE_PP_PERCENT REG_ARGUMENT 100]": null,
+              "; $C91625": null,
+              "[INC_COUNTER]": null,
+              "[GOTO L_C915F6]:C915F6": {},
+              "; $C9162B": null,
+              "[END]": null
+            },
+            "; $C9162B": null,
+            "[END]": null
+          },
+          "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+          "[SET_STATUS REG_RESULT HOMESICKNESS NOT_HOMESICK]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[RECOVER_HP_PERCENT REG_ARGUMENT 100]": null,
+          "[RESTORE_PP_PERCENT REG_ARGUMENT 100]": null,
+          "; $C91625": null,
+          "[INC_COUNTER]": null,
+          "[GOTO L_C915F6]:C915F6": {
+            "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+            "[BACKUP_REGS_LOCAL]": null,
+            "[CHECK_EQUAL 5][GOTO_IF_TRUE L_C9162B]:C9162B": {
+              "[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SET_STATUS REG_RESULT PERSISTENT NONE]": null,
+            "[GOTO_IF_FALSE L_C91625]:C91625": {
+              "[INC_COUNTER]": null,
+              "[GOTO L_C915F6]:C915F6": {},
+              "; $C9162B": null,
+              "[END]": null
+            },
+            "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+            "[SET_STATUS REG_RESULT HOMESICKNESS NOT_HOMESICK]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[RECOVER_HP_PERCENT REG_ARGUMENT 100]": null,
+            "[RESTORE_PP_PERCENT REG_ARGUMENT 100]": null,
+            "; $C91625": null,
+            "[INC_COUNTER]": null,
+            "[GOTO L_C915F6]:C915F6": {
+              "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[CHECK_EQUAL 5][GOTO_IF_TRUE L_C9162B]:C9162B": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SET_STATUS REG_RESULT PERSISTENT NONE]": null,
+              "[GOTO_IF_FALSE L_C91625]:C91625": {},
+              "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+              "[SET_STATUS REG_RESULT HOMESICKNESS NOT_HOMESICK]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[RECOVER_HP_PERCENT REG_ARGUMENT 100]": null,
+              "[RESTORE_PP_PERCENT REG_ARGUMENT 100]": null,
+              "; $C91625": null,
+              "[INC_COUNTER]": null,
+              "[GOTO L_C915F6]:C915F6": {},
+              "; $C9162B": null,
+              "[END]": null
+            },
+            "; $C9162B": null,
+            "[END]": null
+          },
+          "; $C9162B": null,
+          "[END]": null
+        },
+        "; $C9162B": null,
+        "[END]": null
+      },
+      "; $C9162B": null,
+      "[END]": null
+    },
+    "[PLAY_MUSIC 12]": null,
+    "[PAUSE 200][RESTORE_MUSIC]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4208,
+  "y_pixel_abs": 88,
+  "x_tile": 131,
+  "y_tile": 2,
+  "x_sector": 16,
+  "y_sector": 0,
+  "x_sector_offset": 112,
+  "y_sector_offset": 88,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_24.l_0xc6cdcd",
+  "Text Pointer 2": "$0"
+}

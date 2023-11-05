@@ -1,0 +1,234 @@
+{
+  "Sprite": 121,
+  "sprite_label": "girl_black-hair_red-jumper",
+  "map_location_label": "Peaceful Rest Valley_Overworld_All",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "EF981C",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C7DD4B",
+    "C7DD4D",
+    "C7DD4F",
+    "C900F9",
+    "C90165",
+    "C9017F",
+    "C901A8",
+    "C91A91",
+    "C91A95",
+    "C91ABA",
+    "C91ABB",
+    "C91B6F",
+    "C91B71",
+    "C91BA6",
+    "C91BAC",
+    "Npc0444"
+  ],
+  "d1_text": "Npc0444:\r\n[GOSUB L_C900F9]\r\n[END]",
+  "d1_lines": [
+    "Npc0444:",
+    "[GOSUB L_C900F9]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C900F9]:C900F9": {
+      "\u00ef\u00bf\u00bdHumm dee dum dum dum.[LINE_BREAK]": null,
+      "  I'm hunting for mushrooms![WAIT][LINE_BREAK]": null,
+      "[GOSUB L_C91A91]:C91A91": {
+        "[GET_PARTY_COUNT][SET_COUNTER 1]": null,
+        "; $C91A95": null,
+        "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C91ABB]:C91ABB": {
+          "[CHECK_EQUAL 0][END]": null
+        },
+        "[GET_PARTY_MEMBER 0][GOTO_IF_FALSE L_C91ABA]:C91ABA": {
+          "[END]": null
+        },
+        "[CHECK_STATUS REG_RESULT PERSISTENT_SPECIAL MUSHROOM][GOTO_IF_TRUE L_C91ABA]:C91ABA": {
+          "[END]": null
+        },
+        "[INC_COUNTER]": null,
+        "[GOTO L_C91A95]:C91A95": {
+          "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C91ABB]:C91ABB": {
+            "[CHECK_EQUAL 0][END]": null
+          },
+          "[GET_PARTY_MEMBER 0][GOTO_IF_FALSE L_C91ABA]:C91ABA": {
+            "[END]": null
+          },
+          "[CHECK_STATUS REG_RESULT PERSISTENT_SPECIAL MUSHROOM][GOTO_IF_TRUE L_C91ABA]:C91ABA": {
+            "[END]": null
+          },
+          "[INC_COUNTER]": null,
+          "[GOTO L_C91A95]:C91A95": {
+            "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C91ABB]:C91ABB": {
+              "[CHECK_EQUAL 0][END]": null
+            },
+            "[GET_PARTY_MEMBER 0][GOTO_IF_FALSE L_C91ABA]:C91ABA": {
+              "[END]": null
+            },
+            "[CHECK_STATUS REG_RESULT PERSISTENT_SPECIAL MUSHROOM][GOTO_IF_TRUE L_C91ABA]:C91ABA": {
+              "[END]": null
+            },
+            "[INC_COUNTER]": null,
+            "[GOTO L_C91A95]:C91A95": {
+              "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C91ABB]:C91ABB": {},
+              "[GET_PARTY_MEMBER 0][GOTO_IF_FALSE L_C91ABA]:C91ABA": {},
+              "[CHECK_STATUS REG_RESULT PERSISTENT_SPECIAL MUSHROOM][GOTO_IF_TRUE L_C91ABA]:C91ABA": {},
+              "[INC_COUNTER]": null,
+              "[GOTO L_C91A95]:C91A95": {},
+              "; $C91ABA": null,
+              "[END]": null
+            },
+            "; $C91ABA": null,
+            "[END]": null
+          },
+          "; $C91ABA": null,
+          "[END]": null
+        },
+        "; $C91ABA": null,
+        "[END]": null
+      },
+      "[GOTO_IF_FALSE L_C901A8]:C901A8": {
+        "\u00ef\u00bf\u00bdI'm going to collect a ton![HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdHey!  Would you be willing to sell that mushroom on your head for $50?[WAIT][LINE_BREAK]": null,
+      "[GOSUB L_C7DD4B]:C7DD4B": {
+        "[OPEN_HP_PP]": null,
+        "; $C7DD4D": null,
+        "[SHOW_WALLET]": null,
+        "; $C7DD4F": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        "[LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[END]": null
+      },
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C9017F L_C90165]:C9017F": {
+        "[GOSUB L_C91B6F]:C91B6F": {
+          "[SET_COUNTER 1]": null,
+          "; $C91B71": null,
+          "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C91BAC]:C91BAC": {
+            "[START_LINE]": null,
+            "[END]": null
+          },
+          "[GET_PARTY_MEMBER 0][BACKUP_REGS_LOCAL]": null,
+          "[GOTO_IF_FALSE L_C91BAC]:C91BAC": {
+            "[START_LINE]": null,
+            "[END]": null
+          },
+          "[CHECK_STATUS REG_RESULT PERSISTENT_SPECIAL MUSHROOM][GOTO_IF_FALSE L_C91BA6]:C91BA6": {
+            "[INC_COUNTER]": null,
+            "[GOTO L_C91B71]:C91B71": {
+              "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C91BAC]:C91BAC": {},
+              "[GET_PARTY_MEMBER 0][BACKUP_REGS_LOCAL]": null,
+              "[GOTO_IF_FALSE L_C91BAC]:C91BAC": {},
+              "[CHECK_STATUS REG_RESULT PERSISTENT_SPECIAL MUSHROOM][GOTO_IF_FALSE L_C91BA6]:C91BA6": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+              "[RESULT_TO_ARG][ADD_MONEY 50]": null,
+              "[SHOW_WALLET]": null,
+              "[PLAY_SFX 37]": null,
+              "[PAUSE 30]; $C91BA6": null,
+              "[INC_COUNTER]": null,
+              "[GOTO L_C91B71]:C91B71": {},
+              "; $C91BAC": null,
+              "[START_LINE]": null,
+              "[END]": null
+            },
+            "; $C91BAC": null,
+            "[START_LINE]": null,
+            "[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+          "[RESULT_TO_ARG][ADD_MONEY 50]": null,
+          "[SHOW_WALLET]": null,
+          "[PLAY_SFX 37]": null,
+          "[PAUSE 30]; $C91BA6": null,
+          "[INC_COUNTER]": null,
+          "[GOTO L_C91B71]:C91B71": {
+            "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C91BAC]:C91BAC": {
+              "[START_LINE]": null,
+              "[END]": null
+            },
+            "[GET_PARTY_MEMBER 0][BACKUP_REGS_LOCAL]": null,
+            "[GOTO_IF_FALSE L_C91BAC]:C91BAC": {
+              "[START_LINE]": null,
+              "[END]": null
+            },
+            "[CHECK_STATUS REG_RESULT PERSISTENT_SPECIAL MUSHROOM][GOTO_IF_FALSE L_C91BA6]:C91BA6": {
+              "[INC_COUNTER]": null,
+              "[GOTO L_C91B71]:C91B71": {},
+              "; $C91BAC": null,
+              "[START_LINE]": null,
+              "[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+            "[RESULT_TO_ARG][ADD_MONEY 50]": null,
+            "[SHOW_WALLET]": null,
+            "[PLAY_SFX 37]": null,
+            "[PAUSE 30]; $C91BA6": null,
+            "[INC_COUNTER]": null,
+            "[GOTO L_C91B71]:C91B71": {
+              "[COUNTER_TO_ARG][CHECK_PARTY_COUNT 0][GOTO_IF_TRUE L_C91BAC]:C91BAC": {},
+              "[GET_PARTY_MEMBER 0][BACKUP_REGS_LOCAL]": null,
+              "[GOTO_IF_FALSE L_C91BAC]:C91BAC": {},
+              "[CHECK_STATUS REG_RESULT PERSISTENT_SPECIAL MUSHROOM][GOTO_IF_FALSE L_C91BA6]:C91BA6": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SET_STATUS REG_RESULT PERSISTENT_SPECIAL NONE]": null,
+              "[RESULT_TO_ARG][ADD_MONEY 50]": null,
+              "[SHOW_WALLET]": null,
+              "[PLAY_SFX 37]": null,
+              "[PAUSE 30]; $C91BA6": null,
+              "[INC_COUNTER]": null,
+              "[GOTO L_C91B71]:C91B71": {},
+              "; $C91BAC": null,
+              "[START_LINE]": null,
+              "[END]": null
+            },
+            "; $C91BAC": null,
+            "[START_LINE]": null,
+            "[END]": null
+          },
+          "; $C91BAC": null,
+          "[START_LINE]": null,
+          "[END]": null
+        },
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bdThank you.[LINE_BREAK]": null,
+        "  Such a great mushroom.[LINE_BREAK]": null,
+        "  I'm so happy I got it.[HALT][END]": null
+      },
+      "[MULTI_GOTO L_C9017F L_C90165]:C90165": {
+        "\u00ef\u00bf\u00bdOhhh...[LINE_BREAK]": null,
+        "  It's your special mushroom.[HALT][END]": null
+      },
+      "; $C90165": null,
+      "\u00ef\u00bf\u00bdOhhh...[LINE_BREAK]": null,
+      "  It's your special mushroom.[HALT][END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4240,
+  "y_pixel_abs": 2304,
+  "x_tile": 132,
+  "y_tile": 72,
+  "x_sector": 16,
+  "y_sector": 9,
+  "x_sector_offset": 144,
+  "y_sector_offset": 0,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_60.l_0xef981c",
+  "Text Pointer 2": "$0"
+}

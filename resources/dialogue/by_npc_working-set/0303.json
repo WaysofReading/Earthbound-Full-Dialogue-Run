@@ -1,0 +1,84 @@
+{
+  "Sprite": 68,
+  "sprite_label": "woman_blonde_red-dress",
+  "map_location_label": "Twoson_Overworld_Northwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C93853",
+  "d1_flags": [
+    "1. goto C939B9 if GIYGAS_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C93891",
+    "C938A6",
+    "C939B9",
+    "Npc0303"
+  ],
+  "d1_text": "Npc0303:\r\n\u00ef\u00bf\u00bdWelcome![WAIT][LINE_BREAK]\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C939B9]\r\n\u00ef\u00bf\u00bdWould you like me to tell you about Twoson?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n [LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C938A6 L_C93891]\r\n; $C93891\r\nL_C93891:\r\n\u00ef\u00bf\u00bdIt's too much trouble for me too.[HALT][END]",
+  "d1_lines": [
+    "Npc0303:",
+    "\u00ef\u00bf\u00bdWelcome![WAIT][LINE_BREAK]",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C939B9]",
+    "\u00ef\u00bf\u00bdWould you like me to tell you about Twoson?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    " [LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C938A6 L_C93891]",
+    "; $C93891",
+    "L_C93891:",
+    "\u00ef\u00bf\u00bdIt's too much trouble for me too.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdWelcome![WAIT][LINE_BREAK]": null,
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C939B9]:C939B9": {
+      "\u00ef\u00bf\u00bdI've been giving out info about Twoson for years now.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'll quit this job and I'll, tee hee,[PAUSE 15] get married.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdWould you like me to tell you about Twoson?[LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    " [LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C938A6 L_C93891]:C938A6": {
+      "\u00ef\u00bf\u00bdTwoson has a modern, clean hotel.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThere is a hospital and the wonderful Chaos Theater.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThere is the Polestar preschool,[PAUSE 15] and a nice bus station.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIf you're curious,[PAUSE 15] you might want to check out Burglin Park.[PAUSE 20]  It's exciting.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdEast of the town,[PAUSE 15] you find the Peaceful Rest Valley.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdOn the other side of the valley is Happy-Happy Village.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThere's also a pizza parlor.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDo you want to know anything else?[WAIT][LINE_BREAK]": null,
+      "[PAUSE 60][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWell, tee hee,[PAUSE 15] I don't know anything else.[HALT][END]": null
+    },
+    "[MULTI_GOTO L_C938A6 L_C93891]:C93891": {
+      "\u00ef\u00bf\u00bdIt's too much trouble for me too.[HALT][END]": null
+    },
+    "; $C93891": null,
+    "\u00ef\u00bf\u00bdIt's too much trouble for me too.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1248,
+  "y_pixel_abs": 6440,
+  "x_tile": 39,
+  "y_tile": 201,
+  "x_sector": 4,
+  "y_sector": 25,
+  "x_sector_offset": 224,
+  "y_sector_offset": 40,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_46.l_0xc93853",
+  "Text Pointer 2": "$0"
+}

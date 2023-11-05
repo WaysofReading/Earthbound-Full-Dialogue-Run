@@ -1,0 +1,53 @@
+{
+  "Sprite": 120,
+  "sprite_label": "girl_blonde_pink-dress",
+  "map_location_label": "Onett_Library_1F_Left-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C69D8E",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0102"
+  ],
+  "d1_text": "Npc0102:\r\n\u00ef\u00bf\u00bdI read the book called \u00ef\u00bf\u00bdOur Society is Convenient.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt said that these days, there are always telephones in hotels and drugstores.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI also learned that to use a green pay phone costs a dollar,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdwhile the black phones are free.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIf you weren't aware of this,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdall your money could get eaten up by your phone calls.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm glad I read that book...[HALT][END]",
+  "d1_lines": [
+    "Npc0102:",
+    "\u00ef\u00bf\u00bdI read the book called \u00ef\u00bf\u00bdOur Society is Convenient.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt said that these days, there are always telephones in hotels and drugstores.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI also learned that to use a green pay phone costs a dollar,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdwhile the black phones are free.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIf you weren't aware of this,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdall your money could get eaten up by your phone calls.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm glad I read that book...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI read the book called \u00ef\u00bf\u00bdOur Society is Convenient.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt said that these days, there are always telephones in hotels and drugstores.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI also learned that to use a green pay phone costs a dollar,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdwhile the black phones are free.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIf you weren't aware of this,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdall your money could get eaten up by your phone calls.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm glad I read that book...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6960,
+  "y_pixel_abs": 1128,
+  "x_tile": 217,
+  "y_tile": 35,
+  "x_sector": 27,
+  "y_sector": 4,
+  "x_sector_offset": 48,
+  "y_sector_offset": 104,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_22.l_0xc69d8e",
+  "Text Pointer 2": "$0"
+}

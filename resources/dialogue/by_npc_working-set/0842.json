@@ -1,0 +1,147 @@
+{
+  "Sprite": 165,
+  "sprite_label": "venus",
+  "map_location_label": "Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6D6A1",
+  "d1_flags": [
+    "1. goto C6D707 if QUEST_TO_VENUS_AUTOGRAPH is set",
+    "1. goto C6D7B3 if GOT_SIGNED_BANANA is set",
+    "1. goto C6D822 if TEMP_10 is set",
+    "1. goto C6D852 if 680 is set",
+    "3. set 680",
+    "3. set GOT_SIGNED_BANANA",
+    "3. set TEMP_10"
+  ],
+  "d1_addresses": [
+    "C6D702",
+    "C6D707",
+    "C6D786",
+    "C6D7B3",
+    "C6D817",
+    "C6D822",
+    "C6D84B",
+    "C6D852",
+    "C7DC85",
+    "C7DCB6",
+    "C7DCDA",
+    "C7DD03",
+    "Npc0842"
+  ],
+  "d1_text": "Npc0842:\r\n[GOTO_IF_FLAG TEMP_10 L_C6D822]\r\n[GOTO_IF_FLAG GOT_SIGNED_BANANA L_C6D7B3]\r\n[GOTO_IF_FLAG QUEST_TO_VENUS_AUTOGRAPH L_C6D707]\r\n\u00ef\u00bf\u00bdOh, you're just a little kid.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm too busy right now to give you my autograph.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdMaybe next time, little [GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C6D702]\r\nman.[HALT][END]",
+  "d1_lines": [
+    "Npc0842:",
+    "[GOTO_IF_FLAG TEMP_10 L_C6D822]",
+    "[GOTO_IF_FLAG GOT_SIGNED_BANANA L_C6D7B3]",
+    "[GOTO_IF_FLAG QUEST_TO_VENUS_AUTOGRAPH L_C6D707]",
+    "\u00ef\u00bf\u00bdOh, you're just a little kid.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm too busy right now to give you my autograph.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdMaybe next time, little [GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C6D702]",
+    "man.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TEMP_10 L_C6D822]:C6D822": {
+      "\u00ef\u00bf\u00bdLooks like you aren't too busy.[PAUSE 20]  Make yourself at home for a while.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG GOT_SIGNED_BANANA L_C6D7B3]:C6D7B3": {
+      "[GOTO_IF_FLAG 680 L_C6D852]:C6D852": {
+        "\u00ef\u00bf\u00bd...Then, you should give me a big hand.[HALT][SET_FLAG 680]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bdOh, you again...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdLook, I'm busy right now.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'll give you an autograph next time.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdAre you here to see my show?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C6D84B L_C6D817]:C6D84B": {
+        "\u00ef\u00bf\u00bdOkay.[WAIT][LINE_BREAK]": null,
+        "; $C6D852": null,
+        "\u00ef\u00bf\u00bd...Then, you should give me a big hand.[HALT][SET_FLAG 680]": null,
+        "[END]": null
+      },
+      "[MULTI_GOTO L_C6D84B L_C6D817]:C6D817": {
+        "\u00ef\u00bf\u00bd...Oh, I see.[WAIT][LINE_BREAK]": null,
+        "; $C6D822": null,
+        "\u00ef\u00bf\u00bdLooks like you aren't too busy.[PAUSE 20]  Make yourself at home for a while.[HALT][END]": null
+      },
+      "; $C6D817": null,
+      "\u00ef\u00bf\u00bd...Oh, I see.[WAIT][LINE_BREAK]": null,
+      "; $C6D822": null,
+      "\u00ef\u00bf\u00bdLooks like you aren't too busy.[PAUSE 20]  Make yourself at home for a while.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG QUEST_TO_VENUS_AUTOGRAPH L_C6D707]:C6D707": {
+      "\u00ef\u00bf\u00bdOh, you want an autograph?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdOkay,[PAUSE 15] I'll give you my autograph on this banana peel...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd[PAUSE 20]Here you go.[WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C6D786]:C6D786": {
+        "\u00ef\u00bf\u00bdOh, uh huh...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI can't give you the banana 'cause you have too much stuff.[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT SIGNED_BANANA]": null,
+      "[GOSUB L_C7DCB6]:C7DCB6": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+        "[CLOSE_ALL_TBOXES]": null,
+        "[PLAY_SFX 102]": null,
+        "[PAUSE 100][OPEN_TBOX 1]": null,
+        "[RESTORE_REGS_GLOBAL]": null,
+        "[GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdOh, and this is a bonus...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdSmack![HALT][CLOSE_ALL_TBOXES]": null,
+      "[SET_FLAG GOT_SIGNED_BANANA]": null,
+      "[SET_FLAG TEMP_10]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdOh, you're just a little kid.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm too busy right now to give you my autograph.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdMaybe next time, little [GET_PARTY_MEMBER 1][CHECK_EQUAL 2][GOTO_IF_TRUE L_C6D702]:C6D702": {
+      "girl.[HALT][END]": null
+    },
+    "man.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5520,
+  "y_pixel_abs": 6728,
+  "x_tile": 172,
+  "y_tile": 210,
+  "x_sector": 21,
+  "y_sector": 26,
+  "x_sector_offset": 144,
+  "y_sector_offset": 72,
+  "Event Flag": 147,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "when event flag set",
+  "Direction": "up",
+  "Movement": 605,
+  "Text Pointer 1": "data_24.l_0xc6d6a1",
+  "Text Pointer 2": "$0"
+}

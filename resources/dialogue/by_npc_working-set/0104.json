@@ -1,0 +1,53 @@
+{
+  "Sprite": 112,
+  "sprite_label": "man_blonde_blue-oxford",
+  "map_location_label": "Onett_Library_1F_Left-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C69CB5",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0104"
+  ],
+  "d1_text": "Npc0104:\r\n\u00ef\u00bf\u00bdI recently read a book titled \u00ef\u00bf\u00bdOur Convenient Society.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt said that our modern society demands[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdthat there always be an ATM in hotels and drugstores.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdJust knowing that is convenient![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm glad I read the book...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI can't believe I didn't know this stuff.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'll check whether or not we have an ATM in our drugstore...[HALT][END]",
+  "d1_lines": [
+    "Npc0104:",
+    "\u00ef\u00bf\u00bdI recently read a book titled \u00ef\u00bf\u00bdOur Convenient Society.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt said that our modern society demands[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdthat there always be an ATM in hotels and drugstores.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdJust knowing that is convenient![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm glad I read the book...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI can't believe I didn't know this stuff.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'll check whether or not we have an ATM in our drugstore...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI recently read a book titled \u00ef\u00bf\u00bdOur Convenient Society.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt said that our modern society demands[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdthat there always be an ATM in hotels and drugstores.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdJust knowing that is convenient![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm glad I read the book...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI can't believe I didn't know this stuff.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'll check whether or not we have an ATM in our drugstore...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7024,
+  "y_pixel_abs": 1128,
+  "x_tile": 219,
+  "y_tile": 35,
+  "x_sector": 27,
+  "y_sector": 4,
+  "x_sector_offset": 112,
+  "y_sector_offset": 104,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_22.l_0xc69cb5",
+  "Text Pointer 2": "$0"
+}

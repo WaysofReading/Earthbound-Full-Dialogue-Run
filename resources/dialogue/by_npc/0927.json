@@ -1,0 +1,52 @@
+{
+  "Sprite": 57,
+  "sprite_label": "woman_purse_black-dress",
+  "map_location_label": "Fourside_Department Store_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C82A6F",
+  "d1_flags": [
+    "1. goto C82AA8 if FOURSIDE_DEPT_BLACKOUT_JUST_ENDED is set"
+  ],
+  "d1_addresses": [
+    "C82AA8",
+    "Npc0927"
+  ],
+  "d1_text": "Npc0927:\r\n[GOTO_IF_FLAG FOURSIDE_DEPT_BLACKOUT_JUST_ENDED L_C82AA8]\r\n\u00ef\u00bf\u00bdMumble, mumble, mumble... man,[PAUSE 15] I'm so busy.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDon't bother me, kid.[HALT][END]",
+  "d1_lines": [
+    "Npc0927:",
+    "[GOTO_IF_FLAG FOURSIDE_DEPT_BLACKOUT_JUST_ENDED L_C82AA8]",
+    "\u00ef\u00bf\u00bdMumble, mumble, mumble... man,[PAUSE 15] I'm so busy.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDon't bother me, kid.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG FOURSIDE_DEPT_BLACKOUT_JUST_ENDED L_C82AA8]:C82AA8": {
+      "\u00ef\u00bf\u00bdI want to get out of here,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdbecause they suddenly shut down the store and the power goes out.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThere are lots of strange things happening in this department store.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdMumble, mumble, mumble... man,[PAUSE 15] I'm so busy.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDon't bother me, kid.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5016,
+  "y_pixel_abs": 6440,
+  "x_tile": 156,
+  "y_tile": 201,
+  "x_sector": 19,
+  "y_sector": 25,
+  "x_sector_offset": 152,
+  "y_sector_offset": 40,
+  "Event Flag": 57,
+  "flag_label": "FOURSIDE_DEPT_BLACKOUT",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 13,
+  "Text Pointer 1": "data_36.l_0xc82a6f",
+  "Text Pointer 2": "$0"
+}

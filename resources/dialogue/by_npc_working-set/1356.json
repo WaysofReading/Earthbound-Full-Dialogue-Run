@@ -1,0 +1,66 @@
+{
+  "Sprite": 295,
+  "sprite_label": "monster_kraken",
+  "map_location_label": "Magicant_Sea of Eden_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "EF94A5",
+  "d1_flags": [
+    "1. goto C7C588 if SEA_OF_EDEN_KRAKEN_3_DEFEATED is set",
+    "3. set SEA_OF_EDEN_KRAKEN_3_DEFEATED"
+  ],
+  "d1_addresses": [
+    "C77EFF",
+    "C7C588",
+    "Npc0463",
+    "Npc1356"
+  ],
+  "d1_text": "Npc1356:\r\n[GOTO_IF_FLAG SEA_OF_EDEN_KRAKEN_3_DEFEATED L_C7C588]\r\n[CLOSE_ALL_TBOXES]\r\n[START_BATTLE 467]\r\n[GOTO_IF_TRUE L_C77EFF]\r\n[SET_FLAG SEA_OF_EDEN_KRAKEN_3_DEFEATED]\r\n[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 1356 635]\r\n[END]",
+  "d1_lines": [
+    "Npc1356:",
+    "[GOTO_IF_FLAG SEA_OF_EDEN_KRAKEN_3_DEFEATED L_C7C588]",
+    "[CLOSE_ALL_TBOXES]",
+    "[START_BATTLE 467]",
+    "[GOTO_IF_TRUE L_C77EFF]",
+    "[SET_FLAG SEA_OF_EDEN_KRAKEN_3_DEFEATED]",
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 1356 635]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG SEA_OF_EDEN_KRAKEN_3_DEFEATED L_C7C588]:C7C588": {
+      "[GOTO_IF_FLAG ALT_NO_TALK_TEXT Npc0463]:Npc0463": {
+        "\u00ef\u00bf\u00bd(There's no response.)[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdWho are you talking to?[HALT][END]": null
+    },
+    "[CLOSE_ALL_TBOXES]": null,
+    "[START_BATTLE 467]": null,
+    "[GOTO_IF_TRUE L_C77EFF]:C77EFF": {
+      "[END]": null
+    },
+    "[SET_FLAG SEA_OF_EDEN_KRAKEN_3_DEFEATED]": null,
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 1356 635]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 560,
+  "y_pixel_abs": 9176,
+  "x_tile": 17,
+  "y_tile": 286,
+  "x_sector": 2,
+  "y_sector": 35,
+  "x_sector_offset": 48,
+  "y_sector_offset": 216,
+  "Event Flag": 438,
+  "flag_label": "SEA_OF_EDEN_KRAKEN_3_DEFEATED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 602,
+  "Text Pointer 1": "data_60.l_0xef94a5",
+  "Text Pointer 2": "$0"
+}

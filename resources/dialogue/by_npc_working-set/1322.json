@@ -1,0 +1,45 @@
+{
+  "Sprite": 107,
+  "sprite_label": "rabbit-statue",
+  "map_location_label": "Magicant_Overworld_Southeast",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C773F4",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1322"
+  ],
+  "d1_text": "Npc1322:\r\n\u00ef\u00bf\u00bdThis is the realm of Magicant, which your mind created.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWhy don't you explore your mind.[PAUSE 20]  Take your time, [PRINT_NAME NESS].[HALT][SET_MAP_PAL 31 5 60]\r\n[END]",
+  "d1_lines": [
+    "Npc1322:",
+    "\u00ef\u00bf\u00bdThis is the realm of Magicant, which your mind created.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWhy don't you explore your mind.[PAUSE 20]  Take your time, [PRINT_NAME NESS].[HALT][SET_MAP_PAL 31 5 60]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdThis is the realm of Magicant, which your mind created.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWhy don't you explore your mind.[PAUSE 20]  Take your time, [PRINT_NAME NESS].[HALT][SET_MAP_PAL 31 5 60]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6016,
+  "y_pixel_abs": 4512,
+  "x_tile": 188,
+  "y_tile": 141,
+  "x_sector": 23,
+  "y_sector": 17,
+  "x_sector_offset": 128,
+  "y_sector_offset": 160,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "up",
+  "Movement": 12,
+  "Text Pointer 1": "data_29.l_0xc773f4",
+  "Text Pointer 2": "$0"
+}

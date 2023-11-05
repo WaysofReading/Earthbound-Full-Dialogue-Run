@@ -1,0 +1,47 @@
+{
+  "Sprite": 86,
+  "sprite_label": "man_redhead_swimwear",
+  "map_location_label": "Summers and Toto_Overworld_West",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8AFAD",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1051"
+  ],
+  "d1_text": "Npc1051:\r\n\u00ef\u00bf\u00bdWake up in the morning, fall in love.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdEat lunch, fall in love...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdAnd at night,[PAUSE 15] fall in love again...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThat's my dream life.[HALT][END]",
+  "d1_lines": [
+    "Npc1051:",
+    "\u00ef\u00bf\u00bdWake up in the morning, fall in love.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdEat lunch, fall in love...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdAnd at night,[PAUSE 15] fall in love again...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThat's my dream life.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdWake up in the morning, fall in love.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdEat lunch, fall in love...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdAnd at night,[PAUSE 15] fall in love again...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThat's my dream life.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5240,
+  "y_pixel_abs": 3176,
+  "x_tile": 163,
+  "y_tile": 99,
+  "x_sector": 20,
+  "y_sector": 12,
+  "x_sector_offset": 120,
+  "y_sector_offset": 104,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 13,
+  "Text Pointer 1": "data_41.l_0xc8afad",
+  "Text Pointer 2": "$0"
+}

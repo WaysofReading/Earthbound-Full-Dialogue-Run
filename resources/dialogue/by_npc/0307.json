@@ -1,0 +1,88 @@
+{
+  "Sprite": 53,
+  "sprite_label": "woman_cane_pink-dress",
+  "map_location_label": "Twoson_Overworld_Northwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C93B60",
+  "d1_flags": [
+    "1. goto C93BA4 if PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE is set",
+    "1. goto C93BA4 if PAULA_JOINS is set"
+  ],
+  "d1_addresses": [
+    "C7DC7F",
+    "C93BA4",
+    "C93BE3",
+    "C93C38",
+    "Npc0307"
+  ],
+  "d1_text": "Npc0307:\r\n[GOTO_IF_FLAG PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE L_C93BA4]\r\n[GOTO_IF_FLAG PAULA_JOINS L_C93BA4]\r\n\u00ef\u00bf\u00bdI see that you're young but have had some adventures.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI think that [PRINT_NAME PAULA] would be a good friend for you.[HALT][END]",
+  "d1_lines": [
+    "Npc0307:",
+    "[GOTO_IF_FLAG PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE L_C93BA4]",
+    "[GOTO_IF_FLAG PAULA_JOINS L_C93BA4]",
+    "\u00ef\u00bf\u00bdI see that you're young but have had some adventures.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI think that [PRINT_NAME PAULA] would be a good friend for you.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE L_C93BA4]:C93BA4": {
+      "[SET_COUNTER 1]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C93BE3]:C93BE3": {
+        "[SET_COUNTER 2]": null,
+        "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+        "[GOTO_IF_TRUE L_C93C38]:C93C38": {
+          "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bdMy grandson is playing a game called \u00ef\u00bf\u00bdEarthBound.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdHe's now talking to a plain,[PAUSE 15] old lady in Twoson.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI heard that the game has some messages that are just there for fun.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdJust as I thought,[PAUSE 15] you two make such a nice couple![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdWell, I think you're cute...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdBut I'm near-sighted, too...[HALT][END]": null
+      },
+      "[SET_COUNTER 2]": null,
+      "\u00ef\u00bf\u00bdJust as I thought,[PAUSE 15] you two make such a nice couple![HALT][END]": null
+    },
+    "[GOTO_IF_FLAG PAULA_JOINS L_C93BA4]:C93BA4": {
+      "[SET_COUNTER 1]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C93BE3]:C93BE3": {
+        "[SET_COUNTER 2]": null,
+        "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+        "[GOTO_IF_TRUE L_C93C38]:C93C38": {
+          "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bdMy grandson is playing a game called \u00ef\u00bf\u00bdEarthBound.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdHe's now talking to a plain,[PAUSE 15] old lady in Twoson.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI heard that the game has some messages that are just there for fun.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdJust as I thought,[PAUSE 15] you two make such a nice couple![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdWell, I think you're cute...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdBut I'm near-sighted, too...[HALT][END]": null
+      },
+      "[SET_COUNTER 2]": null,
+      "\u00ef\u00bf\u00bdJust as I thought,[PAUSE 15] you two make such a nice couple![HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI see that you're young but have had some adventures.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI think that [PRINT_NAME PAULA] would be a good friend for you.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1588,
+  "y_pixel_abs": 6610,
+  "x_tile": 49,
+  "y_tile": 206,
+  "x_sector": 6,
+  "y_sector": 25,
+  "x_sector_offset": 52,
+  "y_sector_offset": 210,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 16,
+  "Text Pointer 1": "data_46.l_0xc93b60",
+  "Text Pointer 2": "$0"
+}

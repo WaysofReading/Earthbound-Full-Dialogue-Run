@@ -1,0 +1,157 @@
+{
+  "Sprite": 56,
+  "sprite_label": "man_bald_black-suit",
+  "map_location_label": "Dusty Dunes Desert_Desert Gold Mine_Main-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C90C38",
+  "d1_flags": [
+    "1. goto C68C3F if PAULA_TELEPATHY_DREAM_1 is set",
+    "1. goto C68CC3 if PAULA_TELEPATHY_DREAM_2 is set",
+    "1. goto C68D5A if PAULA_TELEPATHY_DREAM_JEFF is set",
+    "1. goto C90D1E if JUST_RESTED is set",
+    "1. goto C90FB1 if ZOMBIE_PAPER_ON_TENT is set",
+    "3. set JUST_RESTED"
+  ],
+  "d1_addresses": [
+    "C685DA",
+    "C68C3F",
+    "C68CC3",
+    "C68D5A",
+    "C7DD4D",
+    "C7DD4F",
+    "C90C90",
+    "C90CB4",
+    "C90CE8",
+    "C90D1E",
+    "C90F61",
+    "C90F7D",
+    "C90F90",
+    "C90FB1",
+    "C91582",
+    "Npc1372"
+  ],
+  "d1_text": "Npc1372:\r\n[GOTO_IF_FLAG JUST_RESTED L_C90D1E]\r\n[STORE_ARG_MULT_PMEMBERS 75]\r\n[SWAP_ARG_RESULT]\r\n\u00ef\u00bf\u00bdThis is the Dark Moon Hotel.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdOne sleep period is $[PRINT_NUM 0].[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDo you want to sleep?[LINE_BREAK]\r\n[GOSUB L_C90F61]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C90C90 L_C90CB4]\r\n[GOTO L_C90CB4]\r\n; $C90C90\r\nL_C90C90:\r\n\u00ef\u00bf\u00bdYou're actually going to try to stay up...?  Hah hah hah![HALT][END]",
+  "d1_lines": [
+    "Npc1372:",
+    "[GOTO_IF_FLAG JUST_RESTED L_C90D1E]",
+    "[STORE_ARG_MULT_PMEMBERS 75]",
+    "[SWAP_ARG_RESULT]",
+    "\u00ef\u00bf\u00bdThis is the Dark Moon Hotel.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdOne sleep period is $[PRINT_NUM 0].[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDo you want to sleep?[LINE_BREAK]",
+    "[GOSUB L_C90F61]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C90C90 L_C90CB4]",
+    "[GOTO L_C90CB4]",
+    "; $C90C90",
+    "L_C90C90:",
+    "\u00ef\u00bf\u00bdYou're actually going to try to stay up...?  Hah hah hah![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG JUST_RESTED L_C90D1E]:C90D1E": {
+      "\u00ef\u00bf\u00bdThanks.[HALT][END]": null
+    },
+    "[STORE_ARG_MULT_PMEMBERS 75]": null,
+    "[SWAP_ARG_RESULT]": null,
+    "\u00ef\u00bf\u00bdThis is the Dark Moon Hotel.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdOne sleep period is $[PRINT_NUM 0].[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDo you want to sleep?[LINE_BREAK]": null,
+    "[GOSUB L_C90F61]:C90F61": {
+      "[GOSUB L_C7DD4D]:C7DD4D": {
+        "[SHOW_WALLET]": null,
+        "; $C7DD4F": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        "[LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[END]": null
+      },
+      "[END]": null
+    },
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C90C90 L_C90CB4]:C90C90": {
+      "\u00ef\u00bf\u00bdYou're actually going to try to stay up...?  Hah hah hah![HALT][END]": null
+    },
+    "[MULTI_GOTO L_C90C90 L_C90CB4]:C90CB4": {
+      "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C90CE8]:C90CE8": {
+        "\u00ef\u00bf\u00bdMoney rules here in Moonside, too.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdAnd you do not seem to have any at this moment.[HALT][END]": null
+      },
+      "[REMOVE_MONEY 0]": null,
+      "[SHOW_WALLET]": null,
+      "[PLAY_SFX 118]": null,
+      "\u00ef\u00bf\u00bdAll right.  Here we go![HALT][GOSUB L_C90F7D]:C90F7D": {
+        "[CLOSE_ALL_TBOXES]": null,
+        "[PAUSE 1][SET_FLAG JUST_RESTED]": null,
+        "[MUSIC_EFFECT 3]": null,
+        "[CREATE_OBJ 106 633 1]": null,
+        "[WAIT_MOVEMENT]": null,
+        "; $C90F90": null,
+        "[GOTO_IF_FLAG PAULA_TELEPATHY_DREAM_1 L_C68C3F]:C68C3F": "Sleep Dialogue - PAULA_TELEPATHY_DREAM_1",
+        "[GOTO_IF_FLAG PAULA_TELEPATHY_DREAM_2 L_C68CC3]:C68CC3": "Sleep Dialogue - PAULA_TELEPATHY_DREAM_2",
+        "[GOTO_IF_FLAG PAULA_TELEPATHY_DREAM_JEFF L_C68D5A]:C68D5A": "Sleep Dialogue - PAULA_TELEPATHY_DREAM_JEFF",
+        "[GOTO_IF_FLAG ZOMBIE_PAPER_ON_TENT L_C90FB1]:C90FB1": "Sleep Dialogue - ZOMBIE_PAPER_ON_TENT",
+        "[GOSUB L_C685DA]:C685DA": "Function - Jeff Repairs",
+        "; $C90FB1": null,
+        "[END]": null
+      },
+      "[RESTORE_MUSIC]": null,
+      "[PRESET_TELEPORT 162]": null,
+      "[GOSUB L_C91582]:C91582": "Function - Sleep for the Night",
+      "[END]": null
+    },
+    "[GOTO L_C90CB4]:C90CB4": {
+      "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C90CE8]:C90CE8": {
+        "\u00ef\u00bf\u00bdMoney rules here in Moonside, too.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdAnd you do not seem to have any at this moment.[HALT][END]": null
+      },
+      "[REMOVE_MONEY 0]": null,
+      "[SHOW_WALLET]": null,
+      "[PLAY_SFX 118]": null,
+      "\u00ef\u00bf\u00bdAll right.  Here we go![HALT][GOSUB L_C90F7D]:C90F7D": {
+        "[CLOSE_ALL_TBOXES]": null,
+        "[PAUSE 1][SET_FLAG JUST_RESTED]": null,
+        "[MUSIC_EFFECT 3]": null,
+        "[CREATE_OBJ 106 633 1]": null,
+        "[WAIT_MOVEMENT]": null,
+        "; $C90F90": null,
+        "[GOTO_IF_FLAG PAULA_TELEPATHY_DREAM_1 L_C68C3F]:C68C3F": "Sleep Dialogue - PAULA_TELEPATHY_DREAM_1",
+        "[GOTO_IF_FLAG PAULA_TELEPATHY_DREAM_2 L_C68CC3]:C68CC3": "Sleep Dialogue - PAULA_TELEPATHY_DREAM_2",
+        "[GOTO_IF_FLAG PAULA_TELEPATHY_DREAM_JEFF L_C68D5A]:C68D5A": "Sleep Dialogue - PAULA_TELEPATHY_DREAM_JEFF",
+        "[GOTO_IF_FLAG ZOMBIE_PAPER_ON_TENT L_C90FB1]:C90FB1": "Sleep Dialogue - ZOMBIE_PAPER_ON_TENT",
+        "[GOSUB L_C685DA]:C685DA": "Function - Jeff Repairs",
+        "; $C90FB1": null,
+        "[END]": null
+      },
+      "[RESTORE_MUSIC]": null,
+      "[PRESET_TELEPORT 162]": null,
+      "[GOSUB L_C91582]:C91582": "Function - Sleep for the Night",
+      "[END]": null
+    },
+    "; $C90C90": null,
+    "\u00ef\u00bf\u00bdYou're actually going to try to stay up...?  Hah hah hah![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6540,
+  "y_pixel_abs": 5833,
+  "x_tile": 204,
+  "y_tile": 182,
+  "x_sector": 25,
+  "y_sector": 22,
+  "x_sector_offset": 140,
+  "y_sector_offset": 201,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_44.l_0xc90c38",
+  "Text Pointer 2": "$0"
+}

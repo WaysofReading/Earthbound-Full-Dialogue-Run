@@ -1,0 +1,1584 @@
+npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_tile,x_pixel_abs,y_pixel_abs
+1,monster_shark,Onett_Arcade_1F,person,~SHARK_GUARDING_FRANK_DEFEATED,284,244,21,7824,688
+2,monster_shark,Onett_Arcade_1F,person,~SHARK_AT_ARCADE_ABSENT,284,246,23,7888,736
+3,monster_shark,Onett_Arcade_1F,person,always,284,243,23,7784,752
+4,monster_shark,Onett_Arcade_2F,person,always,284,252,31,8088,992
+5,monster_shark,Onett_Arcade_2F,person,always,284,250,31,8008,1008
+6,man_orange-hair_sunglasses,Onett_Arcade_2F,person,always,117,251,29,8056,952
+7,monster_shark,Onett_Arcade_2F,person,~SHARK_AT_ARCADE_UPSTAIRS_DEFEATED,284,253,31,8104,1008
+8,man_cane_green-jacket,Happy Happy Village_Drug Store_1F,person,always,52,244,46,7833,1486
+9,man_glasses_orange-cardigan,Happy Happy Village_Drug Store_1F,person,always,64,246,46,7872,1480
+10,man_blonde_i-love-ny-shirt,Happy Happy Village_Drug Store_1F,person,always,114,241,47,7736,1528
+11,ruffini,Happy Happy Village_Drug Store_1F,person,always,130,242,46,7756,1480
+12,atm-machine,Happy Happy Village_Drug Store_1F,object,always,259,243,46,7784,1472
+13,phone_payphone_left,Happy Happy Village_Drug Store_1F,person,always,216,243,47,7800,1520
+14,mom,Onett_Ness' House_1F,person,POLICE_AT_METEORITE,145,237,10,7584,344
+15,mom,Onett_Ness' House_1F,person,~POLICE_AT_METEORITE,145,238,11,7640,360
+16,king_sleeping,Onett_Ness' House_1F,person,~SLEEPING_KING_ABSENT,359,240,10,7684,336
+17,pokey,Onett_Ness' House_1F,person,POKEY_WAITING_AT_DOOR,44,243,10,7792,336
+18,king,Onett_Ness' House_1F,person,KING_AWAKE_AT_HOME,40,235,11,7540,368
+19,pokey,Onett_Ness' House_1F,person,POKEY_WAITING_AT_COUCH,44,241,10,7722,332
+20,tracy,Onett_Ness' House_1F,person,TRACY_DOWNSTAIRS,146,234,10,7512,336
+21,phone_black,Onett_Ness' House_1F,person,always,215,239,9,7664,312
+22,door_knocking,Onett_Ness' House_1F,object,NESS_HOUSE_DOOR_KNOCKING,350,243,10,7792,344
+23,curtains_closed_ness-house,Onett_Ness' House_1F,object,~ONETT_DAYTIME,373,242,9,7753,317
+24,curtains_closed_ness-house,Onett_Ness' House_1F,object,~ONETT_DAYTIME,373,236,10,7559,320
+25,tracy,Onett_Ness' House_2F,person,TRACY_AT_HALLWAY,146,234,31,7512,992
+26,ness_sleeping_head,Onett_Ness' House_2F_Ness'-Room,object,NESS_SLEEPING_AT_HIS_BED,378,253,34,8115,1088
+27,animation_zzz_white,Onett_Ness' House_2F_Ness'-Room,object,NESS_SLEEPING_AT_HIS_BED,384,254,33,8138,1061
+28,curtains_closed_ness-house,Onett_Ness' House_2F_Ness'-Room,object,~ONETT_DAYTIME,373,252,33,8080,1072
+29,curtains_angled,Onett_Ness' House_2F_Ness'-Room,object,~ONETT_DAYTIME,375,255,34,8176,1104
+30,tracy,Onett_Ness' House_2F_Tracy's-Room,person,~TRACY_NOT_AT_HER_ROOM,146,236,22,7568,728
+31,curtains_closed_ness-house,Onett_Ness' House_2F_Tracy's-Room,object,~ONETT_DAYTIME,373,236,21,7568,688
+32,curtains_angled,Onett_Ness' House_2F_Tracy's-Room,object,~ONETT_DAYTIME,375,232,22,7440,720
+33,woman_black-hair_glasses,Onett_Burger Shop_1F,person,always,142,236,14,7560,448
+34,woman_purse_green-dress,Onett_Burger Shop_1F,person,always,58,233,14,7482,472
+35,girl_blonde_ponytail,Onett_Burger Shop_1F,person,always,127,235,15,7520,488
+36,frank,Onett_Burger Shop_1F,person,GIYGAS_DEFEATED,153,234,14,7512,448
+37,woman_blonde_red-blazer,Onett_Burger Shop_1F,person,always,66,237,15,7584,488
+38,frank,Onett_Burger Shop_1F,person,PARTY_IS_ROBOTIFIED,153,236,15,7552,494
+39,hint-man,Onett_Hint Man's House_1F,person,~HINT_GUY_ABSENT,136,251,38,8048,1224
+40,chef,Onett_Bakery_1F,person,always,137,227,42,7272,1344
+41,woman_purse_green-dress,Onett_Bakery_1F,person,always,58,228,42,7296,1368
+42,woman_blonde_red-dress,Onett_Bakery_1F,person,always,68,224,43,7192,1384
+43,elevator-atatendant,Onett_Bakery_1F,person,always,67,226,43,7232,1376
+44,aloysius,Onett_Minch House_1F,person,ALOYSIUS_AT_HOME,147,220,26,7056,848
+45,lardna,Onett_Minch House_1F,person,LARDNA_AT_HOME,148,222,27,7128,864
+46,buzz-buzz,Onett_Minch House_1F,person,BUZZ_BUZZ_DYING_ON_FLOOR,347,222,27,7112,872
+47,picky,Onett_Minch House_1F,person,~POLICE_AT_METEORITE,45,228,26,7320,856
+48,prettyman,Onett_Minch House_1F,person,GIYGAS_DEFEATED,59,227,26,7279,852
+49,curtains_closed_minch-house,Onett_Minch House_1F,object,~ONETT_DAYTIME,374,227,25,7288,830
+50,curtains_closed_minch-house,Onett_Minch House_1F,object,~ONETT_DAYTIME,374,221,26,7094,840
+51,curtains_closed_minch-house,Onett_Minch House_1F,object,~ONETT_DAYTIME,374,218,25,6996,830
+52,pokey,Onett_Minch House_2F,person,POKEY_AT_HIS_ROOM,44,221,18,7080,600
+53,picky,Onett_Minch House_2F,person,PICKY_AT_HIS_ROOM,45,225,19,7200,608
+54,curtains_closed_minch-house,Onett_Minch House_2F,object,~ONETT_DAYTIME,374,218,18,6998,584
+55,curtains_closed_minch-house,Onett_Minch House_2F,object,~ONETT_DAYTIME,374,222,18,7124,578
+56,curtains_closed_minch-house,Onett_Minch House_2F,object,~ONETT_DAYTIME,374,224,17,7171,571
+57,curtains_angled,Onett_Minch House_2F,object,~ONETT_DAYTIME,375,227,18,7280,592
+58,man_bald_black-suit,Onett_Hotel (Hotel Onett)_1F,person,always,56,250,46,8024,1472
+59,bellhop,Onett_Hotel (Hotel Onett)_1F,person,always,73,254,46,8136,1496
+60,phone_black,Onett_Hotel (Hotel Onett)_1F,person,always,215,249,46,7986,1472
+61,atm-machine,Onett_Hotel (Hotel Onett)_1F_ATM,object,always,259,225,34,7216,1088
+62,woman_blonde_red-blazer,Onett_Hotel (Hotel Onett)_1F_Lobby,person,~Unknown Flag,66,237,2,7600,72
+63,man_blonde_black-suit,Onett_Hotel (Hotel Onett)_1F_Lobby,person,~Unknown Flag,61,240,3,7688,96
+64,bellhop,Onett_Hotel (Hotel Onett)_1F_Lobby,person,JUST_RESTED,73,240,2,7696,64
+65,woman_blonde_red-blazer,Onett_Hotel (Hotel Onett)_1F_Left-Room,person,Unknown Flag,66,242,43,7760,1376
+66,man_blonde_black-suit,Onett_Hotel (Hotel Onett)_1F_Left-Room,person,Unknown Flag,61,243,43,7794,1380
+67,captain-strong,Onett_Police Station_1F,person,~CAPTAIN_STRONG_NOT_AT_STATION_DESK,75,220,10,7056,328
+68,lookalike_marcie,Onett_Police Station_1F,person,always,141,222,11,7112,352
+69,cop,Onett_Police Station_1F,person,always,74,219,11,7032,352
+70,cop,Onett_Police Station_1F,person,COP_AT_STATION_ENTRANCE,74,221,12,7096,392
+71,captain-strong,Onett_Police Station_1F,person,CAPTAIN_STRONG_AT_STATION_ENTRANCE,75,220,12,7057,392
+72,man_hat_black-suit,Onett_Police Station_1F_Cells,person,always,63,252,3,8072,96
+73,cop,Onett_Police Station_1F_Backroom,person,~ONETT_COP_1_DEFEATED,74,234,6,7496,192
+74,cop,Onett_Police Station_1F_Backroom,person,~ONETT_COP_2_DEFEATED,74,235,5,7520,186
+75,cop,Onett_Police Station_1F_Backroom,person,~ONETT_COP_3_DEFEATED,74,236,5,7561,173
+76,cop,Onett_Police Station_1F_Backroom,person,~ONETT_COP_4_DEFEATED,74,237,5,7595,171
+77,cop,Onett_Police Station_1F_Backroom,person,~ONETT_COP_5_DEFEATED,74,238,5,7622,186
+78,prettyman,Onett_Town Hall_1F,person,always,59,245,18,7848,592
+79,man_blonde_black-suit,Onett_Town Hall_1F_Left-Room,person,always,61,219,3,7008,96
+80,man_glasses_-black-suit,Onett_Town Hall_1F_Left-Room,person,always,62,221,3,7080,96
+81,man_cane_green-jacket,Onett_Town Hall_1F_Left-Room,person,always,52,218,3,6984,120
+82,woman_purse_black-dress,Onett_Town Hall_1F_Left-Room,person,always,57,220,4,7064,136
+83,man_blonde_black-suit,Onett_Town Hall_1F_Right-Room,person,always,61,243,34,7800,1096
+84,man_hat_blue-suit,Onett_Town Hall_1F_Right-Room,person,always,55,242,35,7760,1128
+85,woman_blonde_blue-blazer,Onett_Town Hall_1F_Reception,person,always,65,242,26,7768,840
+86,mayor-pirkle,Onett_Town Hall_2F,person,always,154,246,6,7872,200
+87,man_bald_black-suit,Onett_Town Hall_2F,person,always,56,244,6,7832,208
+88,cop,Onett_Town Hall_2F,person,always,74,242,7,7752,240
+89,man_blonde_blue-blazer,Onett_Houses_West-Violet-Roof_1F,person,always,70,251,10,8040,320
+90,girl_blonde_ponytail,Onett_Houses_West-Blue-Roof_1F,person,always,127,236,19,7552,608
+91,prettyman,Onett_Houses_North-Blue-Roof_1F,person,always,59,219,30,7008,976
+92,boy_bowler-hat,Onett_Houses_East-Blue-Roof_1F,person,always,125,234,34,7488,1096
+93,girl_black-hair_red-jumper,Onett_Houses_East-Orange_1F,person,always,121,219,39,7032,1248
+94,exit-mouse-father,Onett_Exit Mouse House_1F,person,always,451,235,43,7520,1384
+95,exit-mouse,Onett_Exit Mouse House_1F,person,~HAS_EXIT_MOUSE,436,234,43,7488,1376
+96,exit-mouse,Onett_Exit Mouse House_1F,person,always,436,235,42,7528,1352
+97,lookalike_pigpen,Onett_Exit Mouse House_1F,person,always,115,236,42,7565,1371
+98,woman_blonde_red-dress,Onett_Library_1F,person,always,68,249,14,7984,448
+99,man_hat_green-jacket,Onett_Library_1F,person,always,54,244,14,7824,456
+100,lookalike_shy-guy-mask,Onett_Library_1F,person,always,119,242,14,7760,472
+101,man_hat_black-suit,Onett_Library_2F,person,~LIBRARY_BATHROOM_MAN,63,223,22,7136,728
+102,girl_blonde_pink-dress,Onett_Library_1F_Left-Room,person,always,120,217,35,6960,1128
+103,man_blonde_i-love-ny-shirt,Onett_Library_1F_Left-Room,person,always,114,222,35,7104,1120
+104,man_blonde_blue-oxford,Onett_Library_1F_Left-Room,person,always,112,219,35,7024,1128
+105,girl_black-hair_red-jumper,Onett_Library_1F_Left-Room,person,always,121,220,34,7040,1096
+106,man_redhead_green-oxford,Onett_Library_1F_Right-Room,person,always,113,217,43,6960,1384
+107,elevator-atatendant,Onett_Library_1F_Right-Room,person,always,67,221,43,7088,1376
+108,man_blonde_blue-blazer,Onett_Library_2F_Room,person,always,70,250,26,8016,840
+109,man_glasses_orange-cardigan,Onett_Library_2F_Room,person,always,64,253,26,8096,832
+110,nurse,Onett_Hospital_1F,person,always,140,226,30,7248,960
+111,healer,Onett_Hospital_1F,person,always,189,226,31,7248,1000
+112,woman_redhead_blue-dress,Onett_Hospital_1F,person,always,108,227,31,7280,1000
+113,doctor,Onett_Hospital_1F_Doctor's-Office,person,always,139,227,38,7264,1224
+114,nurse,Onett_Hospital_1F_Doctor's-Office,person,always,140,228,38,7304,1232
+115,man_redhead_green-oxford,Onett_Hospital_2F_Left-Room,person,always,113,244,30,7808,984
+116,girl_redhead_pigtails,Onett_Hospital_2F_Right-Room,person,always,128,244,39,7824,1248
+117,woman_blonde_blue-blazer,Onett_Hospital_2F_Right-Room,person,always,65,243,38,7795,1238
+118,woman_cane_pink-dress,Happy Happy Village_Drug Store_1F,person,always,53,226,47,7256,1520
+119,lier-x-agerate,Onett_Lier X Agerate's Shack_1F,person,LIER_INSIDE_HOUSE,152,235,38,7528,1232
+120,boy_bowler-hat,Onett_Secret Hideout_1F,person,always,125,249,42,7984,1352
+121,boy_fedora,Onett_Secret Hideout_1F,person,always,126,250,41,8016,1328
+122,boy_baseball-helmet,Onett_Secret Hideout_1F,person,always,124,251,42,8040,1360
+123,invisible_3,Happy Happy Village_Drug Store_1F,person,always,381,235,44,7544,1424
+124,picky_sleeping,Onett_Overworld_Northeast,person,PICKY_SLEEPING_AT_METEORITE,382,62,3,2008,112
+125,lier-x-agerate,Onett_Overworld_Northeast,person,~POKEY_PUNISHED,152,57,3,1828,125
+126,cop,Onett_Overworld_Northwest,person,COP_AT_ENTERTAINERS_SHACK,74,45,15,1456,504
+127,lookalike_pigpen,Onett_Overworld_Central-North,person,always,115,61,24,1968,776
+128,traveling-entertainer,Onett_Overworld_Northwest,person,~GOT_ENTERTAINERS_TRAVEL_CHARM,76,45,18,1440,600
+129,girl_blonde_yellow-dress,Onett_Overworld_Central-North,person,PEOPLE_IN_ONETT,122,67,30,2152,960
+130,helpful-mole,Onett_Overworld_Central-North,person,~MONSTERS_IN_ONETT,188,54,24,1728,776
+131,man_blonde_i-love-ny-shirt,Onett_Overworld_Central-North,person,PEOPLE_IN_ONETT,114,58,36,1872,1168
+132,rastaman,Onett_Overworld_Northwest,person,PEOPLE_IN_ONETT,78,41,35,1320,1136
+133,lookalike_pigpen,Onett_Overworld_West,person,PEOPLE_IN_ONETT,115,32,53,1040,1712
+134,man_glasses_-black-suit,Onett_Overworld_Central-North,person,PEOPLE_IN_ONETT,62,70,35,2240,1128
+135,man_blonde_blue-oxford,Onett_Overworld_Central-South,person,PEOPLE_IN_ONETT,112,50,45,1616,1456
+136,woman_purse_green-dress,Onett_Overworld_Central-South,person,PEOPLE_IN_ONETT,58,77,45,2464,1456
+137,woman_cane_pink-dress,Onett_Overworld_Central-South,person,PEOPLE_IN_ONETT,53,45,44,1440,1424
+138,ruffini,Onett_Overworld_Central-South,person,PEOPLE_IN_ONETT,130,56,43,1820,1376
+139,man_hat_blue-suit,Onett_Overworld_West,person,~BOUGHT_SCAM_HOUSE,55,14,55,464,1760
+140,man_hat_blue-suit,Onett_Overworld_West,person,BOUGHT_SCAM_HOUSE,55,16,55,536,1776
+141,saxophonist,Onett_Overworld_West,person,~MONSTERS_IN_ONETT,77,10,56,336,1792
+142,monster_shark,Onett_Overworld_Central-South,person,~SHARK_OUTSIDE_ARCADE_1_DEFEATED,284,46,54,1502,1747
+143,monster_shark,Onett_Overworld_Central-South,person,~SHARK_OUTSIDE_ARCADE_2_DEFEATED,284,49,56,1568,1792
+144,cop,Onett_Overworld_Central-South,person,~VISITED_TWOSON,74,53,62,1712,1984
+145,cop,Onett_Overworld_Central-South,person,~VISITED_TWOSON,74,52,61,1674,1973
+146,frank,Onett_Overworld_Central-South,person,~QUEST_TO_ZEXONYTE,153,50,50,1616,1616
+147,invisible_3,Onett_Overworld_Northwest,object,~ENTERTAINERS_SHACK_UNLOCKED,381,45,17,1456,568
+148,mom,Onett_Overworld_Northeast,person,NESS_MOM_OUTSIDE,145,83,10,2656,344
+149,man_orange-hair_sunglasses,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,117,77,13,2472,416
+150,cop,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,74,86,17,2752,544
+151,cop,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,74,87,16,2800,528
+152,man_hat_blue-suit,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,55,84,15,2712,496
+153,cop,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,74,78,20,2496,656
+154,cop,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,74,71,18,2272,592
+155,cop,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,74,66,17,2120,560
+156,cop,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,74,47,12,1528,400
+157,cop,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,74,67,7,2165,236
+158,cop,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,74,65,7,2106,236
+159,cop,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,74,67,8,2152,280
+160,cop,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,74,62,7,2000,232
+161,pokey,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,44,66,7,2137,247
+162,traveling-entertainer,Onett_Overworld_Northwest,person,~GOT_ENTERTAINERS_TRAVEL_CHARM,76,44,19,1409,621
+163,man_orange-hair_sunglasses,Onett_Overworld_Central-South,person,~FRANKYSTEIN_MKII_DEFEATED,117,52,52,1680,1664
+164,captain-strong,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,75,65,4,2104,152
+165,man_glasses_orange-cardigan,Onett_Overworld_Northeast,person,~POLICE_AT_METEORITE,64,64,5,2073,177
+166,girl_redhead_pigtails,Onett_Overworld_Central-South,person,~PATH_TO_TWOSON_OPEN,128,59,58,1912,1856
+167,man_hat_blue-suit,Onett_Overworld_Central-South,person,~PATH_TO_TWOSON_OPEN,55,56,61,1816,1952
+168,streetsign_city,Onett_Overworld_Central-North,object,always,204,48,37,1552,1184
+169,streetsign_city,Onett_Overworld_Central-South,object,always,204,48,47,1552,1504
+170,streetsign_city,Onett_Overworld_Central-South,object,always,204,61,47,1968,1504
+171,streetsign_city,Onett_Overworld_West,object,always,204,41,54,1312,1744
+172,streetsign_city,Onett_Overworld_Central-South,object,always,204,54,54,1728,1744
+173,streetsign_city,Onett_Overworld_Central-North,object,always,204,66,37,2128,1184
+174,streetsign_city,Onett_Overworld_Central-South,object,always,204,74,45,2368,1456
+175,van,Onett_Overworld_Central-North,object,ONETT_DAYTIME,208,62,36,2000,1160
+176,red-truck,Onett_Overworld_Central-South,object,ONETT_DAYTIME,207,56,55,1816,1768
+177,roadblock,Onett_Overworld_Central-South,object,~PATH_TO_TWOSON_OPEN,199,51,62,1640,2010
+178,roadblock,Onett_Overworld_Central-South,object,~PATH_TO_TWOSON_OPEN,199,52,62,1688,2008
+179,roadblock,Onett_Overworld_Central-South,object,~PATH_TO_TWOSON_OPEN,199,53,62,1720,2000
+180,roadblock,Onett_Overworld_Central-South,object,~PATH_TO_TWOSON_OPEN,199,54,62,1752,2008
+181,mailbox,Onett_Overworld_West,object,always,227,33,43,1080,1400
+182,mailbox,Onett_Overworld_Northeast,object,always,227,73,11,2352,368
+183,mailbox,Onett_Overworld_Northeast,object,always,227,83,11,2664,368
+184,mailbox,Onett_Overworld_Central-South,object,always,227,79,45,2552,1440
+185,sign_don't-enter,Onett_Overworld_Northwest,object,always,228,44,17,1408,560
+186,taxi,Onett_Overworld_Central-South,object,ONETT_DAYTIME,206,64,46,2072,1496
+187,roadblock,Onett_Overworld_Northeast,object,POLICE_BARRIERS_AT_ONETT_HILLTOP,199,66,6,2139,216
+188,roadblock,Onett_Overworld_Northeast,object,POLICE_BARRIERS_AT_ONETT_HILLTOP,199,68,7,2198,242
+189,roadblock,Onett_Overworld_Northeast,object,~POLICE_AT_METEORITE,199,85,17,2722,562
+190,roadblock,Onett_Overworld_Northeast,object,~POLICE_AT_METEORITE,199,87,17,2800,552
+191,hotel_sign,Onett_Overworld_Central-South,object,always,442,62,45,2008,1440
+192,sign_small,Onett_Overworld_Northeast,object,always,213,58,4,1864,128
+193,spotlight,Onett_Overworld_Northeast,object,ONETT_DAYTIME,203,63,1,2032,56
+194,spotlight,Onett_Overworld_Northeast,object,ONETT_DAYTIME,203,48,6,1552,192
+195,spotlight,Onett_Overworld_Northeast,object,ONETT_DAYTIME,203,50,5,1600,176
+196,spotlight,Onett_Overworld_Northeast,object,ONETT_DAYTIME,203,53,1,1720,48
+197,spotlight,Onett_Overworld_Northeast,object,ONETT_DAYTIME,203,55,0,1768,24
+198,meteor,Onett_Overworld_Northeast,object,always,197,65,4,2080,144
+199,police-car,Onett_Overworld_Northeast,object,~POLICE_AT_METEORITE,377,86,17,2776,568
+200,police-car,Onett_Overworld_Northeast,object,~POLICE_AT_METEORITE,377,71,18,2296,584
+201,police-car,Onett_Overworld_Northeast,object,~POLICE_AT_METEORITE,377,69,6,2214,214
+202,monster_frankystein,Onett_Overworld_Central-South,object,~FRANKYSTEIN_MKII_DEFEATED,401,51,50,1656,1608
+203,lier-x-agerate,Onett_Lier X Agerate's Shack_B1F,person,LIER_INSIDE_CAVE_1,152,122,222,3928,7112
+204,lier-x-agerate,Onett_Lier X Agerate's Shack_B2F,person,LIER_INSIDE_CAVE_2,152,171,79,5496,2528
+205,lier-x-agerate,Lumine Hall_Rooms_2F,person,LIER_INSIDE_CAVE_3,152,107,67,3448,2144
+206,lier-x-agerate,Lumine Hall_Rooms_2F,person,LIER_INSIDE_CAVE_4,152,99,67,3192,2144
+207,lier-x-agerate,Onett_Lier X Agerate's Shack_B4F,person,LIER_BY_MANI_MANI,152,124,186,3984,5976
+208,monster_mani-mani-statue,Onett_Lier X Agerate's Shack_B4F,object,~VISITED_TWOSON,293,125,186,4000,5968
+209,monster_your-sanctuary,Giant Step_Rooms_Boss-Room,person,~CONQUERED_SANCTUARY_1,333,34,67,1088,2144
+210,king_flashback,Cutscenes_Flashback_1F,person,~PARTY_IS_ROBOTIFIED,399,52,275,1672,8824
+211,crib,Cutscenes_Flashback_2F_Ness'-Room,person,always,406,188,67,6016,2144
+212,man_mohawk_punk-clothes,Twoson_Cycle Shop_1F,person,always,85,221,238,7072,7624
+213,paula's-mom,Twoson_Polestar_1F,person,always,156,234,234,7504,7504
+214,girl_blonde_ponytail,Twoson_Polestar_1F,person,always,127,236,234,7576,7512
+215,boy_baseball-helmet,Twoson_Polestar_1F,person,always,124,235,235,7544,7528
+216,girl_redhead_pigtails,Twoson_Polestar_1F,person,always,128,238,234,7640,7496
+217,paula's-dad,Twoson_Polestar_1F_Den,person,~PAULAS_DAD_OUTSIDE,155,211,242,6776,7760
+218,cat,Twoson_Polestar_1F_Den_Bedroom,person,GIYGAS_DEFEATED,131,213,251,6820,8032
+219,paula,Twoson_Polestar_1F_Den_Bedroom_Paula's-Room,person,PAULA_AT_HER_ROOM,2,251,278,8056,8912
+220,orange-kid,Twoson_Orange Kid's House_1F,person,~APPLE_KID_IN_BURGLIN_PARK,175,243,238,7792,7632
+221,apple-kid,Twoson_Apple Kid's House_1F,person,~APPLE_KID_NOT_AT_HIS_HOUSE,176,243,246,7800,7896
+222,monster_mouse,Twoson_Apple Kid's House_1F,person,~APPLE_KID_NOT_AT_HIS_HOUSE,281,242,247,7768,7920
+223,bench,Twoson_Apple Kid's House_1F,object,always,198,242,246,7768,7880
+224,junk-pile,Twoson_Apple Kid's House_1F,object,always,414,244,246,7832,7896
+225,open-can,Twoson_Apple Kid's House_1F,object,always,225,241,246,7721,7883
+226,woman_black-hair_red-clothes,Twoson_Chaos Theater_1F,person,~CHAOS_THEATER_STAGE_UNBLOCKED,116,236,230,7576,7376
+227,man_blonde_blue-blazer,Twoson_Chaos Theater_1F,person,always,70,237,231,7608,7400
+228,woman_black-hair_red-clothes,Twoson_Chaos Theater_1F,person,CHAOS_THEATER_STAGE_UNBLOCKED,116,238,230,7621,7360
+229,girl_blonde_pink-dress,Twoson_Chaos Theater_1F,person,RUNAWAY_BUS_FROM_TWOSON_TO_THREED,120,236,229,7561,7338
+230,cop,Twoson_Chaos Theater_1F,person,always,74,233,230,7464,7384
+231,girl_blonde_pink-dress,Twoson_Chaos Theater_1F_Concert-Hall,person,RUNAWAY_FIVE_FAN_GIRL_OUTSIDE_BACKSTAGE,120,212,269,6784,8608
+232,lookalike_teddy,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,118,215,270,6904,8656
+233,boy_fedora,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,126,213,269,6816,8632
+234,man_orange-hair_sunglasses,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,117,217,268,6944,8600
+235,woman_blonde_red-dress,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,68,214,269,6864,8624
+236,lookalike_mr-t,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,79,210,269,6744,8624
+237,woman_purse_green-dress,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,58,215,268,6880,8592
+238,woman_purse_black-dress,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,57,216,267,6917,8565
+239,man_bald_black-suit,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,56,222,269,7104,8631
+240,drunk-man,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,60,221,269,7072,8624
+241,man_glasses_-black-suit,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,62,220,270,7056,8648
+242,rastaman,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,78,219,268,7024,8600
+243,hippy,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,361,219,268,7008,8576
+244,woman_blonde_blue-blazer,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,65,218,269,6976,8624
+245,woman_blonde_red-blazer,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,66,213,268,6824,8576
+246,prettyman,Twoson_Chaos Theater_1F_Concert-Hall,person,~CHAOS_THEATER_AUDIENCE_ABSENT,59,212,267,6792,8561
+247,girl_blonde_pink-dress,Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room,person,~RUNAWAY_FIVE_FAN_GIRL_OUTSIDE_BACKSTAGE,120,252,235,8088,7536
+248,runaway-5_lucky,Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room,person,~RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER,149,252,234,8080,7504
+249,runaway-5_gorgeous,Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room,person,~RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER,150,253,234,8125,7504
+250,runaway-5_okay,Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room,person,~RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER,185,249,235,7992,7528
+251,runaway-5_nice,Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room,person,~RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER,186,250,233,8000,7480
+252,runaway-5_groovy,Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room,person,~RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER,187,251,234,8032,7504
+253,poochyfud,Twoson_Chaos Theater_1F_Manager's-Office,person,always,158,237,238,7584,7624
+254,everdred,Twoson_Everdred's Shack_1F,person,EVERDRED_AT_HIS_HOUSE,157,243,254,7792,8136
+255,fast-food-clerk,Threed_Under Graveyard_Stairs-from-Skyrunner,person,always,138,204,242,6528,7760
+256,man_bald_black-suit,Twoson_Hotel (Twoson Hotel)_1F,person,always,56,236,226,7576,7232
+257,bellhop,Twoson_Hotel (Twoson Hotel)_1F,person,always,73,240,226,7680,7248
+258,phone_black,Twoson_Hotel (Twoson Hotel)_1F,person,always,215,235,226,7541,7236
+259,atm-machine,Twoson_Hotel (Twoson Hotel)_1F_ATM,object,always,259,241,278,7728,8896
+260,bellhop,Twoson_Hotel (Twoson Hotel)_1F_Lobby,person,JUST_RESTED,73,228,259,7320,8288
+261,man_glasses_-black-suit,Twoson_Hotel (Twoson Hotel)_1F_Lobby,person,always,62,226,261,7256,8352
+262,man_blonde_i-love-ny-shirt,Twoson_Hotel (Twoson Hotel)_1F_Right-Room,person,always,114,244,242,7829,7764
+263,mushroom,Twoson_Hotel (Twoson Hotel)_1F_Right-Room,object,always,226,244,241,7824,7728
+264,nurse,Twoson_Hospital_1F,person,always,140,247,274,7920,8768
+265,healer,Twoson_Hospital_1F,person,always,189,242,274,7768,8792
+266,doctor,Twoson_Hospital_1F_Doctor's-Office,person,always,139,243,230,7776,7368
+267,nurse,Twoson_Hospital_1F_Doctor's-Office,person,always,140,244,230,7824,7384
+268,man_bald_black-suit,Twoson_Hospital_2F_Right-Room,person,always,56,210,238,6736,7632
+269,man_glasses_orange-cardigan,Twoson_Hospital_2F_Left-Room,person,always,64,227,238,7280,7616
+270,lookalike_teddy,Twoson_Hospital_2F,person,always,118,221,247,7096,7912
+271,man_orange-hair_sunglasses,Twoson_Bus Station_1F,person,always,117,232,268,7424,8584
+272,man_cane_green-jacket,Twoson_Bus Station_1F,person,always,52,229,267,7344,8552
+273,man_bald_black-suit,Twoson_Bus Station_1F,person,always,56,227,266,7280,8520
+274,bus-driver,Twoson_Bus Station_1F,person,always,111,231,266,7408,8520
+275,atm-machine,Twoson_Bus Station_1F,object,always,259,232,266,7448,8512
+276,phone_payphone_left,Twoson_Bus Station_1F,person,always,216,229,266,7344,8512
+277,woman_blonde_black-dress,Twoson_Houses_East-Orange_1F,person,always,178,252,242,8064,7768
+278,hint-man,Twoson_Hint Man's House_1F,person,~HINT_GUY_ABSENT,136,251,226,8048,7240
+279,boy_blue-ballcap,Twoson_Houses_Northwest-Red-Roof_2F,person,~CARPAINTER_DEFEATED,123,210,246,6744,7888
+280,boy_blue-ballcap,Twoson_Houses_Northwest-Red-Roof_1F,person,CARPAINTER_DEFEATED,123,212,255,6812,8163
+281,man_blonde_black-suit,Twoson_Houses_Northwest-Red-Roof_1F,person,CARPAINTER_DEFEATED,61,210,255,6744,8160
+282,woman_blonde_blue-blazer,Twoson_Houses_Northwest-Red-Roof_1F,person,CARPAINTER_DEFEATED,65,211,254,6776,8152
+283,girl_blonde_ponytail,Twoson_Houses_Northwest-Green-Roof_2F,person,always,127,227,247,7288,7904
+284,cat,Twoson_Houses_Southeast-Green-Roof_1F,person,always,131,220,255,7069,8161
+285,man_glasses_orange-cardigan,Twoson_Houses_Southeast-Green-Roof_1F,person,always,64,219,255,7016,8168
+286,atm-machine,Twoson_Department Store_1F,object,always,259,219,233,7032,7456
+287,phone_payphone_left,Twoson_Department Store_1F,person,always,216,218,233,6992,7472
+288,lookalike_marcie,Twoson_Department Store_1F,person,always,141,221,233,7088,7456
+289,woman_blonde_blue-blazer,Twoson_Department Store_1F,person,always,65,222,233,7120,7456
+290,man_blonde_blue-blazer,Twoson_Department Store_1F,person,always,70,220,234,7056,7512
+291,woman_black-hair_glasses,Threed_Under Graveyard_Stairs-from-Skyrunner,person,always,142,205,227,6568,7288
+292,chef,Twoson_Department Store_1F,person,always,137,210,226,6720,7240
+293,woman_cane_pink-dress,Threed_Under Graveyard_Stairs-from-Skyrunner,person,always,53,205,230,6576,7360
+294,woman_black-hair_red-clothes,Twoson_Department Store_1F,person,always,116,209,230,6704,7360
+295,lookalike_marcie,Twoson_Department Store_1F,person,always,141,219,219,7012,7009
+296,man_glasses_orange-cardigan,Twoson_Department Store_1F,person,always,64,220,219,7048,7016
+297,girl_black-hair_red-jumper,Twoson_Department Store_1F,person,~MASTER_BELCH_DEFEATED,121,220,222,7048,7120
+298,man_blonde_blue-oxford,Twoson_Department Store_1F,person,always,112,222,220,7128,7056
+299,girl_blonde_pink-dress,Twoson_Department Store_1F,person,always,120,211,227,6752,7264
+300,lookalike_pigpen,Twoson_Department Store_1F,person,always,115,218,221,6984,7072
+301,lookalike_teddy,Twoson_Department Store_1F,person,always,118,219,233,7016,7480
+302,atm-machine,Twoson_Department Store_1F,object,always,259,221,220,7096,7040
+303,woman_blonde_red-dress,Twoson_Overworld_Northwest,person,always,68,39,201,1248,6440
+304,man_hat_blue-suit,Twoson_Overworld_Central,person,always,55,59,216,1912,6912
+305,boy_fedora,Twoson_Overworld_Central-East-(to-Peaceful-Rest-Valley),person,always,126,86,221,2768,7080
+306,lookalike_mr-t,Twoson_Overworld_Northwest,person,always,79,55,204,1768,6552
+307,woman_cane_pink-dress,Twoson_Overworld_Northwest,person,always,53,49,206,1588,6610
+308,prettyman,Twoson_Overworld_Central-East-(to-Peaceful-Rest-Valley),person,always,59,83,222,2664,7128
+309,girl_blonde_pink-dress,Twoson_Overworld_Central-East-(to-Peaceful-Rest-Valley),person,always,120,80,223,2568,7160
+310,ruffini,Twoson_Overworld_Northeast,person,always,130,68,210,2204,6720
+311,rastaman,Twoson_Overworld_Central-West-(Burglin-Park),person,always,78,46,217,1480,6952
+312,lookalike_pigpen,Twoson_Overworld_Central-West-(Burglin-Park),person,always,115,48,217,1560,6952
+313,lookalike_shy-guy-mask,Twoson_Overworld_Central-West-(Burglin-Park),person,always,119,43,218,1392,6992
+314,man_blonde_resortwear,Twoson_Overworld_Central-West-(Burglin-Park),person,always,71,48,215,1544,6880
+315,lookalike_teddy,Twoson_Overworld_Central-West-(Burglin-Park),person,always,118,54,216,1728,6912
+316,chef,Twoson_Overworld_Central-West-(Burglin-Park),person,always,137,50,218,1616,6976
+317,snake-salesman,Twoson_Overworld_Central-West-(Burglin-Park),person,always,96,51,215,1632,6880
+318,woman_cane_pink-dress,Twoson_Overworld_Central-West-(Burglin-Park),person,always,53,45,220,1440,7040
+319,orange-kid,Twoson_Overworld_Central,person,APPLE_KID_IN_BURGLIN_PARK,175,62,227,2000,7288
+320,runaway-5_lucky,Twoson_Overworld_Northeast,person,RUNAWAY_BUS_FROM_TWOSON_TO_THREED,149,69,205,2224,6576
+321,paula's-dad,Twoson_Overworld_Central,person,PAULAS_DAD_OUTSIDE,155,65,221,2100,7085
+322,man_blonde_i-love-ny-shirt,Twoson_Overworld_Northeast,person,~QUEUE_OUTSIDE_CHAOS_THEATER,114,66,204,2118,6544
+323,lookalike_teddy,Twoson_Overworld_Central,person,Unknown Flag,118,64,220,2052,7065
+324,lookalike_mr-t,Twoson_Overworld_Central-West-(Burglin-Park),person,always,79,47,214,1520,6848
+325,man_orange-hair_sunglasses,Twoson_Overworld_Central-West-(Burglin-Park),person,always,117,55,213,1776,6840
+326,man_glasses_orange-cardigan,Twoson_Overworld_Northeast,person,~QUEUE_OUTSIDE_CHAOS_THEATER,64,68,204,2192,6531
+327,woman_blonde_red-dress,Twoson_Overworld_Northeast,person,~QUEUE_OUTSIDE_CHAOS_THEATER,68,67,203,2151,6525
+328,runaway-5_lucky,Twoson_Overworld_Northeast,person,~QUEUE_OUTSIDE_CHAOS_THEATER,149,72,204,2328,6528
+329,runaway-5_gorgeous,Twoson_Overworld_Northeast,person,~QUEUE_OUTSIDE_CHAOS_THEATER,150,73,203,2352,6512
+330,lookalike_teddy,Twoson_Overworld_South-(to-Threed-Tunnel),person,~VISITED_THREED,118,38,271,1232,8688
+331,man_redhead_green-oxford,Twoson_Overworld_Northwest,person,always,113,57,197,1840,6320
+332,girl_blonde_pink-dress,Twoson_Overworld_Central,person,~PARTY_IS_ROBOTIFIED,120,62,224,1989,7192
+333,girl_blonde_yellow-dress,Twoson_Overworld_Central,person,~PARTY_IS_ROBOTIFIED,122,61,224,1952,7192
+334,everdred,Twoson_Overworld_Central-West-(Burglin-Park),person,~EVERDRED_NOT_AT_ROOF,157,42,214,1368,6872
+335,monster_mouse,Twoson_Overworld_Central-West-(Burglin-Park),person,APPLE_KID_IN_BURGLIN_PARK,281,39,221,1264,7088
+336,apple-kid,Twoson_Overworld_Central-West-(Burglin-Park),person,APPLE_KID_IN_BURGLIN_PARK,176,41,221,1312,7072
+337,cat_sleeping,Twoson_Overworld_Central,person,~GIYGAS_DEFEATED,363,66,219,2124,7008
+338,hippy,Twoson_Overworld_Central-West-(Burglin-Park),person,always,361,50,213,1608,6832
+339,man_hat_black-suit,Twoson_Overworld_Central,person,always,63,76,222,2448,7104
+340,man_blonde_blue-blazer,Twoson_Overworld_Northeast,person,GIYGAS_DEFEATED,70,70,204,2256,6544
+341,boy_blue-ballcap,Twoson_Overworld_Central,person,~PARTY_IS_ROBOTIFIED,123,65,222,2080,7120
+342,woman_blonde_red-dress,Twoson_Overworld_Central-West-(Burglin-Park),person,always,68,50,214,1624,6848
+343,helpful-mole,Twoson_Overworld_Northwest,person,always,188,39,189,1272,6064
+344,monster_ghost,Transitions_Twoson to Threed_Tunnel-A,person,~MASTER_BELCH_DEFEATED,305,216,318,6936,10176
+345,monster_ghost,Transitions_Twoson to Threed_Tunnel-A,person,~MASTER_BELCH_DEFEATED,305,215,319,6888,10216
+346,monster_ghost,Transitions_Twoson to Threed_Tunnel-A,person,~MASTER_BELCH_DEFEATED,305,232,319,7424,10216
+347,monster_ghost,Transitions_Twoson to Threed_Tunnel-A,person,~MASTER_BELCH_DEFEATED,305,236,318,7552,10176
+348,monster_ghost,Transitions_Twoson to Threed_Tunnel-A,person,~MASTER_BELCH_DEFEATED,305,196,318,6272,10176
+349,monster_ghost,Transitions_Twoson to Threed_Tunnel-A,person,~MASTER_BELCH_DEFEATED,305,200,319,6400,10216
+350,bench,Twoson_Overworld_Central,object,always,198,76,224,2440,7168
+351,bench,Twoson_Overworld_Central,object,always,198,65,220,2093,7063
+352,sign_bus-stop,Twoson_Overworld_Central,object,always,202,77,224,2472,7168
+353,mailbox,Twoson_Overworld_Northeast,object,always,227,75,209,2408,6712
+354,mailbox,Twoson_Overworld_Central,object,always,227,63,221,2041,7097
+355,mailbox,Twoson_Overworld_Central,object,always,227,67,233,2168,7480
+356,streetsign_rural,Twoson_Overworld_Central-East-(to-Peaceful-Rest-Valley),object,always,231,86,222,2760,7128
+357,sportscar,Twoson_Overworld_Northwest,person,always,255,50,198,1600,6360
+358,van,Twoson_Overworld_Northeast,object,always,208,62,205,1992,6568
+359,bicycle,Twoson_Overworld_Northwest,object,always,211,46,204,1488,6528
+360,taxi,Twoson_Overworld_Northwest,object,always,206,42,205,1368,6584
+361,sign_apple-kid,Twoson_Overworld_Central,object,always,403,59,230,1888,7376
+362,streetsign_city,Twoson_Overworld_Northeast,object,always,204,62,199,1984,6368
+363,streetsign_city,Twoson_Overworld_Northeast,object,always,204,60,204,1920,6544
+364,streetsign_city,Twoson_Overworld_Northwest,object,always,204,50,206,1616,6592
+365,sign_orange-kid,Twoson_Overworld_Central,object,always,404,63,226,2032,7256
+366,streetsign_city,Twoson_Overworld_Northeast,object,always,204,70,206,2253,6592
+367,hotel_sign,Twoson_Overworld_Northwest,object,always,442,44,204,1416,6544
+368,streetsign_city,Twoson_Overworld_Central,object,always,204,57,222,1824,7120
+369,sign_burglin-park,Twoson_Overworld_Central,object,always,433,58,215,1872,6904
+370,streetsign_city,Twoson_Overworld_Central,object,always,204,67,224,2144,7168
+371,banana,Twoson_Overworld_Central-West-(Burglin-Park),object,always,224,44,220,1424,7048
+372,banana,Twoson_Overworld_Central-West-(Burglin-Park),object,always,224,45,220,1456,7048
+373,bus_runaway-5,Twoson_Overworld_Northeast,object,RUNAWAY_BUS_FROM_TWOSON_TO_THREED,243,67,205,2173,6576
+374,bus_runaway-5,Twoson_Overworld_Northeast,object,~RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER,243,72,203,2304,6520
+375,monster_mani-mani-statue,Happy Happy Village_Happy Happy HQ_1F_Carpainter,object,always,293,236,58,7555,1862
+376,carpainter,Happy Happy Village_Happy Happy HQ_1F_Carpainter,person,always,159,236,59,7552,1904
+377,man_hat_blue-suit,Happy Happy Village_Happy Happy HQ_1F_Reception,person,always,55,251,54,8048,1728
+378,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~CARPAINTER_DEFEATED,101,252,74,8072,2376
+379,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~CARPAINTER_DEFEATED,101,250,72,8008,2328
+380,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~CARPAINTER_DEFEATED,101,250,74,8008,2376
+381,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~CARPAINTER_DEFEATED,101,248,74,7946,2395
+382,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~CARPAINTER_DEFEATED,101,248,73,7944,2360
+383,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~CARPAINTER_DEFEATED,101,246,73,7896,2344
+384,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~CARPAINTER_DEFEATED,101,245,72,7846,2313
+385,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~HH_HQ_CULTIST_1_DEFEATED,101,248,71,7938,2285
+386,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~HH_HQ_CULTIST_2_DEFEATED,101,245,74,7864,2392
+387,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~HH_HQ_CULTIST_3_DEFEATED,101,245,73,7847,2346
+388,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~HH_HQ_CULTIST_4_DEFEATED,101,242,70,7768,2264
+389,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~HH_HQ_CULTIST_5_DEFEATED,101,243,73,7776,2360
+390,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~HH_HQ_CULTIST_6_DEFEATED,101,238,73,7616,2352
+391,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~CARPAINTER_DEFEATED,101,241,75,7712,2416
+392,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~CARPAINTER_DEFEATED,101,241,71,7736,2288
+393,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,~CARPAINTER_DEFEATED,101,239,71,7656,2288
+394,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,CARPAINTER_DEFEATED,101,240,72,7696,2320
+395,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,CARPAINTER_DEFEATED,101,241,73,7720,2344
+396,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person,CARPAINTER_DEFEATED,101,249,71,7976,2280
+397,lookalike_teddy,Happy Happy Village_Town Hall_1F,person,always,118,234,67,7488,2160
+398,rastaman,Happy Happy Village_Town Hall_1F,person,always,78,234,67,7504,2152
+399,man_blonde_black-suit,Happy Happy Village_Town Hall_1F,person,~CARPAINTER_DEFEATED,61,236,66,7576,2136
+400,woman_blonde_blue-blazer,Happy Happy Village_Town Hall_1F,person,~CARPAINTER_DEFEATED,65,236,66,7552,2136
+401,happy-happyist,Happy Happy Village_Town Hall_1F,person,~CARPAINTER_DEFEATED,101,236,66,7568,2112
+402,mr-saturn,Happy Happy Village_Mr Saturn's House_1F,person,always,171,250,63,8016,2040
+403,man_glasses_orange-cardigan,Happy Happy Village_Drug Store_1F,person,always,64,222,54,7104,1736
+404,man_cane_green-jacket,Happy Happy Village_Drug Store_1F,person,always,52,220,54,7066,1739
+405,woman_blonde_black-dress,Happy Happy Village_Drug Store_1F,person,always,178,218,54,6984,1736
+406,atm-machine,Happy Happy Village_Drug Store_1F,object,always,259,219,54,7016,1728
+407,phone_payphone_left,Happy Happy Village_Drug Store_1F,person,always,216,219,55,7032,1776
+408,prettyman,Happy Happy Village_Drug Store_1F,person,always,59,221,50,7088,1616
+409,doctor,Happy Happy Village_Drug Store_1F,person,always,139,236,54,7576,1744
+410,nurse,Happy Happy Village_Drug Store_1F,person,always,140,237,54,7608,1752
+411,pokey,Happy Happy Village_Overworld_All,person,POKEY_OUTSIDE_HH_HQ,44,116,245,3736,7856
+412,maxwell-labs,Happy Happy Village_Overworld_All,person,~FOOD_STAND_MONITOR_DEFEATED,69,126,243,4040,7776
+413,woman_black-hair_red-clothes,Happy Happy Village_Overworld_All,person,always,116,116,243,3736,7776
+414,hippy,Happy Happy Village_Overworld_All,person,always,361,112,250,3592,8000
+415,man_bald_black-suit,Happy Happy Village_Overworld_All,person,always,56,124,254,3992,8136
+416,man_blonde_blue-blazer,Happy Happy Village_Overworld_All,person,always,70,128,242,4096,7768
+417,saxophonist,Happy Happy Village_Overworld_All,person,always,77,127,246,4064,7888
+418,woman_blonde_blue-blazer,Happy Happy Village_Overworld_All,person,always,65,120,247,3856,7920
+419,cow,Happy Happy Village_Overworld_All,person,always,134,118,253,3800,8119
+420,girl_blonde_yellow-dress,Happy Happy Village_Overworld_All,person,always,122,113,243,3640,7800
+421,lookalike_pigpen,Happy Happy Village_Overworld_All,person,always,115,130,240,4184,7704
+422,woman_blonde_red-dress,Happy Happy Village_Overworld_All,person,always,68,122,242,3920,7760
+423,man_glasses_orange-cardigan,Happy Happy Village_Overworld_All,person,always,64,129,257,4152,8232
+424,lookalike_shy-guy-mask,Happy Happy Village_Overworld_All,person,always,119,114,256,3664,8216
+425,healer,Happy Happy Village_Overworld_All,person,always,189,130,250,4176,8016
+426,carpainter,Happy Happy Village_Overworld_All,person,MASTER_BELCH_DEFEATED,159,117,253,3752,8120
+427,helpful-mole,Happy Happy Village_Overworld_All,person,always,188,114,235,3664,7536
+428,mailbox,Happy Happy Village_Overworld_All,object,always,227,119,240,3808,7696
+429,mailbox,Happy Happy Village_Overworld_All,object,always,227,129,251,4136,8040
+430,mailbox,Happy Happy Village_Overworld_All,object,always,227,113,254,3640,8152
+431,bicycle,Happy Happy Village_Overworld_All,object,always,211,130,238,4168,7632
+432,sign_small,Twoson_Overworld_Central-East-(to-Peaceful-Rest-Valley),object,always,213,112,221,3600,7096
+433,sign_small,Happy Happy Village_Overworld_All,object,always,213,124,242,3986,7746
+434,banana,Happy Happy Village_Overworld_All,object,~CARPAINTER_DEFEATED,224,124,241,3984,7720
+435,sign_small,Happy Happy Village_Overworld_All,object,always,213,128,238,4096,7616
+436,door_jail-cell,Peaceful Rest Valley_Paula's Cabin_1F,person,~PAULA_JOINS,249,218,306,7000,9808
+437,paula,Peaceful Rest Valley_Paula's Cabin_1F,person,~PAULA_JOINS,2,217,305,6964,9789
+438,teddy-bear_1,Peaceful Rest Valley_Paula's Cabin_1F,object,~PAULA_JOINS,51,220,306,7040,9792
+439,pokey,Peaceful Rest Valley_Overworld_All,person,POKEY_OUTSIDE_PAULA_CABIN,44,181,41,5816,1312
+440,happy-happyist,Peaceful Rest Valley_Overworld_All,person,POKEY_OUTSIDE_PAULA_CABIN,101,181,41,5792,1328
+441,happy-happyist,Peaceful Rest Valley_Overworld_All,person,POKEY_OUTSIDE_PAULA_CABIN,101,182,41,5840,1336
+442,monster_crow,Peaceful Rest Valley_Overworld_All,person,POKEY_OUTSIDE_PAULA_CABIN,282,180,41,5776,1336
+443,man_hat_blue-suit,Peaceful Rest Valley_Overworld_All,person,~CARPAINTER_DEFEATED,55,154,58,4947,1860
+444,girl_black-hair_red-jumper,Peaceful Rest Valley_Overworld_All,person,always,121,132,72,4240,2304
+445,man_glasses_orange-cardigan,Peaceful Rest Valley_Overworld_All,person,CARPAINTER_DEFEATED,64,153,58,4904,1856
+446,invisible_3,Peaceful Rest Valley_Overworld_All,person,always,381,155,36,4976,1176
+447,invisible_3,Peaceful Rest Valley_Overworld_All,person,always,381,182,38,5848,1216
+448,helpful-mole,Peaceful Rest Valley_Overworld_All,person,always,188,140,69,4504,2224
+449,streetsign_rural,Peaceful Rest Valley_Overworld_All,object,always,231,150,58,4808,1856
+450,pencil-statue,Peaceful Rest Valley_Overworld_All,object,~PEACEFUL_REST_PENCIL_ERASED,265,145,43,4648,1400
+451,monster_your-sanctuary,Lilliput Steps_Rooms_Main-Room,person,~CONQUERED_SANCTUARY_2,333,124,35,3984,1120
+452,ness_unconscious,Lilliput Steps_Rooms_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,16,97,256,3105,8218
+453,paula,Lilliput Steps_Rooms_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,2,96,256,3075,8196
+454,jeff,Lilliput Steps_Rooms_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,3,97,256,3112,8192
+455,poo,Lilliput Steps_Rooms_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,4,98,256,3139,8208
+456,woman_blonde_red-blazer,Threed_Circus Tent_1F,person,~ZOMBIES_ON_TENT_FLOOR,66,253,316,8115,10114
+457,man_glasses_orange-cardigan,Threed_Circus Tent_1F,person,~NERDY_GUY_AND_FAT_GUY_AT_CIRCUS_TENT,64,252,314,8091,10057
+458,woman_blonde_blue-blazer,Threed_Circus Tent_1F,person,~ZOMBIES_ON_TENT_FLOOR,65,249,319,7997,10213
+459,prettyman,Threed_Circus Tent_1F,person,~NERDY_GUY_AND_FAT_GUY_AT_CIRCUS_TENT,59,254,314,8135,10073
+460,monster_zombie,Threed_Circus Tent_1F,person,MASTER_BELCH_DEFEATED,308,248,316,7962,10130
+461,monster_zombie,Threed_Circus Tent_1F,person,MASTER_BELCH_DEFEATED,308,249,314,7996,10061
+462,monster_zombie,Threed_Circus Tent_1F,person,MASTER_BELCH_DEFEATED,308,249,316,7984,10112
+463,monster_zombie_lying-head-right,Threed_Circus Tent_1F,person,ZOMBIES_ON_TENT_FLOOR,438,251,315,8060,10104
+464,monster_zombie_lying-head-right,Threed_Circus Tent_1F,person,ZOMBIES_ON_TENT_FLOOR,438,254,316,8147,10132
+465,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person,ZOMBIES_ON_TENT_FLOOR,334,252,316,8076,10136
+466,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person,ZOMBIES_ON_TENT_FLOOR,334,252,315,8092,10096
+467,monster_zombie_lying-head-right,Threed_Circus Tent_1F,person,ZOMBIES_ON_TENT_FLOOR,438,250,316,8018,10129
+468,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person,ZOMBIES_ON_TENT_FLOOR,334,253,317,8121,10156
+469,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person,ZOMBIES_ON_TENT_FLOOR,334,250,317,8012,10160
+470,monster_zombie_lying-head-right,Threed_Circus Tent_1F,person,ZOMBIES_ON_TENT_FLOOR,438,252,317,8084,10168
+471,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person,ZOMBIES_ON_TENT_FLOOR,334,251,318,8044,10176
+472,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person,ZOMBIES_ON_TENT_FLOOR,334,254,318,8140,10200
+473,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person,ZOMBIES_ON_TENT_FLOOR,334,252,319,8092,10208
+474,monster_zombie_lying-head-right,Threed_Circus Tent_1F,person,ZOMBIES_ON_TENT_FLOOR,438,251,318,8036,10200
+475,lookalike_teddy,Threed_Circus Tent_1F,person,JEFF_JOINS,118,248,317,7960,10168
+476,man_bald_black-suit,Threed_Circus Tent_1F,person,JEFF_JOINS,56,251,314,8044,10067
+477,prettyman,Threed_Under Graveyard_Skyrunner-Room,person,FIXED_SKYRUNNER_THREED,59,212,314,6784,10064
+478,man_glasses_orange-cardigan,Threed_Under Graveyard_Skyrunner-Room,person,FIXED_SKYRUNNER_THREED,64,210,313,6720,10040
+479,invisible_3,Threed_Under Graveyard_Skyrunner-Room,object,~OPENED_THREED_CEMETERY_UNDREGROUND_DOOR,381,214,313,6872,10024
+480,manhole,Threed_Under Graveyard_Skyrunner-Room,object,FIXED_SKYRUNNER_THREED,230,211,313,6760,10032
+481,sky-runner_broken,Threed_Under Graveyard_Skyrunner-Room,object,BROKEN_SKYRUNNER_THREED,240,209,314,6712,10048
+482,sky-runner,Threed_Under Graveyard_Skyrunner-Room,object,FIXED_SKYRUNNER_THREED,209,211,313,6760,10032
+483,bellhop,Threed_Hotel (Threed Sunset Hotel)_1F,person,~ZOMBIE_CHICK_HOTEL_MUSIC,73,210,290,6744,9280
+484,Threed-hotel-woman,Threed_Hotel (Threed Sunset Hotel)_1F,person,ZOMBIE_CHICK_AT_HOTEL_1,87,210,291,6728,9320
+485,man_glasses_-black-suit,Threed_Hotel (Threed Sunset Hotel)_1F,person,MASTER_BELCH_DEFEATED,62,211,291,6768,9312
+486,man_blonde_blue-blazer,Threed_Hotel (Threed Sunset Hotel)_1F,person,MASTER_BELCH_DEFEATED,70,213,290,6824,9296
+487,phone_black,Threed_Hotel (Threed Sunset Hotel)_1F,person,always,215,209,289,6705,9273
+488,atm-machine,Threed_Hotel (Threed Sunset Hotel)_1F_ATM,object,always,259,225,290,7216,9280
+489,Threed-hotel-woman,Threed_Hotel (Threed Sunset Hotel)_1F_Lobby,person,ZOMBIE_CHICK_AT_HOTEL_2,87,244,290,7808,9304
+490,bellhop,Threed_Hotel (Threed Sunset Hotel)_1F_Lobby,person,JUST_RESTED,73,244,290,7816,9280
+491,bellhop,Threed_Hotel (Threed Sunset Hotel)_1F_Lobby,person,Unknown Flag,73,248,290,7944,9304
+492,Threed-hotel-woman,Threed_Hotel (Threed Sunset Hotel)_1F_Left-Room,person,ZOMBIE_CHICK_AT_HOTEL_3,87,236,295,7576,9440
+493,monster_zombie,Threed_Hotel (Threed Sunset Hotel)_1F_Left-Room,person,ZOMBIE_CHICK_AT_HOTEL_3,308,238,294,7632,9432
+494,monster_ghost,Threed_Hotel (Threed Sunset Hotel)_1F_Left-Room,person,ZOMBIE_CHICK_AT_HOTEL_3,305,238,295,7616,9440
+495,monster_zombie,Threed_Hotel (Threed Sunset Hotel)_1F_Left-Room,person,ZOMBIE_CHICK_AT_HOTEL_3,308,237,295,7608,9456
+496,monster_ghost,Threed_Hotel (Threed Sunset Hotel)_1F_Left-Room,person,ZOMBIE_CHICK_AT_HOTEL_3,305,238,295,7624,9464
+497,monster_zombie-dog,Threed_Hotel (Threed Sunset Hotel)_1F_Left-Room,person,ZOMBIE_CHICK_AT_HOTEL_3,364,236,295,7560,9448
+498,man_blonde_black-suit,Threed_Hotel (Threed Sunset Hotel)_1F_Right-Room,person,always,61,250,295,8024,9440
+499,nurse,Threed_Hospital_1F,person,always,140,210,310,6736,9920
+500,man_bald_black-suit,Threed_Hospital_1F,person,always,56,211,311,6768,9960
+501,healer,Threed_Hospital_1F,person,always,189,213,310,6840,9936
+502,lookalike_shy-guy-mask,Threed_Hospital_2F_Right-Room,person,always,119,234,290,7512,9304
+503,doctor,Threed_Hospital_1F_Doctor's-Office,person,always,139,227,310,7264,9928
+504,man_glasses_orange-cardigan,Threed_Drug Store_1F,person,always,64,254,302,8147,9676
+505,man_cane_green-jacket,Threed_Drug Store_1F,person,always,52,253,302,8104,9672
+506,atm-machine,Threed_Drug Store_1F,object,always,259,251,302,8040,9664
+507,phone_payphone_left,Threed_Drug Store_1F,person,always,216,251,303,8056,9712
+508,fast-food-clerk,Threed_Mach Pizza_1F,person,always,138,220,294,7040,9424
+509,chef,Threed_Bakery_1F,person,always,137,251,310,8048,9920
+510,hint-man,Threed_Hint Man's House_1F,person,~HINT_GUY_ABSENT,136,251,306,8048,9800
+511,boy_blue-ballcap,Threed_Houses_Southeast_1F,person,VISITED_FOURSIDE,123,235,310,7520,9936
+512,man_hat_black-suit,Threed_Houses_Southwest_1F,person,~MASTER_BELCH_DEFEATED,63,219,302,7008,9688
+513,woman_blonde_red-blazer,Threed_Houses_Center-Northeast_1F,person,~VISITED_FOURSIDE,66,235,302,7544,9672
+514,woman_blonde_red-dress,Threed_Houses_Southeast-Mailbox_1F,person,~VISITED_FOURSIDE,68,218,311,7000,9952
+515,lookalike_shy-guy-mask,Threed_Overworld_Central,person,always,119,163,293,5224,9384
+516,maxwell-labs,Threed_Overworld_East-(Tunnel-to-Dusty-Dunes),person,~MASTER_BELCH_DEFEATED,69,185,286,5920,9176
+517,man_redhead_green-oxford,Threed_Overworld_Central,person,~PEOPLE_IN_THREED_ABSENT,113,166,285,5312,9128
+518,girl_blonde_yellow-dress,Threed_Overworld_Northeast,person,~PEOPLE_IN_THREED_ABSENT,122,188,278,6024,8896
+519,man_bald_black-suit,Threed_Overworld_Central,person,~ZOMBIES_ON_TENT_FLOOR,56,161,289,5152,9264
+520,man_blonde_blue-oxford,Threed_Overworld_Central,person,~SLIMY_LITTLE_PILE_1_DEFEATED_AND_THREED_BLOND_GUY_BY_TENT_ABSENT,112,167,284,5368,9112
+521,elevator-atatendant,Threed_Overworld_East-(Tunnel-to-Dusty-Dunes),person,JEFF_JOINS,67,190,283,6080,9056
+522,boy_blue-ballcap,Threed_Overworld_Central,person,~VISITED_FOURSIDE,123,170,286,5448,9160
+523,monster_mouse,Threed_Overworld_Northeast,person,~MASTER_BELCH_DEFEATED,281,191,278,6136,8896
+524,ruffini,Threed_Overworld_South,person,always,130,166,303,5340,9696
+525,woman_cane_pink-dress,Threed_Overworld_West-(Tunnel-to-Twoson),person,~PEOPLE_IN_THREED_ABSENT,53,157,294,5024,9408
+526,man_hat_green-jacket,Threed_Overworld_East-(Tunnel-to-Dusty-Dunes),person,~MASTER_BELCH_DEFEATED,54,188,295,6016,9448
+527,lookalike_pigpen,Threed_Overworld_South,person,JEFF_JOINS,115,172,297,5520,9504
+528,girl_black-hair_red-jumper,Threed_Overworld_East-(Tunnel-to-Dusty-Dunes),person,MASTER_BELCH_DEFEATED,121,183,295,5864,9440
+529,man_orange-hair_sunglasses,Threed_Overworld_East-(Tunnel-to-Dusty-Dunes),person,MASTER_BELCH_DEFEATED,117,184,295,5896,9448
+530,girl_blonde_pink-dress,Threed_Overworld_East-(Tunnel-to-Dusty-Dunes),person,MASTER_BELCH_DEFEATED,120,184,295,5915,9471
+531,monster_boogie-tent_eye,Threed_Overworld_South,person,BOOGEY_TENT_IN_THREED,271,168,300,5392,9624
+532,monster_boogie-tent_eye,Threed_Overworld_South,person,BOOGEY_TENT_IN_THREED,271,169,300,5424,9624
+533,monster_boogie-tent_mouth,Threed_Overworld_South,person,BOOGEY_TENT_IN_THREED,272,169,301,5408,9656
+534,monster_zombie,Threed_Overworld_Northwest,person,~ZOMBIE_GUARDS_AWAY,308,161,261,5171,8364
+535,monster_zombie,Threed_Overworld_Northwest,person,~ZOMBIE_GUARDS_AWAY,308,162,261,5207,8353
+536,arms-dealer,Threed_Overworld_Central,person,~PEOPLE_IN_THREED_ABSENT,144,168,289,5392,9248
+537,man_hat_black-suit,Threed_Overworld_Central,person,ZOMBIE_CHICK_OUTSIDE_HOTEL,63,166,280,5336,8968
+538,Threed-hotel-woman,Threed_Overworld_Central,person,ZOMBIE_CHICK_OUTSIDE_HOTEL,87,172,281,5512,9000
+539,prettyman,Threed_Overworld_Central,person,ZOMBIES_ON_TENT_FLOOR,59,174,285,5572,9122
+540,man_glasses_orange-cardigan,Threed_Overworld_Central,person,ZOMBIES_ON_TENT_FLOOR,64,174,286,5576,9168
+541,woman_blonde_blue-blazer,Threed_Overworld_Central,person,ZOMBIES_ON_TENT_FLOOR,65,175,286,5616,9160
+542,woman_blonde_red-blazer,Threed_Overworld_Central,person,ZOMBIES_ON_TENT_FLOOR,66,176,284,5653,9119
+543,monster_zombie,Threed_Overworld_West-(Tunnel-to-Twoson),person,MASTER_BELCH_DEFEATED,308,158,298,5056,9560
+544,monster_zombie,Threed_Overworld_South,person,MASTER_BELCH_DEFEATED,308,163,302,5216,9672
+545,monster_zombie,Threed_Overworld_South,person,MASTER_BELCH_DEFEATED,308,164,302,5264,9672
+546,monster_ghost,Threed_Overworld_South,person,MASTER_BELCH_DEFEATED,305,159,303,5112,9704
+547,monster_ghost,Threed_Overworld_South,person,MASTER_BELCH_DEFEATED,305,172,302,5528,9688
+548,monster_dog,Threed_Overworld_South,person,MASTER_BELCH_DEFEATED,330,174,304,5592,9736
+549,invisible_3,Threed_Overworld_Northwest,person,~ZOMBIE_GUARDS_AWAY,381,163,261,5221,8381
+550,invisible_3,Threed_Overworld_Northwest,person,~ZOMBIE_GUARDS_AWAY,381,162,262,5208,8392
+551,lookalike_pigpen,Threed_Overworld_Central,person,~Unknown Flag,115,174,281,5568,8992
+552,woman_blonde_red-dress,Threed_Overworld_Northwest,person,HAPPY_THREED_PEOPLE,68,154,262,4932,8385
+553,man_hat_blue-suit,Threed_Overworld_Northwest,person,HAPPY_THREED_PEOPLE,55,152,262,4888,8392
+554,woman_blonde_blue-blazer,Threed_Overworld_Northwest,person,HAPPY_THREED_PEOPLE,65,154,263,4937,8425
+555,man_blonde_blue-blazer,Threed_Overworld_Northwest,person,HAPPY_THREED_PEOPLE,70,153,263,4896,8440
+556,man_glasses_orange-cardigan,Threed_Overworld_Northwest,person,HAPPY_THREED_PEOPLE,64,170,271,5456,8680
+557,man_blonde_blue-oxford,Threed_Overworld_East-(Tunnel-to-Dusty-Dunes),person,HAPPY_THREED_PEOPLE,112,196,293,6296,9392
+558,girl_blonde_pink-dress,Threed_Overworld_Northwest,person,HAPPY_THREED_PEOPLE,120,171,273,5472,8752
+559,prettyman,Threed_Overworld_Northwest,person,HAPPY_THREED_PEOPLE,59,169,276,5408,8832
+560,boy_baseball-helmet,Threed_Overworld_Northwest,person,HAPPY_THREED_PEOPLE,124,171,274,5480,8784
+561,man_orange-hair_sunglasses,Threed_Overworld_Northwest,person,HAPPY_THREED_PEOPLE,117,157,266,5032,8536
+562,lookalike_pigpen,Threed_Overworld_Central,person,MASTER_BELCH_DEFEATED,115,160,282,5144,9032
+563,man_hat_black-suit,Threed_Overworld_Northeast,person,DETECTIVE_IN_THREED,63,195,274,6240,8792
+564,man_mohawk_punk-clothes,Threed_Overworld_East-(Tunnel-to-Dusty-Dunes),person,PUNK_GUY_OUTSIDE_HIS_HOUSE_THREED,85,195,280,6256,8976
+565,lookalike_teddy,Threed_Overworld_Central,person,MEN_ABOUT_TO_ENTER_CIRCUS_TENT,118,172,286,5532,9159
+566,man_bald_black-suit,Threed_Overworld_Central,person,MEN_ABOUT_TO_ENTER_CIRCUS_TENT,56,177,286,5664,9168
+567,invisible_3,Threed_Overworld_Northeast,person,always,381,179,260,5752,8336
+568,invisible_3,Threed_Overworld_Central,person,always,381,175,284,5600,9112
+569,sign_don't-enter,Threed_Overworld_Northeast,object,always,228,176,270,5632,8656
+570,sign_bus-stop,Threed_Overworld_Central,object,always,202,170,280,5456,8984
+571,mailbox,Threed_Overworld_East-(Tunnel-to-Dusty-Dunes),object,always,227,191,293,6136,9392
+572,lamppost,Threed_Overworld_Northeast,object,always,201,178,271,5712,8688
+573,lamppost,Threed_Overworld_Northwest,object,always,201,168,272,5400,8728
+574,lamppost,Threed_Overworld_Central,object,always,201,165,278,5304,8912
+575,lamppost,Threed_Overworld_Central,object,always,201,180,279,5784,8944
+576,lamppost,Threed_Overworld_Northeast,object,always,201,187,273,5992,8744
+577,lamppost,Threed_Overworld_East-(Tunnel-to-Dusty-Dunes),object,always,201,192,287,6152,9184
+578,lamppost,Threed_Overworld_Central,object,always,201,166,293,5336,9384
+579,lamppost,Threed_Overworld_Central,object,always,201,182,291,5824,9328
+580,sign_bus-stop,Threed_Overworld_Central,object,always,202,172,282,5528,9032
+581,bench,Threed_Overworld_Central,object,always,198,171,282,5496,9032
+582,trashcan,Threed_Overworld_South,object,FLY_HONEY_TRASH_CAN_VISIBLE,214,169,300,5408,9608
+583,hotel_sign,Threed_Overworld_Central,object,always,442,171,280,5496,8976
+584,bus,Threed_Overworld_Central,object,MASTER_BELCH_DEFEATED,205,181,281,5792,9016
+585,monster_ghost,Transitions_Other Transitions_Threed-to-Dusty-Dunes,person,~MASTER_BELCH_DEFEATED,305,148,318,4736,10176
+586,monster_ghost,Transitions_Other Transitions_Threed-to-Dusty-Dunes,person,~MASTER_BELCH_DEFEATED,305,152,319,4864,10216
+587,monster_ghost,Transitions_Other Transitions_Threed-to-Dusty-Dunes,person,~MASTER_BELCH_DEFEATED,305,157,318,5048,10176
+588,monster_ghost,Transitions_Other Transitions_Threed-to-Dusty-Dunes,person,~MASTER_BELCH_DEFEATED,305,159,319,5096,10216
+589,monster_ghost,Transitions_Other Transitions_Threed-to-Dusty-Dunes,person,~MASTER_BELCH_DEFEATED,305,164,318,5264,10176
+590,monster_little-pile,Threed_Under Graveyard_Boss-Room,person,~MINI_BARF_DEFEATED,315,126,177,4048,5672
+591,tony_bed,Winters_Snow Wood_2F_Jeff-and-Tony's-Room,person,~TONY_JOINS,183,225,59,7208,1888
+592,jeff_bed,Winters_Snow Wood_2F_Jeff-and-Tony's-Room,person,~JEFF_STARTS_HIS_JOURNEY,15,226,58,7232,1864
+593,junk-pile,Winters_Snow Wood_2F_Jeff-and-Tony's-Room,object,always,414,229,59,7328,1888
+594,maxwell-labs,Winters_Snow Wood_1F_Maxwell's-Room,person,always,69,243,50,7784,1608
+595,invisible_3,Winters_Snow Wood_1F_Locker-Room,object,always,381,227,49,7281,1591
+596,invisible_3,Winters_Snow Wood_1F_Locker-Room,object,always,381,226,50,7240,1600
+597,invisible_3,Winters_Snow Wood_1F_Locker-Room,object,always,381,227,50,7279,1628
+598,invisible_3,Winters_Snow Wood_1F_Locker-Room,object,always,381,226,50,7249,1631
+599,invisible_3,Winters_Snow Wood_1F_Locker-Room,object,always,381,225,51,7200,1632
+600,man_blonde_black-suit,Winters_Snow Wood_2F,person,always,61,248,97,7952,3104
+601,man_blonde_blue-oxford,Winters_Snow Wood_2F,person,always,112,249,96,7984,3096
+602,man_redhead_green-oxford,Winters_Snow Wood_2F,person,always,113,250,97,8008,3120
+603,man_blonde_blue-blazer,Winters_Snow Wood_2F,person,always,70,249,97,7976,3128
+604,man_blonde_i-love-ny-shirt,Winters_Snow Wood_2F_Present-Room,person,always,114,241,59,7720,1904
+605,man_orange-hair_sunglasses,Winters_Snow Wood_2F_Present-Room,person,always,117,244,57,7813,1848
+606,man_glasses_orange-cardigan,Winters_Drug Store_1F,person,always,64,237,78,7584,2504
+607,woman_blonde_red-dress,Winters_Drug Store_1F,person,always,68,235,78,7520,2504
+608,lookalike_pigpen,Winters_Drug Store_1F,person,always,115,233,79,7472,2552
+609,bubble-monkey,Winters_Drug Store_1F,person,~BUBBLE_MONKEY_JOINS,46,237,79,7608,2528
+610,phone_black,Winters_Drug Store_1F,person,always,215,236,78,7560,2504
+611,atm-machine,Winters_Drug Store_1F,object,always,259,234,79,7512,2544
+612,tessie-watcher,Winters_Tents_South-1_1F,person,always,83,225,54,7224,1736
+613,tessie-watcher,Winters_Tents_South-3_1F,person,always,83,226,62,7240,2000
+614,phone_black,Winters_Tents_South-3_1F,person,always,215,225,61,7216,1976
+615,dr-andonuts,Winters_Andonuts Lab_1F,person,~ANDONUTS_AT_LAB_ABSENT,162,249,90,7984,2896
+616,monster_mouse,Winters_Andonuts Lab_1F,person,APPLE_MOUSE_AT_WINTERS_LAB,281,253,90,8096,2904
+617,monkey-girl,Winters_Andonuts Lab_1F,person,MONKEYS_AT_WINTERS_LAB,160,244,91,7832,2920
+618,bubble-monkey,Winters_Andonuts Lab_1F,person,MONKEYS_AT_WINTERS_LAB,46,245,91,7868,2925
+619,monster_cave-boy,Winters_Andonuts Lab_1F,person,JEFF_JOINS,329,251,89,8048,2848
+620,phone_black,Winters_Andonuts Lab_1F,person,always,215,250,90,8024,2888
+621,manhole,Winters_Andonuts Lab_1F,object,~SKY_RUNNER_AT_WINTERS_LAB,230,244,89,7824,2864
+622,rejuvenator,Winters_Andonuts Lab_1F,object,always,429,250,88,8000,2832
+623,sky-runner,Winters_Andonuts Lab_1F,object,~SKY_RUNNER_AT_WINTERS_LAB,209,244,89,7824,2864
+624,man_redhead_green-oxford,Winters_Tents_North_1F,person,~GIYGAS_DEFEATED,113,130,186,4168,5960
+625,man_blonde_blue-blazer,Winters_Tents_North_1F,person,~GIYGAS_DEFEATED,70,129,186,4132,5973
+626,maxwell-labs,Winters_Overworld_North-(Boarding-School),person,CAPTIVES_AT_STONEHENGE,69,14,75,472,2408
+627,tessie-watcher,Winters_Overworld_Central-North-(Tessie-and-Watchers),person,always,83,12,106,400,3408
+628,tessie-watcher,Winters_Overworld_Central-North-(Tessie-and-Watchers),person,always,83,9,106,304,3392
+629,tessie-watcher,Winters_Overworld_Central-North-(Tessie-and-Watchers),person,~CAPTIVES_AT_STONEHENGE,83,15,106,480,3408
+630,bubble-monkey,Winters_Overworld_Central-North-(Tessie-and-Watchers),person,BUBBLE_MONKEY_AT_LAKE_TESS,46,20,107,664,3448
+631,brickroad,Winters_Overworld_South-(Stonehenge),person,BRICK_ROAD_OUTSIDE_DUNGEON,161,22,147,712,4704
+632,monkey-girl,Winters_Overworld_South-(Stonehenge),person,BUBBLE_MONKEY_IN_PARTY,160,13,134,432,4304
+633,prettyman,Winters_Overworld_South-(Stonehenge),person,~STARMAN_DX_DEFEATED,59,8,142,272,4568
+634,tony_prone,Winters_Overworld_North-(Boarding-School),person,TONY_AT_BOARDING_SCHOOL_GATE,357,15,71,492,2280
+635,tessie-watcher,Winters_Overworld_Central-North-(Tessie-and-Watchers),person,always,83,19,104,624,3336
+636,tessie-watcher,Winters_Overworld_Central-North-(Tessie-and-Watchers),person,always,83,23,104,760,3344
+637,monkey-girl,Winters_Overworld_North-(Boarding-School),person,BUBBLE_MONKEYS_WIFE_AT_WINTERS,160,17,72,552,2304
+638,maxwell-labs,Winters_Overworld_North-(Boarding-School),person,GIYGAS_DEFEATED,69,15,72,482,2317
+639,tony,Winters_Overworld_North-(Boarding-School),person,GIYGAS_DEFEATED,182,16,72,522,2311
+640,invisible_3,Winters_Overworld_South-(Stonehenge),person,always,381,10,136,344,4360
+641,invisible_3,Winters_Overworld_Central-North-(Tessie-and-Watchers),person,always,381,18,107,592,3432
+642,animation_tessie-water_fill-layer,Winters_Overworld_Central-North-(Tessie-and-Watchers),object,LAKE_TESS_WIND_BLOWING,371,19,109,626,3506
+643,animation_tessie-water_fill-layer,Winters_Overworld_Central-North-(Tessie-and-Watchers),object,LAKE_TESS_WIND_BLOWING,371,21,110,679,3530
+644,animation_tessie-water_fill-layer,Winters_Overworld_Central-North-(Tessie-and-Watchers),object,LAKE_TESS_WIND_BLOWING,371,21,111,687,3572
+645,pencil-statue,Winters_Overworld_South-(Stonehenge),object,~WINTERS_PENCIL_ERASED,265,26,148,848,4736
+646,sign_small,Winters_Overworld_South-(Stonehenge),object,always,213,25,145,808,4664
+647,rainy-pond-waterdrop,Winters_Overworld_Central-South-(Rainy-Pond),object,always,222,9,118,311,3799
+648,rainy-pond-waterdrop,Winters_Overworld_Central-South-(Rainy-Pond),object,always,222,11,118,352,3803
+649,rainy-pond-waterdrop,Winters_Overworld_Central-South-(Rainy-Pond),object,always,222,9,119,296,3832
+650,rainy-pond-waterdrop,Winters_Overworld_Central-South-(Rainy-Pond),object,always,222,10,119,326,3826
+651,rainy-pond-waterdrop,Winters_Overworld_Central-South-(Rainy-Pond),object,always,222,11,120,352,3840
+652,rainy-pond-waterdrop,Winters_Overworld_Central-South-(Rainy-Pond),object,always,222,9,120,303,3851
+653,rainy-pond-waterdrop,Winters_Overworld_Central-South-(Rainy-Pond),object,always,222,10,120,336,3856
+654,animation_tessie-water_fill-layer,Winters_Overworld_Central-North-(Tessie-and-Watchers),object,LAKE_TESS_WIND_BLOWING,371,19,111,616,3572
+655,animation_tessie-water_top,Winters_Overworld_Central-North-(Tessie-and-Watchers),object,LAKE_TESS_WIND_BLOWING,368,17,108,549,3483
+656,animation_tessie-water_bottom,Winters_Overworld_Central-North-(Tessie-and-Watchers),object,LAKE_TESS_WIND_BLOWING,369,17,110,547,3523
+657,apple-kid,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,~STARMAN_DX_DEFEATED,176,244,190,7821,6085
+658,apple-kid,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,SHYNESS_BOOK_AT_LIBRARY,176,245,191,7868,6123
+659,mr-saturn,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,~STARMAN_DX_DEFEATED,171,243,189,7785,6070
+660,mr-saturn,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,SHYNESS_BOOK_AT_LIBRARY,171,247,191,7909,6123
+661,tony,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,~STARMAN_DX_DEFEATED,182,242,190,7756,6089
+662,tony,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,SHYNESS_BOOK_AT_LIBRARY,182,243,190,7784,6096
+663,tessie-watcher,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,~STARMAN_DX_DEFEATED,83,242,189,7762,6053
+664,tessie-watcher,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,SHYNESS_BOOK_AT_LIBRARY,83,246,190,7880,6096
+665,lookalike_mr-t,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,SHYNESS_BOOK_AT_LIBRARY,79,242,191,7748,6131
+666,hippy,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,SHYNESS_BOOK_AT_LIBRARY,361,241,190,7714,6106
+667,dr-andonuts,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,~STARMAN_DX_DEFEATED,162,243,189,7800,6048
+668,dr-andonuts,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,SHYNESS_BOOK_AT_LIBRARY,162,244,191,7822,6126
+669,lookalike_mr-t,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,~STARMAN_DX_DEFEATED,79,244,189,7819,6069
+670,hippy,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules,person,~STARMAN_DX_DEFEATED,361,245,190,7848,6088
+671,eraser-statue,Dusty Dunes Desert_Desert Gold Mine_Main-Room,object,~IRON_ERASER_ERASED,407,202,189,6488,6064
+672,monster_starman,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules_Boss,person,~STARMAN_DX_ABSENT,303,252,147,8064,4712
+673,exit-mouse-father,Winters_Stonehenge Base_B7F_Exit-Mouse,person,always,451,210,183,6744,5856
+674,exit-mouse,Winters_Stonehenge Base_B7F_Exit-Mouse,person,~HAS_EXIT_MOUSE,436,211,182,6768,5824
+675,exit-mouse,Winters_Stonehenge Base_B7F_Exit-Mouse,person,always,436,212,182,6808,5840
+676,monster_your-sanctuary,Rainy Circle_Rooms_Main-Room,person,~CONQUERED_SANCTUARY_4,333,160,5,5128,168
+677,rope_coiled,Rainy Circle_Rooms_Main-Room,object,~WINTERS_ROPE_LOWERED,356,157,10,5028,336
+678,monster_duck,Winters_Brickroad Dungeon_1F,person,~BRICK_ROAD_DUNGEON_DUCK_1_DEFEATED,287,50,115,1608,3688
+679,monster_duck,Winters_Brickroad Dungeon_1F,person,~BRICK_ROAD_DUNGEON_DUCK_2_DEFEATED,287,46,113,1488,3616
+680,present,Winters_Brickroad Dungeon_1F,person,~BRICK_ROAD_DUNGEON_PROTOPLASM_1_DEFEATED,195,50,116,1624,3736
+681,present,Winters_Brickroad Dungeon_1F,person,~BRICK_ROAD_DUNGEON_PROTOPLASM_2_DEFEATED,195,40,110,1280,3520
+682,monster_mouse,Winters_Brickroad Dungeon_1F,person,~BRICK_ROAD_DUNGEON_MOUSE_1_DEFEATED,416,52,110,1688,3520
+683,monster_mouse,Winters_Brickroad Dungeon_1F,person,~BRICK_ROAD_DUNGEON_MOUSE_2_DEFEATED,416,38,114,1240,3664
+684,phone_black,Winters_Brickroad Dungeon_1F,person,always,215,36,116,1176,3720
+685,sign_small,Winters_Brickroad Dungeon_1F,object,always,213,61,110,1960,3520
+686,sign_small,Winters_Brickroad Dungeon_1F,object,always,213,49,110,1584,3520
+687,sign_small,Winters_Brickroad Dungeon_1F,object,always,213,35,116,1144,3712
+688,monster_little-pile,Grapefruit Falls_Belch's Base_Main,person,~SLIMY_LITTLE_PILE_1_DEFEATED_AND_THREED_BLOND_GUY_BY_TENT_ABSENT,315,102,172,3280,5504
+689,monster_little-pile,Grapefruit Falls_Belch's Base_Main,person,~MASTER_BELCH_DEFEATED,315,97,178,3128,5704
+690,monster_little-pile,Grapefruit Falls_Belch's Base_Main,person,~MASTER_BELCH_DEFEATED,315,96,179,3080,5728
+691,monster_little-pile,Grapefruit Falls_Belch's Base_Main,person,~SLIMY_LITTLE_PILE_2_DEFEATED,315,68,179,2192,5744
+692,monster_little-pile,Grapefruit Falls_Belch's Base_Main,person,~SLIMY_LITTLE_PILE_3_DEFEATED,315,87,172,2800,5504
+693,mr-saturn,Grapefruit Falls_Belch's Base_Main,person,~MASTER_BELCH_DEFEATED,171,96,176,3080,5645
+694,mr-saturn,Grapefruit Falls_Belch's Base_Main,person,~MASTER_BELCH_DEFEATED,171,97,176,3135,5645
+695,fly-honey-jar,Grapefruit Falls_Belch's Base_Main,object,always,248,99,176,3192,5656
+696,fly-honey-jar,Grapefruit Falls_Belch's Base_Main,object,always,248,100,176,3227,5662
+697,monster_belch,Grapefruit Falls_Belch's Base_Boss-Room,person,~MASTER_BELCH_DEFEATED,328,139,148,4464,4744
+698,ball-and-chain,Grapefruit Falls_Belch's Base_Main,object,always,263,97,176,3104,5648
+699,ball-and-chain,Grapefruit Falls_Belch's Base_Main,object,always,263,98,176,3160,5648
+700,ness_unconscious,Milky Well_Rooms_Main-Room,person,JUST_WOKE_UP_FROM_MAGICANT,16,24,166,787,5340
+701,paula,Milky Well_Rooms_Main-Room,person,JUST_WOKE_UP_FROM_MAGICANT,2,24,166,768,5314
+702,jeff,Milky Well_Rooms_Main-Room,person,JUST_WOKE_UP_FROM_MAGICANT,3,24,166,799,5317
+703,poo,Milky Well_Rooms_Main-Room,person,JUST_WOKE_UP_FROM_MAGICANT,4,25,166,826,5334
+704,milky-well-spout,Milky Well_Rooms_Main-Room,object,always,257,22,166,728,5312
+705,monster_your-sanctuary,Lilliput Steps_Rooms_Boss-Room,person,~CONQUERED_SANCTUARY_3,333,229,72,7344,2304
+706,mr-saturn,Transitions_Other Transitions_Belch's-Base-to-Saturn-Valley,person,HAPPY_THREED_PEOPLE,171,238,222,7616,7128
+707,mr-saturn,Transitions_Other Transitions_Belch's-Base-to-Saturn-Valley,person,HAPPY_THREED_PEOPLE,171,253,222,8104,7112
+708,man_hat_green-jacket,Grapefruit Falls_Overworld_All,person,~VISITED_SATURN_VALLEY,54,199,71,6392,2296
+709,invisible_3,Grapefruit Falls_Overworld_All,person,always,381,202,7,6488,248
+710,mr-saturn,Saturn Valley_Hotel_1F,person,always,171,201,251,6448,8032
+711,phone_black,Saturn Valley_Hotel_1F,person,always,215,202,248,6480,7952
+712,mr-saturn,Saturn Valley_Doctor Saturn_1F,person,always,171,226,249,7240,7992
+713,mr-saturn,Saturn Valley_Saturn Shop_1F,person,always,171,242,251,7760,8032
+714,mr-saturn,Saturn Valley_Saturn Shop_1F,person,NESS_NIGHTMARE_DEFEATED,171,241,251,7720,8032
+715,mr-saturn,Saturn Valley_Saturn Shop_1F,person,always,171,242,250,7744,8000
+716,atm-machine_saturn,Saturn Valley_Saturn Shop_1F,object,always,447,241,250,7712,8008
+717,phone_black,Saturn Valley_Saturn Shop_1F,person,always,215,241,248,7736,7952
+718,mr-saturn,Saturn Valley_Overworld_North,person,~PARTY_IS_ROBOTIFIED,171,11,243,368,7784
+719,mr-saturn,Saturn Valley_Overworld_North,person,~PARTY_IS_ROBOTIFIED,171,13,238,424,7640
+720,mr-saturn,Saturn Valley_Overworld_North,person,MASTER_BELCH_DEFEATED,171,12,229,400,7344
+721,mr-saturn,Saturn Valley_Overworld_North,person,~PARTY_IS_ROBOTIFIED,171,17,235,568,7520
+722,mr-saturn,Saturn Valley_Overworld_North,person,~PARTY_IS_ROBOTIFIED,171,9,228,304,7304
+723,mr-saturn,Saturn Valley_Overworld_North,person,MASTER_BELCH_DEFEATED,171,17,231,544,7408
+724,mr-saturn,Saturn Valley_Overworld_North,person,MASTER_BELCH_DEFEATED,171,15,233,504,7480
+725,mr-saturn,Saturn Valley_Overworld_North,person,MASTER_BELCH_DEFEATED,171,16,238,512,7624
+726,mr-saturn,Saturn Valley_Overworld_North,person,MASTER_BELCH_DEFEATED,171,6,240,216,7680
+727,apple-kid,Saturn Valley_Overworld_North,person,VISITED_UNDERWORLD,176,10,239,350,7653
+728,dr-andonuts,Saturn Valley_Overworld_North,person,VISITED_UNDERWORLD,162,12,239,384,7648
+729,george-montague,Saturn Valley_Overworld_North,person,UNDERWORLD_TENDA_GATE_OPEN,172,10,236,330,7582
+730,mr-saturn,Saturn Valley_Overworld_North,person,GIYGAS_DEFEATED,171,4,238,144,7616
+731,mr-saturn,Saturn Valley_Overworld_North,person,GIYGAS_DEFEATED,171,13,236,424,7568
+732,mr-saturn,Saturn Valley_Overworld_North,person,MASTER_BELCH_DEFEATED,171,15,229,504,7344
+733,monster_mouse,Saturn Valley_Overworld_North,person,GIYGAS_DEFEATED,281,9,238,312,7632
+734,jeff,Saturn Valley_Overworld_North,person,GIYGAS_DEFEATED,3,13,239,417,7663
+735,mr-saturn,Saturn Valley_Overworld_North,person,PARTY_IS_ROBOTIFIED,171,10,237,349,7607
+736,invisible_3,Saturn Valley_Overworld_North,person,always,381,19,230,632,7376
+737,mr-saturn,Fourside_Overworld_South,person,always,171,98,164,3144,5248
+738,mr-saturn,Fourside_Overworld_South,person,always,171,102,163,3280,5232
+739,mr-saturn,Fourside_Overworld_South,person,always,171,100,163,3216,5216
+740,mr-saturn,Fourside_Overworld_South,person,always,171,100,162,3200,5192
+741,phase-distorter,Saturn Valley_Overworld_North,object,NESS_NIGHTMARE_DEFEATED,210,12,237,385,7601
+742,sign_spa,Saturn Valley_Overworld_North,object,always,405,16,230,528,7376
+743,sign_small,Saturn Valley_Overworld_North,object,always,213,16,228,536,7312
+744,present,Saturn Valley_Overworld_North,object,PRESENTS_AT_SATURN_VALLEY,195,12,236,392,7552
+745,present,Saturn Valley_Overworld_North,object,PRESENTS_AT_SATURN_VALLEY,195,9,237,300,7596
+746,present,Saturn Valley_Overworld_North,object,PRESENTS_AT_SATURN_VALLEY,195,14,238,464,7624
+747,man_glasses_orange-cardigan,Dusty Dunes Desert_Drug Store_1F,person,always,64,243,66,7792,2120
+748,maxwell-labs,Dusty Dunes Desert_Drug Store_1F,person,always,69,241,67,7720,2152
+749,man_cane_green-jacket,Dusty Dunes Desert_Drug Store_1F,person,always,52,242,67,7768,2152
+750,atm-machine,Dusty Dunes Desert_Drug Store_1F,object,always,259,245,66,7840,2112
+751,phone_black,Dusty Dunes Desert_Drug Store_1F,person,always,215,244,66,7816,2120
+752,construction-worker,Dusty Dunes Desert_Construction Shack_1F,person,always,173,250,59,8016,1904
+753,phone_black,Dusty Dunes Desert_Construction Shack_1F,person,always,215,251,59,8040,1896
+754,woman_blonde_red-blazer,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),person,~TRAFFIC_JAM_CLEARED,66,54,315,1736,10080
+755,man_blonde_blue-blazer,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),person,~TRAFFIC_JAM_CLEARED,70,58,312,1880,10008
+756,man_blonde_resortwear,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),person,~TRAFFIC_JAM_CLEARED,71,57,313,1848,10032
+757,lookalike_teddy,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),person,~TRAFFIC_JAM_CLEARED,118,57,312,1829,9995
+758,man_lying-down_swimwear,Dusty Dunes Desert_Overworld_Northwest,person,always,103,63,288,2044,9216
+759,woman_lying-down_swimwear,Dusty Dunes Desert_Overworld_Northwest,person,always,104,64,288,2060,9232
+760,george-montague,Dusty Dunes Desert_Overworld_East-(Dig-Site),person,~Unknown Flag,172,111,302,3568,9664
+761,woman_blonde_red-dress,Dusty Dunes Desert_Overworld_East-(Dig-Site),person,DESERT_MINE_EXPANDED,68,114,299,3672,9584
+762,girl_blonde_pink-dress,Dusty Dunes Desert_Overworld_East-(Dig-Site),person,DESERT_MINE_EXPANDED,120,114,298,3662,9553
+763,lookalike_teddy,Dusty Dunes Desert_Overworld_East-(Dig-Site),person,DESERT_MINE_EXPANDED,118,116,298,3712,9544
+764,man_hat_black-suit,Dusty Dunes Desert_Overworld_East-(Dig-Site),person,DESERT_MINE_EXPANDED,63,118,299,3792,9584
+765,sanchez-brother,Dusty Dunes Desert_Overworld_South,person,always,110,99,309,3170,9897
+766,sanchez-brother,Dusty Dunes Desert_Overworld_South,person,always,110,100,309,3204,9899
+767,sanchez-brother,Dusty Dunes Desert_Overworld_South,person,always,110,101,309,3232,9912
+768,monkey-boy,Dusty Dunes Desert_Overworld_North,person,always,133,75,292,2424,9352
+769,arms-dealer,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),person,always,144,46,307,1472,9832
+770,construction-worker,Transitions_Dusty Dunes to Fourside_Fourside-Bridge,person,DIAMOND_TO_BE_DELIVERED,173,156,312,5000,10008
+771,monkey-boy,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),person,always,133,48,302,1552,9672
+772,monkey-boy,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),person,TELEPORT_MONKEY_NEAR_MONKEY_CAVE_ENTRANCE,133,46,303,1480,9696
+773,monkey-boy,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),person,TELEPORT_MONKEY_NEAR_DESERT_ROAD,133,38,312,1232,10000
+774,healer,Dusty Dunes Desert_Overworld_East-(Dig-Site),person,DESERT_MINE_EXPANDED,189,117,298,3760,9552
+775,man_blonde_i-love-ny-shirt,Dusty Dunes Desert_Overworld_East-(Dig-Site),person,DESERT_MINE_EXPANDED,114,118,297,3792,9528
+776,invisible_3,Transitions_Dusty Dunes to Fourside_Fourside-Bridge,person,always,381,176,311,5656,9960
+777,invisible_3,Dusty Dunes Desert_Overworld_East-(Dig-Site),person,DESERT_MINE_EXPANDED,381,116,299,3728,9592
+778,sign_small,Dusty Dunes Desert_Overworld_North,object,always,213,92,282,2960,9040
+779,arcade-game,Dusty Dunes Desert_Overworld_South,object,always,235,98,310,3160,9944
+780,animal-bones,Dusty Dunes Desert_Overworld_Northwest,object,always,236,58,293,1872,9384
+781,animal-bones,Dusty Dunes Desert_Overworld_North,object,always,236,97,292,3112,9344
+782,sesame-seed_black,Dusty Dunes Desert_Overworld_Northwest,person,always,238,63,279,2040,8936
+783,sesame-seed_white,Dusty Dunes Desert_Overworld_North,person,always,237,91,300,2920,9600
+784,sportscar,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),person,~TRAFFIC_JAM_CLEARED,255,56,312,1800,10000
+785,taxi,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),object,~TRAFFIC_JAM_CLEARED,206,61,312,1952,10000
+786,red-truck_duplicate,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),object,~TRAFFIC_JAM_CLEARED,459,58,312,1880,10000
+787,van_duplicate,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),object,~TRAFFIC_JAM_CLEARED,460,58,315,1876,10092
+788,food-cart,Dusty Dunes Desert_Overworld_East-(Dig-Site),object,DESERT_MINE_EXPANDED,229,118,297,3776,9520
+789,red-truck,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),object,~TRAFFIC_JAM_CLEARED,207,62,313,2000,10040
+790,sign_bus-stop,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),object,always,202,48,311,1544,9976
+791,sign_bus-stop,Dusty Dunes Desert_Overworld_Southwest-(Drug-Store),object,always,202,47,314,1512,10048
+792,sign_small,Dusty Dunes Desert_Overworld_East-(Dig-Site),object,always,213,107,301,3448,9648
+793,backhoe,Dusty Dunes Desert_Overworld_East-(Dig-Site),object,~DESERT_MINE_BULLDOZER_MOVED,254,113,303,3616,9696
+794,sparkle_tiny,Dusty Dunes Desert_Overworld_North,object,~GOT_CONTACT_LENS,269,95,279,3064,8936
+795,backhoe,Transitions_Dusty Dunes to Fourside_Fourside-Bridge,object,DIAMOND_TO_BE_DELIVERED,254,156,312,5008,10000
+796,backhoe,Dusty Dunes Desert_Overworld_East-(Dig-Site),object,DESERT_MINE_BULLDOZER_MOVED,254,116,303,3736,9696
+797,tala-lama,Dusty Dunes Desert_Desert Gold Mine_Room-2,person,~QUEST_TO_YOGURT_MACHINE,177,224,166,7192,5320
+798,monkey-boy,Dusty Dunes Desert_Desert Gold Mine_Room-2,person,~QUEST_TO_YOGURT_MACHINE,133,225,166,7224,5328
+799,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start-(Picnic-Lunch,-Skip-Sandwich)",person,~MONKEY_CAVE_PICNIC_LUNCH,133,193,170,6182,5446
+800,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start-(Picnic-Lunch,-Skip-Sandwich)",person,~MONKEY_CAVE_SKIP_SANDWICH,133,195,170,6265,5445
+801,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start-(Picnic-Lunch,-Skip-Sandwich)",person,MONKEY_CAVE_PICNIC_LUNCH,133,193,169,6207,5417
+802,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start-(Picnic-Lunch,-Skip-Sandwich)",person,MONKEY_CAVE_SKIP_SANDWICH,133,194,169,6238,5419
+803,monkey-girl,"Dusty Dunes Desert_Monkey Cave_Start_Left-(Pizza,-Wet-Towel)",person,~MONKEY_CAVE_PIZZA_1,160,193,178,6180,5707
+804,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Left-(Pizza,-Wet-Towel)",person,~MONKEY_CAVE_WET_TOWEL,133,195,178,6267,5708
+805,monkey-girl,"Dusty Dunes Desert_Monkey Cave_Start_Left-(Pizza,-Wet-Towel)",person,MONKEY_CAVE_PIZZA_1,160,194,178,6208,5696
+806,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Left-(Pizza,-Wet-Towel)",person,MONKEY_CAVE_WET_TOWEL,133,195,178,6240,5696
+807,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hamburger,-Hamburger)",person,~MONKEY_CAVE_HAMBURGER_2,133,193,194,6192,6208
+808,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hamburger,-Hamburger)",person,~MONKEY_CAVE_HAMBURGER_1,133,194,194,6224,6208
+809,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hamburger,-Hamburger)",person,MONKEY_CAVE_HAMBURGER_2,133,192,193,6163,6196
+810,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hamburger,-Hamburger)",person,MONKEY_CAVE_HAMBURGER_1,133,195,193,6261,6194
+811,monkey-boy,Dusty Dunes Desert_Monkey Cave_Start_Left_Left-(get-Fresh-Egg),person,~TALKED_TO_FRESH_EGG_GIVING_MONKEY,133,194,186,6217,5960
+812,monkey-boy,Dusty Dunes Desert_Monkey Cave_Start_Left_Left-(get-Fresh-Egg),person,TALKED_TO_FRESH_EGG_GIVING_MONKEY,133,193,186,6184,5960
+813,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right-(Pizza,-Protein-Drink)",person,~MONKEY_CAVE_PIZZA_2,133,201,162,6448,5184
+814,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right-(Pizza,-Protein-Drink)",person,~MONKEY_CAVE_PROTEIN_DRINK,133,202,162,6480,5184
+815,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right-(Pizza,-Protein-Drink)",person,MONKEY_CAVE_PIZZA_2,133,200,161,6415,5174
+816,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right-(Pizza,-Protein-Drink)",person,MONKEY_CAVE_PROTEIN_DRINK,133,203,161,6504,5164
+817,monkey-girl,"Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Ruler,-Fresh-Egg)",person,~MONKEY_CAVE_RULER,160,209,177,6700,5694
+818,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Ruler,-Fresh-Egg)",person,~MONKEY_CAVE_FRESH_EGG,133,213,178,6832,5696
+819,monkey-girl,"Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Ruler,-Fresh-Egg)",person,MONKEY_CAVE_RULER,160,210,177,6723,5667
+820,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Ruler,-Fresh-Egg)",person,MONKEY_CAVE_FRESH_EGG,133,212,177,6808,5667
+821,monkey-girl,Dusty Dunes Desert_Monkey Cave_Start_Right_Right_Left-(get-King-Banana),person,always,160,209,186,6704,5960
+822,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hamburger,-King-Banana)",person,~MONKEY_CAVE_HAMBURGER_3,133,241,186,7723,5957
+823,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hamburger,-King-Banana)",person,~MONKEY_CAVE_KING_BANANA,133,243,186,7798,5959
+824,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hamburger,-King-Banana)",person,MONKEY_CAVE_HAMBURGER_3,133,241,185,7742,5926
+825,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hamburger,-King-Banana)",person,MONKEY_CAVE_KING_BANANA,133,242,185,7774,5929
+826,monkey-boy,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Pencil-Eraser),person,always,133,251,178,8048,5712
+827,pencil-statue,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Pencil-Eraser),object,~MONKEY_CAVE_PENCIL_ERASED,265,249,178,7984,5696
+828,monkey-boy,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Talah-Rama-Room),person,~TELEPORT_MONKEY_NOT_AT_CAVE,133,235,213,7528,6824
+829,tala-lama,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Talah-Rama-Room),person,always,177,236,213,7552,6816
+830,george-montague,Dusty Dunes Desert_Desert Gold Mine_Main-Room,person,Unknown Flag,172,251,213,8048,6832
+831,monster_mole_no-3,Dusty Dunes Desert_Desert Gold Mine_Main-Room,person,~GUARDIAN_MOLE_1_DEFEATED,419,228,170,7312,5464
+832,monster_mole_no-3,Dusty Dunes Desert_Desert Gold Mine_Main-Room,person,~GUARDIAN_MOLE_2_DEFEATED,419,211,194,6752,6208
+833,monster_mole_no-3,Dusty Dunes Desert_Desert Gold Mine_Main-Room,person,~GUARDIAN_MOLE_3_DEFEATED,419,204,206,6528,6592
+834,exit-mouse-father,Dusty Dunes Desert_Desert Gold Mine_Main-Room,person,always,451,227,188,7280,6032
+835,exit-mouse,Dusty Dunes Desert_Desert Gold Mine_Main-Room,person,~HAS_EXIT_MOUSE,436,226,188,7240,6024
+836,exit-mouse,Dusty Dunes Desert_Desert Gold Mine_Main-Room,person,always,436,226,187,7256,5992
+837,monster_mole_no-3,Dusty Dunes Desert_Desert Gold Mine_Room-1,person,~GUARDIAN_MOLE_4_DEFEATED,419,196,161,6287,5180
+838,monster_mole_no-3,Dusty Dunes Desert_Desert Gold Mine_Room-2,person,~GUARDIAN_MOLE_5_DEFEATED,419,253,163,8096,5240
+839,woman_blonde_red-blazer,Fourside_Topolla Theater_1F_Manager's-Office,person,always,66,139,154,4448,4936
+840,man_blonde_black-suit,Fourside_Topolla Theater_1F_Concert-Hall,person,~TOPOLLA_THEATER_BACKSTAGE_UNBLOCKED,61,140,183,4504,5864
+841,man_blonde_black-suit,Fourside_Topolla Theater_1F_Concert-Hall,person,TOPOLLA_THEATER_BACKSTAGE_UNBLOCKED,61,141,182,4520,5848
+842,venus,Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room,person,Unknown Flag,165,172,210,5520,6728
+843,runaway-5_lucky,Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room,person,~Unknown Flag,149,171,211,5472,6768
+844,runaway-5_nice,Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room,person,~Unknown Flag,186,170,210,5440,6744
+845,runaway-5_okay,Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room,person,~Unknown Flag,185,171,210,5488,6736
+846,runaway-5_gorgeous,Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room,person,~Unknown Flag,150,172,211,5504,6762
+847,runaway-5_groovy,Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room,person,~Unknown Flag,187,170,210,5456,6728
+848,man_glasses_-black-suit,Fourside_Topolla Theater_1F,person,always,62,157,172,5040,5520
+849,man_blonde_black-suit,Fourside_Topolla Theater_1F,person,~Unknown Flag,61,155,172,4965,5513
+850,man_blonde_black-suit,Fourside_Topolla Theater_1F,person,Unknown Flag,61,156,172,5008,5520
+851,man_blonde_resortwear,Fourside_Topolla Theater_1F,person,VENUS_AND_RUNAWAY_FANS_AT_TOPOLLA,71,148,172,4751,5524
+852,woman_blonde_resortwear,Fourside_Topolla Theater_1F,person,VENUS_AND_RUNAWAY_FANS_AT_TOPOLLA,72,149,172,4784,5512
+853,chef,Fourside_Bakery_1F,person,always,137,140,170,4488,5440
+854,woman_purse_green-dress,Fourside_Bakery_1F,person,always,58,138,171,4432,5488
+855,lookalike_mr-t,Fourside_Bakery_2F,person,always,79,163,186,5216,5968
+856,elevator-atatendant,Fourside_Monotoli_L1_Lobby_Elevator-Up,person,always,67,162,158,5184,5056
+857,man_blonde_black-suit,Fourside_Monotoli_L1_Lobby,person,always,61,175,170,5624,5464
+858,man_glasses_-black-suit,Fourside_Monotoli_L1_Lobby,person,always,62,173,169,5552,5416
+859,elevator-atatendant,Fourside_Monotoli_L1_Lobby,person,always,67,174,168,5584,5376
+860,monotoli,Fourside_Monotoli_L1_Lobby,person,GIYGAS_DEFEATED,164,171,169,5480,5408
+861,phone_payphone_left,Fourside_Monotoli_L1_Lobby,person,always,216,171,168,5496,5384
+862,bodyguard,Fourside_Monotoli_L2_Lobby,person,always,109,186,202,5976,6488
+863,bodyguard,Fourside_Monotoli_L2_Lobby,person,always,109,188,203,6016,6496
+864,elevator-atatendant,Fourside_Monotoli_L2_Lobby_Elevator-Down,person,always,67,162,166,5184,5312
+865,pokey_suit,Fourside_Monotoli_L2_Right-Room-(Pokey),person,~FOURSIDE_FREE_FROM_MONOTOLI,48,175,175,5600,5616
+866,bodyguard,Fourside_Monotoli_L2_Right-Room-(Pokey),person,~FOURSIDE_FREE_FROM_MONOTOLI,109,173,175,5560,5608
+867,bodyguard,Fourside_Monotoli_L2_Right-Room-(Pokey),person,~FOURSIDE_FREE_FROM_MONOTOLI,109,176,175,5640,5608
+868,aloysius,Fourside_Monotoli_L2_Left-Room-(Aloysius),person,~FOURSIDE_FREE_FROM_MONOTOLI,147,171,160,5472,5144
+869,elevator-atatendant,Fourside_Monotoli_L2_Lobby_Elevator-Up,person,CAN_ACCESS_48TH_MONOTILI_FLOOR,67,162,174,5184,5568
+870,elevator-atatendant,Fourside_Monotoli_L3_Lobby_Elevator-Down,person,always,67,162,182,5184,5824
+871,electra,Fourside_Monotoli_L3_Left_Up_Left_-Right_Up-(Electra),person,always,396,186,179,5968,5728
+872,monotoli,Fourside_Monotoli_L3_Left_Up_Left_-Right_Left_Left-(Monotoli),person,~TREMBLING_MONOTOLI_AT_48TH_FLOOR_ABSENT,164,176,187,5632,6008
+873,paula,Fourside_Monotoli_L3_Left_Up_Left_-Right_Left_Left-(Monotoli),person,~MONSTERS_IN_WINTERS,2,174,188,5580,6023
+874,monotoli,Fourside_Monotoli_L3_Left_Up_Left_-Right_Left_Left-(Monotoli),person,MONOTOLI_AT_48TH_FLOOR,164,173,188,5544,6016
+875,prettyman,Fourside_Monotoli_L3_Left_Up_Left_-Right_Left_Left-(Monotoli),person,GIYGAS_DEFEATED,59,173,187,5552,5992
+876,monster_bear,Fourside_Monotoli_L3_Left_Up_Left_-Right_Left_Left-(Monotoli),object,always,331,175,187,5616,5984
+877,monotoli-door-panel,Fourside_Monotoli_L3_Left_Up_Left_-Right_Left_Left-(Monotoli),object,~TREMBLING_MONOTOLI_AT_48TH_FLOOR_ABSENT,430,170,188,5456,6032
+878,monotoli-door-panel,Fourside_Monotoli_L3_Left_Up_Left_-Right_Left_Left-(Monotoli),object,TREMBLING_MONOTOLI_AT_48TH_FLOOR_ABSENT,430,170,187,5456,6000
+879,monster_securitybot,Fourside_Monotoli_L3_Left,person,~SENTRY_ROBOT_1_DEFEATED,310,187,155,6000,4960
+880,monster_securitybot,Fourside_Monotoli_L3_Left_Up_Up,person,~SENTRY_ROBOT_2_DEFEATED,310,188,163,6016,5224
+881,monster_securitybot,Fourside_Monotoli_L3_Hallway,person,~SENTRY_ROBOT_3_DEFEATED,310,179,183,5744,5872
+882,monster_securitybot,Fourside_Monotoli_L3_Hallway,person,~SENTRY_ROBOT_4_DEFEATED,310,172,183,5504,5864
+883,monster_clumsy-robot,Fourside_Monotoli_L3_Left_Up_Left_-Right_Left-(Clumsy-Robot),person,~SENTRY_ROBOT_6_DEFEATED,418,187,187,6012,5985
+884,runaway-5_lucky,Fourside_Monotoli_L3_Left_Up_Left_-Right_Left-(Clumsy-Robot),person,RUNAWAY_FIVE_AT_CLUMSY_ROBOT_ROOM,149,185,187,5928,5992
+885,runaway-5_gorgeous,Fourside_Monotoli_L3_Left_Up_Left_-Right_Left-(Clumsy-Robot),person,RUNAWAY_FIVE_AT_CLUMSY_ROBOT_ROOM,150,186,186,5960,5968
+886,runaway-5_okay,Fourside_Monotoli_L3_Left_Up_Left_-Right_Left-(Clumsy-Robot),person,RUNAWAY_FIVE_AT_CLUMSY_ROBOT_ROOM,185,186,187,5976,5992
+887,runaway-5_nice,Fourside_Monotoli_L3_Left_Up_Left_-Right_Left-(Clumsy-Robot),person,RUNAWAY_FIVE_AT_CLUMSY_ROBOT_ROOM,186,187,186,6000,5960
+888,runaway-5_groovy,Fourside_Monotoli_L3_Left_Up_Left_-Right_Left-(Clumsy-Robot),person,RUNAWAY_FIVE_AT_CLUMSY_ROBOT_ROOM,187,188,187,6047,5988
+889,monster_securitybot,Fourside_Monotoli_L3_Left_Up_Left,person,~SENTRY_ROBOT_5_DEFEATED,310,163,171,5216,5472
+890,man_bald_black-suit,Fourside_Hotel (Monotoli Grand Hotel)_1F,person,always,56,186,190,5976,6080
+891,bellhop,Fourside_Hotel (Monotoli Grand Hotel)_1F,person,always,73,189,190,6056,6096
+892,phone_black,Fourside_Hotel (Monotoli Grand Hotel)_1F,person,always,215,185,189,5939,6074
+893,atm-machine,Fourside_Hotel (Monotoli Grand Hotel)_1F_ATM,object,always,259,185,182,5936,5824
+894,man_blonde_blue-blazer,Fourside_Hotel (Monotoli Grand Hotel)_1F_Lobby,person,always,70,173,199,5536,6368
+895,bellhop,Fourside_Hotel (Monotoli Grand Hotel)_1F_Lobby,person,JUST_RESTED,73,176,198,5640,6336
+896,bartender,Fourside_Hospital_2F,person,always,84,171,206,5496,6592
+897,woman_redhead_blue-dress,Fourside_Hospital_2F,person,~DEPT_STORE_SPOOK_DEFEATED,108,173,206,5536,6600
+898,woman_redhead_blue-dress,Fourside_Hospital_2F,person,DEPT_STORE_SPOOK_DEFEATED,108,173,206,5560,6616
+899,maxwell-labs,Fourside_Hospital_2F,person,always,69,170,207,5456,6624
+900,drunk-man,Fourside_Hospital_2F,person,always,60,169,207,5423,6637
+901,prettyman,Fourside_Hospital_2F,person,~GIYGAS_DEFEATED,59,172,207,5528,6624
+902,aloysius,Fourside_Hospital_2F,person,GIYGAS_DEFEATED,147,171,207,5493,6632
+903,jukebox,Fourside_Hospital_2F,object,always,234,170,206,5456,6592
+904,monster_mouse,Fourside_Jackie's Cafe_1F_Backroom,person,always,281,147,155,4712,4968
+905,mani-mani-statue_broken,Fourside_Jackie's Cafe_1F_Backroom,object,always,246,150,157,4800,5024
+906,woman_blonde_red-dress,Fourside_Hospital_2F,person,always,68,187,214,5984,6856
+907,invisible_3,Fourside_Hospital_2F,person,always,381,187,213,5993,6834
+908,museum-curator,Fourside_Museum_1F_Exhibit-Room,person,~FOURSIDE_SEWERS_OPEN,174,137,166,4408,5320
+909,museum-curator,Fourside_Museum_1F_Exhibit-Room,person,FOURSIDE_SEWERS_OPEN,174,139,165,4464,5296
+910,man_cane_green-jacket,Fourside_Museum_1F_Exhibit-Room,person,always,52,148,165,4744,5304
+911,girl_black-hair_red-jumper,Fourside_Museum_1F_Exhibit-Room,person,always,121,145,165,4664,5288
+912,man_blonde_i-love-ny-shirt,Fourside_Museum_1F_Exhibit-Room,person,always,114,144,164,4624,5272
+913,invisible_3,Fourside_Museum_1F_Exhibit-Room,person,always,381,145,163,4656,5232
+914,nurse,Fourside_Hospital_1F,person,always,140,179,194,5744,6208
+915,healer,Fourside_Hospital_1F,person,always,189,174,194,5584,6216
+916,doctor,Fourside_Hospital_1F_Doctor's-Office,person,always,139,139,158,4448,5064
+917,nurse,Fourside_Hospital_1F_Doctor's-Office,person,always,140,137,159,4400,5088
+918,woman_cane_pink-dress,Fourside_Hospital_2F_Left-Room,person,always,53,186,198,5960,6360
+919,boy_blue-ballcap,Fourside_Hospital_2F_Left-Room,person,always,123,187,199,6000,6376
+920,lookalike_marcie,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,141,159,212,5112,6784
+921,elevator-atatendant,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,67,161,212,5160,6784
+922,elevator-atatendant,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,67,159,197,5104,6328
+923,man_glasses_orange-cardigan,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,64,156,197,5016,6328
+924,bodyguard,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,109,145,207,4664,6640
+925,woman_black-hair_glasses,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,142,141,205,4520,6568
+926,fast-food-clerk,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,138,144,208,4632,6664
+927,woman_purse_black-dress,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,57,156,201,5016,6440
+928,girl_blonde_yellow-dress,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,122,142,192,4560,6168
+929,boy_baseball-helmet,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,124,139,194,4448,6216
+930,man_blonde_i-love-ny-shirt,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,114,145,195,4656,6240
+931,monster_mouse,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,281,156,212,5000,6808
+932,chef,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,137,145,204,4640,6544
+933,woman_black-hair_red-clothes,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,116,141,192,4520,6144
+934,man_blonde_blue-blazer,Fourside_Department Store_1F,person,~FOURSIDE_DEPT_BLACKOUT,70,146,191,4688,6128
+935,invisible_3,Fourside_Department Store_1F,person,always,381,142,192,4568,6144
+936,arms-dealer,Fourside_Department Store_1F_2nd-Flight-Room,person,~FOURSIDE_DEPT_BLACKOUT,144,186,174,5968,5584
+937,atm-machine,Fourside_Department Store_1F,object,always,259,155,211,4980,6768
+938,phone_payphone_left,Fourside_Department Store_1F,person,always,216,157,211,5024,6768
+939,food-cart,Fourside_Department Store_1F,object,~FOURSIDE_DEPT_BLACKOUT,229,144,208,4608,6664
+940,atm-machine,Fourside_Department Store_1F,object,always,259,148,193,4760,6176
+941,dept-store-spook,Fourside_Department Store_1F_Boss-Room,person,FOURSIDE_DEPT_BLACKOUT,455,187,158,5984,5064
+942,man_hat_blue-suit,Fourside_Overworld_South,person,always,55,83,152,2664,4888
+943,woman_blonde_blue-blazer,Fourside_Overworld_Central,person,always,65,93,134,3000,4288
+944,saxophonist,Fourside_Overworld_South,person,always,77,105,144,3360,4632
+945,man_hat_black-suit,Fourside_Overworld_South,person,always,63,93,148,2984,4744
+946,man_blonde_i-love-ny-shirt,Fourside_Overworld_Central,person,always,114,99,138,3184,4424
+947,lookalike_teddy,Fourside_Overworld_Central,person,always,118,92,128,2968,4112
+948,drunk-man,Fourside_Overworld_North,person,always,60,83,110,2672,3536
+949,cop,Fourside_Overworld_East,person,always,74,118,143,3776,4600
+950,cop,Fourside_Overworld_Central,person,always,74,104,126,3344,4048
+951,electra,Fourside_Overworld_East,person,ELECTRA_OUTSIDE_BUILDING,396,110,131,3520,4208
+952,everdred_dead,Fourside_Overworld_Northwest,person,EVERDRED_OUTSIDE_CAFE,180,83,121,2676,3888
+953,woman_black-hair_red-clothes,Fourside_Overworld_Northwest,person,EVERDRED_OUTSIDE_CAFE,116,81,122,2612,3931
+954,woman_blonde_red-dress,Fourside_Overworld_Northwest,person,EVERDRED_OUTSIDE_CAFE,68,82,123,2625,3953
+955,man_orange-hair_sunglasses,Fourside_Overworld_Northwest,person,EVERDRED_OUTSIDE_CAFE,117,83,123,2657,3956
+956,lookalike_pigpen,Fourside_Overworld_Northwest,person,EVERDRED_OUTSIDE_CAFE,115,83,122,2680,3928
+957,woman_purse_black-dress,Fourside_Overworld_Northwest,person,EVERDRED_OUTSIDE_CAFE,57,81,121,2619,3887
+958,woman_purse_green-dress,Fourside_Overworld_Northwest,person,EVERDRED_OUTSIDE_CAFE,58,81,122,2601,3913
+959,man_mohawk_punk-clothes,Fourside_Overworld_East,person,always,85,121,117,3872,3752
+960,runaway-5_lucky,Fourside_Overworld_East,person,RUNAWAY_BUS_FROM_FOURSIDE_TO_THREED,149,108,129,3482,4135
+961,man_glasses_-black-suit,Fourside_Overworld_South,person,always,62,101,141,3248,4528
+962,man_blonde_i-love-ny-shirt,Fourside_Overworld_East,person,~RUNAWAY_FIVE_FREE_FROM_TOPOLLA_THEATER,114,112,134,3584,4296
+963,man_cane_green-jacket,Fourside_Overworld_East,person,~RUNAWAY_FIVE_FREE_FROM_TOPOLLA_THEATER,52,113,135,3616,4336
+964,man_blonde_blue-blazer,Fourside_Overworld_South,person,BLOND_GUY_IN_FOURSIDE,70,98,143,3160,4584
+965,man_orange-hair_sunglasses,Fourside_Overworld_East,person,~CONQUERED_SANCTUARY_5,117,119,126,3824,4056
+966,woman_black-hair_red-clothes,Fourside_Overworld_East,person,~CONQUERED_SANCTUARY_5,116,115,125,3704,4024
+967,monkey-boy,Fourside_Overworld_Northwest,person,CHARRED_MONKEY_OUTSIDE_JACKIES_CAFE,133,77,120,2488,3848
+968,burnt,Fourside_Overworld_Northwest,person,MONKEY_OUTSIDE_JACKIES_CAFE,13,80,120,2582,3871
+969,lookalike_pigpen,Fourside_Overworld_North,person,always,115,111,107,3552,3448
+970,hint-man_holding-sign,Fourside_Overworld_Northwest,person,~HINT_GUY_ABSENT,446,86,139,2776,4448
+971,invisible_3,Fourside_Overworld_East,person,always,381,110,123,3536,3960
+972,sign_bus-stop,Fourside_Overworld_Southwest-(to-Dusty-Dunes),object,always,202,77,157,2472,5040
+973,bench,Fourside_Overworld_Southwest-(to-Dusty-Dunes),object,always,198,78,157,2504,5040
+974,bench,Fourside_Overworld_Central,object,always,198,94,125,3016,4008
+975,lamppost,Fourside_Overworld_Central,object,always,201,93,123,2976,3952
+976,lamppost,Fourside_Overworld_Central,object,always,201,97,123,3112,3960
+977,lamppost,Fourside_Overworld_Central,object,always,201,90,126,2888,4040
+978,lamppost,Fourside_Overworld_Central,object,always,201,101,127,3232,4080
+979,lamppost,Fourside_Overworld_Central,object,always,201,93,132,3000,4232
+980,lamppost,Fourside_Overworld_Central,object,always,201,100,136,3208,4352
+981,lamppost,Fourside_Overworld_Central,object,always,201,102,133,3288,4272
+982,streetsign_city,Fourside_Overworld_North,object,always,204,95,117,3048,3744
+983,streetsign_city,Fourside_Overworld_Northwest,object,always,204,86,126,2760,4032
+984,streetsign_city,Fourside_Overworld_East,object,always,204,106,131,3400,4216
+985,streetsign_city,Fourside_Overworld_South,object,always,204,97,140,3112,4504
+986,streetsign_city,Fourside_Overworld_South,object,always,204,86,151,2768,4856
+987,magnet-hill,Fourside_Overworld_East,object,always,409,120,129,3856,4136
+988,open-can,Fourside_Overworld_North,object,always,225,109,108,3512,3456
+989,helicopter_body,Fourside_Overworld_North,object,~POKEY_FLIES_AWAY_BY_HELICOPTER,410,105,118,3387,3793
+990,helicopter_blades,Fourside_Overworld_East,object,~POKEY_FLIES_AWAY_BY_HELICOPTER,420,108,117,3463,3759
+991,helicopter_tail,Fourside_Overworld_East,object,~POKEY_FLIES_AWAY_BY_HELICOPTER,424,108,119,3480,3808
+992,manhole,Fourside_Overworld_East,object,~POKEY_FLIES_AWAY_BY_HELICOPTER,230,106,117,3419,3755
+993,hotel_sign,Fourside_Overworld_South,object,always,442,82,148,2640,4736
+994,bus_runaway-5,Fourside_Overworld_East,object,RUNAWAY_BUS_FROM_FOURSIDE_TO_THREED,243,110,129,3520,4144
+995,monster_your-sanctuary,Fourside Sewers_Rooms_Boss-Room,person,~CONQUERED_SANCTUARY_5,333,111,100,3552,3200
+996,maxwell-labs,Summers and Toto_Stoic Club_1F,person,always,69,245,286,7856,9160
+997,woman_blonde_red-blazer,Summers and Toto_Stoic Club_1F,person,always,66,243,286,7806,9172
+998,man_blonde_blue-blazer,Summers and Toto_Stoic Club_1F,person,always,70,245,286,7840,9176
+999,prettyman,Summers and Toto_Stoic Club_1F,person,always,59,242,286,7768,9176
+1000,lookalike_mr-t,Summers and Toto_Stoic Club_1F,person,always,79,242,286,7744,9160
+1001,woman_black-hair_glasses,Summers and Toto_Stoic Club_1F,person,always,142,241,287,7728,9200
+1002,magic-cake-woman,Summers and Toto_Stoic Club_1F,person,~MAGIC_CAKE_LADY_AT_BEACH,181,246,287,7872,9200
+1003,man_sailor_red-clothes,Summers and Toto_Toto Houses_West-1_1F,person,always,91,212,298,6784,9560
+1004,man_sailor_red-clothes,Summers and Toto_Toto Houses_West-2_1F,person,always,91,226,299,7248,9568
+1005,rastaman,Summers and Toto_Toto Houses_West-3_1F,person,always,78,242,298,7752,9552
+1006,saxophonist,Summers and Toto_Toto Houses_West-5_1F,person,always,77,226,307,7248,9824
+1007,ruffini,Summers and Toto_Toto Houses_West-5_1F,person,always,130,227,307,7292,9832
+1008,man_sailor_blue-clothes,Summers and Toto_Toto Shop_1F,person,always,90,243,306,7784,9800
+1009,atm-machine,Summers and Toto_Toto Shop_1F,object,always,259,241,306,7728,9816
+1010,phone_payphone_left,Summers and Toto_Toto Shop_1F,person,always,216,240,307,7704,9832
+1011,man_blonde_resortwear,Summers and Toto_Summers Shop_1F,person,always,71,212,285,6796,9149
+1012,woman_black-hair_red-clothes,Summers and Toto_Summers Shop_1F,person,always,116,209,287,6704,9192
+1013,woman_blonde_resortwear,Summers and Toto_Summers Shop_1F,person,always,72,212,287,6784,9192
+1014,atm-machine,Summers and Toto_Summers Shop_1F,object,always,259,213,286,6840,9152
+1015,phone_payphone_left,Summers and Toto_Summers Shop_1F,person,always,216,211,287,6752,9184
+1016,maxwell-labs,Summers and Toto_Hotel (L'hotel du Summer)_1F_Lobby,person,always,69,232,274,7440,8768
+1017,woman_blonde_red-blazer,Summers and Toto_Hotel (L'hotel du Summer)_1F_Lobby,person,always,66,234,278,7488,8896
+1018,woman_purse_green-dress,Summers and Toto_Hotel (L'hotel du Summer)_1F_Lobby,person,always,58,230,278,7376,8920
+1019,bellhop,Summers and Toto_Hotel (L'hotel du Summer)_1F_Lobby,person,JUST_RESTED,73,235,274,7528,8768
+1020,man_bald_black-suit,Summers and Toto_Hotel (L'hotel du Summer)_1F,person,always,56,211,294,6768,9416
+1021,bellhop,Summers and Toto_Hotel (L'hotel du Summer)_1F,person,always,73,214,295,6864,9440
+1022,atm-machine,Summers and Toto_Hotel (L'hotel du Summer)_1F,object,always,259,213,294,6840,9408
+1023,phone_payphone_left,Summers and Toto_Hotel (L'hotel du Summer)_1F,person,always,216,210,294,6720,9408
+1024,man_blonde_blue-blazer,Summers and Toto_Hotel (L'hotel du Summer)_1F_Left-Room,person,always,70,228,294,7296,9432
+1025,chef,Summers and Toto_Restaurant_1F,person,always,137,232,284,7424,9096
+1026,woman_black-hair_glasses,Summers and Toto_Restaurant_1F,person,always,142,226,284,7240,9088
+1027,man_bald_black-suit,Summers and Toto_Restaurant_1F,person,always,56,220,284,7040,9104
+1028,woman_purse_black-dress,Summers and Toto_Restaurant_1F,person,VISITED_ONETT,57,220,283,7056,9080
+1029,prettyman,Summers and Toto_Restaurant_1F,person,always,59,227,284,7280,9112
+1030,woman_cane_pink-dress,Summers and Toto_Restaurant_1F,person,VISITED_ONETT,53,222,285,7120,9144
+1031,drunk-man,Summers and Toto_Restaurant_1F,person,VISITED_ONETT,60,224,283,7184,9080
+1032,invisible_3,Summers and Toto_Restaurant_1F,person,always,381,222,281,7120,9016
+1033,woman_blonde_red-dress,Summers and Toto_Museum_1F,person,~SCARABA_CULTURAL_MUSEUM_PHONE_RINGING,68,219,298,7024,9544
+1034,phone_black,Summers and Toto_Museum_1F,person,always,215,220,298,7056,9544
+1035,man_glasses_orange-cardigan,Summers and Toto_Museum_1F_Exhibit-Room,person,always,64,216,277,6935,8868
+1036,man_blonde_resortwear,Summers and Toto_Museum_1F_Exhibit-Room,person,always,71,212,278,6792,8912
+1037,man_scaraban_blue-clothes,Summers and Toto_Museum_1F_Exhibit-Room_Upstairs,person,~GAVE_RUBY_TO_HIEROGLYPHS_GUY,95,235,298,7528,9536
+1038,man_scaraban_blue-clothes,Summers and Toto_Museum_1F_Exhibit-Room_Upstairs_Mummy-Room,person,GAVE_RUBY_TO_HIEROGLYPHS_GUY,95,250,298,8016,9560
+1039,monster_coffin,Summers and Toto_Museum_1F_Exhibit-Room_Upstairs_Mummy-Room,object,~SHATTERED_MAN_1_DEFEATED,322,252,299,8088,9568
+1040,monster_coffin,Summers and Toto_Museum_1F_Exhibit-Room_Upstairs_Mummy-Room,object,~SHATTERED_MAN_2_DEFEATED,322,253,299,8119,9587
+1041,monster_coffin,Summers and Toto_Museum_1F_Exhibit-Room,object,always,322,212,275,6800,8824
+1042,monster_coffin,Summers and Toto_Museum_1F_Exhibit-Room,object,always,322,215,275,6896,8824
+1043,monster_coffin,Summers and Toto_Museum_1F_Exhibit-Room,object,always,322,218,275,6992,8824
+1044,sarcophagus,Summers and Toto_Museum_1F_Exhibit-Room,object,always,221,212,277,6784,8880
+1045,sarcophagus,Summers and Toto_Museum_1F_Exhibit-Room,object,always,221,215,277,6880,8880
+1046,sarcophagus,Summers and Toto_Museum_1F_Exhibit-Room,object,always,221,218,277,6976,8880
+1047,nurse,Summers and Toto_Hospital_1F,person,always,140,210,302,6736,9664
+1048,healer,Summers and Toto_Hospital_1F,person,always,189,213,302,6824,9688
+1049,doctor,Summers and Toto_Hospital_1F_Doctor's-Office,person,always,139,227,302,7264,9672
+1050,nurse,Summers and Toto_Hospital_1F_Doctor's-Office,person,always,140,228,302,7312,9680
+1051,man_redhead_swimwear,Summers and Toto_Overworld_West,person,always,86,163,99,5240,3176
+1052,woman_blonde_swimwear,Summers and Toto_Overworld_West,person,always,81,162,99,5208,3176
+1053,man_blonde_swimwear,Summers and Toto_Overworld_West,person,always,80,154,92,4952,2968
+1054,man_blonde_resortwear,Summers and Toto_Overworld_West,person,always,71,160,86,5144,2752
+1055,man_redhead_swimwear,Summers and Toto_Overworld_Central,person,always,86,186,94,5968,3024
+1056,Threed-hotel-woman,Summers and Toto_Overworld_Central,person,always,87,182,95,5824,3064
+1057,woman_blonde_resortwear,Summers and Toto_Overworld_West,person,always,72,150,96,4800,3072
+1058,man_redhead_swimwear,Summers and Toto_Overworld_West,person,always,86,144,86,4632,2752
+1059,man_blonde_i-love-ny-shirt,Summers and Toto_Overworld_Central,person,always,114,186,86,5976,2752
+1060,woman_black-hair_red-clothes,Summers and Toto_Overworld_Central,person,always,116,198,86,6336,2752
+1061,sanchez-brother,Summers and Toto_Overworld_Central,person,always,110,188,91,6040,2936
+1062,bird_myna,Summers and Toto_Overworld_Central,person,always,132,180,90,5768,2896
+1063,man_sailor_blue-clothes,Summers and Toto_Overworld_East-(Toto),person,always,90,217,89,6968,2872
+1064,man_sailor_red-clothes,Summers and Toto_Overworld_East-(Toto),person,always,91,234,89,7496,2864
+1065,man_sailor_blue-clothes,Summers and Toto_Overworld_East-(Toto),person,always,90,227,91,7264,2928
+1066,man_lying-down_swimwear,Summers and Toto_Overworld_Central,person,always,103,198,93,6356,3000
+1067,cat,Summers and Toto_Overworld_East-(Toto),person,always,131,219,87,7028,2808
+1068,cat,Summers and Toto_Overworld_East-(Toto),person,always,131,227,89,7292,2848
+1069,magic-cake-woman,Summers and Toto_Overworld_West,person,MAGIC_CAKE_LADY_AT_BEACH,181,162,89,5184,2864
+1070,woman_lying-down_swimwear,Summers and Toto_Overworld_West,person,always,104,140,93,4484,3000
+1071,hint-man_holding-sign,Summers and Toto_Overworld_Central,person,~HINT_GUY_ABSENT,446,196,83,6288,2680
+1072,runaway-5_gorgeous,Summers and Toto_Overworld_Central,person,PARTY_IS_ROBOTIFIED,150,168,85,5400,2744
+1073,runaway-5_lucky,Summers and Toto_Overworld_Central,person,PARTY_IS_ROBOTIFIED,149,169,85,5424,2744
+1074,runaway-5_okay,Summers and Toto_Overworld_Central,person,PARTY_IS_ROBOTIFIED,185,171,87,5480,2800
+1075,woman_blonde_swimwear,Summers and Toto_Overworld_Central,person,PARTY_IS_ROBOTIFIED,81,171,88,5480,2824
+1076,invisible_3,Summers and Toto_Overworld_East-(Toto),person,always,381,215,91,6896,2936
+1077,man_hat_green-jacket,Summers and Toto_Overworld_East-(Toto),person,always,54,212,88,6808,2840
+1078,food-cart,Summers and Toto_Overworld_Central,object,always,229,188,91,6016,2936
+1079,taxi,Summers and Toto_Overworld_West,object,always,206,139,87,4472,2792
+1080,sportscar,Summers and Toto_Overworld_West,person,always,255,160,87,5128,2792
+1081,red-truck,Summers and Toto_Overworld_West,object,always,207,163,87,5232,2800
+1082,bicycle,Summers and Toto_Overworld_Central,object,always,211,167,85,5360,2744
+1083,potted-tree,Summers and Toto_Overworld_West,object,always,266,152,85,4872,2744
+1084,potted-tree,Summers and Toto_Overworld_Central,object,always,266,168,85,5384,2744
+1085,food-cart,Summers and Toto_Overworld_West,object,always,229,161,89,5168,2856
+1086,hotel_sign,Summers and Toto_Overworld_West,object,always,442,139,86,4472,2752
+1087,bus_runaway-5,Summers and Toto_Overworld_Central,object,PARTY_IS_ROBOTIFIED,243,171,85,5480,2736
+1088,boat,Summers and Toto_Overworld_East-(Toto),object,always,212,225,93,7216,2984
+1089,poo's-mentor,Dalaam_Palace_1F_Throne-Room,person,always,166,212,258,6812,8286
+1090,man_dalaamese_large-hat,Dalaam_Palace_1F_Throne-Room,person,always,88,212,261,6784,8352
+1091,phone_dalaam,Dalaam_Palace_1F_Throne-Room,person,always,167,216,259,6936,8312
+1092,poo,Dalaam_Palace_1F_Throne-Room,person,POO_AT_HIS_PALACE,4,214,259,6848,8304
+1093,invisible_3,Dalaam_Palace_1F_Throne-Room,person,always,381,214,258,6848,8272
+1094,woman_dalaamese,Dalaam_Palace_1F,person,always,89,250,261,8016,8352
+1095,man_dalaamese_pigtail,Dalaam_Houses_North,person,always,105,219,241,7008,7736
+1096,woman_dalaamese,Dalaam_Houses_East,person,always,89,233,246,7472,7872
+1097,man_dalaamese_large-hat,Dalaam_Houses_South,person,always,88,217,250,6968,8008
+1098,man_dalaamese_pigtail,Dalaam_Shop_1F,person,always,105,235,254,7536,8144
+1099,man_dalaamese_large-hat,Dalaam_Shop_1F,person,always,88,236,253,7568,8120
+1100,man_meditating,Dalaam_Overworld_North,person,always,168,142,116,4560,3728
+1101,man_dalaamese_large-hat,Dalaam_Overworld_North,person,always,88,147,109,4712,3512
+1102,girl_dalaamese,Dalaam_Overworld_South,person,always,163,141,126,4512,4032
+1103,star-master,Dalaam_Overworld_South,person,~STAR_MASTER_NEXT_TO_MU,98,155,129,4968,4128
+1104,girl_dalaamese,Dalaam_Overworld_North,person,always,163,137,117,4384,3752
+1105,woman_dalaamese,Dalaam_Overworld_South,person,always,89,142,121,4552,3872
+1106,woman_dalaamese,Dalaam_Overworld_South,person,always,89,134,124,4296,3968
+1107,rabbit-statue,Dalaam_Overworld_South,object,~USED_CARROT_KEY,107,134,130,4302,4164
+1108,rabbit-statue,Dalaam_Overworld_South,object,~USED_CARROT_KEY,107,135,130,4336,4184
+1109,rabbit-statue,Dalaam_Overworld_South,object,~USED_CARROT_KEY,107,136,130,4374,4171
+1110,girl_dalaamese,Dalaam_Overworld_North,person,PARTY_IS_ROBOTIFIED,163,137,108,4392,3472
+1111,girl_dalaamese,Dalaam_Overworld_North,person,PARTY_IS_ROBOTIFIED,163,143,111,4592,3568
+1112,sign_small,Dalaam_Overworld_South,object,always,213,154,129,4936,4128
+1113,dalaam-spire,Dalaam_Overworld_North,object,always,423,140,108,4504,3464
+1114,dalaam-spire,Dalaam_Overworld_North,object,always,423,142,106,4544,3416
+1115,dalaam-spire,Dalaam_Overworld_North,object,always,423,144,108,4632,3464
+1116,dalaam-spire,Dalaam_Overworld_North,object,always,423,146,106,4672,3416
+1117,sign_small,Dalaam_Overworld_South,object,always,213,135,123,4320,3936
+1118,monster_your-sanctuary,Grapefruit Falls_Belch's Base_Main,person,~CONQUERED_SANCTUARY_6,333,65,172,2080,5512
+1119,ness_unconscious,Pink Cloud_Rooms_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,16,111,194,3562,6228
+1120,paula,Pink Cloud_Rooms_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,2,110,193,3546,6185
+1121,jeff,Pink Cloud_Rooms_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,3,111,193,3577,6189
+1122,poo,Pink Cloud_Rooms_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,4,112,194,3592,6208
+1123,man_scaraban_blue-clothes,Scaraba_Shop_1F,person,always,95,203,237,6496,7608
+1124,man_scaraban_green-clothes,Scaraba_Hotel_1F,person,always,93,247,217,7905,6970
+1125,arms-dealer,Scaraba_Hotel_1F,person,always,144,234,217,7512,6968
+1126,man_scaraban_blue-clothes,Scaraba_Hotel_1F,person,JUST_RESTED,95,239,219,7672,7008
+1127,atm-machine,Scaraba_Hotel_1F,object,always,259,244,218,7824,6984
+1128,phone_black,Scaraba_Hotel_1F,person,always,215,246,217,7872,6968
+1129,woman_scaraban,Scaraba_Houses_North_1F,person,always,92,201,246,6448,7888
+1130,man_cane_green-jacket,Scaraba_Houses_South_1F,person,always,52,203,254,6504,8128
+1131,nurse,Scaraba_Hospital_1F,person,always,140,248,266,7952,8520
+1132,doctor,Scaraba_Hospital_1F,person,always,139,244,266,7824,8512
+1133,healer,Scaraba_Hospital_1F,person,always,189,242,266,7768,8528
+1134,man_scaraban_blue-clothes,Scaraba_Overworld_North-(Town),person,always,95,46,121,1492,3892
+1135,man_scaraban_green-clothes,Scaraba_Overworld_North-(Town),person,always,93,48,129,1564,4138
+1136,man_scaraban_blue-clothes,Scaraba_Overworld_North-(Town),person,always,95,49,129,1592,4152
+1137,woman_scaraban,Scaraba_Overworld_North-(Town),person,always,92,51,129,1632,4152
+1138,man_scaraban_yellow-clothes,Scaraba_Overworld_North-(Town),person,always,94,51,132,1648,4224
+1139,snake-salesman,Scaraba_Overworld_North-(Town),person,always,96,50,129,1608,4136
+1140,man_scaraban_blue-clothes,Scaraba_Overworld_North-(Town),person,always,95,48,132,1544,4232
+1141,man_scaraban_green-clothes,Scaraba_Overworld_North-(Town),person,always,93,50,131,1608,4216
+1142,man_meditating,Scaraba_Overworld_North-(Town),person,always,168,52,130,1688,4168
+1143,door_eye-of-horus,Scaraba_Overworld_Central-(Pyramids),object,~PYRAMID_OPEN,267,55,152,1770,4886
+1144,man_scaraban_blue-clothes,Scaraba_Overworld_North-(Town),person,always,95,42,129,1352,4136
+1145,man_scaraban_yellow-clothes,Scaraba_Overworld_North-(Town),person,always,94,42,132,1369,4254
+1146,man_scaraban_yellow-clothes,Scaraba_Overworld_Central-(Pyramids),person,always,94,53,148,1720,4760
+1147,man_scaraban_blue-clothes,Scaraba_Overworld_South-(Dungeon-Man),person,always,95,52,166,1666,5328
+1148,man_meditating,Scaraba_Overworld_North-(Town),person,always,168,51,122,1648,3928
+1149,man_tribal,Scaraba_Overworld_South-(Dungeon-Man),person,~TALKED_TO_BRICK_ROADS_HEAD,102,50,169,1624,5408
+1150,dungeon-man,Scaraba_Overworld_Central-(Pyramids),object,~DUNGEON_MAN_IN_DESERT,41,42,155,1344,4984
+1151,man_tribal,Scaraba_Overworld_South-(Dungeon-Man),person,TALKED_TO_BRICK_ROADS_HEAD,102,54,180,1736,5784
+1152,dungeon-man,Scaraba_Overworld_South-(Dungeon-Man),person,DUNGEON_MAN_AT_PALM_TREES,41,46,177,1488,5688
+1153,hint-man_holding-sign,Scaraba_Overworld_Central-(Pyramids),person,~HINT_GUY_ABSENT,446,42,146,1360,4672
+1154,door_eye-of-horus,Scaraba_Overworld_Central-(Pyramids),object,~PYRAMID_OPEN,267,56,152,1800,4888
+1155,man_scaraban_blue-clothes,Scaraba_Overworld_North-(Town),person,~VISITED_DEEP_DARKNESS,95,55,124,1776,3968
+1156,man_scaraban_yellow-clothes,Scaraba_Overworld_North-(Town),person,always,94,49,130,1576,4176
+1157,man_meditating,Scaraba_Overworld_North-(Town),person,always,168,49,133,1592,4264
+1158,invisible_3,Scaraba_Overworld_Central-(Pyramids),person,always,381,56,151,1792,4848
+1159,invisible_3,Scaraba_Overworld_South-(Dungeon-Man),person,always,381,39,168,1256,5400
+1160,camel,Scaraba_Overworld_North-(Town),person,always,443,44,133,1408,4256
+1161,camel,Scaraba_Overworld_South-(Dungeon-Man),person,always,443,53,166,1704,5328
+1162,sesame-seed_black,Scaraba_Overworld_North-(Town),object,always,238,56,124,1808,3976
+1163,sesame-seed_black,Scaraba_Overworld_North-(Town),object,always,238,57,124,1832,3992
+1164,hotel_sign,Scaraba_Overworld_North-(Town),object,always,442,40,129,1304,4136
+1165,sign_small,Scaraba_Overworld_North-(Town),object,always,213,52,128,1664,4096
+1166,monster_guardian-hieroglyph,Peaceful Rest Valley_Overworld_All,object,always,325,179,77,5744,2488
+1167,monster_guardian-hieroglyph,Onett_Overworld_West,object,always,325,16,41,528,1336
+1168,monster_guardian-hieroglyph,Scaraba_Pyramid_Room-1,person,~GUARDIAN_HIEROGLYPH_3_DEFEATED,325,131,141,4200,4536
+1169,monster_guardian-hieroglyph,Scaraba_Pyramid_Stairs-2,person,~GUARDIAN_HIEROGLYPH_4_DEFEATED,325,99,192,3184,6168
+1170,monster_lethal-asp,Scaraba_Pyramid_Stairs-2,person,~LETHAL_ASP_HIEROGLYPH_1_DEFEATED,320,98,192,3152,6168
+1171,monster_lethal-asp,Scaraba_Pyramid_Stairs-2,person,~LETHAL_ASP_HIEROGLYPH_2_DEFEATED,320,108,185,3464,5944
+1172,monster_guardian-hieroglyph,Scaraba_Pyramid_Sarcophagus-Room,person,~GUARDIAN_HIEROGLYPH_5_DEFEATED,325,26,114,840,3672
+1173,monster_guardian-hieroglyph,Scaraba_Pyramid_Sarcophagus-Room,person,~GUARDIAN_HIEROGLYPH_6_DEFEATED,325,29,114,936,3672
+1174,monster_guardian-hieroglyph,Scaraba_Pyramid_Stairs-3,person,~GUARDIAN_HIEROGLYPH_7_DEFEATED,325,128,102,4104,3288
+1175,monster_lethal-asp,Scaraba_Pyramid_Stairs-3,person,~LETHAL_ASP_HIEROGLYPH_3_DEFEATED,320,129,102,4136,3288
+1176,monster_guardian-hieroglyph,Scaraba_Pyramid_Stairs-6,person,~GUARDIAN_HIEROGLYPH_8_DEFEATED,325,137,301,4400,9656
+1177,monster_lethal-asp,Scaraba_Pyramid_Stairs-6,person,~LETHAL_ASP_HIEROGLYPH_4_DEFEATED,320,138,301,4432,9656
+1178,monster_guardian-hieroglyph,Scaraba_Pyramid_Room-3,person,~GUARDIAN_HIEROGLYPH_9_DEFEATED,325,132,157,4240,5048
+1179,monster_lethal-asp,Scaraba_Pyramid_Stairs-5,person,~LETHAL_ASP_HIEROGLYPH_5_DEFEATED,320,115,265,3696,8504
+1180,monster_coffin,Dusty Dunes Desert_Overworld_East-(Dig-Site),object,~GUARDIAN_GENERAL_DEFEATED,322,134,279,4296,8944
+1181,monster_guardian-hieroglyph,Scaraba_Pyramid_Room-4,person,~GUARDIAN_HIEROGLYPH_10_DEFEATED,325,131,165,4216,5304
+1182,monster_guardian-hieroglyph,Scaraba_Pyramid_Hawk-Eye-Room,person,~GUARDIAN_HIEROGLYPH_11_DEFEATED,325,132,173,4240,5560
+1183,monster_guardian-hieroglyph,Scaraba_Pyramid_Stairs-4,person,~GUARDIAN_HIEROGLYPH_12_DEFEATED,325,169,105,5424,3384
+1184,monster_lethal-asp,Scaraba_Pyramid_Stairs-4,person,~LETHAL_ASP_HIEROGLYPH_6_DEFEATED,320,170,105,5456,3384
+1185,monster_guardian-hieroglyph,Scaraba_Pyramid_Room-6,person,~GUARDIAN_HIEROGLYPH_13_DEFEATED,325,130,181,4168,5816
+1186,monster_guardian-hieroglyph,Scaraba_Pyramid_Room-7,person,~GUARDIAN_HIEROGLYPH_14_DEFEATED,325,131,189,4208,6072
+1187,monster_lethal-asp,Scaraba_Pyramid_Room-7,person,~LETHAL_ASP_HIEROGLYPH_7_DEFEATED,320,130,189,4168,6072
+1188,monster_guardian-hieroglyph,Scaraba_Pyramid_Hallway-1,person,~GUARDIAN_HIEROGLYPH_15_DEFEATED,325,190,110,6104,3544
+1189,monster_guardian-hieroglyph,Scaraba_Pyramid_Hallway-1,person,~GUARDIAN_HIEROGLYPH_16_DEFEATED,325,197,110,6320,3544
+1190,monster_guardian-hieroglyph,Scaraba_Pyramid_Hallway-1,person,~GUARDIAN_HIEROGLYPH_17_DEFEATED,325,198,110,6352,3544
+1191,monster_lethal-asp,Scaraba_Pyramid_Hallway-1,person,~LETHAL_ASP_HIEROGLYPH_8_DEFEATED,320,194,110,6232,3544
+1192,monster_lethal-asp,Scaraba_Pyramid_Hallway-1,person,~LETHAL_ASP_HIEROGLYPH_9_DEFEATED,320,206,105,6608,3384
+1193,sarcophagus,Scaraba_Pyramid_Sarcophagus-Room,object,~PYRAMID_HOLE_OPEN,221,27,115,890,3696
+1194,sarcophagus,Scaraba_Pyramid_Sarcophagus-Room,object,PYRAMID_HOLE_OPEN,221,28,115,920,3696
+1195,hawk_eye,Scaraba_Pyramid_Hawk-Eye-Room,object,~GOT_HAWK_EYE,353,131,174,4208,5568
+1196,brickroad_head,Scaraba_Dungeon Man_4F,person,always,179,52,257,1664,8224
+1197,submarine,Scaraba_Dungeon Man_1F,object,~VISITED_DEEP_DARKNESS,244,130,2,4168,88
+1198,bicycle,Scaraba_Dungeon Man_1F,object,always,211,132,3,4240,96
+1199,taxi,Scaraba_Dungeon Man_1F,object,always,206,132,4,4224,152
+1200,bench,Scaraba_Dungeon Man_1F,object,always,198,147,8,4728,256
+1201,phone_payphone_left,Scaraba_Dungeon Man_1F,person,always,216,129,8,4152,280
+1202,potted-tree,Scaraba_Dungeon Man_1F,object,always,266,147,8,4704,256
+1203,phone_payphone_left,Scaraba_Dungeon Man_1F,person,always,216,134,20,4302,657
+1204,bench,Scaraba_Dungeon Man_1F,object,always,198,134,21,4304,691
+1205,potted-tree,Scaraba_Dungeon Man_1F,object,always,266,133,21,4256,688
+1206,atm-machine,Scaraba_Dungeon Man_1F,object,always,259,132,20,4224,664
+1207,rejuvenator,Scaraba_Dungeon Man_1F,object,always,429,131,2,4208,88
+1208,sign_small,Scaraba_Dungeon Man_1F,object,always,213,133,21,4264,696
+1209,bench,Scaraba_Dungeon Man_2F,object,always,198,20,32,640,1024
+1210,bench,Scaraba_Dungeon Man_3F,object,always,198,123,205,3944,6576
+1211,monster_duck,Scaraba_Dungeon Man_3F,object,always,287,124,199,3976,6392
+1212,monster_duck,Scaraba_Dungeon Man_3F,object,always,287,123,200,3944,6416
+1213,monster_duck,Scaraba_Dungeon Man_3F,object,always,287,123,201,3952,6456
+1214,monster_little-pile,Scaraba_Dungeon Man_3F,object,always,315,134,203,4288,6520
+1215,monster_little-pile,Scaraba_Dungeon Man_3F,object,always,315,132,205,4248,6560
+1216,monster_little-pile,Scaraba_Dungeon Man_3F,object,always,315,134,205,4288,6568
+1217,monster_goat,Scaraba_Dungeon Man_3F,object,always,294,130,196,4184,6280
+1218,monster_goat,Scaraba_Dungeon Man_3F,object,always,294,132,195,4232,6256
+1219,sign_small,Scaraba_Dungeon Man_4F,object,~DUNGEON_MAN_GOODBYE_EXIT_SIGN,213,54,266,1744,8536
+1220,sign_small,Scaraba_Dungeon Man_4F,object,DUNGEON_MAN_GOODBYE_EXIT_SIGN,213,53,267,1720,8560
+1221,sign_small,Scaraba_Dungeon Man_4F,object,always,213,51,258,1640,8264
+1222,healer,Scaraba_Dungeon Man_1F_Doctor's-Office,person,always,189,185,210,5944,6736
+1223,doctor,Scaraba_Dungeon Man_1F_Doctor's-Office,person,always,139,187,209,6000,6688
+1224,nurse,Scaraba_Dungeon Man_1F_Doctor's-Office,person,always,140,188,209,6032,6704
+1225,potted-tree,Scaraba_Dungeon Man_1F_Doctor's-Office,object,always,266,186,209,5976,6704
+1226,monkey-boy,Deep Darkness_Overworld_Northeast,person,always,133,193,223,6176,7144
+1227,monkey-boy,Deep Darkness_Overworld_Northeast,person,always,133,181,225,5808,7208
+1228,monkey-boy,Deep Darkness_Overworld_Northeast,person,always,133,171,229,5496,7344
+1229,monster_barf,Deep Darkness_Overworld_Northwest,person,~MASTER_BARF_DEFEATED,299,159,237,5088,7608
+1230,bird_myna,Deep Darkness_Overworld_Southwest,person,always,132,163,240,5240,7680
+1231,invisible_7,Deep Darkness_Overworld_Southeast,person,~USED_HAWK_EYE,456,188,248,6016,7960
+1232,arms-dealer,Deep Darkness_Overworld_Northeast,person,always,144,190,229,6104,7336
+1233,man_glasses_-black-suit,Deep Darkness_Overworld_Northeast,person,always,62,185,221,5944,7088
+1234,doctor,Deep Darkness_Overworld_Northeast,person,always,139,182,222,5840,7128
+1235,phone_bird,Deep Darkness_Overworld_Northeast,person,always,412,172,226,5504,7248
+1236,snorkel,Deep Darkness_Overworld_Southeast,person,always,428,190,241,6088,7728
+1237,invisible_3,Deep Darkness_Overworld_Southwest,person,always,381,161,241,5168,7720
+1238,monkey-girl,Deep Darkness_Overworld_Northeast,person,always,160,178,222,5712,7128
+1239,monkey-boy,Deep Darkness_Overworld_Northeast,person,always,133,176,224,5640,7192
+1240,truffle,Deep Darkness_Overworld_Northeast,object,~GOT_MAGIC_TRUFFLE_1,376,192,227,6144,7264
+1241,truffle,Deep Darkness_Overworld_Northeast,object,~GOT_MAGIC_TRUFFLE_2,376,176,230,5648,7384
+1242,truffle,Deep Darkness_Overworld_Northeast,object,~GOT_MAGIC_TRUFFLE_3,376,169,234,5416,7504
+1243,truffle,Deep Darkness_Overworld_Southwest,object,~GOT_MAGIC_TRUFFLE_4,376,152,246,4872,7888
+1244,truffle,Deep Darkness_Overworld_Northwest,object,~GOT_MAGIC_TRUFFLE_5,376,159,220,5088,7064
+1245,helicopter_crashed,Deep Darkness_Overworld_Southeast,object,always,411,171,246,5496,7880
+1246,monster_your-sanctuary,Lumine Hall_Rooms_1F,person,~CONQUERED_SANCTUARY_7,333,109,6,3504,200
+1247,talking-rock,Lumine Hall_Rooms_2F,person,always,260,122,83,3912,2664
+1248,talking-rock,Lumine Hall_Rooms_2F,person,always,260,105,89,3368,2872
+1249,talking-rock,Lumine Hall_Rooms_2F,person,always,260,101,78,3232,2504
+1250,tenda,Deep Darkness_Tenda Village_Main,person,always,97,17,6,568,192
+1251,tenda,Deep Darkness_Tenda Village_Main,person,always,97,14,3,464,112
+1252,tenda-chief,Deep Darkness_Tenda Village_Main,person,always,170,14,10,464,336
+1253,tenda,Deep Darkness_Tenda Village_Main,person,always,97,20,4,640,136
+1254,tenda,Deep Darkness_Tenda Village_Main,person,always,97,4,3,152,112
+1255,tenda,Deep Darkness_Tenda Village_Main,person,always,97,5,8,160,264
+1256,tenda,Deep Darkness_Tenda Village_Main,person,always,97,12,7,400,240
+1257,tenda,Deep Darkness_Tenda Village_Main,person,always,97,11,10,352,328
+1258,tenda,Deep Darkness_Tenda Village_Main,person,always,97,4,12,136,400
+1259,tenda,Deep Darkness_Tenda Village_Main,person,always,97,10,5,341,182
+1260,talking-rock,Deep Darkness_Tenda Village_Main_Talking-Rock-Room,person,always,260,36,85,1176,2720
+1261,tenda,Deep Darkness_Tenda Village_Main,person,always,97,2,13,80,416
+1262,phone_black,Deep Darkness_Tenda Village_Main,person,always,215,20,11,664,360
+1263,tenda-cave-rock,Deep Darkness_Tenda Village_Main,object,~TENDA_VILLAGE_UNDERGROUND_OPEN,360,5,12,172,390
+1264,open-can,Deep Darkness_Tenda Village_Main,object,always,225,19,11,608,352
+1265,mailbox,Deep Darkness_Tenda Village_Main,object,always,227,19,11,624,368
+1266,crt-monitor,Deep Darkness_Tenda Village_Main,object,always,270,20,9,648,304
+1267,sign_spa,Deep Darkness_Tenda Village_Main,object,always,405,9,5,304,160
+1268,mr-saturn,Cave of the Past_Rooms_1F_Present-Day,person,KIDNAPPED_MR_SATURN_AT_CAVE_OF_THE_PRESENT,171,188,9,6040,296
+1269,dr-andonuts,Cave of the Past_Rooms_1F_Present-Day,person,ANDONUTS_AT_CAVE_OF_THE_PRESENT_1,162,185,6,5944,208
+1270,dr-andonuts,Cave of the Past_Rooms_1F_Present-Day,person,ANDONUTS_AT_CAVE_OF_THE_PRESENT_2,162,180,5,5760,176
+1271,apple-kid,Cave of the Past_Rooms_1F_Present-Day,person,APPLE_KID_AT_CAVE_OF_THE_PRESENT,176,185,7,5931,245
+1272,mr-saturn,Cave of the Past_Rooms_1F_Present-Day,person,MR_SATURN_AT_CAVE_OF_THE_PRESENT,171,188,8,6023,278
+1273,sky-runner_broken,Cave of the Past_Rooms_1F_Present-Day,object,MANI_MANI_DEFEATED,240,189,8,6064,272
+1274,phase-distorter,Cave of the Past_Rooms_1F_Present-Day,object,PHASE_DISTORTER_V2_AT_CAVE_OF_THE_PRESENT,210,171,9,5488,304
+1275,phase-distorter,Cave of the Past_Rooms_1F_Present-Day,object,PHASE_DISTORTER_V3_AT_CAVE_OF_THE_PRESENT,210,186,8,5976,280
+1276,monster_your-sanctuary,Lost Underworld_Fire Springs_Main-Room,person,~CONQUERED_SANCTUARY_8,333,104,199,3344,6368
+1277,ness_unconscious,Lost Underworld_Fire Springs_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,16,192,306,6172,9800
+1278,paula,Lost Underworld_Fire Springs_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,2,193,305,6188,9762
+1279,jeff,Lost Underworld_Fire Springs_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,3,192,305,6149,9775
+1280,poo,Lost Underworld_Fire Springs_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,4,194,306,6216,9796
+1281,flame-spout,Lost Underworld_Fire Springs_Sanctuary-Room,person,always,256,191,305,6120,9760
+1282,tenda_tiny,Lost Underworld_Overworld_Northwest,person,always,398,71,82,2296,2631
+1283,tenda_tiny,Lost Underworld_Overworld_Northwest,person,always,398,73,82,2352,2648
+1284,tenda_tiny,Lost Underworld_Overworld_Northwest,person,always,398,73,82,2362,2634
+1285,tenda_tiny,Lost Underworld_Overworld_Northwest,person,always,398,73,80,2352,2584
+1286,tenda_tiny,Lost Underworld_Overworld_Northwest,person,always,398,74,80,2383,2589
+1287,tenda_tiny,Lost Underworld_Overworld_Southeast,person,always,398,79,87,2544,2792
+1288,tenda_tiny,Lost Underworld_Overworld_Northwest,person,always,398,72,81,2320,2608
+1289,tenda_tiny,Lost Underworld_Overworld_Northwest,person,always,398,74,82,2390,2629
+1290,tenda_tiny,Lost Underworld_Overworld_Northwest,person,always,398,73,77,2344,2480
+1291,tenda_tiny,Lost Underworld_Overworld_Northwest,person,always,398,71,80,2296,2584
+1292,talking-rock_tiny,Lost Underworld_Overworld_Northwest,person,always,268,74,81,2370,2609
+1293,tenda_tiny,Lost Underworld_Overworld_Southeast,person,always,398,78,87,2520,2808
+1294,tenda_tiny,Lost Underworld_Overworld_Southwest,person,always,398,65,100,2088,3216
+1295,phone_bird_small,Lost Underworld_Overworld_Southeast,person,always,427,78,88,2520,2824
+1296,phone_bird_small,Lost Underworld_Overworld_Southwest,person,always,427,64,100,2072,3216
+1297,phone_bird_small,Lost Underworld_Overworld_Northwest,person,always,427,71,83,2295,2660
+1298,tenda_tiny,Lost Underworld_Overworld_Northwest,person,always,398,72,82,2322,2649
+1299,door_fence,Lost Underworld_Overworld_Northwest,object,~UNDERWORLD_TENDA_GATE_OPEN,422,73,83,2336,2680
+1300,sign_small,Lost Underworld_Overworld_Northwest,object,always,213,72,80,2327,2573
+1301,sign_small,Lost Underworld_Overworld_Southeast,object,always,213,78,89,2520,2848
+1302,sign_small,Lost Underworld_Overworld_Southwest,object,always,213,63,100,2040,3200
+1303,waterspout,Lost Underworld_Overworld_Southeast,object,always,426,83,93,2672,2992
+1304,waterspout_healing,Lost Underworld_Overworld_Northwest,object,always,402,72,77,2320,2480
+1305,waterspout,Lost Underworld_Overworld_Southwest,object,always,426,67,99,2160,3184
+1306,robot_unconscious,Cave of the Past_Rooms_1F_Past,object,GIYGAS_DEFEATED,26,6,190,196,6080
+1307,robot_unconscious,Cave of the Past_Rooms_1F_Past,object,GIYGAS_DEFEATED,26,6,190,212,6088
+1308,robot_unconscious,Cave of the Past_Rooms_1F_Past,object,GIYGAS_DEFEATED,26,5,190,180,6096
+1309,ness_robot_unconscious,Cave of the Past_Rooms_1F_Past,object,GIYGAS_DEFEATED,457,6,190,196,6104
+1310,phase-distorter,Cave of the Past_Rooms_1F_Past,object,PARTY_IS_ROBOTIFIED,210,18,216,600,6936
+1311,blank,,person,Unknown Flag,0,,,,
+1312,magicant-being_troll,Magicant_Shop_1F,person,always,99,236,242,7568,7752
+1313,flying-man,Magicant_Flying Man House_1F,person,~FLYING_MAN_1_JOINS,39,252,255,8080,8160
+1314,flying-man,Magicant_Flying Man House_1F,person,~FLYING_MAN_2_JOINS,39,251,254,8040,8128
+1315,flying-man,Magicant_Flying Man House_1F,person,~FLYING_MAN_3_JOINS,39,250,254,8008,8152
+1316,flying-man,Magicant_Flying Man House_1F,person,~FLYING_MAN_4_JOINS,39,250,255,8024,8176
+1317,flying-man,Magicant_Flying Man House_1F,person,~FLYING_MAN_5_JOINS,39,249,255,7976,8176
+1318,magicant-being_troll,Magicant_Hotel_1F,person,always,99,235,250,7544,8008
+1319,magicant-being_chicken,Magicant_Southeast House_1F,person,always,129,251,247,8056,7912
+1320,invisible_3,Magicant_Southeast House_1F,object,always,381,252,245,8070,7863
+1321,invisible_3,Magicant_Southeast House_1F,person,always,381,253,246,8104,7872
+1322,rabbit-statue,Magicant_Overworld_Southeast,person,always,107,188,141,6016,4512
+1323,boy_blue-ballcap,Magicant_Overworld_Southwest,person,always,123,164,147,5248,4712
+1324,monster_zombie,Magicant_Overworld_Southeast,person,always,308,179,146,5744,4672
+1325,monster_belch,Magicant_Overworld_Southeast,person,always,328,173,141,5544,4520
+1326,monster_fishman,Magicant_Overworld_North,person,always,288,168,132,5392,4248
+1327,boy_baseball-helmet,Magicant_Overworld_Southwest,person,always,124,156,143,4992,4594
+1328,boy_bowler-hat,Magicant_Overworld_Southwest,person,always,125,157,143,5030,4582
+1329,girl_redhead_pigtails,Magicant_Overworld_Southwest,person,always,128,158,143,5067,4584
+1330,picky,Magicant_Overworld_Southwest,person,always,45,159,143,5097,4592
+1331,girl_blonde_ponytail,Magicant_Overworld_Southwest,person,always,127,160,144,5135,4610
+1332,monkey-boy,Magicant_Overworld_Southwest,person,always,133,161,144,5164,4613
+1333,boy_fedora,Magicant_Overworld_Southwest,person,always,126,162,144,5201,4627
+1334,rabbit-statue,Magicant_Overworld_Southwest,person,always,107,163,143,5234,4605
+1335,ness,Magicant_Overworld_North,person,always,1,188,127,6032,4072
+1336,magicant-being_chicken,Magicant_Overworld_Southeast,person,always,129,193,142,6184,4552
+1337,magicant-being_daisy,Magicant_Overworld_Southeast,person,always,100,187,148,6000,4752
+1338,magicant-being_daisy,Magicant_Overworld_Southeast,person,always,100,186,149,5976,4777
+1339,magicant-being_daisy,Magicant_Overworld_Southeast,person,always,100,188,149,6025,4779
+1340,star-master,Magicant_Overworld_North,person,always,98,173,133,5544,4256
+1341,star-master,Magicant_Overworld_Southeast,person,always,98,190,138,6096,4432
+1342,mom,Magicant_Overworld_Southeast,person,always,145,197,138,6312,4416
+1343,tracy,Magicant_Overworld_Southeast,person,always,146,195,138,6264,4432
+1344,king,Magicant_Overworld_Southeast,person,always,40,198,138,6340,4432
+1345,pokey,Magicant_Overworld_Southwest,person,always,44,160,139,5128,4448
+1346,everdred,Magicant_Overworld_Southeast,person,~TALKED_TO_MAGICANT_EVERDRED,157,183,141,5872,4520
+1347,gravestone,Magicant_Overworld_North,object,FLYING_MAN_1_DEAD,239,161,131,5168,4200
+1348,gravestone,Magicant_Overworld_North,object,FLYING_MAN_2_DEAD,239,162,131,5184,4192
+1349,gravestone,Magicant_Overworld_North,object,FLYING_MAN_3_DEAD,239,162,131,5200,4200
+1350,gravestone,Magicant_Overworld_North,object,FLYING_MAN_4_DEAD,239,163,131,5216,4192
+1351,gravestone,Magicant_Overworld_North,object,FLYING_MAN_5_DEAD,239,163,131,5232,4200
+1352,gravestone,Magicant_Overworld_North,object,always,239,165,131,5296,4200
+1353,tentacle,Magicant_Overworld_North,object,always,200,173,122,5552,3912
+1354,monster_kraken,Dusty Dunes Desert_Overworld_West-(Tunnel-to-Threed),person,~SEA_OF_EDEN_KRAKEN_1_DEFEATED,295,27,301,880,9656
+1355,monster_kraken,Dusty Dunes Desert_Overworld_West-(Tunnel-to-Threed),person,~SEA_OF_EDEN_KRAKEN_2_DEFEATED,295,22,289,720,9272
+1356,monster_kraken,Magicant_Sea of Eden_1F,person,~SEA_OF_EDEN_KRAKEN_3_DEFEATED,295,17,286,560,9176
+1357,tentacle,Dusty Dunes Desert_Overworld_West-(Tunnel-to-Threed),object,always,200,13,300,424,9600
+1358,monster_mani-mani-statue,Magicant_Sea of Eden_1F,object,~NESS_NIGHTMARE_DEFEATED,293,15,285,496,9128
+1359,bartender,Moonside_Jackie's Cafe_1F,person,always,84,203,154,6496,4928
+1360,woman_redhead_blue-dress,Moonside_Jackie's Cafe_1F,person,always,108,203,155,6520,4960
+1361,drunk-man,Moonside_Jackie's Cafe_1F,person,always,60,205,155,6560,4968
+1362,woman_blonde_red-blazer,Moonside_Jackie's Cafe_1F,person,always,66,203,155,6496,4984
+1363,monster_flame,Moonside_Jackie's Cafe_1F,person,~MOONSIDE_CAFE_ROBO_PUMP_DEFEATED,279,201,155,6440,4968
+1364,nurse,Moonside_Hospital_1F,person,always,140,234,154,7504,4928
+1365,doctor,Moonside_Hospital_1F,person,always,139,228,154,7312,4928
+1366,monster_art,Moonside_Hospital_1F,person,~MOONSIDE_HOSPITAL_ABSTRACT_ART_DEFEATED,300,224,155,7192,4976
+1367,healer,Moonside_Hospital_1F,person,always,189,227,154,7264,4936
+1368,woman_blonde_red-dress,Moonside_Hospital_1F_Room,person,always,68,251,182,8040,5848
+1369,man_glasses_orange-cardigan,Threed_Under Graveyard_Stairs-from-Skyrunner,person,always,64,193,132,6200,4224
+1370,museum-curator,Threed_Under Graveyard_Stairs-from-Skyrunner,person,always,174,196,132,6288,4240
+1371,monster_flame,Threed_Under Graveyard_Stairs-from-Skyrunner,person,~MOONSIDE_MUSEUM_ROBO_PUMP_DEFEATED,279,195,132,6240,4240
+1372,man_bald_black-suit,Dusty Dunes Desert_Desert Gold Mine_Main-Room,person,always,56,204,182,6540,5833
+1373,bellhop,Dusty Dunes Desert_Desert Gold Mine_Main-Room,person,JUST_RESTED,73,202,182,6480,5824
+1374,man_mohawk_punk-clothes,Dusty Dunes Desert_Desert Gold Mine_Main-Room,person,always,85,203,182,6509,5830
+1375,atm-machine,Dusty Dunes Desert_Desert Gold Mine_Main-Room,object,always,259,205,182,6584,5824
+1376,phone_black,Dusty Dunes Desert_Desert Gold Mine_Main-Room,person,always,215,205,182,6576,5832
+1377,lookalike_mr-t,Magicant_Overworld_Southwest,person,always,79,170,138,5448,4440
+1378,invisible-man,Magicant_Overworld_Southwest,person,~INVISIBLE_MAN_JOINS,450,172,139,5504,4456
+1379,man_hat_black-suit,Moonside_Overworld_North,person,always,63,227,117,7288,3768
+1380,man_blonde_resortwear,Moonside_Overworld_North,person,always,71,225,127,7224,4080
+1381,woman_blonde_resortwear,Moonside_Overworld_South,person,always,72,233,141,7472,4528
+1382,lookalike_teddy,Moonside_Overworld_North,person,always,118,233,129,7480,4128
+1383,man_glasses_-black-suit,Moonside_Overworld_South,person,always,62,233,138,7464,4440
+1384,maxwell-labs,Moonside_Overworld_North,person,always,69,253,123,8104,3960
+1385,man_glasses_orange-cardigan,Moonside_Overworld_North,person,always,64,231,122,7408,3912
+1386,lookalike_pigpen,Moonside_Overworld_South,person,always,115,248,141,7960,4512
+1387,woman_dalaamese,Moonside_Overworld_South,person,always,89,246,148,7880,4760
+1388,man_mohawk_punk-clothes,Moonside_Overworld_North,person,always,85,243,117,7784,3768
+1389,bodyguard,Moonside_Overworld_North,person,always,109,254,129,8144,4152
+1390,lookalike_shy-guy-mask,Moonside_Overworld_North,person,always,119,245,120,7856,3864
+1391,man_blonde_black-suit,Moonside_Overworld_North,person,always,61,227,121,7264,3880
+1392,man_orange-hair_sunglasses,Moonside_Overworld_South,person,always,117,245,136,7840,4360
+1393,woman_black-hair_red-clothes,Moonside_Overworld_North,person,always,116,248,131,7944,4200
+1394,rastaman,Moonside_Overworld_North,person,always,78,229,113,7352,3640
+1395,monotoli,Moonside_Overworld_South,person,~TALKED_TO_MOONSIDE_MONOTOLI,164,238,147,7624,4712
+1396,man_sailor_blue-clothes,Moonside_Overworld_South,person,~PATH_TO_MANI_MANI_OPEN,90,241,143,7720,4600
+1397,man_blonde_resortwear,Moonside_Overworld_North,person,always,71,227,125,7272,4000
+1398,man_blonde_resortwear,Moonside_Overworld_North,person,always,71,235,130,7544,4184
+1399,man_blonde_resortwear,Moonside_Overworld_North,person,always,71,237,127,7592,4088
+1400,man_blonde_resortwear,Moonside_Overworld_North,person,always,71,236,124,7568,3992
+1401,man_blonde_resortwear,Moonside_Overworld_North,person,always,71,239,122,7664,3912
+1402,man_blonde_resortwear,Moonside_Overworld_North,person,always,71,249,122,7992,3912
+1403,man_blonde_resortwear,Moonside_Overworld_South,person,always,71,232,149,7440,4792
+1404,man_blonde_resortwear,Moonside_Overworld_South,person,always,71,243,149,7800,4792
+1405,hotel_sign,Moonside_Overworld_North,object,always,442,248,120,7952,3848
+1406,monster_mani-mani-statue,Moonside_Overworld_South,object,always,293,238,145,7641,4665
+1407,present,Onett_Overworld_Northeast,item,always,195,59,13,1904,424
+1408,trashcan,Onett_Overworld_Central-North,item,always,214,57,35,1824,1128
+1409,present,Onett_Overworld_South-(to-Twoson),item,always,195,50,83,1616,2672
+1410,trashcan,Onett_Overworld_Central-South,item,always,214,69,44,2208,1408
+1411,trashcan,Onett_Overworld_Central-South,item,always,214,47,54,1528,1728
+1412,present,Onett_Ness' House_2F_Tracy's-Room,item,always,195,233,23,7464,744
+1413,present,Giant Step_Rooms_Main-Room,item,always,195,65,256,2080,8216
+1414,present,Fourside_Overworld_Fourside,item,always,195,121,158,3888,5080
+1415,present,Giant Step_Rooms_Room-3,item,always,195,113,182,3640,5848
+1416,present,Twoson_Overworld_South-(to-Threed-Tunnel),item,always,195,25,262,800,8392
+1417,present,Twoson_Polestar_1F_Den_Bedroom_Paula's-Room,item,always,195,253,278,8104,8912
+1418,trashcan,Twoson_Apple Kid's House_1F,item,always,214,241,247,7728,7912
+1419,present,Happy Happy Village_Happy Happy HQ_1F,item,always,195,246,71,7888,2288
+1420,present,Happy Happy Village_Happy Happy HQ_1F,item,always,195,253,74,8112,2392
+1421,present,Peaceful Rest Valley_Overworld_All,item,always,195,158,56,5072,1792
+1422,present,Peaceful Rest Valley_Overworld_All,item,always,195,155,29,4960,944
+1423,present,Peaceful Rest Valley_Overworld_All,item,always,195,151,64,4848,2064
+1424,present,Peaceful Rest Valley_Overworld_All,item,always,195,162,39,5184,1272
+1425,present,Peaceful Rest Valley_Overworld_All,item,always,195,165,65,5304,2104
+1426,present,Peaceful Rest Valley_Overworld_All,item,always,195,178,60,5696,1920
+1427,present,Lilliput Steps_Rooms_Main-Room,item,always,195,117,35,3744,1144
+1428,present,Lilliput Steps_Rooms_Main-Room,item,always,195,98,61,3160,1968
+1429,present,Lilliput Steps_Rooms_Main-Room,item,always,195,122,50,3912,1608
+1430,trashcan,Threed_Overworld_Northwest,item,always,214,152,266,4864,8536
+1431,trashcan,Threed_Overworld_Northeast,item,always,214,197,266,6312,8512
+1432,trashcan,Threed_Overworld_Central,item,always,214,164,291,5272,9328
+1433,trashcan,Threed_Overworld_East-(Tunnel-to-Dusty-Dunes),item,always,214,189,292,6072,9352
+1434,coffin,Lumine Hall_Rooms_2F,item,always,262,125,75,4000,2416
+1435,coffin,Fourside_Overworld_Fourside,item,always,262,124,162,3992,5200
+1436,present,Winters_Snow Wood_2F_Present-Room,item,always,195,242,57,7774,1832
+1437,present,Winters_Snow Wood_2F_Present-Room,item,always,195,245,58,7850,1865
+1438,present,Winters_Snow Wood_2F_Present-Room,item,always,195,242,58,7770,1867
+1439,present,Winters_Snow Wood_2F_Present-Room,item,always,195,244,58,7823,1884
+1440,present,Winters_Snow Wood_2F_Present-Room,item,always,195,246,59,7877,1890
+1441,present,Winters_Snow Wood_2F_Present-Room,item,always,195,241,58,7739,1869
+1442,present,Winters_Snow Wood_2F_Present-Room,item,always,195,243,59,7784,1904
+1443,present,Winters_Andonuts Lab_2F,item,always,195,222,59,7112,1912
+1444,present,Winters_Brickroad Dungeon_1F,item,always,195,53,116,1712,3712
+1445,present,Winters_Brickroad Dungeon_1F,item,always,195,38,115,1232,3680
+1446,present,Winters_Brickroad Dungeon_1F,item,always,195,49,116,1584,3712
+1447,present,Winters_Brickroad Dungeon_1F,item,always,195,45,114,1440,3656
+1448,present,Winters_Brickroad Dungeon_1F,item,always,195,52,110,1664,3528
+1449,present,Rainy Circle_Rooms_Main-Room,item,always,195,163,5,5240,176
+1450,present,Rainy Circle_Rooms_Main-Room,item,always,195,153,13,4920,440
+1451,present,Rainy Circle_Rooms_Hallway-1,item,always,195,195,154,6264,4952
+1452,present,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout,item,always,195,211,137,6768,4384
+1453,present,Winters_Stonehenge Base_B5F,item,always,195,223,153,7136,4904
+1454,present,Winters_Stonehenge Base_B7F,item,always,195,215,115,6896,3680
+1455,present,Winters_Stonehenge Base_B7F,item,always,195,203,123,6512,3944
+1456,present,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout,item,always,195,206,135,6616,4336
+1457,present,Dusty Dunes Desert_Desert Gold Mine_Main-Room,item,always,195,229,209,7352,6704
+1458,present,Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout,item,always,195,213,128,6816,4112
+1459,present,Dusty Dunes Desert_Desert Gold Mine_Main-Room,item,always,195,239,172,7664,5512
+1460,trashcan,Grapefruit Falls_Belch's Base_Room-2,item,always,214,125,175,4000,5600
+1461,trashcan,Fourside_Overworld_Fourside,item,always,214,125,166,4016,5328
+1462,trashcan,Grapefruit Falls_Belch's Base_Room-3,item,always,214,124,182,3984,5848
+1463,trashcan,Grapefruit Falls_Belch's Base_Room-3,item,always,214,123,182,3960,5832
+1464,trashcan,Grapefruit Falls_Belch's Base_Room-3,item,always,214,123,183,3944,5872
+1465,trashcan,Grapefruit Falls_Belch's Base_Room-2,item,always,214,124,174,3976,5568
+1466,present,Lilliput Steps_Rooms_Boss-Room,item,always,195,220,66,7064,2136
+1467,present,Grapefruit Falls_Overworld_All,item,always,195,207,26,6624,832
+1468,present,Grapefruit Falls_Overworld_All,item,always,195,206,51,6616,1656
+1469,present,Summers and Toto_Overworld_East-(Toto),item,always,195,213,102,6816,3288
+1470,present,Saturn Valley_Overworld_North,item,always,195,15,235,496,7536
+1471,trashcan,Saturn Valley_Trash Room_1F,item,always,214,210,106,6728,3416
+1472,trashcan,Saturn Valley_Trash Room_1F,item,always,214,209,106,6704,3400
+1473,trashcan,Saturn Valley_Trash Room_1F,item,always,214,208,106,6675,3416
+1474,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Left_Right_Right-(Chest),item,always,233,194,210,6224,6720
+1475,trashcan,Dusty Dunes Desert_Monkey Cave_Start_Left_Right_Left-(Trashcan),item,always,214,193,201,6192,6432
+1476,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Left-(Chest),item,always,233,241,194,7720,6216
+1477,trashcan,Dusty Dunes Desert_Monkey Cave_Start_Right_Right_Right-(Trash-can),item,always,214,209,202,6696,6472
+1478,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Talah-Rama-Room),item,always,233,234,213,7500,6828
+1479,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Talah-Rama-Room),item,always,233,233,213,7464,6832
+1480,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Left-(Hallway),item,always,233,197,183,6320,5864
+1481,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right-(Hallway),item,always,233,194,206,6208,6608
+1482,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Left_Left-(Hallway),item,always,233,195,190,6256,6096
+1483,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hallway),item,always,233,195,198,6256,6360
+1484,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hallway),item,always,233,196,198,6287,6348
+1485,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hallway),item,always,233,210,191,6728,6120
+1486,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Hallway),item,always,233,197,215,6320,6880
+1487,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Hallway),item,always,233,214,198,6872,6352
+1488,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Hallway),item,always,233,215,198,6904,6344
+1489,present,Dusty Dunes Desert_Overworld_North,item,always,195,97,301,3112,9632
+1490,present,Dusty Dunes Desert_Overworld_Northwest,item,always,195,46,286,1480,9160
+1491,present,Dusty Dunes Desert_Overworld_North,item,always,195,96,275,3088,8816
+1492,present,Dusty Dunes Desert_Overworld_Northwest,item,always,195,68,275,2192,8824
+1493,present,Dusty Dunes Desert_Overworld_North,item,always,195,75,290,2416,9296
+1494,present,Dusty Dunes Desert_Overworld_East-(Dig-Site),item,always,195,114,277,3664,8880
+1495,present,Dusty Dunes Desert_Overworld_South,item,always,195,81,307,2600,9840
+1496,present,Dusty Dunes Desert_Overworld_East-(Dig-Site),item,always,195,127,290,4064,9304
+1497,present,Dusty Dunes Desert_Desert Gold Mine_Main-Room,item,always,195,210,194,6720,6216
+1498,present,Dusty Dunes Desert_Desert Gold Mine_Main-Room,item,always,195,202,206,6464,6616
+1499,present,Dusty Dunes Desert_Desert Gold Mine_Room-1,item,always,195,195,161,6248,5176
+1500,present,Dusty Dunes Desert_Desert Gold Mine_Main-Room,item,always,195,229,170,7344,5456
+1501,present,Dusty Dunes Desert_Desert Gold Mine_Main-Room,item,always,195,203,206,6496,6600
+1502,present,Dusty Dunes Desert_Desert Gold Mine_Room-2,item,always,195,253,162,8120,5200
+1503,present,Dusty Dunes Desert_Desert Gold Mine_Main-Room,item,always,195,237,178,7608,5720
+1504,present,Dusty Dunes Desert_Desert Gold Mine_Main-Room,item,always,195,227,178,7280,5720
+1505,present,Dusty Dunes Desert_Desert Gold Mine_Main-Room,item,always,195,201,179,6456,5728
+1506,present,Dusty Dunes Desert_Desert Gold Mine_Main-Room,item,always,195,233,205,7480,6584
+1507,present,Dusty Dunes Desert_Desert Gold Mine_Main-Room,item,always,195,228,187,7320,5984
+1508,present,Dusty Dunes Desert_Desert Gold Mine_Room-2,item,always,195,243,166,7800,5320
+1509,present,Dusty Dunes Desert_Desert Gold Mine_Main-Room,item,always,195,228,186,7304,5960
+1510,present,Dusty Dunes Desert_Desert Gold Mine_Main-Room,item,always,195,227,201,7280,6440
+1511,present_dalaam,Fourside_Overworld_East,item,always,233,119,129,3816,4152
+1512,present,Fourside_Monotoli_L3_Left_Up_Up,item,always,195,185,163,5936,5224
+1513,present,Fourside_Monotoli_L3_Left_Up_Left_Left,item,always,195,187,171,5984,5488
+1514,present,Moonside_Overworld_South,item,always,195,233,151,7464,4840
+1515,present,Moonside_Overworld_South,item,always,195,246,146,7888,4688
+1516,present,Moonside_Overworld_North,item,always,195,254,119,8152,3808
+1517,present,Moonside_Overworld_North,item,always,195,228,131,7320,4200
+1518,present,Moonside_Overworld_South,item,always,195,233,137,7480,4408
+1519,trashcan,Fourside Sewers_Rooms_Hallway-1,item,always,214,224,109,7176,3488
+1520,trashcan,Fourside Sewers_Rooms_Room-4,item,always,214,129,154,4152,4952
+1521,trashcan,Fourside Sewers_Rooms_Room-2,item,always,214,130,138,4176,4416
+1522,trashcan,Fourside Sewers_Rooms_Room-1,item,always,214,3,44,96,1408
+1523,trashcan,Fourside Sewers_Rooms_Room-5,item,always,214,179,111,5736,3560
+1524,monster_coffin,Scaraba_Pyramid_Room-2,item,always,322,129,150,4144,4800
+1525,monster_coffin,Scaraba_Pyramid_Room-3,item,always,322,131,158,4192,5056
+1526,monster_coffin,Scaraba_Pyramid_Room-1,item,always,322,132,142,4232,4544
+1527,monster_coffin,Scaraba_Pyramid_Room-6,item,always,322,131,182,4216,5824
+1528,monster_coffin,Scaraba_Pyramid_Room-3,item,always,322,131,158,4223,5078
+1529,monster_coffin,Scaraba_Pyramid_Room-4,item,always,322,132,166,4247,5318
+1530,present,Scaraba_Dungeon Man_1F,item,always,195,142,6,4568,200
+1531,present,Scaraba_Dungeon Man_1F,item,always,195,145,19,4664,632
+1532,present,Scaraba_Dungeon Man_2F,item,always,195,4,28,144,912
+1533,present,Scaraba_Dungeon Man_2F,item,always,195,2,22,64,712
+1534,present,Scaraba_Dungeon Man_1F,item,always,195,149,11,4792,360
+1535,present,Scaraba_Dungeon Man_2F,item,always,195,7,35,248,1128
+1536,present,Scaraba_Dungeon Man_1F,item,always,195,142,8,4552,256
+1537,present,Scaraba_Dungeon Man_1F,item,always,195,139,14,4456,448
+1538,present,Scaraba_Dungeon Man_2F,item,always,195,13,25,424,816
+1539,present,Scaraba_Dungeon Man_2F,item,always,195,14,34,464,1096
+1540,present,Scaraba_Dungeon Man_3F,item,always,195,123,206,3952,6608
+1541,present,Scaraba_Dungeon Man_1F,item,always,195,133,18,4280,576
+1542,present_dalaam,Dalaam_Palace_1F_Throne-Room,item,always,233,210,260,6736,8328
+1543,present_dalaam,Dalaam_Palace_1F_Throne-Room,item,always,233,210,261,6744,8352
+1544,present_dalaam,Dalaam_Palace_1F_Throne-Room,item,always,233,209,261,6704,8360
+1545,present_dalaam,Dalaam_Houses_North,item,always,233,216,242,6936,7760
+1546,present_dalaam,Dalaam_Shop_1F,item,always,233,234,253,7512,8120
+1547,present_dalaam,Dalaam_Houses_South,item,always,233,219,249,7024,7992
+1548,present_dalaam,Dalaam_Shop_1F,item,always,233,233,253,7472,8120
+1549,present,Pink Cloud_Rooms_Room-3,item,always,195,132,268,4248,8592
+1550,present,Pink Cloud_Rooms_Room-1,item,always,195,148,141,4744,4520
+1551,present,Dusty Dunes Desert_Overworld_East-(Dig-Site),item,always,195,131,286,4208,9168
+1552,present,Deep Darkness_Overworld_Southwest,item,always,195,141,250,4528,8024
+1553,present,Deep Darkness_Overworld_Northwest,item,always,195,151,232,4856,7432
+1554,present,Deep Darkness_Overworld_Southwest,item,always,195,163,241,5240,7712
+1555,present,Deep Darkness_Overworld_Southeast,item,always,195,169,243,5416,7792
+1556,present,Deep Darkness_Overworld_Northeast,item,always,195,188,236,6024,7568
+1557,present,Deep Darkness_Overworld_Northeast,item,always,195,174,237,5584,7600
+1558,present,Lumine Hall_Rooms_1F,item,always,195,104,11,3344,368
+1559,present,Lumine Hall_Rooms_1F,item,always,195,100,12,3200,384
+1560,present,Lumine Hall_Rooms_2F,item,always,195,112,89,3592,2848
+1561,present,Lumine Hall_Rooms_1F,item,always,195,112,29,3584,952
+1562,present,Lumine Hall_Rooms_1F,item,always,195,125,20,4024,648
+1563,present,Lumine Hall_Rooms_2F,item,always,195,106,75,3416,2408
+1564,present,Lumine Hall_Rooms_2F,item,always,195,101,93,3256,3000
+1565,present,Lumine Hall_Rooms_2F,item,always,195,115,79,3696,2544
+1566,present,Lumine Hall_Rooms_2F,item,always,195,104,88,3328,2840
+1567,trashcan,Deep Darkness_Tenda Village_Main,item,always,214,19,10,608,336
+1568,present_tiny,Lost Underworld_Overworld_Southwest,item,always,33,75,87,2408,2792
+1569,present_tiny,Lost Underworld_Overworld_Southeast,item,always,33,93,90,2992,2896
+1570,present_tiny,Lost Underworld_Overworld_Northeast,item,always,33,89,77,2856,2464
+1571,present_tiny,Lost Underworld_Overworld_Northeast,item,always,33,79,75,2552,2416
+1572,present_tiny,Lost Underworld_Overworld_Southwest,item,always,33,65,88,2104,2824
+1573,present,Lost Underworld_Fire Springs_Main-Room,item,always,195,107,204,3440,6544
+1574,present,Lost Underworld_Fire Springs_Room-3,item,always,195,129,178,4128,5712
+1575,present,Lost Underworld_Fire Springs_Main-Room,item,always,195,119,214,3808,6848
+1576,present,Lost Underworld_Fire Springs_Main-Room,item,always,195,99,209,3176,6704
+1577,present,Lost Underworld_Fire Springs_Room-1,item,always,195,117,170,3752,5456
+1578,present,Magicant_Overworld_North,item,always,195,187,127,6000,4072
+1579,present,Magicant_Overworld_Southwest,item,always,195,155,145,4960,4656
+1580,present,Magicant_Overworld_North,item,always,195,186,119,5952,3824
+1581,present,Magicant_Overworld_North,item,always,195,171,113,5472,3632
+1582,present,Magicant_Overworld_North,item,always,195,166,124,5320,3968
+1583,present,Cave of the Past_Rooms_1F_Past,item,always,195,12,191,384,6136

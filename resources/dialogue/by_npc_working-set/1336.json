@@ -1,0 +1,45 @@
+{
+  "Sprite": 129,
+  "sprite_label": "magicant-being_chicken",
+  "map_location_label": "Magicant_Overworld_Southeast",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C7768F",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1336"
+  ],
+  "d1_text": "Npc1336:\r\n\u00ef\u00bf\u00bdChi chi chi chi chi[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd(Onett was a quiet, small town, wasn't it?)[HALT][SET_MAP_PAL 5 0 60]\r\n[END]",
+  "d1_lines": [
+    "Npc1336:",
+    "\u00ef\u00bf\u00bdChi chi chi chi chi[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd(Onett was a quiet, small town, wasn't it?)[HALT][SET_MAP_PAL 5 0 60]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdChi chi chi chi chi[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd(Onett was a quiet, small town, wasn't it?)[HALT][SET_MAP_PAL 5 0 60]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6184,
+  "y_pixel_abs": 4552,
+  "x_tile": 193,
+  "y_tile": 142,
+  "x_sector": 24,
+  "y_sector": 17,
+  "x_sector_offset": 40,
+  "y_sector_offset": 200,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 12,
+  "Text Pointer 1": "data_29.l_0xc7768f",
+  "Text Pointer 2": "$0"
+}

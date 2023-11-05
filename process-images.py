@@ -6,8 +6,8 @@ from collections import OrderedDict
 from pprint import pprint
 
 CD = os.path.dirname(os.path.realpath(__file__))
-notrim_directory = 'out_from_bulk-rename-utility/'
-retrim_directory = './rooms-and-regions/'
+notrim_directory = './resources/maps/export-layers_output/'
+retrim_directory = './process-images_output/'
 
 regions = os.listdir(os.path.join(CD, notrim_directory))
 region_dict = OrderedDict()
@@ -36,7 +36,7 @@ sorted_regions = OrderedDict(sorted(region_dict.items(), key=lambda item: item[1
 
 region_values = list(sorted_regions.values())
 
-with open(os.path.join(CD, 'rooms_and_regions.csv'), 'w', newline='') as f:
+with open(os.path.join(CD, 'resources/maps/' 'rooms_and_regions.csv'), 'w', newline='') as f:
     w = csv.DictWriter(f, region_values[0].keys())
     w.writeheader()
     w.writerows(region_values)

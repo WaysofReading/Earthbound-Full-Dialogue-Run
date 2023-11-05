@@ -1,0 +1,45 @@
+{
+  "Sprite": 398,
+  "sprite_label": "tenda_tiny",
+  "map_location_label": "Lost Underworld_Overworld_Northwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "EF5F7D",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1289"
+  ],
+  "d1_text": "Npc1289:\r\n\u00ef\u00bf\u00bdWe made a cage for dinosaurs and locked them up...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThat's what my brother tells me.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdBut I don't believe it...[PAUSE 20]  He's just spewing out of his cake hole.[HALT][END]",
+  "d1_lines": [
+    "Npc1289:",
+    "\u00ef\u00bf\u00bdWe made a cage for dinosaurs and locked them up...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThat's what my brother tells me.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdBut I don't believe it...[PAUSE 20]  He's just spewing out of his cake hole.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdWe made a cage for dinosaurs and locked them up...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThat's what my brother tells me.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdBut I don't believe it...[PAUSE 20]  He's just spewing out of his cake hole.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2390,
+  "y_pixel_abs": 2629,
+  "x_tile": 74,
+  "y_tile": 82,
+  "x_sector": 9,
+  "y_sector": 10,
+  "x_sector_offset": 86,
+  "y_sector_offset": 69,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 606,
+  "Text Pointer 1": "data_56.l_0xef5f7d",
+  "Text Pointer 2": "$0"
+}

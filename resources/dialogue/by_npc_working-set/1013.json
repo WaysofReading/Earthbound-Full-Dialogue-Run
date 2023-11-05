@@ -1,0 +1,67 @@
+{
+  "Sprite": 72,
+  "sprite_label": "woman_blonde_resortwear",
+  "map_location_label": "Summers and Toto_Summers Shop_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8A394",
+  "d1_flags": [
+    "1. goto C8A39B if GIYGAS_DEFEATED is set",
+    "1. goto C8A3DD if POO_JOINS is set"
+  ],
+  "d1_addresses": [
+    "C7DC7F",
+    "C8A39B",
+    "C8A3DD",
+    "Npc1013"
+  ],
+  "d1_text": "Npc1013:\r\n[GOTO_IF_FLAG POO_JOINS L_C8A3DD]\r\n; $C8A39B\r\nL_C8A39B:\r\n\u00ef\u00bf\u00bdHow annoying![PAUSE 20]  Why are you are wandering around?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdSummers is a posh resort, made for adults.[HALT][END]",
+  "d1_lines": [
+    "Npc1013:",
+    "[GOTO_IF_FLAG POO_JOINS L_C8A3DD]",
+    "; $C8A39B",
+    "L_C8A39B:",
+    "\u00ef\u00bf\u00bdHow annoying![PAUSE 20]  Why are you are wandering around?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdSummers is a posh resort, made for adults.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG POO_JOINS L_C8A3DD]:C8A3DD": {
+      "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C8A39B]:C8A39B": {
+        "\u00ef\u00bf\u00bdHow annoying![PAUSE 20]  Why are you are wandering around?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdSummers is a posh resort, made for adults.[HALT][END]": null
+      },
+      "[SET_COUNTER 4]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C8A39B]:C8A39B": {
+        "\u00ef\u00bf\u00bdHow annoying![PAUSE 20]  Why are you are wandering around?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdSummers is a posh resort, made for adults.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdThat Kung Fu-like hairstyle![PAUSE 20]  You look so cool![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI may fall in love with you.[PAUSE 20]  Do you think I'm too forward?[HALT][END]": null
+    },
+    "; $C8A39B": null,
+    "\u00ef\u00bf\u00bdHow annoying![PAUSE 20]  Why are you are wandering around?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdSummers is a posh resort, made for adults.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6784,
+  "y_pixel_abs": 9192,
+  "x_tile": 212,
+  "y_tile": 287,
+  "x_sector": 26,
+  "y_sector": 35,
+  "x_sector_offset": 128,
+  "y_sector_offset": 232,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 13,
+  "Text Pointer 1": "data_40.l_0xc8a394",
+  "Text Pointer 2": "$0"
+}

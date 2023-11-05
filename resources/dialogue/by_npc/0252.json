@@ -1,0 +1,110 @@
+{
+  "Sprite": 187,
+  "sprite_label": "runaway-5_groovy",
+  "map_location_label": "Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C957CB",
+  "d1_flags": [
+    "1. goto C957FF if TEMP_2 is set",
+    "1. goto C95881 if TEMP_3 is set",
+    "1. goto C95881 if WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER is set",
+    "3. set TEMP_2"
+  ],
+  "d1_addresses": [
+    "C957FF",
+    "C95881",
+    "Npc0252"
+  ],
+  "d1_text": "Npc0252:\r\n[GOTO_IF_FLAG TEMP_3 L_C95881]\r\n[GOTO_IF_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER L_C95881]\r\n[GOTO_IF_FLAG TEMP_2 L_C957FF]\r\n\u00ef\u00bf\u00bdI wrote the lyrics to most of the Runaway Five songs.[WAIT][LINE_BREAK]\r\n; $C957FF\r\nL_C957FF:\r\n\u00ef\u00bf\u00bdMoney, [PAUSE 20]that's what I want[PAUSE 20][LINE_BREAK]\r\n  money, [PAUSE 20]that's what is hot[PAUSE 20][LINE_BREAK]\r\n  money, [PAUSE 20]that's what I want[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdmoney, [PAUSE 20]it's what we ain't got 'cept freedom, freedom,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdfreedom is what we've really sought![HALT][SET_FLAG TEMP_2]\r\n[END]",
+  "d1_lines": [
+    "Npc0252:",
+    "[GOTO_IF_FLAG TEMP_3 L_C95881]",
+    "[GOTO_IF_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER L_C95881]",
+    "[GOTO_IF_FLAG TEMP_2 L_C957FF]",
+    "\u00ef\u00bf\u00bdI wrote the lyrics to most of the Runaway Five songs.[WAIT][LINE_BREAK]",
+    "; $C957FF",
+    "L_C957FF:",
+    "\u00ef\u00bf\u00bdMoney, [PAUSE 20]that's what I want[PAUSE 20][LINE_BREAK]",
+    "  money, [PAUSE 20]that's what is hot[PAUSE 20][LINE_BREAK]",
+    "  money, [PAUSE 20]that's what I want[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdmoney, [PAUSE 20]it's what we ain't got 'cept freedom, freedom,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdfreedom is what we've really sought![HALT][SET_FLAG TEMP_2]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TEMP_3 L_C95881]:C95881": {
+      "\u00ef\u00bf\u00bdCash, [PAUSE 20]that's what I want[PAUSE 20][LINE_BREAK]": null,
+      "  cash, [PAUSE 20]that's what is hot[PAUSE 20][LINE_BREAK]": null,
+      "  cash, [PAUSE 20]that's what I want[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...hey, I just made up a new song.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG WATCHED_RUNAWAY_FIVE_AT_CHAOS_THEATER L_C95881]:C95881": {
+      "\u00ef\u00bf\u00bdCash, [PAUSE 20]that's what I want[PAUSE 20][LINE_BREAK]": null,
+      "  cash, [PAUSE 20]that's what is hot[PAUSE 20][LINE_BREAK]": null,
+      "  cash, [PAUSE 20]that's what I want[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...hey, I just made up a new song.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG TEMP_2 L_C957FF]:C957FF": {
+      "\u00ef\u00bf\u00bdMoney, [PAUSE 20]that's what I want[PAUSE 20][LINE_BREAK]": null,
+      "  money, [PAUSE 20]that's what is hot[PAUSE 20][LINE_BREAK]": null,
+      "  money, [PAUSE 20]that's what I want[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdmoney, [PAUSE 20]it's what we ain't got 'cept freedom, freedom,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdfreedom is what we've really sought![HALT][SET_FLAG TEMP_2]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdI wrote the lyrics to most of the Runaway Five songs.[WAIT][LINE_BREAK]": null,
+    "; $C957FF": null,
+    "\u00ef\u00bf\u00bdMoney, [PAUSE 20]that's what I want[PAUSE 20][LINE_BREAK]": null,
+    "  money, [PAUSE 20]that's what is hot[PAUSE 20][LINE_BREAK]": null,
+    "  money, [PAUSE 20]that's what I want[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdmoney, [PAUSE 20]it's what we ain't got 'cept freedom, freedom,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdfreedom is what we've really sought![HALT][SET_FLAG TEMP_2]": null,
+    "[END]": null
+  },
+  "d2_pointer": "C958D7",
+  "d2_flags": [],
+  "d2_addresses": [
+    "C7C6B6",
+    "C958D7"
+  ],
+  "d2_text": "L_C958D7:\r\n[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]\r\n[CHECK_EQUAL 180][GOTO_IF_FALSE L_C7C6B6]\r\n\u00ef\u00bf\u00bdWow!  10,000 dollars![PAUSE 20][LINE_BREAK]\r\n  I can make another song now.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdTen G's,[PAUSE 20]  ten G's.[PAUSE 20][LINE_BREAK]\r\n  That's dollars,[PAUSE 20] baby, dollars.[PAUSE 20][LINE_BREAK]\r\n  Yeah yeah yeah.[HALT][END]",
+  "d2_lines": [
+    "L_C958D7:",
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]",
+    "[CHECK_EQUAL 180][GOTO_IF_FALSE L_C7C6B6]",
+    "\u00ef\u00bf\u00bdWow!  10,000 dollars![PAUSE 20][LINE_BREAK]",
+    "  I can make another song now.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdTen G's,[PAUSE 20]  ten G's.[PAUSE 20][LINE_BREAK]",
+    "  That's dollars,[PAUSE 20] baby, dollars.[PAUSE 20][LINE_BREAK]",
+    "  Yeah yeah yeah.[HALT][END]"
+  ],
+  "d2_unrolled": {
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+    "[CHECK_EQUAL 180][GOTO_IF_FALSE L_C7C6B6]:C7C6B6": {
+      "[GET_ACTION_ARG][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bdYou can't use[LINE_BREAK]": null,
+      "  the [PRINT_ITEM REG_ARGUMENT].[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdWow!  10,000 dollars![PAUSE 20][LINE_BREAK]": null,
+    "  I can make another song now.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdTen G's,[PAUSE 20]  ten G's.[PAUSE 20][LINE_BREAK]": null,
+    "  That's dollars,[PAUSE 20] baby, dollars.[PAUSE 20][LINE_BREAK]": null,
+    "  Yeah yeah yeah.[HALT][END]": null
+  },
+  "x_pixel_abs": 8032,
+  "y_pixel_abs": 7504,
+  "x_tile": 251,
+  "y_tile": 234,
+  "x_sector": 31,
+  "y_sector": 29,
+  "x_sector_offset": 96,
+  "y_sector_offset": 80,
+  "Event Flag": 119,
+  "flag_label": "RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 606,
+  "Text Pointer 1": "data_47.l_0xc957cb",
+  "Text Pointer 2": "data_47.l_0xc958d7"
+}

@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./utilities/earthbound-script-dumper/constants",
+        "./utilities/earthbound-script-dumper"
+    ]
+}

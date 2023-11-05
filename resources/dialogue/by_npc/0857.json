@@ -1,0 +1,47 @@
+{
+  "Sprite": 61,
+  "sprite_label": "man_blonde_black-suit",
+  "map_location_label": "Fourside_Monotoli_L1_Lobby",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6DF83",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0857"
+  ],
+  "d1_text": "Npc0857:\r\n\u00ef\u00bf\u00bdLast night there was a solitaire tournament.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd...I lost my shirt....[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'll invite you next time.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHey, wait...  Do you even know what solitaire is?[HALT][END]",
+  "d1_lines": [
+    "Npc0857:",
+    "\u00ef\u00bf\u00bdLast night there was a solitaire tournament.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd...I lost my shirt....[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'll invite you next time.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHey, wait...  Do you even know what solitaire is?[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdLast night there was a solitaire tournament.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd...I lost my shirt....[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'll invite you next time.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHey, wait...  Do you even know what solitaire is?[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5624,
+  "y_pixel_abs": 5464,
+  "x_tile": 175,
+  "y_tile": 170,
+  "x_sector": 21,
+  "y_sector": 21,
+  "x_sector_offset": 248,
+  "y_sector_offset": 88,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_24.l_0xc6df83",
+  "Text Pointer 2": "$0"
+}

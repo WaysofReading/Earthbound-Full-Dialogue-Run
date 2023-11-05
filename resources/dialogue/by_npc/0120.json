@@ -1,0 +1,92 @@
+{
+  "Sprite": 125,
+  "sprite_label": "boy_bowler-hat",
+  "map_location_label": "Onett_Secret Hideout_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C73C28",
+  "d1_flags": [
+    "1. goto C73CA6 if TEMP_2 is set",
+    "1. goto C73CFA if GIYGAS_DEFEATED is set",
+    "3. set TEMP_2"
+  ],
+  "d1_addresses": [
+    "C73CA6",
+    "C73CB3",
+    "C73CFA",
+    "C73D5E",
+    "C73D85",
+    "C7DC7F",
+    "Npc0120"
+  ],
+  "d1_text": "Npc0120:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C73CFA]\r\n[GOTO_IF_FLAG TEMP_2 L_C73CA6]\r\n[SET_COUNTER 1]\r\n[GOSUB L_C7DC7F]\r\n[GOTO_IF_TRUE L_C73CB3]\r\n\u00ef\u00bf\u00bdYou've grown since I last saw you.[PAUSE 20]  You're beginning to look like a man.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou're so cool![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI...[PAUSE 15] I think I really like you.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWell,[PAUSE 15] you know what I mean.[HALT][SET_FLAG TEMP_2]\r\n[END]",
+  "d1_lines": [
+    "Npc0120:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C73CFA]",
+    "[GOTO_IF_FLAG TEMP_2 L_C73CA6]",
+    "[SET_COUNTER 1]",
+    "[GOSUB L_C7DC7F]",
+    "[GOTO_IF_TRUE L_C73CB3]",
+    "\u00ef\u00bf\u00bdYou've grown since I last saw you.[PAUSE 20]  You're beginning to look like a man.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou're so cool![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI...[PAUSE 15] I think I really like you.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWell,[PAUSE 15] you know what I mean.[HALT][SET_FLAG TEMP_2]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C73CFA]:C73CFA": {
+      "\u00ef\u00bf\u00bdHi, [PRINT_STAT NESS_NAME]![PAUSE 20]  It's starting to get crowded in this hide out.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI was considering moving to Beak's Point.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWhat do you think?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C73D85 L_C73D5E]:C73D85": {
+        "\u00ef\u00bf\u00bdDo you really agree?[PAUSE 20]  Let's build a strong,[PAUSE 15] sturdy shack.[HALT][END]": null
+      },
+      "[MULTI_GOTO L_C73D85 L_C73D5E]:C73D5E": {
+        "\u00ef\u00bf\u00bdYou're right.[PAUSE 30]  This space might be just the right size for us.[HALT][END]": null
+      },
+      "; $C73D5E": null,
+      "\u00ef\u00bf\u00bdYou're right.[PAUSE 30]  This space might be just the right size for us.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG TEMP_2 L_C73CA6]:C73CA6": {
+      "\u00ef\u00bf\u00bdYou know what I mean.[HALT][END]": null
+    },
+    "[SET_COUNTER 1]": null,
+    "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+    "[GOTO_IF_TRUE L_C73CB3]:C73CB3": {
+      "\u00ef\u00bf\u00bdAren't you [PRINT_STAT NESS_NAME]'s new friend?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHow could I tell?[PAUSE 20]  It's just a feeling![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou might have the feeling that [PRINT_STAT NESS_NAME] is around.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdYou've grown since I last saw you.[PAUSE 20]  You're beginning to look like a man.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou're so cool![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI...[PAUSE 15] I think I really like you.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWell,[PAUSE 15] you know what I mean.[HALT][SET_FLAG TEMP_2]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7984,
+  "y_pixel_abs": 1352,
+  "x_tile": 249,
+  "y_tile": 42,
+  "x_sector": 31,
+  "y_sector": 5,
+  "x_sector_offset": 48,
+  "y_sector_offset": 72,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "up",
+  "Movement": 12,
+  "Text Pointer 1": "data_27.l_0xc73c28",
+  "Text Pointer 2": "$0"
+}

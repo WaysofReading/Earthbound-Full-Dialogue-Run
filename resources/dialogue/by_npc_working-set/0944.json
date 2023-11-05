@@ -1,0 +1,56 @@
+{
+  "Sprite": 77,
+  "sprite_label": "saxophonist",
+  "map_location_label": "Fourside_Overworld_South",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C82EF8",
+  "d1_flags": [
+    "1. goto C82F71 if FOURSIDE_FREE_FROM_MONOTOLI is set"
+  ],
+  "d1_addresses": [
+    "C82F71",
+    "Npc0944"
+  ],
+  "d1_text": "Npc0944:\r\n[GOTO_IF_FLAG FOURSIDE_FREE_FROM_MONOTOLI L_C82F71]\r\n\u00ef\u00bf\u00bdIn the old days, Mr. Monotoli was just a regular,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdunattractive real estate agent.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdNow he has the power to control the police force.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI don't think the city of Fourside is better than before.[HALT][END]",
+  "d1_lines": [
+    "Npc0944:",
+    "[GOTO_IF_FLAG FOURSIDE_FREE_FROM_MONOTOLI L_C82F71]",
+    "\u00ef\u00bf\u00bdIn the old days, Mr. Monotoli was just a regular,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdunattractive real estate agent.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdNow he has the power to control the police force.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI don't think the city of Fourside is better than before.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG FOURSIDE_FREE_FROM_MONOTOLI L_C82F71]:C82F71": {
+      "\u00ef\u00bf\u00bdYou're very young,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdbut you brought something very precious back to the people in this town.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThank you.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdIn the old days, Mr. Monotoli was just a regular,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdunattractive real estate agent.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdNow he has the power to control the police force.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI don't think the city of Fourside is better than before.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 3360,
+  "y_pixel_abs": 4632,
+  "x_tile": 105,
+  "y_tile": 144,
+  "x_sector": 13,
+  "y_sector": 18,
+  "x_sector_offset": 32,
+  "y_sector_offset": 24,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_36.l_0xc82ef8",
+  "Text Pointer 2": "$0"
+}

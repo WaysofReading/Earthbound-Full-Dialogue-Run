@@ -1,0 +1,99 @@
+{
+  "Sprite": 299,
+  "sprite_label": "monster_barf",
+  "map_location_label": "Deep Darkness_Overworld_Northwest",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9E619",
+  "d1_flags": [
+    "1. goto C7C588 if MASTER_BARF_DEFEATED is set",
+    "3. set MASTER_BARF_DEFEATED"
+  ],
+  "d1_addresses": [
+    "C683DE",
+    "C68570",
+    "C7C588",
+    "Npc0463",
+    "Npc1229"
+  ],
+  "d1_text": "Npc1229:\r\n[GOTO_IF_FLAG MASTER_BARF_DEFEATED L_C7C588]\r\n[PLAY_MUSIC 134]\r\n\u00ef\u00bf\u00bdYou may have forgotten, but *Buuuuurp!*...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm the return of Belch![PLAY_SFX 78]\r\n[PAUSE 1][WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI've fought you before.[WAIT][LINE_BREAK]\r\n[PLAY_SFX 78]\r\n[PAUSE 1]\u00ef\u00bf\u00bdPeeeeyouuu![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDon't you remember my ripe odor?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdBelch has trained more and has returned much stronger.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdBuuuurp![PAUSE 20][PLAY_SFX 78]\r\n[PAUSE 1]  Belch has also changed his name to Puke!...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdBarf!  vomit!  barf, barf!  chuck!  chuck![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDrown to death in puke![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDon't you think that's an incredibly masculine taunt to throw at you?[WAIT][GOSUB L_C68570]\r\n[GOTO_IF_TRUE L_C683DE]\r\n[ADD_PMEMBER POO]\r\n[LEARN_PSI 4 2]\r\n[SET_FLAG MASTER_BARF_DEFEATED]\r\n[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 1229 635]\r\n[END]",
+  "d1_lines": [
+    "Npc1229:",
+    "[GOTO_IF_FLAG MASTER_BARF_DEFEATED L_C7C588]",
+    "[PLAY_MUSIC 134]",
+    "\u00ef\u00bf\u00bdYou may have forgotten, but *Buuuuurp!*...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm the return of Belch![PLAY_SFX 78]",
+    "[PAUSE 1][WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI've fought you before.[WAIT][LINE_BREAK]",
+    "[PLAY_SFX 78]",
+    "[PAUSE 1]\u00ef\u00bf\u00bdPeeeeyouuu![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDon't you remember my ripe odor?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdBelch has trained more and has returned much stronger.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdBuuuurp![PAUSE 20][PLAY_SFX 78]",
+    "[PAUSE 1]  Belch has also changed his name to Puke!...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdBarf!  vomit!  barf, barf!  chuck!  chuck![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDrown to death in puke![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDon't you think that's an incredibly masculine taunt to throw at you?[WAIT][GOSUB L_C68570]",
+    "[GOTO_IF_TRUE L_C683DE]",
+    "[ADD_PMEMBER POO]",
+    "[LEARN_PSI 4 2]",
+    "[SET_FLAG MASTER_BARF_DEFEATED]",
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 1229 635]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MASTER_BARF_DEFEATED L_C7C588]:C7C588": {
+      "[GOTO_IF_FLAG ALT_NO_TALK_TEXT Npc0463]:Npc0463": {
+        "\u00ef\u00bf\u00bd(There's no response.)[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdWho are you talking to?[HALT][END]": null
+    },
+    "[PLAY_MUSIC 134]": null,
+    "\u00ef\u00bf\u00bdYou may have forgotten, but *Buuuuurp!*...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm the return of Belch![PLAY_SFX 78]": null,
+    "[PAUSE 1][WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI've fought you before.[WAIT][LINE_BREAK]": null,
+    "[PLAY_SFX 78]": null,
+    "[PAUSE 1]\u00ef\u00bf\u00bdPeeeeyouuu![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDon't you remember my ripe odor?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdBelch has trained more and has returned much stronger.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdBuuuurp![PAUSE 20][PLAY_SFX 78]": null,
+    "[PAUSE 1]  Belch has also changed his name to Puke!...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdBarf!  vomit!  barf, barf!  chuck!  chuck![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDrown to death in puke![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDon't you think that's an incredibly masculine taunt to throw at you?[WAIT][GOSUB L_C68570]:C68570": {
+      "[CLOSE_ALL_TBOXES]": null,
+      "[START_BATTLE 469]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_TRUE L_C683DE]:C683DE": {
+      "[END]": null
+    },
+    "[ADD_PMEMBER POO]": null,
+    "[LEARN_PSI 4 2]": null,
+    "[SET_FLAG MASTER_BARF_DEFEATED]": null,
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 1229 635]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5088,
+  "y_pixel_abs": 7608,
+  "x_tile": 159,
+  "y_tile": 237,
+  "x_sector": 19,
+  "y_sector": 29,
+  "x_sector_offset": 224,
+  "y_sector_offset": 184,
+  "Event Flag": 276,
+  "flag_label": "MASTER_BARF_DEFEATED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 10,
+  "Text Pointer 1": "data_54.l_0xc9e619",
+  "Text Pointer 2": "$0"
+}

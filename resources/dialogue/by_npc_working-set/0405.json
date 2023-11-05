@@ -1,0 +1,47 @@
+{
+  "Sprite": 178,
+  "sprite_label": "woman_blonde_black-dress",
+  "map_location_label": "Happy Happy Village_Drug Store_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C697BA",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0405"
+  ],
+  "d1_text": "Npc0405:\r\n\u00ef\u00bf\u00bdThe information on the back of the \u00ef\u00bf\u00bdrefreshing herb\u00ef\u00bf\u00bd reads as follows:[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIf you catch a cold, if you're ill, or if you can't seem to heal,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdif you're poisoned, if you're depressed, a refreshing herb is the real deal.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI know, it seems pretty iffy, but you should give it a try![HALT][END]",
+  "d1_lines": [
+    "Npc0405:",
+    "\u00ef\u00bf\u00bdThe information on the back of the \u00ef\u00bf\u00bdrefreshing herb\u00ef\u00bf\u00bd reads as follows:[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIf you catch a cold, if you're ill, or if you can't seem to heal,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdif you're poisoned, if you're depressed, a refreshing herb is the real deal.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI know, it seems pretty iffy, but you should give it a try![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdThe information on the back of the \u00ef\u00bf\u00bdrefreshing herb\u00ef\u00bf\u00bd reads as follows:[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIf you catch a cold, if you're ill, or if you can't seem to heal,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdif you're poisoned, if you're depressed, a refreshing herb is the real deal.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI know, it seems pretty iffy, but you should give it a try![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6984,
+  "y_pixel_abs": 1736,
+  "x_tile": 218,
+  "y_tile": 54,
+  "x_sector": 27,
+  "y_sector": 6,
+  "x_sector_offset": 72,
+  "y_sector_offset": 200,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "up",
+  "Movement": 606,
+  "Text Pointer 1": "data_22.l_0xc697ba",
+  "Text Pointer 2": "$0"
+}

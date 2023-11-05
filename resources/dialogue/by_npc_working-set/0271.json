@@ -1,0 +1,51 @@
+{
+  "Sprite": 117,
+  "sprite_label": "man_orange-hair_sunglasses",
+  "map_location_label": "Twoson_Bus Station_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9649A",
+  "d1_flags": [
+    "1. goto C964D9 if MASTER_BELCH_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C964D9",
+    "Npc0271"
+  ],
+  "d1_text": "Npc0271:\r\n[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C964D9]\r\n\u00ef\u00bf\u00bdTo take the bus, or not to take the bus... hmmm.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI get scared pretty easily...[HALT][END]",
+  "d1_lines": [
+    "Npc0271:",
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C964D9]",
+    "\u00ef\u00bf\u00bdTo take the bus, or not to take the bus... hmmm.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI get scared pretty easily...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C964D9]:C964D9": {
+      "\u00ef\u00bf\u00bdTo take the bus, or not to take the bus... hmm.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI get sick pretty easily...[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdTo take the bus, or not to take the bus... hmmm.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI get scared pretty easily...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7424,
+  "y_pixel_abs": 8584,
+  "x_tile": 232,
+  "y_tile": 268,
+  "x_sector": 29,
+  "y_sector": 33,
+  "x_sector_offset": 0,
+  "y_sector_offset": 136,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "up",
+  "Movement": 12,
+  "Text Pointer 1": "data_48.l_0xc9649a",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,43 @@
+{
+  "Sprite": 118,
+  "sprite_label": "lookalike_teddy",
+  "map_location_label": "Dusty Dunes Desert_Overworld_Southwest-(Drug-Store)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C60180",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0757"
+  ],
+  "d1_text": "Npc0757:\r\n\u00ef\u00bf\u00bdI was going to see my girlfriend in Fourside...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdAt this pace I'll be 100 years old by the time I get there![HALT][END]",
+  "d1_lines": [
+    "Npc0757:",
+    "\u00ef\u00bf\u00bdI was going to see my girlfriend in Fourside...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdAt this pace I'll be 100 years old by the time I get there![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI was going to see my girlfriend in Fourside...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdAt this pace I'll be 100 years old by the time I get there![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1829,
+  "y_pixel_abs": 9995,
+  "x_tile": 57,
+  "y_tile": 312,
+  "x_sector": 7,
+  "y_sector": 39,
+  "x_sector_offset": 37,
+  "y_sector_offset": 11,
+  "Event Flag": 136,
+  "flag_label": "TRAFFIC_JAM_CLEARED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_15.l_0xc60180",
+  "Text Pointer 2": "$0"
+}

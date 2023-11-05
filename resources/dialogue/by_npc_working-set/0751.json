@@ -1,0 +1,57 @@
+{
+  "Sprite": 215,
+  "sprite_label": "phone_black",
+  "map_location_label": "Dusty Dunes Desert_Drug Store_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C68017",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C63029",
+    "C63032",
+    "Npc0060"
+  ],
+  "d1_text": "Npc0060:\r\n[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd[PRINT_NAME REG_ARGUMENT] picked up the receiver.[WAIT][LINE_BREAK]\r\n[PLAY_SFX 11]\r\n[GOSUB L_C63029]\r\n[END]",
+  "d1_lines": [
+    "Npc0060:",
+    "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd[PRINT_NAME REG_ARGUMENT] picked up the receiver.[WAIT][LINE_BREAK]",
+    "[PLAY_SFX 11]",
+    "[GOSUB L_C63029]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd[PRINT_NAME REG_ARGUMENT] picked up the receiver.[WAIT][LINE_BREAK]": null,
+    "[PLAY_SFX 11]": null,
+    "[GOSUB L_C63029]:C63029": {
+      "[PHONE_MENU]": null,
+      "[GOTO_IF_TRUE L_C63032]:C63032": {
+        "[END]": null
+      },
+      "[START_LINE]": null,
+      "; $C63032": null,
+      "[END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7816,
+  "y_pixel_abs": 2120,
+  "x_tile": 244,
+  "y_tile": 66,
+  "x_sector": 30,
+  "y_sector": 8,
+  "x_sector_offset": 136,
+  "y_sector_offset": 72,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_20.l_0xc68017",
+  "Text Pointer 2": "$0"
+}

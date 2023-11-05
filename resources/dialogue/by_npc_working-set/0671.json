@@ -1,0 +1,86 @@
+{
+  "Sprite": 407,
+  "sprite_label": "eraser-statue",
+  "map_location_label": "Dusty Dunes Desert_Desert Gold Mine_Main-Room",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "C9FC9E",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0671"
+  ],
+  "d1_text": "Npc0671:\r\n\u00ef\u00bf\u00bd(For some reason,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdsomething that looks like a very large iron eraser is in the way.)[HALT][END]",
+  "d1_lines": [
+    "Npc0671:",
+    "\u00ef\u00bf\u00bd(For some reason,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdsomething that looks like a very large iron eraser is in the way.)[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bd(For some reason,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdsomething that looks like a very large iron eraser is in the way.)[HALT][END]": null
+  },
+  "d2_pointer": "C9FCD5",
+  "d2_flags": [
+    "3. set IRON_ERASER_ERASED"
+  ],
+  "d2_addresses": [
+    "C7C6F1",
+    "C7DD2C",
+    "C7DD37",
+    "C9FCD5"
+  ],
+  "d2_text": "L_C9FCD5:\r\n[GOSUB L_C7DD2C]\r\n[CHECK_EQUAL 210][GOTO_IF_FALSE L_C7C6F1]\r\n[RESTORE_REGS_LOCAL]\r\n[GOSUB L_C7DD37]\r\n[START_LINE]\r\n\u00ef\u00bf\u00bd(For some reason,[PAUSE 15] the iron eraser statue disappeared in an instant!)[HALT][CLOSE_ALL_TBOXES]\r\n[PAUSE 1][PLAY_SFX 33]\r\n[DELETE_NPC 671 10]\r\n[SET_FLAG IRON_ERASER_ERASED]\r\n[END]",
+  "d2_lines": [
+    "L_C9FCD5:",
+    "[GOSUB L_C7DD2C]",
+    "[CHECK_EQUAL 210][GOTO_IF_FALSE L_C7C6F1]",
+    "[RESTORE_REGS_LOCAL]",
+    "[GOSUB L_C7DD37]",
+    "[START_LINE]",
+    "\u00ef\u00bf\u00bd(For some reason,[PAUSE 15] the iron eraser statue disappeared in an instant!)[HALT][CLOSE_ALL_TBOXES]",
+    "[PAUSE 1][PLAY_SFX 33]",
+    "[DELETE_NPC 671 10]",
+    "[SET_FLAG IRON_ERASER_ERASED]",
+    "[END]"
+  ],
+  "d2_unrolled": {
+    "[GOSUB L_C7DD2C]:C7DD2C": {
+      "[BACKUP_REGS_GLOBAL]": null,
+      "[GET_INV_ITEM REG_RESULT 0][BACKUP_REGS_LOCAL]": null,
+      "[SWAP_ARG_RESULT]": null,
+      "[END]": null
+    },
+    "[CHECK_EQUAL 210][GOTO_IF_FALSE L_C7C6F1]:C7C6F1": {
+      "[GET_ACTION_ARG][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bdThe [PRINT_ITEM REG_ARGUMENT] can't be used here.[HALT][END]": null
+    },
+    "[RESTORE_REGS_LOCAL]": null,
+    "[GOSUB L_C7DD37]:C7DD37": {
+      "[SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bd[PRINT_NAME REG_ARGUMENT] used[LINE_BREAK]": null,
+      "  the [SWAP_ARG_RESULT]": null,
+      "[PRINT_ITEM REG_ARGUMENT].[WAIT][END]": null
+    },
+    "[START_LINE]": null,
+    "\u00ef\u00bf\u00bd(For some reason,[PAUSE 15] the iron eraser statue disappeared in an instant!)[HALT][CLOSE_ALL_TBOXES]": null,
+    "[PAUSE 1][PLAY_SFX 33]": null,
+    "[DELETE_NPC 671 10]": null,
+    "[SET_FLAG IRON_ERASER_ERASED]": null,
+    "[END]": null
+  },
+  "x_pixel_abs": 6488,
+  "y_pixel_abs": 6064,
+  "x_tile": 202,
+  "y_tile": 189,
+  "x_sector": 25,
+  "y_sector": 23,
+  "x_sector_offset": 88,
+  "y_sector_offset": 176,
+  "Event Flag": 299,
+  "flag_label": "IRON_ERASER_ERASED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_55.l_0xc9fc9e",
+  "Text Pointer 2": "data_55.l_0xc9fcd5"
+}

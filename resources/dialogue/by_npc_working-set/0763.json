@@ -1,0 +1,48 @@
+{
+  "Sprite": 118,
+  "sprite_label": "lookalike_teddy",
+  "map_location_label": "Dusty Dunes Desert_Overworld_East-(Dig-Site)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C60678",
+  "d1_flags": [
+    "1. goto C6060C if GOT_DIAMOND is set"
+  ],
+  "d1_addresses": [
+    "C6060C",
+    "Npc0763"
+  ],
+  "d1_text": "Npc0763:\r\n[GOTO_IF_FLAG GOT_DIAMOND L_C6060C]\r\n\u00ef\u00bf\u00bdI think he should dig somewhere else.[HALT][END]",
+  "d1_lines": [
+    "Npc0763:",
+    "[GOTO_IF_FLAG GOT_DIAMOND L_C6060C]",
+    "\u00ef\u00bf\u00bdI think he should dig somewhere else.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GOT_DIAMOND L_C6060C]:C6060C": {
+      "\u00ef\u00bf\u00bdThey only found a diamond...[PAUSE 15] well,[PAUSE 15] you take what you get...[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI think he should dig somewhere else.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 3712,
+  "y_pixel_abs": 9544,
+  "x_tile": 116,
+  "y_tile": 298,
+  "x_sector": 14,
+  "y_sector": 37,
+  "x_sector_offset": 128,
+  "y_sector_offset": 72,
+  "Event Flag": 174,
+  "flag_label": "DESERT_MINE_EXPANDED",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_15.l_0xc60678",
+  "Text Pointer 2": "$0"
+}

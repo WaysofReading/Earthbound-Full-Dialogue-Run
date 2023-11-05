@@ -1,0 +1,45 @@
+{
+  "Sprite": 281,
+  "sprite_label": "monster_mouse",
+  "map_location_label": "Twoson_Overworld_Central-West-(Burglin-Park)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C81C91",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0335"
+  ],
+  "d1_text": "Npc0335:\r\n\u00ef\u00bf\u00bdI am a mouse.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdMy master, Apple Kid, has been waiting for you.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWe started to nod off while waiting...[HALT][END]",
+  "d1_lines": [
+    "Npc0335:",
+    "\u00ef\u00bf\u00bdI am a mouse.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdMy master, Apple Kid, has been waiting for you.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWe started to nod off while waiting...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI am a mouse.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdMy master, Apple Kid, has been waiting for you.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWe started to nod off while waiting...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1264,
+  "y_pixel_abs": 7088,
+  "x_tile": 39,
+  "y_tile": 221,
+  "x_sector": 4,
+  "y_sector": 27,
+  "x_sector_offset": 240,
+  "y_sector_offset": 176,
+  "Event Flag": 42,
+  "flag_label": "APPLE_KID_IN_BURGLIN_PARK",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_35.l_0xc81c91",
+  "Text Pointer 2": "$0"
+}

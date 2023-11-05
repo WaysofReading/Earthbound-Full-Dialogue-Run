@@ -1,0 +1,494 @@
+{
+  "Sprite": 175,
+  "sprite_label": "orange-kid",
+  "map_location_label": "Twoson_Orange Kid's House_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C81122",
+  "d1_flags": [
+    "1. goto C81318 if INVESTED_IN_ORANGE_KID is set",
+    "1. goto C81418 if GOT_SUPORMA is set",
+    "1. goto C81475 if ORANGE_KID_ALT_TEXT is set",
+    "1. goto C814B9 if RECEIVED_APPLE_KID_CALL_ABOUT_PENCIL_ERASER is set",
+    "1. goto C8159F if GIYGAS_DEFEATED is set",
+    "1. goto C815F9 if INVESTED_IN_ORANGE_KID is set",
+    "2. goto C81318 if GOT_SUPORMA is cleared",
+    "3. set GOT_SUPORMA",
+    "3. set INVESTED_IN_ORANGE_KID",
+    "3. set ORANGE_KID_ALT_TEXT",
+    "4. clear ORANGE_KID_ALT_TEXT"
+  ],
+  "d1_addresses": [
+    "C7DC85",
+    "C7DCCF",
+    "C7DCDA",
+    "C7DD03",
+    "C8125D",
+    "C81286",
+    "C812D1",
+    "C812E6",
+    "C81318",
+    "C81392",
+    "C813D4",
+    "C81418",
+    "C81475",
+    "C814B9",
+    "C8153D",
+    "C81585",
+    "C8159F",
+    "C815F9",
+    "Npc0220"
+  ],
+  "d1_text": "Npc0220:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C8159F]\r\n[GOTO_IF_FLAG INVESTED_IN_ORANGE_KID L_C81318]\r\n[GOTO_IF_FLAG RECEIVED_APPLE_KID_CALL_ABOUT_PENCIL_ERASER L_C814B9]\r\n\u00ef\u00bf\u00bdGreetings.[PAUSE 20]  I'm Orange Kid, the inventor.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHave you heard of me?[PAUSE 20]  I'm a bit embarrassed about my reputation.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI have a lot of inventions in development, but I'm running short of cash.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm basically a happy-go-lucky person,[PAUSE 15] so I'm not worried.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou know,[PAUSE 15] I'm working on this machine[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdthat would really help you in Peaceful Rest Valley.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI hope it's ready soon... what?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou're actually willing to help finance the project?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n [LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C81286 L_C8125D]\r\n; $C8125D\r\nL_C8125D:\r\n\u00ef\u00bf\u00bdI guess I was just too hopeful.[PAUSE 20]  Oh well, never mind.[HALT][END]",
+  "d1_lines": [
+    "Npc0220:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C8159F]",
+    "[GOTO_IF_FLAG INVESTED_IN_ORANGE_KID L_C81318]",
+    "[GOTO_IF_FLAG RECEIVED_APPLE_KID_CALL_ABOUT_PENCIL_ERASER L_C814B9]",
+    "\u00ef\u00bf\u00bdGreetings.[PAUSE 20]  I'm Orange Kid, the inventor.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHave you heard of me?[PAUSE 20]  I'm a bit embarrassed about my reputation.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI have a lot of inventions in development, but I'm running short of cash.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm basically a happy-go-lucky person,[PAUSE 15] so I'm not worried.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou know,[PAUSE 15] I'm working on this machine[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdthat would really help you in Peaceful Rest Valley.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI hope it's ready soon... what?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou're actually willing to help finance the project?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    " [LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C81286 L_C8125D]",
+    "; $C8125D",
+    "L_C8125D:",
+    "\u00ef\u00bf\u00bdI guess I was just too hopeful.[PAUSE 20]  Oh well, never mind.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C8159F]:C8159F": {
+      "[GOTO_IF_FLAG INVESTED_IN_ORANGE_KID L_C815F9]:C815F9": {
+        "\u00ef\u00bf\u00bdDid you come here to get your investment money back?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdNo?[PAUSE 15]  Can you wait a little longer?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI promise I'll finish my brilliant invention.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI rely on your support,[PAUSE 15] even though I am a super genius.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdWell, you never invested in my genius,[PAUSE 15] did you?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou had no idea of what I could do...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd*chortle*[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou sorry loser.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG INVESTED_IN_ORANGE_KID L_C81318]:C81318": {
+      "[GOTO_IF_FLAG GOT_SUPORMA L_C81418]:C81418": {
+        "[LOAD_FLAG GOT_SUPORMA][GOTO_IF_FALSE L_C81318]:C81318": {
+          "[GOTO_IF_FLAG GOT_SUPORMA L_C81418]:C81418": {
+            "[LOAD_FLAG GOT_SUPORMA][GOTO_IF_FALSE L_C81318]:C81318": {
+              "[GOTO_IF_FLAG GOT_SUPORMA L_C81418]:C81418": {},
+              "\u00ef\u00bf\u00bdLet me give you my new \u00ef\u00bf\u00bdSuper Orange Machine.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI call it \u00ef\u00bf\u00bd[PRINT_ITEM SUPORMA]\u00ef\u00bf\u00bd for short.[WAIT][LINE_BREAK]": null,
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C81392]:C81392": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT SUPORMA]": null,
+              "[GOSUB L_C7DCCF]:C7DCCF": {},
+              "[SET_FLAG GOT_SUPORMA]": null,
+              "[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdPlease use it for spreading peace and goodwill on Earth.[HALT][END]": null
+            },
+            "[GOTO_IF_FLAG ORANGE_KID_ALT_TEXT L_C81475]:C81475": {
+              "\u00ef\u00bf\u00bdI'm having more trouble than I expected.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI found a problem in one of Einstein's theories...[HALT][CLR_FLAG ORANGE_KID_ALT_TEXT]": null,
+              "[END]": null
+            },
+            "\u00ef\u00bf\u00bdI'm hard at work... don't worry,[PAUSE 15] my brilliant invention will be ready soon.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdOkay, okay...[PAUSE 20]  I'll get back to work![HALT][SET_FLAG ORANGE_KID_ALT_TEXT]": null,
+            "[END]": null
+          },
+          "\u00ef\u00bf\u00bdLet me give you my new \u00ef\u00bf\u00bdSuper Orange Machine.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI call it \u00ef\u00bf\u00bd[PRINT_ITEM SUPORMA]\u00ef\u00bf\u00bd for short.[WAIT][LINE_BREAK]": null,
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C81392]:C81392": {
+            "\u00ef\u00bf\u00bdAh ha![PAUSE 20]  You have too many items.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI hope you'll accept the [PRINT_ITEM SUPORMA],[PAUSE 15] even if you have to toss some of your food...[HALT][END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT SUPORMA]": null,
+          "[GOSUB L_C7DCCF]:C7DCCF": {
+            "[PLAY_SFX 116]": null,
+            "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+              "[BACKUP_REGS_LOCAL]": null,
+              "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+              "  the [SWAP_ARG_RESULT]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+            },
+            "[END]": null
+          },
+          "[SET_FLAG GOT_SUPORMA]": null,
+          "[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdPlease use it for spreading peace and goodwill on Earth.[HALT][END]": null
+        },
+        "[GOTO_IF_FLAG ORANGE_KID_ALT_TEXT L_C81475]:C81475": {
+          "\u00ef\u00bf\u00bdI'm having more trouble than I expected.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI found a problem in one of Einstein's theories...[HALT][CLR_FLAG ORANGE_KID_ALT_TEXT]": null,
+          "[END]": null
+        },
+        "\u00ef\u00bf\u00bdI'm hard at work... don't worry,[PAUSE 15] my brilliant invention will be ready soon.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdOkay, okay...[PAUSE 20]  I'll get back to work![HALT][SET_FLAG ORANGE_KID_ALT_TEXT]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bdLet me give you my new \u00ef\u00bf\u00bdSuper Orange Machine.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI call it \u00ef\u00bf\u00bd[PRINT_ITEM SUPORMA]\u00ef\u00bf\u00bd for short.[WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C81392]:C81392": {
+        "\u00ef\u00bf\u00bdAh ha![PAUSE 20]  You have too many items.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI hope you'll accept the [PRINT_ITEM SUPORMA],[PAUSE 15] even if you have to toss some of your food...[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT SUPORMA]": null,
+      "[GOSUB L_C7DCCF]:C7DCCF": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[SET_FLAG GOT_SUPORMA]": null,
+      "[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdPlease use it for spreading peace and goodwill on Earth.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG RECEIVED_APPLE_KID_CALL_ABOUT_PENCIL_ERASER L_C814B9]:C814B9": {
+      "\u00ef\u00bf\u00bdYou didn't invest any money in my venture,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdbut someone else donated a few million bucks,[PAUSE 15] so everything is great.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdSo would you like to invest,[PAUSE 10] say,[PAUSE 15] 50 bucks?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      " [LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C81585 L_C8153D]:C81585": {
+        "[CHECK_HASNT_MONEY 50][GOTO_IF_TRUE L_C813D4]:C813D4": {
+          "\u00ef\u00bf\u00bdWhat?![PAUSE 15]  You don't have that much money?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdWell, perhaps you shouldn't be yappin' about having cash then,[PAUSE 15] buddy.[HALT][END]": null
+        },
+        "[PLAY_SFX 118]": null,
+        "[REMOVE_MONEY 50]": null,
+        "[SHOW_WALLET]": null,
+        "[GOTO L_C812E6]:C812E6": {
+          "\u00ef\u00bf\u00bdThank you very much![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYour support should have a tremendous impact on all mankind.[WAIT][LINE_BREAK]": null,
+          "[SET_FLAG INVESTED_IN_ORANGE_KID]": null,
+          "; $C81318": null,
+          "[GOTO_IF_FLAG GOT_SUPORMA L_C81418]:C81418": {
+            "[LOAD_FLAG GOT_SUPORMA][GOTO_IF_FALSE L_C81318]:C81318": {
+              "[GOTO_IF_FLAG GOT_SUPORMA L_C81418]:C81418": {},
+              "\u00ef\u00bf\u00bdLet me give you my new \u00ef\u00bf\u00bdSuper Orange Machine.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI call it \u00ef\u00bf\u00bd[PRINT_ITEM SUPORMA]\u00ef\u00bf\u00bd for short.[WAIT][LINE_BREAK]": null,
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C81392]:C81392": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT SUPORMA]": null,
+              "[GOSUB L_C7DCCF]:C7DCCF": {},
+              "[SET_FLAG GOT_SUPORMA]": null,
+              "[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdPlease use it for spreading peace and goodwill on Earth.[HALT][END]": null
+            },
+            "[GOTO_IF_FLAG ORANGE_KID_ALT_TEXT L_C81475]:C81475": {
+              "\u00ef\u00bf\u00bdI'm having more trouble than I expected.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI found a problem in one of Einstein's theories...[HALT][CLR_FLAG ORANGE_KID_ALT_TEXT]": null,
+              "[END]": null
+            },
+            "\u00ef\u00bf\u00bdI'm hard at work... don't worry,[PAUSE 15] my brilliant invention will be ready soon.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdOkay, okay...[PAUSE 20]  I'll get back to work![HALT][SET_FLAG ORANGE_KID_ALT_TEXT]": null,
+            "[END]": null
+          },
+          "\u00ef\u00bf\u00bdLet me give you my new \u00ef\u00bf\u00bdSuper Orange Machine.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI call it \u00ef\u00bf\u00bd[PRINT_ITEM SUPORMA]\u00ef\u00bf\u00bd for short.[WAIT][LINE_BREAK]": null,
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C81392]:C81392": {
+            "\u00ef\u00bf\u00bdAh ha![PAUSE 20]  You have too many items.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI hope you'll accept the [PRINT_ITEM SUPORMA],[PAUSE 15] even if you have to toss some of your food...[HALT][END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT SUPORMA]": null,
+          "[GOSUB L_C7DCCF]:C7DCCF": {
+            "[PLAY_SFX 116]": null,
+            "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+              "[BACKUP_REGS_LOCAL]": null,
+              "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+              "  the [SWAP_ARG_RESULT]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+            },
+            "[END]": null
+          },
+          "[SET_FLAG GOT_SUPORMA]": null,
+          "[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdPlease use it for spreading peace and goodwill on Earth.[HALT][END]": null
+        },
+        "; $C8159F": null,
+        "[GOTO_IF_FLAG INVESTED_IN_ORANGE_KID L_C815F9]:C815F9": {
+          "\u00ef\u00bf\u00bdDid you come here to get your investment money back?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdNo?[PAUSE 15]  Can you wait a little longer?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI promise I'll finish my brilliant invention.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI rely on your support,[PAUSE 15] even though I am a super genius.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdWell, you never invested in my genius,[PAUSE 15] did you?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou had no idea of what I could do...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bd*chortle*[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou sorry loser.[HALT][END]": null
+      },
+      "[MULTI_GOTO L_C81585 L_C8153D]:C8153D": {
+        "\u00ef\u00bf\u00bdOh,[PAUSE 15] I'm sorry to hear that.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bd...And you never heard how much money I got, too.[PAUSE 15]  Right? *wink* *wink*...[HALT][END]": null
+      },
+      "; $C8153D": null,
+      "\u00ef\u00bf\u00bdOh,[PAUSE 15] I'm sorry to hear that.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...And you never heard how much money I got, too.[PAUSE 15]  Right? *wink* *wink*...[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdGreetings.[PAUSE 20]  I'm Orange Kid, the inventor.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHave you heard of me?[PAUSE 20]  I'm a bit embarrassed about my reputation.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI have a lot of inventions in development, but I'm running short of cash.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm basically a happy-go-lucky person,[PAUSE 15] so I'm not worried.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou know,[PAUSE 15] I'm working on this machine[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdthat would really help you in Peaceful Rest Valley.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI hope it's ready soon... what?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou're actually willing to help finance the project?[LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    " [LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C81286 L_C8125D]:C81286": {
+      "\u00ef\u00bf\u00bdOh goody![PAUSE 20]  Would it be okay to get $200 to buy materials?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      " [LOAD_STRING \"No\"]": null,
+      "[SHOW_WALLET]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C812D1 L_C8125D]:C812D1": {
+        "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C813D4]:C813D4": {
+          "\u00ef\u00bf\u00bdWhat?![PAUSE 15]  You don't have that much money?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdWell, perhaps you shouldn't be yappin' about having cash then,[PAUSE 15] buddy.[HALT][END]": null
+        },
+        "[PLAY_SFX 118]": null,
+        "[REMOVE_MONEY 200]": null,
+        "[SHOW_WALLET]": null,
+        "; $C812E6": null,
+        "\u00ef\u00bf\u00bdThank you very much![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYour support should have a tremendous impact on all mankind.[WAIT][LINE_BREAK]": null,
+        "[SET_FLAG INVESTED_IN_ORANGE_KID]": null,
+        "; $C81318": null,
+        "[GOTO_IF_FLAG GOT_SUPORMA L_C81418]:C81418": {
+          "[LOAD_FLAG GOT_SUPORMA][GOTO_IF_FALSE L_C81318]:C81318": {
+            "[GOTO_IF_FLAG GOT_SUPORMA L_C81418]:C81418": {
+              "[LOAD_FLAG GOT_SUPORMA][GOTO_IF_FALSE L_C81318]:C81318": {},
+              "[GOTO_IF_FLAG ORANGE_KID_ALT_TEXT L_C81475]:C81475": {},
+              "\u00ef\u00bf\u00bdI'm hard at work... don't worry,[PAUSE 15] my brilliant invention will be ready soon.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdOkay, okay...[PAUSE 20]  I'll get back to work![HALT][SET_FLAG ORANGE_KID_ALT_TEXT]": null,
+              "[END]": null
+            },
+            "\u00ef\u00bf\u00bdLet me give you my new \u00ef\u00bf\u00bdSuper Orange Machine.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI call it \u00ef\u00bf\u00bd[PRINT_ITEM SUPORMA]\u00ef\u00bf\u00bd for short.[WAIT][LINE_BREAK]": null,
+            "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C81392]:C81392": {
+              "\u00ef\u00bf\u00bdAh ha![PAUSE 20]  You have too many items.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI hope you'll accept the [PRINT_ITEM SUPORMA],[PAUSE 15] even if you have to toss some of your food...[HALT][END]": null
+            },
+            "[GIVE_ITEM_RETURN_SLOT REG_RESULT SUPORMA]": null,
+            "[GOSUB L_C7DCCF]:C7DCCF": {
+              "[PLAY_SFX 116]": null,
+              "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {},
+              "[END]": null
+            },
+            "[SET_FLAG GOT_SUPORMA]": null,
+            "[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdPlease use it for spreading peace and goodwill on Earth.[HALT][END]": null
+          },
+          "[GOTO_IF_FLAG ORANGE_KID_ALT_TEXT L_C81475]:C81475": {
+            "\u00ef\u00bf\u00bdI'm having more trouble than I expected.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI found a problem in one of Einstein's theories...[HALT][CLR_FLAG ORANGE_KID_ALT_TEXT]": null,
+            "[END]": null
+          },
+          "\u00ef\u00bf\u00bdI'm hard at work... don't worry,[PAUSE 15] my brilliant invention will be ready soon.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdOkay, okay...[PAUSE 20]  I'll get back to work![HALT][SET_FLAG ORANGE_KID_ALT_TEXT]": null,
+          "[END]": null
+        },
+        "\u00ef\u00bf\u00bdLet me give you my new \u00ef\u00bf\u00bdSuper Orange Machine.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI call it \u00ef\u00bf\u00bd[PRINT_ITEM SUPORMA]\u00ef\u00bf\u00bd for short.[WAIT][LINE_BREAK]": null,
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C81392]:C81392": {
+          "\u00ef\u00bf\u00bdAh ha![PAUSE 20]  You have too many items.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI hope you'll accept the [PRINT_ITEM SUPORMA],[PAUSE 15] even if you have to toss some of your food...[HALT][END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT SUPORMA]": null,
+        "[GOSUB L_C7DCCF]:C7DCCF": {
+          "[PLAY_SFX 116]": null,
+          "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+            "[BACKUP_REGS_LOCAL]": null,
+            "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+            "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+              "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+              "  to [SWAP_ARG_RESULT]": null,
+              "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+            "  the [SWAP_ARG_RESULT]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+          },
+          "[END]": null
+        },
+        "[SET_FLAG GOT_SUPORMA]": null,
+        "[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdPlease use it for spreading peace and goodwill on Earth.[HALT][END]": null
+      },
+      "[MULTI_GOTO L_C812D1 L_C8125D]:C8125D": {
+        "\u00ef\u00bf\u00bdI guess I was just too hopeful.[PAUSE 20]  Oh well, never mind.[HALT][END]": null
+      },
+      "[GOTO L_C8125D]:C8125D": {
+        "\u00ef\u00bf\u00bdI guess I was just too hopeful.[PAUSE 20]  Oh well, never mind.[HALT][END]": null
+      },
+      "; $C812D1": null,
+      "[CHECK_HASNT_MONEY 200][GOTO_IF_TRUE L_C813D4]:C813D4": {
+        "\u00ef\u00bf\u00bdWhat?![PAUSE 15]  You don't have that much money?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdWell, perhaps you shouldn't be yappin' about having cash then,[PAUSE 15] buddy.[HALT][END]": null
+      },
+      "[PLAY_SFX 118]": null,
+      "[REMOVE_MONEY 200]": null,
+      "; $C812E6": null,
+      "\u00ef\u00bf\u00bdThank you very much![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYour support should have a tremendous impact on all mankind.[WAIT][LINE_BREAK]": null,
+      "[SET_FLAG INVESTED_IN_ORANGE_KID]": null,
+      "; $C81318": null,
+      "[GOTO_IF_FLAG GOT_SUPORMA L_C81418]:C81418": {
+        "[LOAD_FLAG GOT_SUPORMA][GOTO_IF_FALSE L_C81318]:C81318": {
+          "[GOTO_IF_FLAG GOT_SUPORMA L_C81418]:C81418": {
+            "[LOAD_FLAG GOT_SUPORMA][GOTO_IF_FALSE L_C81318]:C81318": {
+              "[GOTO_IF_FLAG GOT_SUPORMA L_C81418]:C81418": {},
+              "\u00ef\u00bf\u00bdLet me give you my new \u00ef\u00bf\u00bdSuper Orange Machine.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI call it \u00ef\u00bf\u00bd[PRINT_ITEM SUPORMA]\u00ef\u00bf\u00bd for short.[WAIT][LINE_BREAK]": null,
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C81392]:C81392": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT SUPORMA]": null,
+              "[GOSUB L_C7DCCF]:C7DCCF": {},
+              "[SET_FLAG GOT_SUPORMA]": null,
+              "[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdPlease use it for spreading peace and goodwill on Earth.[HALT][END]": null
+            },
+            "[GOTO_IF_FLAG ORANGE_KID_ALT_TEXT L_C81475]:C81475": {
+              "\u00ef\u00bf\u00bdI'm having more trouble than I expected.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI found a problem in one of Einstein's theories...[HALT][CLR_FLAG ORANGE_KID_ALT_TEXT]": null,
+              "[END]": null
+            },
+            "\u00ef\u00bf\u00bdI'm hard at work... don't worry,[PAUSE 15] my brilliant invention will be ready soon.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdOkay, okay...[PAUSE 20]  I'll get back to work![HALT][SET_FLAG ORANGE_KID_ALT_TEXT]": null,
+            "[END]": null
+          },
+          "\u00ef\u00bf\u00bdLet me give you my new \u00ef\u00bf\u00bdSuper Orange Machine.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI call it \u00ef\u00bf\u00bd[PRINT_ITEM SUPORMA]\u00ef\u00bf\u00bd for short.[WAIT][LINE_BREAK]": null,
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C81392]:C81392": {
+            "\u00ef\u00bf\u00bdAh ha![PAUSE 20]  You have too many items.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI hope you'll accept the [PRINT_ITEM SUPORMA],[PAUSE 15] even if you have to toss some of your food...[HALT][END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT SUPORMA]": null,
+          "[GOSUB L_C7DCCF]:C7DCCF": {
+            "[PLAY_SFX 116]": null,
+            "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+              "[BACKUP_REGS_LOCAL]": null,
+              "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+              "  the [SWAP_ARG_RESULT]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+            },
+            "[END]": null
+          },
+          "[SET_FLAG GOT_SUPORMA]": null,
+          "[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdPlease use it for spreading peace and goodwill on Earth.[HALT][END]": null
+        },
+        "[GOTO_IF_FLAG ORANGE_KID_ALT_TEXT L_C81475]:C81475": {
+          "\u00ef\u00bf\u00bdI'm having more trouble than I expected.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI found a problem in one of Einstein's theories...[HALT][CLR_FLAG ORANGE_KID_ALT_TEXT]": null,
+          "[END]": null
+        },
+        "\u00ef\u00bf\u00bdI'm hard at work... don't worry,[PAUSE 15] my brilliant invention will be ready soon.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdOkay, okay...[PAUSE 20]  I'll get back to work![HALT][SET_FLAG ORANGE_KID_ALT_TEXT]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bdLet me give you my new \u00ef\u00bf\u00bdSuper Orange Machine.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI call it \u00ef\u00bf\u00bd[PRINT_ITEM SUPORMA]\u00ef\u00bf\u00bd for short.[WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C81392]:C81392": {
+        "\u00ef\u00bf\u00bdAh ha![PAUSE 20]  You have too many items.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI hope you'll accept the [PRINT_ITEM SUPORMA],[PAUSE 15] even if you have to toss some of your food...[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT SUPORMA]": null,
+      "[GOSUB L_C7DCCF]:C7DCCF": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[SET_FLAG GOT_SUPORMA]": null,
+      "[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdPlease use it for spreading peace and goodwill on Earth.[HALT][END]": null
+    },
+    "[MULTI_GOTO L_C81286 L_C8125D]:C8125D": {
+      "\u00ef\u00bf\u00bdI guess I was just too hopeful.[PAUSE 20]  Oh well, never mind.[HALT][END]": null
+    },
+    "; $C8125D": null,
+    "\u00ef\u00bf\u00bdI guess I was just too hopeful.[PAUSE 20]  Oh well, never mind.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7792,
+  "y_pixel_abs": 7632,
+  "x_tile": 243,
+  "y_tile": 238,
+  "x_sector": 30,
+  "y_sector": 29,
+  "x_sector_offset": 112,
+  "y_sector_offset": 208,
+  "Event Flag": 42,
+  "flag_label": "APPLE_KID_IN_BURGLIN_PARK",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_35.l_0xc81122",
+  "Text Pointer 2": "$0"
+}

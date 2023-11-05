@@ -1,0 +1,69 @@
+{
+  "Sprite": 153,
+  "sprite_label": "frank",
+  "map_location_label": "Onett_Burger Shop_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6653B",
+  "d1_flags": [
+    "1. goto C665E7 if TEMP_4 is set",
+    "3. set TEMP_4"
+  ],
+  "d1_addresses": [
+    "C665E7",
+    "Npc0036"
+  ],
+  "d1_text": "Npc0036:\r\n[GOTO_IF_FLAG TEMP_4 L_C665E7]\r\n\u00ef\u00bf\u00bdHello sir, how may I help you?[PAUSE 30]  ...Uh...[PAUSE 20]  Aren't you [PRINT_NAME NESS]?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdAfter our battle I became serious,[PAUSE 15] and have been working very hard.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI've even been doing some training for...[PAUSE 15] for...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWell,[PAUSE 15] a little bit of pro wrasslin'.[PAUSE 20]  It's the ring for me,[PAUSE 15] baby...[WAIT][LINE_BREAK]\r\n; $C665E7\r\nL_C665E7:\r\n\u00ef\u00bf\u00bdSo you made it back alive.[PAUSE 20]  You must have many stories to tell.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdLet's get together for a drink,[PAUSE 15] when you have a chance so I can hear your stories.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd...I'm talking about drinking mineral water.[PAUSE 15]  I'm still under age,[PAUSE 15] you know.[HALT][SET_FLAG TEMP_4]\r\n[END]",
+  "d1_lines": [
+    "Npc0036:",
+    "[GOTO_IF_FLAG TEMP_4 L_C665E7]",
+    "\u00ef\u00bf\u00bdHello sir, how may I help you?[PAUSE 30]  ...Uh...[PAUSE 20]  Aren't you [PRINT_NAME NESS]?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdAfter our battle I became serious,[PAUSE 15] and have been working very hard.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI've even been doing some training for...[PAUSE 15] for...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWell,[PAUSE 15] a little bit of pro wrasslin'.[PAUSE 20]  It's the ring for me,[PAUSE 15] baby...[WAIT][LINE_BREAK]",
+    "; $C665E7",
+    "L_C665E7:",
+    "\u00ef\u00bf\u00bdSo you made it back alive.[PAUSE 20]  You must have many stories to tell.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdLet's get together for a drink,[PAUSE 15] when you have a chance so I can hear your stories.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd...I'm talking about drinking mineral water.[PAUSE 15]  I'm still under age,[PAUSE 15] you know.[HALT][SET_FLAG TEMP_4]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TEMP_4 L_C665E7]:C665E7": {
+      "\u00ef\u00bf\u00bdSo you made it back alive.[PAUSE 20]  You must have many stories to tell.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdLet's get together for a drink,[PAUSE 15] when you have a chance so I can hear your stories.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...I'm talking about drinking mineral water.[PAUSE 15]  I'm still under age,[PAUSE 15] you know.[HALT][SET_FLAG TEMP_4]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdHello sir, how may I help you?[PAUSE 30]  ...Uh...[PAUSE 20]  Aren't you [PRINT_NAME NESS]?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdAfter our battle I became serious,[PAUSE 15] and have been working very hard.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI've even been doing some training for...[PAUSE 15] for...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWell,[PAUSE 15] a little bit of pro wrasslin'.[PAUSE 20]  It's the ring for me,[PAUSE 15] baby...[WAIT][LINE_BREAK]": null,
+    "; $C665E7": null,
+    "\u00ef\u00bf\u00bdSo you made it back alive.[PAUSE 20]  You must have many stories to tell.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdLet's get together for a drink,[PAUSE 15] when you have a chance so I can hear your stories.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd...I'm talking about drinking mineral water.[PAUSE 15]  I'm still under age,[PAUSE 15] you know.[HALT][SET_FLAG TEMP_4]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7512,
+  "y_pixel_abs": 448,
+  "x_tile": 234,
+  "y_tile": 14,
+  "x_sector": 29,
+  "y_sector": 1,
+  "x_sector_offset": 88,
+  "y_sector_offset": 192,
+  "Event Flag": 73,
+  "flag_label": "GIYGAS_DEFEATED",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_20.l_0xc6653b",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,43 @@
+{
+  "Sprite": 105,
+  "sprite_label": "man_dalaamese_pigtail",
+  "map_location_label": "Dalaam_Houses_North",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9CE2C",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1095"
+  ],
+  "d1_text": "Npc1095:\r\n\u00ef\u00bf\u00bdPlease come in.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdLook around the house as much as you want.[HALT][END]",
+  "d1_lines": [
+    "Npc1095:",
+    "\u00ef\u00bf\u00bdPlease come in.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdLook around the house as much as you want.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdPlease come in.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdLook around the house as much as you want.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7008,
+  "y_pixel_abs": 7736,
+  "x_tile": 219,
+  "y_tile": 241,
+  "x_sector": 27,
+  "y_sector": 30,
+  "x_sector_offset": 96,
+  "y_sector_offset": 56,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_53.l_0xc9ce2c",
+  "Text Pointer 2": "$0"
+}

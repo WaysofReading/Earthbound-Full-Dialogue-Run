@@ -1,0 +1,45 @@
+{
+  "Sprite": 59,
+  "sprite_label": "prettyman",
+  "map_location_label": "Twoson_Chaos Theater_1F_Concert-Hall",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C95324",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0246"
+  ],
+  "d1_text": "Npc0246:\r\n\u00ef\u00bf\u00bdLa la Mi mi I'm tone-deaf.[PAUSE 20][LINE_BREAK]\r\n  My daughter brought me here.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdFa la La mi.[HALT][END]",
+  "d1_lines": [
+    "Npc0246:",
+    "\u00ef\u00bf\u00bdLa la Mi mi I'm tone-deaf.[PAUSE 20][LINE_BREAK]",
+    "  My daughter brought me here.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdFa la La mi.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdLa la Mi mi I'm tone-deaf.[PAUSE 20][LINE_BREAK]": null,
+    "  My daughter brought me here.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdFa la La mi.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6792,
+  "y_pixel_abs": 8561,
+  "x_tile": 212,
+  "y_tile": 267,
+  "x_sector": 26,
+  "y_sector": 33,
+  "x_sector_offset": 136,
+  "y_sector_offset": 113,
+  "Event Flag": 751,
+  "flag_label": "CHAOS_THEATER_AUDIENCE_ABSENT",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 605,
+  "Text Pointer 1": "data_47.l_0xc95324",
+  "Text Pointer 2": "$0"
+}

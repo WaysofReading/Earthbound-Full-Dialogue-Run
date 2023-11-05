@@ -1,0 +1,43 @@
+{
+  "Sprite": 255,
+  "sprite_label": "sportscar",
+  "map_location_label": "Summers and Toto_Overworld_West",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C690C5",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1080"
+  ],
+  "d1_text": "Npc1080:\r\n\u00ef\u00bf\u00bdHey, hey!![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdStop putting your grimy fingerprints all over my car, you little punk![HALT][END]",
+  "d1_lines": [
+    "Npc1080:",
+    "\u00ef\u00bf\u00bdHey, hey!![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdStop putting your grimy fingerprints all over my car, you little punk![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdHey, hey!![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdStop putting your grimy fingerprints all over my car, you little punk![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5128,
+  "y_pixel_abs": 2792,
+  "x_tile": 160,
+  "y_tile": 87,
+  "x_sector": 20,
+  "y_sector": 10,
+  "x_sector_offset": 8,
+  "y_sector_offset": 232,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_22.l_0xc690c5",
+  "Text Pointer 2": "$0"
+}

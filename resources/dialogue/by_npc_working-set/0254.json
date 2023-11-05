@@ -1,0 +1,194 @@
+{
+  "Sprite": 157,
+  "sprite_label": "everdred",
+  "map_location_label": "Twoson_Everdred's Shack_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C95C0E",
+  "d1_flags": [
+    "1. goto C95DC6 if EVERDRED_DEFEATED is set",
+    "1. goto C95DF9 if PAULA_JOINS is set",
+    "1. goto C95F0A if PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE is set",
+    "1. goto C960D7 if GOT_WAD_OF_BILLS is set",
+    "3. set EVERDRED_DEFEATED",
+    "3. set GOT_WAD_OF_BILLS"
+  ],
+  "d1_addresses": [
+    "C683DE",
+    "C6846B",
+    "C7DC7F",
+    "C7DC85",
+    "C7DCB6",
+    "C7DCDA",
+    "C7DD03",
+    "C95DC6",
+    "C95DF9",
+    "C95E73",
+    "C95EA5",
+    "C95F0A",
+    "C9605D",
+    "C960AB",
+    "C960D7",
+    "Npc0254"
+  ],
+  "d1_text": "Npc0254:\r\n[GOTO_IF_FLAG GOT_WAD_OF_BILLS L_C960D7]\r\n[GOTO_IF_FLAG PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE L_C95F0A]\r\n[GOTO_IF_FLAG PAULA_JOINS L_C95DF9]\r\n[GOTO_IF_FLAG EVERDRED_DEFEATED L_C95DC6]\r\n\u00ef\u00bf\u00bdWah ha ha ha ha![PAUSE 20][LINE_BREAK]\r\n  Why don't we chat later-after  we've locked horns![WAIT][GOSUB L_C6846B]\r\n[GOTO_IF_TRUE L_C683DE]\r\n[OPEN_TBOX 1]\r\n\u00ef\u00bf\u00bdYes, I'm Everdred, boss of Burglin Park.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWhen I jumped off the roof,[PAUSE 15] I twisted my ankle.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdAnyway, I lost and nothing will change that.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou know,[PAUSE 15] you're pretty strong.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYeah, I know that you want to find out about a girl named [PRINT_NAME PAULA].[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdShe went off to a secret hideout in the Peaceful Rest Valley.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdA chubby boy and a weird guy in a blue outfit have kidnapped her, though.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThey said that they were going to make [PRINT_NAME PAULA] some sort of human sacrifice.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThey were definitely hard-core strange.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou know, she might be gone already.[PAUSE 20][LINE_BREAK]\r\n  You'd better hurry.[WAIT][LINE_BREAK]\r\n; $C95DC6\r\nL_C95DC6:\r\n\u00ef\u00bf\u00bdIf you save [PRINT_NAME PAULA],[PAUSE 15] be sure to come back here, okay?[PAUSE 15]  Don't[PAUSE 20] forget![HALT][CLOSE_ALL_TBOXES]\r\n[SET_FLAG EVERDRED_DEFEATED]\r\n[END]",
+  "d1_lines": [
+    "Npc0254:",
+    "[GOTO_IF_FLAG GOT_WAD_OF_BILLS L_C960D7]",
+    "[GOTO_IF_FLAG PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE L_C95F0A]",
+    "[GOTO_IF_FLAG PAULA_JOINS L_C95DF9]",
+    "[GOTO_IF_FLAG EVERDRED_DEFEATED L_C95DC6]",
+    "\u00ef\u00bf\u00bdWah ha ha ha ha![PAUSE 20][LINE_BREAK]",
+    "  Why don't we chat later-after  we've locked horns![WAIT][GOSUB L_C6846B]",
+    "[GOTO_IF_TRUE L_C683DE]",
+    "[OPEN_TBOX 1]",
+    "\u00ef\u00bf\u00bdYes, I'm Everdred, boss of Burglin Park.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWhen I jumped off the roof,[PAUSE 15] I twisted my ankle.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdAnyway, I lost and nothing will change that.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou know,[PAUSE 15] you're pretty strong.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYeah, I know that you want to find out about a girl named [PRINT_NAME PAULA].[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdShe went off to a secret hideout in the Peaceful Rest Valley.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdA chubby boy and a weird guy in a blue outfit have kidnapped her, though.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThey said that they were going to make [PRINT_NAME PAULA] some sort of human sacrifice.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThey were definitely hard-core strange.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou know, she might be gone already.[PAUSE 20][LINE_BREAK]",
+    "  You'd better hurry.[WAIT][LINE_BREAK]",
+    "; $C95DC6",
+    "L_C95DC6:",
+    "\u00ef\u00bf\u00bdIf you save [PRINT_NAME PAULA],[PAUSE 15] be sure to come back here, okay?[PAUSE 15]  Don't[PAUSE 20] forget![HALT][CLOSE_ALL_TBOXES]",
+    "[SET_FLAG EVERDRED_DEFEATED]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GOT_WAD_OF_BILLS L_C960D7]:C960D7": {
+      "[SET_COUNTER 1]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C960AB]:C960AB": {
+        "\u00ef\u00bf\u00bdI need to talk to [PRINT_NAME NESS].[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdEven if you're his friend,[PAUSE 15] I won't talk to you.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdPlease use the 10,000 dollars any way you wish.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou cannot refuse my generosity,[PAUSE 15] just accept it.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE L_C95F0A]:C95F0A": {
+      "[SET_COUNTER 1]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C960AB]:C960AB": {
+        "\u00ef\u00bf\u00bdI need to talk to [PRINT_NAME NESS].[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdEven if you're his friend,[PAUSE 15] I won't talk to you.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdI was going to ask you to be my partner,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdbut I know you'll refuse.[PAUSE 20]  It's written all over your face.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIf you accepted,[PAUSE 15] I was going to give you some money.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdActually, I can't keep the money now anyway.[PAUSE 20]  Let me give this to you.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt's 10,000 dollars.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdUse the money any way you like.[PAUSE 20]  You cannot refuse my generosity.[PAUSE 20]  Just accept it.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdNow I plan on looking for the evil Mani Mani Statue[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdthat Lier X. Agerate unearthed in Onett.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'll see you at another time, in another space.[WAIT][INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C9605D]:C9605D": {
+        "[PAUSE 60][LINE_BREAK]": null,
+        "[PLAY_SFX 5]": null,
+        "\u00ef\u00bf\u00bdYour backpack is filled with junk.[PAUSE 20]  Get rid of something![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'll put the money in a safe place until you get back.[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT WAD_OF_BILLS]": null,
+      "[GOSUB L_C7DCB6]:C7DCB6": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][BACKUP_REGS_GLOBAL]": null,
+        "[CLOSE_ALL_TBOXES]": null,
+        "[PLAY_SFX 102]": null,
+        "[PAUSE 100][OPEN_TBOX 1]": null,
+        "[RESTORE_REGS_GLOBAL]": null,
+        "[GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[SET_FLAG GOT_WAD_OF_BILLS]": null,
+      "[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG PAULA_JOINS L_C95DF9]:C95DF9": {
+      "[SET_COUNTER 1]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C95E73]:C95E73": {
+        "\u00ef\u00bf\u00bd[PRINT_STAT PAULA_NAME]![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI thought you were with your little hero, the kid in the red cap.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou seem cold.[HALT][END]": null
+      },
+      "[SET_COUNTER 2]": null,
+      "[GOTO_IF_TRUE L_C95EA5]:C95EA5": {
+        "\u00ef\u00bf\u00bdI heard that you've been pretty proud of yourself since you saved [PRINT_NAME PAULA]'s life.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThink about it,[PAUSE 15] you didn't actually save her.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdCome back when you've accomplished something.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdFirst, you must take her to her parents.[PAUSE 20]  They're really worried.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI also have something to give you,[PAUSE 15] so be sure to come back here.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdPromise?[PAUSE 20]  All right.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG EVERDRED_DEFEATED L_C95DC6]:C95DC6": {
+      "\u00ef\u00bf\u00bdIf you save [PRINT_NAME PAULA],[PAUSE 15] be sure to come back here, okay?[PAUSE 15]  Don't[PAUSE 20] forget![HALT][CLOSE_ALL_TBOXES]": null,
+      "[SET_FLAG EVERDRED_DEFEATED]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdWah ha ha ha ha![PAUSE 20][LINE_BREAK]": null,
+    "  Why don't we chat later-after  we've locked horns![WAIT][GOSUB L_C6846B]:C6846B": {
+      "[CLOSE_ALL_TBOXES]": null,
+      "[START_BATTLE 453]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_TRUE L_C683DE]:C683DE": {
+      "[END]": null
+    },
+    "[OPEN_TBOX 1]": null,
+    "\u00ef\u00bf\u00bdYes, I'm Everdred, boss of Burglin Park.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWhen I jumped off the roof,[PAUSE 15] I twisted my ankle.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdAnyway, I lost and nothing will change that.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou know,[PAUSE 15] you're pretty strong.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYeah, I know that you want to find out about a girl named [PRINT_NAME PAULA].[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdShe went off to a secret hideout in the Peaceful Rest Valley.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdA chubby boy and a weird guy in a blue outfit have kidnapped her, though.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThey said that they were going to make [PRINT_NAME PAULA] some sort of human sacrifice.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThey were definitely hard-core strange.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou know, she might be gone already.[PAUSE 20][LINE_BREAK]": null,
+    "  You'd better hurry.[WAIT][LINE_BREAK]": null,
+    "; $C95DC6": null,
+    "\u00ef\u00bf\u00bdIf you save [PRINT_NAME PAULA],[PAUSE 15] be sure to come back here, okay?[PAUSE 15]  Don't[PAUSE 20] forget![HALT][CLOSE_ALL_TBOXES]": null,
+    "[SET_FLAG EVERDRED_DEFEATED]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7792,
+  "y_pixel_abs": 8136,
+  "x_tile": 243,
+  "y_tile": 254,
+  "x_sector": 30,
+  "y_sector": 31,
+  "x_sector_offset": 112,
+  "y_sector_offset": 200,
+  "Event Flag": 624,
+  "flag_label": "EVERDRED_AT_HIS_HOUSE",
+  "Show Sprite": "when event flag set",
+  "Direction": "left",
+  "Movement": 12,
+  "Text Pointer 1": "data_48.l_0xc95c0e",
+  "Text Pointer 2": "$0"
+}

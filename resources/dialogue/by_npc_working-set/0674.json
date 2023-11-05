@@ -1,0 +1,41 @@
+{
+  "Sprite": 436,
+  "sprite_label": "exit-mouse",
+  "map_location_label": "Winters_Stonehenge Base_B7F_Exit-Mouse",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C67820",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0095"
+  ],
+  "d1_text": "Npc0095:\r\n\u00ef\u00bf\u00bd(Trust me on the dark road.)[HALT][END]",
+  "d1_lines": [
+    "Npc0095:",
+    "\u00ef\u00bf\u00bd(Trust me on the dark road.)[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bd(Trust me on the dark road.)[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6768,
+  "y_pixel_abs": 5824,
+  "x_tile": 211,
+  "y_tile": 182,
+  "x_sector": 26,
+  "y_sector": 22,
+  "x_sector_offset": 112,
+  "y_sector_offset": 192,
+  "Event Flag": 512,
+  "flag_label": "HAS_EXIT_MOUSE",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_20.l_0xc67820",
+  "Text Pointer 2": "$0"
+}

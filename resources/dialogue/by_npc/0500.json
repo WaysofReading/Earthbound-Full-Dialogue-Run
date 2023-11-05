@@ -1,0 +1,49 @@
+{
+  "Sprite": 56,
+  "sprite_label": "man_bald_black-suit",
+  "map_location_label": "Threed_Hospital_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8E04A",
+  "d1_flags": [
+    "1. goto C8E07C if MASTER_BELCH_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C8E07C",
+    "Npc0500"
+  ],
+  "d1_text": "Npc0500:\r\n[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E07C]\r\n\u00ef\u00bf\u00bdI'm stronger than a zombie,[PAUSE 15] but a bunch of zombies ganged up on me.[HALT][END]",
+  "d1_lines": [
+    "Npc0500:",
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E07C]",
+    "\u00ef\u00bf\u00bdI'm stronger than a zombie,[PAUSE 15] but a bunch of zombies ganged up on me.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E07C]:C8E07C": {
+      "\u00ef\u00bf\u00bdIf you would have taken me along to hunt zombies or something,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI would have been a big help.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI'm stronger than a zombie,[PAUSE 15] but a bunch of zombies ganged up on me.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6768,
+  "y_pixel_abs": 9960,
+  "x_tile": 211,
+  "y_tile": 311,
+  "x_sector": 26,
+  "y_sector": 38,
+  "x_sector_offset": 112,
+  "y_sector_offset": 232,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_42.l_0xc8e04a",
+  "Text Pointer 2": "$0"
+}

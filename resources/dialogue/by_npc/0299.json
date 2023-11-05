@@ -1,0 +1,47 @@
+{
+  "Sprite": 120,
+  "sprite_label": "girl_blonde_pink-dress",
+  "map_location_label": "Twoson_Department Store_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C695D8",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0299"
+  ],
+  "d1_text": "Npc0299:\r\n\u00ef\u00bf\u00bdYum yum... mmm... I'm eating a skip sandwich.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt makes you want to start skipping![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI saw it on a TV ad, and I just had to try one.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'll bet I can really move after eating this...[HALT][END]",
+  "d1_lines": [
+    "Npc0299:",
+    "\u00ef\u00bf\u00bdYum yum... mmm... I'm eating a skip sandwich.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt makes you want to start skipping![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI saw it on a TV ad, and I just had to try one.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'll bet I can really move after eating this...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdYum yum... mmm... I'm eating a skip sandwich.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt makes you want to start skipping![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI saw it on a TV ad, and I just had to try one.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'll bet I can really move after eating this...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6752,
+  "y_pixel_abs": 7264,
+  "x_tile": 211,
+  "y_tile": 227,
+  "x_sector": 26,
+  "y_sector": 28,
+  "x_sector_offset": 96,
+  "y_sector_offset": 96,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 606,
+  "Text Pointer 1": "data_22.l_0xc695d8",
+  "Text Pointer 2": "$0"
+}

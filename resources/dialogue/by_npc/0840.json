@@ -1,0 +1,91 @@
+{
+  "Sprite": 61,
+  "sprite_label": "man_blonde_black-suit",
+  "map_location_label": "Fourside_Topolla Theater_1F_Concert-Hall",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6D50A",
+  "d1_flags": [
+    "1. goto C6D5AE if 147 is set",
+    "1. goto C6D61E if TEMP_10 is set",
+    "1. goto C6D642 if TEMP_9 is set",
+    "3. set TEMP_10",
+    "3. set TEMP_9",
+    "3. set TOPOLLA_THEATER_BACKSTAGE_UNBLOCKED"
+  ],
+  "d1_addresses": [
+    "C6D561",
+    "C6D5AE",
+    "C6D61E",
+    "C6D642",
+    "Npc0840"
+  ],
+  "d1_text": "Npc0840:\r\n[GOTO_IF_FLAG TEMP_9 L_C6D642]\r\n[GOTO_IF_FLAG TEMP_10 L_C6D61E]\r\n[GOTO_IF_FLAG 147 L_C6D5AE]\r\n[GET_PARTY_MEMBER 1][RESULT_TO_ARG][CHECK_EQUAL 1][GOTO_IF_TRUE L_C6D561]\r\n\u00ef\u00bf\u00bdHey, kid...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThis is a restricted area.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdBack stage is right behind this door.[HALT][END]",
+  "d1_lines": [
+    "Npc0840:",
+    "[GOTO_IF_FLAG TEMP_9 L_C6D642]",
+    "[GOTO_IF_FLAG TEMP_10 L_C6D61E]",
+    "[GOTO_IF_FLAG 147 L_C6D5AE]",
+    "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][CHECK_EQUAL 1][GOTO_IF_TRUE L_C6D561]",
+    "\u00ef\u00bf\u00bdHey, kid...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThis is a restricted area.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdBack stage is right behind this door.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TEMP_9 L_C6D642]:C6D642": {
+      "\u00ef\u00bf\u00bdAh, you're a friend of the Runaway Five?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDid you come to see Miss Venus?[PAUSE 20]  Come inside quickly.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDon't let the other fans see you enter.[WAIT][END]": null
+    },
+    "[GOTO_IF_FLAG TEMP_10 L_C6D61E]:C6D61E": {
+      "\u00ef\u00bf\u00bdIf [PRINT_NAME NESS] arrives,[PAUSE 15] the Runaway Five told me to let him in.[WAIT][END]": null
+    },
+    "[GOTO_IF_FLAG 147 L_C6D5AE]:C6D5AE": {
+      "\u00ef\u00bf\u00bdAh, you're a friend of the Runaway Five...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDid you come to see Miss Venus?[PAUSE 20]  Come inside quickly.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDon't let the other fans see you enter.[WAIT][CLOSE_ALL_TBOXES]": null,
+      "[SET_NPC_MOVEMENT_SCRIPT 840 242]": null,
+      "[WAIT_MOVEMENT]": null,
+      "[DELETE_NPC 840 6]": null,
+      "[CREATE_NPC 841 8 1]": null,
+      "[SET_FLAG TOPOLLA_THEATER_BACKSTAGE_UNBLOCKED]": null,
+      "[SET_FLAG TEMP_9]": null,
+      "[END]": null
+    },
+    "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][CHECK_EQUAL 1][GOTO_IF_TRUE L_C6D561]:C6D561": {
+      "\u00ef\u00bf\u00bdWhen [PRINT_NAME NESS] arrives,[PAUSE 15] the Runaway Five told me to let him in.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdSo please come in.[WAIT][CLOSE_ALL_TBOXES]": null,
+      "[SET_NPC_MOVEMENT_SCRIPT 840 242]": null,
+      "[WAIT_MOVEMENT]": null,
+      "[DELETE_NPC 840 6]": null,
+      "[CREATE_NPC 841 8 1]": null,
+      "[SET_FLAG TOPOLLA_THEATER_BACKSTAGE_UNBLOCKED]": null,
+      "[SET_FLAG TEMP_10]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdHey, kid...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThis is a restricted area.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdBack stage is right behind this door.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4504,
+  "y_pixel_abs": 5864,
+  "x_tile": 140,
+  "y_tile": 183,
+  "x_sector": 17,
+  "y_sector": 22,
+  "x_sector_offset": 152,
+  "y_sector_offset": 232,
+  "Event Flag": 374,
+  "flag_label": "TOPOLLA_THEATER_BACKSTAGE_UNBLOCKED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 8,
+  "Text Pointer 1": "data_24.l_0xc6d50a",
+  "Text Pointer 2": "$0"
+}

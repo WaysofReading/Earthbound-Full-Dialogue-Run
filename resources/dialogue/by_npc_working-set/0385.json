@@ -1,0 +1,73 @@
+{
+  "Sprite": 101,
+  "sprite_label": "happy-happyist",
+  "map_location_label": "Happy Happy Village_Happy Happy HQ_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C986CC",
+  "d1_flags": [
+    "1. goto C7C588 if HH_HQ_CULTIST_1_DEFEATED is set",
+    "3. set HH_HQ_CULTIST_1_DEFEATED"
+  ],
+  "d1_addresses": [
+    "C683DE",
+    "C68500",
+    "C7C588",
+    "Npc0385",
+    "Npc0463"
+  ],
+  "d1_text": "Npc0385:\r\n[GOTO_IF_FLAG HH_HQ_CULTIST_1_DEFEATED L_C7C588]\r\n\u00ef\u00bf\u00bdBlue, blue.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI say,[PAUSE 15] \u00ef\u00bf\u00bdArm the torpedoes, full speed ahead!\u00ef\u00bf\u00bd...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdor something like that.[PAUSE 20]  So now I'll crush you![WAIT][GOSUB L_C68500]\r\n[GOTO_IF_TRUE L_C683DE]\r\n[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 385 635]\r\n[SET_FLAG HH_HQ_CULTIST_1_DEFEATED]\r\n[END]",
+  "d1_lines": [
+    "Npc0385:",
+    "[GOTO_IF_FLAG HH_HQ_CULTIST_1_DEFEATED L_C7C588]",
+    "\u00ef\u00bf\u00bdBlue, blue.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI say,[PAUSE 15] \u00ef\u00bf\u00bdArm the torpedoes, full speed ahead!\u00ef\u00bf\u00bd...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdor something like that.[PAUSE 20]  So now I'll crush you![WAIT][GOSUB L_C68500]",
+    "[GOTO_IF_TRUE L_C683DE]",
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 385 635]",
+    "[SET_FLAG HH_HQ_CULTIST_1_DEFEATED]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG HH_HQ_CULTIST_1_DEFEATED L_C7C588]:C7C588": {
+      "[GOTO_IF_FLAG ALT_NO_TALK_TEXT Npc0463]:Npc0463": {
+        "\u00ef\u00bf\u00bd(There's no response.)[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdWho are you talking to?[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdBlue, blue.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI say,[PAUSE 15] \u00ef\u00bf\u00bdArm the torpedoes, full speed ahead!\u00ef\u00bf\u00bd...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdor something like that.[PAUSE 20]  So now I'll crush you![WAIT][GOSUB L_C68500]:C68500": {
+      "[CLOSE_ALL_TBOXES]": null,
+      "[START_BATTLE 434]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_TRUE L_C683DE]:C683DE": {
+      "[END]": null
+    },
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 385 635]": null,
+    "[SET_FLAG HH_HQ_CULTIST_1_DEFEATED]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7938,
+  "y_pixel_abs": 2285,
+  "x_tile": 248,
+  "y_tile": 71,
+  "x_sector": 31,
+  "y_sector": 8,
+  "x_sector_offset": 2,
+  "y_sector_offset": 237,
+  "Event Flag": 351,
+  "flag_label": "HH_HQ_CULTIST_1_DEFEATED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_49.l_0xc986cc",
+  "Text Pointer 2": "$0"
+}

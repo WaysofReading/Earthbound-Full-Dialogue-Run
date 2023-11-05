@@ -1,0 +1,57 @@
+{
+  "Sprite": 68,
+  "sprite_label": "woman_blonde_red-dress",
+  "map_location_label": "Threed_Houses_Southeast-Mailbox_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8EE02",
+  "d1_flags": [
+    "1. goto C8EE6E if MASTER_BELCH_DEFEATED is set",
+    "1. goto C8EEB4 if GIYGAS_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C8EE6E",
+    "C8EEB4",
+    "Npc0514"
+  ],
+  "d1_text": "Npc0514:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C8EEB4]\r\n[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8EE6E]\r\n\u00ef\u00bf\u00bdThat's right, there is a rumor that a monster called Belch is screwing up the town.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdBelch![PAUSE 20]  That's a gross,[PAUSE 15] twisted name even for a monster![HALT][END]",
+  "d1_lines": [
+    "Npc0514:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C8EEB4]",
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8EE6E]",
+    "\u00ef\u00bf\u00bdThat's right, there is a rumor that a monster called Belch is screwing up the town.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdBelch![PAUSE 20]  That's a gross,[PAUSE 15] twisted name even for a monster![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C8EEB4]:C8EEB4": {
+      "\u00ef\u00bf\u00bdIsn't your backpack worn out?[PAUSE 20]  Oh, if only those straps could talk...[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8EE6E]:C8EE6E": {
+      "\u00ef\u00bf\u00bdBu[PAUSE 5]u[PAUSE 5]u[PAUSE 5]u[PAUSE 5]rp![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdOops... now I'll get \u00ef\u00bf\u00bdBelch\u00ef\u00bf\u00bd for a nickname.  Hee hee hee... uh... crud.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThat's right, there is a rumor that a monster called Belch is screwing up the town.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdBelch![PAUSE 20]  That's a gross,[PAUSE 15] twisted name even for a monster![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7000,
+  "y_pixel_abs": 9952,
+  "x_tile": 218,
+  "y_tile": 311,
+  "x_sector": 27,
+  "y_sector": 38,
+  "x_sector_offset": 88,
+  "y_sector_offset": 224,
+  "Event Flag": 214,
+  "flag_label": "VISITED_FOURSIDE",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_42.l_0xc8ee02",
+  "Text Pointer 2": "$0"
+}

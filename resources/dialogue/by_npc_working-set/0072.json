@@ -1,0 +1,43 @@
+{
+  "Sprite": 63,
+  "sprite_label": "man_hat_black-suit",
+  "map_location_label": "Onett_Police Station_1F_Cells",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C76E92",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0072"
+  ],
+  "d1_text": "Npc0072:\r\n\u00ef\u00bf\u00bdPsst![PAUSE 20]  I'm not really one of the gang.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm a cop,[PAUSE 15] even if I don't look like it.[HALT][END]",
+  "d1_lines": [
+    "Npc0072:",
+    "\u00ef\u00bf\u00bdPsst![PAUSE 20]  I'm not really one of the gang.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm a cop,[PAUSE 15] even if I don't look like it.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdPsst![PAUSE 20]  I'm not really one of the gang.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm a cop,[PAUSE 15] even if I don't look like it.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8072,
+  "y_pixel_abs": 96,
+  "x_tile": 252,
+  "y_tile": 3,
+  "x_sector": 31,
+  "y_sector": 0,
+  "x_sector_offset": 136,
+  "y_sector_offset": 96,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_29.l_0xc76e92",
+  "Text Pointer 2": "$0"
+}

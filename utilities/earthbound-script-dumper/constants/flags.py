@@ -793,3 +793,14 @@ FLAG_NAMES = {
     834: 'PRESENT_TONY_COOKIE_6',
     835: 'PRESENT_TONY_COOKIE_7'
 }
+
+import os
+import csv
+
+if __name__ == "__main__":
+    CD = os.path.dirname(os.path.realpath(__file__))
+    with open(os.path.join(CD, 'flags.csv'), 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(['flag_id', 'flag_label'])
+        for key, value in FLAG_NAMES.items():
+            writer.writerow([key, value])

@@ -1,0 +1,112 @@
+{
+  "Sprite": 303,
+  "sprite_label": "monster_starman",
+  "map_location_label": "Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules_Boss",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "EF941F",
+  "d1_flags": [
+    "1. goto C7C588 if STARMAN_DX_ABSENT is set",
+    "2. goto C9992F if VISITED_TENDA_VILLAGE is cleared",
+    "3. set 538",
+    "3. set 55",
+    "3. set EXIT_MOUSE_DISAGREEABLE",
+    "3. set LEARNED_ABOUT_SHYNESS_BOOK",
+    "3. set SHYNESS_BOOK_AT_LIBRARY",
+    "3. set STARMAN_DX_ABSENT",
+    "3. set STARMAN_DX_DEFEATED"
+  ],
+  "d1_addresses": [
+    "C6CFC5",
+    "C77EFF",
+    "C7C588",
+    "C92BE3",
+    "C9992F",
+    "Npc0463",
+    "Npc0672"
+  ],
+  "d1_text": "Npc0672:\r\n[GOTO_IF_FLAG STARMAN_DX_ABSENT L_C7C588]\r\n[GOSUB L_C6CFC5]\r\n[CLOSE_ALL_TBOXES]\r\n[START_BATTLE 466]\r\n[GOTO_IF_TRUE L_C77EFF]\r\n[SET_FLAG STARMAN_DX_ABSENT]\r\n[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 672 635]\r\n[GOSUB L_C92BE3]\r\n[END]",
+  "d1_lines": [
+    "Npc0672:",
+    "[GOTO_IF_FLAG STARMAN_DX_ABSENT L_C7C588]",
+    "[GOSUB L_C6CFC5]",
+    "[CLOSE_ALL_TBOXES]",
+    "[START_BATTLE 466]",
+    "[GOTO_IF_TRUE L_C77EFF]",
+    "[SET_FLAG STARMAN_DX_ABSENT]",
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 672 635]",
+    "[GOSUB L_C92BE3]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG STARMAN_DX_ABSENT L_C7C588]:C7C588": {
+      "[GOTO_IF_FLAG ALT_NO_TALK_TEXT Npc0463]:Npc0463": {
+        "\u00ef\u00bf\u00bd(There's no response.)[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdWho are you talking to?[HALT][END]": null
+    },
+    "[GOSUB L_C6CFC5]:C6CFC5": {
+      "[OPEN_TBOX 1]": null,
+      "\u00ef\u00bf\u00bdYou're much stronger *whirrr* than our intelligence indicated...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWe were not *beep* prepared for that eventuality...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThe Prophecy from the *click* Apple of Enlightenment may be true...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdbut you must not *whirrr* underestimate us.[WAIT][CLOSE_ALL_TBOXES]": null,
+      "[END]": null
+    },
+    "[CLOSE_ALL_TBOXES]": null,
+    "[START_BATTLE 466]": null,
+    "[GOTO_IF_TRUE L_C77EFF]:C77EFF": {
+      "[END]": null
+    },
+    "[SET_FLAG STARMAN_DX_ABSENT]": null,
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 672 635]": null,
+    "[GOSUB L_C92BE3]:C92BE3": {
+      "[CLOSE_ALL_TBOXES]": null,
+      "[PAUSE 60][PLAY_MUSIC 145]": null,
+      "[PAUSE 140][CREATE_OBJ 439 355 1]": null,
+      "[PAUSE 1][CAMERA_FOCUS_OBJECT 439]": null,
+      "[UNFREEZE_PMEMBER ALL]": null,
+      "[CREATE_OBJ 106 675 1]": null,
+      "[WAIT_MOVEMENT]": null,
+      "[UNFOCUS_CAMERA]": null,
+      "[FREEZE_PMEMBER ALL]": null,
+      "[DELETE_OBJ 439 6]": null,
+      "[SET_MAP_PAL 27 4 180]": null,
+      "[GET_PARTY_MEMBER 1][RESULT_TO_ARG][OPEN_TBOX 1]": null,
+      "\u00ef\u00bf\u00bdWhen you defeated the Starman DX, the Stonehenge base ceased functioning.[WAIT][CLOSE_ALL_TBOXES]": null,
+      "[SET_FLAG STARMAN_DX_DEFEATED]": null,
+      "[SET_FLAG LEARNED_ABOUT_SHYNESS_BOOK]": null,
+      "[SET_FLAG SHYNESS_BOOK_AT_LIBRARY]": null,
+      "[SET_FLAG 55]": null,
+      "[SET_FLAG EXIT_MOUSE_DISAGREEABLE]": null,
+      "[LOAD_FLAG VISITED_TENDA_VILLAGE][GOTO_IF_FALSE L_C9992F]:C9992F": {
+        "[END]": null
+      },
+      "[SET_FLAG 538]": null,
+      "[RESTORE_MUSIC]": null,
+      "[END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8064,
+  "y_pixel_abs": 4712,
+  "x_tile": 252,
+  "y_tile": 147,
+  "x_sector": 31,
+  "y_sector": 18,
+  "x_sector_offset": 128,
+  "y_sector_offset": 104,
+  "Event Flag": 434,
+  "flag_label": "STARMAN_DX_ABSENT",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_60.l_0xef941f",
+  "Text Pointer 2": "$0"
+}

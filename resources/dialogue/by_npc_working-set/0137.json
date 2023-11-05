@@ -1,0 +1,47 @@
+{
+  "Sprite": 53,
+  "sprite_label": "woman_cane_pink-dress",
+  "map_location_label": "Onett_Overworld_Central-South",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C65C01",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0137"
+  ],
+  "d1_text": "Npc0137:\r\n\u00ef\u00bf\u00bdIf one of your friends becomes unconscious,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdyou should visit them at the hospital.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou should check with the nurse receptionist, and she will release your friend.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt's a nice thing to remember,[PAUSE 15] but it's all right if you forget.[HALT][END]",
+  "d1_lines": [
+    "Npc0137:",
+    "\u00ef\u00bf\u00bdIf one of your friends becomes unconscious,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdyou should visit them at the hospital.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou should check with the nurse receptionist, and she will release your friend.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt's a nice thing to remember,[PAUSE 15] but it's all right if you forget.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdIf one of your friends becomes unconscious,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdyou should visit them at the hospital.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou should check with the nurse receptionist, and she will release your friend.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt's a nice thing to remember,[PAUSE 15] but it's all right if you forget.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1440,
+  "y_pixel_abs": 1424,
+  "x_tile": 45,
+  "y_tile": 44,
+  "x_sector": 5,
+  "y_sector": 5,
+  "x_sector_offset": 160,
+  "y_sector_offset": 144,
+  "Event Flag": 375,
+  "flag_label": "PEOPLE_IN_ONETT",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 607,
+  "Text Pointer 1": "data_19.l_0xc65c01",
+  "Text Pointer 2": "$0"
+}

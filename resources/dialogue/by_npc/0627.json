@@ -1,0 +1,71 @@
+{
+  "Sprite": 83,
+  "sprite_label": "tessie-watcher",
+  "map_location_label": "Winters_Overworld_Central-North-(Tessie-and-Watchers)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6B8EB",
+  "d1_flags": [
+    "1. goto C6B952 if LAKE_TESS_WIND_BLOWING is set",
+    "1. goto C6B99F if LEARNED_TELEPORT is set",
+    "1. goto C6BA02 if LEARNED_ABOUT_SHYNESS_BOOK is set"
+  ],
+  "d1_addresses": [
+    "C6B952",
+    "C6B99F",
+    "C6BA02",
+    "Npc0627"
+  ],
+  "d1_text": "Npc0627:\r\n[GOTO_IF_FLAG LEARNED_ABOUT_SHYNESS_BOOK L_C6BA02]\r\n[GOTO_IF_FLAG LAKE_TESS_WIND_BLOWING L_C6B952]\r\n[GOTO_IF_FLAG LEARNED_TELEPORT L_C6B99F]\r\n\u00ef\u00bf\u00bdYou're right.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWe're here at \u00ef\u00bf\u00bdLake Tess\u00ef\u00bf\u00bd[PAUSE 15] waiting to see \u00ef\u00bf\u00bdTessie.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWe're known as the \u00ef\u00bf\u00bdTessie-Watching Club\u00ef\u00bf\u00bd...[HALT][END]",
+  "d1_lines": [
+    "Npc0627:",
+    "[GOTO_IF_FLAG LEARNED_ABOUT_SHYNESS_BOOK L_C6BA02]",
+    "[GOTO_IF_FLAG LAKE_TESS_WIND_BLOWING L_C6B952]",
+    "[GOTO_IF_FLAG LEARNED_TELEPORT L_C6B99F]",
+    "\u00ef\u00bf\u00bdYou're right.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWe're here at \u00ef\u00bf\u00bdLake Tess\u00ef\u00bf\u00bd[PAUSE 15] waiting to see \u00ef\u00bf\u00bdTessie.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWe're known as the \u00ef\u00bf\u00bdTessie-Watching Club\u00ef\u00bf\u00bd...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG LEARNED_ABOUT_SHYNESS_BOOK L_C6BA02]:C6BA02": {
+      "\u00ef\u00bf\u00bdI'm so glad I finally saw it.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'm so happy, it brings tears to my eyes and makes my nose run.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdBoo hoo hoo.[PAUSE 20] *snort* Boo hoo...[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG LAKE_TESS_WIND_BLOWING L_C6B952]:C6B952": {
+      "\u00ef\u00bf\u00bdThis is what we've been waiting for![PAUSE 15]  Finally... it's coming out![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...[PAUSE 30]*fart* ...[PAUSE 15]'scuse me...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdTessie is emerging![HALT][END]": null
+    },
+    "[GOTO_IF_FLAG LEARNED_TELEPORT L_C6B99F]:C6B99F": {
+      "\u00ef\u00bf\u00bdI finally saw Tessie![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt's like seeing a UFO.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt emerged from the lake and flew toward Stonehenge.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...It kidnapped one of my friends along the way.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdYou're right.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWe're here at \u00ef\u00bf\u00bdLake Tess\u00ef\u00bf\u00bd[PAUSE 15] waiting to see \u00ef\u00bf\u00bdTessie.\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWe're known as the \u00ef\u00bf\u00bdTessie-Watching Club\u00ef\u00bf\u00bd...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 400,
+  "y_pixel_abs": 3408,
+  "x_tile": 12,
+  "y_tile": 106,
+  "x_sector": 1,
+  "y_sector": 13,
+  "x_sector_offset": 144,
+  "y_sector_offset": 80,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_23.l_0xc6b8eb",
+  "Text Pointer 2": "$0"
+}

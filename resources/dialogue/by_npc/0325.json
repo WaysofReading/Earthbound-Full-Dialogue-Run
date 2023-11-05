@@ -1,0 +1,51 @@
+{
+  "Sprite": 117,
+  "sprite_label": "man_orange-hair_sunglasses",
+  "map_location_label": "Twoson_Overworld_Central-West-(Burglin-Park)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9461F",
+  "d1_flags": [
+    "1. goto C9466C if TALKED_TO_DYING_EVERDRED is set"
+  ],
+  "d1_addresses": [
+    "C9466C",
+    "Npc0325"
+  ],
+  "d1_text": "Npc0325:\r\n[GOTO_IF_FLAG TALKED_TO_DYING_EVERDRED L_C9466C]\r\n\u00ef\u00bf\u00bdEverdred has always watched over Burglin Park.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThat's why we don't have to bribe any crooked cops.[HALT][END]",
+  "d1_lines": [
+    "Npc0325:",
+    "[GOTO_IF_FLAG TALKED_TO_DYING_EVERDRED L_C9466C]",
+    "\u00ef\u00bf\u00bdEverdred has always watched over Burglin Park.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThat's why we don't have to bribe any crooked cops.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG TALKED_TO_DYING_EVERDRED L_C9466C]:C9466C": {
+      "\u00ef\u00bf\u00bdEven if Everdred has passed on,[PAUSE 15] he'll keep watch over us from...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdfrom...wherever he's at.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdEverdred has always watched over Burglin Park.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThat's why we don't have to bribe any crooked cops.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1776,
+  "y_pixel_abs": 6840,
+  "x_tile": 55,
+  "y_tile": 213,
+  "x_sector": 6,
+  "y_sector": 26,
+  "x_sector_offset": 240,
+  "y_sector_offset": 184,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 10,
+  "Text Pointer 1": "data_47.l_0xc9461f",
+  "Text Pointer 2": "$0"
+}

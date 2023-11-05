@@ -1,0 +1,56 @@
+{
+  "Sprite": 78,
+  "sprite_label": "rastaman",
+  "map_location_label": "Happy Happy Village_Town Hall_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C990B3",
+  "d1_flags": [
+    "1. goto C98940 if GIYGAS_DEFEATED is set",
+    "1. goto C99104 if CARPAINTER_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C98940",
+    "C99104",
+    "Npc0398"
+  ],
+  "d1_text": "Npc0398:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C98940]\r\n[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C99104]\r\n\u00ef\u00bf\u00bdYou might misunderstand what I have to say,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdBut Carpainter's voice affects one's minds, like a hypnotist.[HALT][END]",
+  "d1_lines": [
+    "Npc0398:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C98940]",
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C99104]",
+    "\u00ef\u00bf\u00bdYou might misunderstand what I have to say,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdBut Carpainter's voice affects one's minds, like a hypnotist.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C98940]:C98940": {
+      "\u00ef\u00bf\u00bdThanks, ahead of time.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C99104]:C99104": {
+      "\u00ef\u00bf\u00bdSeems like I'm no longer hypnotized.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdYou might misunderstand what I have to say,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdBut Carpainter's voice affects one's minds, like a hypnotist.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7504,
+  "y_pixel_abs": 2152,
+  "x_tile": 234,
+  "y_tile": 67,
+  "x_sector": 29,
+  "y_sector": 8,
+  "x_sector_offset": 80,
+  "y_sector_offset": 104,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_50.l_0xc990b3",
+  "Text Pointer 2": "$0"
+}

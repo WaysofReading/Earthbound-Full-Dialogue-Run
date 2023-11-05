@@ -1,0 +1,66 @@
+{
+  "Sprite": 325,
+  "sprite_label": "monster_guardian-hieroglyph",
+  "map_location_label": "Scaraba_Pyramid_Room-3",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "EF9137",
+  "d1_flags": [
+    "1. goto C7C588 if GUARDIAN_HIEROGLYPH_9_DEFEATED is set",
+    "3. set GUARDIAN_HIEROGLYPH_9_DEFEATED"
+  ],
+  "d1_addresses": [
+    "C77EFF",
+    "C7C588",
+    "Npc0463",
+    "Npc1178"
+  ],
+  "d1_text": "Npc1178:\r\n[GOTO_IF_FLAG GUARDIAN_HIEROGLYPH_9_DEFEATED L_C7C588]\r\n[CLOSE_ALL_TBOXES]\r\n[START_BATTLE 443]\r\n[GOTO_IF_TRUE L_C77EFF]\r\n[SET_FLAG GUARDIAN_HIEROGLYPH_9_DEFEATED]\r\n[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 1178 635]\r\n[END]",
+  "d1_lines": [
+    "Npc1178:",
+    "[GOTO_IF_FLAG GUARDIAN_HIEROGLYPH_9_DEFEATED L_C7C588]",
+    "[CLOSE_ALL_TBOXES]",
+    "[START_BATTLE 443]",
+    "[GOTO_IF_TRUE L_C77EFF]",
+    "[SET_FLAG GUARDIAN_HIEROGLYPH_9_DEFEATED]",
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 1178 635]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GUARDIAN_HIEROGLYPH_9_DEFEATED L_C7C588]:C7C588": {
+      "[GOTO_IF_FLAG ALT_NO_TALK_TEXT Npc0463]:Npc0463": {
+        "\u00ef\u00bf\u00bd(There's no response.)[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdWho are you talking to?[HALT][END]": null
+    },
+    "[CLOSE_ALL_TBOXES]": null,
+    "[START_BATTLE 443]": null,
+    "[GOTO_IF_TRUE L_C77EFF]:C77EFF": {
+      "[END]": null
+    },
+    "[SET_FLAG GUARDIAN_HIEROGLYPH_9_DEFEATED]": null,
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 1178 635]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4240,
+  "y_pixel_abs": 5048,
+  "x_tile": 132,
+  "y_tile": 157,
+  "x_sector": 16,
+  "y_sector": 19,
+  "x_sector_offset": 144,
+  "y_sector_offset": 184,
+  "Event Flag": 398,
+  "flag_label": "GUARDIAN_HIEROGLYPH_9_DEFEATED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "left",
+  "Movement": 599,
+  "Text Pointer 1": "data_60.l_0xef9137",
+  "Text Pointer 2": "$0"
+}

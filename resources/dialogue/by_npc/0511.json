@@ -1,0 +1,51 @@
+{
+  "Sprite": 123,
+  "sprite_label": "boy_blue-ballcap",
+  "map_location_label": "Threed_Houses_Southeast_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8E62C",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0511"
+  ],
+  "d1_text": "Npc0511:\r\n\u00ef\u00bf\u00bdHey, do you remember me?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI had to run all over to escape the zombies.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdNow I can't remember where my house is...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI told you this before, remember?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHuh?  I never saw you before?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI guess I can't remember anything right.[HALT][END]",
+  "d1_lines": [
+    "Npc0511:",
+    "\u00ef\u00bf\u00bdHey, do you remember me?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI had to run all over to escape the zombies.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdNow I can't remember where my house is...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI told you this before, remember?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHuh?  I never saw you before?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI guess I can't remember anything right.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdHey, do you remember me?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI had to run all over to escape the zombies.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdNow I can't remember where my house is...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI told you this before, remember?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHuh?  I never saw you before?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI guess I can't remember anything right.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7520,
+  "y_pixel_abs": 9936,
+  "x_tile": 235,
+  "y_tile": 310,
+  "x_sector": 29,
+  "y_sector": 38,
+  "x_sector_offset": 96,
+  "y_sector_offset": 208,
+  "Event Flag": 214,
+  "flag_label": "VISITED_FOURSIDE",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_42.l_0xc8e62c",
+  "Text Pointer 2": "$0"
+}

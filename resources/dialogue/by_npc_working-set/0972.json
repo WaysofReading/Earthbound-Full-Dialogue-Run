@@ -1,0 +1,94 @@
+{
+  "Sprite": 202,
+  "sprite_label": "sign_bus-stop",
+  "map_location_label": "Fourside_Overworld_Southwest-(to-Dusty-Dunes)",
+  "Type": "object",
+  "flag_condition": null,
+  "d1_pointer": "C78A9E",
+  "d1_flags": [
+    "1. goto C5FDCA if TEMP_10 is set",
+    "3. set TEMP_10"
+  ],
+  "d1_addresses": [
+    "C5FDCA",
+    "C5FF3F",
+    "C5FF4E",
+    "C5FFB7",
+    "C9992F",
+    "Npc0972"
+  ],
+  "d1_text": "Npc0972:\r\n[GOSUB L_C5FF3F]\r\n[GOTO_IF_TRUE L_C5FF4E]\r\n[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] checked the bus schedule.[WAIT][LINE_BREAK]\r\n[GOTO_IF_FLAG TEMP_10 L_C5FDCA]\r\n\u00ef\u00bf\u00bdIt looks like the next bus will come soon.)[WAIT][CLOSE_ALL_TBOXES]\r\n[CREATE_OBJ 205 455 1]\r\n[WAIT_MOVEMENT]\r\n  [SET_FLAG TEMP_10]\r\n[END]",
+  "d1_lines": [
+    "Npc0972:",
+    "[GOSUB L_C5FF3F]",
+    "[GOTO_IF_TRUE L_C5FF4E]",
+    "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] checked the bus schedule.[WAIT][LINE_BREAK]",
+    "[GOTO_IF_FLAG TEMP_10 L_C5FDCA]",
+    "\u00ef\u00bf\u00bdIt looks like the next bus will come soon.)[WAIT][CLOSE_ALL_TBOXES]",
+    "[CREATE_OBJ 205 455 1]",
+    "[WAIT_MOVEMENT]",
+    "  [SET_FLAG TEMP_10]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C5FF3F]:C5FF3F": {
+      "[GET_PARTY_MEMBER 1][GET_DIR_FROM_PMEMBER REG_ARGUMENT NPC 972][GOSUB L_C5FFB7]:C5FFB7": {
+        "[SWAP_ARG_RESULT]": null,
+        "[BACKUP_REGS_LOCAL]": null,
+        "[CHECK_EQUAL 1][GOTO_IF_TRUE L_C9992F]:C9992F": {
+          "[END]": null
+        },
+        "[RESTORE_REGS_LOCAL]": null,
+        "[CHECK_EQUAL 2][GOTO_IF_TRUE L_C9992F]:C9992F": {
+          "[END]": null
+        },
+        "[CHECK_EQUAL 8][GOTO_IF_TRUE L_C9992F]:C9992F": {
+          "[END]": null
+        },
+        "[CHECK_EQUAL 3][GOTO_IF_TRUE L_C9992F]:C9992F": {
+          "[END]": null
+        },
+        "[CHECK_EQUAL 7][GOTO_IF_TRUE L_C9992F]:C9992F": {
+          "[END]": null
+        },
+        "[END]": null
+      },
+      "[END]": null
+    },
+    "[GOTO_IF_TRUE L_C5FF4E]:C5FF4E": {
+      "\u00ef\u00bf\u00bdDanger![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDo not stand in the street.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd(Read the schedule from the sidewalk.)[HALT][END]": null
+    },
+    "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] checked the bus schedule.[WAIT][LINE_BREAK]": null,
+    "[GOTO_IF_FLAG TEMP_10 L_C5FDCA]:C5FDCA": {
+      "\u00ef\u00bf\u00bd(It looks like it's going to be a while before the next bus comes.)[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdIt looks like the next bus will come soon.)[WAIT][CLOSE_ALL_TBOXES]": null,
+    "[CREATE_OBJ 205 455 1]": null,
+    "[WAIT_MOVEMENT]": null,
+    "  [SET_FLAG TEMP_10]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2472,
+  "y_pixel_abs": 5040,
+  "x_tile": 77,
+  "y_tile": 157,
+  "x_sector": 9,
+  "y_sector": 19,
+  "x_sector_offset": 168,
+  "y_sector_offset": 176,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 8,
+  "Text Pointer 1": "data_30.l_0xc78a9e",
+  "Text Pointer 2": "$0"
+}

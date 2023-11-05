@@ -1,0 +1,43 @@
+{
+  "Sprite": 66,
+  "sprite_label": "woman_blonde_red-blazer",
+  "map_location_label": "Dusty Dunes Desert_Overworld_Southwest-(Drug-Store)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C600D5",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0754"
+  ],
+  "d1_text": "Npc0754:\r\n\u00ef\u00bf\u00bdThis traffic jam is taking forever.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd...Man, do I need to go...[HALT][END]",
+  "d1_lines": [
+    "Npc0754:",
+    "\u00ef\u00bf\u00bdThis traffic jam is taking forever.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd...Man, do I need to go...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdThis traffic jam is taking forever.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd...Man, do I need to go...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1736,
+  "y_pixel_abs": 10080,
+  "x_tile": 54,
+  "y_tile": 315,
+  "x_sector": 6,
+  "y_sector": 39,
+  "x_sector_offset": 200,
+  "y_sector_offset": 96,
+  "Event Flag": 136,
+  "flag_label": "TRAFFIC_JAM_CLEARED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "up",
+  "Movement": 13,
+  "Text Pointer 1": "data_15.l_0xc600d5",
+  "Text Pointer 2": "$0"
+}

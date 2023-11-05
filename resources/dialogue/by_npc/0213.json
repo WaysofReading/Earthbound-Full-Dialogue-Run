@@ -1,0 +1,305 @@
+{
+  "Sprite": 156,
+  "sprite_label": "paula's-mom",
+  "map_location_label": "Twoson_Polestar_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C804D1",
+  "d1_flags": [
+    "1. goto C8054D if PAULA_AT_MONOTOLI_BUILDING is set",
+    "1. goto C80579 if PAULA_JOINS is set",
+    "1. goto C806BB if GOT_HAND_AID is set",
+    "1. goto C807BA if GOT_HAND_AID is set",
+    "1. goto C807BC if GOT_WAD_OF_BILLS is set",
+    "1. goto C8087A if GOT_HAND_AID is set",
+    "1. goto C808BD if GIYGAS_DEFEATED is set",
+    "3. set GOT_HAND_AID"
+  ],
+  "d1_addresses": [
+    "C7DC7F",
+    "C7DC85",
+    "C7DCCF",
+    "C7DCDA",
+    "C7DD03",
+    "C8054D",
+    "C80579",
+    "C805BA",
+    "C80673",
+    "C806BB",
+    "C80718",
+    "C807AC",
+    "C807BA",
+    "C807BC",
+    "C8082A",
+    "C8087A",
+    "C808BD",
+    "C91582",
+    "C915D6",
+    "Npc0213"
+  ],
+  "d1_text": "Npc0213:\r\n[GOTO_IF_FLAG GIYGAS_DEFEATED L_C808BD]\r\n[GOTO_IF_FLAG PAULA_AT_MONOTOLI_BUILDING L_C8054D]\r\n[GOTO_IF_FLAG GOT_WAD_OF_BILLS L_C807BC]\r\n[GOTO_IF_FLAG GOT_HAND_AID L_C806BB]\r\n[GOTO_IF_FLAG PAULA_JOINS L_C80579]\r\n\u00ef\u00bf\u00bdWhistle, whistle anywhere.[PAUSE 10][LINE_BREAK]\r\n  It makes me smile[PAUSE 10][LINE_BREAK]\r\n  all the while.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm [PRINT_NAME PAULA]'s mother.[PAUSE 20]  I'm busy taking care of these kids.[WAIT][LINE_BREAK]\r\n; $C8054D\r\nL_C8054D:\r\n\u00ef\u00bf\u00bdYou shouldn't worry about [PRINT_NAME PAULA].[PAUSE 20]  She has a guardian angel,[PAUSE 15] it seems.[HALT][END]",
+  "d1_lines": [
+    "Npc0213:",
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C808BD]",
+    "[GOTO_IF_FLAG PAULA_AT_MONOTOLI_BUILDING L_C8054D]",
+    "[GOTO_IF_FLAG GOT_WAD_OF_BILLS L_C807BC]",
+    "[GOTO_IF_FLAG GOT_HAND_AID L_C806BB]",
+    "[GOTO_IF_FLAG PAULA_JOINS L_C80579]",
+    "\u00ef\u00bf\u00bdWhistle, whistle anywhere.[PAUSE 10][LINE_BREAK]",
+    "  It makes me smile[PAUSE 10][LINE_BREAK]",
+    "  all the while.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm [PRINT_NAME PAULA]'s mother.[PAUSE 20]  I'm busy taking care of these kids.[WAIT][LINE_BREAK]",
+    "; $C8054D",
+    "L_C8054D:",
+    "\u00ef\u00bf\u00bdYou shouldn't worry about [PRINT_NAME PAULA].[PAUSE 20]  She has a guardian angel,[PAUSE 15] it seems.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GIYGAS_DEFEATED L_C808BD]:C808BD": {
+      "\u00ef\u00bf\u00bdYou've lost some weight since I saw you last, [PRINT_NAME NESS].[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd[PRINT_NAME PAULA] must have had quite an adventure![PAUSE 20]  I'm glad you live so close to us.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWhy don't you drop by more often?[PAUSE 20]  I'm working at making better [PRINT_STAT FAVORITE_FOOD].[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG PAULA_AT_MONOTOLI_BUILDING L_C8054D]:C8054D": {
+      "\u00ef\u00bf\u00bdYou shouldn't worry about [PRINT_NAME PAULA].[PAUSE 20]  She has a guardian angel,[PAUSE 15] it seems.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG GOT_WAD_OF_BILLS L_C807BC]:C807BC": {
+      "[GOTO_IF_FLAG GOT_HAND_AID L_C8087A]:C8087A": {
+        "[GET_PARTY_MEMBER 1][RESULT_TO_ARG]\u00ef\u00bf\u00bdWell, here you are,[PAUSE 15] [PRINT_NAME NESS].[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'll make you some [PRINT_STAT FAVORITE_FOOD],[PAUSE 20] even though I'm not a very good cook.[WAIT][GOSUB L_C915D6]:C915D6": {
+          "[PLAY_MUSIC 12]": null,
+          "[PAUSE 200][RESTORE_MUSIC]": null,
+          "[PAUSE 1][END]": null
+        },
+        "[GOSUB L_C91582]:C91582": "Function - Sleep for the Night",
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd[PRINT_NAME PAULA],[PAUSE 15] if you must go,[PAUSE 15] be sure to bring this along.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt's my very own hand-made band-aid![PAUSE 20]  I love the way that rhymes![WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C8082A]:C8082A": {
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bdWhat's that?[PAUSE 15]  You're being a little impatient...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou need to sell,[PAUSE 15] use or drop something.[PAUSE 20]  After that,[PAUSE 15] I can give this to you.[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT HAND_AID]": null,
+      "[GOSUB L_C7DCCF]:C7DCCF": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[HALT][SET_FLAG GOT_HAND_AID]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_FLAG GOT_HAND_AID L_C806BB]:C806BB": {
+      "[SET_COUNTER 1]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C807AC]:C807AC": {
+        "[GOTO_IF_FLAG GOT_HAND_AID L_C807BA]:C807BA": {
+          "[HALT][END]": null
+        },
+        "[WAIT][LINE_BREAK]": null,
+        "[GOTO L_C805BA]:C805BA": {
+          "\u00ef\u00bf\u00bd[PRINT_NAME PAULA] if you must take a trip,[PAUSE 15] be sure to bring this along.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdIt's my very own hand-made band-aid![PAUSE 20]  Ooo![PAUSE 15] That rhymes![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI know, I'll call it a Hand-aid![WAIT][LINE_BREAK]": null,
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C8082A]:C8082A": {
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdWhat's that?[PAUSE 15]  You're being a little impatient...[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdYou need to sell,[PAUSE 15] use or drop something.[PAUSE 20]  After that,[PAUSE 15] I can give this to you.[HALT][END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT HAND_AID]": null,
+          "[GOSUB L_C7DCCF]:C7DCCF": {
+            "[PLAY_SFX 116]": null,
+            "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+              "[BACKUP_REGS_LOCAL]": null,
+              "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+              "  the [SWAP_ARG_RESULT]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+            },
+            "[END]": null
+          },
+          "[HALT][SET_FLAG GOT_HAND_AID]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bdDid you meet Dad?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdHe is sorry that he suspected Mr. Everdred of Burglin Park.[HALT]   [END]": null
+        },
+        "; $C807BA": null,
+        "[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdI don't really understand it,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdbut I know that [PRINT_NAME PAULA]'s miraculous power[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdand your great courage will allow you to stand up to any challenge.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG PAULA_JOINS L_C80579]:C80579": {
+      "[SET_COUNTER 2]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C80673]:C80673": {
+        "\u00ef\u00bf\u00bdIs that you, [PRINT_NAME PAULA]?[PAUSE 20]  Oh,[PAUSE 15] I thought she would be back,[PAUSE 15] but not yet...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdOh no, I'm not worried... I'll be okay.[HALT][END]": null
+      },
+      "[SET_COUNTER 1]": null,
+      "[GOTO_IF_TRUE L_C80718]:C80718": {
+        "\u00ef\u00bf\u00bdYahoo![PAUSE 15]  I knew it![PAUSE 20]  You got back here with no problem.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIsn't [PRINT_NAME NESS] with you?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bd...[PRINT_NAME PAULA],[PAUSE 15] your mom is trusting his courage and your miraculous power.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI won't say I'm not worried.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdBut I'll let you go along...  It's for a good cause...; $C807AC": null,
+        "[GOTO_IF_FLAG GOT_HAND_AID L_C807BA]:C807BA": {
+          "[HALT][END]": null
+        },
+        "[WAIT][LINE_BREAK]": null,
+        "[GOTO L_C805BA]:C805BA": {
+          "\u00ef\u00bf\u00bd[PRINT_NAME PAULA] if you must take a trip,[PAUSE 15] be sure to bring this along.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdIt's my very own hand-made band-aid![PAUSE 20]  Ooo![PAUSE 15] That rhymes![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI know, I'll call it a Hand-aid![WAIT][LINE_BREAK]": null,
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C8082A]:C8082A": {
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdWhat's that?[PAUSE 15]  You're being a little impatient...[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdYou need to sell,[PAUSE 15] use or drop something.[PAUSE 20]  After that,[PAUSE 15] I can give this to you.[HALT][END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT HAND_AID]": null,
+          "[GOSUB L_C7DCCF]:C7DCCF": {
+            "[PLAY_SFX 116]": null,
+            "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+              "[BACKUP_REGS_LOCAL]": null,
+              "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+              "  the [SWAP_ARG_RESULT]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+            },
+            "[END]": null
+          },
+          "[HALT][SET_FLAG GOT_HAND_AID]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bdDid you meet Dad?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdHe is sorry that he suspected Mr. Everdred of Burglin Park.[HALT]   [END]": null
+        },
+        "; $C807BA": null,
+        "[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdYahoo![PAUSE 5]  I knew it![PAUSE 20]  You saved [PRINT_NAME PAULA].[WAIT][LINE_BREAK]": null,
+      "[GOSUB L_C806BB]:C806BB": {
+        "[SET_COUNTER 1]": null,
+        "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+        "[GOTO_IF_TRUE L_C807AC]:C807AC": {
+          "[GOTO_IF_FLAG GOT_HAND_AID L_C807BA]:C807BA": {
+            "[HALT][END]": null
+          },
+          "[WAIT][LINE_BREAK]": null,
+          "[GOTO L_C805BA]:C805BA": {
+            "\u00ef\u00bf\u00bd[PRINT_NAME PAULA] if you must take a trip,[PAUSE 15] be sure to bring this along.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdIt's my very own hand-made band-aid![PAUSE 20]  Ooo![PAUSE 15] That rhymes![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI know, I'll call it a Hand-aid![WAIT][LINE_BREAK]": null,
+            "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C8082A]:C8082A": {
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bdWhat's that?[PAUSE 15]  You're being a little impatient...[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdYou need to sell,[PAUSE 15] use or drop something.[PAUSE 20]  After that,[PAUSE 15] I can give this to you.[HALT][END]": null
+            },
+            "[GIVE_ITEM_RETURN_SLOT REG_RESULT HAND_AID]": null,
+            "[GOSUB L_C7DCCF]:C7DCCF": {
+              "[PLAY_SFX 116]": null,
+              "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {},
+              "[END]": null
+            },
+            "[HALT][SET_FLAG GOT_HAND_AID]": null,
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdDid you meet Dad?[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdHe is sorry that he suspected Mr. Everdred of Burglin Park.[HALT]   [END]": null
+          },
+          "; $C807BA": null,
+          "[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdI don't really understand it,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdbut I know that [PRINT_NAME PAULA]'s miraculous power[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdand your great courage will allow you to stand up to any challenge.[HALT][END]": null
+      },
+      "[LINE_BREAK]": null,
+      "; $C805BA": null,
+      "\u00ef\u00bf\u00bd[PRINT_NAME PAULA] if you must take a trip,[PAUSE 15] be sure to bring this along.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt's my very own hand-made band-aid![PAUSE 20]  Ooo![PAUSE 15] That rhymes![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI know, I'll call it a Hand-aid![WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C8082A]:C8082A": {
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bdWhat's that?[PAUSE 15]  You're being a little impatient...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou need to sell,[PAUSE 15] use or drop something.[PAUSE 20]  After that,[PAUSE 15] I can give this to you.[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT HAND_AID]": null,
+      "[GOSUB L_C7DCCF]:C7DCCF": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[HALT][SET_FLAG GOT_HAND_AID]": null,
+      "[START_LINE]": null,
+      "\u00ef\u00bf\u00bdDid you meet Dad?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHe is sorry that he suspected Mr. Everdred of Burglin Park.[HALT]   [END]": null
+    },
+    "\u00ef\u00bf\u00bdWhistle, whistle anywhere.[PAUSE 10][LINE_BREAK]": null,
+    "  It makes me smile[PAUSE 10][LINE_BREAK]": null,
+    "  all the while.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm [PRINT_NAME PAULA]'s mother.[PAUSE 20]  I'm busy taking care of these kids.[WAIT][LINE_BREAK]": null,
+    "; $C8054D": null,
+    "\u00ef\u00bf\u00bdYou shouldn't worry about [PRINT_NAME PAULA].[PAUSE 20]  She has a guardian angel,[PAUSE 15] it seems.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7504,
+  "y_pixel_abs": 7504,
+  "x_tile": 234,
+  "y_tile": 234,
+  "x_sector": 29,
+  "y_sector": 29,
+  "x_sector_offset": 80,
+  "y_sector_offset": 80,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 12,
+  "Text Pointer 1": "data_34.l_0xc804d1",
+  "Text Pointer 2": "$0"
+}

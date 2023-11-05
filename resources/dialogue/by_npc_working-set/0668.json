@@ -1,0 +1,53 @@
+{
+  "Sprite": 162,
+  "sprite_label": "dr-andonuts",
+  "map_location_label": "Winters_Stonehenge Base_B7F_Exit-Mouse_Blackout_Capsules",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6CE34",
+  "d1_flags": [
+    "4. clear EXIT_MOUSE_DISAGREEABLE"
+  ],
+  "d1_addresses": [
+    "Npc0668"
+  ],
+  "d1_text": "Npc0668:\r\n\u00ef\u00bf\u00bdSince our imprisonment is now over,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI want to start on the Phase Distorter as soon as possible.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd...Oh, I almost forgot to thank you.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThank you.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDon't worry about us.[PAUSE 15]  You've got important things to do...[HALT][CLR_FLAG EXIT_MOUSE_DISAGREEABLE]\r\n[END]",
+  "d1_lines": [
+    "Npc0668:",
+    "\u00ef\u00bf\u00bdSince our imprisonment is now over,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI want to start on the Phase Distorter as soon as possible.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd...Oh, I almost forgot to thank you.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThank you.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDon't worry about us.[PAUSE 15]  You've got important things to do...[HALT][CLR_FLAG EXIT_MOUSE_DISAGREEABLE]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdSince our imprisonment is now over,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI want to start on the Phase Distorter as soon as possible.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd...Oh, I almost forgot to thank you.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThank you.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDon't worry about us.[PAUSE 15]  You've got important things to do...[HALT][CLR_FLAG EXIT_MOUSE_DISAGREEABLE]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7822,
+  "y_pixel_abs": 6126,
+  "x_tile": 244,
+  "y_tile": 191,
+  "x_sector": 30,
+  "y_sector": 23,
+  "x_sector_offset": 142,
+  "y_sector_offset": 238,
+  "Event Flag": 51,
+  "flag_label": "SHYNESS_BOOK_AT_LIBRARY",
+  "Show Sprite": "when event flag set",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_24.l_0xc6ce34",
+  "Text Pointer 2": "$0"
+}

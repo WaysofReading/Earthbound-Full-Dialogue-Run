@@ -1,0 +1,53 @@
+{
+  "Sprite": 53,
+  "sprite_label": "woman_cane_pink-dress",
+  "map_location_label": "Threed_Under Graveyard_Stairs-from-Skyrunner",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C96A7E",
+  "d1_flags": [
+    "1. goto C96AFF if GOT_SUPORMA is set"
+  ],
+  "d1_addresses": [
+    "C96AFF",
+    "Npc0293"
+  ],
+  "d1_text": "Npc0293:\r\n[GOTO_IF_FLAG GOT_SUPORMA L_C96AFF]\r\n\u00ef\u00bf\u00bdI think that my grandchild is older than you.[PAUSE 20]  He's a famous inventor.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHe lives here, and people call him Orange Kid.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdHe seems to be popular with the girls,[PAUSE 15] because he's... groovy?[HALT][END]",
+  "d1_lines": [
+    "Npc0293:",
+    "[GOTO_IF_FLAG GOT_SUPORMA L_C96AFF]",
+    "\u00ef\u00bf\u00bdI think that my grandchild is older than you.[PAUSE 20]  He's a famous inventor.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHe lives here, and people call him Orange Kid.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdHe seems to be popular with the girls,[PAUSE 15] because he's... groovy?[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG GOT_SUPORMA L_C96AFF]:C96AFF": {
+      "\u00ef\u00bf\u00bdWe've bumped into each other before.[PAUSE 20]  You seem to love department stores.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI do too.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI think that my grandchild is older than you.[PAUSE 20]  He's a famous inventor.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHe lives here, and people call him Orange Kid.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdHe seems to be popular with the girls,[PAUSE 15] because he's... groovy?[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6576,
+  "y_pixel_abs": 7360,
+  "x_tile": 205,
+  "y_tile": 230,
+  "x_sector": 25,
+  "y_sector": 28,
+  "x_sector_offset": 176,
+  "y_sector_offset": 192,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_48.l_0xc96a7e",
+  "Text Pointer 2": "$0"
+}

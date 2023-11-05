@@ -1,0 +1,942 @@
+{
+  "Sprite": 71,
+  "sprite_label": "man_blonde_resortwear",
+  "map_location_label": "Twoson_Overworld_Central-West-(Burglin-Park)",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C940E3",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C94143",
+    "C9419F",
+    "C941CD",
+    "C94231",
+    "C94270",
+    "C94288",
+    "Npc0314"
+  ],
+  "d1_text": "Npc0314:\r\n\u00ef\u00bf\u00bdI sell fresh eggs.[PAUSE 20]  They're nutritious![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdPlease buy this beautiful, beautiful egg![PAUSE 15]  Please?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n [LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C941CD L_C94143]\r\n; $C94143\r\nL_C94143:\r\n\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n [LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C941CD L_C9419F]\r\n; $C9419F\r\nL_C9419F:\r\n\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]",
+  "d1_lines": [
+    "Npc0314:",
+    "\u00ef\u00bf\u00bdI sell fresh eggs.[PAUSE 20]  They're nutritious![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdPlease buy this beautiful, beautiful egg![PAUSE 15]  Please?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    " [LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C941CD L_C94143]",
+    "; $C94143",
+    "L_C94143:",
+    "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    " [LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C941CD L_C9419F]",
+    "; $C9419F",
+    "L_C9419F:",
+    "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdI sell fresh eggs.[PAUSE 20]  They're nutritious![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdPlease buy this beautiful, beautiful egg![PAUSE 15]  Please?[LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    " [LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C941CD L_C94143]:C941CD": {
+      "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+      "[BACKUP_REGS_LOCAL]": null,
+      "[SHOW_WALLET]": null,
+      "[OPEN_HP_PP]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C94231 L_C94143]:C94231": {
+        "[RESTORE_REGS_LOCAL]": null,
+        "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+        },
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+          "[START_LINE]": null,
+          "[PLAY_SFX 5]": null,
+          "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+        "[REMOVE_MONEY 0]": null,
+        "[SHOW_WALLET]": null,
+        "[PLAY_SFX 120]": null,
+        "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+      },
+      "[MULTI_GOTO L_C94231 L_C94143]:C94143": {
+        "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        " [LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+          "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+          "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+          "[BACKUP_REGS_LOCAL]": null,
+          "[SHOW_WALLET]": null,
+          "[OPEN_HP_PP]": null,
+          "[LOAD_STRING \"Yes\"]": null,
+          "[LOAD_STRING \"No\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C94231 L_C94143]:C94231": {
+            "[RESTORE_REGS_LOCAL]": null,
+            "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+            },
+            "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+              "[START_LINE]": null,
+              "[PLAY_SFX 5]": null,
+              "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+            },
+            "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+            "[REMOVE_MONEY 0]": null,
+            "[SHOW_WALLET]": null,
+            "[PLAY_SFX 120]": null,
+            "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+          },
+          "[MULTI_GOTO L_C94231 L_C94143]:C94143": {
+            "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+            "[LOAD_STRING \"Yes\"]": null,
+            " [LOAD_STRING \"No\"]": null,
+            "[PRINT_STRINGS_HORZ 2]": null,
+            "[CREATE_MENU]": null,
+            "[CLEAR_LINE]": null,
+            "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+              "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[SHOW_WALLET]": null,
+              "[OPEN_HP_PP]": null,
+              "[LOAD_STRING \"Yes\"]": null,
+              "[LOAD_STRING \"No\"]": null,
+              "[PRINT_STRINGS_HORZ 2]": null,
+              "[CREATE_MENU]": null,
+              "[CLEAR_LINE]": null,
+              "[MULTI_GOTO L_C94231 L_C94143]:C94231": {},
+              "[MULTI_GOTO L_C94231 L_C94143]:C94143": {},
+              "[GOTO L_C94143]:C94143": {},
+              "; $C94231": null,
+              "[RESTORE_REGS_LOCAL]": null,
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {},
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[PLAY_SFX 120]": null,
+              "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+            },
+            "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+              "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+            },
+            "; $C9419F": null,
+            "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+          },
+          "[GOTO L_C94143]:C94143": {
+            "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+            "[LOAD_STRING \"Yes\"]": null,
+            " [LOAD_STRING \"No\"]": null,
+            "[PRINT_STRINGS_HORZ 2]": null,
+            "[CREATE_MENU]": null,
+            "[CLEAR_LINE]": null,
+            "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+              "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[SHOW_WALLET]": null,
+              "[OPEN_HP_PP]": null,
+              "[LOAD_STRING \"Yes\"]": null,
+              "[LOAD_STRING \"No\"]": null,
+              "[PRINT_STRINGS_HORZ 2]": null,
+              "[CREATE_MENU]": null,
+              "[CLEAR_LINE]": null,
+              "[MULTI_GOTO L_C94231 L_C94143]:C94231": {},
+              "[MULTI_GOTO L_C94231 L_C94143]:C94143": {},
+              "[GOTO L_C94143]:C94143": {},
+              "; $C94231": null,
+              "[RESTORE_REGS_LOCAL]": null,
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {},
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[PLAY_SFX 120]": null,
+              "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+            },
+            "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+              "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+            },
+            "; $C9419F": null,
+            "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+          },
+          "; $C94231": null,
+          "[RESTORE_REGS_LOCAL]": null,
+          "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+          },
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+            "[START_LINE]": null,
+            "[PLAY_SFX 5]": null,
+            "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+          "[REMOVE_MONEY 0]": null,
+          "[PLAY_SFX 120]": null,
+          "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+        },
+        "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+          "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+        },
+        "; $C9419F": null,
+        "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+      },
+      "[GOTO L_C94143]:C94143": {
+        "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        " [LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+          "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+          "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+          "[BACKUP_REGS_LOCAL]": null,
+          "[SHOW_WALLET]": null,
+          "[OPEN_HP_PP]": null,
+          "[LOAD_STRING \"Yes\"]": null,
+          "[LOAD_STRING \"No\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C94231 L_C94143]:C94231": {
+            "[RESTORE_REGS_LOCAL]": null,
+            "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+            },
+            "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+              "[START_LINE]": null,
+              "[PLAY_SFX 5]": null,
+              "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+            },
+            "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+            "[REMOVE_MONEY 0]": null,
+            "[SHOW_WALLET]": null,
+            "[PLAY_SFX 120]": null,
+            "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+          },
+          "[MULTI_GOTO L_C94231 L_C94143]:C94143": {
+            "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+            "[LOAD_STRING \"Yes\"]": null,
+            " [LOAD_STRING \"No\"]": null,
+            "[PRINT_STRINGS_HORZ 2]": null,
+            "[CREATE_MENU]": null,
+            "[CLEAR_LINE]": null,
+            "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+              "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[SHOW_WALLET]": null,
+              "[OPEN_HP_PP]": null,
+              "[LOAD_STRING \"Yes\"]": null,
+              "[LOAD_STRING \"No\"]": null,
+              "[PRINT_STRINGS_HORZ 2]": null,
+              "[CREATE_MENU]": null,
+              "[CLEAR_LINE]": null,
+              "[MULTI_GOTO L_C94231 L_C94143]:C94231": {},
+              "[MULTI_GOTO L_C94231 L_C94143]:C94143": {},
+              "[GOTO L_C94143]:C94143": {},
+              "; $C94231": null,
+              "[RESTORE_REGS_LOCAL]": null,
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {},
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[PLAY_SFX 120]": null,
+              "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+            },
+            "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+              "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+            },
+            "; $C9419F": null,
+            "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+          },
+          "[GOTO L_C94143]:C94143": {
+            "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+            "[LOAD_STRING \"Yes\"]": null,
+            " [LOAD_STRING \"No\"]": null,
+            "[PRINT_STRINGS_HORZ 2]": null,
+            "[CREATE_MENU]": null,
+            "[CLEAR_LINE]": null,
+            "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+              "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[SHOW_WALLET]": null,
+              "[OPEN_HP_PP]": null,
+              "[LOAD_STRING \"Yes\"]": null,
+              "[LOAD_STRING \"No\"]": null,
+              "[PRINT_STRINGS_HORZ 2]": null,
+              "[CREATE_MENU]": null,
+              "[CLEAR_LINE]": null,
+              "[MULTI_GOTO L_C94231 L_C94143]:C94231": {},
+              "[MULTI_GOTO L_C94231 L_C94143]:C94143": {},
+              "[GOTO L_C94143]:C94143": {},
+              "; $C94231": null,
+              "[RESTORE_REGS_LOCAL]": null,
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {},
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[PLAY_SFX 120]": null,
+              "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+            },
+            "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+              "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+            },
+            "; $C9419F": null,
+            "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+          },
+          "; $C94231": null,
+          "[RESTORE_REGS_LOCAL]": null,
+          "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+          },
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+            "[START_LINE]": null,
+            "[PLAY_SFX 5]": null,
+            "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+          "[REMOVE_MONEY 0]": null,
+          "[PLAY_SFX 120]": null,
+          "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+        },
+        "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+          "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+        },
+        "; $C9419F": null,
+        "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+      },
+      "; $C94231": null,
+      "[RESTORE_REGS_LOCAL]": null,
+      "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+      },
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+        "[START_LINE]": null,
+        "[PLAY_SFX 5]": null,
+        "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+      "[REMOVE_MONEY 0]": null,
+      "[PLAY_SFX 120]": null,
+      "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+    },
+    "[MULTI_GOTO L_C941CD L_C94143]:C94143": {
+      "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      " [LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+        "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+        "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+        "[BACKUP_REGS_LOCAL]": null,
+        "[SHOW_WALLET]": null,
+        "[OPEN_HP_PP]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        "[LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C94231 L_C94143]:C94231": {
+          "[RESTORE_REGS_LOCAL]": null,
+          "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+          },
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+            "[START_LINE]": null,
+            "[PLAY_SFX 5]": null,
+            "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+          "[REMOVE_MONEY 0]": null,
+          "[SHOW_WALLET]": null,
+          "[PLAY_SFX 120]": null,
+          "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+        },
+        "[MULTI_GOTO L_C94231 L_C94143]:C94143": {
+          "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+          "[LOAD_STRING \"Yes\"]": null,
+          " [LOAD_STRING \"No\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+            "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+            "[BACKUP_REGS_LOCAL]": null,
+            "[SHOW_WALLET]": null,
+            "[OPEN_HP_PP]": null,
+            "[LOAD_STRING \"Yes\"]": null,
+            "[LOAD_STRING \"No\"]": null,
+            "[PRINT_STRINGS_HORZ 2]": null,
+            "[CREATE_MENU]": null,
+            "[CLEAR_LINE]": null,
+            "[MULTI_GOTO L_C94231 L_C94143]:C94231": {
+              "[RESTORE_REGS_LOCAL]": null,
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {},
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[SHOW_WALLET]": null,
+              "[PLAY_SFX 120]": null,
+              "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+            },
+            "[MULTI_GOTO L_C94231 L_C94143]:C94143": {
+              "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+              "[LOAD_STRING \"Yes\"]": null,
+              " [LOAD_STRING \"No\"]": null,
+              "[PRINT_STRINGS_HORZ 2]": null,
+              "[CREATE_MENU]": null,
+              "[CLEAR_LINE]": null,
+              "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {},
+              "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {},
+              "; $C9419F": null,
+              "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+            },
+            "[GOTO L_C94143]:C94143": {
+              "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+              "[LOAD_STRING \"Yes\"]": null,
+              " [LOAD_STRING \"No\"]": null,
+              "[PRINT_STRINGS_HORZ 2]": null,
+              "[CREATE_MENU]": null,
+              "[CLEAR_LINE]": null,
+              "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {},
+              "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {},
+              "; $C9419F": null,
+              "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+            },
+            "; $C94231": null,
+            "[RESTORE_REGS_LOCAL]": null,
+            "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+            },
+            "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+              "[START_LINE]": null,
+              "[PLAY_SFX 5]": null,
+              "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+            },
+            "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+            "[REMOVE_MONEY 0]": null,
+            "[PLAY_SFX 120]": null,
+            "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+          },
+          "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+            "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+          },
+          "; $C9419F": null,
+          "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+        },
+        "[GOTO L_C94143]:C94143": {
+          "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+          "[LOAD_STRING \"Yes\"]": null,
+          " [LOAD_STRING \"No\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+            "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+            "[BACKUP_REGS_LOCAL]": null,
+            "[SHOW_WALLET]": null,
+            "[OPEN_HP_PP]": null,
+            "[LOAD_STRING \"Yes\"]": null,
+            "[LOAD_STRING \"No\"]": null,
+            "[PRINT_STRINGS_HORZ 2]": null,
+            "[CREATE_MENU]": null,
+            "[CLEAR_LINE]": null,
+            "[MULTI_GOTO L_C94231 L_C94143]:C94231": {
+              "[RESTORE_REGS_LOCAL]": null,
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {},
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[SHOW_WALLET]": null,
+              "[PLAY_SFX 120]": null,
+              "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+            },
+            "[MULTI_GOTO L_C94231 L_C94143]:C94143": {
+              "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+              "[LOAD_STRING \"Yes\"]": null,
+              " [LOAD_STRING \"No\"]": null,
+              "[PRINT_STRINGS_HORZ 2]": null,
+              "[CREATE_MENU]": null,
+              "[CLEAR_LINE]": null,
+              "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {},
+              "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {},
+              "; $C9419F": null,
+              "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+            },
+            "[GOTO L_C94143]:C94143": {
+              "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+              "[LOAD_STRING \"Yes\"]": null,
+              " [LOAD_STRING \"No\"]": null,
+              "[PRINT_STRINGS_HORZ 2]": null,
+              "[CREATE_MENU]": null,
+              "[CLEAR_LINE]": null,
+              "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {},
+              "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {},
+              "; $C9419F": null,
+              "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+            },
+            "; $C94231": null,
+            "[RESTORE_REGS_LOCAL]": null,
+            "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+            },
+            "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+              "[START_LINE]": null,
+              "[PLAY_SFX 5]": null,
+              "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+            },
+            "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+            "[REMOVE_MONEY 0]": null,
+            "[PLAY_SFX 120]": null,
+            "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+          },
+          "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+            "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+          },
+          "; $C9419F": null,
+          "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+        },
+        "; $C94231": null,
+        "[RESTORE_REGS_LOCAL]": null,
+        "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+        },
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+          "[START_LINE]": null,
+          "[PLAY_SFX 5]": null,
+          "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+        "[REMOVE_MONEY 0]": null,
+        "[PLAY_SFX 120]": null,
+        "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+      },
+      "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+        "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+      },
+      "; $C9419F": null,
+      "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+    },
+    "; $C94143": null,
+    "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+    "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+      "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+      "[BACKUP_REGS_LOCAL]": null,
+      "[SHOW_WALLET]": null,
+      "[OPEN_HP_PP]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C94231 L_C94143]:C94231": {
+        "[RESTORE_REGS_LOCAL]": null,
+        "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+        },
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+          "[START_LINE]": null,
+          "[PLAY_SFX 5]": null,
+          "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+        "[REMOVE_MONEY 0]": null,
+        "[SHOW_WALLET]": null,
+        "[PLAY_SFX 120]": null,
+        "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+      },
+      "[MULTI_GOTO L_C94231 L_C94143]:C94143": {
+        "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        " [LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+          "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+          "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+          "[BACKUP_REGS_LOCAL]": null,
+          "[SHOW_WALLET]": null,
+          "[OPEN_HP_PP]": null,
+          "[LOAD_STRING \"Yes\"]": null,
+          "[LOAD_STRING \"No\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C94231 L_C94143]:C94231": {
+            "[RESTORE_REGS_LOCAL]": null,
+            "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+            },
+            "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+              "[START_LINE]": null,
+              "[PLAY_SFX 5]": null,
+              "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+            },
+            "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+            "[REMOVE_MONEY 0]": null,
+            "[SHOW_WALLET]": null,
+            "[PLAY_SFX 120]": null,
+            "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+          },
+          "[MULTI_GOTO L_C94231 L_C94143]:C94143": {
+            "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+            "[LOAD_STRING \"Yes\"]": null,
+            " [LOAD_STRING \"No\"]": null,
+            "[PRINT_STRINGS_HORZ 2]": null,
+            "[CREATE_MENU]": null,
+            "[CLEAR_LINE]": null,
+            "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+              "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[SHOW_WALLET]": null,
+              "[OPEN_HP_PP]": null,
+              "[LOAD_STRING \"Yes\"]": null,
+              "[LOAD_STRING \"No\"]": null,
+              "[PRINT_STRINGS_HORZ 2]": null,
+              "[CREATE_MENU]": null,
+              "[CLEAR_LINE]": null,
+              "[MULTI_GOTO L_C94231 L_C94143]:C94231": {},
+              "[MULTI_GOTO L_C94231 L_C94143]:C94143": {},
+              "[GOTO L_C94143]:C94143": {},
+              "; $C94231": null,
+              "[RESTORE_REGS_LOCAL]": null,
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {},
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[PLAY_SFX 120]": null,
+              "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+            },
+            "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+              "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+            },
+            "; $C9419F": null,
+            "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+          },
+          "[GOTO L_C94143]:C94143": {
+            "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+            "[LOAD_STRING \"Yes\"]": null,
+            " [LOAD_STRING \"No\"]": null,
+            "[PRINT_STRINGS_HORZ 2]": null,
+            "[CREATE_MENU]": null,
+            "[CLEAR_LINE]": null,
+            "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+              "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[SHOW_WALLET]": null,
+              "[OPEN_HP_PP]": null,
+              "[LOAD_STRING \"Yes\"]": null,
+              "[LOAD_STRING \"No\"]": null,
+              "[PRINT_STRINGS_HORZ 2]": null,
+              "[CREATE_MENU]": null,
+              "[CLEAR_LINE]": null,
+              "[MULTI_GOTO L_C94231 L_C94143]:C94231": {},
+              "[MULTI_GOTO L_C94231 L_C94143]:C94143": {},
+              "[GOTO L_C94143]:C94143": {},
+              "; $C94231": null,
+              "[RESTORE_REGS_LOCAL]": null,
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {},
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[PLAY_SFX 120]": null,
+              "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+            },
+            "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+              "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+            },
+            "; $C9419F": null,
+            "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+          },
+          "; $C94231": null,
+          "[RESTORE_REGS_LOCAL]": null,
+          "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+          },
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+            "[START_LINE]": null,
+            "[PLAY_SFX 5]": null,
+            "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+          "[REMOVE_MONEY 0]": null,
+          "[PLAY_SFX 120]": null,
+          "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+        },
+        "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+          "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+        },
+        "; $C9419F": null,
+        "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+      },
+      "[GOTO L_C94143]:C94143": {
+        "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        " [LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+          "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+          "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+          "[BACKUP_REGS_LOCAL]": null,
+          "[SHOW_WALLET]": null,
+          "[OPEN_HP_PP]": null,
+          "[LOAD_STRING \"Yes\"]": null,
+          "[LOAD_STRING \"No\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C94231 L_C94143]:C94231": {
+            "[RESTORE_REGS_LOCAL]": null,
+            "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+            },
+            "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+              "[START_LINE]": null,
+              "[PLAY_SFX 5]": null,
+              "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+            },
+            "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+            "[REMOVE_MONEY 0]": null,
+            "[SHOW_WALLET]": null,
+            "[PLAY_SFX 120]": null,
+            "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+          },
+          "[MULTI_GOTO L_C94231 L_C94143]:C94143": {
+            "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+            "[LOAD_STRING \"Yes\"]": null,
+            " [LOAD_STRING \"No\"]": null,
+            "[PRINT_STRINGS_HORZ 2]": null,
+            "[CREATE_MENU]": null,
+            "[CLEAR_LINE]": null,
+            "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+              "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[SHOW_WALLET]": null,
+              "[OPEN_HP_PP]": null,
+              "[LOAD_STRING \"Yes\"]": null,
+              "[LOAD_STRING \"No\"]": null,
+              "[PRINT_STRINGS_HORZ 2]": null,
+              "[CREATE_MENU]": null,
+              "[CLEAR_LINE]": null,
+              "[MULTI_GOTO L_C94231 L_C94143]:C94231": {},
+              "[MULTI_GOTO L_C94231 L_C94143]:C94143": {},
+              "[GOTO L_C94143]:C94143": {},
+              "; $C94231": null,
+              "[RESTORE_REGS_LOCAL]": null,
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {},
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[PLAY_SFX 120]": null,
+              "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+            },
+            "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+              "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+            },
+            "; $C9419F": null,
+            "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+          },
+          "[GOTO L_C94143]:C94143": {
+            "\u00ef\u00bf\u00bdYou won't get through your teen years without at least one egg.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdPlease buy this beautiful egg.[PAUSE 20]  Please![LINE_BREAK]": null,
+            "[LOAD_STRING \"Yes\"]": null,
+            " [LOAD_STRING \"No\"]": null,
+            "[PRINT_STRINGS_HORZ 2]": null,
+            "[CREATE_MENU]": null,
+            "[CLEAR_LINE]": null,
+            "[MULTI_GOTO L_C941CD L_C9419F]:C941CD": {
+              "[GET_ITEM_PRICE FRESH_EGG][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bdYou're concerned about your health, even though you're young.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThat'll be [PRINT_NUM 0] big ones.[WAIT][LINE_BREAK]": null,
+              "[BACKUP_REGS_LOCAL]": null,
+              "[SHOW_WALLET]": null,
+              "[OPEN_HP_PP]": null,
+              "[LOAD_STRING \"Yes\"]": null,
+              "[LOAD_STRING \"No\"]": null,
+              "[PRINT_STRINGS_HORZ 2]": null,
+              "[CREATE_MENU]": null,
+              "[CLEAR_LINE]": null,
+              "[MULTI_GOTO L_C94231 L_C94143]:C94231": {},
+              "[MULTI_GOTO L_C94231 L_C94143]:C94143": {},
+              "[GOTO L_C94143]:C94143": {},
+              "; $C94231": null,
+              "[RESTORE_REGS_LOCAL]": null,
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {},
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[PLAY_SFX 120]": null,
+              "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+            },
+            "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+              "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+            },
+            "; $C9419F": null,
+            "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+          },
+          "; $C94231": null,
+          "[RESTORE_REGS_LOCAL]": null,
+          "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+          },
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+            "[START_LINE]": null,
+            "[PLAY_SFX 5]": null,
+            "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+          "[REMOVE_MONEY 0]": null,
+          "[PLAY_SFX 120]": null,
+          "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+        },
+        "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+          "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+        },
+        "; $C9419F": null,
+        "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+      },
+      "; $C94231": null,
+      "[RESTORE_REGS_LOCAL]": null,
+      "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C94270]:C94270": {
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bdHey,[PAUSE 15] I'm not just giving it away...[HALT][END]": null
+      },
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94288]:C94288": {
+        "[START_LINE]": null,
+        "[PLAY_SFX 5]": null,
+        "\u00ef\u00bf\u00bdEggs are easily broken.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThere's no way to stuff it in with your other things if you have no more room...[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT FRESH_EGG]": null,
+      "[REMOVE_MONEY 0]": null,
+      "[PLAY_SFX 120]": null,
+      "\u00ef\u00bf\u00bdOkay,[PAUSE 15] here you are... one egg to go![WAIT][END]": null
+    },
+    "[MULTI_GOTO L_C941CD L_C9419F]:C9419F": {
+      "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+    },
+    "; $C9419F": null,
+    "\u00ef\u00bf\u00bdOk,[PAUSE 15] but your teen years will be ruined just because you didn't buy an Egg.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 1544,
+  "y_pixel_abs": 6880,
+  "x_tile": 48,
+  "y_tile": 215,
+  "x_sector": 6,
+  "y_sector": 26,
+  "x_sector_offset": 8,
+  "y_sector_offset": 224,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_47.l_0xc940e3",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,895 @@
+{
+  "Sprite": 85,
+  "sprite_label": "man_mohawk_punk-clothes",
+  "map_location_label": "Twoson_Cycle Shop_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C80000",
+  "d1_flags": [
+    "1. goto C80027 if PAULA_AT_HER_ROOM is set",
+    "1. goto C802B9 if HAS_BICYCLE is set",
+    "1. goto C8034D if HAS_BICYCLE is set",
+    "1. goto C8037F if STUBBY_LEGS is set",
+    "1. goto C803AC if PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE is set",
+    "1. goto C803AC if PAULA_JOINS is set",
+    "3. set HAS_BICYCLE",
+    "3. set STUBBY_LEGS",
+    "4. clear HAS_BICYCLE"
+  ],
+  "d1_addresses": [
+    "C7DC7F",
+    "C7DC85",
+    "C7DCCF",
+    "C7DCDA",
+    "C7DD03",
+    "C80027",
+    "C800C1",
+    "C800F5",
+    "C8015A",
+    "C80277",
+    "C802B9",
+    "C802E6",
+    "C8034D",
+    "C8037F",
+    "C803AC",
+    "C803F8",
+    "C8042B",
+    "C8045B",
+    "Npc0212"
+  ],
+  "d1_text": "Npc0212:\r\n[GOSUB L_C7DC7F]\r\n[GOTO_IF_TRUE L_C8045B]\r\n[GOTO_IF_FLAG STUBBY_LEGS L_C8037F]\r\n[GOTO_IF_FLAG PAULA_AT_HER_ROOM L_C80027]\r\n[GOTO_IF_FLAG PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE L_C803AC]\r\n[GOTO_IF_FLAG PAULA_JOINS L_C803AC]\r\n; $C80027\r\nL_C80027:\r\n\u00ef\u00bf\u00bdThis is the cycle shop[PAUSE 5] \u00ef\u00bf\u00bdPunk-Sure\u00ef\u00bf\u00bd![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdBicycles are so much fun and are so convenient...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt's a lot faster than walking.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou'll be really popular with the biking crowd.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDo you want a bicycle?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n [LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C800F5 L_C800C1]\r\n; $C800C1\r\nL_C800C1:\r\n[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]\r\n[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]\r\n\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdMe neither.[HALT][END]",
+  "d1_lines": [
+    "Npc0212:",
+    "[GOSUB L_C7DC7F]",
+    "[GOTO_IF_TRUE L_C8045B]",
+    "[GOTO_IF_FLAG STUBBY_LEGS L_C8037F]",
+    "[GOTO_IF_FLAG PAULA_AT_HER_ROOM L_C80027]",
+    "[GOTO_IF_FLAG PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE L_C803AC]",
+    "[GOTO_IF_FLAG PAULA_JOINS L_C803AC]",
+    "; $C80027",
+    "L_C80027:",
+    "\u00ef\u00bf\u00bdThis is the cycle shop[PAUSE 5] \u00ef\u00bf\u00bdPunk-Sure\u00ef\u00bf\u00bd![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdBicycles are so much fun and are so convenient...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt's a lot faster than walking.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou'll be really popular with the biking crowd.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDo you want a bicycle?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    " [LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C800F5 L_C800C1]",
+    "; $C800C1",
+    "L_C800C1:",
+    "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]",
+    "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]",
+    "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdMe neither.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+    "[GOTO_IF_TRUE L_C8045B]:C8045B": {
+      "\u00ef\u00bf\u00bdYou know that two people can't ride a bike,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdbut did you know that you can't ride a bike[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdwhen you are carrying an unconscious friend's stuff?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdCarrying a lot of items and riding aroud is impossible for you.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG STUBBY_LEGS L_C8037F]:C8037F": {
+      "\u00ef\u00bf\u00bdHey![PAUSE 15]  Stubby legs![WAIT][LINE_BREAK]": null,
+      "[GOTO_IF_FLAG PAULA_AT_HER_ROOM L_C80027]:C80027": {
+        "\u00ef\u00bf\u00bdThis is the cycle shop[PAUSE 5] \u00ef\u00bf\u00bdPunk-Sure\u00ef\u00bf\u00bd![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdBicycles are so much fun and are so convenient...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIt's a lot faster than walking.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou'll be really popular with the biking crowd.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdDo you want a bicycle?[LINE_BREAK]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        " [LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C800F5 L_C800C1]:C800F5": {
+          "[GOTO_IF_FLAG HAS_BICYCLE L_C802B9]:C802B9": {
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdDidn't you already borrow a bicycle?[PAUSE 20]  We don't have any more right now...[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdUnfortunately, we don't have any more bikes for sale.[PAUSE 20]  We only have rentals.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdDo you want to rent one?[LINE_BREAK]": null,
+          "[LOAD_STRING \"Yes\"]": null,
+          " [LOAD_STRING \"No\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C8015A L_C800C1]:C8015A": {
+            "\u00ef\u00bf\u00bdI really like your straight-forward style.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI'll tell you what,[PAUSE 15] I'll let you borrow a bike for free.[WAIT][LINE_BREAK]": null,
+            "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C80277]:C80277": {
+              "[START_LINE]": null,
+              "[PLAY_SFX 5]": null,
+              "\u00ef\u00bf\u00bdYou have too many items.[PAUSE 20]  Why don't you get rid of something and come back.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI know you want it now,[PAUSE 15] but my hands are tied...[HALT][END]": null
+            },
+            "[GIVE_ITEM_RETURN_SLOT REG_RESULT BICYCLE]": null,
+            "[GOSUB L_C7DCCF]:C7DCCF": {
+              "[PLAY_SFX 116]": null,
+              "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {},
+              "[END]": null
+            },
+            "[WAIT][LINE_BREAK]": null,
+            "[SET_FLAG HAS_BICYCLE]": null,
+            "\u00ef\u00bf\u00bdYou know that two people can't ride on one bicycle,[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdso of course three or four people on a bike would be impossible![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdDid you also know that you can't ride a bike with anything following you?[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdTeddy bears, for example...[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdCarrying a bear and riding is impossible for you.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdAnd don't even think about riding a bike into a cave.[HALT][END]": null
+          },
+          "[MULTI_GOTO L_C8015A L_C800C1]:C800C1": {
+            "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+              "[START_LINE]": null,
+              "[REMOVE_ITEM ANY BICYCLE]": null,
+              "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+              "[SET_FLAG STUBBY_LEGS]": null,
+              "[CLR_FLAG HAS_BICYCLE]": null,
+              "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+              "[END]": null
+            },
+            "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+            },
+            "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+          },
+          "[GOTO L_C800C1]:C800C1": {
+            "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+              "[START_LINE]": null,
+              "[REMOVE_ITEM ANY BICYCLE]": null,
+              "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+              "[SET_FLAG STUBBY_LEGS]": null,
+              "[CLR_FLAG HAS_BICYCLE]": null,
+              "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+              "[END]": null
+            },
+            "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+            },
+            "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+          },
+          "; $C8015A": null,
+          "\u00ef\u00bf\u00bdI really like your straight-forward style.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI'll tell you what,[PAUSE 15] I'll let you borrow a bike for free.[WAIT][LINE_BREAK]": null,
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C80277]:C80277": {
+            "[START_LINE]": null,
+            "[PLAY_SFX 5]": null,
+            "\u00ef\u00bf\u00bdYou have too many items.[PAUSE 20]  Why don't you get rid of something and come back.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI know you want it now,[PAUSE 15] but my hands are tied...[HALT][END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT BICYCLE]": null,
+          "[GOSUB L_C7DCCF]:C7DCCF": {
+            "[PLAY_SFX 116]": null,
+            "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+              "[BACKUP_REGS_LOCAL]": null,
+              "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+              "  the [SWAP_ARG_RESULT]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+            },
+            "[END]": null
+          },
+          "[WAIT][LINE_BREAK]": null,
+          "[SET_FLAG HAS_BICYCLE]": null,
+          "\u00ef\u00bf\u00bdYou know that two people can't ride on one bicycle,[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdso of course three or four people on a bike would be impossible![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdDid you also know that you can't ride a bike with anything following you?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdTeddy bears, for example...[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdCarrying a bear and riding is impossible for you.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdAnd don't even think about riding a bike into a cave.[HALT][END]": null
+        },
+        "[MULTI_GOTO L_C800F5 L_C800C1]:C800C1": {
+          "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+            "[START_LINE]": null,
+            "[REMOVE_ITEM ANY BICYCLE]": null,
+            "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+            "[SET_FLAG STUBBY_LEGS]": null,
+            "[CLR_FLAG HAS_BICYCLE]": null,
+            "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+            "[END]": null
+          },
+          "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+        },
+        "; $C800C1": null,
+        "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+          "[START_LINE]": null,
+          "[REMOVE_ITEM ANY BICYCLE]": null,
+          "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+          "[SET_FLAG STUBBY_LEGS]": null,
+          "[CLR_FLAG HAS_BICYCLE]": null,
+          "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+          "[END]": null
+        },
+        "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+      },
+      "[GOTO_IF_FLAG PAULA_JOINS L_C803AC]:C803AC": {
+        "[SET_COUNTER 1]": null,
+        "\u00ef\u00bf\u00bdDo you wanna ride a bike?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThat's not gonna work... two people on one bike is strictly forbidden.[WAIT][CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C803F8]:C803F8": {
+          "[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYou're here to return the bicycle?[LINE_BREAK]": null,
+          "[LOAD_STRING \"Yes\"]": null,
+          " [LOAD_STRING \"No\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C802E6 L_C8042B]:C802E6": {
+            "[START_LINE]": null,
+            "[REMOVE_ITEM ANY BICYCLE]": null,
+            "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+            "[SET_FLAG STUBBY_LEGS]": null,
+            "[CLR_FLAG HAS_BICYCLE]": null,
+            "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+            "[END]": null
+          },
+          "[MULTI_GOTO L_C802E6 L_C8042B]:C8042B": {
+            "\u00ef\u00bf\u00bdWell,[PAUSE 15] don't forget to return it...[PAUSE 20]  You're gonna have to sooner or later.[HALT][END]": null
+          },
+          "; $C8042B": null,
+          "\u00ef\u00bf\u00bdWell,[PAUSE 15] don't forget to return it...[PAUSE 20]  You're gonna have to sooner or later.[HALT][END]": null
+        },
+        "[HALT][END]": null
+      },
+      "[GOTO_IF_FLAG PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE L_C803AC]:C803AC": {
+        "[SET_COUNTER 1]": null,
+        "\u00ef\u00bf\u00bdDo you wanna ride a bike?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThat's not gonna work... two people on one bike is strictly forbidden.[WAIT][CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C803F8]:C803F8": {
+          "[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYou're here to return the bicycle?[LINE_BREAK]": null,
+          "[LOAD_STRING \"Yes\"]": null,
+          " [LOAD_STRING \"No\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C802E6 L_C8042B]:C802E6": {
+            "[START_LINE]": null,
+            "[REMOVE_ITEM ANY BICYCLE]": null,
+            "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+            "[SET_FLAG STUBBY_LEGS]": null,
+            "[CLR_FLAG HAS_BICYCLE]": null,
+            "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+            "[END]": null
+          },
+          "[MULTI_GOTO L_C802E6 L_C8042B]:C8042B": {
+            "\u00ef\u00bf\u00bdWell,[PAUSE 15] don't forget to return it...[PAUSE 20]  You're gonna have to sooner or later.[HALT][END]": null
+          },
+          "; $C8042B": null,
+          "\u00ef\u00bf\u00bdWell,[PAUSE 15] don't forget to return it...[PAUSE 20]  You're gonna have to sooner or later.[HALT][END]": null
+        },
+        "[HALT][END]": null
+      },
+      "[GOTO L_C80027]:C80027": {
+        "\u00ef\u00bf\u00bdThis is the cycle shop[PAUSE 5] \u00ef\u00bf\u00bdPunk-Sure\u00ef\u00bf\u00bd![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdBicycles are so much fun and are so convenient...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIt's a lot faster than walking.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou'll be really popular with the biking crowd.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdDo you want a bicycle?[LINE_BREAK]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        " [LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C800F5 L_C800C1]:C800F5": {
+          "[GOTO_IF_FLAG HAS_BICYCLE L_C802B9]:C802B9": {
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdDidn't you already borrow a bicycle?[PAUSE 20]  We don't have any more right now...[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdUnfortunately, we don't have any more bikes for sale.[PAUSE 20]  We only have rentals.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdDo you want to rent one?[LINE_BREAK]": null,
+          "[LOAD_STRING \"Yes\"]": null,
+          " [LOAD_STRING \"No\"]": null,
+          "[PRINT_STRINGS_HORZ 2]": null,
+          "[CREATE_MENU]": null,
+          "[CLEAR_LINE]": null,
+          "[MULTI_GOTO L_C8015A L_C800C1]:C8015A": {
+            "\u00ef\u00bf\u00bdI really like your straight-forward style.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI'll tell you what,[PAUSE 15] I'll let you borrow a bike for free.[WAIT][LINE_BREAK]": null,
+            "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C80277]:C80277": {
+              "[START_LINE]": null,
+              "[PLAY_SFX 5]": null,
+              "\u00ef\u00bf\u00bdYou have too many items.[PAUSE 20]  Why don't you get rid of something and come back.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI know you want it now,[PAUSE 15] but my hands are tied...[HALT][END]": null
+            },
+            "[GIVE_ITEM_RETURN_SLOT REG_RESULT BICYCLE]": null,
+            "[GOSUB L_C7DCCF]:C7DCCF": {
+              "[PLAY_SFX 116]": null,
+              "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {},
+              "[END]": null
+            },
+            "[WAIT][LINE_BREAK]": null,
+            "[SET_FLAG HAS_BICYCLE]": null,
+            "\u00ef\u00bf\u00bdYou know that two people can't ride on one bicycle,[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdso of course three or four people on a bike would be impossible![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdDid you also know that you can't ride a bike with anything following you?[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdTeddy bears, for example...[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdCarrying a bear and riding is impossible for you.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdAnd don't even think about riding a bike into a cave.[HALT][END]": null
+          },
+          "[MULTI_GOTO L_C8015A L_C800C1]:C800C1": {
+            "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+              "[START_LINE]": null,
+              "[REMOVE_ITEM ANY BICYCLE]": null,
+              "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+              "[SET_FLAG STUBBY_LEGS]": null,
+              "[CLR_FLAG HAS_BICYCLE]": null,
+              "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+              "[END]": null
+            },
+            "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+            },
+            "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+          },
+          "[GOTO L_C800C1]:C800C1": {
+            "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+              "[START_LINE]": null,
+              "[REMOVE_ITEM ANY BICYCLE]": null,
+              "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+              "[SET_FLAG STUBBY_LEGS]": null,
+              "[CLR_FLAG HAS_BICYCLE]": null,
+              "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+              "[END]": null
+            },
+            "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+            },
+            "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+          },
+          "; $C8015A": null,
+          "\u00ef\u00bf\u00bdI really like your straight-forward style.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI'll tell you what,[PAUSE 15] I'll let you borrow a bike for free.[WAIT][LINE_BREAK]": null,
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C80277]:C80277": {
+            "[START_LINE]": null,
+            "[PLAY_SFX 5]": null,
+            "\u00ef\u00bf\u00bdYou have too many items.[PAUSE 20]  Why don't you get rid of something and come back.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI know you want it now,[PAUSE 15] but my hands are tied...[HALT][END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT BICYCLE]": null,
+          "[GOSUB L_C7DCCF]:C7DCCF": {
+            "[PLAY_SFX 116]": null,
+            "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+              "[BACKUP_REGS_LOCAL]": null,
+              "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+              "  the [SWAP_ARG_RESULT]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+            },
+            "[END]": null
+          },
+          "[WAIT][LINE_BREAK]": null,
+          "[SET_FLAG HAS_BICYCLE]": null,
+          "\u00ef\u00bf\u00bdYou know that two people can't ride on one bicycle,[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdso of course three or four people on a bike would be impossible![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdDid you also know that you can't ride a bike with anything following you?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdTeddy bears, for example...[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdCarrying a bear and riding is impossible for you.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdAnd don't even think about riding a bike into a cave.[HALT][END]": null
+        },
+        "[MULTI_GOTO L_C800F5 L_C800C1]:C800C1": {
+          "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+            "[START_LINE]": null,
+            "[REMOVE_ITEM ANY BICYCLE]": null,
+            "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+            "[SET_FLAG STUBBY_LEGS]": null,
+            "[CLR_FLAG HAS_BICYCLE]": null,
+            "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+            "[END]": null
+          },
+          "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+        },
+        "; $C800C1": null,
+        "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+          "[START_LINE]": null,
+          "[REMOVE_ITEM ANY BICYCLE]": null,
+          "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+          "[SET_FLAG STUBBY_LEGS]": null,
+          "[CLR_FLAG HAS_BICYCLE]": null,
+          "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+          "[END]": null
+        },
+        "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+      },
+      "; $C803AC": null,
+      "[SET_COUNTER 1]": null,
+      "\u00ef\u00bf\u00bdDo you wanna ride a bike?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThat's not gonna work... two people on one bike is strictly forbidden.[WAIT][CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C803F8]:C803F8": {
+        "[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou're here to return the bicycle?[LINE_BREAK]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        " [LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C802E6 L_C8042B]:C802E6": {
+          "[START_LINE]": null,
+          "[REMOVE_ITEM ANY BICYCLE]": null,
+          "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+          "[SET_FLAG STUBBY_LEGS]": null,
+          "[CLR_FLAG HAS_BICYCLE]": null,
+          "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+          "[END]": null
+        },
+        "[MULTI_GOTO L_C802E6 L_C8042B]:C8042B": {
+          "\u00ef\u00bf\u00bdWell,[PAUSE 15] don't forget to return it...[PAUSE 20]  You're gonna have to sooner or later.[HALT][END]": null
+        },
+        "; $C8042B": null,
+        "\u00ef\u00bf\u00bdWell,[PAUSE 15] don't forget to return it...[PAUSE 20]  You're gonna have to sooner or later.[HALT][END]": null
+      },
+      "[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG PAULA_AT_HER_ROOM L_C80027]:C80027": {
+      "\u00ef\u00bf\u00bdThis is the cycle shop[PAUSE 5] \u00ef\u00bf\u00bdPunk-Sure\u00ef\u00bf\u00bd![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdBicycles are so much fun and are so convenient...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdIt's a lot faster than walking.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou'll be really popular with the biking crowd.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDo you want a bicycle?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      " [LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C800F5 L_C800C1]:C800F5": {
+        "[GOTO_IF_FLAG HAS_BICYCLE L_C802B9]:C802B9": {
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bdDidn't you already borrow a bicycle?[PAUSE 20]  We don't have any more right now...[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdUnfortunately, we don't have any more bikes for sale.[PAUSE 20]  We only have rentals.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdDo you want to rent one?[LINE_BREAK]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        " [LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C8015A L_C800C1]:C8015A": {
+          "\u00ef\u00bf\u00bdI really like your straight-forward style.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI'll tell you what,[PAUSE 15] I'll let you borrow a bike for free.[WAIT][LINE_BREAK]": null,
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C80277]:C80277": {
+            "[START_LINE]": null,
+            "[PLAY_SFX 5]": null,
+            "\u00ef\u00bf\u00bdYou have too many items.[PAUSE 20]  Why don't you get rid of something and come back.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI know you want it now,[PAUSE 15] but my hands are tied...[HALT][END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT BICYCLE]": null,
+          "[GOSUB L_C7DCCF]:C7DCCF": {
+            "[PLAY_SFX 116]": null,
+            "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+              "[BACKUP_REGS_LOCAL]": null,
+              "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+              "  the [SWAP_ARG_RESULT]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+            },
+            "[END]": null
+          },
+          "[WAIT][LINE_BREAK]": null,
+          "[SET_FLAG HAS_BICYCLE]": null,
+          "\u00ef\u00bf\u00bdYou know that two people can't ride on one bicycle,[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdso of course three or four people on a bike would be impossible![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdDid you also know that you can't ride a bike with anything following you?[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdTeddy bears, for example...[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdCarrying a bear and riding is impossible for you.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdAnd don't even think about riding a bike into a cave.[HALT][END]": null
+        },
+        "[MULTI_GOTO L_C8015A L_C800C1]:C800C1": {
+          "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+            "[START_LINE]": null,
+            "[REMOVE_ITEM ANY BICYCLE]": null,
+            "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+            "[SET_FLAG STUBBY_LEGS]": null,
+            "[CLR_FLAG HAS_BICYCLE]": null,
+            "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+            "[END]": null
+          },
+          "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+        },
+        "[GOTO L_C800C1]:C800C1": {
+          "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+            "[START_LINE]": null,
+            "[REMOVE_ITEM ANY BICYCLE]": null,
+            "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+            "[SET_FLAG STUBBY_LEGS]": null,
+            "[CLR_FLAG HAS_BICYCLE]": null,
+            "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+            "[END]": null
+          },
+          "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+          },
+          "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+        },
+        "; $C8015A": null,
+        "\u00ef\u00bf\u00bdI really like your straight-forward style.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'll tell you what,[PAUSE 15] I'll let you borrow a bike for free.[WAIT][LINE_BREAK]": null,
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C80277]:C80277": {
+          "[START_LINE]": null,
+          "[PLAY_SFX 5]": null,
+          "\u00ef\u00bf\u00bdYou have too many items.[PAUSE 20]  Why don't you get rid of something and come back.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI know you want it now,[PAUSE 15] but my hands are tied...[HALT][END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT BICYCLE]": null,
+        "[GOSUB L_C7DCCF]:C7DCCF": {
+          "[PLAY_SFX 116]": null,
+          "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+            "[BACKUP_REGS_LOCAL]": null,
+            "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+            "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+              "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+              "  to [SWAP_ARG_RESULT]": null,
+              "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+            "  the [SWAP_ARG_RESULT]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+          },
+          "[END]": null
+        },
+        "[WAIT][LINE_BREAK]": null,
+        "[SET_FLAG HAS_BICYCLE]": null,
+        "\u00ef\u00bf\u00bdYou know that two people can't ride on one bicycle,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdso of course three or four people on a bike would be impossible![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdDid you also know that you can't ride a bike with anything following you?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdTeddy bears, for example...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdCarrying a bear and riding is impossible for you.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdAnd don't even think about riding a bike into a cave.[HALT][END]": null
+      },
+      "[MULTI_GOTO L_C800F5 L_C800C1]:C800C1": {
+        "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+          "[START_LINE]": null,
+          "[REMOVE_ITEM ANY BICYCLE]": null,
+          "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+          "[SET_FLAG STUBBY_LEGS]": null,
+          "[CLR_FLAG HAS_BICYCLE]": null,
+          "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+          "[END]": null
+        },
+        "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+      },
+      "; $C800C1": null,
+      "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+        "[START_LINE]": null,
+        "[REMOVE_ITEM ANY BICYCLE]": null,
+        "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+        "[SET_FLAG STUBBY_LEGS]": null,
+        "[CLR_FLAG HAS_BICYCLE]": null,
+        "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+        "[END]": null
+      },
+      "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE L_C803AC]:C803AC": {
+      "[SET_COUNTER 1]": null,
+      "\u00ef\u00bf\u00bdDo you wanna ride a bike?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThat's not gonna work... two people on one bike is strictly forbidden.[WAIT][CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C803F8]:C803F8": {
+        "[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou're here to return the bicycle?[LINE_BREAK]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        " [LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C802E6 L_C8042B]:C802E6": {
+          "[START_LINE]": null,
+          "[REMOVE_ITEM ANY BICYCLE]": null,
+          "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+          "[SET_FLAG STUBBY_LEGS]": null,
+          "[CLR_FLAG HAS_BICYCLE]": null,
+          "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+          "[END]": null
+        },
+        "[MULTI_GOTO L_C802E6 L_C8042B]:C8042B": {
+          "\u00ef\u00bf\u00bdWell,[PAUSE 15] don't forget to return it...[PAUSE 20]  You're gonna have to sooner or later.[HALT][END]": null
+        },
+        "; $C8042B": null,
+        "\u00ef\u00bf\u00bdWell,[PAUSE 15] don't forget to return it...[PAUSE 20]  You're gonna have to sooner or later.[HALT][END]": null
+      },
+      "[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG PAULA_JOINS L_C803AC]:C803AC": {
+      "[SET_COUNTER 1]": null,
+      "\u00ef\u00bf\u00bdDo you wanna ride a bike?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThat's not gonna work... two people on one bike is strictly forbidden.[WAIT][CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C803F8]:C803F8": {
+        "[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou're here to return the bicycle?[LINE_BREAK]": null,
+        "[LOAD_STRING \"Yes\"]": null,
+        " [LOAD_STRING \"No\"]": null,
+        "[PRINT_STRINGS_HORZ 2]": null,
+        "[CREATE_MENU]": null,
+        "[CLEAR_LINE]": null,
+        "[MULTI_GOTO L_C802E6 L_C8042B]:C802E6": {
+          "[START_LINE]": null,
+          "[REMOVE_ITEM ANY BICYCLE]": null,
+          "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+          "[SET_FLAG STUBBY_LEGS]": null,
+          "[CLR_FLAG HAS_BICYCLE]": null,
+          "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+          "[END]": null
+        },
+        "[MULTI_GOTO L_C802E6 L_C8042B]:C8042B": {
+          "\u00ef\u00bf\u00bdWell,[PAUSE 15] don't forget to return it...[PAUSE 20]  You're gonna have to sooner or later.[HALT][END]": null
+        },
+        "; $C8042B": null,
+        "\u00ef\u00bf\u00bdWell,[PAUSE 15] don't forget to return it...[PAUSE 20]  You're gonna have to sooner or later.[HALT][END]": null
+      },
+      "[HALT][END]": null
+    },
+    "; $C80027": null,
+    "\u00ef\u00bf\u00bdThis is the cycle shop[PAUSE 5] \u00ef\u00bf\u00bdPunk-Sure\u00ef\u00bf\u00bd![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdBicycles are so much fun and are so convenient...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt's a lot faster than walking.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou'll be really popular with the biking crowd.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDo you want a bicycle?[LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    " [LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C800F5 L_C800C1]:C800F5": {
+      "[GOTO_IF_FLAG HAS_BICYCLE L_C802B9]:C802B9": {
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bdDidn't you already borrow a bicycle?[PAUSE 20]  We don't have any more right now...[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdUnfortunately, we don't have any more bikes for sale.[PAUSE 20]  We only have rentals.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDo you want to rent one?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      " [LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C8015A L_C800C1]:C8015A": {
+        "\u00ef\u00bf\u00bdI really like your straight-forward style.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI'll tell you what,[PAUSE 15] I'll let you borrow a bike for free.[WAIT][LINE_BREAK]": null,
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C80277]:C80277": {
+          "[START_LINE]": null,
+          "[PLAY_SFX 5]": null,
+          "\u00ef\u00bf\u00bdYou have too many items.[PAUSE 20]  Why don't you get rid of something and come back.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI know you want it now,[PAUSE 15] but my hands are tied...[HALT][END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT BICYCLE]": null,
+        "[GOSUB L_C7DCCF]:C7DCCF": {
+          "[PLAY_SFX 116]": null,
+          "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+            "[BACKUP_REGS_LOCAL]": null,
+            "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+            "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+              "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+              "  to [SWAP_ARG_RESULT]": null,
+              "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+            "  the [SWAP_ARG_RESULT]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+          },
+          "[END]": null
+        },
+        "[WAIT][LINE_BREAK]": null,
+        "[SET_FLAG HAS_BICYCLE]": null,
+        "\u00ef\u00bf\u00bdYou know that two people can't ride on one bicycle,[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdso of course three or four people on a bike would be impossible![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdDid you also know that you can't ride a bike with anything following you?[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdTeddy bears, for example...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdCarrying a bear and riding is impossible for you.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdAnd don't even think about riding a bike into a cave.[HALT][END]": null
+      },
+      "[MULTI_GOTO L_C8015A L_C800C1]:C800C1": {
+        "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+          "[START_LINE]": null,
+          "[REMOVE_ITEM ANY BICYCLE]": null,
+          "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+          "[SET_FLAG STUBBY_LEGS]": null,
+          "[CLR_FLAG HAS_BICYCLE]": null,
+          "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+          "[END]": null
+        },
+        "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+      },
+      "[GOTO L_C800C1]:C800C1": {
+        "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+          "[START_LINE]": null,
+          "[REMOVE_ITEM ANY BICYCLE]": null,
+          "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+          "[SET_FLAG STUBBY_LEGS]": null,
+          "[CLR_FLAG HAS_BICYCLE]": null,
+          "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+          "[END]": null
+        },
+        "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+        },
+        "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+      },
+      "; $C8015A": null,
+      "\u00ef\u00bf\u00bdI really like your straight-forward style.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI'll tell you what,[PAUSE 15] I'll let you borrow a bike for free.[WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C80277]:C80277": {
+        "[START_LINE]": null,
+        "[PLAY_SFX 5]": null,
+        "\u00ef\u00bf\u00bdYou have too many items.[PAUSE 20]  Why don't you get rid of something and come back.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI know you want it now,[PAUSE 15] but my hands are tied...[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT BICYCLE]": null,
+      "[GOSUB L_C7DCCF]:C7DCCF": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[WAIT][LINE_BREAK]": null,
+      "[SET_FLAG HAS_BICYCLE]": null,
+      "\u00ef\u00bf\u00bdYou know that two people can't ride on one bicycle,[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdso of course three or four people on a bike would be impossible![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdDid you also know that you can't ride a bike with anything following you?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdTeddy bears, for example...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdCarrying a bear and riding is impossible for you.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdAnd don't even think about riding a bike into a cave.[HALT][END]": null
+    },
+    "[MULTI_GOTO L_C800F5 L_C800C1]:C800C1": {
+      "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+        "[START_LINE]": null,
+        "[REMOVE_ITEM ANY BICYCLE]": null,
+        "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+        "[SET_FLAG STUBBY_LEGS]": null,
+        "[CLR_FLAG HAS_BICYCLE]": null,
+        "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+        "[END]": null
+      },
+      "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+    },
+    "; $C800C1": null,
+    "[CHECK_HAS_ITEM ANY BICYCLE][GOTO_IF_TRUE L_C802E6]:C802E6": {
+      "[START_LINE]": null,
+      "[REMOVE_ITEM ANY BICYCLE]": null,
+      "\u00ef\u00bf\u00bdYou're here to return your bike?[WAIT][LINE_BREAK]": null,
+      "[SET_FLAG STUBBY_LEGS]": null,
+      "[CLR_FLAG HAS_BICYCLE]": null,
+      "\u00ef\u00bf\u00bdLook how low your seat is![PAUSE 20]  Geez,[PAUSE 15] you must have short legs.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThat's it![PAUSE 20]  I'll call you stubby legs![HALT][PLAY_SFX 118]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_FLAG HAS_BICYCLE L_C8034D]:C8034D": {
+      "[START_LINE]": null,
+      "\u00ef\u00bf\u00bdYeah,[PAUSE 10] yeah,[PAUSE 5] sure, sure.[PAUSE 20]  You've already borrowed a bicycle.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdOh... you don't know how to ride a bike.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdMe neither.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7072,
+  "y_pixel_abs": 7624,
+  "x_tile": 221,
+  "y_tile": 238,
+  "x_sector": 27,
+  "y_sector": 29,
+  "x_sector_offset": 160,
+  "y_sector_offset": 200,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_34.l_0xc80000",
+  "Text Pointer 2": "$0"
+}

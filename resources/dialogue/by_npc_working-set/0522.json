@@ -1,0 +1,57 @@
+{
+  "Sprite": 123,
+  "sprite_label": "boy_blue-ballcap",
+  "map_location_label": "Threed_Overworld_Central",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8E5B1",
+  "d1_flags": [
+    "1. goto C8E5F7 if MASTER_BELCH_DEFEATED is set",
+    "1. goto C8E5F7 if ZOMBIES_ON_TENT_FLOOR is set"
+  ],
+  "d1_addresses": [
+    "C8E5F7",
+    "Npc0522"
+  ],
+  "d1_text": "Npc0522:\r\n[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E5F7]\r\n[GOTO_IF_FLAG ZOMBIES_ON_TENT_FLOOR L_C8E5F7]\r\n\u00ef\u00bf\u00bdI'm so scared of the zombies, I spend all of my time running from them.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI can't even get home![HALT][END]",
+  "d1_lines": [
+    "Npc0522:",
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E5F7]",
+    "[GOTO_IF_FLAG ZOMBIES_ON_TENT_FLOOR L_C8E5F7]",
+    "\u00ef\u00bf\u00bdI'm so scared of the zombies, I spend all of my time running from them.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI can't even get home![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C8E5F7]:C8E5F7": {
+      "\u00ef\u00bf\u00bdI had to run all over to escape the zombies.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdNow I can't remember where my house is...[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG ZOMBIES_ON_TENT_FLOOR L_C8E5F7]:C8E5F7": {
+      "\u00ef\u00bf\u00bdI had to run all over to escape the zombies.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdNow I can't remember where my house is...[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI'm so scared of the zombies, I spend all of my time running from them.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI can't even get home![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5448,
+  "y_pixel_abs": 9160,
+  "x_tile": 170,
+  "y_tile": 286,
+  "x_sector": 21,
+  "y_sector": 35,
+  "x_sector_offset": 72,
+  "y_sector_offset": 200,
+  "Event Flag": 214,
+  "flag_label": "VISITED_FOURSIDE",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_42.l_0xc8e5b1",
+  "Text Pointer 2": "$0"
+}

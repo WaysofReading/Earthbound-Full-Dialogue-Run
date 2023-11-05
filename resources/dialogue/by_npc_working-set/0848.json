@@ -1,0 +1,128 @@
+{
+  "Sprite": 62,
+  "sprite_label": "man_glasses_-black-suit",
+  "map_location_label": "Fourside_Topolla Theater_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C6DA0B",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C6DA37",
+    "C6DA3F",
+    "C6DA6D",
+    "C6DAA0",
+    "C6DAC0",
+    "C7E6B3",
+    "C7E6BF",
+    "Npc0848"
+  ],
+  "d1_text": "Npc0848:\r\n\u00ef\u00bf\u00bdDo you wanna buy a ticket?[LINE_BREAK]\r\n[LOAD_STRING \"Yes\"]\r\n[LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C6DA3F L_C6DA37]\r\n; $C6DA37\r\nL_C6DA37:\r\n\u00ef\u00bf\u00bdPlease come again.[HALT][END]",
+  "d1_lines": [
+    "Npc0848:",
+    "\u00ef\u00bf\u00bdDo you wanna buy a ticket?[LINE_BREAK]",
+    "[LOAD_STRING \"Yes\"]",
+    "[LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C6DA3F L_C6DA37]",
+    "; $C6DA37",
+    "L_C6DA37:",
+    "\u00ef\u00bf\u00bdPlease come again.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdDo you wanna buy a ticket?[LINE_BREAK]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    "[LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C6DA3F L_C6DA37]:C6DA3F": {
+      "\u00ef\u00bf\u00bd30 bucks, please.[LINE_BREAK]": null,
+      "[SHOW_WALLET]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C6DA6D L_C6DA37]:C6DA6D": {
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C6DAA0]:C6DAA0": {
+          "\u00ef\u00bf\u00bdExcuse me [GET_PARTY_MEMBER 1][GOSUB L_C7E6B3]:C7E6B3": {
+            "[CHECK_EQUAL 2][GOTO_IF_TRUE L_C7E6BF]:C7E6BF": {
+              "ma'am[END]": null
+            },
+            "sir[END]": null
+          },
+          ", but your hands are full...[HALT][END]": null
+        },
+        "[BACKUP_REGS_LOCAL]": null,
+        "[CHECK_HASNT_MONEY 30][GOTO_IF_TRUE L_C6DAC0]:C6DAC0": {
+          "\u00ef\u00bf\u00bdI'm sorry sir...[WAIT][LINE_BREAK]": null,
+          "[SET_NPC_DIR 921 7]": null,
+          "\u00ef\u00bf\u00bdWe don't just give away the tickets... you must pay 30 dollars.[HALT][END]": null
+        },
+        "[PLAY_SFX 118]": null,
+        "[PAUSE 1][REMOVE_MONEY 30]": null,
+        "[SHOW_WALLET]": null,
+        "\u00ef\u00bf\u00bdThanks a lot.[HALT][PLAY_SFX 116]": null,
+        "[RESTORE_REGS_LOCAL]": null,
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT SHOW_TICKET]": null,
+        "[END]": null
+      },
+      "[MULTI_GOTO L_C6DA6D L_C6DA37]:C6DA37": {
+        "\u00ef\u00bf\u00bdPlease come again.[HALT][END]": null
+      },
+      "[GOTO L_C6DA37]:C6DA37": {
+        "\u00ef\u00bf\u00bdPlease come again.[HALT][END]": null
+      },
+      "; $C6DA6D": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C6DAA0]:C6DAA0": {
+        "\u00ef\u00bf\u00bdExcuse me [GET_PARTY_MEMBER 1][GOSUB L_C7E6B3]:C7E6B3": {
+          "[CHECK_EQUAL 2][GOTO_IF_TRUE L_C7E6BF]:C7E6BF": {
+            "ma'am[END]": null
+          },
+          "sir[END]": null
+        },
+        ", but your hands are full...[HALT][END]": null
+      },
+      "[BACKUP_REGS_LOCAL]": null,
+      "[CHECK_HASNT_MONEY 30][GOTO_IF_TRUE L_C6DAC0]:C6DAC0": {
+        "\u00ef\u00bf\u00bdI'm sorry sir...[WAIT][LINE_BREAK]": null,
+        "[SET_NPC_DIR 921 7]": null,
+        "\u00ef\u00bf\u00bdWe don't just give away the tickets... you must pay 30 dollars.[HALT][END]": null
+      },
+      "[PLAY_SFX 118]": null,
+      "[PAUSE 1][REMOVE_MONEY 30]": null,
+      "\u00ef\u00bf\u00bdThanks a lot.[HALT][PLAY_SFX 116]": null,
+      "[RESTORE_REGS_LOCAL]": null,
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT SHOW_TICKET]": null,
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C6DA3F L_C6DA37]:C6DA37": {
+      "\u00ef\u00bf\u00bdPlease come again.[HALT][END]": null
+    },
+    "; $C6DA37": null,
+    "\u00ef\u00bf\u00bdPlease come again.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 5040,
+  "y_pixel_abs": 5520,
+  "x_tile": 157,
+  "y_tile": 172,
+  "x_sector": 19,
+  "y_sector": 21,
+  "x_sector_offset": 176,
+  "y_sector_offset": 144,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_24.l_0xc6da0b",
+  "Text Pointer 2": "$0"
+}

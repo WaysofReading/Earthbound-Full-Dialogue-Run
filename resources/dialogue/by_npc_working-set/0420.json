@@ -1,0 +1,827 @@
+{
+  "Sprite": 122,
+  "sprite_label": "girl_blonde_yellow-dress",
+  "map_location_label": "Happy Happy Village_Overworld_All",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C9894E",
+  "d1_flags": [
+    "1. goto C98B07 if CARPAINTER_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C7907A",
+    "C79081",
+    "C7DC85",
+    "C7DCCF",
+    "C7DCDA",
+    "C7DD03",
+    "C989C5",
+    "C989E9",
+    "C989EA",
+    "C98A27",
+    "C98AB2",
+    "C98AE8",
+    "C98B07",
+    "Npc0420"
+  ],
+  "d1_text": "Npc0420:\r\n[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C98B07]\r\n[OPEN_TBOX 1]\r\n\u00ef\u00bf\u00bdExcuse me, tourist.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm collecting donations to help protect the world from contaminants.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdDonate whatever you can.[LINE_BREAK]\r\n[SHOW_WALLET]\r\n[LOAD_STRING \"Yes\"]\r\n  [LOAD_STRING \"No\"]\r\n[PRINT_STRINGS_HORZ 2]\r\n[CREATE_MENU]\r\n[CLEAR_LINE]\r\n[MULTI_GOTO L_C98A27 L_C989C5]\r\n; $C989C5\r\nL_C989C5:\r\n[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]\r\n\u00ef\u00bf\u00bdI'll be your shadow, then.[HALT][CLOSE_ALL_TBOXES]\r\n[GOTO L_C79081]\r\n; $C989E9\r\nL_C989E9:\r\n[END]",
+  "d1_lines": [
+    "Npc0420:",
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C98B07]",
+    "[OPEN_TBOX 1]",
+    "\u00ef\u00bf\u00bdExcuse me, tourist.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm collecting donations to help protect the world from contaminants.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdDonate whatever you can.[LINE_BREAK]",
+    "[SHOW_WALLET]",
+    "[LOAD_STRING \"Yes\"]",
+    "  [LOAD_STRING \"No\"]",
+    "[PRINT_STRINGS_HORZ 2]",
+    "[CREATE_MENU]",
+    "[CLEAR_LINE]",
+    "[MULTI_GOTO L_C98A27 L_C989C5]",
+    "; $C989C5",
+    "L_C989C5:",
+    "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]",
+    "\u00ef\u00bf\u00bdI'll be your shadow, then.[HALT][CLOSE_ALL_TBOXES]",
+    "[GOTO L_C79081]",
+    "; $C989E9",
+    "L_C989E9:",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C98B07]:C98B07": {
+      "\u00ef\u00bf\u00bdFinally, I have a chance to apologize.[HALT][CLOSE_ALL_TBOXES]": null,
+      "[END]": null
+    },
+    "[OPEN_TBOX 1]": null,
+    "\u00ef\u00bf\u00bdExcuse me, tourist.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm collecting donations to help protect the world from contaminants.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdDonate whatever you can.[LINE_BREAK]": null,
+    "[SHOW_WALLET]": null,
+    "[LOAD_STRING \"Yes\"]": null,
+    "  [LOAD_STRING \"No\"]": null,
+    "[PRINT_STRINGS_HORZ 2]": null,
+    "[CREATE_MENU]": null,
+    "[CLEAR_LINE]": null,
+    "[MULTI_GOTO L_C98A27 L_C989C5]:C98A27": {
+      "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+      "    $[NUMBER_SELECTOR 2]": null,
+      "[CLEAR_LINE]": null,
+      "[SWAP_ARG_RESULT]": null,
+      "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {
+        "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+          "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+          "[GOTO L_C7907A]:C7907A": {
+            "[SET_NPC_MOVEMENT_SCRIPT 420 12]": null,
+            "[END]": null
+          },
+          "; $C98A27": null,
+          "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+          "    $[NUMBER_SELECTOR 2]": null,
+          "[CLEAR_LINE]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {
+            "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+              "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+              "[GOTO L_C7907A]:C7907A": {},
+              "; $C98A27": null,
+              "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+              "    $[NUMBER_SELECTOR 2]": null,
+              "[CLEAR_LINE]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {},
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {},
+              "[PLAY_SFX 118]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[SHOW_WALLET]": null,
+              "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+              "[GOSUB L_C7DCCF]:C7DCCF": {},
+              "[WAIT][START_LINE]": null,
+              "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+              "; $C98AB2": null,
+              "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[END]": null
+            },
+            "\u00ef\u00bf\u00bdI'll be your shadow, then.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[GOTO L_C79081]:C79081": {
+              "[SET_NPC_MOVEMENT_SCRIPT 420 135]": null,
+              "[END]": null
+            },
+            "; $C989E9": null,
+            "[END]": null
+          },
+          "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {
+            "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+              "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+              "[GOTO L_C7907A]:C7907A": {},
+              "; $C98A27": null,
+              "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+              "    $[NUMBER_SELECTOR 2]": null,
+              "[CLEAR_LINE]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {},
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {},
+              "[PLAY_SFX 118]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[SHOW_WALLET]": null,
+              "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+              "[GOSUB L_C7DCCF]:C7DCCF": {},
+              "[WAIT][START_LINE]": null,
+              "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+              "; $C98AB2": null,
+              "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[END]": null
+            },
+            "\u00ef\u00bf\u00bd...no jokes allowed.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[END]": null
+          },
+          "[PLAY_SFX 118]": null,
+          "[REMOVE_MONEY 0]": null,
+          "[SHOW_WALLET]": null,
+          "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {
+            "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+          "[GOSUB L_C7DCCF]:C7DCCF": {
+            "[PLAY_SFX 116]": null,
+            "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+              "[BACKUP_REGS_LOCAL]": null,
+              "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+              "  the [SWAP_ARG_RESULT]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+            },
+            "[END]": null
+          },
+          "[WAIT][START_LINE]": null,
+          "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+          "; $C98AB2": null,
+          "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+          "[END]": null
+        },
+        "\u00ef\u00bf\u00bdI'll be your shadow, then.[HALT][CLOSE_ALL_TBOXES]": null,
+        "[GOTO L_C79081]:C79081": {
+          "[SET_NPC_MOVEMENT_SCRIPT 420 135]": null,
+          "[END]": null
+        },
+        "; $C989E9": null,
+        "[END]": null
+      },
+      "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {
+        "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+          "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+          "[GOTO L_C7907A]:C7907A": {
+            "[SET_NPC_MOVEMENT_SCRIPT 420 12]": null,
+            "[END]": null
+          },
+          "; $C98A27": null,
+          "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+          "    $[NUMBER_SELECTOR 2]": null,
+          "[CLEAR_LINE]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {
+            "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+              "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+              "[GOTO L_C7907A]:C7907A": {},
+              "; $C98A27": null,
+              "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+              "    $[NUMBER_SELECTOR 2]": null,
+              "[CLEAR_LINE]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {},
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {},
+              "[PLAY_SFX 118]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[SHOW_WALLET]": null,
+              "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+              "[GOSUB L_C7DCCF]:C7DCCF": {},
+              "[WAIT][START_LINE]": null,
+              "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+              "; $C98AB2": null,
+              "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[END]": null
+            },
+            "\u00ef\u00bf\u00bdI'll be your shadow, then.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[GOTO L_C79081]:C79081": {
+              "[SET_NPC_MOVEMENT_SCRIPT 420 135]": null,
+              "[END]": null
+            },
+            "; $C989E9": null,
+            "[END]": null
+          },
+          "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {
+            "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+              "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+              "[GOTO L_C7907A]:C7907A": {},
+              "; $C98A27": null,
+              "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+              "    $[NUMBER_SELECTOR 2]": null,
+              "[CLEAR_LINE]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {},
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {},
+              "[PLAY_SFX 118]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[SHOW_WALLET]": null,
+              "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+              "[GOSUB L_C7DCCF]:C7DCCF": {},
+              "[WAIT][START_LINE]": null,
+              "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+              "; $C98AB2": null,
+              "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[END]": null
+            },
+            "\u00ef\u00bf\u00bd...no jokes allowed.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[END]": null
+          },
+          "[PLAY_SFX 118]": null,
+          "[REMOVE_MONEY 0]": null,
+          "[SHOW_WALLET]": null,
+          "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {
+            "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+          "[GOSUB L_C7DCCF]:C7DCCF": {
+            "[PLAY_SFX 116]": null,
+            "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+              "[BACKUP_REGS_LOCAL]": null,
+              "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+              "  the [SWAP_ARG_RESULT]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+            },
+            "[END]": null
+          },
+          "[WAIT][START_LINE]": null,
+          "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+          "; $C98AB2": null,
+          "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+          "[END]": null
+        },
+        "\u00ef\u00bf\u00bd...no jokes allowed.[HALT][CLOSE_ALL_TBOXES]": null,
+        "[END]": null
+      },
+      "[PLAY_SFX 118]": null,
+      "[REMOVE_MONEY 0]": null,
+      "[SHOW_WALLET]": null,
+      "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {
+        "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+        "[END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+      "[GOSUB L_C7DCCF]:C7DCCF": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[WAIT][START_LINE]": null,
+      "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+      "[GOTO L_C7907A]:C7907A": {
+        "[SET_NPC_MOVEMENT_SCRIPT 420 12]": null,
+        "[END]": null
+      },
+      "; $C98AB2": null,
+      "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+      "[END]": null
+    },
+    "[MULTI_GOTO L_C98A27 L_C989C5]:C989C5": {
+      "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+        "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+        "[GOTO L_C7907A]:C7907A": {
+          "[SET_NPC_MOVEMENT_SCRIPT 420 12]": null,
+          "[END]": null
+        },
+        "; $C98A27": null,
+        "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+        "    $[NUMBER_SELECTOR 2]": null,
+        "[CLEAR_LINE]": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {
+          "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+            "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+            "[GOTO L_C7907A]:C7907A": {
+              "[SET_NPC_MOVEMENT_SCRIPT 420 12]": null,
+              "[END]": null
+            },
+            "; $C98A27": null,
+            "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+            "    $[NUMBER_SELECTOR 2]": null,
+            "[CLEAR_LINE]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {
+              "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {},
+              "\u00ef\u00bf\u00bdI'll be your shadow, then.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[GOTO L_C79081]:C79081": {},
+              "; $C989E9": null,
+              "[END]": null
+            },
+            "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {
+              "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {},
+              "\u00ef\u00bf\u00bd...no jokes allowed.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[END]": null
+            },
+            "[PLAY_SFX 118]": null,
+            "[REMOVE_MONEY 0]": null,
+            "[SHOW_WALLET]": null,
+            "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+            "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {
+              "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[END]": null
+            },
+            "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+            "[GOSUB L_C7DCCF]:C7DCCF": {
+              "[PLAY_SFX 116]": null,
+              "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {},
+              "[END]": null
+            },
+            "[WAIT][START_LINE]": null,
+            "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+            "; $C98AB2": null,
+            "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[END]": null
+          },
+          "\u00ef\u00bf\u00bdI'll be your shadow, then.[HALT][CLOSE_ALL_TBOXES]": null,
+          "[GOTO L_C79081]:C79081": {
+            "[SET_NPC_MOVEMENT_SCRIPT 420 135]": null,
+            "[END]": null
+          },
+          "; $C989E9": null,
+          "[END]": null
+        },
+        "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {
+          "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+            "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+            "[GOTO L_C7907A]:C7907A": {
+              "[SET_NPC_MOVEMENT_SCRIPT 420 12]": null,
+              "[END]": null
+            },
+            "; $C98A27": null,
+            "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+            "    $[NUMBER_SELECTOR 2]": null,
+            "[CLEAR_LINE]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {
+              "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {},
+              "\u00ef\u00bf\u00bdI'll be your shadow, then.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[GOTO L_C79081]:C79081": {},
+              "; $C989E9": null,
+              "[END]": null
+            },
+            "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {
+              "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {},
+              "\u00ef\u00bf\u00bd...no jokes allowed.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[END]": null
+            },
+            "[PLAY_SFX 118]": null,
+            "[REMOVE_MONEY 0]": null,
+            "[SHOW_WALLET]": null,
+            "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+            "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {
+              "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[END]": null
+            },
+            "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+            "[GOSUB L_C7DCCF]:C7DCCF": {
+              "[PLAY_SFX 116]": null,
+              "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {},
+              "[END]": null
+            },
+            "[WAIT][START_LINE]": null,
+            "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+            "; $C98AB2": null,
+            "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[END]": null
+          },
+          "\u00ef\u00bf\u00bd...no jokes allowed.[HALT][CLOSE_ALL_TBOXES]": null,
+          "[END]": null
+        },
+        "[PLAY_SFX 118]": null,
+        "[REMOVE_MONEY 0]": null,
+        "[SHOW_WALLET]": null,
+        "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+        "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {
+          "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+          "[END]": null
+        },
+        "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+        "[GOSUB L_C7DCCF]:C7DCCF": {
+          "[PLAY_SFX 116]": null,
+          "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+            "[BACKUP_REGS_LOCAL]": null,
+            "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+            "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+              "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+              "  to [SWAP_ARG_RESULT]": null,
+              "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+            },
+            "[RESTORE_REGS_LOCAL]": null,
+            "[SWAP_ARG_RESULT]": null,
+            "[START_LINE]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+            "  the [SWAP_ARG_RESULT]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+          },
+          "[END]": null
+        },
+        "[WAIT][START_LINE]": null,
+        "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+        "; $C98AB2": null,
+        "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bdI'll be your shadow, then.[HALT][CLOSE_ALL_TBOXES]": null,
+      "[GOTO L_C79081]:C79081": {
+        "[SET_NPC_MOVEMENT_SCRIPT 420 135]": null,
+        "[END]": null
+      },
+      "; $C989E9": null,
+      "[END]": null
+    },
+    "; $C989C5": null,
+    "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+      "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+      "[GOTO L_C7907A]:C7907A": {
+        "[SET_NPC_MOVEMENT_SCRIPT 420 12]": null,
+        "[END]": null
+      },
+      "; $C98A27": null,
+      "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+      "    $[NUMBER_SELECTOR 2]": null,
+      "[CLEAR_LINE]": null,
+      "[SWAP_ARG_RESULT]": null,
+      "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {
+        "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+          "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+          "[GOTO L_C7907A]:C7907A": {
+            "[SET_NPC_MOVEMENT_SCRIPT 420 12]": null,
+            "[END]": null
+          },
+          "; $C98A27": null,
+          "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+          "    $[NUMBER_SELECTOR 2]": null,
+          "[CLEAR_LINE]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {
+            "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+              "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+              "[GOTO L_C7907A]:C7907A": {},
+              "; $C98A27": null,
+              "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+              "    $[NUMBER_SELECTOR 2]": null,
+              "[CLEAR_LINE]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {},
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {},
+              "[PLAY_SFX 118]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[SHOW_WALLET]": null,
+              "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+              "[GOSUB L_C7DCCF]:C7DCCF": {},
+              "[WAIT][START_LINE]": null,
+              "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+              "; $C98AB2": null,
+              "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[END]": null
+            },
+            "\u00ef\u00bf\u00bdI'll be your shadow, then.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[GOTO L_C79081]:C79081": {
+              "[SET_NPC_MOVEMENT_SCRIPT 420 135]": null,
+              "[END]": null
+            },
+            "; $C989E9": null,
+            "[END]": null
+          },
+          "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {
+            "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+              "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+              "[GOTO L_C7907A]:C7907A": {},
+              "; $C98A27": null,
+              "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+              "    $[NUMBER_SELECTOR 2]": null,
+              "[CLEAR_LINE]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {},
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {},
+              "[PLAY_SFX 118]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[SHOW_WALLET]": null,
+              "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+              "[GOSUB L_C7DCCF]:C7DCCF": {},
+              "[WAIT][START_LINE]": null,
+              "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+              "; $C98AB2": null,
+              "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[END]": null
+            },
+            "\u00ef\u00bf\u00bd...no jokes allowed.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[END]": null
+          },
+          "[PLAY_SFX 118]": null,
+          "[REMOVE_MONEY 0]": null,
+          "[SHOW_WALLET]": null,
+          "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {
+            "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+          "[GOSUB L_C7DCCF]:C7DCCF": {
+            "[PLAY_SFX 116]": null,
+            "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+              "[BACKUP_REGS_LOCAL]": null,
+              "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+              "  the [SWAP_ARG_RESULT]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+            },
+            "[END]": null
+          },
+          "[WAIT][START_LINE]": null,
+          "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+          "; $C98AB2": null,
+          "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+          "[END]": null
+        },
+        "\u00ef\u00bf\u00bdI'll be your shadow, then.[HALT][CLOSE_ALL_TBOXES]": null,
+        "[GOTO L_C79081]:C79081": {
+          "[SET_NPC_MOVEMENT_SCRIPT 420 135]": null,
+          "[END]": null
+        },
+        "; $C989E9": null,
+        "[END]": null
+      },
+      "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {
+        "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+          "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+          "[GOTO L_C7907A]:C7907A": {
+            "[SET_NPC_MOVEMENT_SCRIPT 420 12]": null,
+            "[END]": null
+          },
+          "; $C98A27": null,
+          "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+          "    $[NUMBER_SELECTOR 2]": null,
+          "[CLEAR_LINE]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {
+            "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+              "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+              "[GOTO L_C7907A]:C7907A": {},
+              "; $C98A27": null,
+              "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+              "    $[NUMBER_SELECTOR 2]": null,
+              "[CLEAR_LINE]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {},
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {},
+              "[PLAY_SFX 118]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[SHOW_WALLET]": null,
+              "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+              "[GOSUB L_C7DCCF]:C7DCCF": {},
+              "[WAIT][START_LINE]": null,
+              "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+              "; $C98AB2": null,
+              "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[END]": null
+            },
+            "\u00ef\u00bf\u00bdI'll be your shadow, then.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[GOTO L_C79081]:C79081": {
+              "[SET_NPC_MOVEMENT_SCRIPT 420 135]": null,
+              "[END]": null
+            },
+            "; $C989E9": null,
+            "[END]": null
+          },
+          "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {
+            "[CHECK_HASNT_MONEY 1][GOTO_IF_TRUE L_C989EA]:C989EA": {
+              "\u00ef\u00bf\u00bdIncredible![WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdI can't believe people exist who have no money at all...[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdBlue, blue![HALT][CLOSE_ALL_TBOXES]": null,
+              "[GOTO L_C7907A]:C7907A": {},
+              "; $C98A27": null,
+              "\u00ef\u00bf\u00bdHow much would you like to donate?[LINE_BREAK]": null,
+              "    $[NUMBER_SELECTOR 2]": null,
+              "[CLEAR_LINE]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[COMPARE_REG 1 1][GOTO_IF_FALSE L_C989C5]:C989C5": {},
+              "[CHECK_HASNT_MONEY 0][GOTO_IF_TRUE L_C98AE8]:C98AE8": {},
+              "[PLAY_SFX 118]": null,
+              "[REMOVE_MONEY 0]": null,
+              "[SHOW_WALLET]": null,
+              "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+              "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {},
+              "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+              "[GOSUB L_C7DCCF]:C7DCCF": {},
+              "[WAIT][START_LINE]": null,
+              "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+              "; $C98AB2": null,
+              "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+              "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+              "[END]": null
+            },
+            "\u00ef\u00bf\u00bd...no jokes allowed.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[END]": null
+          },
+          "[PLAY_SFX 118]": null,
+          "[REMOVE_MONEY 0]": null,
+          "[SHOW_WALLET]": null,
+          "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+          "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {
+            "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+            "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+            "[END]": null
+          },
+          "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+          "[GOSUB L_C7DCCF]:C7DCCF": {
+            "[PLAY_SFX 116]": null,
+            "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+              "[BACKUP_REGS_LOCAL]": null,
+              "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+              "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {},
+              "[RESTORE_REGS_LOCAL]": null,
+              "[SWAP_ARG_RESULT]": null,
+              "[START_LINE]": null,
+              "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+              "  the [SWAP_ARG_RESULT]": null,
+              "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+            },
+            "[END]": null
+          },
+          "[WAIT][START_LINE]": null,
+          "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+          "; $C98AB2": null,
+          "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+          "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+          "[END]": null
+        },
+        "\u00ef\u00bf\u00bd...no jokes allowed.[HALT][CLOSE_ALL_TBOXES]": null,
+        "[END]": null
+      },
+      "[PLAY_SFX 118]": null,
+      "[REMOVE_MONEY 0]": null,
+      "[SHOW_WALLET]": null,
+      "\u00ef\u00bf\u00bdYour good deed will be rewarded.[PAUSE 20]  Here's a postcard for you.[WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C98AB2]:C98AB2": {
+        "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+        "[END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT PICTURE_POSTCARD]": null,
+      "[GOSUB L_C7DCCF]:C7DCCF": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[WAIT][START_LINE]": null,
+      "\u00ef\u00bf\u00bdGo and be happy![HALT][CLOSE_ALL_TBOXES]": null,
+      "; $C98AB2": null,
+      "\u00ef\u00bf\u00bdI wanted to give you a postcard.[PAUSE 20]  But... you can't accept it.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou have too many items.[HALT][CLOSE_ALL_TBOXES]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdI'll be your shadow, then.[HALT][CLOSE_ALL_TBOXES]": null,
+    "[GOTO L_C79081]:C79081": {
+      "[SET_NPC_MOVEMENT_SCRIPT 420 135]": null,
+      "[END]": null
+    },
+    "; $C989E9": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 3640,
+  "y_pixel_abs": 7800,
+  "x_tile": 113,
+  "y_tile": 243,
+  "x_sector": 14,
+  "y_sector": 30,
+  "x_sector_offset": 56,
+  "y_sector_offset": 120,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "up",
+  "Movement": 134,
+  "Text Pointer 1": "data_49.l_0xc9894e",
+  "Text Pointer 2": "$0"
+}

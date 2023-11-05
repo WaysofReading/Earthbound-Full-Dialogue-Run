@@ -1,0 +1,45 @@
+{
+  "Sprite": 74,
+  "sprite_label": "cop",
+  "map_location_label": "Onett_Overworld_Northeast",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C67089",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0154"
+  ],
+  "d1_text": "Npc0154:\r\n\u00ef\u00bf\u00bdA meteorite has landed,[PAUSE 15] the Sharks are running wild in town,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdyou kids are wandering around,[PAUSE 15] and,[PAUSE 15] I'm hungry...[PAUSE 20][LINE_BREAK]\r\n  I hate my job![HALT][END]",
+  "d1_lines": [
+    "Npc0154:",
+    "\u00ef\u00bf\u00bdA meteorite has landed,[PAUSE 15] the Sharks are running wild in town,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdyou kids are wandering around,[PAUSE 15] and,[PAUSE 15] I'm hungry...[PAUSE 20][LINE_BREAK]",
+    "  I hate my job![HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdA meteorite has landed,[PAUSE 15] the Sharks are running wild in town,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdyou kids are wandering around,[PAUSE 15] and,[PAUSE 15] I'm hungry...[PAUSE 20][LINE_BREAK]": null,
+    "  I hate my job![HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2272,
+  "y_pixel_abs": 592,
+  "x_tile": 71,
+  "y_tile": 18,
+  "x_sector": 8,
+  "y_sector": 2,
+  "x_sector_offset": 224,
+  "y_sector_offset": 80,
+  "Event Flag": 469,
+  "flag_label": "POLICE_AT_METEORITE",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_20.l_0xc67089",
+  "Text Pointer 2": "$0"
+}

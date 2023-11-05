@@ -1,0 +1,53 @@
+{
+  "Sprite": 79,
+  "sprite_label": "lookalike_mr-t",
+  "map_location_label": "Summers and Toto_Stoic Club_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C8A056",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1000"
+  ],
+  "d1_text": "Npc1000:\r\n\u00ef\u00bf\u00bdYou don't understand what the hey everyone is talking about, do you?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI don't either, but I try to be patient with the customers.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThey pay high prices just for a glass of water[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdand the chance to have serious, intellectual discussions.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdActually, it's an easy business.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou want a drink?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdWe only serve water, though...[HALT][END]",
+  "d1_lines": [
+    "Npc1000:",
+    "\u00ef\u00bf\u00bdYou don't understand what the hey everyone is talking about, do you?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI don't either, but I try to be patient with the customers.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThey pay high prices just for a glass of water[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdand the chance to have serious, intellectual discussions.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdActually, it's an easy business.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou want a drink?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdWe only serve water, though...[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdYou don't understand what the hey everyone is talking about, do you?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI don't either, but I try to be patient with the customers.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThey pay high prices just for a glass of water[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdand the chance to have serious, intellectual discussions.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdActually, it's an easy business.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou want a drink?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdWe only serve water, though...[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7744,
+  "y_pixel_abs": 9160,
+  "x_tile": 242,
+  "y_tile": 286,
+  "x_sector": 30,
+  "y_sector": 35,
+  "x_sector_offset": 64,
+  "y_sector_offset": 200,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_40.l_0xc8a056",
+  "Text Pointer 2": "$0"
+}

@@ -1,0 +1,75 @@
+{
+  "Sprite": 115,
+  "sprite_label": "lookalike_pigpen",
+  "map_location_label": "Happy Happy Village_Overworld_All",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C99582",
+  "d1_flags": [
+    "1. goto C995E4 if CARPAINTER_DEFEATED is set",
+    "1. goto C99635 if CONQUERED_SANCTUARY_2 is set"
+  ],
+  "d1_addresses": [
+    "C995E4",
+    "C99635",
+    "C9966E",
+    "C99686",
+    "Npc0421"
+  ],
+  "d1_text": "Npc0421:\r\n[GOTO_IF_FLAG CONQUERED_SANCTUARY_2 L_C99635]\r\n[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C995E4]\r\n\u00ef\u00bf\u00bdThere's a place ahead that can't be painted blue.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt's a strange and anti-blue place.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI can't stop thinking about it... and I can't even go near that place.[HALT][END]",
+  "d1_lines": [
+    "Npc0421:",
+    "[GOTO_IF_FLAG CONQUERED_SANCTUARY_2 L_C99635]",
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C995E4]",
+    "\u00ef\u00bf\u00bdThere's a place ahead that can't be painted blue.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt's a strange and anti-blue place.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI can't stop thinking about it... and I can't even go near that place.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG CONQUERED_SANCTUARY_2 L_C99635]:C99635": {
+      "\u00ef\u00bf\u00bdWhat was the anti-blue place like?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWas it scary?[LINE_BREAK]": null,
+      "[LOAD_STRING \"Yes\"]": null,
+      "[LOAD_STRING \"No\"]": null,
+      "[PRINT_STRINGS_HORZ 2]": null,
+      "[CREATE_MENU]": null,
+      "[CLEAR_LINE]": null,
+      "[MULTI_GOTO L_C99686 L_C9966E]:C99686": {
+        "\u00ef\u00bf\u00bdDid you see a huge mole, like I've heard lives there?[HALT][END]": null
+      },
+      "[MULTI_GOTO L_C99686 L_C9966E]:C9966E": {
+        "\u00ef\u00bf\u00bdYou seem to thrive in places like that.[HALT][END]": null
+      },
+      "; $C9966E": null,
+      "\u00ef\u00bf\u00bdYou seem to thrive in places like that.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG CARPAINTER_DEFEATED L_C995E4]:C995E4": {
+      "\u00ef\u00bf\u00bdI'm a changed person.[PAUSE 20]  I'm no longer a believer in Happy-happyism.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdAnyway, I'm very curious about the place that lies ahead of here.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThere's a place ahead that can't be painted blue.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt's a strange and anti-blue place.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI can't stop thinking about it... and I can't even go near that place.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4184,
+  "y_pixel_abs": 7704,
+  "x_tile": 130,
+  "y_tile": 240,
+  "x_sector": 16,
+  "y_sector": 30,
+  "x_sector_offset": 88,
+  "y_sector_offset": 24,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "right",
+  "Movement": 605,
+  "Text Pointer 1": "data_50.l_0xc99582",
+  "Text Pointer 2": "$0"
+}

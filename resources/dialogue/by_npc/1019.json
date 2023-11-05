@@ -1,0 +1,169 @@
+{
+  "Sprite": 73,
+  "sprite_label": "bellhop",
+  "map_location_label": "Summers and Toto_Hotel (L'hotel du Summer)_1F_Lobby",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C85BD4",
+  "d1_flags": [],
+  "d1_addresses": [
+    "C841DE",
+    "C85C55",
+    "C85C76",
+    "C85C99",
+    "C85CD3",
+    "C85D13",
+    "C85D45",
+    "C85DE3",
+    "C85E27",
+    "C85E65",
+    "C85EB1",
+    "C85F32",
+    "Npc1019"
+  ],
+  "d1_text": "Npc1019:\r\n[GOSUB L_C841DE]\r\n[COUNTER_TO_ARG][SWAP_ARG_RESULT]\r\n[MULTI_GOSUB L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85CD3 L_C85D13 L_C85D45 L_C85DE3 L_C85E27 L_C85E65 L_C85EB1 L_C85F32]\r\n[END]",
+  "d1_lines": [
+    "Npc1019:",
+    "[GOSUB L_C841DE]",
+    "[COUNTER_TO_ARG][SWAP_ARG_RESULT]",
+    "[MULTI_GOSUB L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85CD3 L_C85D13 L_C85D45 L_C85DE3 L_C85E27 L_C85E65 L_C85EB1 L_C85F32]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOSUB L_C841DE]:C841DE": "Case/Switch - Newspaper Headline",
+    "[COUNTER_TO_ARG][SWAP_ARG_RESULT]": null,
+    "[MULTI_GOSUB L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85CD3 L_C85D13 L_C85D45 L_C85DE3 L_C85E27 L_C85E65 L_C85EB1 L_C85F32]:C85C99": {
+      "[GOSUB L_C85C55]:C85C55": {
+        "\u00ef\u00bf\u00bdAh, sir...[LINE_BREAK]": null,
+        " Are you already on your way to the beach?[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C85C76]:C85C76": {
+        "\u00ef\u00bf\u00bdHere is this morning's headlines from the Daily Summers...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdPeople reported missing one after another in our sister city Winters\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85CD3 L_C85D13 L_C85D45 L_C85DE3 L_C85E27 L_C85E65 L_C85EB1 L_C85F32]:C85CD3": {
+      "[GOSUB L_C85C55]:C85C55": {
+        "\u00ef\u00bf\u00bdAh, sir...[LINE_BREAK]": null,
+        " Are you already on your way to the beach?[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C85C76]:C85C76": {
+        "\u00ef\u00bf\u00bdHere is this morning's headlines from the Daily Summers...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdYesterday the same as the day before yesterday[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdToday to be the same as yesterday\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85CD3 L_C85D13 L_C85D45 L_C85DE3 L_C85E27 L_C85E65 L_C85EB1 L_C85F32]:C85D13": {
+      "[GOSUB L_C85C55]:C85C55": {
+        "\u00ef\u00bf\u00bdAh, sir...[LINE_BREAK]": null,
+        " Are you already on your way to the beach?[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C85C76]:C85C76": {
+        "\u00ef\u00bf\u00bdHere is this morning's headlines from the Daily Summers...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdPrince [PRINT_NAME POO] of Dalaam visiting Summers secretly?\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85CD3 L_C85D13 L_C85D45 L_C85DE3 L_C85E27 L_C85E65 L_C85EB1 L_C85F32]:C85D45": {
+      "[GOSUB L_C85C55]:C85C55": {
+        "\u00ef\u00bf\u00bdAh, sir...[LINE_BREAK]": null,
+        " Are you already on your way to the beach?[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bdToday's Daily Summers says...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdOoo la la,[PAUSE 10] I brought the wrong paper by mistake.  It is the Summer Inquirerer[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdListen to this headline...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdHuge rat found living in sewer system\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...I really do not think so...[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85CD3 L_C85D13 L_C85D45 L_C85DE3 L_C85E27 L_C85E65 L_C85EB1 L_C85F32]:C85DE3": {
+      "[GOSUB L_C85C55]:C85C55": {
+        "\u00ef\u00bf\u00bdAh, sir...[LINE_BREAK]": null,
+        " Are you already on your way to the beach?[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C85C76]:C85C76": {
+        "\u00ef\u00bf\u00bdHere is this morning's headlines from the Daily Summers...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdIntruders in Scaraba Pyramid![PAUSE 10] Summers remains a peaceful paradise\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85CD3 L_C85D13 L_C85D45 L_C85DE3 L_C85E27 L_C85E65 L_C85EB1 L_C85F32]:C85E27": {
+      "[GOSUB L_C85C55]:C85C55": {
+        "\u00ef\u00bf\u00bdAh, sir...[LINE_BREAK]": null,
+        " Are you already on your way to the beach?[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C85C76]:C85C76": {
+        "\u00ef\u00bf\u00bdHere is this morning's headlines from the Daily Summers...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdBreeze blew through the palm trees last night\u00ef\u00bf\u00bd[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd...[PAUSE 10] This is big news here.[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85CD3 L_C85D13 L_C85D45 L_C85DE3 L_C85E27 L_C85E65 L_C85EB1 L_C85F32]:C85E65": {
+      "[GOSUB L_C85C55]:C85C55": {
+        "\u00ef\u00bf\u00bdAh, sir...[LINE_BREAK]": null,
+        " Are you already on your way to the beach?[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C85C76]:C85C76": {
+        "\u00ef\u00bf\u00bdHere is this morning's headlines from the Daily Summers...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdKraken Fin makes a beautiful soup![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdNew gourmet dish makes big waves at the beach\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85CD3 L_C85D13 L_C85D45 L_C85DE3 L_C85E27 L_C85E65 L_C85EB1 L_C85F32]:C85EB1": {
+      "[GOSUB L_C85C55]:C85C55": {
+        "\u00ef\u00bf\u00bdAh, sir...[LINE_BREAK]": null,
+        " Are you already on your way to the beach?[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bdThere's a great advertisement in this morning's Daily Summers[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdStop doing anything complicated.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdForget about solving mysteries and completing stages![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWelcome to the easy life in Summers!\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[MULTI_GOSUB L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85C99 L_C85CD3 L_C85D13 L_C85D45 L_C85DE3 L_C85E27 L_C85E65 L_C85EB1 L_C85F32]:C85F32": {
+      "[GOSUB L_C85C55]:C85C55": {
+        "\u00ef\u00bf\u00bdAh, sir...[LINE_BREAK]": null,
+        " Are you already on your way to the beach?[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "[GOSUB L_C85C76]:C85C76": {
+        "\u00ef\u00bf\u00bdHere is this morning's headlines from the Daily Summers...[WAIT][LINE_BREAK]": null,
+        "[END]": null
+      },
+      "\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdYesterday was the same as the day before yesterday[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdToday will be the same as yesterday\u00ef\u00bf\u00bd[HALT][END]": null
+    },
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7528,
+  "y_pixel_abs": 8768,
+  "x_tile": 235,
+  "y_tile": 274,
+  "x_sector": 29,
+  "y_sector": 34,
+  "x_sector_offset": 104,
+  "y_sector_offset": 64,
+  "Event Flag": 383,
+  "flag_label": "JUST_RESTED",
+  "Show Sprite": "when event flag set",
+  "Direction": "left",
+  "Movement": 8,
+  "Text Pointer 1": "data_38.l_0xc85bd4",
+  "Text Pointer 2": "$0"
+}

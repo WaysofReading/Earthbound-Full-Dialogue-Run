@@ -1,0 +1,73 @@
+{
+  "Sprite": 145,
+  "sprite_label": "mom",
+  "map_location_label": "Onett_Ness' House_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C66D3E",
+  "d1_flags": [
+    "1. goto C66DF2 if TALKED_TO_MOM is set",
+    "1. goto C66E13 if LEFT_HOME_AT_LEAST_ONCE is set",
+    "3. set TALKED_TO_MOM",
+    "4. clear NESS_WEARING_PAJAMAS"
+  ],
+  "d1_addresses": [
+    "C66DF2",
+    "C66E13",
+    "Npc0015"
+  ],
+  "d1_text": "Npc0015:\r\n[GOTO_IF_FLAG LEFT_HOME_AT_LEAST_ONCE L_C66E13]\r\n[GOTO_IF_FLAG TALKED_TO_MOM L_C66DF2]\r\n\u00ef\u00bf\u00bdWhat was that noise?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd[PRINT_NAME NESS],[PAUSE 15] you don't seem scared.[PAUSE 20]  Are you nuts?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdAnd now you want to go check it out?[PAUSE 15]  ...oh[PAUSE 15] ...okay.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYou'll sneak out of your room anyway,[PAUSE 15] even if I asked you not to.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdAt least change out of your jammies before you go.[WAIT][CLOSE_ALL_TBOXES]\r\n[PAUSE 1][SET_FLAG TALKED_TO_MOM]\r\n[CLR_FLAG NESS_WEARING_PAJAMAS]\r\n[PRESET_TELEPORT 196]\r\n[END]",
+  "d1_lines": [
+    "Npc0015:",
+    "[GOTO_IF_FLAG LEFT_HOME_AT_LEAST_ONCE L_C66E13]",
+    "[GOTO_IF_FLAG TALKED_TO_MOM L_C66DF2]",
+    "\u00ef\u00bf\u00bdWhat was that noise?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd[PRINT_NAME NESS],[PAUSE 15] you don't seem scared.[PAUSE 20]  Are you nuts?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdAnd now you want to go check it out?[PAUSE 15]  ...oh[PAUSE 15] ...okay.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYou'll sneak out of your room anyway,[PAUSE 15] even if I asked you not to.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdAt least change out of your jammies before you go.[WAIT][CLOSE_ALL_TBOXES]",
+    "[PAUSE 1][SET_FLAG TALKED_TO_MOM]",
+    "[CLR_FLAG NESS_WEARING_PAJAMAS]",
+    "[PRESET_TELEPORT 196]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG LEFT_HOME_AT_LEAST_ONCE L_C66E13]:C66E13": {
+      "\u00ef\u00bf\u00bdWhat was that noise?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdYou don't seem scared at all.[PAUSE 20]  Be careful![HALT][END]": null
+    },
+    "[GOTO_IF_FLAG TALKED_TO_MOM L_C66DF2]:C66DF2": {
+      "\u00ef\u00bf\u00bdBe careful![PAUSE 20]  Come home as soon as you can.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdWhat was that noise?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd[PRINT_NAME NESS],[PAUSE 15] you don't seem scared.[PAUSE 20]  Are you nuts?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdAnd now you want to go check it out?[PAUSE 15]  ...oh[PAUSE 15] ...okay.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYou'll sneak out of your room anyway,[PAUSE 15] even if I asked you not to.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdAt least change out of your jammies before you go.[WAIT][CLOSE_ALL_TBOXES]": null,
+    "[PAUSE 1][SET_FLAG TALKED_TO_MOM]": null,
+    "[CLR_FLAG NESS_WEARING_PAJAMAS]": null,
+    "[PRESET_TELEPORT 196]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7640,
+  "y_pixel_abs": 360,
+  "x_tile": 238,
+  "y_tile": 11,
+  "x_sector": 29,
+  "y_sector": 1,
+  "x_sector_offset": 216,
+  "y_sector_offset": 104,
+  "Event Flag": 469,
+  "flag_label": "POLICE_AT_METEORITE",
+  "Show Sprite": "when event flag unset",
+  "Direction": "right",
+  "Movement": 12,
+  "Text Pointer 1": "data_20.l_0xc66d3e",
+  "Text Pointer 2": "$0"
+}

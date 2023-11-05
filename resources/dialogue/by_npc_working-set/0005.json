@@ -1,0 +1,47 @@
+{
+  "Sprite": 284,
+  "sprite_label": "monster_shark",
+  "map_location_label": "Onett_Arcade_2F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C74D9F",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc0005"
+  ],
+  "d1_text": "Npc0005:\r\n\u00ef\u00bf\u00bdTo tell you the truth,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI like drinking tea and eating fresh vegetables,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdbut that doesn't fit my super cool image.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI guess I just have to accept this about myself.[HALT][END]",
+  "d1_lines": [
+    "Npc0005:",
+    "\u00ef\u00bf\u00bdTo tell you the truth,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI like drinking tea and eating fresh vegetables,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdbut that doesn't fit my super cool image.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI guess I just have to accept this about myself.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdTo tell you the truth,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI like drinking tea and eating fresh vegetables,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdbut that doesn't fit my super cool image.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI guess I just have to accept this about myself.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 8008,
+  "y_pixel_abs": 1008,
+  "x_tile": 250,
+  "y_tile": 31,
+  "x_sector": 31,
+  "y_sector": 3,
+  "x_sector_offset": 72,
+  "y_sector_offset": 240,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "up",
+  "Movement": 606,
+  "Text Pointer 1": "data_28.l_0xc74d9f",
+  "Text Pointer 2": "$0"
+}

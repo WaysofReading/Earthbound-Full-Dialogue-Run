@@ -1,0 +1,107 @@
+{
+  "Sprite": 56,
+  "sprite_label": "man_bald_black-suit",
+  "map_location_label": "Twoson_Hospital_2F_Right-Room",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C94D7A",
+  "d1_flags": [
+    "1. goto C94DF6 if MASTER_BELCH_DEFEATED is set"
+  ],
+  "d1_addresses": [
+    "C94DF6",
+    "Npc0268"
+  ],
+  "d1_text": "Npc0268:\r\n[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C94DF6]\r\n\u00ef\u00bf\u00bdI got bit by zombies in Threed,[PAUSE 15] the next town over,[PAUSE 15] so I'm stuck in this hospital.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI left something good at the Threed Hospital,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdbut now I can't go get it[PAUSE 10] because the bus can't get through the tunnel.[HALT][END]",
+  "d1_lines": [
+    "Npc0268:",
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C94DF6]",
+    "\u00ef\u00bf\u00bdI got bit by zombies in Threed,[PAUSE 15] the next town over,[PAUSE 15] so I'm stuck in this hospital.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI left something good at the Threed Hospital,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdbut now I can't go get it[PAUSE 10] because the bus can't get through the tunnel.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MASTER_BELCH_DEFEATED L_C94DF6]:C94DF6": {
+      "\u00ef\u00bf\u00bdI'm in perfect, tip-top health now.[PAUSE 20]  I just wish I had more visitors.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd*cough* *hack, hack* *cough*[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdI got bit by zombies in Threed,[PAUSE 15] the next town over,[PAUSE 15] so I'm stuck in this hospital.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI left something good at the Threed Hospital,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdbut now I can't go get it[PAUSE 10] because the bus can't get through the tunnel.[HALT][END]": null
+  },
+  "d2_pointer": "C94E44",
+  "d2_flags": [],
+  "d2_addresses": [
+    "C7C6B6",
+    "C7DC85",
+    "C7DCCF",
+    "C7DCDA",
+    "C7DD03",
+    "C94E44"
+  ],
+  "d2_text": "L_C94E44:\r\n[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]\r\n[CHECK_EQUAL 206][GOTO_IF_FALSE L_C7C6B6]\r\n\u00ef\u00bf\u00bdThank you![PAUSE 15]  You've made me so happy![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdAfter my life,[PAUSE 15] this is the second most important thing to me![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdBecause you're so kind,[PAUSE 15] I want to give you this [PRINT_ITEM MAGIC_TRUFFLE].[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt's a souvenir from Scaraba.[WAIT][LINE_BREAK]\r\n[REMOVE_ITEM ANY INSIGNIFICANT_ITEM]\r\n[GIVE_ITEM_RETURN_SLOT REG_RESULT MAGIC_TRUFFLE]\r\n[GOSUB L_C7DCCF]\r\n[HALT][END]",
+  "d2_lines": [
+    "L_C94E44:",
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]",
+    "[CHECK_EQUAL 206][GOTO_IF_FALSE L_C7C6B6]",
+    "\u00ef\u00bf\u00bdThank you![PAUSE 15]  You've made me so happy![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdAfter my life,[PAUSE 15] this is the second most important thing to me![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdBecause you're so kind,[PAUSE 15] I want to give you this [PRINT_ITEM MAGIC_TRUFFLE].[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt's a souvenir from Scaraba.[WAIT][LINE_BREAK]",
+    "[REMOVE_ITEM ANY INSIGNIFICANT_ITEM]",
+    "[GIVE_ITEM_RETURN_SLOT REG_RESULT MAGIC_TRUFFLE]",
+    "[GOSUB L_C7DCCF]",
+    "[HALT][END]"
+  ],
+  "d2_unrolled": {
+    "[GET_INV_ITEM REG_RESULT 0][SWAP_ARG_RESULT]": null,
+    "[CHECK_EQUAL 206][GOTO_IF_FALSE L_C7C6B6]:C7C6B6": {
+      "[GET_ACTION_ARG][SWAP_ARG_RESULT]": null,
+      "\u00ef\u00bf\u00bdYou can't use[LINE_BREAK]": null,
+      "  the [PRINT_ITEM REG_ARGUMENT].[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdThank you![PAUSE 15]  You've made me so happy![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdAfter my life,[PAUSE 15] this is the second most important thing to me![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdBecause you're so kind,[PAUSE 15] I want to give you this [PRINT_ITEM MAGIC_TRUFFLE].[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt's a souvenir from Scaraba.[WAIT][LINE_BREAK]": null,
+    "[REMOVE_ITEM ANY INSIGNIFICANT_ITEM]": null,
+    "[GIVE_ITEM_RETURN_SLOT REG_RESULT MAGIC_TRUFFLE]": null,
+    "[GOSUB L_C7DCCF]:C7DCCF": {
+      "[PLAY_SFX 116]": null,
+      "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+        "[BACKUP_REGS_LOCAL]": null,
+        "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+        "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+          "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+          "  to [SWAP_ARG_RESULT]": null,
+          "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+        },
+        "[RESTORE_REGS_LOCAL]": null,
+        "[SWAP_ARG_RESULT]": null,
+        "[START_LINE]": null,
+        "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+        "  the [SWAP_ARG_RESULT]": null,
+        "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+      },
+      "[END]": null
+    },
+    "[HALT][END]": null
+  },
+  "x_pixel_abs": 6736,
+  "y_pixel_abs": 7632,
+  "x_tile": 210,
+  "y_tile": 238,
+  "x_sector": 26,
+  "y_sector": 29,
+  "x_sector_offset": 80,
+  "y_sector_offset": 208,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 12,
+  "Text Pointer 1": "data_47.l_0xc94d7a",
+  "Text Pointer 2": "data_47.l_0xc94e44"
+}

@@ -1,0 +1,77 @@
+{
+  "Sprite": 115,
+  "sprite_label": "lookalike_pigpen",
+  "map_location_label": "Moonside_Overworld_South",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C97187",
+  "d1_flags": [
+    "1. goto C9720D if MOONSIDE_COUNTDOWN_GUY_1 is set",
+    "1. goto C97289 if MOONSIDE_COUNTDOWN_GUY_2 is set",
+    "1. goto C972D8 if MOONSIDE_COUNTDOWN_GUY_3 is set",
+    "3. set MOONSIDE_COUNTDOWN_GUY_1",
+    "3. set MOONSIDE_COUNTDOWN_GUY_2",
+    "3. set MOONSIDE_COUNTDOWN_GUY_3"
+  ],
+  "d1_addresses": [
+    "C9720D",
+    "C97289",
+    "C972D8",
+    "Npc1386"
+  ],
+  "d1_text": "Npc1386:\r\n[GOTO_IF_FLAG MOONSIDE_COUNTDOWN_GUY_3 L_C972D8]\r\n[GOTO_IF_FLAG MOONSIDE_COUNTDOWN_GUY_2 L_C97289]\r\n[GOTO_IF_FLAG MOONSIDE_COUNTDOWN_GUY_1 L_C9720D]\r\n\u00ef\u00bf\u00bd257[PAUSE 15]  256[PAUSE 15]  255[PAUSE 15]  254[PAUSE 15]  253...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdSo what's your problem?[PAUSE 20]  If you don't want anything, get outta here.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm counting backwards.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bd252[PAUSE 15]  251[PAUSE 15]  250...[HALT][SET_FLAG MOONSIDE_COUNTDOWN_GUY_1]\r\n[END]",
+  "d1_lines": [
+    "Npc1386:",
+    "[GOTO_IF_FLAG MOONSIDE_COUNTDOWN_GUY_3 L_C972D8]",
+    "[GOTO_IF_FLAG MOONSIDE_COUNTDOWN_GUY_2 L_C97289]",
+    "[GOTO_IF_FLAG MOONSIDE_COUNTDOWN_GUY_1 L_C9720D]",
+    "\u00ef\u00bf\u00bd257[PAUSE 15]  256[PAUSE 15]  255[PAUSE 15]  254[PAUSE 15]  253...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdSo what's your problem?[PAUSE 20]  If you don't want anything, get outta here.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm counting backwards.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bd252[PAUSE 15]  251[PAUSE 15]  250...[HALT][SET_FLAG MOONSIDE_COUNTDOWN_GUY_1]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MOONSIDE_COUNTDOWN_GUY_3 L_C972D8]:C972D8": {
+      "\u00ef\u00bf\u00bdI got surprised.[HALT][END]": null
+    },
+    "[GOTO_IF_FLAG MOONSIDE_COUNTDOWN_GUY_2 L_C97289]:C97289": {
+      "\u00ef\u00bf\u00bd9[PAUSE 5]  8[PAUSE 5]  7[PAUSE 1]  6  5  4  3  2  1  0...[LINE_BREAK]": null,
+      "  Baboooooooom!![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWow![PAUSE 20]  I scared myself.[HALT][SET_FLAG MOONSIDE_COUNTDOWN_GUY_3]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_FLAG MOONSIDE_COUNTDOWN_GUY_1 L_C9720D]:C9720D": {
+      "\u00ef\u00bf\u00bd69[PAUSE 15]  68[PAUSE 15]  67[PAUSE 15]  66[PAUSE 15]  65[PAUSE 15]  64[PAUSE 15]  63...[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdWhat?[PAUSE 15]  Is this a special hobby of yours?  You like watching people count backwards?[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bd62[PAUSE 15]  61[PAUSE 15]  60[PAUSE 15]  59...[HALT][SET_FLAG MOONSIDE_COUNTDOWN_GUY_2]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bd257[PAUSE 15]  256[PAUSE 15]  255[PAUSE 15]  254[PAUSE 15]  253...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdSo what's your problem?[PAUSE 20]  If you don't want anything, get outta here.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm counting backwards.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bd252[PAUSE 15]  251[PAUSE 15]  250...[HALT][SET_FLAG MOONSIDE_COUNTDOWN_GUY_1]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7960,
+  "y_pixel_abs": 4512,
+  "x_tile": 248,
+  "y_tile": 141,
+  "x_sector": 31,
+  "y_sector": 17,
+  "x_sector_offset": 24,
+  "y_sector_offset": 160,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "up",
+  "Movement": 12,
+  "Text Pointer 1": "data_48.l_0xc97187",
+  "Text Pointer 2": "$0"
+}

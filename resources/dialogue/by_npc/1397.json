@@ -1,0 +1,47 @@
+{
+  "Sprite": 71,
+  "sprite_label": "man_blonde_resortwear",
+  "map_location_label": "Moonside_Overworld_North",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C96E07",
+  "d1_flags": [],
+  "d1_addresses": [
+    "Npc1397"
+  ],
+  "d1_text": "Npc1397:\r\n\u00ef\u00bf\u00bdHello![WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdAnd...[PAUSE 20] good-bye![WAIT][CLOSE_ALL_TBOXES]\r\n[PAUSE 1][PRESET_TELEPORT 107]\r\n[END]",
+  "d1_lines": [
+    "Npc1397:",
+    "\u00ef\u00bf\u00bdHello![WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdAnd...[PAUSE 20] good-bye![WAIT][CLOSE_ALL_TBOXES]",
+    "[PAUSE 1][PRESET_TELEPORT 107]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "\u00ef\u00bf\u00bdHello![WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdAnd...[PAUSE 20] good-bye![WAIT][CLOSE_ALL_TBOXES]": null,
+    "[PAUSE 1][PRESET_TELEPORT 107]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7272,
+  "y_pixel_abs": 4000,
+  "x_tile": 227,
+  "y_tile": 125,
+  "x_sector": 28,
+  "y_sector": 15,
+  "x_sector_offset": 104,
+  "y_sector_offset": 160,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "left",
+  "Movement": 12,
+  "Text Pointer 1": "data_48.l_0xc96e07",
+  "Text Pointer 2": "$0"
+}

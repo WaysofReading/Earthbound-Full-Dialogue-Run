@@ -1,0 +1,94 @@
+{
+  "Sprite": 120,
+  "sprite_label": "girl_blonde_pink-dress",
+  "map_location_label": "Twoson_Chaos Theater_1F_Concert-Hall",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C81CD6",
+  "d1_flags": [
+    "1. goto C81DB5 if CHAOS_THEATER_BACKSTAGE_OPEN is set",
+    "1. goto C81DC3 if RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER is set",
+    "3. set CHAOS_THEATER_BACKSTAGE_OPEN",
+    "4. clear RUNAWAY_FIVE_FAN_GIRL_OUTSIDE_BACKSTAGE"
+  ],
+  "d1_addresses": [
+    "C79997",
+    "C81DB5",
+    "C81DC3",
+    "C9B4B8",
+    "Npc0229"
+  ],
+  "d1_text": "Npc0229:\r\n[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C81DC3]\r\n[GOTO_IF_FLAG CHAOS_THEATER_BACKSTAGE_OPEN L_C81DB5]\r\n\u00ef\u00bf\u00bdLucky of the Runaway Five told me I could go backstage,[PAUSE 15] but I don't have a pass.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI'm sure security will stop me.[PAUSE 20]  Hey![PAUSE 20]  Really?[PAUSE 30]  You have a pass?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI can't believe it![PAUSE 20]  Can you take me with you, please[PAUSE 5] please[PAUSE 10] please?[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI could pose as your sister.[PAUSE 15]  Yes?  This rocks.[PAUSE 15]  Let's go.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdOoo.[PAUSE 15] My heart is pounding.[WAIT][CLOSE_ALL_TBOXES]\r\n[GOSUB L_C79997]\r\n[CLR_FLAG RUNAWAY_FIVE_FAN_GIRL_OUTSIDE_BACKSTAGE]\r\n[SET_FLAG CHAOS_THEATER_BACKSTAGE_OPEN]\r\n[END]",
+  "d1_lines": [
+    "Npc0229:",
+    "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C81DC3]",
+    "[GOTO_IF_FLAG CHAOS_THEATER_BACKSTAGE_OPEN L_C81DB5]",
+    "\u00ef\u00bf\u00bdLucky of the Runaway Five told me I could go backstage,[PAUSE 15] but I don't have a pass.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI'm sure security will stop me.[PAUSE 20]  Hey![PAUSE 20]  Really?[PAUSE 30]  You have a pass?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI can't believe it![PAUSE 20]  Can you take me with you, please[PAUSE 5] please[PAUSE 10] please?[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI could pose as your sister.[PAUSE 15]  Yes?  This rocks.[PAUSE 15]  Let's go.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdOoo.[PAUSE 15] My heart is pounding.[WAIT][CLOSE_ALL_TBOXES]",
+    "[GOSUB L_C79997]",
+    "[CLR_FLAG RUNAWAY_FIVE_FAN_GIRL_OUTSIDE_BACKSTAGE]",
+    "[SET_FLAG CHAOS_THEATER_BACKSTAGE_OPEN]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER L_C81DC3]:C81DC3": {
+      "\u00ef\u00bf\u00bdI'm gonna miss the Runaway Five when they finally leave.[PAUSE 20]  But that's life![HALT][END]": null
+    },
+    "[GOTO_IF_FLAG CHAOS_THEATER_BACKSTAGE_OPEN L_C81DB5]:C81DB5": {
+      "\u00ef\u00bf\u00bdThank you for your kindness![HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdLucky of the Runaway Five told me I could go backstage,[PAUSE 15] but I don't have a pass.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI'm sure security will stop me.[PAUSE 20]  Hey![PAUSE 20]  Really?[PAUSE 30]  You have a pass?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI can't believe it![PAUSE 20]  Can you take me with you, please[PAUSE 5] please[PAUSE 10] please?[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI could pose as your sister.[PAUSE 15]  Yes?  This rocks.[PAUSE 15]  Let's go.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdOoo.[PAUSE 15] My heart is pounding.[WAIT][CLOSE_ALL_TBOXES]": null,
+    "[GOSUB L_C79997]:C79997": {
+      "[SET_OSS_FLAG]": null,
+      "[SET_NPC_MOVEMENT_SCRIPT 231 109]": null,
+      "[CREATE_OBJ 106 111 1]": null,
+      "[GOSUB L_C9B4B8]:C9B4B8": {
+        "[PAUSE 1][CAMERA_FOCUS_OBJECT 106]": null,
+        "[UNFREEZE_PMEMBER ALL]": null,
+        "[WAIT_MOVEMENT]": null,
+        "[UNFOCUS_CAMERA]": null,
+        "[FREEZE_PMEMBER ALL]": null,
+        "[END]": null
+      },
+      "[CREATE_OBJ 120 110 255]": null,
+      "[CREATE_OBJ 106 112 255]": null,
+      "[PRESET_TELEPORT 65]": null,
+      "[DELETE_OBJ 106 6]": null,
+      "[DELETE_OBJ 120 6]": null,
+      "[CREATE_NPC 247 12 1]": null,
+      "[RESET_OSS_FLAG]": null,
+      "[END]": null
+    },
+    "[CLR_FLAG RUNAWAY_FIVE_FAN_GIRL_OUTSIDE_BACKSTAGE]": null,
+    "[SET_FLAG CHAOS_THEATER_BACKSTAGE_OPEN]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 6784,
+  "y_pixel_abs": 8608,
+  "x_tile": 212,
+  "y_tile": 269,
+  "x_sector": 26,
+  "y_sector": 33,
+  "x_sector_offset": 128,
+  "y_sector_offset": 160,
+  "Event Flag": 43,
+  "flag_label": "RUNAWAY_FIVE_FAN_GIRL_OUTSIDE_BACKSTAGE",
+  "Show Sprite": "when event flag set",
+  "Direction": "left",
+  "Movement": 108,
+  "Text Pointer 1": "data_35.l_0xc81cd6",
+  "Text Pointer 2": "$0"
+}

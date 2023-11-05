@@ -1,0 +1,161 @@
+{
+  "Sprite": 150,
+  "sprite_label": "runaway-5_gorgeous",
+  "map_location_label": "Twoson_Overworld_Northeast",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C94883",
+  "d1_flags": [
+    "1. goto C948DC if PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE is set",
+    "1. goto C948DC if PAULA_JOINS is set",
+    "1. goto C94A1C if GOT_BACKSTAGE_PASS is set",
+    "3. set GOT_BACKSTAGE_PASS",
+    "3. set PHOTO_CHAOS_THEATER_AVAILABLE"
+  ],
+  "d1_addresses": [
+    "C7DC7F",
+    "C7DC85",
+    "C7DCCF",
+    "C7DCDA",
+    "C7DD03",
+    "C948DC",
+    "C94966",
+    "C949A2",
+    "C949CE",
+    "C94A1C",
+    "Npc0329"
+  ],
+  "d1_text": "Npc0329:\r\n[GOTO_IF_FLAG PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE L_C948DC]\r\n[GOTO_IF_FLAG PAULA_JOINS L_C948DC]\r\n\u00ef\u00bf\u00bdWe may be popular,[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdbut that girl who lives at the house with the preschool is the talk of the town.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI wanna see her someday.[HALT][END]",
+  "d1_lines": [
+    "Npc0329:",
+    "[GOTO_IF_FLAG PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE L_C948DC]",
+    "[GOTO_IF_FLAG PAULA_JOINS L_C948DC]",
+    "\u00ef\u00bf\u00bdWe may be popular,[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdbut that girl who lives at the house with the preschool is the talk of the town.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI wanna see her someday.[HALT][END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG PAULAS_PARENTS_KNOW_ABOUT_HH_RESCUE L_C948DC]:C948DC": {
+      "[SET_COUNTER 1]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C949A2]:C949A2": {
+        "\u00ef\u00bf\u00bdHey,[PAUSE 15] you're [PRINT_NAME PAULA]![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdA boy with a red cap seemed to be lookin' for ya.[HALT][END]": null
+      },
+      "[SET_COUNTER 2]": null,
+      "[GOTO_IF_TRUE L_C949CE]:C949CE": {
+        "\u00ef\u00bf\u00bdI heard you're workin' hard tryin' to find the girl who lives at the preschool.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIf ya find her,[PAUSE 15] bring her to our concert.[HALT][END]": null
+      },
+      "[GOTO_IF_FLAG GOT_BACKSTAGE_PASS L_C94A1C]:C94A1C": {
+        "\u00ef\u00bf\u00bdWith that [PRINT_ITEM BACKSTAGE_PASS],[PAUSE 15] you can even get into our dressing room.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdCome with your girlfriend...  We'll be waitin'.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdHey,[PAUSE 15] ya came with [PRINT_NAME PAULA]![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThen you deserve a present, playboy.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHere's a [PRINT_ITEM BACKSTAGE_PASS].[PAUSE 20]  You can get into our shows with this![WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94966]:C94966": {
+        "\u00ef\u00bf\u00bdIt seems like you've got an awful lot of junk.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdGet rid of somethin' and come back for the pass.[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT BACKSTAGE_PASS]": null,
+      "[GOSUB L_C7DCCF]:C7DCCF": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[HALT][SET_FLAG GOT_BACKSTAGE_PASS]": null,
+      "[SET_FLAG PHOTO_CHAOS_THEATER_AVAILABLE]": null,
+      "[END]": null
+    },
+    "[GOTO_IF_FLAG PAULA_JOINS L_C948DC]:C948DC": {
+      "[SET_COUNTER 1]": null,
+      "[GOSUB L_C7DC7F]:C7DC7F": "Function - Check KO/Diamondized Status",
+      "[GOTO_IF_TRUE L_C949A2]:C949A2": {
+        "\u00ef\u00bf\u00bdHey,[PAUSE 15] you're [PRINT_NAME PAULA]![WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdA boy with a red cap seemed to be lookin' for ya.[HALT][END]": null
+      },
+      "[SET_COUNTER 2]": null,
+      "[GOTO_IF_TRUE L_C949CE]:C949CE": {
+        "\u00ef\u00bf\u00bdI heard you're workin' hard tryin' to find the girl who lives at the preschool.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdIf ya find her,[PAUSE 15] bring her to our concert.[HALT][END]": null
+      },
+      "[GOTO_IF_FLAG GOT_BACKSTAGE_PASS L_C94A1C]:C94A1C": {
+        "\u00ef\u00bf\u00bdWith that [PRINT_ITEM BACKSTAGE_PASS],[PAUSE 15] you can even get into our dressing room.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdCome with your girlfriend...  We'll be waitin'.[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdHey,[PAUSE 15] ya came with [PRINT_NAME PAULA]![WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdThen you deserve a present, playboy.[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdHere's a [PRINT_ITEM BACKSTAGE_PASS].[PAUSE 20]  You can get into our shows with this![WAIT][LINE_BREAK]": null,
+      "[INV_HAS_SPACE ANY][GOTO_IF_FALSE L_C94966]:C94966": {
+        "\u00ef\u00bf\u00bdIt seems like you've got an awful lot of junk.[WAIT][LINE_BREAK]": null,
+        "\u00ef\u00bf\u00bdGet rid of somethin' and come back for the pass.[HALT][END]": null
+      },
+      "[GIVE_ITEM_RETURN_SLOT REG_RESULT BACKSTAGE_PASS]": null,
+      "[GOSUB L_C7DCCF]:C7DCCF": {
+        "[PLAY_SFX 116]": null,
+        "[PAUSE 60][GOSUB L_C7DCDA]:C7DCDA": {
+          "[BACKUP_REGS_LOCAL]": null,
+          "[GOSUB L_C7DC85]:C7DC85": "Function - Check KO/Diamondized Status",
+          "[GOTO_IF_TRUE L_C7DD03]:C7DD03": {
+            "[GET_PARTY_MEMBER 1][SWAP_ARG_RESULT]": null,
+            "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] added the [RESTORE_REGS_LOCAL]": null,
+            "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT][LINE_BREAK]": null,
+            "  to [SWAP_ARG_RESULT]": null,
+            "[PRINT_NAME REG_ARGUMENT]'s stuff.)[END]": null
+          },
+          "[RESTORE_REGS_LOCAL]": null,
+          "[SWAP_ARG_RESULT]": null,
+          "[START_LINE]": null,
+          "\u00ef\u00bf\u00bd([PRINT_NAME REG_ARGUMENT] got[LINE_BREAK]": null,
+          "  the [SWAP_ARG_RESULT]": null,
+          "[GET_INV_ITEM REG_RESULT 0][PRINT_ITEM REG_ARGUMENT].)[END]": null
+        },
+        "[END]": null
+      },
+      "[HALT][SET_FLAG GOT_BACKSTAGE_PASS]": null,
+      "[SET_FLAG PHOTO_CHAOS_THEATER_AVAILABLE]": null,
+      "[END]": null
+    },
+    "\u00ef\u00bf\u00bdWe may be popular,[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdbut that girl who lives at the house with the preschool is the talk of the town.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI wanna see her someday.[HALT][END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 2352,
+  "y_pixel_abs": 6512,
+  "x_tile": 73,
+  "y_tile": 203,
+  "x_sector": 9,
+  "y_sector": 25,
+  "x_sector_offset": 48,
+  "y_sector_offset": 112,
+  "Event Flag": 549,
+  "flag_label": "QUEUE_OUTSIDE_CHAOS_THEATER",
+  "Show Sprite": "when event flag unset",
+  "Direction": "down",
+  "Movement": 605,
+  "Text Pointer 1": "data_47.l_0xc94883",
+  "Text Pointer 2": "$0"
+}

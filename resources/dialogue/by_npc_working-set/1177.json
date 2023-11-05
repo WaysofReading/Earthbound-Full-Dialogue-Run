@@ -1,0 +1,66 @@
+{
+  "Sprite": 320,
+  "sprite_label": "monster_lethal-asp",
+  "map_location_label": "Scaraba_Pyramid_Stairs-6",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "EF92AB",
+  "d1_flags": [
+    "1. goto C7C588 if LETHAL_ASP_HIEROGLYPH_4_DEFEATED is set",
+    "3. set LETHAL_ASP_HIEROGLYPH_4_DEFEATED"
+  ],
+  "d1_addresses": [
+    "C77EFF",
+    "C7C588",
+    "Npc0463",
+    "Npc1177"
+  ],
+  "d1_text": "Npc1177:\r\n[GOTO_IF_FLAG LETHAL_ASP_HIEROGLYPH_4_DEFEATED L_C7C588]\r\n[CLOSE_ALL_TBOXES]\r\n[START_BATTLE 444]\r\n[GOTO_IF_TRUE L_C77EFF]\r\n[SET_FLAG LETHAL_ASP_HIEROGLYPH_4_DEFEATED]\r\n[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 1177 635]\r\n[END]",
+  "d1_lines": [
+    "Npc1177:",
+    "[GOTO_IF_FLAG LETHAL_ASP_HIEROGLYPH_4_DEFEATED L_C7C588]",
+    "[CLOSE_ALL_TBOXES]",
+    "[START_BATTLE 444]",
+    "[GOTO_IF_TRUE L_C77EFF]",
+    "[SET_FLAG LETHAL_ASP_HIEROGLYPH_4_DEFEATED]",
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 1177 635]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG LETHAL_ASP_HIEROGLYPH_4_DEFEATED L_C7C588]:C7C588": {
+      "[GOTO_IF_FLAG ALT_NO_TALK_TEXT Npc0463]:Npc0463": {
+        "\u00ef\u00bf\u00bd(There's no response.)[HALT][END]": null
+      },
+      "\u00ef\u00bf\u00bdWho are you talking to?[HALT][END]": null
+    },
+    "[CLOSE_ALL_TBOXES]": null,
+    "[START_BATTLE 444]": null,
+    "[GOTO_IF_TRUE L_C77EFF]:C77EFF": {
+      "[END]": null
+    },
+    "[SET_FLAG LETHAL_ASP_HIEROGLYPH_4_DEFEATED]": null,
+    "[PAUSE 1][SET_NPC_MOVEMENT_SCRIPT 1177 635]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 4432,
+  "y_pixel_abs": 9656,
+  "x_tile": 138,
+  "y_tile": 301,
+  "x_sector": 17,
+  "y_sector": 37,
+  "x_sector_offset": 80,
+  "y_sector_offset": 184,
+  "Event Flag": 410,
+  "flag_label": "LETHAL_ASP_HIEROGLYPH_4_DEFEATED",
+  "Show Sprite": "when event flag unset",
+  "Direction": "left",
+  "Movement": 599,
+  "Text Pointer 1": "data_60.l_0xef92ab",
+  "Text Pointer 2": "$0"
+}

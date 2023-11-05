@@ -1,0 +1,72 @@
+{
+  "Sprite": 59,
+  "sprite_label": "prettyman",
+  "map_location_label": "Summers and Toto_Stoic Club_1F",
+  "Type": "person",
+  "flag_condition": null,
+  "d1_pointer": "C89F2D",
+  "d1_flags": [
+    "1. goto C8A023 if MAGIC_CAKE_LADY_AT_BEACH is set",
+    "1. goto C9992F if POO_JOINS is set",
+    "3. set MAGIC_CAKE_LADY_IDENTIFIED"
+  ],
+  "d1_addresses": [
+    "C8A023",
+    "C9992F",
+    "Npc0999"
+  ],
+  "d1_text": "Npc0999:\r\n[GOTO_IF_FLAG MAGIC_CAKE_LADY_AT_BEACH L_C8A023]\r\n\u00ef\u00bf\u00bdYou know, I really want to eat some Magic cake.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdIt's a mysterious work of art...[PAUSE 15]  I can't get that cake off my mind.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdThere's only one woman who can make Magic cake...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdShe's hanging out in this club.[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdYeah, she's over there at the entrance...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdAnyway, the absolute irony and study of self-identification is...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdBlah, blah, blah...[WAIT][LINE_BREAK]\r\n\u00ef\u00bf\u00bdI don't know what to do![HALT][GOTO_IF_FLAG POO_JOINS L_C9992F]\r\n[SET_FLAG MAGIC_CAKE_LADY_IDENTIFIED]\r\n[END]",
+  "d1_lines": [
+    "Npc0999:",
+    "[GOTO_IF_FLAG MAGIC_CAKE_LADY_AT_BEACH L_C8A023]",
+    "\u00ef\u00bf\u00bdYou know, I really want to eat some Magic cake.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdIt's a mysterious work of art...[PAUSE 15]  I can't get that cake off my mind.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdThere's only one woman who can make Magic cake...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdShe's hanging out in this club.[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdYeah, she's over there at the entrance...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdAnyway, the absolute irony and study of self-identification is...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdBlah, blah, blah...[WAIT][LINE_BREAK]",
+    "\u00ef\u00bf\u00bdI don't know what to do![HALT][GOTO_IF_FLAG POO_JOINS L_C9992F]",
+    "[SET_FLAG MAGIC_CAKE_LADY_IDENTIFIED]",
+    "[END]"
+  ],
+  "d1_unrolled": {
+    "[GOTO_IF_FLAG MAGIC_CAKE_LADY_AT_BEACH L_C8A023]:C8A023": {
+      "\u00ef\u00bf\u00bdThe woman who sells magic cake[WAIT][LINE_BREAK]": null,
+      "\u00ef\u00bf\u00bdseems to have been removed from the members list.[HALT][END]": null
+    },
+    "\u00ef\u00bf\u00bdYou know, I really want to eat some Magic cake.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdIt's a mysterious work of art...[PAUSE 15]  I can't get that cake off my mind.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdThere's only one woman who can make Magic cake...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdShe's hanging out in this club.[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdYeah, she's over there at the entrance...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdAnyway, the absolute irony and study of self-identification is...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdBlah, blah, blah...[WAIT][LINE_BREAK]": null,
+    "\u00ef\u00bf\u00bdI don't know what to do![HALT][GOTO_IF_FLAG POO_JOINS L_C9992F]:C9992F": {
+      "[END]": null
+    },
+    "[SET_FLAG MAGIC_CAKE_LADY_IDENTIFIED]": null,
+    "[END]": null
+  },
+  "d2_pointer": null,
+  "d2_flags": [],
+  "d2_addresses": [],
+  "d2_text": null,
+  "d2_lines": null,
+  "d2_unrolled": {},
+  "x_pixel_abs": 7768,
+  "y_pixel_abs": 9176,
+  "x_tile": 242,
+  "y_tile": 286,
+  "x_sector": 30,
+  "y_sector": 35,
+  "x_sector_offset": 88,
+  "y_sector_offset": 216,
+  "Event Flag": 0,
+  "flag_label": "Unknown Flag",
+  "Show Sprite": "always",
+  "Direction": "down",
+  "Movement": 606,
+  "Text Pointer 1": "data_40.l_0xc89f2d",
+  "Text Pointer 2": "$0"
+}
