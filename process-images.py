@@ -6,8 +6,8 @@ from collections import OrderedDict
 from pprint import pprint
 
 CD = os.path.dirname(os.path.realpath(__file__))
-notrim_directory = './resources/maps/export-layers_output/'
-retrim_directory = './process-images_output/'
+notrim_directory = 'resources/maps/export-layers_output_flat/'
+retrim_directory = 'resources/maps/process-images_output/'
 
 regions = os.listdir(os.path.join(CD, notrim_directory))
 region_dict = OrderedDict()
@@ -29,6 +29,7 @@ for region in regions:
                        f"_{attributes['y1']:05}" \
                        f"_{attributes['filename']}.png"
         img.format = 'png'
+        print(new_filename)
         img.save(filename=os.path.join(CD, retrim_directory, new_filename))
     region_dict[region] = attributes
 
@@ -36,7 +37,7 @@ sorted_regions = OrderedDict(sorted(region_dict.items(), key=lambda item: item[1
 
 region_values = list(sorted_regions.values())
 
-with open(os.path.join(CD, 'resources/maps/' 'rooms_and_regions.csv'), 'w', newline='') as f:
+with open(os.path.join(CD, 'resources/tables/' 'rooms_and_regions.csv'), 'w', newline='') as f:
     w = csv.DictWriter(f, region_values[0].keys())
     w.writeheader()
     w.writerows(region_values)

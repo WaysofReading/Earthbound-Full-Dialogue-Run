@@ -210,11 +210,16 @@ class GameData:
 
         # Read resources/list_of_regions.csv output from process-images.py
         list_of_regions = []
-        with open(os.path.join(CD, 'resources', 'tables', 'regions-and-rooms.csv')) as f:
+        with open(os.path.join(CD, 'resources', 'tables', 'rooms_and_regions.csv')) as f:
             reader = csv.DictReader(f)
             for row in reader:
                 # Cast cells of length <= 5 to int
-                region = {k: int(v) if len(v) <= 5 else v for k, v in row.items()}
+                region = {}
+                for k, v in row.items():
+                    try:
+                        region[k] = int(v)
+                    except ValueError:
+                        region[k] = v
                 list_of_regions.append(region)
 
         # Sprite definitions are organized by map y- and x-sector
