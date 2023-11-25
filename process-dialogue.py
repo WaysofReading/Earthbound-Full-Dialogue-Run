@@ -16,6 +16,7 @@ DECOMPILATION = '20230106'
 
 DECOMPILATION_PATH = os.path.join(CD, 'resources/decompilations', DECOMPILATION)
 DIALOGUE_FILE_PATH = os.path.join(CD, 'resources/dialogue', 'script-dumper_output.txt')
+LUA_FILE_PATH = os.path.join(CD, 'resources/dialogue', 'script-dumper_output.csv')
 
 CURRENT_DATETIME = datetime.today().strftime('%Y%m%d_%H%M%S')
 
@@ -23,7 +24,7 @@ CURRENT_DATETIME = datetime.today().strftime('%Y%m%d_%H%M%S')
 #   -- long
 #   -- contain infinite loops
 #   -- are frequently referenced or repeated
-# To keep the script file manageable these references are substituted for content in the parser
+# To keep the script file manageable these tags are substituted for unrolled content in the output
 
 DIALOGUE_BLACKLIST = {
     'C50000': 'Shop Case/Switch - Intro',
@@ -456,8 +457,17 @@ class GameData:
             with open(os.path.join(CD, 'resources', 'dialogue', 'by_npc', f'{npc_id:0>4d}.json'), 'w') as outfile:
                 json.dump(npc, outfile, indent=2)
 
+    def dump_csv(self):
+        with open(os.path.join(CD, 'resources/dialogue/', 'process-dialogue_output.csv'), 'w', newline='') as outfile:
+            writer = csv.writer(outfile, delimiter=",")
+            writer.writerow(["address", "dialogue"])
+            for k, v in self.indexed_script.items():
+                writer.writerow([k.lower(), '\r\n'.join(v[1:])])
+
+
 
 if __name__ == '__main__':
     gd = GameData(DECOMPILATION_PATH, DIALOGUE_FILE_PATH)
     gd.dump_npc_table()
     gd.dump_json()
+    gd.dump_csv()
