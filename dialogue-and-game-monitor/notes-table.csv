@@ -1,4 +1,4 @@
-address,note
+address,text
 c7c59e,"The ""No problem here."" text appears when you attempt to check (usually with ""L"") something un-checkable. The PK Scramble randomizer tracks the number of times this dialogue is accessed and displays it at the end of the run as a kind of error counter"
 c93b33,"I agree with Mr. T, kidnapping is wrong!"
 c670e6,Remember alt dialogue on the way down!
