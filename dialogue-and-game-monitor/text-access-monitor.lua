@@ -56,7 +56,7 @@ local DIALOGUE_TABLE = open_dialogue_table()
 local NOTES_TABLE = open_notes_table()
 local ROUTE_TABLE = ftcsv.parse(ROUTE_TABLE_PATH, ",")
 local BYTES_TABLE = build_bytes_table()
-local ROUTE_POS = 1
+local ROUTE_POS = 316
 local ROUTE_SCROLL_TIMEOUT = 0
 local ROUTE_STEPS_VISIBLE = 8
 
