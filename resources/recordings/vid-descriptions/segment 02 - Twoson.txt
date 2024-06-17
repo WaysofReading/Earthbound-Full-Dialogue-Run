@@ -1,0 +1,42 @@
+Earthbound - Full Dialogue Run - Segment 01 (Onett)
+
+A full dialogue run of Earthbound is one in which every normally-accessible line of overworld and inventory dialogue appears on-screen. “Normally-accessible” means lines of dialogue that are accessible without the use of glitches, cheats, or hacks. Battle-only text such as enemy attacks or in-battle item usages are excluded.
+
+Details
+
+This is a video of segment 02 of the run, comprising the first visit to Twoson through to arrival at Happy Happy Village.
+
+This is a proof-of-concept recording and makes use of BizHawk features including save states, rapid fire, fast forward, and frame advance for convenience. 
+
+Chapters
+00:00:00 Game start
+00:08:23 Start inventory grind
+00:18:23 End inventory grind
+00:26:16 Onett sunrise
+00:55:23 Arriving at Frank
+01:21:06 Arriving at Titanic Ant
+01:26:49 Arriving at Captain Strong
+
+Resources
+The GitHub repo for this project contains additional documentation as well as a variety of other supporting materials such as maps, dereferenced dialogue, labels for every NPC and region in the game, and the draft route itself.
+
+https://github.com/WaysofReading/Eart...
+
+I've also written about this run on my blog from various technical, interpretive, and critical perspectives:
+
+https://waysofreadingblog.com/tag/ear...
+
+This run would be impossible without the years (decades!) of hard work the Earthbound community has undertaken to analyze, hack, and document this remarkable game. In particular, this idea would have been entirely impossible without CoilSnake and CataLatas' earthbound-script-dumper:
+
+https://github.com/pk-hack/CoilSnake
+https://github.com/CataLatas/earthbou...
+
+Next Steps
+-- Continue developing route (next segment: Twoson)
+-- Develop LUA script to display real-time annotations and progress tracking on-screen
+-- Complete run auto-validation script
+
+Recording details
+-- Game: Earthbound (USA)
+-- Emulator: Bizhawk 2.9
+-- Core: SubBSNESv115+
