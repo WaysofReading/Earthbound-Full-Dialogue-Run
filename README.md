@@ -15,9 +15,9 @@ The run itself is being composed in `routes\Earthbound Full Dialogue Run - Route
 ### Recordings
 I have uploaded recordings of several segments of the run. Note that these are proof-of-concept recordings and I make use of emulator save states, pausing, and rewinding in order to create a faster, more watchable segment. I do not use these features to exploit glitches or take any action not possible for a skilled player.
 
-*[Segment 01 - Onett](https://www.youtube.com/watch?v=BfnYmuUwrk4)
-*[Segment 02 - Twoson](https://www.youtube.com/watch?v=uB2PgbbQon8)
-*[Segment 03 - Happy Happy Village and Runaway 5](https://www.youtube.com/watch?v=p4cNvKl3Bk0)
+* [Segment 01 - Onett](https://www.youtube.com/watch?v=BfnYmuUwrk4)
+* [Segment 02 - Twoson](https://www.youtube.com/watch?v=uB2PgbbQon8)
+* [Segment 03 - Happy Happy Village and Runaway 5](https://www.youtube.com/watch?v=p4cNvKl3Bk0)
 
 ## Text Access Monitor
 As noted in the introduction, this is a long, complex run. It is expected to comprise several thousand steps that must be taken in a fairly precise order, with many cases where steps can be permanently missed due to the way NPC dialogue changes in response to plot events. This creates a challenge both for executing the run, and for __validating__ that the run has accomplished what it claims: visiting all normally-accessible NPC and object dialogue in the game.
