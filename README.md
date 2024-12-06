@@ -113,12 +113,9 @@ The Text Access Monitor includes features for tracking and logging both of these
         * `vid\` Video recordings for sharing and publication (too large for GitHub, look on YouTube)
     * `routes\` Materials for the Full Dialogue Run route
         * `Earthbound Full Dialogue Run - Route.xlsx` The most recent draft of the route
-        * `_old\` Old routing files
-        * `regions-trimmed-flat` Output from Bulk Rename Utility flattening `process-images_output`
-        * `regions-trimmed-flat_by-name` Coordinates removed so list is sortable by name/hierarchy
-        * `layers_all-regions-and-rooms.psd` (BIG) all rooms and segmented overworld regions in nested layer structure
-        * `layers_overworld-regions-only.psd` Complete overworld regions only in flat layer structure
-        * `map-with-npcs_spread_nogrid.png` output from EB Project Editor with NPCs shown (adjusted for visiblity)
+        * `by_npc\` Individual dialogue files for each NPC (output from `process-dialogue.py`)
+        * `regions-trimmed-flat_by-name\` Image files for individual overworld regions and rooms (see above)
+        * `tracings\` Visual representation of the run route (complex regions only, needs cleanup)
     * `saves\` Save states created at various points along the route
         * `save-states_BSNES` For use with BizHawk's SubBSNESv115+ core
         * `sram` for use with BizHawk

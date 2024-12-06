@@ -1,0 +1,1585 @@
+address,address_alt,entity_id,sprite_label,map_location_label,entity_type
+,,0,ness,,person
+C74C07,,1,monster_shark,Onett_Arcade_1F,person
+C74C8A,,2,monster_shark,Onett_Arcade_1F,person
+C74CF7,,3,monster_shark,Onett_Arcade_1F,person
+C74D5E,,4,monster_shark,Onett_Arcade_1F_2F,person
+C74D9F,,5,monster_shark,Onett_Arcade_1F_2F,person
+C74E14,,6,man_orange-hair_sunglasses,Onett_Arcade_1F_2F,person
+C6A666,,7,monster_shark,Onett_Arcade_1F_2F,person
+C74E89,,8,man_cane_green-jacket,Onett_Drug Store_1F,person
+C74E83,,9,man_glasses_orange-cardigan,Onett_Drug Store_1F,person
+C74E8F,,10,man_blonde_i-love-ny-shirt,Onett_Drug Store_1F,person
+C69928,,11,ruffini,Onett_Drug Store_1F,person
+C680A6,C680C2,12,atm-machine,Onett_Drug Store_1F,object
+C6803D,,13,phone_payphone_left,Onett_Drug Store_1F,person
+C74F56,,14,mom,Onett_Ness' House_1F,person
+C66D3E,,15,mom,Onett_Ness' House_1F,person
+C75717,,16,king_sleeping,Onett_Ness' House_1F,person
+C75C33,,17,pokey,Onett_Ness' House_1F,person
+C75717,,18,king,Onett_Ness' House_1F,person
+C75C33,,19,pokey,Onett_Ness' House_1F,person
+C76112,,20,tracy,Onett_Ness' House_1F,person
+C75909,,21,phone_black,Onett_Ness' House_1F,person
+,,22,door_knocking,Onett_Ness' House_1F,object
+,,23,curtains_closed_ness-house,Onett_Ness' House_1F,object
+,,24,curtains_closed_ness-house,Onett_Ness' House_1F,object
+C66B97,,25,tracy,Onett_Ness' House_1F_2F,person
+,,26,ness_sleeping_head,Onett_Ness' House_1F_2F_Ness'-Room,object
+,,27,animation_zzz_white,Onett_Ness' House_1F_2F_Ness'-Room,object
+,,28,curtains_closed_ness-house,Onett_Ness' House_1F_2F_Ness'-Room,object
+,,29,curtains_angled,Onett_Ness' House_1F_2F_Ness'-Room,object
+C66AA4,,30,tracy,Onett_Ness' House_1F_2F_Tracy's-Room,person
+,,31,curtains_closed_ness-house,Onett_Ness' House_1F_2F_Tracy's-Room,object
+,,32,curtains_angled,Onett_Ness' House_1F_2F_Tracy's-Room,object
+C763A3,,33,woman_pink-maid-outfit,Onett_Burger Shop_1F,person
+C763E9,,34,woman_purse_green-dress,Onett_Burger Shop_1F,person
+C7640B,,35,girl_blonde_ponytail,Onett_Burger Shop_1F,person
+C6653B,,36,frank,Onett_Burger Shop_1F,person
+C6971E,,37,woman_blonde_red-blazer,Onett_Burger Shop_1F,person
+,,38,frank,Onett_Burger Shop_1F,person
+C70144,,39,hint-man,Onett_Hint Man's House_1F,person
+C76443,,40,chef,Onett_Bakery_1F,person
+C76449,,41,woman_purse_green-dress,Onett_Bakery_1F,person
+C7661B,,42,woman_blonde_red-dress,Onett_Bakery_1F,person
+C69651,,43,elevator_attendant,Onett_Bakery_1F,person
+C5EF3E,,44,aloysius,Onett_Minch House_1F,person
+C76663,,45,lardna,Onett_Minch House_1F,person
+C5F1FB,,46,buzz-buzz,Onett_Minch House_1F,person
+C673F9,,47,picky,Onett_Minch House_1F,person
+C7678A,,48,prettyman,Onett_Minch House_1F,person
+,,49,curtains_closed_minch-house,Onett_Minch House_1F,object
+,,50,curtains_closed_minch-house,Onett_Minch House_1F,object
+,,51,curtains_closed_minch-house,Onett_Minch House_1F,object
+C76804,,52,pokey,Onett_Minch House_1F_2F,person
+C7683A,,53,picky,Onett_Minch House_1F_2F,person
+,,54,curtains_closed_minch-house,Onett_Minch House_1F_2F,object
+,,55,curtains_closed_minch-house,Onett_Minch House_1F_2F,object
+,,56,curtains_closed_minch-house,Onett_Minch House_1F_2F,object
+,,57,curtains_angled,Onett_Minch House_1F_2F,object
+C90339,,58,man_bald_black-suit,Onett_Hotel_1F,person
+C7689E,,59,bellhop,Onett_Hotel_1F,person
+C68017,,60,phone_black,Onett_Hotel_1F,person
+C680A6,C680C2,61,atm-machine,Onett_Hotel_1F_ATM,object
+C768F4,,62,woman_blonde_red-blazer,Onett_Hotel_1F_Lobby,person
+C76924,,63,man_blonde_black-suit,Onett_Hotel_1F_Lobby,person
+C842F9,,64,bellhop,Onett_Hotel_1F_Lobby,person
+C7695F,,65,woman_blonde_red-blazer,Onett_Hotel_1F_Lobby_Left-Room,person
+C76980,,66,man_blonde_black-suit,Onett_Hotel_1F_Lobby_Left-Room,person
+C7699E,,67,captain-strong,Onett_Police Station_1F,person
+C76B87,,68,lookalike_marcie,Onett_Police Station_1F,person
+C76C29,,69,cop,Onett_Police Station_1F,person
+C76CA1,,70,cop,Onett_Police Station_1F,person
+C7699E,,71,captain-strong,Onett_Police Station_1F,person
+C76E92,,72,man_hat_black-suit,Onett_Police Station_1F_Cells,person
+C5F914,,73,cop,Onett_Police Station_1F_Cells_Backroom,person
+C5F984,,74,cop,Onett_Police Station_1F_Cells_Backroom,person
+C5F9DD,,75,cop,Onett_Police Station_1F_Cells_Backroom,person
+C5FA72,,76,cop,Onett_Police Station_1F_Cells_Backroom,person
+C76EC5,,77,cop,Onett_Police Station_1F_Cells_Backroom,person
+C72709,,78,prettyman,Onett_Town Hall_1F,person
+C72765,,79,man_blonde_black-suit,Onett_Town Hall_1F_Left-Room,person
+C727A8,,80,man_glasses_-black-suit,Onett_Town Hall_1F_Left-Room,person
+C727CF,,81,man_cane_green-jacket,Onett_Town Hall_1F_Left-Room,person
+C72822,,82,woman_purse_black-dress,Onett_Town Hall_1F_Left-Room,person
+C72910,,83,man_blonde_black-suit,Onett_Town Hall_1F_Right-Room,person
+C7298C,,84,man_hat_blue-suit,Onett_Town Hall_1F_Right-Room,person
+C729FF,,85,woman_blonde_blue-blazer,Onett_Town Hall_1F_Reception,person
+C72AF8,,86,mayor-pirkle,Onett_Town Hall_1F_Reception_2F,person
+C72F7B,,87,man_bald_black-suit,Onett_Town Hall_1F_Reception_2F,person
+C5F828,,88,cop,Onett_Town Hall_1F_Reception_2F,person
+C72FF8,,89,man_blonde_blue-blazer,Onett_Houses_West-Violet-Roof_1F,person
+C73024,,90,girl_blonde_ponytail,Onett_Houses_West-Blue-Roof_1F,person
+C730F6,,91,prettyman,Onett_Houses_North-Blue-Roof_1F,person
+C7316F,,92,boy_bowler-hat,Onett_Houses_East-Blue-Roof_1F,person
+C731F0,,93,girl_black-hair_red-jumper,Onett_Houses_East-Orange_1F,person
+C676D4,,94,exit-mouse-father,Onett_Exit Mouse House_1F,person
+C67820,,95,exit-mouse,Onett_Exit Mouse House_1F,person
+C67836,,96,exit-mouse,Onett_Exit Mouse House_1F,person
+C6A4F2,,97,lookalike_pigpen,Onett_Exit Mouse House_1F,person
+C73236,C7343F,98,woman_blonde_red-dress,Onett_Library_1F,person
+C734DE,,99,man_hat_green-jacket,Onett_Library_1F,person
+C73550,,100,lookalike_shy-guy-mask,Onett_Library_1F,person
+,,101,man_hat_black-suit,Onett_Library_1F_2F,person
+C69D8E,,102,girl_blonde_pink-dress,Onett_Library_1F_Left-Room,person
+C7370E,,103,man_blonde_i-love-ny-shirt,Onett_Library_1F_Left-Room,person
+C69CB5,,104,man_blonde_blue-oxford,Onett_Library_1F_Left-Room,person
+C73698,C736C0,105,girl_black-hair_red-jumper,Onett_Library_1F_Left-Room,person
+C73796,C737B0,106,man_redhead_green-oxford,Onett_Library_1F_Right-Room,person
+C69C03,,107,elevator_attendant,Onett_Library_1F_Right-Room,person
+C737FC,,108,man_blonde_blue-blazer,Onett_Library_1F_2F_Room,person
+C69E74,,109,man_glasses_orange-cardigan,Onett_Library_1F_2F_Room,person
+C73882,,110,nurse,Onett_Hospital_1F,person
+C916A3,,111,healer,Onett_Hospital_1F,person
+C6A286,,112,woman_redhead_blue-dress,Onett_Hospital_1F,person
+C73888,,113,doctor,Onett_Hospital_1F_Doctor's-Office,person
+C7388E,,114,nurse,Onett_Hospital_1F_Doctor's-Office,person
+C67A1C,,115,man_redhead_green-oxford,Onett_Hospital_1F_2F_Left-Room,person
+C67AA0,,116,girl_redhead_pigtails,Onett_Hospital_1F_2F_Right-Room,person
+C67ADD,,117,woman_blonde_blue-blazer,Onett_Hospital_1F_2F_Right-Room,person
+C738B6,,118,woman_cane_pink-dress,Onett_Hospital_1F_2F,person
+C73940,,119,lier-x-agerate,Onett_Lier X Agerate's Shack_1F,person
+C73C28,,120,boy_bowler-hat,Onett_Secret Hideout_1F,person
+C73DB0,,121,boy_fedora,Onett_Secret Hideout_1F,person
+C73F0F,,122,boy_baseball-helmet,Onett_Secret Hideout_1F,person
+,,123,entertainers-shack-door,Onett_Scam House_1F,person
+C5E8A0,,124,picky_sleeping,Onett,person
+C74180,,125,lier-x-agerate,Onett,person
+C743B0,,126,cop,Onett,person
+C74475,,127,lookalike_pigpen,Onett,person
+C74690,C74646,128,traveling-entertainer,Onett,person
+C747ED,,129,girl_blonde_yellow-dress,Onett,person
+C69FA9,,130,helpful-mole,Onett,person
+C749C7,,131,man_blonde_i-love-ny-shirt,Onett,person
+C74A3D,,132,rastaman,Onett,person
+C659C9,,133,lookalike_pigpen,Onett,person
+C65A18,,134,man_glasses_-black-suit,Onett,person
+C65A4C,,135,man_blonde_blue-oxford,Onett,person
+C65AE9,,136,woman_purse_green-dress,Onett,person
+C65C01,,137,woman_cane_pink-dress,Onett,person
+C65C89,,138,ruffini,Onett,person
+C65CEC,,139,man_hat_blue-suit,Onett,person
+C65E08,,140,man_hat_blue-suit,Onett,person
+C65E46,,141,saxophonist,Onett,person
+C65EA3,,142,monster_shark,Onett,person
+C65EFC,,143,monster_shark,Onett,person
+C66002,,144,cop,Onett,person
+C65F5C,,145,cop,Onett,person
+C660A6,,146,frank,Onett,person
+EFA2C9,EFA2D6,147,entertainers-shack-door,Onett,object
+C66E40,,148,mom,Onett,person
+C67026,,149,man_orange-hair_sunglasses,Onett,person
+C66F90,,150,cop,Onett,person
+C66FE2,,151,cop,Onett,person
+C66F4A,,152,man_hat_blue-suit,Onett,person
+C66F20,,153,cop,Onett,person
+C67089,,154,cop,Onett,person
+C670E6,,155,cop,Onett,person
+C67194,,156,cop,Onett,person
+C671AD,,157,cop,Onett,person
+C67229,,158,cop,Onett,person
+C67237,,159,cop,Onett,person
+C672EB,,160,cop,Onett,person
+C67349,,161,pokey,Onett,person
+C745B9,C74646,162,traveling-entertainer,Onett,person
+C74BA9,,163,man_orange-hair_sunglasses,Onett,person
+,,164,captain-strong,Onett,person
+,,165,man_glasses_orange-cardigan,Onett,person
+C67BB9,,166,girl_redhead_pigtails,Onett,person
+C67C0C,,167,man_hat_blue-suit,Onett,person
+,,168,streetsign_city,Onett,object
+,,169,streetsign_city,Onett,object
+,,170,streetsign_city,Onett,object
+,,171,streetsign_city,Onett,object
+,,172,streetsign_city,Onett,object
+,,173,streetsign_city,Onett,object
+,,174,streetsign_city,Onett,object
+,,175,van,Onett,object
+,,176,red-truck,Onett,object
+,,177,roadblock,Onett,object
+,,178,roadblock,Onett,object
+,,179,roadblock,Onett,object
+,,180,roadblock,Onett,object
+,,181,mailbox,Onett,object
+,,182,mailbox,Onett,object
+,,183,mailbox,Onett,object
+,,184,mailbox,Onett,object
+C67BAD,,185,sign_don't-enter,Onett,object
+,,186,taxi,Onett,object
+,,187,roadblock,Onett,object
+,,188,roadblock,Onett,object
+,,189,roadblock,Onett,object
+,,190,roadblock,Onett,object
+C6A755,,191,hotel_sign,Onett,object
+C67B67,,192,sign_small,Onett,object
+,,193,cloud,Onett,object
+,,194,cloud,Onett,object
+,,195,cloud,Onett,object
+,,196,cloud,Onett,object
+,,197,cloud,Onett,object
+C86279,,198,meteor,Onett,object
+,,199,police-car,Onett,object
+,,200,police-car,Onett,object
+,,201,police-car,Onett,object
+C67B91,,202,monster_frankystein,Onett,object
+,,203,lier-x-agerate,Onett_Lier X Agerate's Shack_1F_B1F,person
+,,204,lier-x-agerate,Onett_Lier X Agerate's Shack_1F_B1F_B2F,person
+,,205,lier-x-agerate,Onett_Lier X Agerate's Shack_1F_B1F_B2F_B3F,person
+,,206,lier-x-agerate,Onett_Lier X Agerate's Shack_1F_B1F_B2F_B3F,person
+C66762,,207,lier-x-agerate,Onett_Lier X Agerate's Shack_1F_B1F_B2F_B3F_B4F,person
+C66A83,,208,monster_mani-mani-statue,Onett_Lier X Agerate's Shack_1F_B1F_B2F_B3F_B4F,object
+C66670,,209,monster_your-sanctuary,Onett_Giant Step_1F_Hallway_Boss-Room,person
+,,210,king_flashback,Cutscenes_Flashback_1F,person
+,,211,crib,Cutscenes_Flashback_1F_2F_Ness'-Room,person
+C80000,,212,man_mohawk_punk-clothes,Twoson_Cycle Shop_1F,person
+C804D1,,213,paula's-mom,Twoson_Polestar_1F,person
+C809BA,,214,girl_blonde_ponytail,Twoson_Polestar_1F,person
+C80A7E,,215,boy_baseball-helmet,Twoson_Polestar_1F,person
+C80B7F,,216,girl_redhead_pigtails,Twoson_Polestar_1F,person
+C80C31,,217,paula's-dad,Twoson_Polestar_1F_Den,person
+C968AE,,218,cat,Twoson_Polestar_1F_Den_Bedroom,person
+C950B2,,219,paula,Twoson_Polestar_1F_Den_Bedroom_Paula's-Room,person
+C81122,,220,orange-kid,Twoson_Orange Kid's House_1F,person
+C81676,,221,apple-kid,Twoson_Apple Kid's House_1F,person
+C81934,,222,monster_mouse,Twoson_Apple Kid's House_1F,person
+,,223,bench,Twoson_Apple Kid's House_1F,object
+,,224,junk-pile,Twoson_Apple Kid's House_1F,object
+,,225,open-can,Twoson_Apple Kid's House_1F,object
+C81A88,C81B0C,226,woman_black-hair_red-clothes,Twoson_Chaos Theater_1F,person
+C81BE2,,227,man_blonde_blue-blazer,Twoson_Chaos Theater_1F,person
+C81BB8,,228,woman_black-hair_red-clothes,Twoson_Chaos Theater_1F,person
+C81CD6,,229,girl_blonde_pink-dress,Twoson_Chaos Theater_1F,person
+C94A63,,230,cop,Twoson_Chaos Theater_1F,person
+C81CD6,,231,girl_blonde_pink-dress,Twoson_Chaos Theater_1F_Concert-Hall,person
+C81DF1,,232,lookalike_teddy,Twoson_Chaos Theater_1F_Concert-Hall,person
+C81E0F,,233,boy_fedora,Twoson_Chaos Theater_1F_Concert-Hall,person
+C81EEE,,234,man_orange-hair_sunglasses,Twoson_Chaos Theater_1F_Concert-Hall,person
+C81F2A,,235,woman_blonde_red-dress,Twoson_Chaos Theater_1F_Concert-Hall,person
+C793BE,,236,lookalike_mr-t,Twoson_Chaos Theater_1F_Concert-Hall,person
+C793F3,,237,woman_purse_green-dress,Twoson_Chaos Theater_1F_Concert-Hall,person
+C7944E,,238,woman_purse_black-dress,Twoson_Chaos Theater_1F_Concert-Hall,person
+C950E8,,239,man_bald_black-suit,Twoson_Chaos Theater_1F_Concert-Hall,person
+C9514F,,240,drunk-man,Twoson_Chaos Theater_1F_Concert-Hall,person
+C951B7,,241,man_glasses_-black-suit,Twoson_Chaos Theater_1F_Concert-Hall,person
+C9522B,,242,rastaman,Twoson_Chaos Theater_1F_Concert-Hall,person
+C9527C,,243,hippy,Twoson_Chaos Theater_1F_Concert-Hall,person
+C952B2,,244,woman_blonde_blue-blazer,Twoson_Chaos Theater_1F_Concert-Hall,person
+C95306,,245,woman_blonde_red-blazer,Twoson_Chaos Theater_1F_Concert-Hall,person
+C95324,,246,prettyman,Twoson_Chaos Theater_1F_Concert-Hall,person
+C953BF,,247,girl_blonde_pink-dress,Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room,person
+C953F7,C954E1,248,runaway-5_lucky,Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room,person
+C95532,C956D6,249,runaway-5_gorgeous,Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room,person
+C9571E,C95786,250,runaway-5_okay,Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room,person
+C9594D,C959A5,251,runaway-5_nice,Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room,person
+C957CB,C958D7,252,runaway-5_groovy,Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room,person
+C959DB,C95A8D,253,poochyfud,Twoson_Chaos Theater_1F_Manager's-Office,person
+C95C0E,,254,everdred,Twoson_Everdred's Shack_1F,person
+C96124,,255,fast-food-clerk,Twoson_Mach Pizza_1F,person
+C90393,,256,man_bald_black-suit,Twoson_Hotel_1F,person
+C962C8,,257,bellhop,Twoson_Hotel_1F,person
+C68017,,258,phone_black,Twoson_Hotel_1F,person
+C680A6,C680C2,259,atm-machine,Twoson_Hotel_1F_ATM,object
+C849ED,,260,bellhop,Twoson_Hotel_1F_Lobby,person
+C69121,,261,man_glasses_-black-suit,Twoson_Hotel_1F_Lobby,person
+C96304,,262,man_blonde_i-love-ny-shirt,Twoson_Hotel_1F_Lobby_Right-Room,person
+,,263,mushroom,Twoson_Hotel_1F_Lobby_Right-Room,object
+C963EA,,264,nurse,Twoson_Hospital_1F,person
+C916AF,,265,healer,Twoson_Hospital_1F,person
+C963F0,,266,doctor,Twoson_Hospital_1F_Doctor's-Office,person
+C963F6,,267,nurse,Twoson_Hospital_1F_Doctor's-Office,person
+C94D7A,C94E44,268,man_bald_black-suit,Twoson_Hospital_1F_2F_Right-Room,person
+C94ED9,,269,man_glasses_orange-cardigan,Twoson_Hospital_1F_2F_Left-Room,person
+C94F42,,270,lookalike_teddy,Twoson_Hospital_1F_2F,person
+C9649A,,271,man_orange-hair_sunglasses,Twoson_Bus Station_1F,person
+C9650F,,272,man_cane_green-jacket,Twoson_Bus Station_1F,person
+C96552,,273,man_bald_black-suit,Twoson_Bus Station_1F,person
+C965A4,,274,bus-driver,Twoson_Bus Station_1F,person
+C680A6,C680C2,275,atm-machine,Twoson_Bus Station_1F,object
+C6803D,,276,phone_payphone_left,Twoson_Bus Station_1F,person
+C96675,,277,woman_blonde_black-dress,Twoson_Houses_East-Orange_1F,person
+C7014F,,278,hint-man,Twoson_Hint Man's House_1F,person
+C9675A,,279,boy_blue-ballcap,Twoson_Houses_Northwest-Red-Roof_2F,person
+C9675A,,280,boy_blue-ballcap,Twoson_Houses_Northwest-Red-Roof_1F,person
+C967E7,,281,man_blonde_black-suit,Twoson_Houses_Northwest-Red-Roof_1F,person
+C967FB,,282,woman_blonde_blue-blazer,Twoson_Houses_Northwest-Red-Roof_1F,person
+C9684F,,283,girl_blonde_ponytail,Twoson_Houses_Northwest-Green-Roof_1F_2F,person
+C968AE,,284,cat,Twoson_Houses_Southeast-Green-Roof_1F,person
+C6A5E0,,285,man_glasses_orange-cardigan,Twoson_Houses_Southeast-Green-Roof_1F,person
+C680A6,C680C2,286,atm-machine,Twoson_Department Store_1F,object
+C6803D,,287,phone_payphone_left,Twoson_Department Store_1F,person
+C968B6,,288,lookalike_marcie,Twoson_Department Store_1F,person
+C968BC,,289,woman_blonde_blue-blazer,Twoson_Department Store_1F,person
+C969E5,,290,man_blonde_blue-blazer,Twoson_Department Store_1F,person
+C96A72,,291,woman_pink-maid-outfit,Twoson_Department Store_1F,person
+C96A78,,292,chef,Twoson_Department Store_1F,person
+C96A7E,,293,woman_cane_pink-dress,Twoson_Department Store_1F,person
+C96B37,,294,woman_black-hair_red-clothes,Twoson_Department Store_1F,person
+C96BB5,,295,lookalike_marcie,Twoson_Department Store_1F,person
+C96BAF,,296,man_glasses_orange-cardigan,Twoson_Department Store_1F,person
+C96BBB,,297,girl_black-hair_red-jumper,Twoson_Department Store_1F,person
+C96BF2,,298,man_blonde_blue-oxford,Twoson_Department Store_1F,person
+C695D8,,299,girl_blonde_pink-dress,Twoson_Department Store_1F,person
+C698CA,,300,lookalike_pigpen,Twoson_Department Store_1F,person
+C6A551,,301,lookalike_teddy,Twoson_Department Store_1F,person
+C680A6,C680C2,302,atm-machine,Twoson_Department Store_1F,object
+C93853,,303,woman_blonde_red-dress,Twoson,person
+C93A00,,304,man_hat_blue-suit,Twoson,person
+C93A2E,,305,boy_fedora,Twoson,person
+C93AED,,306,lookalike_mr-t,Twoson,person
+C93B60,,307,woman_cane_pink-dress,Twoson,person
+C93CA7,,308,prettyman,Twoson,person
+C93D31,,309,girl_blonde_pink-dress,Twoson,person
+C93DA9,,310,ruffini,Twoson,person
+C93E16,,311,rastaman,Twoson,person
+C93E1C,,312,lookalike_pigpen,Twoson,person
+C93FA0,,313,lookalike_shy-guy-mask,Twoson,person
+C940E3,,314,man_blonde_resortwear,Twoson,person
+C942C7,,315,lookalike_teddy,Twoson,person
+C94479,,316,chef,Twoson,person
+C9447F,,317,snake-salesman,Twoson,person
+C94503,,318,woman_cane_pink-dress,Twoson,person
+C94509,,319,orange-kid,Twoson,person
+C94ABC,,320,runaway-5_lucky,Twoson,person
+C80C31,,321,paula's-dad,Twoson,person
+C94730,,322,man_blonde_i-love-ny-shirt,Twoson,person
+,,323,lookalike_teddy,Twoson,person
+C945A9,,324,lookalike_mr-t,Twoson,person
+C9461F,,325,man_orange-hair_sunglasses,Twoson,person
+C946B1,,326,man_glasses_orange-cardigan,Twoson,person
+C946E6,,327,woman_blonde_red-dress,Twoson,person
+C9477D,,328,runaway-5_lucky,Twoson,person
+C94883,,329,runaway-5_gorgeous,Twoson,person
+C95019,,330,lookalike_teddy,Twoson,person
+C94B57,,331,man_redhead_green-oxford,Twoson,person
+C94BC9,,332,girl_blonde_pink-dress,Twoson,person
+C94C6D,,333,girl_blonde_yellow-dress,Twoson,person
+,,334,everdred,Twoson,person
+C81C91,,335,monster_mouse,Twoson,person
+C81F56,,336,apple-kid,Twoson,person
+,,337,cat_sleeping,Twoson,person
+C6502D,,338,hippy,Twoson,person
+C96425,,339,man_hat_black-suit,Twoson,person
+C81C56,,340,man_blonde_blue-blazer,Twoson,person
+C80939,,341,boy_blue-ballcap,Twoson,person
+C6A458,,342,woman_blonde_red-dress,Twoson,person
+C748D8,,343,helpful-mole,Twoson,person
+C94560,,344,monster_ghost,Transitions_Twoson to Threed_Tunnel-A,person
+C94560,,345,monster_ghost,Transitions_Twoson to Threed_Tunnel-A,person
+C94560,,346,monster_ghost,Transitions_Twoson to Threed_Tunnel-A,person
+C94560,,347,monster_ghost,Transitions_Twoson to Threed_Tunnel-A,person
+C94560,,348,monster_ghost,Transitions_Twoson to Threed_Tunnel-A,person
+C94560,,349,monster_ghost,Transitions_Twoson to Threed_Tunnel-A,person
+,,350,bench,Twoson,object
+,,351,bench,Twoson,object
+C5FD72,,352,sign_bus-stop,Twoson,object
+,,353,mailbox,Twoson,object
+,,354,mailbox,Twoson,object
+,,355,mailbox,Twoson,object
+C94594,,356,streetsign_rural,Twoson,object
+C95393,,357,sportscar,Twoson,person
+,,358,van,Twoson,object
+,,359,bicycle,Twoson,object
+,,360,taxi,Twoson,object
+C866C4,,361,sign_apple-kid,Twoson,object
+,,362,streetsign_city,Twoson,object
+,,363,streetsign_city,Twoson,object
+,,364,streetsign_city,Twoson,object
+C866AB,,365,sign_orange-kid,Twoson,object
+,,366,streetsign_city,Twoson,object
+C6A77B,,367,hotel_sign,Twoson,object
+,,368,streetsign_city,Twoson,object
+C95365,,369,sign_burglin-park,Twoson,object
+,,370,streetsign_city,Twoson,object
+,,371,banana,Twoson,object
+,,372,banana,Twoson,object
+C94769,,373,bus_runaway-5,Twoson,object
+C94769,,374,bus_runaway-5,Twoson,object
+C98000,,375,monster_mani-mani-statue,Happy Happy Village_Happy Happy HQ_1F_Reception_Carpainter,object
+C98024,,376,carpainter,Happy Happy Village_Happy Happy HQ_1F_Reception_Carpainter,person
+C982F2,,377,man_hat_blue-suit,Happy Happy Village_Happy Happy HQ_1F_Reception,person
+C98374,,378,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C98424,,379,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C9847F,,380,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C98517,,381,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C98598,,382,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C98602,,383,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C9864B,,384,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C986CC,,385,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C9873B,,386,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C98785,,387,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C987CF,,388,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C9881E,,389,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C9886F,,390,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C988CB,,391,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C988F1,,392,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C98913,,393,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C99703,,394,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C99720,,395,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C99757,,396,happy-happyist,Happy Happy Village_Happy Happy HQ_1F,person
+C98F37,,397,lookalike_teddy,Happy Happy Village_Town Hall_1F,person
+C990B3,,398,rastaman,Happy Happy Village_Town Hall_1F,person
+C99776,,399,man_blonde_black-suit,Happy Happy Village_Town Hall_1F,person
+C997AE,,400,woman_blonde_blue-blazer,Happy Happy Village_Town Hall_1F,person
+C997EE,,401,happy-happyist,Happy Happy Village_Town Hall_1F,person
+C98B24,,402,mr-saturn,Happy Happy Village_Mr Saturn's House_1F,person
+C98B68,,403,man_glasses_orange-cardigan,Happy Happy Village_Drug Store_1F,person
+C6501B,,404,man_cane_green-jacket,Happy Happy Village_Drug Store_1F,person
+C697BA,,405,woman_blonde_black-dress,Happy Happy Village_Drug Store_1F,person
+C680A6,C680C2,406,atm-machine,Happy Happy Village_Drug Store_1F,object
+C6803D,,407,phone_payphone_left,Happy Happy Village_Drug Store_1F,person
+C994F5,,408,prettyman,Happy Happy Village_Hotel_1F,person
+C90010,,409,doctor,Happy Happy Village_Hospital_1F,person
+C9009D,,410,nurse,Happy Happy Village_Hospital_1F,person
+C98CD3,,411,pokey,Happy-Happy-Village,person
+C98D78,,412,maxwell-labs,Happy-Happy-Village,person
+C98EDE,,413,woman_black-hair_red-clothes,Happy-Happy-Village,person
+C99018,,414,hippy,Happy-Happy-Village,person
+C99120,,415,man_bald_black-suit,Happy-Happy-Village,person
+C991C7,,416,man_blonde_blue-blazer,Happy-Happy-Village,person
+C99282,,417,saxophonist,Happy-Happy-Village,person
+C992FA,,418,woman_blonde_blue-blazer,Happy-Happy-Village,person
+C993A5,C69007,419,cow,Happy-Happy-Village,person
+C9894E,,420,girl_blonde_yellow-dress,Happy-Happy-Village,person
+C99582,,421,lookalike_pigpen,Happy-Happy-Village,person
+C996AA,,422,woman_blonde_red-dress,Happy-Happy-Village,person
+C98B6E,,423,man_glasses_orange-cardigan,Happy-Happy-Village,person
+C98BEF,,424,lookalike_shy-guy-mask,Happy-Happy-Village,person
+C916AF,,425,healer,Happy-Happy-Village,person
+C9985A,,426,carpainter,Happy-Happy-Village,person
+C6A1BC,,427,helpful-mole,Happy-Happy-Village,person
+,,428,mailbox,Happy-Happy-Village,object
+,,429,mailbox,Happy-Happy-Village,object
+,,430,mailbox,Happy-Happy-Village,object
+,,431,bicycle,Happy-Happy-Village,object
+C994CB,,432,sign_small,Twoson,object
+C98E8D,,433,sign_small,Happy-Happy-Village,object
+,,434,banana,Happy-Happy-Village,object
+C998C1,,435,sign_small,Happy-Happy-Village,object
+EF952E,C795C1,436,door_jail-cell,Peaceful Rest Valley_Paula's Cabin_1F,person
+EF952E,,437,paula,Peaceful Rest Valley_Paula's Cabin_1F,person
+,,438,teddy-bear_1,Peaceful Rest Valley_Paula's Cabin_1F,object
+C794B1,,439,pokey,Peaceful-Rest-Valley,person
+,,440,happy-happyist,Peaceful-Rest-Valley,person
+,,441,happy-happyist,Peaceful-Rest-Valley,person
+,,442,monster_crow,Peaceful-Rest-Valley,person
+EF9822,,443,man_hat_blue-suit,Peaceful-Rest-Valley,person
+EF981C,,444,girl_black-hair_red-jumper,Peaceful-Rest-Valley,person
+C994FB,,445,man_glasses_orange-cardigan,Peaceful-Rest-Valley,person
+,,446,entertainers-shack-door,Peaceful-Rest-Valley,person
+,,447,entertainers-shack-door,Peaceful-Rest-Valley,person
+EF9857,,448,helpful-mole,Peaceful-Rest-Valley,person
+EF9785,,449,streetsign_rural,Peaceful-Rest-Valley,object
+C79088,C790C4,450,pencil-statue,Peaceful-Rest-Valley,object
+EF97A2,,451,monster_your-sanctuary,Happy Happy Village_Lilliput Steps_1F,person
+,,452,ness_unconscious,Happy Happy Village_Lilliput Steps_1F_Hallway,person
+,,453,paula,Happy Happy Village_Lilliput Steps_1F_Hallway,person
+,,454,jeff,Happy Happy Village_Lilliput Steps_1F_Hallway,person
+,,455,poo,Happy Happy Village_Lilliput Steps_1F_Hallway,person
+C8D9ED,,456,woman_blonde_red-blazer,Threed_Circus Tent_1F,person
+C8DB32,,457,man_glasses_orange-cardigan,Threed_Circus Tent_1F,person
+C8DC4F,,458,woman_blonde_blue-blazer,Threed_Circus Tent_1F,person
+C8DD35,,459,prettyman,Threed_Circus Tent_1F,person
+C8F69D,,460,monster_zombie,Threed_Circus Tent_1F,person
+C8F6B5,,461,monster_zombie,Threed_Circus Tent_1F,person
+C8F6CA,,462,monster_zombie,Threed_Circus Tent_1F,person
+C6BEF9,,463,monster_zombie_lying-head-right,Threed_Circus Tent_1F,person
+C8F66A,,464,monster_zombie_lying-head-right,Threed_Circus Tent_1F,person
+C8F69D,,465,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person
+C8F6B5,,466,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person
+C6BEF9,,467,monster_zombie_lying-head-right,Threed_Circus Tent_1F,person
+C6BEF9,,468,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person
+C8F6CA,,469,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person
+C8F6E2,,470,monster_zombie_lying-head-right,Threed_Circus Tent_1F,person
+C8F701,,471,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person
+C8F715,,472,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person
+C6BEF9,,473,monster_zombie_lying-head-left,Threed_Circus Tent_1F,person
+C8F725,,474,monster_zombie_lying-head-right,Threed_Circus Tent_1F,person
+C8EFB9,,475,lookalike_teddy,Threed_Circus Tent_1F,person
+C8F11B,,476,man_bald_black-suit,Threed_Circus Tent_1F,person
+C8DF51,,477,prettyman,Threed_Skyrunner_B1F_Skyrunner-Room,person
+C8DF8A,,478,man_glasses_orange-cardigan,Threed_Skyrunner_B1F_Skyrunner-Room,person
+C6FAE5,C6FB02,479,entertainers-shack-door,Threed_Skyrunner_B1F_Skyrunner-Room,object
+C91C3A,,480,manhole,Threed_Skyrunner_B1F_Skyrunner-Room,object
+C8F75E,,481,sky-runner_broken,Threed_Skyrunner_B1F_Skyrunner-Room,object
+C91C3A,,482,sky-runner,Threed_Skyrunner_B1F_Skyrunner-Room,object
+C9067D,,483,bellhop,Threed_Hotel_1F,person
+,,484,Threed-hotel-woman,Threed_Hotel_1F,person
+C8F450,,485,man_glasses_-black-suit,Threed_Hotel_1F,person
+C8F48A,,486,man_blonde_blue-blazer,Threed_Hotel_1F,person
+C68017,,487,phone_black,Threed_Hotel_1F,person
+C680A6,C680C2,488,atm-machine,Threed_Hotel_1F_ATM,object
+,,489,Threed-hotel-woman,Threed_Hotel_1F_Lobby,person
+C84FD8,,490,bellhop,Threed_Hotel_1F_Lobby,person
+C8F240,,491,bellhop,Threed_Hotel_1F_Lobby,person
+,,492,Threed-hotel-woman,Threed_Hotel_1F_Lobby_Left-Room,person
+,,493,monster_zombie,Threed_Hotel_1F_Lobby_Left-Room,person
+,,494,monster_ghost,Threed_Hotel_1F_Lobby_Left-Room,person
+,,495,monster_zombie,Threed_Hotel_1F_Lobby_Left-Room,person
+,,496,monster_ghost,Threed_Hotel_1F_Lobby_Left-Room,person
+,,497,monster_zombie-dog,Threed_Hotel_1F_Lobby_Left-Room,person
+C8DFC1,,498,man_blonde_black-suit,Threed_Hotel_1F_Lobby_Right-Room,person
+C8E044,,499,nurse,Threed_Hospital_1F,person
+C8E04A,,500,man_bald_black-suit,Threed_Hospital_1F,person
+C916BB,,501,healer,Threed_Hospital_1F,person
+C8E0AD,,502,lookalike_shy-guy-mask,Threed_Hospital_1F_2F_Right-Room,person
+C8E132,,503,doctor,Threed_Hospital_1F_Doctor's-Office,person
+C8E138,,504,man_glasses_orange-cardigan,Threed_Drug Store_1F,person
+C8E13E,,505,man_cane_green-jacket,Threed_Drug Store_1F,person
+C680A6,C680C2,506,atm-machine,Threed_Drug Store_1F,object
+C6803D,,507,phone_payphone_left,Threed_Drug Store_1F,person
+C96124,,508,fast-food-clerk,Threed_Mach Pizza_1F,person
+C8E144,,509,chef,Threed_Bakery_1F,person
+C7015A,,510,hint-man,Threed_Hint Man's House_1F,person
+C8E62C,,511,boy_blue-ballcap,Threed_Houses_Southeast_1F,person
+C8EEE5,,512,man_hat_black-suit,Threed_Houses_Southwest_1F,person
+C8ED1E,,513,woman_blonde_red-blazer,Threed_Houses_Center-Northeast_1F,person
+C8EE02,,514,woman_blonde_red-dress,Threed_Houses_Southeast-Mailbox_1F,person
+C8E14A,,515,lookalike_shy-guy-mask,Threed,person
+C8E1BD,,516,maxwell-labs,Threed,person
+C8E275,,517,man_redhead_green-oxford,Threed,person
+C8E2EA,,518,girl_blonde_yellow-dress,Threed,person
+C8E388,,519,man_bald_black-suit,Threed,person
+C8E467,,520,man_blonde_blue-oxford,Threed,person
+C8E515,,521,elevator_attendant,Threed,person
+C8E5B1,,522,boy_blue-ballcap,Threed,person
+C8E6A9,,523,monster_mouse,Threed,person
+C8E6E3,,524,ruffini,Threed,person
+C8E6ED,,525,woman_cane_pink-dress,Threed,person
+C8E734,,526,man_hat_green-jacket,Threed,person
+C8E804,,527,lookalike_pigpen,Threed,person
+C8EA8B,,528,girl_black-hair_red-jumper,Threed,person
+C8EACE,,529,man_orange-hair_sunglasses,Threed,person
+C8EB2C,,530,girl_blonde_pink-dress,Threed,person
+,,531,monster_boogie-tent_eye,Threed,person
+,,532,monster_boogie-tent_eye,Threed,person
+,,533,monster_boogie-tent_mouth,Threed,person
+C8EBE4,,534,monster_zombie,Threed,person
+C8EC90,,535,monster_zombie,Threed,person
+C8ECB4,,536,arms-dealer,Threed,person
+C8ECBA,,537,man_hat_black-suit,Threed,person
+,,538,Threed-hotel-woman,Threed,person
+C8DE4A,,539,prettyman,Threed,person
+C8DBF8,,540,man_glasses_orange-cardigan,Threed,person
+C8DCD6,,541,woman_blonde_blue-blazer,Threed,person
+C8DAA0,,542,woman_blonde_red-blazer,Threed,person
+C8F6E2,,543,monster_zombie,Threed,person
+C8F701,,544,monster_zombie,Threed,person
+C8F725,,545,monster_zombie,Threed,person
+,,546,monster_ghost,Threed,person
+,,547,monster_ghost,Threed,person
+,,548,monster_dog,Threed,person
+,,549,entertainers-shack-door,Threed,person
+,,550,entertainers-shack-door,Threed,person
+C8EF99,,551,lookalike_pigpen,Threed,person
+C8F2B7,,552,woman_blonde_red-dress,Threed,person
+C8F2EF,,553,man_hat_blue-suit,Threed,person
+C8F324,,554,woman_blonde_blue-blazer,Threed,person
+C8F344,,555,man_blonde_blue-blazer,Threed,person
+C8F392,,556,man_glasses_orange-cardigan,Threed,person
+C8F3EB,,557,man_blonde_blue-oxford,Threed,person
+C8F41F,,558,girl_blonde_pink-dress,Threed,person
+C8F42A,,559,prettyman,Threed,person
+C8F43F,,560,boy_baseball-helmet,Threed,person
+C8F448,,561,man_orange-hair_sunglasses,Threed,person
+C8F535,,562,lookalike_pigpen,Threed,person
+C8F5D0,,563,man_hat_black-suit,Threed,person
+C9A930,,564,man_mohawk_punk-clothes,Threed,person
+C8EFB9,,565,lookalike_teddy,Threed,person
+C8F11B,,566,man_bald_black-suit,Threed,person
+,,567,entertainers-shack-door,Threed,person
+,,568,entertainers-shack-door,Threed,person
+C67BAD,,569,sign_don't-enter,Threed,object
+C5FDEA,,570,sign_bus-stop,Threed,object
+,,571,mailbox,Threed,object
+,,572,lamppost,Threed,object
+,,573,lamppost,Threed,object
+,,574,lamppost,Threed,object
+,,575,lamppost,Threed,object
+,,576,lamppost,Threed,object
+,,577,lamppost,Threed,object
+,,578,lamppost,Threed,object
+,,579,lamppost,Threed,object
+C5FE4B,,580,sign_bus-stop,Threed,object
+,,581,bench,Threed,object
+C7DACB,,582,trashcan,Threed,object
+C6A7A5,,583,hotel_sign,Threed,object
+,,584,bus,Threed,object
+C94560,,585,monster_ghost,Transitions_Threed-to-Dusty-Dunes,person
+C94560,,586,monster_ghost,Transitions_Threed-to-Dusty-Dunes,person
+C94560,,587,monster_ghost,Transitions_Threed-to-Dusty-Dunes,person
+C94560,,588,monster_ghost,Transitions_Threed-to-Dusty-Dunes,person
+C94560,,589,monster_ghost,Transitions_Threed-to-Dusty-Dunes,person
+EF9502,,590,monster_little-pile,Threed_Under Graveyard_1F_B1F_Stairs_B2F_Stairs_Boss-Room,person
+C6A9F9,,591,tony_bed,Winters_Snow Wood_1F_2F_Jeff-and-Tony's-Room,person
+,,592,jeff_bed,Winters_Snow Wood_1F_2F_Jeff-and-Tony's-Room,person
+,,593,junk-pile,Winters_Snow Wood_1F_2F_Jeff-and-Tony's-Room,object
+C6AA2F,,594,maxwell-labs,Winters_Snow Wood_1F_Maxwell's-Room,person
+C6F8D9,C6F8E6,595,entertainers-shack-door,Winters_Snow Wood_1F_Locker-Room,object
+C6F8D9,C6F940,596,entertainers-shack-door,Winters_Snow Wood_1F_Locker-Room,object
+C6F8D9,C6F96D,597,entertainers-shack-door,Winters_Snow Wood_1F_Locker-Room,object
+C6F8D9,C6F99A,598,entertainers-shack-door,Winters_Snow Wood_1F_Locker-Room,object
+C6F8D9,C6F913,599,entertainers-shack-door,Winters_Snow Wood_1F_Locker-Room,object
+C6C42C,,600,man_blonde_black-suit,Winters_Snow Wood_1F_2F,person
+C6C479,,601,man_blonde_blue-oxford,Winters_Snow Wood_1F_2F,person
+C6C4D5,,602,man_redhead_green-oxford,Winters_Snow Wood_1F_2F,person
+C6C52E,,603,man_blonde_blue-blazer,Winters_Snow Wood_1F_2F,person
+C6C565,,604,man_blonde_i-love-ny-shirt,Winters_Snow Wood_1F_2F_Present-Room,person
+C6CD2A,,605,man_orange-hair_sunglasses,Winters_Snow Wood_1F_2F_Present-Room,person
+C6AD68,,606,man_glasses_orange-cardigan,Winters_Drug Store_1F,person
+C6AD6E,,607,woman_blonde_red-dress,Winters_Drug Store_1F,person
+C6AF23,,608,lookalike_pigpen,Winters_Drug Store_1F,person
+C6AF6C,,609,bubble-monkey,Winters_Drug Store_1F,person
+C68091,,610,phone_black,Winters_Drug Store_1F,person
+C680A6,C680C2,611,atm-machine,Winters_Drug Store_1F,object
+C6AFE1,,612,tessie-watcher,Winters_Tents_South-1_1F,person
+C6B0FA,,613,tessie-watcher,Winters_Tents_South-3_1F,person
+C68091,,614,phone_black,Winters_Tents_South-3_1F,person
+C6B18D,,615,dr-andonuts,Winters_Andonuts Lab_1F,person
+C6C7D9,,616,monster_mouse,Winters_Andonuts Lab_1F,person
+C6CB97,,617,monkey-girl,Winters_Andonuts Lab_1F,person
+C6CC31,,618,bubble-monkey,Winters_Andonuts Lab_1F,person
+C6504B,,619,monster_cave-boy,Winters_Andonuts Lab_1F,person
+C68091,,620,phone_black,Winters_Andonuts Lab_1F,person
+,,621,manhole,Winters_Andonuts Lab_1F,object
+C6CDCD,,622,rejuvenator,Winters_Andonuts Lab_1F,object
+,,623,sky-runner,Winters_Andonuts Lab_1F,object
+C6C606,,624,man_redhead_green-oxford,Winters_Tents_North_1F,person
+C6C68F,,625,man_blonde_blue-blazer,Winters_Tents_North_1F,person
+C6B7D0,,626,maxwell-labs,Onett,person
+C6B8EB,,627,tessie-watcher,Winters,person
+C6BA5F,,628,tessie-watcher,Winters,person
+C6BB60,,629,tessie-watcher,Winters,person
+C6BBF9,,630,bubble-monkey,Winters,person
+C6BC80,,631,brickroad,Winters,person
+,,632,monkey-girl,Winters,person
+C6BDD3,,633,prettyman,Winters,person
+C7A22A,,634,tony_prone,Onett,person
+C6C2DB,,635,tessie-watcher,Winters,person
+C6C3A9,,636,tessie-watcher,Winters,person
+C6C970,,637,monkey-girl,Onett,person
+C6CEBC,,638,maxwell-labs,Onett,person
+C6CF2D,,639,tony,Onett,person
+,,640,entertainers-shack-door,Winters,person
+,,641,entertainers-shack-door,Winters,person
+,,642,animation_tessie-water_fill-layer,Winters,object
+,,643,animation_tessie-water_fill-layer,Winters,object
+,,644,animation_tessie-water_fill-layer,Winters,object
+C79088,C79101,645,pencil-statue,Winters,object
+C68DE4,,646,sign_small,Winters,object
+,,647,rainy-pond-waterdrop,Winters,object
+,,648,rainy-pond-waterdrop,Winters,object
+,,649,rainy-pond-waterdrop,Winters,object
+,,650,rainy-pond-waterdrop,Winters,object
+,,651,rainy-pond-waterdrop,Winters,object
+,,652,rainy-pond-waterdrop,Winters,object
+,,653,rainy-pond-waterdrop,Winters,object
+,,654,animation_tessie-water_fill-layer,Winters,object
+,,655,animation_tessie-water_top,Winters,object
+,,656,animation_tessie-water_bottom,Winters,object
+C6D0B1,,657,apple-kid,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+C6BF0C,,658,apple-kid,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+C6D0F0,,659,mr-saturn,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+C6C035,,660,mr-saturn,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+C6D133,,661,tony,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+C6C099,,662,tony,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+,,663,tessie-watcher,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+C6C1C3,,664,tessie-watcher,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+C6C236,,665,lookalike_mr-t,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+C6C287,,666,hippy,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+,,667,dr-andonuts,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+C6CE34,,668,dr-andonuts,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+C6D0DB,,669,lookalike_mr-t,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+C6D082,,670,hippy,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person
+C9FC9E,C9FCD5,671,eraser-statue,Winters_Stonehenge Base_B1F_B2F,object
+EF941F,,672,monster_starman,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules_Boss-Room,person
+C67938,,673,exit-mouse-father,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse,person
+C67820,,674,exit-mouse,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse,person
+C67836,,675,exit-mouse,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse,person
+C6BE74,,676,monster_your-sanctuary,Winters_Rainy Circle_1F_Hallway_Boss-Room,person
+,,677,rope_coiled,Winters_Rainy Circle_1F_Hallway_Boss-Room,object
+EF9365,,678,monster_duck,Winters_Brickroad Dungeon_1F,person
+EF9384,,679,monster_duck,Winters_Brickroad Dungeon_1F,person
+EF93A3,,680,present,Winters_Brickroad Dungeon_1F,person
+EF93C2,,681,present,Winters_Brickroad Dungeon_1F,person
+EF93E1,,682,monster_mouse,Winters_Brickroad Dungeon_1F,person
+EF9400,,683,monster_mouse,Winters_Brickroad Dungeon_1F,person
+C68091,,684,phone_black,Winters_Brickroad Dungeon_1F,person
+C87A9A,,685,sign_small,Winters_Brickroad Dungeon_1F,object
+C87ABA,,686,sign_small,Winters_Brickroad Dungeon_1F,object
+C87AEB,,687,sign_small,Winters_Brickroad Dungeon_1F,object
+EF617B,,688,monster_little-pile,Grapefruit Falls_Belch's Base_1F,person
+EF6276,,689,monster_little-pile,Grapefruit Falls_Belch's Base_1F,person
+EF62B1,,690,monster_little-pile,Grapefruit Falls_Belch's Base_1F,person
+EF62F5,,691,monster_little-pile,Grapefruit Falls_Belch's Base_1F,person
+EF63B5,,692,monster_little-pile,Grapefruit Falls_Belch's Base_1F,person
+EF6400,,693,mr-saturn,Grapefruit Falls_Belch's Base_1F,person
+EF6419,,694,mr-saturn,Grapefruit Falls_Belch's Base_1F,person
+,,695,fly-honey-jar,Grapefruit Falls_Belch's Base_1F,object
+,,696,fly-honey-jar,Grapefruit Falls_Belch's Base_1F,object
+EF6446,,697,monster_belch,Grapefruit Falls_Belch's Base_1F_Boss-Room,person
+,,698,ball-and-chain,Grapefruit Falls_Belch's Base_1F,object
+,,699,ball-and-chain,Grapefruit Falls_Belch's Base_1F,object
+,,700,ness_unconscious,Saturn Valley_Milky Well_1F,person
+,,701,paula,Saturn Valley_Milky Well_1F,person
+,,702,jeff,Saturn Valley_Milky Well_1F,person
+,,703,poo,Saturn Valley_Milky Well_1F,person
+,,704,milky-well-spout,Saturn Valley_Milky Well_1F,object
+EF679A,,705,monster_your-sanctuary,Happy Happy Village_Lilliput Steps_1F_Hallway_Boss-Room,person
+C6A8D4,,706,mr-saturn,Transitions_Belch's-Base-to-Saturn-Valley,person
+C7FE02,,707,mr-saturn,Transitions_Belch's-Base-to-Saturn-Valley,person
+EF6814,,708,man_hat_green-jacket,Grapefruit-Falls,person
+,,709,entertainers-shack-door,Grapefruit-Falls,person
+C7E797,,710,mr-saturn,Saturn Valley_Hotel_1F,person
+C68017,,711,phone_black,Saturn Valley_Hotel_1F,person
+C7E80D,,712,mr-saturn,Saturn Valley_Doctor Saturn_1F,person
+C7E813,,713,mr-saturn,Saturn Valley_Saturn Shop_1F,person
+C5D389,,714,mr-saturn,Saturn Valley_Saturn Shop_1F,person
+C65021,,715,mr-saturn,Saturn Valley_Saturn Shop_1F,person
+C680A6,C680C2,716,atm-machine_saturn,Saturn Valley_Saturn Shop_1F,object
+C68017,,717,phone_black,Saturn Valley_Saturn Shop_1F,person
+C7E819,,718,mr-saturn,Saturn-Valley,person
+C7E8AE,,719,mr-saturn,Saturn-Valley,person
+C7E96C,,720,mr-saturn,Saturn-Valley,person
+C7EBF9,,721,mr-saturn,Saturn-Valley,person
+C7EC6C,,722,mr-saturn,Saturn-Valley,person
+C7EDF1,,723,mr-saturn,Saturn-Valley,person
+C7EE7B,,724,mr-saturn,Saturn-Valley,person
+C7EEDE,,725,mr-saturn,Saturn-Valley,person
+C7EF0D,,726,mr-saturn,Saturn-Valley,person
+C7EF3B,,727,apple-kid,Saturn-Valley,person
+C7F165,C7F29E,728,dr-andonuts,Saturn-Valley,person
+C7F710,,729,george-montague,Saturn-Valley,person
+C7F8C7,,730,mr-saturn,Saturn-Valley,person
+C7F921,,731,mr-saturn,Saturn-Valley,person
+C7FE61,,732,mr-saturn,Saturn-Valley,person
+C6C942,,733,monster_mouse,Saturn-Valley,person
+C7FB3E,C69038,734,jeff,Saturn-Valley,person
+,,735,mr-saturn,Saturn-Valley,person
+,,736,entertainers-shack-door,Saturn-Valley,person
+C7EA00,,737,mr-saturn,Saturn Valley_Ladder Room_1F,person
+C7EB4C,,738,mr-saturn,Saturn Valley_Ladder Room_1F,person
+C7ECE9,,739,mr-saturn,Saturn Valley_Ladder Room_1F,person
+C69861,,740,mr-saturn,Saturn Valley_Ladder Room_1F,person
+,,741,phase-distorter,Saturn-Valley,object
+C7F8AB,,742,sign_spa,Saturn-Valley,object
+C6A90C,,743,sign_small,Saturn-Valley,object
+C7DB3F,,744,present,Saturn-Valley,object
+C7DB8D,,745,present,Saturn-Valley,object
+C7DBDB,,746,present,Saturn-Valley,object
+C60000,,747,man_glasses_orange-cardigan,Dusty Dunes Desert_Drug Store_1F,person
+C906F1,,748,maxwell-labs,Dusty Dunes Desert_Drug Store_1F,person
+C65027,,749,man_cane_green-jacket,Dusty Dunes Desert_Drug Store_1F,person
+C680A6,C680C2,750,atm-machine,Dusty Dunes Desert_Drug Store_1F,object
+C68017,,751,phone_black,Dusty Dunes Desert_Drug Store_1F,person
+C6002C,,752,construction-worker,Dusty Dunes Desert_Construction Shack_1F,person
+C68017,,753,phone_black,Dusty Dunes Desert_Construction Shack_1F,person
+C600D5,,754,woman_blonde_red-blazer,Dusty-Dunes-Desert,person
+C60100,,755,man_blonde_blue-blazer,Dusty-Dunes-Desert,person
+C60140,,756,man_blonde_resortwear,Dusty-Dunes-Desert,person
+C60180,,757,lookalike_teddy,Dusty-Dunes-Desert,person
+C601C0,,758,man_lying-down_swimwear,Dusty-Dunes-Desert,person
+C60239,,759,woman_lying-down_swimwear,Dusty-Dunes-Desert,person
+C60349,,760,george-montague,Dusty-Dunes-Desert,person
+C605DB,,761,woman_blonde_red-dress,Dusty-Dunes-Desert,person
+C60633,,762,girl_blonde_pink-dress,Dusty-Dunes-Desert,person
+C60678,,763,lookalike_teddy,Dusty-Dunes-Desert,person
+C60696,,764,man_hat_black-suit,Dusty-Dunes-Desert,person
+C60B8A,,765,sanchez-brother,Dusty-Dunes-Desert,person
+C60B9B,,766,sanchez-brother,Dusty-Dunes-Desert,person
+C60BAE,,767,sanchez-brother,Dusty-Dunes-Desert,person
+C60DC4,,768,monkey-boy,Dusty-Dunes-Desert,person
+C60E2A,,769,arms-dealer,Dusty-Dunes-Desert,person
+C8905C,,770,construction-worker,Transitions_Dusty Dunes to Fourside_Fourside-Bridge,person
+C62B87,,771,monkey-boy,Dusty-Dunes-Desert,person
+C6283D,,772,monkey-boy,Dusty-Dunes-Desert,person
+C62886,,773,monkey-boy,Dusty-Dunes-Desert,person
+C916C7,,774,healer,Dusty-Dunes-Desert,person
+C6503F,,775,man_blonde_i-love-ny-shirt,Dusty-Dunes-Desert,person
+,,776,entertainers-shack-door,Transitions_Dusty Dunes to Fourside_Fourside-Bridge,person
+,,777,entertainers-shack-door,Dusty-Dunes-Desert,person
+C6026C,,778,sign_small,Dusty-Dunes-Desert,object
+C606D8,,779,arcade-game,Dusty-Dunes-Desert,object
+C60BBF,,780,animal-bones,Dusty-Dunes-Desert,object
+C60BE3,,781,animal-bones,Dusty-Dunes-Desert,object
+C60C1B,,782,sesame-seed_black,Dusty-Dunes-Desert,person
+C60CD8,,783,sesame-seed_white,Dusty-Dunes-Desert,person
+C690FF,,784,sportscar,Dusty-Dunes-Desert,person
+,,785,taxi,Dusty-Dunes-Desert,object
+,,786,red-truck_duplicate,Dusty-Dunes-Desert,object
+,,787,van_duplicate,Dusty-Dunes-Desert,object
+C65057,,788,food-cart,Dusty-Dunes-Desert,object
+,,789,red-truck,Dusty-Dunes-Desert,object
+C78628,,790,sign_bus-stop,Dusty-Dunes-Desert,object
+C78748,,791,sign_bus-stop,Dusty-Dunes-Desert,object
+C62CF9,,792,sign_small,Dusty-Dunes-Desert,object
+,,793,backhoe,Dusty-Dunes-Desert,object
+C60D6C,,794,sparkle_tiny,Dusty-Dunes-Desert,object
+,,795,backhoe,Transitions_Dusty Dunes to Fourside_Fourside-Bridge,object
+,,796,backhoe,Dusty-Dunes-Desert,object
+C62CF5,,797,tala-lama,Dusty Dunes Desert_Desert Gold Mine_1F-Maze_Room-2,person
+C62C50,,798,monkey-boy,Dusty Dunes Desert_Desert Gold Mine_1F-Maze_Room-2,person
+C61715,,799,monkey-boy,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+C61616,,800,monkey-boy,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+C61715,,801,monkey-boy,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+C61616,,802,monkey-boy,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+C61966,,803,monkey-girl,"Dusty Dunes Desert_Monkey Cave_Start_Left-(Pizza,-Wet-Towel)",person
+C61817,,804,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Left-(Pizza,-Wet-Towel)",person
+C61966,,805,monkey-girl,"Dusty Dunes Desert_Monkey Cave_Start_Left-(Pizza,-Wet-Towel)",person
+C61817,,806,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Left-(Pizza,-Wet-Towel)",person
+C61DDB,,807,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hamburger,-Hamburger)",person
+C61CAC,,808,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hamburger,-Hamburger)",person
+C61DDB,,809,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hamburger,-Hamburger)",person
+C61CAC,,810,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hamburger,-Hamburger)",person
+C623BF,,811,monkey-boy,Dusty Dunes Desert_Monkey Cave_Start_Left_Left-(get-Fresh-Egg),person
+C623BF,,812,monkey-boy,Dusty Dunes Desert_Monkey Cave_Start_Left_Left-(get-Fresh-Egg),person
+C61B85,,813,monkey-boy,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+C61A88,,814,monkey-boy,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+C61B85,,815,monkey-boy,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+C61A88,,816,monkey-boy,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+C62257,,817,monkey-girl,"Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Ruler,-Fresh-Egg)",person
+C620F7,,818,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Ruler,-Fresh-Egg)",person
+C62257,,819,monkey-girl,"Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Ruler,-Fresh-Egg)",person
+C620F7,,820,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Ruler,-Fresh-Egg)",person
+C62578,,821,monkey-girl,Dusty Dunes Desert_Monkey Cave_Start_Right_Right_Left-(get-King-Banana),person
+C62026,,822,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hamburger,-King-Banana)",person
+C61F07,,823,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hamburger,-King-Banana)",person
+C62026,,824,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hamburger,-King-Banana)",person
+C61F07,,825,monkey-boy,"Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hamburger,-King-Banana)",person
+C6271A,,826,monkey-boy,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Pencil-Eraser),person
+C79088,C790E4,827,pencil-statue,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Pencil-Eraser),object
+C6279F,,828,monkey-boy,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Talah-Rama-Room),person
+C60E30,,829,tala-lama,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Talah-Rama-Room),person
+C61228,,830,george-montague,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,person
+C612D2,,831,monster_mole_no-3,Dusty Dunes Desert_Desert Gold Mine_1F-Maze_Room-2,person
+C612FF,,832,monster_mole_no-3,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,person
+C6132C,,833,monster_mole_no-3,Fourside_Hospital_1F_2F,person
+C67859,,834,exit-mouse-father,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,person
+C67820,,835,exit-mouse,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,person
+C67836,,836,exit-mouse,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,person
+C61359,,837,monster_mole_no-3,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+C61386,,838,monster_mole_no-3,Dusty Dunes Desert_Desert Gold Mine_1F-Maze_Room-2,person
+C6D19C,C6D37E,839,woman_blonde_red-blazer,Fourside_Topolla Theater_1F_Manager's-Office,person
+C6D50A,,840,man_blonde_black-suit,Fourside_Topolla Theater_1F_Concert-Hall,person
+C6D695,,841,man_blonde_black-suit,Fourside_Topolla Theater_1F_Concert-Hall,person
+C6D6A1,,842,venus,Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room,person
+C6D86D,,843,runaway-5_lucky,Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room,person
+C6D93F,,844,runaway-5_nice,Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room,person
+C6D97A,,845,runaway-5_okay,Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room,person
+C6D993,,846,runaway-5_gorgeous,Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room,person
+C6D9CA,,847,runaway-5_groovy,Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room,person
+C6DA0B,,848,man_glasses_-black-suit,Fourside_Topolla Theater_1F,person
+C6DAF5,C6DBCE,849,man_blonde_black-suit,Fourside_Topolla Theater_1F,person
+C6DC62,,850,man_blonde_black-suit,Fourside_Topolla Theater_1F,person
+C84111,,851,man_blonde_resortwear,Fourside_Topolla Theater_1F,person
+C84168,,852,woman_blonde_resortwear,Fourside_Topolla Theater_1F,person
+C6DC8D,,853,chef,Fourside_Bakery_1F,person
+C6DC93,,854,woman_purse_green-dress,Fourside_Bakery_1F,person
+C6DCE7,C6DD0A,855,lookalike_mr-t,Fourside_Bakery_1F_2F,person
+C6DE7B,,856,elevator_attendant,Fourside_Monotoli_L1_Lobby_Elevator-Up,person
+C6DF83,,857,man_blonde_black-suit,Fourside_Monotoli_L1_Lobby,person
+C6DFE7,,858,man_glasses_-black-suit,Fourside_Monotoli_L1_Lobby,person
+C6E088,,859,elevator_attendant,Fourside_Monotoli_L1_Lobby,person
+C83FCF,,860,monotoli,Fourside_Monotoli_L1_Lobby,person
+C6803D,,861,phone_payphone_left,Fourside_Monotoli_L1_Lobby,person
+C6E0E3,,862,bodyguard,Fourside_Hospital_1F_2F,person
+C6E192,,863,bodyguard,Fourside_Hospital_1F_2F,person
+C6E220,,864,elevator_attendant,Fourside_Monotoli_L2_Lobby_Elevator-Down,person
+C6E2A4,,865,pokey_suit,Fourside_Monotoli_L2_Right-Room-(Pokey),person
+C6E7F6,,866,bodyguard,Fourside_Monotoli_L2_Right-Room-(Pokey),person
+C6E806,,867,bodyguard,Fourside_Monotoli_L2_Right-Room-(Pokey),person
+C6E557,,868,aloysius,Fourside_Monotoli_L2_Left-Room-(Aloysius),person
+C6E69C,,869,elevator_attendant,Fourside_Monotoli_L2_Lobby_Elevator-Up,person
+C6E81A,,870,elevator_attendant,Fourside_Monotoli_L3_Lobby_Elevator-Down,person
+C6E982,,871,electra,Fourside_Monotoli_L3_Left_Up_Left_Right_Up-(Electra),person
+C6EA34,,872,monotoli,Fourside_Monotoli_L3_Left_Up_Left_Right_Left_Left-(Monotoli),person
+C6EEB4,,873,paula,Fourside_Monotoli_L3_Left_Up_Left_Right_Left_Left-(Monotoli),person
+C6EA34,,874,monotoli,Fourside_Monotoli_L3_Left_Up_Left_Right_Left_Left-(Monotoli),person
+C6F881,,875,prettyman,Fourside_Monotoli_L3_Left_Up_Left_Right_Left_Left-(Monotoli),person
+C6EE94,,876,monster_bear,Fourside_Monotoli_L3_Left_Up_Left_Right_Left_Left-(Monotoli),object
+C68E0C,,877,monotoli-door-panel,Fourside_Monotoli_L3_Left_Up_Left_Right_Left_Left-(Monotoli),object
+,,878,monotoli-door-panel,Fourside_Monotoli_L3_Left_Up_Left_Right_Left_Left-(Monotoli),object
+C6EF24,,879,monster_securitybot,Fourside_Monotoli_L3_Left,person
+C6EF47,,880,monster_securitybot,Fourside_Monotoli_L3_Left_Up_Up,person
+C6EF6A,,881,monster_securitybot,Fourside_Monotoli_L3_Hallway,person
+C6EF8D,,882,monster_securitybot,Fourside_Monotoli_L3_Hallway,person
+C6EFD3,,883,monster_clumsy-robot,Fourside_Monotoli_L3_Left_Up_Left_Right_Left-(Clumsy-Robot),person
+C8989F,,884,runaway-5_lucky,Fourside_Monotoli_L3_Left_Up_Left_Right_Left-(Clumsy-Robot),person
+C898BC,,885,runaway-5_gorgeous,Fourside_Monotoli_L3_Left_Up_Left_Right_Left-(Clumsy-Robot),person
+C89922,,886,runaway-5_okay,Fourside_Monotoli_L3_Left_Up_Left_Right_Left-(Clumsy-Robot),person
+C898D4,,887,runaway-5_nice,Fourside_Monotoli_L3_Left_Up_Left_Right_Left-(Clumsy-Robot),person
+C89902,,888,runaway-5_groovy,Fourside_Monotoli_L3_Left_Up_Left_Right_Left-(Clumsy-Robot),person
+C6EFB0,,889,monster_securitybot,Fourside_Monotoli_L3_Left_Up_Left,person
+C9083A,,890,man_bald_black-suit,Fourside_Hotel_1F,person
+C6F0B5,,891,bellhop,Fourside_Hotel_1F,person
+C68017,,892,phone_black,Fourside_Hotel_1F,person
+C680A6,C680C2,893,atm-machine,Fourside_Hotel_1F_ATM,object
+C6F112,,894,man_blonde_blue-blazer,Fourside_Hotel_1F_Lobby,person
+C8567B,,895,bellhop,Fourside_Hotel_1F_Lobby,person
+C6F175,,896,bartender,Fourside_Hospital_1F_2F,person
+C6F225,,897,woman_redhead_blue-dress,Fourside_Hospital_1F_2F,person
+C6F27C,,898,woman_redhead_blue-dress,Fourside_Hospital_1F_2F,person
+C6F374,,899,maxwell-labs,Fourside_Hospital_1F_2F,person
+C6F659,,900,drunk-man,Fourside_Hospital_1F_2F,person
+C6F757,,901,prettyman,Fourside_Hospital_1F_2F,person
+C84079,,902,aloysius,Fourside_Hospital_1F_2F,person
+C6F8BF,,903,jukebox,Fourside_Hospital_1F_2F,object
+C83F5F,,904,monster_mouse,Fourside_Jackie's Cafe_1F_Backroom,person
+C97990,,905,mani-mani-statue_broken,Fourside_Jackie's Cafe_1F_Backroom,object
+C82105,,906,woman_blonde_red-dress,Fourside_Hospital_1F_2F,person
+,,907,entertainers-shack-door,Fourside_Hospital_1F_2F,person
+C822D2,C8258C,908,museum-curator,Fourside_Museum_1F_Exhibit-Room,person
+C826BC,,909,museum-curator,Fourside_Museum_1F_Exhibit-Room,person
+C82730,,910,man_cane_green-jacket,Fourside_Museum_1F_Exhibit-Room,person
+C82785,,911,girl_black-hair_red-jumper,Fourside_Museum_1F_Exhibit-Room,person
+C827AF,,912,man_blonde_i-love-ny-shirt,Fourside_Museum_1F_Exhibit-Room,person
+,,913,entertainers-shack-door,Fourside_Museum_1F_Exhibit-Room,person
+C827CF,,914,nurse,Fourside_Hospital_1F,person
+C916D3,,915,healer,Fourside_Hospital_1F,person
+C827D5,,916,doctor,Fourside_Hospital_1F_Doctor's-Office,person
+C827DB,,917,nurse,Fourside_Hospital_1F_Doctor's-Office,person
+C6A950,,918,woman_cane_pink-dress,Fourside_Hospital_1F_2F_Left-Room,person
+C6A937,,919,boy_blue-ballcap,Fourside_Hospital_1F_2F_Left-Room,person
+C82874,,920,lookalike_marcie,Fourside_Department Store_1F,person
+C8287A,,921,elevator_attendant,Fourside_Department Store_1F,person
+C829F8,,922,elevator_attendant,Fourside_Department Store_1F,person
+C829FE,,923,man_glasses_orange-cardigan,Fourside_Department Store_1F,person
+C82A04,,924,bodyguard,Fourside_Department Store_1F,person
+C5D425,,925,woman_pink-maid-outfit,Fourside_Department Store_1F,person
+C82A69,,926,fast-food-clerk,Fourside_Department Store_1F,person
+C82A6F,,927,woman_purse_black-dress,Fourside_Department Store_1F,person
+C82B06,,928,girl_blonde_yellow-dress,Fourside_Department Store_1F,person
+C82B59,,929,boy_baseball-helmet,Fourside_Department Store_1F,person
+C82C11,,930,man_blonde_i-love-ny-shirt,Fourside_Department Store_1F,person
+C8972A,,931,monster_mouse,Fourside_Department Store_1F,person
+C82A63,,932,chef,Fourside_Department Store_1F,person
+C5D40D,,933,woman_black-hair_red-clothes,Fourside_Department Store_1F,person
+C5D419,,934,man_blonde_blue-blazer,Fourside_Department Store_1F,person
+,,935,entertainers-shack-door,Fourside_Department Store_1F,person
+C83D18,,936,arms-dealer,Fourside_Department Store_1F_2nd-Floor-Room,person
+C680A6,C680C2,937,atm-machine,Fourside_Department Store_1F,object
+C6803D,,938,phone_payphone_left,Fourside_Department Store_1F,person
+,,939,food-cart,Fourside_Department Store_1F,object
+C680A6,C680C2,940,atm-machine,Fourside_Department Store_1F,object
+C82C6B,,941,dept-store-spook,Fourside_Department Store_1F_Boss-Room,person
+C82D6C,,942,man_hat_blue-suit,Fourside,person
+C82E26,,943,woman_blonde_blue-blazer,Fourside,person
+C82EF8,,944,saxophonist,Fourside,person
+C82FA9,,945,man_hat_black-suit,Fourside,person
+C83002,,946,man_blonde_i-love-ny-shirt,Fourside,person
+C83082,,947,lookalike_teddy,Fourside,person
+C83158,,948,drunk-man,Fourside,person
+C832BF,,949,cop,Fourside,person
+C833B1,,950,cop,Fourside,person
+C834E1,,951,electra,Fourside,person
+C8361C,,952,everdred_dead,Fourside,person
+C839F7,,953,woman_black-hair_red-clothes,Fourside,person
+C83A45,,954,woman_blonde_red-dress,Fourside,person
+C83A89,,955,man_orange-hair_sunglasses,Fourside,person
+C83AEE,,956,lookalike_pigpen,Fourside,person
+C83C94,,957,woman_purse_black-dress,Fourside,person
+C83CDD,,958,woman_purse_green-dress,Fourside,person
+C83D1E,,959,man_mohawk_punk-clothes,Fourside,person
+C89B32,,960,runaway-5_lucky,Fourside,person
+C83D9E,,961,man_glasses_-black-suit,Fourside,person
+C83E7F,,962,man_blonde_i-love-ny-shirt,Fourside,person
+C83E97,,963,man_cane_green-jacket,Fourside,person
+C83ECD,,964,man_blonde_blue-blazer,Fourside,person
+C83EFD,,965,man_orange-hair_sunglasses,Fourside,person
+C83F3C,,966,woman_black-hair_red-clothes,Fourside,person
+C7B550,,967,monkey-boy,Fourside,person
+C7B576,,968,burnt,Fourside,person
+C841B3,,969,lookalike_pigpen,Fourside,person
+C70165,,970,hint-man_holding-sign,Fourside,person
+,,971,entertainers-shack-door,Fourside,person
+C78A9E,,972,sign_bus-stop,Fourside,object
+,,973,bench,Fourside,object
+,,974,bench,Fourside,object
+,,975,lamppost,Fourside,object
+,,976,lamppost,Fourside,object
+,,977,lamppost,Fourside,object
+,,978,lamppost,Fourside,object
+,,979,lamppost,Fourside,object
+,,980,lamppost,Fourside,object
+,,981,lamppost,Fourside,object
+,,982,streetsign_city,Fourside,object
+,,983,streetsign_city,Fourside,object
+,,984,streetsign_city,Fourside,object
+,,985,streetsign_city,Fourside,object
+,,986,streetsign_city,Fourside,object
+,,987,magnet-hill,Fourside,object
+,,988,open-can,Fourside,object
+,,989,helicopter_body,Fourside,object
+,,990,helicopter_blades,Fourside,object
+,,991,helicopter_tail,Fourside,object
+,,992,manhole,Fourside,object
+C6A800,,993,hotel_sign,Fourside,object
+,,994,bus_runaway-5,Fourside,object
+C83D24,,995,monster_your-sanctuary,Fourside_Fourside Sewers_1F_Boss-Room,person
+C89E1B,,996,maxwell-labs,Summers and Toto_Stoic Club_1F,person
+C89EA8,,997,woman_blonde_red-blazer,Summers and Toto_Stoic Club_1F,person
+C89EF8,,998,man_blonde_blue-blazer,Summers and Toto_Stoic Club_1F,person
+C89F2D,,999,prettyman,Summers and Toto_Stoic Club_1F,person
+C8A056,,1000,lookalike_mr-t,Summers and Toto_Stoic Club_1F,person
+C8A11C,,1001,woman_pink-maid-outfit,Summers and Toto_Stoic Club_1F,person
+C8B8D5,,1002,magic-cake-woman,Summers and Toto_Stoic Club_1F,person
+C8A1A0,,1003,man_sailor_red-clothes,Summers and Toto_Toto Houses_West-1_1F,person
+C8A1E1,,1004,man_sailor_red-clothes,Summers and Toto_Toto Houses_West-2_1F,person
+C8A24C,,1005,rastaman,Summers and Toto_Toto Houses_West-3_1F,person
+C8A2F9,,1006,saxophonist,Summers and Toto_Toto Houses_West-5_1F,person
+C8A333,,1007,ruffini,Summers and Toto_Toto Houses_West-5_1F,person
+C8A34B,,1008,man_sailor_blue-clothes,Summers and Toto_Toto Shop_1F,person
+C680A6,C680C2,1009,atm-machine,Summers and Toto_Toto Shop_1F,object
+C6803D,,1010,phone_payphone_left,Summers and Toto_Toto Shop_1F,person
+C8A351,,1011,man_blonde_resortwear,Summers and Toto_Summers Shop_1F,person
+C8A357,,1012,woman_black-hair_red-clothes,Summers and Toto_Summers Shop_1F,person
+C8A394,,1013,woman_blonde_resortwear,Summers and Toto_Summers Shop_1F,person
+C680A6,C680C2,1014,atm-machine,Summers and Toto_Summers Shop_1F,object
+C6803D,,1015,phone_payphone_left,Summers and Toto_Summers Shop_1F,person
+C8A43D,,1016,maxwell-labs,Summers and Toto_Hotel_1F_Lobby,person
+C8A49E,,1017,woman_blonde_red-blazer,Summers and Toto_Hotel_1F_Lobby,person
+C8A4A9,,1018,woman_purse_green-dress,Summers and Toto_Hotel_1F_Lobby,person
+C85BD4,,1019,bellhop,Summers and Toto_Hotel_1F_Lobby,person
+C908BC,,1020,man_bald_black-suit,Summers and Toto_Hotel_1F,person
+C8A595,,1021,bellhop,Summers and Toto_Hotel_1F,person
+C680A6,C680C2,1022,atm-machine,Summers and Toto_Hotel_1F,object
+C6803D,,1023,phone_payphone_left,Summers and Toto_Hotel_1F,person
+C8A50D,,1024,man_blonde_blue-blazer,Summers and Toto_Hotel_1F_Lobby_Left-Room,person
+C8A5CE,,1025,chef,Summers and Toto_Restaurant_1F,person
+C8A5D4,,1026,woman_pink-maid-outfit,Summers and Toto_Restaurant_1F,person
+C8A5FC,,1027,man_bald_black-suit,Summers and Toto_Restaurant_1F,person
+C8A691,,1028,woman_purse_black-dress,Summers and Toto_Restaurant_1F,person
+C8A6BF,,1029,prettyman,Summers and Toto_Restaurant_1F,person
+C8A6F9,,1030,woman_cane_pink-dress,Summers and Toto_Restaurant_1F,person
+C8BAE0,,1031,drunk-man,Summers and Toto_Restaurant_1F,person
+,,1032,entertainers-shack-door,Summers and Toto_Restaurant_1F,person
+C8A737,,1033,woman_blonde_red-dress,Summers and Toto_Museum_1F,person
+C68008,,1034,phone_black,Summers and Toto_Museum_1F,person
+C8AD69,,1035,man_glasses_orange-cardigan,Summers and Toto_Museum_1F_Exhibit-Room,person
+C8AEC1,,1036,man_blonde_resortwear,Summers and Toto_Museum_1F_Exhibit-Room,person
+C8A8BF,C8A976,1037,man_scaraban_blue-clothes,Summers and Toto_Museum_1F_Exhibit-Room_Upstairs,person
+C8AAE6,,1038,man_scaraban_blue-clothes,Summers and Toto_Museum_1F_Exhibit-Room_Upstairs_Mummy-Room,person
+EF94C4,,1039,monster_coffin,Summers and Toto_Museum_1F_Exhibit-Room_Upstairs_Mummy-Room,object
+EF94E3,,1040,monster_coffin,Summers and Toto_Museum_1F_Exhibit-Room_Upstairs_Mummy-Room,object
+,,1041,monster_coffin,Summers and Toto_Museum_1F_Exhibit-Room,object
+,,1042,monster_coffin,Summers and Toto_Museum_1F_Exhibit-Room,object
+,,1043,monster_coffin,Summers and Toto_Museum_1F_Exhibit-Room,object
+,,1044,sarcophagus,Summers and Toto_Museum_1F_Exhibit-Room,object
+,,1045,sarcophagus,Summers and Toto_Museum_1F_Exhibit-Room,object
+,,1046,sarcophagus,Summers and Toto_Museum_1F_Exhibit-Room,object
+C8AF57,,1047,nurse,Summers and Toto_Hospital_1F,person
+C916DF,,1048,healer,Summers and Toto_Hospital_1F,person
+C8AF5D,,1049,doctor,Summers and Toto_Hospital_1F_Doctor's-Office,person
+C8AF63,,1050,nurse,Summers and Toto_Hospital_1F_Doctor's-Office,person
+C8AFAD,,1051,man_redhead_swimwear,Summers-and-Toto,person
+C8B008,,1052,woman_blonde_swimwear,Summers-and-Toto,person
+C8B038,,1053,man_blonde_swimwear,Summers-and-Toto,person
+C8B07F,,1054,man_blonde_resortwear,Summers-and-Toto,person
+C8B0D4,,1055,man_redhead_swimwear,Summers-and-Toto,person
+C8B130,,1056,Threed-hotel-woman,Summers-and-Toto,person
+C8B2BC,,1057,woman_blonde_resortwear,Summers-and-Toto,person
+C8B2F8,,1058,man_redhead_swimwear,Summers-and-Toto,person
+C8B342,,1059,man_blonde_i-love-ny-shirt,Summers-and-Toto,person
+C8B39D,,1060,woman_black-hair_red-clothes,Summers-and-Toto,person
+C5D48B,,1061,sanchez-brother,Summers-and-Toto,person
+C8B3C6,,1062,bird_myna,Summers-and-Toto,person
+C8B3F8,,1063,man_sailor_blue-clothes,Summers-and-Toto,person
+C8B4C9,,1064,man_sailor_red-clothes,Summers-and-Toto,person
+C8B52A,,1065,man_sailor_blue-clothes,Summers-and-Toto,person
+C8BA82,,1066,man_lying-down_swimwear,Summers-and-Toto,person
+C8B8C0,,1067,cat,Summers-and-Toto,person
+C8B8CD,,1068,cat,Summers-and-Toto,person
+C8B191,,1069,magic-cake-woman,Summers-and-Toto,person
+C8BAB9,,1070,woman_lying-down_swimwear,Summers-and-Toto,person
+C70176,,1071,hint-man_holding-sign,Summers-and-Toto,person
+,,1072,runaway-5_gorgeous,Summers-and-Toto,person
+,,1073,runaway-5_lucky,Summers-and-Toto,person
+,,1074,runaway-5_okay,Summers-and-Toto,person
+,,1075,woman_blonde_swimwear,Summers-and-Toto,person
+,,1076,entertainers-shack-door,Summers-and-Toto,person
+C8BB5B,,1077,man_hat_green-jacket,Summers-and-Toto,person
+C65057,,1078,food-cart,Summers-and-Toto,object
+,,1079,taxi,Summers-and-Toto,object
+C690C5,,1080,sportscar,Summers-and-Toto,person
+,,1081,red-truck,Summers-and-Toto,object
+,,1082,bicycle,Summers-and-Toto,object
+,,1083,potted-tree,Summers-and-Toto,object
+,,1084,potted-tree,Summers-and-Toto,object
+C65057,,1085,food-cart,Summers-and-Toto,object
+C6A7D2,,1086,hotel_sign,Summers-and-Toto,object
+,,1087,bus_runaway-5,Summers-and-Toto,object
+,,1088,boat,Summers-and-Toto,object
+C9C991,,1089,poo's-mentor,Dalaam_Palace_1F_Throne-Room,person
+C9CC13,,1090,man_dalaamese_large-hat,Dalaam_Palace_1F_Throne-Room,person
+C9CCF5,,1091,phone_dalaam,Dalaam_Palace_1F_Throne-Room,person
+C9D5C4,,1092,poo,Dalaam_Palace_1F_Throne-Room,person
+,,1093,entertainers-shack-door,Dalaam_Palace_1F_Throne-Room,person
+C9CD4F,,1094,woman_dalaamese,Dalaam_Palace_1F,person
+C9CE2C,,1095,man_dalaamese_pigtail,Dalaam_Houses_North,person
+C9CE9B,,1096,woman_dalaamese,Dalaam_Houses_East,person
+C9CEF7,,1097,man_dalaamese_large-hat,Dalaam_Houses_South,person
+C65045,,1098,man_dalaamese_pigtail,Dalaam_Shop_1F,person
+C6A3DE,,1099,man_dalaamese_large-hat,Dalaam_Shop_1F,person
+C9D011,,1100,man_meditating,Dalaam,person
+C9D02D,,1101,man_dalaamese_large-hat,Dalaam,person
+C9D125,,1102,girl_dalaamese,Dalaam,person
+C929AE,,1103,star-master,Dalaam,person
+C9D334,,1104,girl_dalaamese,Dalaam,person
+C9D3E0,,1105,woman_dalaamese,Dalaam,person
+C9D4D3,,1106,woman_dalaamese,Dalaam,person
+C9D621,C9D656,1107,rabbit-statue,Dalaam,object
+C9D621,C9D656,1108,rabbit-statue,Dalaam,object
+C9D621,C9D656,1109,rabbit-statue,Dalaam,object
+,,1110,girl_dalaamese,Dalaam,person
+,,1111,girl_dalaamese,Dalaam,person
+C9D1B7,,1112,sign_small,Dalaam,object
+,,1113,dalaam-spire,Dalaam,object
+,,1114,dalaam-spire,Dalaam,object
+,,1115,dalaam-spire,Dalaam,object
+,,1116,dalaam-spire,Dalaam,object
+C9D6CE,,1117,sign_small,Dalaam,object
+C9D2BA,,1118,monster_your-sanctuary,Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room,person
+,,1119,ness_unconscious,Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room,person
+,,1120,paula,Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room,person
+,,1121,jeff,Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room,person
+,,1122,poo,Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room,person
+C56DF3,,1123,man_scaraban_blue-clothes,Scaraba_Shop_1F,person
+C90A9B,,1124,man_scaraban_green-clothes,Scaraba_Hotel_1F,person
+C56DF9,,1125,arms-dealer,Scaraba_Hotel_1F,person
+C85F76,,1126,man_scaraban_blue-clothes,Scaraba_Hotel_1F,person
+C680A6,C680C2,1127,atm-machine,Scaraba_Hotel_1F,object
+C68017,,1128,phone_black,Scaraba_Hotel_1F,person
+C56DFF,,1129,woman_scaraban,Scaraba_Houses_North_1F,person
+C56E2C,,1130,man_cane_green-jacket,Scaraba_Houses_South_1F,person
+C56E5B,,1131,nurse,Scaraba_Hospital_1F,person
+C56E61,,1132,doctor,Scaraba_Hospital_1F,person
+C916EB,,1133,healer,Scaraba_Hospital_1F,person
+C56E67,,1134,man_scaraban_blue-clothes,Scaraba,person
+C56ECA,,1135,man_scaraban_green-clothes,Scaraba,person
+C56EFD,,1136,man_scaraban_blue-clothes,Scaraba,person
+C56F32,,1137,woman_scaraban,Scaraba,person
+C56F80,,1138,man_scaraban_yellow-clothes,Scaraba,person
+C5711A,,1139,snake-salesman,Scaraba,person
+C57120,,1140,man_scaraban_blue-clothes,Scaraba,person
+C57126,,1141,man_scaraban_green-clothes,Scaraba,person
+C571B9,,1142,man_meditating,Scaraba,person
+C9310D,,1143,door_eye-of-horus,Scaraba,object
+C5730D,,1144,man_scaraban_blue-clothes,Scaraba,person
+C57361,,1145,man_scaraban_yellow-clothes,Scaraba,person
+C6500F,,1146,man_scaraban_yellow-clothes,Scaraba,person
+C5D539,,1147,man_scaraban_blue-clothes,Scaraba,person
+C574F6,,1148,man_meditating,Scaraba,person
+C5762C,,1149,man_tribal,Scaraba,person
+C57730,C57760,1150,dungeon-man,Scaraba,object
+C577D8,,1151,man_tribal,Scaraba,person
+C9344F,,1152,dungeon-man,Scaraba,person
+C70187,,1153,hint-man_holding-sign,Scaraba,person
+C9310D,,1154,door_eye-of-horus,Scaraba,object
+C57C96,,1155,man_scaraban_blue-clothes,Scaraba,person
+C65033,,1156,man_scaraban_yellow-clothes,Scaraba,person
+C65039,,1157,man_meditating,Scaraba,person
+,,1158,entertainers-shack-door,Scaraba,person
+,,1159,entertainers-shack-door,Scaraba,person
+,,1160,camel,Scaraba,person
+,,1161,camel,Scaraba,person
+C57CD4,,1162,sesame-seed_black,Scaraba,object
+C57CD4,,1163,sesame-seed_black,Scaraba,object
+C6A895,,1164,hotel_sign,Scaraba,object
+C57DC6,,1165,sign_small,Scaraba,object
+,,1166,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway,object
+,,1167,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs,object
+EF907F,,1168,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room,person
+EF909E,,1169,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs,person
+EF924E,,1170,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs,person
+EF926D,,1171,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs,person
+EF90BD,,1172,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room,person
+EF90DC,,1173,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room,person
+EF90F9,,1174,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NW-Stairs,person
+EF928C,,1175,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NW-Stairs,person
+EF9118,,1176,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs,person
+EF92AB,,1177,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs,person
+EF9137,,1178,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room,person
+EF92CA,,1179,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room_Stairs,person
+EF9448,,1180,monster_coffin,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room_Stairs,object
+EF9156,,1181,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room_Stairs_Plate-Room,person
+EF9175,,1182,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room,person
+EF9194,,1183,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs,person
+EF92E9,,1184,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs,person
+EF91B3,,1185,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room,person
+EF91D2,,1186,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room_Room,person
+EF9308,,1187,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room_Room,person
+EF91F1,,1188,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room_Room_Exit-Hall,person
+EF9210,,1189,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room_Room_Exit-Hall,person
+EF922F,,1190,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room_Room_Exit-Hall,person
+EF9327,,1191,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room_Room_Exit-Hall,person
+EF9346,,1192,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room_Room_Exit-Hall,person
+C9323B,,1193,sarcophagus,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room,object
+,,1194,sarcophagus,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room,object
+,,1195,hawk_eye,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room,object
+C57947,,1196,brickroad_head,Scaraba_Dungeon Man_1F_2F_3F_4F,person
+C57C2C,,1197,submarine,Scaraba_Dungeon Man_1F,object
+,,1198,bicycle,Scaraba_Dungeon Man_1F,object
+,,1199,taxi,Scaraba_Dungeon Man_1F,object
+C57B5C,,1200,bench,Scaraba_Dungeon Man_1F,object
+C6803D,,1201,phone_payphone_left,Scaraba_Dungeon Man_1F,person
+,,1202,potted-tree,Scaraba_Dungeon Man_1F,object
+C6803D,,1203,phone_payphone_left,Scaraba_Dungeon Man_1F,person
+C57B7C,,1204,bench,Scaraba_Dungeon Man_1F,object
+,,1205,potted-tree,Scaraba_Dungeon Man_1F,object
+C680A6,C680C2,1206,atm-machine,Scaraba_Dungeon Man_1F,object
+C6CDCD,,1207,rejuvenator,Scaraba_Dungeon Man_1F,object
+C87EEE,,1208,sign_small,Scaraba_Dungeon Man_1F,object
+C57B9C,,1209,bench,Scaraba_Dungeon Man_1F_2F,object
+C57BBC,,1210,bench,Scaraba_Dungeon Man_1F_2F_3F,object
+,,1211,monster_duck,Scaraba_Dungeon Man_1F_2F_3F,object
+,,1212,monster_duck,Scaraba_Dungeon Man_1F_2F_3F,object
+,,1213,monster_duck,Scaraba_Dungeon Man_1F_2F_3F,object
+,,1214,monster_little-pile,Scaraba_Dungeon Man_1F_2F_3F,object
+,,1215,monster_little-pile,Scaraba_Dungeon Man_1F_2F_3F,object
+,,1216,monster_little-pile,Scaraba_Dungeon Man_1F_2F_3F,object
+,,1217,monster_goat,Scaraba_Dungeon Man_1F_2F_3F,object
+,,1218,monster_goat,Scaraba_Dungeon Man_1F_2F_3F,object
+C57B04,,1219,sign_small,Scaraba_Dungeon Man_1F_2F_3F_4F,object
+C57B04,,1220,sign_small,Scaraba_Dungeon Man_1F_2F_3F_4F,object
+C57DEA,,1221,sign_small,Scaraba_Dungeon Man_1F_2F_3F_4F,object
+C916EB,,1222,healer,Fourside_Hospital_1F_2F,person
+C56E61,,1223,doctor,Fourside_Hospital_1F_2F,person
+C56E5B,,1224,nurse,Fourside_Hospital_1F_2F,person
+,,1225,potted-tree,Fourside_Hospital_1F_2F,object
+C9E37E,,1226,monkey-boy,Deep-Darkness,person
+C9E578,,1227,monkey-boy,Deep-Darkness,person
+C9E613,,1228,monkey-boy,Deep-Darkness,person
+C9E619,,1229,monster_barf,Deep-Darkness,person
+C9E763,,1230,bird_myna,Deep-Darkness,person
+,,1231,invisible_7,Deep-Darkness,person
+C5D55D,,1232,arms-dealer,Deep-Darkness,person
+C9E87D,,1233,man_glasses_-black-suit,Deep-Darkness,person
+C9E865,,1234,doctor,Deep-Darkness,person
+C9ED29,,1235,phone_bird,Deep-Darkness,person
+C9EC74,,1236,snorkel,Deep-Darkness,person
+,,1237,entertainers-shack-door,Deep-Darkness,person
+C9ED3C,,1238,monkey-girl,Deep-Darkness,person
+C9ED95,,1239,monkey-boy,Deep-Darkness,person
+C9E79F,,1240,truffle,Deep-Darkness,object
+C9E7B8,,1241,truffle,Deep-Darkness,object
+C9E7D1,,1242,truffle,Deep-Darkness,object
+C9E7EA,,1243,truffle,Deep-Darkness,object
+C9E803,,1244,truffle,Deep-Darkness,object
+C9EC7A,,1245,helicopter_crashed,Deep-Darkness,object
+C9E27B,,1246,monster_your-sanctuary,Deep Darkness_Lumine Hall_1F,person
+C9DDC6,,1247,talking-rock,Deep Darkness_Lumine Hall_1F_2F,person
+C9DDD1,,1248,talking-rock,Deep Darkness_Lumine Hall_1F_2F,person
+C9DDF8,,1249,talking-rock,Deep Darkness_Lumine Hall_1F_2F,person
+C9D72E,C9D6F8,1250,tenda,Deep Darkness_Tenda Village_Main,person
+C9D779,C9D6F8,1251,tenda,Deep Darkness_Tenda Village_Main,person
+C9D77F,C9D940,1252,tenda-chief,Deep Darkness_Tenda Village_Main,person
+C9DB12,C9D6F8,1253,tenda,Deep Darkness_Tenda Village_Main,person
+C9DB2C,C9D6F8,1254,tenda,Deep Darkness_Tenda Village_Main,person
+C9DB3E,C9D6F8,1255,tenda,Deep Darkness_Tenda Village_Main,person
+C9DBAF,C9D6F8,1256,tenda,Deep Darkness_Tenda Village_Main,person
+C9DBD6,C9D6F8,1257,tenda,Deep Darkness_Tenda Village_Main,person
+C936E6,C9D6F8,1258,tenda,Deep Darkness_Tenda Village_Main,person
+C9DDB4,C9D6F8,1259,tenda,Deep Darkness_Tenda Village_Main,person
+C9E2F5,,1260,talking-rock,Deep Darkness_Tenda Village_Main_Talking-Rock-Room,person
+C9DC2C,C9D6F8,1261,tenda,Deep Darkness_Tenda Village_Main,person
+C68017,,1262,phone_black,Deep Darkness_Tenda Village_Main,person
+,,1263,tenda-cave-rock,Deep Darkness_Tenda Village_Main,object
+,,1264,open-can,Deep Darkness_Tenda Village_Main,object
+,,1265,mailbox,Deep Darkness_Tenda Village_Main,object
+,,1266,crt-monitor,Deep Darkness_Tenda Village_Main,object
+C87B40,,1267,sign_spa,Deep Darkness_Tenda Village_Main,object
+EF5864,,1268,mr-saturn,Lost Underworld_Cave of the Past_1F-Present,person
+C9BD35,,1269,dr-andonuts,Lost Underworld_Cave of the Past_1F-Present,person
+C9BD69,,1270,dr-andonuts,Lost Underworld_Cave of the Past_1F-Present,person
+C9C262,,1271,apple-kid,Lost Underworld_Cave of the Past_1F-Present,person
+C9C27E,,1272,mr-saturn,Lost Underworld_Cave of the Past_1F-Present,person
+EF58C7,,1273,sky-runner_broken,Lost Underworld_Cave of the Past_1F-Present,object
+C63043,,1274,phase-distorter,Lost Underworld_Cave of the Past_1F-Present,object
+,,1275,phase-distorter,Lost Underworld_Cave of the Past_1F-Present,object
+EF57EB,,1276,monster_your-sanctuary,Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room,person
+,,1277,ness_unconscious,Lost Underworld_Fire Springs_1F_Sanctuary-Room,person
+,,1278,paula,Lost Underworld_Fire Springs_1F_Sanctuary-Room,person
+,,1279,jeff,Lost Underworld_Fire Springs_1F_Sanctuary-Room,person
+,,1280,poo,Lost Underworld_Fire Springs_1F_Sanctuary-Room,person
+,,1281,flame-spout,Lost Underworld_Fire Springs_1F_Sanctuary-Room,person
+C5D56F,,1282,tenda_tiny,Lost-Underworld,person
+EF5A3E,,1283,tenda_tiny,Lost-Underworld,person
+EF5AED,,1284,tenda_tiny,Lost-Underworld,person
+EF5BE6,,1285,tenda_tiny,Lost-Underworld,person
+EF5C98,,1286,tenda_tiny,Lost-Underworld,person
+EF5D16,,1287,tenda_tiny,Lost-Underworld,person
+EF5E94,,1288,tenda_tiny,Lost-Underworld,person
+EF5F7D,,1289,tenda_tiny,Lost-Underworld,person
+EF5FDF,,1290,tenda_tiny,Lost-Underworld,person
+EF6049,,1291,tenda_tiny,Lost-Underworld,person
+C9DE0E,,1292,talking-rock_tiny,Lost-Underworld,person
+EF604F,,1293,tenda_tiny,Lost-Underworld,person
+EF6084,,1294,tenda_tiny,Lost-Underworld,person
+EF60F2,,1295,phone_bird_small,Lost-Underworld,person
+EF60F2,,1296,phone_bird_small,Lost-Underworld,person
+EF60F2,,1297,phone_bird_small,Lost-Underworld,person
+C90E4A,,1298,tenda_tiny,Lost-Underworld,person
+,EF610C,1299,door_fence,Lost-Underworld,object
+EF610D,,1300,sign_small,Lost-Underworld,object
+EF6157,,1301,sign_small,Lost-Underworld,object
+EF6157,,1302,sign_small,Lost-Underworld,object
+,,1303,waterspout,Lost-Underworld,object
+,,1304,waterspout_healing,Lost-Underworld,object
+,,1305,waterspout,Lost-Underworld,object
+,,1306,robot_unconscious,Lost Underworld_Cave of the Past_1F-Past,object
+,,1307,robot_unconscious,Lost Underworld_Cave of the Past_1F-Past,object
+,,1308,robot_unconscious,Lost Underworld_Cave of the Past_1F-Past,object
+,,1309,ness_robot_unconscious,Lost Underworld_Cave of the Past_1F-Past,object
+C63043,,1310,phase-distorter,Lost Underworld_Cave of the Past_1F-Past,object
+,,1311,blank,,person
+C76F20,,1312,magicant-being_troll,Magicant_Shop_1F,person
+C76F26,,1313,flying-man,Magicant_Flying Man House_1F,person
+C76F42,,1314,flying-man,Magicant_Flying Man House_1F,person
+C76F5E,,1315,flying-man,Magicant_Flying Man House_1F,person
+C76F7A,,1316,flying-man,Magicant_Flying Man House_1F,person
+C76F96,,1317,flying-man,Magicant_Flying Man House_1F,person
+C7719E,,1318,magicant-being_troll,Magicant_Hotel_1F,person
+C7739F,,1319,magicant-being_chicken,Magicant_Southeast House_1F,person
+C680A6,C680C2,1320,entertainers-shack-door,Magicant_Southeast House_1F,object
+C68017,,1321,entertainers-shack-door,Magicant_Southeast House_1F,person
+C773F4,,1322,rabbit-statue,Magicant,person
+C7743D,,1323,boy_blue-ballcap,Magicant,person
+C7749D,,1324,monster_zombie,Magicant,person
+C774C6,,1325,monster_belch,Magicant,person
+C774EC,,1326,monster_fishman,Magicant,person
+C77511,,1327,boy_baseball-helmet,Magicant,person
+C77529,,1328,boy_bowler-hat,Magicant,person
+C77544,,1329,girl_redhead_pigtails,Magicant,person
+C77572,,1330,picky,Magicant,person
+C7758A,,1331,girl_blonde_ponytail,Magicant,person
+C77592,,1332,monkey-boy,Magicant,person
+C7759C,,1333,boy_fedora,Magicant,person
+C775BF,,1334,rabbit-statue,Magicant,person
+C775FD,,1335,ness,Magicant,person
+C7768F,,1336,magicant-being_chicken,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person
+C776C8,,1337,magicant-being_daisy,Magicant,person
+C776C8,,1338,magicant-being_daisy,Magicant,person
+C776C8,,1339,magicant-being_daisy,Magicant,person
+C777F2,,1340,star-master,Magicant,person
+C7786E,,1341,star-master,Magicant,person
+C77251,,1342,mom,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person
+C772FF,,1343,tracy,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person
+C7735D,,1344,king,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person
+C77CDF,,1345,pokey,Magicant,person
+C77D3A,,1346,everdred,Magicant,person
+C776EE,,1347,gravestone,Magicant,object
+C77713,,1348,gravestone,Magicant,object
+C7774B,,1349,gravestone,Magicant,object
+C7777E,,1350,gravestone,Magicant,object
+C77790,,1351,gravestone,Magicant,object
+C7779E,,1352,gravestone,Magicant,object
+C77D9F,,1353,tentacle,Magicant,object
+EF9467,,1354,monster_kraken,Magicant_Sea of Eden_1F,person
+EF9486,,1355,monster_kraken,Magicant_Sea of Eden_1F,person
+EF94A5,,1356,monster_kraken,Magicant_Sea of Eden_1F,person
+C77DA5,,1357,tentacle,Magicant_Sea of Eden_1F,object
+C7794C,C68F74,1358,monster_mani-mani-statue,Magicant_Sea of Eden_1F,object
+C96D4F,,1359,bartender,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+C96D6A,,1360,woman_redhead_blue-dress,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+C96D8A,,1361,drunk-man,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+C96DB2,,1362,woman_blonde_red-blazer,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+EF8FE4,,1363,monster_flame,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person
+C97B06,,1364,nurse,Moonside_Hospital_1F,person
+C97B0C,,1365,doctor,Moonside_Hospital_1F,person
+EF9022,,1366,monster_art,Moonside_Hospital_1F,person
+C916F7,,1367,healer,Moonside_Hospital_1F,person
+C96F5D,,1368,woman_blonde_red-dress,Moonside_Hospital_1F_Room,person
+C979E5,,1369,man_glasses_orange-cardigan,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person
+C97A51,,1370,museum-curator,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person
+EF9003,,1371,monster_flame,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person
+C90C38,,1372,man_bald_black-suit,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,person
+C861DD,,1373,bellhop,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,person
+C65051,,1374,man_mohawk_punk-clothes,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,person
+C62D30,C680C2,1375,atm-machine,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,object
+C68017,,1376,phone_black,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,person
+C974F4,,1377,lookalike_mr-t,Moonside_Secret Room_1F,person
+C975CC,,1378,invisible-man,Moonside_Secret Room_1F,person
+C96D10,,1379,man_hat_black-suit,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person
+C96DEC,,1380,man_blonde_resortwear,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person
+C96EB4,,1381,woman_blonde_resortwear,Moonside,person
+C96F0A,,1382,lookalike_teddy,Moonside,person
+C96FE2,,1383,man_glasses_-black-suit,Moonside,person
+C9707C,,1384,maxwell-labs,Moonside,person
+C970C8,,1385,man_glasses_orange-cardigan,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person
+C97187,,1386,lookalike_pigpen,Moonside,person
+C972E7,,1387,woman_dalaamese,Moonside,person
+C9734A,,1388,man_mohawk_punk-clothes,Moonside,person
+C973B1,,1389,bodyguard,Moonside,person
+C973E4,,1390,lookalike_shy-guy-mask,Moonside,person
+C9740A,,1391,man_blonde_black-suit,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person
+C9743D,,1392,man_orange-hair_sunglasses,Moonside,person
+C9749E,,1393,woman_black-hair_red-clothes,Moonside,person
+C9712E,,1394,rastaman,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person
+C97B12,,1395,monotoli,Moonside,person
+C97823,,1396,man_sailor_blue-clothes,Moonside,person
+C96E07,,1397,man_blonde_resortwear,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person
+C96E22,,1398,man_blonde_resortwear,Moonside,person
+C96E22,,1399,man_blonde_resortwear,Moonside,person
+C96E22,,1400,man_blonde_resortwear,Moonside,person
+C96E3D,,1401,man_blonde_resortwear,Moonside,person
+C96E58,,1402,man_blonde_resortwear,Moonside,person
+C96E7E,,1403,man_blonde_resortwear,Moonside,person
+C96E99,,1404,man_blonde_resortwear,Moonside,person
+C6A861,,1405,hotel_sign,Moonside,object
+C9794B,C68F74,1406,monster_mani-mani-statue,Moonside,object
+C7D84F,,1407,present,Onett,item
+C7D85B,,1408,trashcan,Onett,item
+C7D84F,,1409,present,Onett,item
+C7D85B,,1410,trashcan,Onett,item
+C7D85B,,1411,trashcan,Onett,item
+C7D84F,,1412,present,Onett_Ness' House_1F_2F_Tracy's-Room,item
+C7D84F,,1413,present,Onett_Giant Step_1F,item
+C7D84F,,1414,present,Onett_Giant Step_1F_Room-1,item
+C7D84F,,1415,present,Onett_Giant Step_1F_Room-3,item
+C7D84F,,1416,present,Twoson,item
+C7D84F,,1417,present,Twoson_Polestar_1F_Den_Bedroom_Paula's-Room,item
+C7D85B,,1418,trashcan,Twoson_Apple Kid's House_1F,item
+C7D84F,,1419,present,Happy Happy Village_Happy Happy HQ_1F,item
+C7D84F,,1420,present,Happy Happy Village_Happy Happy HQ_1F,item
+C7D84F,,1421,present,Peaceful-Rest-Valley,item
+C7D84F,,1422,present,Peaceful-Rest-Valley,item
+C7D84F,,1423,present,Peaceful-Rest-Valley,item
+C7D84F,,1424,present,Peaceful-Rest-Valley,item
+C7D84F,,1425,present,Peaceful-Rest-Valley,item
+C7D84F,,1426,present,Peaceful-Rest-Valley,item
+C7D84F,,1427,present,Happy Happy Village_Lilliput Steps_1F,item
+C7D84F,,1428,present,Happy Happy Village_Lilliput Steps_1F,item
+C7D84F,,1429,present,Happy Happy Village_Lilliput Steps_1F,item
+C7D85B,,1430,trashcan,Threed,item
+C7D85B,,1431,trashcan,Threed,item
+C7D85B,,1432,trashcan,Threed,item
+C7D85B,,1433,trashcan,Threed,item
+C7D873,,1434,coffin,Deep Darkness_Lumine Hall_1F_2F,item
+C7D873,,1435,coffin,Threed_Under Graveyard_1F_B1F_Stairs_B2F,item
+C7D84F,,1436,present,Winters_Snow Wood_1F_2F_Present-Room,item
+C7D84F,,1437,present,Winters_Snow Wood_1F_2F_Present-Room,item
+C7D84F,,1438,present,Winters_Snow Wood_1F_2F_Present-Room,item
+C7D84F,,1439,present,Winters_Snow Wood_1F_2F_Present-Room,item
+C7D84F,,1440,present,Winters_Snow Wood_1F_2F_Present-Room,item
+C7D84F,,1441,present,Winters_Snow Wood_1F_2F_Present-Room,item
+C7D84F,,1442,present,Winters_Snow Wood_1F_2F_Present-Room,item
+C7D84F,,1443,present,Winters_Andonuts Lab_1F_2F,item
+C7D84F,,1444,present,Winters_Brickroad Dungeon_1F,item
+C7D84F,,1445,present,Winters_Brickroad Dungeon_1F,item
+C7D84F,,1446,present,Winters_Brickroad Dungeon_1F,item
+C7D84F,,1447,present,Winters_Brickroad Dungeon_1F,item
+C7D84F,,1448,present,Winters_Brickroad Dungeon_1F,item
+C7D84F,,1449,present,Winters_Rainy Circle_1F_Hallway_Boss-Room,item
+C7D84F,,1450,present,Winters_Rainy Circle_1F_Hallway_Boss-Room,item
+C7D84F,,1451,present,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,item
+C7D84F,,1452,present,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room,item
+C7D84F,,1453,present,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,item
+C7D84F,,1454,present,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,item
+C7D84F,,1455,present,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,item
+C7D84F,,1456,present,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room,item
+C7D84F,,1457,present,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F,item
+C7D84F,,1458,present,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room,item
+C7D84F,,1459,present,Winters_Stonehenge Base_B1F_B2F_B3F_B4F,item
+C7D85B,,1460,trashcan,Grapefruit Falls_Belch's Base_1F_Room-2,item
+C7D85B,,1461,trashcan,Grapefruit Falls_Belch's Base_1F_Room-1,item
+C7D85B,,1462,trashcan,Grapefruit Falls_Belch's Base_1F_Room-3,item
+C7D85B,,1463,trashcan,Grapefruit Falls_Belch's Base_1F_Room-3,item
+C7D85B,,1464,trashcan,Grapefruit Falls_Belch's Base_1F_Room-3,item
+C7D85B,,1465,trashcan,Grapefruit Falls_Belch's Base_1F_Room-2,item
+C7D84F,,1466,present,Happy Happy Village_Lilliput Steps_1F_Hallway_Boss-Room,item
+C7D84F,,1467,present,Grapefruit-Falls,item
+C7D84F,,1468,present,Grapefruit-Falls,item
+C7D84F,,1469,present,Transitions_Grapefruit Falls to Saturn Valley_Room-1,item
+C7D84F,,1470,present,Saturn-Valley,item
+C7D85B,,1471,trashcan,Saturn Valley_Trash Room_1F,item
+C7D85B,,1472,trashcan,Saturn Valley_Trash Room_1F,item
+C7D85B,,1473,trashcan,Saturn Valley_Trash Room_1F,item
+C7D867,,1474,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Left_Right_Right-(Chest),item
+C7D85B,,1475,trashcan,Dusty Dunes Desert_Monkey Cave_Start_Left_Right_Left-(Trashcan),item
+C7D867,,1476,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Left-(Chest),item
+C7D85B,,1477,trashcan,Dusty Dunes Desert_Monkey Cave_Start_Right_Right_Right-(Trash-can),item
+C7D867,,1478,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Talah-Rama-Room),item
+C7D867,,1479,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Talah-Rama-Room),item
+C7D867,,1480,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Left-(Hallway),item
+C7D867,,1481,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right-(Hallway),item
+C7D867,,1482,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Left_Left-(Hallway),item
+C7D867,,1483,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hallway),item
+C7D867,,1484,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Left_Right-(Hallway),item
+C7D867,,1485,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hallway),item
+C7D867,,1486,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Hallway),item
+C7D867,,1487,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Hallway),item
+C7D867,,1488,present_dalaam,Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Hallway),item
+C7D84F,,1489,present,Dusty-Dunes-Desert,item
+C7D84F,,1490,present,Dusty-Dunes-Desert,item
+C7D84F,,1491,present,Dusty-Dunes-Desert,item
+C7D84F,,1492,present,Dusty-Dunes-Desert,item
+C7D84F,,1493,present,Dusty-Dunes-Desert,item
+C7D84F,,1494,present,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room_Stairs,item
+C7D84F,,1495,present,Dusty-Dunes-Desert,item
+C7D84F,,1496,present,Dusty-Dunes-Desert,item
+C7D84F,,1497,present,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,item
+C7D84F,,1498,present,Fourside_Hospital_1F_2F,item
+C7D84F,,1499,present,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,item
+C7D84F,,1500,present,Dusty Dunes Desert_Desert Gold Mine_1F-Maze_Room-2,item
+C7D84F,,1501,present,Fourside_Hospital_1F_2F,item
+C7D84F,,1502,present,Dusty Dunes Desert_Desert Gold Mine_1F-Maze_Room-2,item
+C7D84F,,1503,present,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,item
+C7D84F,,1504,present,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,item
+C7D84F,,1505,present,Dusty Dunes Desert_Desert Gold Mine_1F-Maze_Room-3,item
+C7D84F,,1506,present,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,item
+C7D84F,,1507,present,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,item
+C7D84F,,1508,present,Dusty Dunes Desert_Desert Gold Mine_1F-Maze_Room-2,item
+C7D84F,,1509,present,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,item
+C7D84F,,1510,present,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,item
+C7D867,,1511,present_dalaam,Fourside,item
+C7D84F,,1512,present,Fourside_Monotoli_L3_Left_Up_Up,item
+C7D84F,,1513,present,Fourside_Monotoli_L3_Left_Up_Left_Left,item
+C7D84F,,1514,present,Moonside,item
+C7D84F,,1515,present,Moonside,item
+C7D84F,,1516,present,Moonside,item
+C7D84F,,1517,present,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,item
+C7D84F,,1518,present,Moonside,item
+C7D85B,,1519,trashcan,Fourside_Fourside Sewers_1F_Left-Hallway,item
+C7D85B,,1520,trashcan,Fourside_Fourside Sewers_1F_Boss-Room_Room,item
+C7D85B,,1521,trashcan,Fourside_Fourside Sewers_1F_Right-Room,item
+C7D85B,,1522,trashcan,Fourside_Fourside Sewers_1F_Left-Hallway_Left-Hallway,item
+C7D85B,,1523,trashcan,Fourside_Fourside Sewers_1F_Left-Room,item
+C7D873,,1524,monster_coffin,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NW-Stairs_Room,item
+C7D873,,1525,monster_coffin,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room,item
+C7D873,,1526,monster_coffin,Scaraba_Pyramid_Entryway_Stairs_Room,item
+C7D873,,1527,monster_coffin,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room,item
+C7D873,,1528,monster_coffin,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room,item
+C7D873,,1529,monster_coffin,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room_Stairs_Plate-Room,item
+C7D84F,,1530,present,Scaraba_Dungeon Man_1F,item
+C7D84F,,1531,present,Scaraba_Dungeon Man_1F,item
+C7D84F,,1532,present,Scaraba_Dungeon Man_1F_2F,item
+C7D84F,,1533,present,Scaraba_Dungeon Man_1F_2F,item
+C7D84F,,1534,present,Scaraba_Dungeon Man_1F,item
+C7D84F,,1535,present,Scaraba_Dungeon Man_1F_2F,item
+C7D84F,,1536,present,Scaraba_Dungeon Man_1F,item
+C7D84F,,1537,present,Scaraba_Dungeon Man_1F,item
+C7D84F,,1538,present,Scaraba_Dungeon Man_1F_2F,item
+C7D84F,,1539,present,Scaraba_Dungeon Man_1F_2F,item
+C7D84F,,1540,present,Scaraba_Dungeon Man_1F_2F_3F,item
+C7D84F,,1541,present,Scaraba_Dungeon Man_1F,item
+C7D867,,1542,present_dalaam,Dalaam_Palace_1F_Throne-Room,item
+C7D867,,1543,present_dalaam,Dalaam_Palace_1F_Throne-Room,item
+C7D867,,1544,present_dalaam,Dalaam_Palace_1F_Throne-Room,item
+C7D867,,1545,present_dalaam,Dalaam_Houses_North,item
+C7D867,,1546,present_dalaam,Dalaam_Shop_1F,item
+C7D867,,1547,present_dalaam,Dalaam_Houses_South,item
+C7D867,,1548,present_dalaam,Dalaam_Shop_1F,item
+C7D84F,,1549,present,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room_Stairs,item
+C7D84F,,1550,present,Dalaam_Pink Cloud_1F_Top-Hole,item
+C7D84F,,1551,present,Dalaam_Pink Cloud_1F_Return-Room,item
+C7D84F,,1552,present,Deep-Darkness,item
+C7D84F,,1553,present,Deep-Darkness,item
+C7D84F,,1554,present,Deep-Darkness,item
+C7D84F,,1555,present,Deep-Darkness,item
+C7D84F,,1556,present,Deep-Darkness,item
+C7D84F,,1557,present,Deep-Darkness,item
+C7D84F,,1558,present,Deep Darkness_Lumine Hall_1F,item
+C7D84F,,1559,present,Deep Darkness_Lumine Hall_1F,item
+C7D84F,,1560,present,Deep Darkness_Lumine Hall_1F_2F,item
+C7D84F,,1561,present,Deep Darkness_Lumine Hall_1F,item
+C7D84F,,1562,present,Deep Darkness_Lumine Hall_1F,item
+C7D84F,,1563,present,Deep Darkness_Lumine Hall_1F_2F,item
+C7D84F,,1564,present,Deep Darkness_Lumine Hall_1F_2F,item
+C7D84F,,1565,present,Deep Darkness_Lumine Hall_1F_2F,item
+C7D84F,,1566,present,Deep Darkness_Lumine Hall_1F_2F,item
+C7D85B,,1567,trashcan,Deep Darkness_Tenda Village_Main,item
+C7D84F,,1568,present_tiny,Lost-Underworld,item
+C7D84F,,1569,present_tiny,Lost-Underworld,item
+C7D84F,,1570,present_tiny,Lost-Underworld,item
+C7D84F,,1571,present_tiny,Lost-Underworld,item
+C7D84F,,1572,present_tiny,Lost-Underworld,item
+C7D84F,,1573,present,Lost Underworld_Fire Springs_1F,item
+C7D84F,,1574,present,Lost Underworld_Fire Springs_1F_Center-Room-2,item
+C7D84F,,1575,present,Lost Underworld_Fire Springs_1F,item
+C7D84F,,1576,present,Lost Underworld_Fire Springs_1F,item
+C7D84F,,1577,present,Lost Underworld_Fire Springs_1F_SW-Room,item
+C7D84F,,1578,present,Magicant,item
+C7D84F,,1579,present,Magicant,item
+C7D84F,,1580,present,Magicant,item
+C7D84F,,1581,present,Magicant,item
+C7D84F,,1582,present,Magicant,item
+C7D84F,,1583,present,Lost Underworld_Cave of the Past_1F-Past,item

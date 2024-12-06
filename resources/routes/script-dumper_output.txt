@@ -16729,7 +16729,7 @@ Npc0094:
 �(Please take my son along.[WAIT][LINE_BREAK]
 �He may look like a regular,[PAUSE 15] small mouse,[WAIT][LINE_BREAK]
 �but he can lead you to an exit if you're lost in a maze.)[WAIT][LINE_BREAK]
-[GOTO_IF_FLAG HAS_EXIT_MOUSE L_C677CC]
+[GOTO_IF_FLAG HAS_ L_C677CC]
 �(Will you take one of my sons along?)[LINE_BREAK]
 [LOAD_STRING "Yes"]
  [LOAD_STRING "No"]
@@ -25728,8 +25728,8 @@ L_C7A300:
 �I just wanted to let you know that I finished a pretty unique invention.[WAIT][LINE_BREAK]
 �I'm not sure if it will help you or not...[WAIT][LINE_BREAK]
 �It's called �Zombie Paper,� and it can be used to trap zombies.[WAIT][LINE_BREAK]
-�It works kind of like fly paper...[WAIT][LINE_BREAK]
 �All you need to do is place the paper on the floor of a tent or something...[WAIT][LINE_BREAK]
+�It works kind of like fly paper...[WAIT][LINE_BREAK]
 �You've seen at least one tent around, right?....[WAIT][LINE_BREAK]
 �and then the zombies get stuck to the paper[WAIT][LINE_BREAK]
 �when they move around inside the tent.[WAIT][LINE_BREAK]
@@ -38152,8 +38152,8 @@ L_C930F7:
 L_C9310C:
 [END]
 
-; $C9310D
 Npc1143:
+; $C9310D
 �(The door of the pyramid is firmly sealed...)[HALT][END]
 
 ; $C9312E
@@ -41480,8 +41480,8 @@ L_C99CC9:
 [END]
 
 ; $C99CCD
-L_C99CCD:
 [HIDE_PMEMBER ALL 6]
+L_C99CCD:
 [POST_FADE_GOTO L_C99CD8]
 [END]
 
