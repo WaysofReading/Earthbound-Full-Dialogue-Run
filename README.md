@@ -10,17 +10,23 @@ Note: I am developing this route as though it were a speedrun; however, this pro
  It is certain that  the route, once completed, will contain errors and omissions -- it's also the case that some dialogue is entirely inaccessible through normal play. Validation of a given run is a complex topic, Therefore, Therefore, it may make more sense to title the run "Maximum Dialogue", and to improve coverage in future iterations. 
 
 ## The Run
-The run itself is being composed in `routes\Earthbound Full Dialogue Run - Route.xlsx` in this. The sheet includes one row for each action and event that must occur to fulfill the requirements of run. The primary tab contains all information needed to perform a validated run.
+The run itself is being composed in `routes\Earthbound Full Dialogue Run - Route.xlsx`. The sheet includes one row for each action and event that must occur to fulfill the requirements of run. The primary tab contains all information needed to perform a validated run.
 
 ### Recordings
-I have uploaded recordings of several segments of the run. Note that these are proof-of-concept recordings and I make use of emulator save states, pausing, and rewinding in order to create a faster, more watchable segment. I do not use these features to exploit glitches or take any action not possible for a skilled player.
+I have uploaded video of a full run which is available in parts on YouTube:
+
+* [Part 1](https://youtu.be/thcBLhHONTk)
+* [Part 2](https://youtu.be/EyFvE6gH1tQ)
+* [Part 3](https://youtu.be/4CwATWNhzk8)
+
+I also uploaded video of several example segments of the run while development was in progress. These are proof-of-concept recordings.
 
 * [Segment 01 - Onett](https://www.youtube.com/watch?v=BfnYmuUwrk4)
 * [Segment 02 - Twoson](https://www.youtube.com/watch?v=uB2PgbbQon8)
 * [Segment 03 - Happy Happy Village and Runaway 5](https://www.youtube.com/watch?v=p4cNvKl3Bk0)
 
 ## Text Access Monitor
-As noted in the introduction, this is a long, complex run. It is expected to comprise several thousand steps that must be taken in a fairly precise order, with many cases where steps can be permanently missed due to the way NPC dialogue changes in response to plot events. This creates a challenge both for executing the run, and for __validating__ that the run has accomplished what it claims: visiting all normally-accessible NPC and object dialogue in the game.
+As noted in the introduction, this is a long, complex run. It comprises nearly 4,000 steps that must be taken in a fairly precise order, with many cases where steps can be permanently missed due to the way NPC dialogue changes in response to plot events. This creates a challenge both for executing the run, and for __validating__ that the run has accomplished what it claims: visiting all normally-accessible NPC and object dialogue in the game.
 
 In order to address these challenges, I have developed the Text Access Monitor, a LUA script for BizHawk (`text-access-monitor\text-access-monitor.lua`). This script exposes game state data to facilitate route development and execution, tracks overall run progress, and outputs a list of byte-level dialogue addresses accessed in a given `.bk2` recording of a run (to support validation and run completion calculations). The Text Access Monitor currently includes the following features:
 
@@ -51,29 +57,24 @@ In order to address these challenges, I have developed the Text Access Monitor, 
     * Snes9x version by pirohiko, BizHawk version by BrunoValads
     * Note: BrunoValads' code (https://pastebin.com/MRix5ZJg) served as the basis for the Text Access Monitor script
 
+## Run Details Frame
+I also developed the Run Details Frame, a LUA script for BizHawk (`run-details-frame\run-details.frame.lua`). This script generates a UI which tracks several measures of run progress, and also displays the current frame and named segment for ease of reference.
+
+Here's how it works in brief: the instruction at 0xC187B8 ("lda [$06]") loads the next byte to be processed by the text parser from ROM into the 65816's accumulator. The Lua script reads the address of the next byte each time instruction 0xC187B8 is executed and compares it against a list of known addresses. If a match is found, the relevant progress measure is incremented:
+
+* Dialogue Bytes Read. An address in ROM regions [0xC50000, 0xC9FFFF] or [0xEF4E20, 0xEFA6FF]
+* Dialogue Labels Visited. A labeled address in the above-specified ROM regions
+* Entity Interactions Triggered. An address that is specified as a text pointer for an entity
+* Hints Seen. An address that is associated with one of the Hint Man's hints
+* Items Described. An address that is associated with an item's "Help!" description
+* Headlines Read. An address that is associated with a hotel newspaper headline
+
+For Presents Opened, each bit in WRAM region [0x009C6B bit 7, 0x009C81] stores the state of a present, where 0=not opened and 1=opened. The Lua script calculates the total number of 1 bits in this region.
+
+For Segment, I defined a list of dialogue addresses at or close to the start of each named and numbered segment. When these addresses are accessed, the Lua script updates the segment if the new value is numbered higher the current one.
+
 ## Run Validation
-It is impossible to reach 100% of all dialogue bytes and labels in Earthbound through normal play. Of the subset of dialogue data which _is_ normally accessible, it's virtually certain that the completed route will include a number of gaps, errors, and oversights. The route spreadsheet supports basic validation and includes tables showing whether and how often each NPC has been visited, as well as checklists for hints and newspaper headlines.
-
-Given the length of a full run, it's also important to be able to automate the calculation of the completion rate ("collection rate") of a given run for progress tracking, as well as to identify gaps in coverage that necessitate revisions to the route. I'm currently thinking of the collection rate in terms of one of two formulae:
-
-* The number of dialogue bytes accessed divided by the total number of bytes in game ROM
-* The number of dialogue address labels accessed divided by the total number of addresses in game ROM
-
-The Text Access Monitor includes features for tracking and logging both of these types of access, and can be used to establish how much of the total dialogue in the game was accessed in a run. A subtler question involves determining which addresses are truly unreachable: I will investigate this challenge later, once the initial route is drafted.
-
-## Next Steps
-* Record routed segments:
-    * Threed (including Saturn Valley and Belch's Factory)
-* Route remaining segments of the run:
-    * Fourside 1 (Dusty Dunes + Mole Cave)
-    * Fourside 2 (Paula's kidnapping + Moonside)
-    * Summers
-    * Scaraba
-    * Deep Darkness
-    * Stonehenge + Lost Underworld
-    * Magicant
-    * Onett + Cave of the Past
-    * Postgame
+It is impossible to reach 100% of all dialogue bytes and labels in Earthbound through normal play. Of the subset of dialogue data which _is_ normally accessible, the completed route is known to include a number of gaps, errors, and oversights. The route spreadsheet supports basic validation and includes tables showing whether and how often each NPC has been visited, as well as checklists for hints and newspaper headlines. The Run Details Frame can be configured to output a list of accessed bytes in order to identify these gaps and further revise the route to a higher completion rate.
 
 ## Repository Overview
 * `docs\` Documentation of various processes used for creation of the run and supporting materials
