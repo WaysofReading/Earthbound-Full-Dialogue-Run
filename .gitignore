@@ -1,6 +1,17 @@
 /.git/
 /__pycache__/
+/.idea/
 /docs/
+/emuhawk-29.lnk
 resources/maps/layers_all-regions-and-rooms.psd
 resources/maps/layers_overworld-regions-only.psd
 resources/recordings/videos/
+*.State.bak
+
+# Author working state (local-only)
+/run-details-frame/*_frame_*/
+/run-details-frame/video-frame.pdn
+/resources/routes/script-dumper_output_review-copy.txt
+/resources/saves/save-states_BSNES/EarthBound (USA).BSNES.Compatibility.*.State
+/resources/recordings/other-runners-bk2/illayaya-earthbound.bk2
+/resources/saves/sram/EarthBound (USA).illayaya-earthbound-inbounds.SaveRAM

@@ -1,16 +1,16 @@
 # Earthbound Full Dialogue Run
-![](https://github.com/WaysofReading/Earthbound-Full-Dialogue-Run/blob/main/resources/screenshots/EarthBound%20(USA).2024-06-16%2011.31.00.png) | ![](https://github.com/WaysofReading/Earthbound-Full-Dialogue-Run/blob/main/resources/screenshots/EarthBound%20(USA).2024-06-16%2011.31.02.png) | ![](https://github.com/WaysofReading/Earthbound-Full-Dialogue-Run/blob/main/resources/screenshots/EarthBound%20(USA).2024-06-16%2011.31.03.png)
+![](resources/screenshots/EarthBound%20(USA).2024-06-16%2011.31.00.png) | ![](resources/screenshots/EarthBound%20(USA).2024-06-16%2011.31.02.png) | ![](resources/screenshots/EarthBound%20(USA).2024-06-16%2011.31.03.png)
 ## Introduction
 A full-dialogue run of Earthbound is a playthrough of the Earthbound/MOTHER 2 (1994) in which every normally-accessible line of dialogue appears on-screen. “Normally-accessible” means lines of dialogue that are accessible without the use of glitches, cheats, or hacks. This includes all dialogue spoken by NPCs and displayed by objects (signs, doors, objects, etc.) For simplicity, battle-only text and item descriptions are excluded from the completion checklist.
 
-I have been developing this run since March 2023. This repository includes the route itself (`resources\routes\Earthbound Full Dialogue Run - Route.xlsx`), as well as a number of materials and resources I've created to support development and tracking of this long, complex run.
+I have been developing this run since March 2023. This repository includes the route itself (`resources\routes\Earthbound Full Dialogue Run - Route_v1.xlsx`), as well as a number of materials and resources I've created to support development and tracking of this long, complex run.
 
 Note: I am developing this route as though it were a speedrun; however, this project is also an exercise in exploring certain ideas I'm interested in around video game writing and unconventional modes play.  As such, I am as interested in actually executing the route as I am in analyzing the game and the process of developing this run. A bit of non-technical discussion can be found in the `docs\` directory of the repository, and some published posts on the project are available at (https://waysofreading.substack.com/p/full-dialogue-run-revisited).
 
  It is certain that  the route, once completed, will contain errors and omissions -- it's also the case that some dialogue is entirely inaccessible through normal play. Validation of a given run is a complex topic, Therefore, Therefore, it may make more sense to title the run "Maximum Dialogue", and to improve coverage in future iterations. 
 
 ## The Run
-The run itself is being composed in `routes\Earthbound Full Dialogue Run - Route.xlsx`. The sheet includes one row for each action and event that must occur to fulfill the requirements of run. The primary tab contains all information needed to perform a validated run.
+The run itself is being composed in `resources\routes\Earthbound Full Dialogue Run - Route_v1.xlsx`. The sheet includes one row for each action and event that must occur to fulfill the requirements of run. The primary tab contains all information needed to perform a validated run.
 
 ### Recordings
 I have uploaded video of a full run which is available in parts on YouTube:
@@ -58,7 +58,7 @@ In order to address these challenges, I have developed the Text Access Monitor, 
     * Note: BrunoValads' code (https://pastebin.com/MRix5ZJg) served as the basis for the Text Access Monitor script
 
 ## Run Details Frame
-I also developed the Run Details Frame, a LUA script for BizHawk (`run-details-frame\run-details.frame.lua`). This script generates a UI which tracks several measures of run progress, and also displays the current frame and named segment for ease of reference.
+I also developed the Run Details Frame, a LUA script for BizHawk (`run-details-frame\run-details-frame.lua`). This script generates a UI which tracks several measures of run progress, and also displays the current frame and named segment for ease of reference.
 
 Here's how it works in brief: the instruction at 0xC187B8 ("lda [$06]") loads the next byte to be processed by the text parser from ROM into the 65816's accumulator. The Lua script reads the address of the next byte each time instruction 0xC187B8 is executed and compares it against a list of known addresses. If a match is found, the relevant progress measure is incremented:
 
@@ -72,6 +72,8 @@ Here's how it works in brief: the instruction at 0xC187B8 ("lda [$06]") loads th
 For Presents Opened, each bit in WRAM region [0x009C6B bit 7, 0x009C81] stores the state of a present, where 0=not opened and 1=opened. The Lua script calculates the total number of 1 bits in this region.
 
 For Segment, I defined a list of dialogue addresses at or close to the start of each named and numbered segment. When these addresses are accessed, the Lua script updates the segment if the new value is numbered higher the current one.
+
+The script reads six CSVs from its own directory: `labels.csv`, `entities.csv`, `hints.csv`, `item-descriptions.csv`, `headlines.csv`, and `sections.csv`. These must sit alongside `run-details-frame.lua` because the script loads them with `.\` paths.
 
 ## Run Validation
 It is impossible to reach 100% of all dialogue bytes and labels in Earthbound through normal play. Of the subset of dialogue data which _is_ normally accessible, the completed route is known to include a number of gaps, errors, and oversights. The route spreadsheet supports basic validation and includes tables showing whether and how often each NPC has been visited, as well as checklists for hints and newspaper headlines. The Run Details Frame can be configured to output a list of accessed bytes in order to identify these gaps and further revise the route to a higher completion rate.
@@ -89,10 +91,9 @@ It is impossible to reach 100% of all dialogue bytes and labels in Earthbound th
         * `script-dumper_output.txt` Output from Earthbound Script Dumper
         * `script-dumper_output_text-only.txt` Output from Earthbound Script Dumper, plaintext only
         * `by_npc\` Output from process-dialogue.py, separate text file for each NPC
-        * `by_npc_working-set\` Output from process-dialogue.py, free to modify for routing purposes
-        * `ccscript_parts\` CCScript files from CoilSnake
+        * `ccscript_parts\` CCScript files from CoilSnake (mirror of the local `decompilations\20230106\ccscript\`)
     * `labels\` Tables mapping game values to text labels
-        * `sprite-group-labels.csv/xlsx` Canonical or descriptive names for game sprites (used by `text-access-monitor.lua`)
+        * `sprite-group_labels.csv/xlsx` Canonical or descriptive names for game sprites (used by `text-access-monitor.lua`)
     * `maps\` Image files for every overworld region and room in Earthbound, with number labels for sprites
         * `export-layers_output` Intermediate output (from antipalindrome, `Photoshop-Export-Layers-to-Files-Fast-2.7.1`)
         * `export-layers_output_flat` Same as above, with all image files in a single directory
@@ -111,18 +112,19 @@ It is impossible to reach 100% of all dialogue bytes and labels in Earthbound th
         * `Earthbound (USA).wch` a RAM watch file for Earthbound
     * `recordings\` Emulator and video recordings of full runs and run segments
         * `bk2\` Bizhawk emulator movie files
-        * `vid\` Video recordings for sharing and publication (too large for GitHub, look on YouTube)
+        * `other-runners-bk2\` Reference recordings from other Earthbound runners (e.g. pirohikov1's glitched .lsmv)
+        * `videos\` Video recordings for sharing and publication (gitignored; published on YouTube)
     * `routes\` Materials for the Full Dialogue Run route
-        * `Earthbound Full Dialogue Run - Route.xlsx` The most recent draft of the route
-        * `by_npc\` Individual dialogue files for each NPC (output from `process-dialogue.py`)
-        * `regions-trimmed-flat_by-name\` Image files for individual overworld regions and rooms (see above)
+        * `Earthbound Full Dialogue Run - Route_v1.xlsx` The most recent draft of the route
+        * `script-dumper_output_route-annotations.txt` Annotated/edited variant of script-dumper output, used for routing
         * `tracings\` Visual representation of the run route (complex regions only, needs cleanup)
     * `saves\` Save states created at various points along the route
         * `save-states_BSNES` For use with BizHawk's SubBSNESv115+ core
         * `sram` for use with BizHawk
     * `screenshots\` Screenshots of Earthbound created with BizHawk. Just for fun/reference.
+    * `spritesheets\` Reference sprite PNGs for game entities
     * `tables\` Automatically-generated value lists for game entities
-        * `regions-and-rooms.csv` Names and coordinates for all regions and rooms (output from `process-images.py`)
+        * `rooms_and_regions.csv` Names and coordinates for all regions and rooms (output from `process-images.py`)
         * `npcs.csv` Detailed table of all NPCs (output from `process-dialogue.py`)
         * `flags.csv` English labels for all numbered game flags (from CataLatas, `earthbound-script-dumper`)
 * `text-access-monitor\` Multipurpose LUA script for facilitating run routing and validation. See "Text Access Monitor", above, for more details.
