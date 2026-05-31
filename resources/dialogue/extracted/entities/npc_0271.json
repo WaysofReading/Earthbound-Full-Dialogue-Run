@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0271",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0271",
+  "label": "man_orange-hair_sunglasses",
+  "location": {
+    "x0": 7424,
+    "x1": 7424,
+    "x_sector": 29,
+    "x_tile": 232,
+    "y0": 8584,
+    "y1": 8584,
+    "y_sector": 33,
+    "y_tile": 268
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 117,
+    "sprite_label": "man_orange-hair_sunglasses"
+  },
+  "reachable_nodes": [
+    "L_C964D9",
+    "Npc0271"
+  ],
+  "region": "Twoson_Bus Station_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

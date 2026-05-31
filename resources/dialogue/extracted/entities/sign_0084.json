@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C86467",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0084",
+  "label": "",
+  "location": {
+    "x0": 1712,
+    "x1": 1712,
+    "x_sector": 6,
+    "x_tile": 53,
+    "y0": 1432,
+    "y1": 1432,
+    "y_sector": 5,
+    "y_tile": 44
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C86467"
+  ],
+  "region": "Onett",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

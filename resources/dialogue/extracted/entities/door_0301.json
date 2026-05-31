@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B11E",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0301",
+  "label": "",
+  "location": {
+    "x0": 7152,
+    "x1": 7152,
+    "x_sector": 27,
+    "x_tile": 223,
+    "y0": 1640,
+    "y1": 1640,
+    "y_sector": 6,
+    "y_tile": 51
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 458,
+      "y": 1016
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 10,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9992F",
+    "L_C99D92",
+    "L_C9B11E"
+  ],
+  "region": "Happy Happy Village_Hotel_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

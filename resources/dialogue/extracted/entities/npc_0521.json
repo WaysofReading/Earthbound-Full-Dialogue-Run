@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0521",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0521",
+  "label": "elevator_attendant",
+  "location": {
+    "x0": 6080,
+    "x1": 6080,
+    "x_sector": 23,
+    "x_tile": 190,
+    "y0": 9056,
+    "y1": 9056,
+    "y_sector": 35,
+    "y_tile": 283
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 67,
+    "sprite_label": "elevator_attendant"
+  },
+  "reachable_nodes": [
+    "L_C8E576",
+    "L_C8E5A4",
+    "Npc0521"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 14,
+    "flag_label": "JEFF_JOINS"
+  }
+}

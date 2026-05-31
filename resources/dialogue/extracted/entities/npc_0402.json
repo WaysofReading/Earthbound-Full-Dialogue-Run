@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0402",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0402",
+  "label": "mr-saturn",
+  "location": {
+    "x0": 8016,
+    "x1": 8016,
+    "x_sector": 31,
+    "x_tile": 250,
+    "y0": 2040,
+    "y1": 2040,
+    "y_sector": 7,
+    "y_tile": 63
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 171,
+    "sprite_label": "mr-saturn"
+  },
+  "reachable_nodes": [
+    "L_C98B5A",
+    "Npc0402"
+  ],
+  "region": "Happy Happy Village_Mr Saturn's House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1276",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1276",
+  "label": "monster_your-sanctuary",
+  "location": {
+    "x0": 3344,
+    "x1": 3344,
+    "x_sector": 13,
+    "x_tile": 104,
+    "y0": 6368,
+    "y1": 6368,
+    "y_sector": 24,
+    "y_tile": 199
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 693,
+    "npc_type": "person",
+    "sprite": 333,
+    "sprite_label": "monster_your-sanctuary"
+  },
+  "reachable_nodes": [
+    "L_C6843A",
+    "L_C7C588",
+    "L_C7DC7F",
+    "Npc0463",
+    "Npc1276"
+  ],
+  "region": "Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 197,
+    "flag_label": "CONQUERED_SANCTUARY_8"
+  }
+}

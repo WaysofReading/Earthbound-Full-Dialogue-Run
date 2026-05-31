@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1161",
+  "label": "camel",
+  "location": {
+    "x0": 1704,
+    "x1": 1704,
+    "x_sector": 6,
+    "x_tile": 53,
+    "y0": 5328,
+    "y1": 5328,
+    "y_sector": 20,
+    "y_tile": 166
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 443,
+    "sprite_label": "camel"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9AF3A",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1077",
+  "label": "",
+  "location": {
+    "x0": 192,
+    "x1": 192,
+    "x_sector": 0,
+    "x_tile": 6,
+    "y0": 6040,
+    "y1": 6040,
+    "y_sector": 23,
+    "y_tile": 188
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 529,
+      "y": 254
+    },
+    "direction": "up",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9992F",
+    "L_C9AF3A"
+  ],
+  "region": "Lost Underworld_Cave of the Past_1F-Past",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

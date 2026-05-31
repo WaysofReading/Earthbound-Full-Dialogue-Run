@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "gated_by_flag": 651,
+      "gated_by_flag_label": "UNDERWORLD_TENDA_GATE_OPEN",
+      "node_id": "L_EF610C",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_1299",
+  "label": "door_fence",
+  "location": {
+    "x0": 2336,
+    "x1": 2336,
+    "x_sector": 9,
+    "x_tile": 73,
+    "y0": 2680,
+    "y1": 2680,
+    "y_sector": 10,
+    "y_tile": 83
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 422,
+    "sprite_label": "door_fence"
+  },
+  "reachable_nodes": [
+    "L_EF610C"
+  ],
+  "region": "Lost-Underworld",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 651,
+    "flag_label": "UNDERWORLD_TENDA_GATE_OPEN"
+  }
+}

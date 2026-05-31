@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0122",
+  "label": "",
+  "location": {
+    "x0": 7664,
+    "x1": 7664,
+    "x_sector": 29,
+    "x_tile": 239,
+    "y0": 488,
+    "y1": 488,
+    "y_sector": 1,
+    "y_tile": 15
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 217,
+      "y": 142
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 12,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Burger Shop_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

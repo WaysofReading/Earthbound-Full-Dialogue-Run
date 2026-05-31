@@ -1,0 +1,55 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0253",
+      "role": "primary"
+    },
+    {
+      "node_id": "L_C95A8D",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0253",
+  "label": "poochyfud",
+  "location": {
+    "x0": 7584,
+    "x1": 7584,
+    "x_sector": 29,
+    "x_tile": 237,
+    "y0": 7624,
+    "y1": 7624,
+    "y_sector": 29,
+    "y_tile": 238
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 158,
+    "sprite_label": "poochyfud"
+  },
+  "reachable_nodes": [
+    "L_C799D7",
+    "L_C79A64",
+    "L_C79A98",
+    "L_C79AB9",
+    "L_C79AD7",
+    "L_C7C6B6",
+    "L_C95988",
+    "L_C959E2",
+    "L_C95A5F",
+    "L_C95A8D",
+    "L_C95AA0",
+    "L_C95B64",
+    "L_C95BA0",
+    "Npc0251",
+    "Npc0253"
+  ],
+  "region": "Twoson_Chaos Theater_1F_Manager's-Office",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0605",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0605",
+  "label": "man_orange-hair_sunglasses",
+  "location": {
+    "x0": 7813,
+    "x1": 7813,
+    "x_sector": 30,
+    "x_tile": 244,
+    "y0": 1848,
+    "y1": 1848,
+    "y_sector": 7,
+    "y_tile": 57
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 117,
+    "sprite_label": "man_orange-hair_sunglasses"
+  },
+  "reachable_nodes": [
+    "L_C6CDAF",
+    "Npc0605"
+  ],
+  "region": "Winters_Snow Wood_1F_2F_Present-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

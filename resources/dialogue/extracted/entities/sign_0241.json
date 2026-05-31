@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C866F3",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0241",
+  "label": "",
+  "location": {
+    "x0": 6336,
+    "x1": 6336,
+    "x_sector": 24,
+    "x_tile": 198,
+    "y0": 8696,
+    "y1": 8696,
+    "y_sector": 33,
+    "y_tile": 271
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C866F3"
+  ],
+  "region": "Threed",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

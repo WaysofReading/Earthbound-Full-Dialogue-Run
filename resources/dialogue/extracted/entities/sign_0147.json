@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C77C5B",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0147",
+  "label": "",
+  "location": {
+    "x0": 5904,
+    "x1": 5904,
+    "x_sector": 23,
+    "x_tile": 184,
+    "y0": 4664,
+    "y1": 4664,
+    "y_sector": 18,
+    "y_tile": 145
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "person"
+  },
+  "reachable_nodes": [
+    "L_C77C5B"
+  ],
+  "region": "Magicant",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

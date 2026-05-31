@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0080",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0080",
+  "label": "man_glasses_-black-suit",
+  "location": {
+    "x0": 7080,
+    "x1": 7080,
+    "x_sector": 27,
+    "x_tile": 221,
+    "y0": 96,
+    "y1": 96,
+    "y_sector": 0,
+    "y_tile": 3
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 62,
+    "sprite_label": "man_glasses_-black-suit"
+  },
+  "reachable_nodes": [
+    "Npc0080"
+  ],
+  "region": "Onett_Town Hall_1F_Left-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

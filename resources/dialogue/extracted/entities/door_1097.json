@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1097",
+  "label": "",
+  "location": {
+    "x0": 6152,
+    "x1": 6152,
+    "x_sector": 24,
+    "x_tile": 192,
+    "y0": 6088,
+    "y1": 6088,
+    "y_sector": 23,
+    "y_tile": 190
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 780,
+      "y": 745
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Dusty Dunes Desert_Monkey Cave_Start_Left_Left-(Hallway)",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

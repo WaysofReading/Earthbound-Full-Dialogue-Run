@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B10B",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1422",
+  "label": "",
+  "location": {
+    "x0": 4208,
+    "x1": 4208,
+    "x_sector": 16,
+    "x_tile": 131,
+    "y0": 7712,
+    "y1": 7712,
+    "y_sector": 30,
+    "y_tile": 241
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 391,
+      "y": 209
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9B10B",
+    "L_C9B112"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

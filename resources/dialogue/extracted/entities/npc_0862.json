@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0862",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0862",
+  "label": "bodyguard",
+  "location": {
+    "x0": 5976,
+    "x1": 5976,
+    "x_sector": 23,
+    "x_tile": 186,
+    "y0": 6488,
+    "y1": 6488,
+    "y_sector": 25,
+    "y_tile": 202
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 109,
+    "sprite_label": "bodyguard"
+  },
+  "reachable_nodes": [
+    "L_C6E159",
+    "Npc0862"
+  ],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

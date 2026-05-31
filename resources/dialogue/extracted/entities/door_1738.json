@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1738",
+  "label": "",
+  "location": {
+    "x0": 7752,
+    "x1": 7752,
+    "x_sector": 30,
+    "x_tile": 242,
+    "y0": 9944,
+    "y1": 9944,
+    "y_sector": 38,
+    "y_tile": 310
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 888,
+      "y": 1165
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Threed_Hospital_1F_2F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

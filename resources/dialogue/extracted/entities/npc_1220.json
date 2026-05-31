@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1219",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1220",
+  "label": "sign_small",
+  "location": {
+    "x0": 1720,
+    "x1": 1720,
+    "x_sector": 6,
+    "x_tile": 53,
+    "y0": 8560,
+    "y1": 8560,
+    "y_sector": 33,
+    "y_tile": 267
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 213,
+    "sprite_label": "sign_small"
+  },
+  "reachable_nodes": [
+    "L_C57B3E",
+    "Npc1219"
+  ],
+  "region": "Scaraba_Dungeon Man_1F_2F_3F_4F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 762,
+    "flag_label": "DUNGEON_MAN_GOODBYE_EXIT_SIGN"
+  }
+}

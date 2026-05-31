@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C869BE",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0137",
+  "label": "",
+  "location": {
+    "x0": 5256,
+    "x1": 5256,
+    "x_sector": 20,
+    "x_tile": 164,
+    "y0": 4600,
+    "y1": 4600,
+    "y_sector": 17,
+    "y_tile": 143
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C869BE"
+  ],
+  "region": "Magicant",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

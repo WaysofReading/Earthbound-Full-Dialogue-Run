@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0116",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0116",
+  "label": "girl_redhead_pigtails",
+  "location": {
+    "x0": 7824,
+    "x1": 7824,
+    "x_sector": 30,
+    "x_tile": 244,
+    "y0": 1248,
+    "y1": 1248,
+    "y_sector": 4,
+    "y_tile": 39
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 128,
+    "sprite_label": "girl_redhead_pigtails"
+  },
+  "reachable_nodes": [
+    "L_C67AC1",
+    "Npc0116"
+  ],
+  "region": "Onett_Hospital_1F_2F_Right-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

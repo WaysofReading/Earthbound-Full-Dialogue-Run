@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0995",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0995",
+  "label": "monster_your-sanctuary",
+  "location": {
+    "x0": 3552,
+    "x1": 3552,
+    "x_sector": 13,
+    "x_tile": 111,
+    "y0": 3200,
+    "y1": 3200,
+    "y_sector": 12,
+    "y_tile": 100
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 693,
+    "npc_type": "person",
+    "sprite": 333,
+    "sprite_label": "monster_your-sanctuary"
+  },
+  "reachable_nodes": [
+    "L_C68425",
+    "L_C7C588",
+    "L_C7DC7F",
+    "Npc0463",
+    "Npc0995"
+  ],
+  "region": "Fourside_Fourside Sewers_1F_Boss-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 194,
+    "flag_label": "CONQUERED_SANCTUARY_5"
+  }
+}

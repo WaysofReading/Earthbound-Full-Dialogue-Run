@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0975",
+  "label": "lamppost",
+  "location": {
+    "x0": 2976,
+    "x1": 2976,
+    "x_sector": 11,
+    "x_tile": 93,
+    "y0": 3952,
+    "y1": 3952,
+    "y_sector": 15,
+    "y_tile": 123
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 201,
+    "sprite_label": "lamppost"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

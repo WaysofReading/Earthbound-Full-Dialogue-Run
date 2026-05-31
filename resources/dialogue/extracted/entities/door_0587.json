@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99C53",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0587",
+  "label": "",
+  "location": {
+    "x0": 6336,
+    "x1": 6336,
+    "x_sector": 24,
+    "x_tile": 198,
+    "y0": 3416,
+    "y1": 3416,
+    "y_sector": 13,
+    "y_tile": 106
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 280,
+      "y": 638
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C99C53",
+    "L_C99C61"
+  ],
+  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room_Room_Exit-Hall",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

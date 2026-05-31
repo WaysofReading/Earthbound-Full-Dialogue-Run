@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0776",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 5656,
+    "x1": 5656,
+    "x_sector": 22,
+    "x_tile": 176,
+    "y0": 9960,
+    "y1": 9960,
+    "y_sector": 38,
+    "y_tile": 311
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 876,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Transitions_Dusty Dunes to Fourside_Fourside-Bridge",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

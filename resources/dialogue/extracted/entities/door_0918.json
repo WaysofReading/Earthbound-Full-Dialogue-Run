@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_0918",
+  "label": "",
+  "location": {
+    "x0": 7616,
+    "x1": 7616,
+    "x_sector": 29,
+    "x_tile": 238,
+    "y0": 5288,
+    "y1": 5288,
+    "y_sector": 20,
+    "y_tile": 165
+  },
+  "properties": {
+    "destination": null,
+    "direction": null,
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "ladder"
+  },
+  "reachable_nodes": [],
+  "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Maze_Room-2",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

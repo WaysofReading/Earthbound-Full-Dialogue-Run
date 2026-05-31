@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1324",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1324",
+  "label": "monster_zombie",
+  "location": {
+    "x0": 5744,
+    "x1": 5744,
+    "x_sector": 22,
+    "x_tile": 179,
+    "y0": 4672,
+    "y1": 4672,
+    "y_sector": 18,
+    "y_tile": 146
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 308,
+    "sprite_label": "monster_zombie"
+  },
+  "reachable_nodes": [
+    "Npc1324"
+  ],
+  "region": "Magicant",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

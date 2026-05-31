@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0390",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0390",
+  "label": "happy-happyist",
+  "location": {
+    "x0": 7616,
+    "x1": 7616,
+    "x_sector": 29,
+    "x_tile": 238,
+    "y0": 2352,
+    "y1": 2352,
+    "y_sector": 9,
+    "y_tile": 73
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 283,
+    "npc_type": "person",
+    "sprite": 101,
+    "sprite_label": "happy-happyist"
+  },
+  "reachable_nodes": [
+    "L_C68523",
+    "L_C7C588",
+    "Npc0390",
+    "Npc0463"
+  ],
+  "region": "Happy Happy Village_Happy Happy HQ_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 356,
+    "flag_label": "HH_HQ_CULTIST_6_DEFEATED"
+  }
+}

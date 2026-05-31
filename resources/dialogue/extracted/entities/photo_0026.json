@@ -1,0 +1,29 @@
+{
+  "entry_points": [],
+  "id": "photo_0026",
+  "label": "",
+  "location": {
+    "x0": 186,
+    "x1": 186,
+    "x_sector": 0,
+    "x_tile": 5,
+    "y0": 17,
+    "y1": 17,
+    "y_sector": 0,
+    "y_tile": 0
+  },
+  "properties": {
+    "gating_flag": 724,
+    "gating_flag_label": "GOT_PHOTO_SCARABA_BAZAAR",
+    "photo_index": 26,
+    "trigger": "region"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Tenda Village_Main",
+  "type": "photo_event",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

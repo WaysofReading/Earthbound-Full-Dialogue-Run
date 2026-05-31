@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0796",
+  "label": "backhoe",
+  "location": {
+    "x0": 3736,
+    "x1": 3736,
+    "x_sector": 14,
+    "x_tile": 116,
+    "y0": 9696,
+    "y1": 9696,
+    "y_sector": 37,
+    "y_tile": 303
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 254,
+    "sprite_label": "backhoe"
+  },
+  "reachable_nodes": [],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 333,
+    "flag_label": "DESERT_MINE_BULLDOZER_MOVED"
+  }
+}

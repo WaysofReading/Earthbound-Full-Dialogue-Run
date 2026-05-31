@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0830",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0830",
+  "label": "george-montague",
+  "location": {
+    "x0": 8048,
+    "x1": 8048,
+    "x_sector": 31,
+    "x_tile": 251,
+    "y0": 6832,
+    "y1": 6832,
+    "y_sector": 26,
+    "y_tile": 213
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 172,
+    "sprite_label": "george-montague"
+  },
+  "reachable_nodes": [
+    "Npc0830"
+  ],
+  "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Maze",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 54,
+    "flag_label": null
+  }
+}

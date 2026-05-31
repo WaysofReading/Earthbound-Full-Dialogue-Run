@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0341",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0341",
+  "label": "boy_blue-ballcap",
+  "location": {
+    "x0": 2080,
+    "x1": 2080,
+    "x_sector": 8,
+    "x_tile": 65,
+    "y0": 7120,
+    "y1": 7120,
+    "y_sector": 27,
+    "y_tile": 222
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 16,
+    "npc_type": "person",
+    "sprite": 123,
+    "sprite_label": "boy_blue-ballcap"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "L_C8097B",
+    "Npc0341"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 372,
+    "flag_label": "PARTY_IS_ROBOTIFIED"
+  }
+}

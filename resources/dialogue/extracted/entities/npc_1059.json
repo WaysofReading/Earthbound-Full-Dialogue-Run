@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1059",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1059",
+  "label": "man_blonde_i-love-ny-shirt",
+  "location": {
+    "x0": 5976,
+    "x1": 5976,
+    "x_sector": 23,
+    "x_tile": 186,
+    "y0": 2752,
+    "y1": 2752,
+    "y_sector": 10,
+    "y_tile": 86
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 114,
+    "sprite_label": "man_blonde_i-love-ny-shirt"
+  },
+  "reachable_nodes": [
+    "Npc1059"
+  ],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

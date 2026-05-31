@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0013",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1201",
+  "label": "phone_payphone_left",
+  "location": {
+    "x0": 4152,
+    "x1": 4152,
+    "x_sector": 16,
+    "x_tile": 129,
+    "y0": 280,
+    "y1": 280,
+    "y_sector": 1,
+    "y_tile": 8
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 216,
+    "sprite_label": "phone_payphone_left"
+  },
+  "reachable_nodes": [
+    "L_C63033",
+    "Npc0013"
+  ],
+  "region": "Scaraba_Dungeon Man_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

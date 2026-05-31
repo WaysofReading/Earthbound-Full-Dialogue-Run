@@ -1,0 +1,52 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0220",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0220",
+  "label": "orange-kid",
+  "location": {
+    "x0": 7792,
+    "x1": 7792,
+    "x_sector": 30,
+    "x_tile": 243,
+    "y0": 7632,
+    "y1": 7632,
+    "y_sector": 29,
+    "y_tile": 238
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 175,
+    "sprite_label": "orange-kid"
+  },
+  "reachable_nodes": [
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "L_C8125D",
+    "L_C81286",
+    "L_C812D1",
+    "L_C812E6",
+    "L_C81318",
+    "L_C81418",
+    "L_C81475",
+    "L_C814B9",
+    "L_C8153D",
+    "L_C81585",
+    "L_C8159F",
+    "L_C815F9",
+    "Npc0220"
+  ],
+  "region": "Twoson_Orange Kid's House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 42,
+    "flag_label": "APPLE_KID_IN_BURGLIN_PARK"
+  }
+}

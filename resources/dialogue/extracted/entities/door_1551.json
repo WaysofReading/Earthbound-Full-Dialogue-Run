@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99F91",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1551",
+  "label": "",
+  "location": {
+    "x0": 6728,
+    "x1": 6728,
+    "x_sector": 26,
+    "x_tile": 210,
+    "y0": 8584,
+    "y1": 8584,
+    "y_sector": 33,
+    "y_tile": 268
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 1020,
+      "y": 941
+    },
+    "direction": "left",
+    "gating_flag": 32883,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9992F",
+    "L_C99F91",
+    "L_C99FC7"
+  ],
+  "region": "Twoson_Chaos Theater_1F_Concert-Hall",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

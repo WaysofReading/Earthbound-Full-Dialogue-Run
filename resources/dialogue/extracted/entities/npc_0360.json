@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0360",
+  "label": "taxi",
+  "location": {
+    "x0": 1368,
+    "x1": 1368,
+    "x_sector": 5,
+    "x_tile": 42,
+    "y0": 6584,
+    "y1": 6584,
+    "y_sector": 25,
+    "y_tile": 205
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 590,
+    "npc_type": "object",
+    "sprite": 206,
+    "sprite_label": "taxi"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

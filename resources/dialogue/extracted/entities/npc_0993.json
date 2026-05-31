@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0993",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0993",
+  "label": "hotel_sign",
+  "location": {
+    "x0": 2640,
+    "x1": 2640,
+    "x_sector": 10,
+    "x_tile": 82,
+    "y0": 4736,
+    "y1": 4736,
+    "y_sector": 18,
+    "y_tile": 148
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 442,
+    "sprite_label": "hotel_sign"
+  },
+  "reachable_nodes": [
+    "L_C6A832",
+    "Npc0993"
+  ],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

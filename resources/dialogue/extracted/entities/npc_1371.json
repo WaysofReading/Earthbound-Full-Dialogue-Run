@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1371",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1371",
+  "label": "monster_flame",
+  "location": {
+    "x0": 6240,
+    "x1": 6240,
+    "x_sector": 24,
+    "x_tile": 195,
+    "y0": 4240,
+    "y1": 4240,
+    "y_sector": 16,
+    "y_tile": 132
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 597,
+    "npc_type": "person",
+    "sprite": 279,
+    "sprite_label": "monster_flame"
+  },
+  "reachable_nodes": [
+    "L_C7C588",
+    "Npc0463",
+    "Npc1371"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 388,
+    "flag_label": "MOONSIDE_MUSEUM_ROBO_PUMP_DEFEATED"
+  }
+}

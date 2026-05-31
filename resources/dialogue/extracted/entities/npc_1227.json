@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1227",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1227",
+  "label": "monkey-boy",
+  "location": {
+    "x0": 5808,
+    "x1": 5808,
+    "x_sector": 22,
+    "x_tile": 181,
+    "y0": 7208,
+    "y1": 7208,
+    "y_sector": 28,
+    "y_tile": 225
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 133,
+    "sprite_label": "monkey-boy"
+  },
+  "reachable_nodes": [
+    "L_C9E5C9",
+    "Npc1227"
+  ],
+  "region": "Deep-Darkness",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0035",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0035",
+  "label": "girl_blonde_ponytail",
+  "location": {
+    "x0": 7520,
+    "x1": 7520,
+    "x_sector": 29,
+    "x_tile": 235,
+    "y0": 488,
+    "y1": 488,
+    "y_sector": 1,
+    "y_tile": 15
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 127,
+    "sprite_label": "girl_blonde_ponytail"
+  },
+  "reachable_nodes": [
+    "Npc0035"
+  ],
+  "region": "Onett_Burger Shop_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

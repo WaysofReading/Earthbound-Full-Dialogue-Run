@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1323",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1323",
+  "label": "boy_blue-ballcap",
+  "location": {
+    "x0": 5248,
+    "x1": 5248,
+    "x_sector": 20,
+    "x_tile": 164,
+    "y0": 4712,
+    "y1": 4712,
+    "y_sector": 18,
+    "y_tile": 147
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 123,
+    "sprite_label": "boy_blue-ballcap"
+  },
+  "reachable_nodes": [
+    "Npc1323"
+  ],
+  "region": "Magicant",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

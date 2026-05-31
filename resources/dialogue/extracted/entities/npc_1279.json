@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1279",
+  "label": "jeff",
+  "location": {
+    "x0": 6149,
+    "x1": 6149,
+    "x_sector": 24,
+    "x_tile": 192,
+    "y0": 9775,
+    "y1": 9775,
+    "y_sector": 38,
+    "y_tile": 305
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 3,
+    "sprite_label": "jeff"
+  },
+  "reachable_nodes": [],
+  "region": "Lost Underworld_Fire Springs_1F_Sanctuary-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 349,
+    "flag_label": "JUST_WOKE_UP_FROM_MAGICANT"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0274",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0274",
+  "label": "bus-driver",
+  "location": {
+    "x0": 7408,
+    "x1": 7408,
+    "x_sector": 28,
+    "x_tile": 231,
+    "y0": 8520,
+    "y1": 8520,
+    "y_sector": 33,
+    "y_tile": 266
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 111,
+    "sprite_label": "bus-driver"
+  },
+  "reachable_nodes": [
+    "L_C96650",
+    "L_C96657",
+    "L_C96661",
+    "L_C96667",
+    "Npc0274"
+  ],
+  "region": "Twoson_Bus Station_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

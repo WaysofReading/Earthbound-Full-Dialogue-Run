@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1618",
+  "label": "",
+  "location": {
+    "x0": 8144,
+    "x1": 8144,
+    "x_sector": 31,
+    "x_tile": 254,
+    "y0": 8936,
+    "y1": 8936,
+    "y_sector": 34,
+    "y_tile": 279
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 849,
+      "y": 1000
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson_Polestar_1F_Den_Bedroom_Paula's-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

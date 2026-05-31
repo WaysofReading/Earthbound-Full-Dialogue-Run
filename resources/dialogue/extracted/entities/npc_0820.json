@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0818",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0820",
+  "label": "monkey-boy",
+  "location": {
+    "x0": 6808,
+    "x1": 6808,
+    "x_sector": 26,
+    "x_tile": 212,
+    "y0": 5667,
+    "y1": 5667,
+    "y_sector": 22,
+    "y_tile": 177
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 133,
+    "sprite_label": "monkey-boy"
+  },
+  "reachable_nodes": [
+    "L_C5E456",
+    "L_C6219A",
+    "L_C621D0",
+    "L_C62236",
+    "L_C7DD4F",
+    "Npc0818"
+  ],
+  "region": "Dusty Dunes Desert_Monkey Cave_Start_Right_Right-(Ruler,-Fresh-Egg)",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 461,
+    "flag_label": "MONKEY_CAVE_FRESH_EGG"
+  }
+}

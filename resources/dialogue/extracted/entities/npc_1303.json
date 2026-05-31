@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1303",
+  "label": "waterspout",
+  "location": {
+    "x0": 2672,
+    "x1": 2672,
+    "x_sector": 10,
+    "x_tile": 83,
+    "y0": 2992,
+    "y1": 2992,
+    "y_sector": 11,
+    "y_tile": 93
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 672,
+    "npc_type": "object",
+    "sprite": 426,
+    "sprite_label": "waterspout"
+  },
+  "reachable_nodes": [],
+  "region": "Lost-Underworld",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1274",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1310",
+  "label": "phase-distorter",
+  "location": {
+    "x0": 600,
+    "x1": 600,
+    "x_sector": 2,
+    "x_tile": 18,
+    "y0": 6936,
+    "y1": 6936,
+    "y_sector": 27,
+    "y_tile": 216
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 210,
+    "sprite_label": "phase-distorter"
+  },
+  "reachable_nodes": [
+    "L_C6307C",
+    "L_C63089",
+    "L_C630A8",
+    "L_C63229",
+    "L_C632C7",
+    "L_C632E2",
+    "L_C6354B",
+    "L_C635BD",
+    "L_C75929",
+    "L_C915C7",
+    "L_C915CF",
+    "L_C915D6",
+    "L_C915E1",
+    "L_C915F4",
+    "Npc1274"
+  ],
+  "region": "Lost Underworld_Cave of the Past_1F-Past",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 372,
+    "flag_label": "PARTY_IS_ROBOTIFIED"
+  }
+}

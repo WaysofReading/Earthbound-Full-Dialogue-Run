@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99C76",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0817",
+  "label": "",
+  "location": {
+    "x0": 2224,
+    "x1": 2224,
+    "x_sector": 8,
+    "x_tile": 69,
+    "y0": 5056,
+    "y1": 5056,
+    "y_sector": 19,
+    "y_tile": 158
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 791,
+      "y": 428
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C99C61",
+    "L_C99C76",
+    "L_C9B10B",
+    "L_C9B112"
+  ],
+  "region": "Fourside",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

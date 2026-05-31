@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0624",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0624",
+  "label": "man_redhead_green-oxford",
+  "location": {
+    "x0": 4168,
+    "x1": 4168,
+    "x_sector": 16,
+    "x_tile": 130,
+    "y0": 5960,
+    "y1": 5960,
+    "y_sector": 23,
+    "y_tile": 186
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 113,
+    "sprite_label": "man_redhead_green-oxford"
+  },
+  "reachable_nodes": [
+    "L_C6C63C",
+    "Npc0624"
+  ],
+  "region": "Winters_Tents_North_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 73,
+    "flag_label": "GIYGAS_DEFEATED"
+  }
+}

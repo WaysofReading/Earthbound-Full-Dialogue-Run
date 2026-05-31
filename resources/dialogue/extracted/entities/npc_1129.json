@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1129",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1129",
+  "label": "woman_scaraban",
+  "location": {
+    "x0": 6448,
+    "x1": 6448,
+    "x_sector": 25,
+    "x_tile": 201,
+    "y0": 7888,
+    "y1": 7888,
+    "y_sector": 30,
+    "y_tile": 246
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 92,
+    "sprite_label": "woman_scaraban"
+  },
+  "reachable_nodes": [
+    "Npc1129"
+  ],
+  "region": "Scaraba_Houses_North_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

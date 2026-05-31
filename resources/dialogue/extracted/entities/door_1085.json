@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1085",
+  "label": "",
+  "location": {
+    "x0": 4016,
+    "x1": 4016,
+    "x_sector": 15,
+    "x_tile": 125,
+    "y0": 6088,
+    "y1": 6088,
+    "y_sector": 23,
+    "y_tile": 190
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 327,
+      "y": 717
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Grapefruit Falls_Belch's Base_1F_Room-4",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

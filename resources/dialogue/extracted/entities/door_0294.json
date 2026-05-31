@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99A93",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0294",
+  "label": "",
+  "location": {
+    "x0": 2016,
+    "x1": 2016,
+    "x_sector": 7,
+    "x_tile": 63,
+    "y0": 1704,
+    "y1": 1704,
+    "y_sector": 6,
+    "y_tile": 53
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 900,
+      "y": 49
+    },
+    "direction": "left",
+    "gating_flag": 632,
+    "gating_flag_label": "MONSTERS_IN_ONETT",
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9992F",
+    "L_C99A93",
+    "L_C99ABB",
+    "L_C9B20E"
+  ],
+  "region": "Onett",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

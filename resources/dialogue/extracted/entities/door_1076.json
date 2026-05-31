@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1076",
+  "label": "",
+  "location": {
+    "x0": 8144,
+    "x1": 8144,
+    "x_sector": 31,
+    "x_tile": 254,
+    "y0": 5864,
+    "y1": 5864,
+    "y_sector": 22,
+    "y_tile": 183
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 925,
+      "y": 620
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Moonside_Hospital_1F_Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

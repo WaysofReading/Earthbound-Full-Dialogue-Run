@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C87C8C",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0226",
+  "label": "",
+  "location": {
+    "x0": 1872,
+    "x1": 1872,
+    "x_sector": 7,
+    "x_tile": 58,
+    "y0": 7248,
+    "y1": 7248,
+    "y_sector": 28,
+    "y_tile": 226
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C87C8C"
+  ],
+  "region": "Twoson",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

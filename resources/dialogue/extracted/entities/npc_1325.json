@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1325",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1325",
+  "label": "monster_belch",
+  "location": {
+    "x0": 5544,
+    "x1": 5544,
+    "x_sector": 21,
+    "x_tile": 173,
+    "y0": 4520,
+    "y1": 4520,
+    "y_sector": 17,
+    "y_tile": 141
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 328,
+    "sprite_label": "monster_belch"
+  },
+  "reachable_nodes": [
+    "Npc1325"
+  ],
+  "region": "Magicant",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

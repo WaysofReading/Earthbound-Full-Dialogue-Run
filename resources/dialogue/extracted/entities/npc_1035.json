@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1035",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1035",
+  "label": "man_glasses_orange-cardigan",
+  "location": {
+    "x0": 6935,
+    "x1": 6935,
+    "x_sector": 27,
+    "x_tile": 216,
+    "y0": 8868,
+    "y1": 8868,
+    "y_sector": 34,
+    "y_tile": 277
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 64,
+    "sprite_label": "man_glasses_orange-cardigan"
+  },
+  "reachable_nodes": [
+    "L_C8AE3B",
+    "L_C8AE72",
+    "Npc1035"
+  ],
+  "region": "Summers and Toto_Museum_1F_Exhibit-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1326",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1326",
+  "label": "monster_fishman",
+  "location": {
+    "x0": 5392,
+    "x1": 5392,
+    "x_sector": 21,
+    "x_tile": 168,
+    "y0": 4248,
+    "y1": 4248,
+    "y_sector": 16,
+    "y_tile": 132
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 288,
+    "sprite_label": "monster_fishman"
+  },
+  "reachable_nodes": [
+    "Npc1326"
+  ],
+  "region": "Magicant",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

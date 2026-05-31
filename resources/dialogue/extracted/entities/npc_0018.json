@@ -1,0 +1,47 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0016",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0018",
+  "label": "king",
+  "location": {
+    "x0": 7540,
+    "x1": 7540,
+    "x_sector": 29,
+    "x_tile": 235,
+    "y0": 368,
+    "y1": 368,
+    "y_sector": 1,
+    "y_tile": 11
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 18,
+    "npc_type": "person",
+    "sprite": 40,
+    "sprite_label": "king"
+  },
+  "reachable_nodes": [
+    "L_C680F2",
+    "L_C68139",
+    "L_C7576B",
+    "L_C7579E",
+    "L_C757CD",
+    "L_C757FB",
+    "L_C75827",
+    "L_C75865",
+    "L_C75899",
+    "L_C758CC",
+    "Npc0016"
+  ],
+  "region": "Onett_Ness' House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 304,
+    "flag_label": "KING_AWAKE_AT_HOME"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1055",
+  "label": "",
+  "location": {
+    "x0": 6248,
+    "x1": 6248,
+    "x_sector": 24,
+    "x_tile": 195,
+    "y0": 5688,
+    "y1": 5688,
+    "y_sector": 22,
+    "y_tile": 177
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 796,
+      "y": 793
+    },
+    "direction": "left",
+    "gating_flag": 33221,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Dusty Dunes Desert_Monkey Cave_Start_Left-(Pizza,-Wet-Towel)",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

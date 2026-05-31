@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B21D",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0664",
+  "label": "",
+  "location": {
+    "x0": 4416,
+    "x1": 4416,
+    "x_sector": 17,
+    "x_tile": 138,
+    "y0": 3992,
+    "y1": 3992,
+    "y_sector": 15,
+    "y_tile": 124
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 880,
+      "y": 1001
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9B21D"
+  ],
+  "region": "Dalaam",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0991",
+  "label": "helicopter_tail",
+  "location": {
+    "x0": 3480,
+    "x1": 3480,
+    "x_sector": 13,
+    "x_tile": 108,
+    "y0": 3808,
+    "y1": 3808,
+    "y_sector": 14,
+    "y_tile": 119
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 424,
+    "sprite_label": "helicopter_tail"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 672,
+    "flag_label": "POKEY_FLIES_AWAY_BY_HELICOPTER"
+  }
+}

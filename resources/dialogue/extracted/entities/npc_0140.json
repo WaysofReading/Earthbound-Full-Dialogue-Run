@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0140",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0140",
+  "label": "man_hat_blue-suit",
+  "location": {
+    "x0": 536,
+    "x1": 536,
+    "x_sector": 2,
+    "x_tile": 16,
+    "y0": 1776,
+    "y1": 1776,
+    "y_sector": 6,
+    "y_tile": 55
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 607,
+    "npc_type": "person",
+    "sprite": 55,
+    "sprite_label": "man_hat_blue-suit"
+  },
+  "reachable_nodes": [
+    "L_C65E25",
+    "Npc0140"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 99,
+    "flag_label": "BOUGHT_SCAM_HOUSE"
+  }
+}

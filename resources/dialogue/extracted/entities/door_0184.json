@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0184",
+  "label": "",
+  "location": {
+    "x0": 7048,
+    "x1": 7048,
+    "x_sector": 27,
+    "x_tile": 220,
+    "y0": 696,
+    "y1": 696,
+    "y_sector": 2,
+    "y_tile": 21
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 1020,
+      "y": 109
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Library_1F_2F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

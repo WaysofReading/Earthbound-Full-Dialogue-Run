@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0013",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0013",
+  "label": "phone_payphone_left",
+  "location": {
+    "x0": 7800,
+    "x1": 7800,
+    "x_sector": 30,
+    "x_tile": 243,
+    "y0": 1520,
+    "y1": 1520,
+    "y_sector": 5,
+    "y_tile": 47
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 216,
+    "sprite_label": "phone_payphone_left"
+  },
+  "reachable_nodes": [
+    "L_C63033",
+    "Npc0013"
+  ],
+  "region": "Onett_Drug Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

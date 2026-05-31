@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C87DFF",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0091",
+  "label": "",
+  "location": {
+    "x0": 7008,
+    "x1": 7008,
+    "x_sector": 27,
+    "x_tile": 219,
+    "y0": 1344,
+    "y1": 1344,
+    "y_sector": 5,
+    "y_tile": 42
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C58555",
+    "L_C58EBB",
+    "L_C7C59E",
+    "L_C87DFF",
+    "L_C87E13"
+  ],
+  "region": "Onett_Library_1F_Right-Room",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0814",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0814",
+  "label": "monkey-boy",
+  "location": {
+    "x0": 6480,
+    "x1": 6480,
+    "x_sector": 25,
+    "x_tile": 202,
+    "y0": 5184,
+    "y1": 5184,
+    "y_sector": 20,
+    "y_tile": 162
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 133,
+    "sprite_label": "monkey-boy"
+  },
+  "reachable_nodes": [
+    "L_C5E456",
+    "L_C61ADD",
+    "L_C61B03",
+    "L_C61B70",
+    "L_C7DD4F",
+    "Npc0814"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 455,
+    "flag_label": "MONKEY_CAVE_PROTEIN_DRINK"
+  }
+}

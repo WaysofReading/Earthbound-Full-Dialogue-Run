@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99D3C",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0977",
+  "label": "",
+  "location": {
+    "x0": 5104,
+    "x1": 5104,
+    "x_sector": 19,
+    "x_tile": 159,
+    "y0": 5544,
+    "y1": 5544,
+    "y_sector": 21,
+    "y_tile": 173
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 377,
+      "y": 574
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 10,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C99D3C"
+  ],
+  "region": "Fourside_Topolla Theater_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

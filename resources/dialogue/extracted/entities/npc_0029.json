@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0029",
+  "label": "curtains_angled",
+  "location": {
+    "x0": 8176,
+    "x1": 8176,
+    "x_sector": 31,
+    "x_tile": 255,
+    "y0": 1104,
+    "y1": 1104,
+    "y_sector": 4,
+    "y_tile": 34
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 375,
+    "sprite_label": "curtains_angled"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Ness' House_1F_2F_Ness'-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 422,
+    "flag_label": "ONETT_DAYTIME"
+  }
+}

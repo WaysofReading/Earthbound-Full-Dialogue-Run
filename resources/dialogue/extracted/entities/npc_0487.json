@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0060",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0487",
+  "label": "phone_black",
+  "location": {
+    "x0": 6705,
+    "x1": 6705,
+    "x_sector": 26,
+    "x_tile": 209,
+    "y0": 9273,
+    "y1": 9273,
+    "y_sector": 36,
+    "y_tile": 289
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 215,
+    "sprite_label": "phone_black"
+  },
+  "reachable_nodes": [
+    "L_C63029",
+    "Npc0060"
+  ],
+  "region": "Threed_Hotel_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

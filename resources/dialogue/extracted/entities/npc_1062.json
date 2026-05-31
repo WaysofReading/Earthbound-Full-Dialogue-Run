@@ -1,0 +1,47 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1062",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1062",
+  "label": "bird_myna",
+  "location": {
+    "x0": 5768,
+    "x1": 5768,
+    "x_sector": 22,
+    "x_tile": 180,
+    "y0": 2896,
+    "y1": 2896,
+    "y_sector": 11,
+    "y_tile": 90
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 132,
+    "sprite_label": "bird_myna"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "L_C8B137",
+    "L_C8B158",
+    "L_C8B460",
+    "Npc1051",
+    "Npc1052",
+    "Npc1055",
+    "Npc1056",
+    "Npc1059",
+    "Npc1062",
+    "Npc1063"
+  ],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

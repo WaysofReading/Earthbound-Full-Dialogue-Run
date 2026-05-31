@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1012",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1012",
+  "label": "woman_black-hair_red-clothes",
+  "location": {
+    "x0": 6704,
+    "x1": 6704,
+    "x_sector": 26,
+    "x_tile": 209,
+    "y0": 9192,
+    "y1": 9192,
+    "y_sector": 35,
+    "y_tile": 287
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 116,
+    "sprite_label": "woman_black-hair_red-clothes"
+  },
+  "reachable_nodes": [
+    "Npc1012"
+  ],
+  "region": "Summers and Toto_Summers Shop_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

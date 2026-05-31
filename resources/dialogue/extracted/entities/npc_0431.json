@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0431",
+  "label": "bicycle",
+  "location": {
+    "x0": 4168,
+    "x1": 4168,
+    "x_sector": 16,
+    "x_tile": 130,
+    "y0": 7632,
+    "y1": 7632,
+    "y_sector": 29,
+    "y_tile": 238
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 211,
+    "sprite_label": "bicycle"
+  },
+  "reachable_nodes": [],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

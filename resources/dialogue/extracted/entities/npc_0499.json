@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0499",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0499",
+  "label": "nurse",
+  "location": {
+    "x0": 6736,
+    "x1": 6736,
+    "x_sector": 26,
+    "x_tile": 210,
+    "y0": 9920,
+    "y1": 9920,
+    "y_sector": 38,
+    "y_tile": 310
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 140,
+    "sprite_label": "nurse"
+  },
+  "reachable_nodes": [
+    "L_C7DD5E",
+    "L_C7DD68",
+    "L_C900BD",
+    "L_C9128D",
+    "L_C9132E",
+    "L_C91345",
+    "L_C9155B",
+    "Npc0499"
+  ],
+  "region": "Threed_Hospital_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

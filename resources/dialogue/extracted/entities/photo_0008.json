@@ -1,0 +1,29 @@
+{
+  "entry_points": [],
+  "id": "photo_0008",
+  "label": "",
+  "location": {
+    "x0": 721,
+    "x1": 721,
+    "x_sector": 2,
+    "x_tile": 22,
+    "y0": 28,
+    "y1": 28,
+    "y_sector": 0,
+    "y_tile": 0
+  },
+  "properties": {
+    "gating_flag": 706,
+    "gating_flag_label": "GOT_PHOTO_THREED_CEMETERY",
+    "photo_index": 8,
+    "trigger": "region"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Tenda Village_Main",
+  "type": "photo_event",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

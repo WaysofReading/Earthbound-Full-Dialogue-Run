@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0246",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0246",
+  "label": "prettyman",
+  "location": {
+    "x0": 6792,
+    "x1": 6792,
+    "x_sector": 26,
+    "x_tile": 212,
+    "y0": 8561,
+    "y1": 8561,
+    "y_sector": 33,
+    "y_tile": 267
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 59,
+    "sprite_label": "prettyman"
+  },
+  "reachable_nodes": [
+    "Npc0246"
+  ],
+  "region": "Twoson_Chaos Theater_1F_Concert-Hall",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 751,
+    "flag_label": "CHAOS_THEATER_AUDIENCE_ABSENT"
+  }
+}

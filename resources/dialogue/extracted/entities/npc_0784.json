@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0784",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0784",
+  "label": "sportscar",
+  "location": {
+    "x0": 1800,
+    "x1": 1800,
+    "x_sector": 7,
+    "x_tile": 56,
+    "y0": 10000,
+    "y1": 10000,
+    "y_sector": 39,
+    "y_tile": 312
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 255,
+    "sprite_label": "sportscar"
+  },
+  "reachable_nodes": [
+    "Npc0784"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 136,
+    "flag_label": "TRAFFIC_JAM_CLEARED"
+  }
+}

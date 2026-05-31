@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1103",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1103",
+  "label": "star-master",
+  "location": {
+    "x0": 4968,
+    "x1": 4968,
+    "x_sector": 19,
+    "x_tile": 155,
+    "y0": 4128,
+    "y1": 4128,
+    "y_sector": 16,
+    "y_tile": 129
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 98,
+    "sprite_label": "star-master"
+  },
+  "reachable_nodes": [
+    "L_C9D523",
+    "Npc1103"
+  ],
+  "region": "Dalaam",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 595,
+    "flag_label": "STAR_MASTER_NEXT_TO_MU"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C868AD",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0132",
+  "label": "",
+  "location": {
+    "x0": 2896,
+    "x1": 2896,
+    "x_sector": 11,
+    "x_tile": 90,
+    "y0": 3888,
+    "y1": 3888,
+    "y_sector": 15,
+    "y_tile": 121
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C868AD"
+  ],
+  "region": "Fourside",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0913",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 4656,
+    "x1": 4656,
+    "x_sector": 18,
+    "x_tile": 145,
+    "y0": 5232,
+    "y1": 5232,
+    "y_sector": 20,
+    "y_tile": 163
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 878,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside_Museum_1F_Exhibit-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

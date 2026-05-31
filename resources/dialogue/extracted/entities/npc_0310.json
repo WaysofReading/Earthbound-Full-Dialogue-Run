@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0310",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0310",
+  "label": "ruffini",
+  "location": {
+    "x0": 2204,
+    "x1": 2204,
+    "x_sector": 8,
+    "x_tile": 68,
+    "y0": 6720,
+    "y1": 6720,
+    "y_sector": 26,
+    "y_tile": 210
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 130,
+    "sprite_label": "ruffini"
+  },
+  "reachable_nodes": [
+    "L_C93DEC",
+    "Npc0310"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

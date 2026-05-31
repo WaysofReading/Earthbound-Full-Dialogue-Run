@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0929",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0929",
+  "label": "boy_baseball-helmet",
+  "location": {
+    "x0": 4448,
+    "x1": 4448,
+    "x_sector": 17,
+    "x_tile": 139,
+    "y0": 6216,
+    "y1": 6216,
+    "y_sector": 24,
+    "y_tile": 194
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 124,
+    "sprite_label": "boy_baseball-helmet"
+  },
+  "reachable_nodes": [
+    "L_C82BBC",
+    "L_C82BEB",
+    "Npc0929"
+  ],
+  "region": "Fourside_Department Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 57,
+    "flag_label": "FOURSIDE_DEPT_BLACKOUT"
+  }
+}

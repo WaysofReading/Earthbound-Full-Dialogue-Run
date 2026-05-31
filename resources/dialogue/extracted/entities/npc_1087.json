@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1087",
+  "label": "bus_runaway-5",
+  "location": {
+    "x0": 5480,
+    "x1": 5480,
+    "x_sector": 21,
+    "x_tile": 171,
+    "y0": 2736,
+    "y1": 2736,
+    "y_sector": 10,
+    "y_tile": 85
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 243,
+    "sprite_label": "bus_runaway-5"
+  },
+  "reachable_nodes": [],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 372,
+    "flag_label": "PARTY_IS_ROBOTIFIED"
+  }
+}

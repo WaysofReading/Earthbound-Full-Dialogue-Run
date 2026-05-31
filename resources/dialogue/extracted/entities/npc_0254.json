@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0254",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0254",
+  "label": "everdred",
+  "location": {
+    "x0": 7792,
+    "x1": 7792,
+    "x_sector": 30,
+    "x_tile": 243,
+    "y0": 8136,
+    "y1": 8136,
+    "y_sector": 31,
+    "y_tile": 254
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 157,
+    "sprite_label": "everdred"
+  },
+  "reachable_nodes": [
+    "L_C6846B",
+    "L_C7DC7F",
+    "L_C7DC85",
+    "L_C7DCB6",
+    "L_C7DCDA",
+    "L_C95DC6",
+    "L_C95DF9",
+    "L_C95F0A",
+    "L_C960D7",
+    "Npc0254"
+  ],
+  "region": "Twoson_Everdred's Shack_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 624,
+    "flag_label": "EVERDRED_AT_HIS_HOUSE"
+  }
+}

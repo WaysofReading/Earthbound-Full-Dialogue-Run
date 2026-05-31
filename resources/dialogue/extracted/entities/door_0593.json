@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0593",
+  "label": "",
+  "location": {
+    "x0": 6800,
+    "x1": 6800,
+    "x_sector": 26,
+    "x_tile": 212,
+    "y0": 3400,
+    "y1": 3400,
+    "y_sector": 13,
+    "y_tile": 106
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 45,
+      "y": 938
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Saturn Valley_Trash Room_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

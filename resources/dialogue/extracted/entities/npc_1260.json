@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1260",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1260",
+  "label": "talking-rock",
+  "location": {
+    "x0": 1176,
+    "x1": 1176,
+    "x_sector": 4,
+    "x_tile": 36,
+    "y0": 2720,
+    "y1": 2720,
+    "y_sector": 10,
+    "y_tile": 85
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 260,
+    "sprite_label": "talking-rock"
+  },
+  "reachable_nodes": [
+    "Npc1260"
+  ],
+  "region": "Deep Darkness_Tenda Village_Main_Talking-Rock-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

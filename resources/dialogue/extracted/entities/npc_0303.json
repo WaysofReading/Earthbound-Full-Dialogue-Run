@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0303",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0303",
+  "label": "woman_blonde_red-dress",
+  "location": {
+    "x0": 1248,
+    "x1": 1248,
+    "x_sector": 4,
+    "x_tile": 39,
+    "y0": 6440,
+    "y1": 6440,
+    "y_sector": 25,
+    "y_tile": 201
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 68,
+    "sprite_label": "woman_blonde_red-dress"
+  },
+  "reachable_nodes": [
+    "L_C93891",
+    "L_C938A6",
+    "L_C939B9",
+    "Npc0303"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

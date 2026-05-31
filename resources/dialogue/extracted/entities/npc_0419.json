@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0419",
+      "role": "primary"
+    },
+    {
+      "node_id": "L_C69007",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0419",
+  "label": "cow",
+  "location": {
+    "x0": 3800,
+    "x1": 3800,
+    "x_sector": 14,
+    "x_tile": 118,
+    "y0": 8119,
+    "y1": 8119,
+    "y_sector": 31,
+    "y_tile": 253
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 134,
+    "sprite_label": "cow"
+  },
+  "reachable_nodes": [
+    "L_C69007",
+    "L_C99405",
+    "L_C99411",
+    "L_C99438",
+    "L_C9946F",
+    "Npc0419"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

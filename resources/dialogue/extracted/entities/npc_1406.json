@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1406",
+      "role": "primary"
+    },
+    {
+      "node_id": "L_C68F74",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_1406",
+  "label": "monster_mani-mani-statue",
+  "location": {
+    "x0": 7641,
+    "x1": 7641,
+    "x_sector": 29,
+    "x_tile": 238,
+    "y0": 4665,
+    "y1": 4665,
+    "y_sector": 18,
+    "y_tile": 145
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "object",
+    "sprite": 293,
+    "sprite_label": "monster_mani-mani-statue"
+  },
+  "reachable_nodes": [
+    "L_C64650",
+    "L_C68583",
+    "L_C68F74",
+    "L_C68FA6",
+    "L_C69082",
+    "Npc1406"
+  ],
+  "region": "Moonside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

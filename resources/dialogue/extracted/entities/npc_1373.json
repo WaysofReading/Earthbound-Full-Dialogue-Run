@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1373",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1373",
+  "label": "bellhop",
+  "location": {
+    "x0": 6480,
+    "x1": 6480,
+    "x_sector": 25,
+    "x_tile": 202,
+    "y0": 5824,
+    "y1": 5824,
+    "y_sector": 22,
+    "y_tile": 182
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 73,
+    "sprite_label": "bellhop"
+  },
+  "reachable_nodes": [
+    "Npc1373"
+  ],
+  "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Maze",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 383,
+    "flag_label": "JUST_RESTED"
+  }
+}

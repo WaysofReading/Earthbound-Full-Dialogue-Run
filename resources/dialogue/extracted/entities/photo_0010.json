@@ -1,0 +1,29 @@
+{
+  "entry_points": [],
+  "id": "photo_0010",
+  "label": "",
+  "location": {
+    "x0": 70,
+    "x1": 70,
+    "x_sector": 0,
+    "x_tile": 2,
+    "y0": 152,
+    "y1": 152,
+    "y_sector": 0,
+    "y_tile": 4
+  },
+  "properties": {
+    "gating_flag": 708,
+    "gating_flag_label": "GOT_PHOTO_SATURN_VALLEY_COFFEE",
+    "photo_index": 10,
+    "trigger": "region"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Tenda Village_Main",
+  "type": "photo_event",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

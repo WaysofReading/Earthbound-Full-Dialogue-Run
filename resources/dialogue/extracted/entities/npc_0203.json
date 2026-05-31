@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0203",
+  "label": "lier-x-agerate",
+  "location": {
+    "x0": 3928,
+    "x1": 3928,
+    "x_sector": 15,
+    "x_tile": 122,
+    "y0": 7112,
+    "y1": 7112,
+    "y_sector": 27,
+    "y_tile": 222
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 57,
+    "npc_type": "person",
+    "sprite": 152,
+    "sprite_label": "lier-x-agerate"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Lier X Agerate's Shack_1F_B1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 32,
+    "flag_label": "LIER_INSIDE_CAVE_1"
+  }
+}

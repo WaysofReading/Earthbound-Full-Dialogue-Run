@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0760",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0760",
+  "label": "george-montague",
+  "location": {
+    "x0": 3568,
+    "x1": 3568,
+    "x_sector": 13,
+    "x_tile": 111,
+    "y0": 9664,
+    "y1": 9664,
+    "y_sector": 37,
+    "y_tile": 302
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 172,
+    "sprite_label": "george-montague"
+  },
+  "reachable_nodes": [
+    "L_C5E456",
+    "L_C60400",
+    "L_C6044C",
+    "L_C604C5",
+    "L_C604DB",
+    "L_C6050B",
+    "L_C6058F",
+    "L_C605D9",
+    "L_C7DD4F",
+    "Npc0760"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 55,
+    "flag_label": null
+  }
+}

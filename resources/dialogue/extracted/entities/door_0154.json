@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0154",
+  "label": "",
+  "location": {
+    "x0": 3872,
+    "x1": 3872,
+    "x_sector": 15,
+    "x_tile": 121,
+    "y0": 552,
+    "y1": 552,
+    "y_sector": 2,
+    "y_tile": 17
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 485,
+      "y": 319
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Lumine Hall_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

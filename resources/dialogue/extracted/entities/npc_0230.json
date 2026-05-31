@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0230",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0230",
+  "label": "cop",
+  "location": {
+    "x0": 7464,
+    "x1": 7464,
+    "x_sector": 29,
+    "x_tile": 233,
+    "y0": 7384,
+    "y1": 7384,
+    "y_sector": 28,
+    "y_tile": 230
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 74,
+    "sprite_label": "cop"
+  },
+  "reachable_nodes": [
+    "L_C94A95",
+    "Npc0230"
+  ],
+  "region": "Twoson_Chaos Theater_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1235",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1235",
+  "label": "phone_bird",
+  "location": {
+    "x0": 5504,
+    "x1": 5504,
+    "x_sector": 21,
+    "x_tile": 172,
+    "y0": 7248,
+    "y1": 7248,
+    "y_sector": 28,
+    "y_tile": 226
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 412,
+    "sprite_label": "phone_bird"
+  },
+  "reachable_nodes": [
+    "L_C63029",
+    "Npc1235"
+  ],
+  "region": "Deep-Darkness",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

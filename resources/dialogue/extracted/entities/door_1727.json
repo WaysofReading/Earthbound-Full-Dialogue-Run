@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1727",
+  "label": "",
+  "location": {
+    "x0": 6352,
+    "x1": 6352,
+    "x_sector": 24,
+    "x_tile": 198,
+    "y0": 9872,
+    "y1": 9872,
+    "y_sector": 38,
+    "y_tile": 308
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 417,
+      "y": 795
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Lost Underworld_Fire Springs_1F_Sanctuary-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

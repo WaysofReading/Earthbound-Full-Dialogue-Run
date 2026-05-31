@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1007",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1007",
+  "label": "ruffini",
+  "location": {
+    "x0": 7292,
+    "x1": 7292,
+    "x_sector": 28,
+    "x_tile": 227,
+    "y0": 9832,
+    "y1": 9832,
+    "y_sector": 38,
+    "y_tile": 307
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 130,
+    "sprite_label": "ruffini"
+  },
+  "reachable_nodes": [
+    "Npc1007"
+  ],
+  "region": "Summers and Toto_Toto Houses_West-5_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0282",
+  "label": "",
+  "location": {
+    "x0": 7888,
+    "x1": 7888,
+    "x_sector": 30,
+    "x_tile": 246,
+    "y0": 1384,
+    "y1": 1384,
+    "y_sector": 5,
+    "y_tile": 43
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 945,
+      "y": 8
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Hotel_1F_Lobby_Left-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

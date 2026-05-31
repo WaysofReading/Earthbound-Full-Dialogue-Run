@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0723",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0723",
+  "label": "mr-saturn",
+  "location": {
+    "x0": 544,
+    "x1": 544,
+    "x_sector": 2,
+    "x_tile": 17,
+    "y0": 7408,
+    "y1": 7408,
+    "y_sector": 28,
+    "y_tile": 231
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 171,
+    "sprite_label": "mr-saturn"
+  },
+  "reachable_nodes": [
+    "L_C7DD74",
+    "L_C7EE3E",
+    "L_C7EE4F",
+    "L_C9992F",
+    "Npc0723"
+  ],
+  "region": "Saturn-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

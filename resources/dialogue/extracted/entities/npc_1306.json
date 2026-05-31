@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1306",
+  "label": "robot_unconscious",
+  "location": {
+    "x0": 196,
+    "x1": 196,
+    "x_sector": 0,
+    "x_tile": 6,
+    "y0": 6080,
+    "y1": 6080,
+    "y_sector": 23,
+    "y_tile": 190
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 26,
+    "sprite_label": "robot_unconscious"
+  },
+  "reachable_nodes": [],
+  "region": "Lost Underworld_Cave of the Past_1F-Past",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 73,
+    "flag_label": "GIYGAS_DEFEATED"
+  }
+}

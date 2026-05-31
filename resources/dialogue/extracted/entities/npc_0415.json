@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0415",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0415",
+  "label": "man_bald_black-suit",
+  "location": {
+    "x0": 3992,
+    "x1": 3992,
+    "x_sector": 15,
+    "x_tile": 124,
+    "y0": 8136,
+    "y1": 8136,
+    "y_sector": 31,
+    "y_tile": 254
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 56,
+    "sprite_label": "man_bald_black-suit"
+  },
+  "reachable_nodes": [
+    "L_C99171",
+    "L_C9919B",
+    "Npc0415"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

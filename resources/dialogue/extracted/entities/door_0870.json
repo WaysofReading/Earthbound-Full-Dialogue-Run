@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0870",
+  "label": "",
+  "location": {
+    "x0": 3848,
+    "x1": 3848,
+    "x_sector": 15,
+    "x_tile": 120,
+    "y0": 5144,
+    "y1": 5144,
+    "y_sector": 20,
+    "y_tile": 160
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 700,
+      "y": 445
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Threed_Under Graveyard_1F_B1F_Stairs_B2F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

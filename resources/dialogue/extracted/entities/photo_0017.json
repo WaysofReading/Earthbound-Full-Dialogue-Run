@@ -1,0 +1,29 @@
+{
+  "entry_points": [],
+  "id": "photo_0017",
+  "label": "",
+  "location": {
+    "x0": 448,
+    "x1": 448,
+    "x_sector": 1,
+    "x_tile": 14,
+    "y0": 238,
+    "y1": 238,
+    "y_sector": 0,
+    "y_tile": 7
+  },
+  "properties": {
+    "gating_flag": 715,
+    "gating_flag_label": "GOT_PHOTO_MONOTOLI_BUILDING",
+    "photo_index": 17,
+    "trigger": "region"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Tenda Village_Main",
+  "type": "photo_event",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

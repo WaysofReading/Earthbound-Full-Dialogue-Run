@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1359",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1359",
+  "label": "bartender",
+  "location": {
+    "x0": 6496,
+    "x1": 6496,
+    "x_sector": 25,
+    "x_tile": 203,
+    "y0": 4928,
+    "y1": 4928,
+    "y_sector": 19,
+    "y_tile": 154
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 84,
+    "sprite_label": "bartender"
+  },
+  "reachable_nodes": [
+    "Npc1359"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

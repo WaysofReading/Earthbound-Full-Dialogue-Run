@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0451",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0451",
+  "label": "monster_your-sanctuary",
+  "location": {
+    "x0": 3984,
+    "x1": 3984,
+    "x_sector": 15,
+    "x_tile": 124,
+    "y0": 1120,
+    "y1": 1120,
+    "y_sector": 4,
+    "y_tile": 35
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 693,
+    "npc_type": "person",
+    "sprite": 333,
+    "sprite_label": "monster_your-sanctuary"
+  },
+  "reachable_nodes": [
+    "L_C68410",
+    "L_C7C588",
+    "L_C7DC7F",
+    "Npc0451",
+    "Npc0463"
+  ],
+  "region": "Happy Happy Village_Lilliput Steps_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 191,
+    "flag_label": "CONQUERED_SANCTUARY_2"
+  }
+}

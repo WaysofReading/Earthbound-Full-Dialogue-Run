@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1292",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1292",
+  "label": "talking-rock_tiny",
+  "location": {
+    "x0": 2370,
+    "x1": 2370,
+    "x_sector": 9,
+    "x_tile": 74,
+    "y0": 2609,
+    "y1": 2609,
+    "y_sector": 10,
+    "y_tile": 81
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 268,
+    "sprite_label": "talking-rock_tiny"
+  },
+  "reachable_nodes": [
+    "L_C7C588",
+    "L_C9E041",
+    "L_C9E252",
+    "Npc0463",
+    "Npc1292"
+  ],
+  "region": "Lost-Underworld",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

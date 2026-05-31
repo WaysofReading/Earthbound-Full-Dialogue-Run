@@ -1,0 +1,49 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1150",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 62,
+      "gated_by_flag_label": "DUNGEON_MAN_IN_DESERT",
+      "node_id": "L_C57760",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_1150",
+  "label": "dungeon-man",
+  "location": {
+    "x0": 1344,
+    "x1": 1344,
+    "x_sector": 5,
+    "x_tile": 42,
+    "y0": 4984,
+    "y1": 4984,
+    "y_sector": 19,
+    "y_tile": 155
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 41,
+    "sprite_label": "dungeon-man"
+  },
+  "reachable_nodes": [
+    "L_C57753",
+    "L_C57760",
+    "L_C577C5",
+    "L_C7DD2C",
+    "L_C7DD37",
+    "L_C9B112",
+    "Npc1150"
+  ],
+  "region": "Scaraba",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 62,
+    "flag_label": "DUNGEON_MAN_IN_DESERT"
+  }
+}

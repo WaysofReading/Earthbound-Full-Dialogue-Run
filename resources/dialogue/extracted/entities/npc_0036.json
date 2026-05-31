@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0036",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0036",
+  "label": "frank",
+  "location": {
+    "x0": 7512,
+    "x1": 7512,
+    "x_sector": 29,
+    "x_tile": 234,
+    "y0": 448,
+    "y1": 448,
+    "y_sector": 1,
+    "y_tile": 14
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 153,
+    "sprite_label": "frank"
+  },
+  "reachable_nodes": [
+    "L_C665E7",
+    "Npc0036"
+  ],
+  "region": "Onett_Burger Shop_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 73,
+    "flag_label": "GIYGAS_DEFEATED"
+  }
+}

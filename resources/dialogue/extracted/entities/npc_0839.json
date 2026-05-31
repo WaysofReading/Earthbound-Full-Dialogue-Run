@@ -1,0 +1,49 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0839",
+      "role": "primary"
+    },
+    {
+      "node_id": "L_C6D37E",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0839",
+  "label": "woman_blonde_red-blazer",
+  "location": {
+    "x0": 4448,
+    "x1": 4448,
+    "x_sector": 17,
+    "x_tile": 139,
+    "y0": 4936,
+    "y1": 4936,
+    "y_sector": 19,
+    "y_tile": 154
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 66,
+    "sprite_label": "woman_blonde_red-blazer"
+  },
+  "reachable_nodes": [
+    "L_C6D2E4",
+    "L_C6D2E8",
+    "L_C6D325",
+    "L_C6D37E",
+    "L_C6D391",
+    "L_C6D4D6",
+    "L_C7C6B6",
+    "L_C88B6D",
+    "Npc0839"
+  ],
+  "region": "Fourside_Topolla Theater_1F_Manager's-Office",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1198",
+  "label": "bicycle",
+  "location": {
+    "x0": 4240,
+    "x1": 4240,
+    "x_sector": 16,
+    "x_tile": 132,
+    "y0": 96,
+    "y1": 96,
+    "y_sector": 0,
+    "y_tile": 3
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 211,
+    "sprite_label": "bicycle"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Dungeon Man_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

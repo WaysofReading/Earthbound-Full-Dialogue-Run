@@ -1,0 +1,51 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C7D85B",
+      "role": "primary"
+    }
+  ],
+  "id": "present_1432",
+  "label": "trashcan",
+  "location": {
+    "x0": 5272,
+    "x1": 5272,
+    "x_sector": 20,
+    "x_tile": 164,
+    "y0": 9328,
+    "y1": 9328,
+    "y_sector": 36,
+    "y_tile": 291
+  },
+  "properties": {
+    "container": null,
+    "item": null,
+    "item_label": null,
+    "sprite": 214,
+    "sprite_label": "trashcan"
+  },
+  "reachable_nodes": [
+    "L_C7D85B",
+    "L_C7D87F",
+    "L_C7D90D",
+    "L_C7D92A",
+    "L_C7D947",
+    "L_C7D958",
+    "L_C7D9EC",
+    "L_C7D9FC",
+    "L_C7DA0C",
+    "L_C7DA23",
+    "L_C7DA58",
+    "L_C7DA68",
+    "L_C7DA8F",
+    "L_C7DAA1",
+    "L_C7DC85"
+  ],
+  "region": "Threed",
+  "type": "present",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

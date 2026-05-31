@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0294",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0294",
+  "label": "woman_black-hair_red-clothes",
+  "location": {
+    "x0": 6704,
+    "x1": 6704,
+    "x_sector": 26,
+    "x_tile": 209,
+    "y0": 7360,
+    "y1": 7360,
+    "y_sector": 28,
+    "y_tile": 230
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 116,
+    "sprite_label": "woman_black-hair_red-clothes"
+  },
+  "reachable_nodes": [
+    "L_C96B79",
+    "Npc0294"
+  ],
+  "region": "Twoson_Department Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

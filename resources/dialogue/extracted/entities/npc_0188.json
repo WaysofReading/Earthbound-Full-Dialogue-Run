@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0188",
+  "label": "roadblock",
+  "location": {
+    "x0": 2198,
+    "x1": 2198,
+    "x_sector": 8,
+    "x_tile": 68,
+    "y0": 242,
+    "y1": 242,
+    "y_sector": 0,
+    "y_tile": 7
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 199,
+    "sprite_label": "roadblock"
+  },
+  "reachable_nodes": [],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 476,
+    "flag_label": "POLICE_BARRIERS_AT_ONETT_HILLTOP"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B10B",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0815",
+  "label": "",
+  "location": {
+    "x0": 1784,
+    "x1": 1784,
+    "x_sector": 6,
+    "x_tile": 55,
+    "y0": 4880,
+    "y1": 4880,
+    "y_sector": 19,
+    "y_tile": 152
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 711,
+      "y": 313
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9B10B",
+    "L_C9B112"
+  ],
+  "region": "Scaraba",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

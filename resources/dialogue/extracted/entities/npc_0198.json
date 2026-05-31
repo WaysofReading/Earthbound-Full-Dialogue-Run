@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0198",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0198",
+  "label": "meteor",
+  "location": {
+    "x0": 2080,
+    "x1": 2080,
+    "x_sector": 8,
+    "x_tile": 65,
+    "y0": 144,
+    "y1": 144,
+    "y_sector": 0,
+    "y_tile": 4
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "object",
+    "sprite": 197,
+    "sprite_label": "meteor"
+  },
+  "reachable_nodes": [
+    "L_C7DC85",
+    "L_C7DCB6",
+    "L_C7DCDA",
+    "L_C862B8",
+    "L_C862F7",
+    "L_C862F8",
+    "L_C86320",
+    "Npc0198"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

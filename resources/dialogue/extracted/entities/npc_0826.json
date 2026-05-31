@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0826",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0826",
+  "label": "monkey-boy",
+  "location": {
+    "x0": 8048,
+    "x1": 8048,
+    "x_sector": 31,
+    "x_tile": 251,
+    "y0": 5712,
+    "y1": 5712,
+    "y_sector": 22,
+    "y_tile": 178
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 133,
+    "sprite_label": "monkey-boy"
+  },
+  "reachable_nodes": [
+    "Npc0826"
+  ],
+  "region": "Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Pencil-Eraser)",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

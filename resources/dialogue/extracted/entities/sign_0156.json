@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C86AB2",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0156",
+  "label": "",
+  "location": {
+    "x0": 7504,
+    "x1": 7504,
+    "x_sector": 29,
+    "x_tile": 234,
+    "y0": 4920,
+    "y1": 4920,
+    "y_sector": 19,
+    "y_tile": 153
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C86AB2"
+  ],
+  "region": "Moonside_Hospital_1F",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

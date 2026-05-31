@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0324",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0324",
+  "label": "lookalike_mr-t",
+  "location": {
+    "x0": 1520,
+    "x1": 1520,
+    "x_sector": 5,
+    "x_tile": 47,
+    "y0": 6848,
+    "y1": 6848,
+    "y_sector": 26,
+    "y_tile": 214
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 79,
+    "sprite_label": "lookalike_mr-t"
+  },
+  "reachable_nodes": [
+    "L_C945F4",
+    "Npc0324"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

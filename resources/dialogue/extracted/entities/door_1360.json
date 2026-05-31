@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1360",
+  "label": "",
+  "location": {
+    "x0": 7624,
+    "x1": 7624,
+    "x_sector": 29,
+    "x_tile": 238,
+    "y0": 7224,
+    "y1": 7224,
+    "y_sector": 28,
+    "y_tile": 225
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 968,
+      "y": 1113
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson_Hotel_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

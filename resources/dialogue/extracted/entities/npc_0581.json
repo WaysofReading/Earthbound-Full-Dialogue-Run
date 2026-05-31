@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0581",
+  "label": "bench",
+  "location": {
+    "x0": 5496,
+    "x1": 5496,
+    "x_sector": 21,
+    "x_tile": 171,
+    "y0": 9032,
+    "y1": 9032,
+    "y_sector": 35,
+    "y_tile": 282
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 198,
+    "sprite_label": "bench"
+  },
+  "reachable_nodes": [],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

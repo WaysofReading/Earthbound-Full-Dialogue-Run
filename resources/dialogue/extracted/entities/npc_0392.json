@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0392",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0392",
+  "label": "happy-happyist",
+  "location": {
+    "x0": 7736,
+    "x1": 7736,
+    "x_sector": 30,
+    "x_tile": 241,
+    "y0": 2288,
+    "y1": 2288,
+    "y_sector": 8,
+    "y_tile": 71
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 280,
+    "npc_type": "person",
+    "sprite": 101,
+    "sprite_label": "happy-happyist"
+  },
+  "reachable_nodes": [
+    "Npc0392"
+  ],
+  "region": "Happy Happy Village_Happy Happy HQ_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 68,
+    "flag_label": "CARPAINTER_DEFEATED"
+  }
+}

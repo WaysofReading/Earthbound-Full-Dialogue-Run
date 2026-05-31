@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0921",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0921",
+  "label": "elevator_attendant",
+  "location": {
+    "x0": 5160,
+    "x1": 5160,
+    "x_sector": 20,
+    "x_tile": 161,
+    "y0": 6784,
+    "y1": 6784,
+    "y_sector": 26,
+    "y_tile": 212
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 67,
+    "sprite_label": "elevator_attendant"
+  },
+  "reachable_nodes": [
+    "L_C828B3",
+    "L_C828CA",
+    "L_C82945",
+    "Npc0921"
+  ],
+  "region": "Fourside_Department Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 57,
+    "flag_label": "FOURSIDE_DEPT_BLACKOUT"
+  }
+}

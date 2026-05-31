@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B0B2",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1124",
+  "label": "",
+  "location": {
+    "x0": 3344,
+    "x1": 3344,
+    "x_sector": 13,
+    "x_tile": 104,
+    "y0": 6352,
+    "y1": 6352,
+    "y_sector": 24,
+    "y_tile": 198
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 793,
+      "y": 1235
+    },
+    "direction": "down",
+    "gating_flag": 32965,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C7C556",
+    "L_C9992F",
+    "L_C9B0B2"
+  ],
+  "region": "Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

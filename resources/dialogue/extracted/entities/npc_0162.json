@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0162",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 78,
+      "gated_by_flag_label": "GOT_ENTERTAINERS_TRAVEL_CHARM",
+      "node_id": "L_C74646",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0162",
+  "label": "traveling-entertainer",
+  "location": {
+    "x0": 1409,
+    "x1": 1409,
+    "x_sector": 5,
+    "x_tile": 44,
+    "y0": 621,
+    "y1": 621,
+    "y_sector": 2,
+    "y_tile": 19
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 608,
+    "npc_type": "person",
+    "sprite": 76,
+    "sprite_label": "traveling-entertainer"
+  },
+  "reachable_nodes": [
+    "L_C7460B",
+    "L_C74646",
+    "Npc0162"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 78,
+    "flag_label": "GOT_ENTERTAINERS_TRAVEL_CHARM"
+  }
+}

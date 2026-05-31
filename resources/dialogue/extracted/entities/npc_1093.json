@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1093",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 6848,
+    "x1": 6848,
+    "x_sector": 26,
+    "x_tile": 214,
+    "y0": 8272,
+    "y1": 8272,
+    "y_sector": 32,
+    "y_tile": 258
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 881,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Dalaam_Palace_1F_Throne-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

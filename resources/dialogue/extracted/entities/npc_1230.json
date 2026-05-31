@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1230",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1230",
+  "label": "bird_myna",
+  "location": {
+    "x0": 5240,
+    "x1": 5240,
+    "x_sector": 20,
+    "x_tile": 163,
+    "y0": 7680,
+    "y1": 7680,
+    "y_sector": 30,
+    "y_tile": 240
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 132,
+    "sprite_label": "bird_myna"
+  },
+  "reachable_nodes": [
+    "Npc1230"
+  ],
+  "region": "Deep-Darkness",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

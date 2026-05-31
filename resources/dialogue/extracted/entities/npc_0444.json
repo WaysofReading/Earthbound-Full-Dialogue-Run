@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0444",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0444",
+  "label": "girl_black-hair_red-jumper",
+  "location": {
+    "x0": 4240,
+    "x1": 4240,
+    "x_sector": 16,
+    "x_tile": 132,
+    "y0": 2304,
+    "y1": 2304,
+    "y_sector": 9,
+    "y_tile": 72
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 121,
+    "sprite_label": "girl_black-hair_red-jumper"
+  },
+  "reachable_nodes": [
+    "L_C7DD4B",
+    "L_C900F9",
+    "L_C90165",
+    "L_C9017F",
+    "L_C91A91",
+    "L_C91B6F",
+    "Npc0444"
+  ],
+  "region": "Peaceful-Rest-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

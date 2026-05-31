@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0060",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0258",
+  "label": "phone_black",
+  "location": {
+    "x0": 7541,
+    "x1": 7541,
+    "x_sector": 29,
+    "x_tile": 235,
+    "y0": 7236,
+    "y1": 7236,
+    "y_sector": 28,
+    "y_tile": 226
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 215,
+    "sprite_label": "phone_black"
+  },
+  "reachable_nodes": [
+    "L_C63029",
+    "Npc0060"
+  ],
+  "region": "Twoson_Hotel_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

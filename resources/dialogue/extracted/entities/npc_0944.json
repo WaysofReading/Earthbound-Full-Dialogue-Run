@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0944",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0944",
+  "label": "saxophonist",
+  "location": {
+    "x0": 3360,
+    "x1": 3360,
+    "x_sector": 13,
+    "x_tile": 105,
+    "y0": 4632,
+    "y1": 4632,
+    "y_sector": 18,
+    "y_tile": 144
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 77,
+    "sprite_label": "saxophonist"
+  },
+  "reachable_nodes": [
+    "L_C82F71",
+    "Npc0944"
+  ],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

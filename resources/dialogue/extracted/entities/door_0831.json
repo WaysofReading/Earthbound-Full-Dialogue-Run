@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9A08B",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0831",
+  "label": "",
+  "location": {
+    "x0": 4648,
+    "x1": 4648,
+    "x_sector": 18,
+    "x_tile": 145,
+    "y0": 5000,
+    "y1": 5000,
+    "y_sector": 19,
+    "y_tile": 156
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 702,
+      "y": 862
+    },
+    "direction": "down",
+    "gating_flag": 33108,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 0,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C7A7DD",
+    "L_C9A08B"
+  ],
+  "region": "Fourside_Jackie's Cafe_1F_Backroom",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

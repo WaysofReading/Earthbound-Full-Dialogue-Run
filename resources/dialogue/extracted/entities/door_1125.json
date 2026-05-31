@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9AF82",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1125",
+  "label": "",
+  "location": {
+    "x0": 3624,
+    "x1": 3624,
+    "x_sector": 14,
+    "x_tile": 113,
+    "y0": 6184,
+    "y1": 6184,
+    "y_sector": 24,
+    "y_tile": 193
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 259,
+      "y": 689
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C7DD8D",
+    "L_C7DDE7",
+    "L_C7DE60",
+    "L_C9AF82"
+  ],
+  "region": "Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

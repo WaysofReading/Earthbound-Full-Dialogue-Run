@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0770",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0770",
+  "label": "construction-worker",
+  "location": {
+    "x0": 5000,
+    "x1": 5000,
+    "x_sector": 19,
+    "x_tile": 156,
+    "y0": 10008,
+    "y1": 10008,
+    "y_sector": 39,
+    "y_tile": 312
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 258,
+    "npc_type": "person",
+    "sprite": 173,
+    "sprite_label": "construction-worker"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "Npc0770"
+  ],
+  "region": "Transitions_Dusty Dunes to Fourside_Fourside-Bridge",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 272,
+    "flag_label": "DIAMOND_TO_BE_DELIVERED"
+  }
+}

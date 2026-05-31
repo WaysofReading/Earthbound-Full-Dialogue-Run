@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0207",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0207",
+  "label": "lier-x-agerate",
+  "location": {
+    "x0": 3984,
+    "x1": 3984,
+    "x_sector": 15,
+    "x_tile": 124,
+    "y0": 5976,
+    "y1": 5976,
+    "y_sector": 23,
+    "y_tile": 186
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 152,
+    "sprite_label": "lier-x-agerate"
+  },
+  "reachable_nodes": [
+    "L_C6681D",
+    "L_C668E4",
+    "L_C66980",
+    "L_C73AB9",
+    "L_C73B87",
+    "L_C73B9D",
+    "L_C7DC7F",
+    "Npc0207"
+  ],
+  "region": "Onett_Lier X Agerate's Shack_1F_B1F_B2F_B3F_B4F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 308,
+    "flag_label": "LIER_BY_MANI_MANI"
+  }
+}

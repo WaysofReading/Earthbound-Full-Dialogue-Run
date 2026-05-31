@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1241",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1241",
+  "label": "truffle",
+  "location": {
+    "x0": 5648,
+    "x1": 5648,
+    "x_sector": 22,
+    "x_tile": 176,
+    "y0": 7384,
+    "y1": 7384,
+    "y_sector": 28,
+    "y_tile": 230
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 376,
+    "sprite_label": "truffle"
+  },
+  "reachable_nodes": [
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "L_C9E81C",
+    "L_C9E838",
+    "Npc1241"
+  ],
+  "region": "Deep-Darkness",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 440,
+    "flag_label": "GOT_MAGIC_TRUFFLE_2"
+  }
+}

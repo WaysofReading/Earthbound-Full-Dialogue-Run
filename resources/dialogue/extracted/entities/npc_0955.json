@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0955",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0955",
+  "label": "man_orange-hair_sunglasses",
+  "location": {
+    "x0": 2657,
+    "x1": 2657,
+    "x_sector": 10,
+    "x_tile": 83,
+    "y0": 3956,
+    "y1": 3956,
+    "y_sector": 15,
+    "y_tile": 123
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 117,
+    "sprite_label": "man_orange-hair_sunglasses"
+  },
+  "reachable_nodes": [
+    "L_C83AB3",
+    "Npc0955"
+  ],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 60,
+    "flag_label": "EVERDRED_OUTSIDE_CAFE"
+  }
+}

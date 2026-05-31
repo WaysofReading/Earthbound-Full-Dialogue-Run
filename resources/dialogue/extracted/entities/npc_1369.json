@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1369",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1369",
+  "label": "man_glasses_orange-cardigan",
+  "location": {
+    "x0": 6200,
+    "x1": 6200,
+    "x_sector": 24,
+    "x_tile": 193,
+    "y0": 4224,
+    "y1": 4224,
+    "y_sector": 16,
+    "y_tile": 132
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 64,
+    "sprite_label": "man_glasses_orange-cardigan"
+  },
+  "reachable_nodes": [
+    "L_C97A1D",
+    "L_C97A35",
+    "Npc1369"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

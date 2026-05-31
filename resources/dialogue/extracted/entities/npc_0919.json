@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0919",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0919",
+  "label": "boy_blue-ballcap",
+  "location": {
+    "x0": 6000,
+    "x1": 6000,
+    "x_sector": 23,
+    "x_tile": 187,
+    "y0": 6376,
+    "y1": 6376,
+    "y_sector": 24,
+    "y_tile": 199
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 123,
+    "sprite_label": "boy_blue-ballcap"
+  },
+  "reachable_nodes": [
+    "Npc0919"
+  ],
+  "region": "Fourside_Hospital_1F_2F_Left-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0225",
+  "label": "open-can",
+  "location": {
+    "x0": 7721,
+    "x1": 7721,
+    "x_sector": 30,
+    "x_tile": 241,
+    "y0": 7883,
+    "y1": 7883,
+    "y_sector": 30,
+    "y_tile": 246
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 225,
+    "sprite_label": "open-can"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson_Apple Kid's House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

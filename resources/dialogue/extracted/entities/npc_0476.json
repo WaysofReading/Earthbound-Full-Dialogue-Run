@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0476",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0476",
+  "label": "man_bald_black-suit",
+  "location": {
+    "x0": 8044,
+    "x1": 8044,
+    "x_sector": 31,
+    "x_tile": 251,
+    "y0": 10067,
+    "y1": 10067,
+    "y_sector": 39,
+    "y_tile": 314
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 56,
+    "sprite_label": "man_bald_black-suit"
+  },
+  "reachable_nodes": [
+    "L_C8F193",
+    "L_C8F1B5",
+    "L_C8F208",
+    "Npc0476"
+  ],
+  "region": "Threed_Circus Tent_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 14,
+    "flag_label": "JEFF_JOINS"
+  }
+}

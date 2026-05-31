@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0124",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0124",
+  "label": "picky_sleeping",
+  "location": {
+    "x0": 2008,
+    "x1": 2008,
+    "x_sector": 7,
+    "x_tile": 62,
+    "y0": 112,
+    "y1": 112,
+    "y_sector": 0,
+    "y_tile": 3
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 55,
+    "npc_type": "person",
+    "sprite": 382,
+    "sprite_label": "picky_sleeping"
+  },
+  "reachable_nodes": [
+    "L_C681F0",
+    "Npc0124"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 466,
+    "flag_label": "PICKY_SLEEPING_AT_METEORITE"
+  }
+}

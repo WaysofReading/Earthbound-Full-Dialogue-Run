@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0900",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0900",
+  "label": "drunk-man",
+  "location": {
+    "x0": 5423,
+    "x1": 5423,
+    "x_sector": 21,
+    "x_tile": 169,
+    "y0": 6637,
+    "y1": 6637,
+    "y_sector": 25,
+    "y_tile": 207
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 60,
+    "sprite_label": "drunk-man"
+  },
+  "reachable_nodes": [
+    "L_C6F717",
+    "Npc0900"
+  ],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

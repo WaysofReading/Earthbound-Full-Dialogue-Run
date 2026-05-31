@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0152",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0152",
+  "label": "man_hat_blue-suit",
+  "location": {
+    "x0": 2712,
+    "x1": 2712,
+    "x_sector": 10,
+    "x_tile": 84,
+    "y0": 496,
+    "y1": 496,
+    "y_sector": 1,
+    "y_tile": 15
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 55,
+    "sprite_label": "man_hat_blue-suit"
+  },
+  "reachable_nodes": [
+    "Npc0152"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 469,
+    "flag_label": "POLICE_AT_METEORITE"
+  }
+}

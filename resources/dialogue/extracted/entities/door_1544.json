@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_1544",
+  "label": "",
+  "location": {
+    "x0": 3952,
+    "x1": 3952,
+    "x_sector": 15,
+    "x_tile": 123,
+    "y0": 8688,
+    "y1": 8688,
+    "y_sector": 33,
+    "y_tile": 271
+  },
+  "properties": {
+    "destination": null,
+    "direction": "se",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "stairway"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room_Stairs",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99ACC",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1161",
+  "label": "",
+  "location": {
+    "x0": 2224,
+    "x1": 2224,
+    "x_sector": 8,
+    "x_tile": 69,
+    "y0": 6528,
+    "y1": 6528,
+    "y_sector": 25,
+    "y_tile": 204
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 956,
+      "y": 925
+    },
+    "direction": "left",
+    "gating_flag": 211,
+    "gating_flag_label": "VISITED_THREED",
+    "kind": "interactive",
+    "style": 4,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9992F",
+    "L_C99ACC",
+    "L_C99AE3"
+  ],
+  "region": "Twoson",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

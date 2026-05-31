@@ -1,0 +1,64 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1358",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 74,
+      "gated_by_flag_label": "NESS_NIGHTMARE_DEFEATED",
+      "node_id": "L_C68F74",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_1358",
+  "label": "monster_mani-mani-statue",
+  "location": {
+    "x0": 496,
+    "x1": 496,
+    "x_sector": 1,
+    "x_tile": 15,
+    "y0": 9128,
+    "y1": 9128,
+    "y_sector": 35,
+    "y_tile": 285
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "object",
+    "sprite": 293,
+    "sprite_label": "monster_mani-mani-statue"
+  },
+  "reachable_nodes": [
+    "L_C64650",
+    "L_C6857C",
+    "L_C68F74",
+    "L_C68FA6",
+    "L_C69082",
+    "L_C77C50",
+    "L_C77DAB",
+    "L_C7C588",
+    "L_C7DD6B",
+    "L_C7DFBE",
+    "L_C9B4C9",
+    "L_C9B60F",
+    "L_C9B62D",
+    "L_C9B6E3",
+    "L_C9B799",
+    "L_C9B84F",
+    "L_C9B87F",
+    "L_C9B898",
+    "L_C9B8DD",
+    "L_C9B8FF",
+    "Npc0463",
+    "Npc1358"
+  ],
+  "region": "Magicant_Sea of Eden_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 74,
+    "flag_label": "NESS_NIGHTMARE_DEFEATED"
+  }
+}

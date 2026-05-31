@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_0435",
+  "label": "",
+  "location": {
+    "x0": 3176,
+    "x1": 3176,
+    "x_sector": 12,
+    "x_tile": 99,
+    "y0": 2584,
+    "y1": 2584,
+    "y_sector": 10,
+    "y_tile": 80
+  },
+  "properties": {
+    "destination": null,
+    "direction": null,
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "ladder"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Lumine Hall_1F_2F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

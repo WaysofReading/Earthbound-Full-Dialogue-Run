@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0138",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0138",
+  "label": "ruffini",
+  "location": {
+    "x0": 1820,
+    "x1": 1820,
+    "x_sector": 7,
+    "x_tile": 56,
+    "y0": 1376,
+    "y1": 1376,
+    "y_sector": 5,
+    "y_tile": 43
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 608,
+    "npc_type": "person",
+    "sprite": 130,
+    "sprite_label": "ruffini"
+  },
+  "reachable_nodes": [
+    "L_C65CE1",
+    "Npc0138"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 375,
+    "flag_label": "PEOPLE_IN_ONETT"
+  }
+}

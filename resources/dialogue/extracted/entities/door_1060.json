@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_1060",
+  "label": "",
+  "location": {
+    "x0": 6568,
+    "x1": 6568,
+    "x_sector": 25,
+    "x_tile": 205,
+    "y0": 5656,
+    "y1": 5656,
+    "y_sector": 22,
+    "y_tile": 176
+  },
+  "properties": {
+    "destination": null,
+    "direction": null,
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "ladder"
+  },
+  "reachable_nodes": [],
+  "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Maze_Room-3",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

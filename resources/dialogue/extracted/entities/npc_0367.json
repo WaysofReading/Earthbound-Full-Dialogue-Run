@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0367",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0367",
+  "label": "hotel_sign",
+  "location": {
+    "x0": 1416,
+    "x1": 1416,
+    "x_sector": 5,
+    "x_tile": 44,
+    "y0": 6544,
+    "y1": 6544,
+    "y_sector": 25,
+    "y_tile": 204
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 442,
+    "sprite_label": "hotel_sign"
+  },
+  "reachable_nodes": [
+    "Npc0367"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

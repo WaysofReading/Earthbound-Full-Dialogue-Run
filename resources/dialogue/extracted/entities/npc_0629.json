@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0629",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0629",
+  "label": "tessie-watcher",
+  "location": {
+    "x0": 480,
+    "x1": 480,
+    "x_sector": 1,
+    "x_tile": 15,
+    "y0": 3408,
+    "y1": 3408,
+    "y_sector": 13,
+    "y_tile": 106
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 83,
+    "sprite_label": "tessie-watcher"
+  },
+  "reachable_nodes": [
+    "L_C6BBAF",
+    "L_C6BBE3",
+    "Npc0629"
+  ],
+  "region": "Winters",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 52,
+    "flag_label": "CAPTIVES_AT_STONEHENGE"
+  }
+}

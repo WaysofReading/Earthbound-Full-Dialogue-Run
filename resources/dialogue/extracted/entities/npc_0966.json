@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0966",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0966",
+  "label": "woman_black-hair_red-clothes",
+  "location": {
+    "x0": 3704,
+    "x1": 3704,
+    "x_sector": 14,
+    "x_tile": 115,
+    "y0": 4024,
+    "y1": 4024,
+    "y_sector": 15,
+    "y_tile": 125
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 116,
+    "sprite_label": "woman_black-hair_red-clothes"
+  },
+  "reachable_nodes": [
+    "Npc0966"
+  ],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 194,
+    "flag_label": "CONQUERED_SANCTUARY_5"
+  }
+}

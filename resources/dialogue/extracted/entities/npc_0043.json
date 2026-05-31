@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0043",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0043",
+  "label": "elevator_attendant",
+  "location": {
+    "x0": 7232,
+    "x1": 7232,
+    "x_sector": 28,
+    "x_tile": 226,
+    "y0": 1376,
+    "y1": 1376,
+    "y_sector": 5,
+    "y_tile": 43
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 67,
+    "sprite_label": "elevator_attendant"
+  },
+  "reachable_nodes": [
+    "Npc0043"
+  ],
+  "region": "Onett_Bakery_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

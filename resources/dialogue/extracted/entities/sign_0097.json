@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C86B10",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0097",
+  "label": "",
+  "location": {
+    "x0": 7280,
+    "x1": 7280,
+    "x_sector": 28,
+    "x_tile": 227,
+    "y0": 1496,
+    "y1": 1496,
+    "y_sector": 5,
+    "y_tile": 46
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C86B10"
+  ],
+  "region": "Onett_Hospital_1F_2F",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

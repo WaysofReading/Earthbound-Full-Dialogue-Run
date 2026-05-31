@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1072",
+  "label": "runaway-5_gorgeous",
+  "location": {
+    "x0": 5400,
+    "x1": 5400,
+    "x_sector": 21,
+    "x_tile": 168,
+    "y0": 2744,
+    "y1": 2744,
+    "y_sector": 10,
+    "y_tile": 85
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 150,
+    "sprite_label": "runaway-5_gorgeous"
+  },
+  "reachable_nodes": [],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 372,
+    "flag_label": "PARTY_IS_ROBOTIFIED"
+  }
+}

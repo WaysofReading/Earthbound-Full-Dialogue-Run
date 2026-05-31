@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1350",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1350",
+  "label": "gravestone",
+  "location": {
+    "x0": 5216,
+    "x1": 5216,
+    "x_sector": 20,
+    "x_tile": 163,
+    "y0": 4192,
+    "y1": 4192,
+    "y_sector": 16,
+    "y_tile": 131
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 239,
+    "sprite_label": "gravestone"
+  },
+  "reachable_nodes": [
+    "Npc1350"
+  ],
+  "region": "Magicant",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 207,
+    "flag_label": "FLYING_MAN_4_DEAD"
+  }
+}

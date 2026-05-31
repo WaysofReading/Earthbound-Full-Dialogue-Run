@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0774",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0774",
+  "label": "healer",
+  "location": {
+    "x0": 3760,
+    "x1": 3760,
+    "x_sector": 14,
+    "x_tile": 117,
+    "y0": 9552,
+    "y1": 9552,
+    "y_sector": 37,
+    "y_tile": 298
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 189,
+    "sprite_label": "healer"
+  },
+  "reachable_nodes": [
+    "L_C91805",
+    "L_C91A91",
+    "L_C91ABE",
+    "L_C91B24",
+    "L_C91B3D",
+    "L_C91B6F",
+    "L_C91BB8",
+    "L_C91C1B",
+    "Npc0774"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 174,
+    "flag_label": "DESERT_MINE_EXPANDED"
+  }
+}

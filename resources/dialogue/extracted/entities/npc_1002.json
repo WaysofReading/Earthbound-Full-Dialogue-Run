@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1002",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1002",
+  "label": "magic-cake-woman",
+  "location": {
+    "x0": 7872,
+    "x1": 7872,
+    "x_sector": 30,
+    "x_tile": 246,
+    "y0": 9200,
+    "y1": 9200,
+    "y_sector": 35,
+    "y_tile": 287
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 181,
+    "sprite_label": "magic-cake-woman"
+  },
+  "reachable_nodes": [
+    "L_C8B9C4",
+    "L_C8BA12",
+    "L_C8BA45",
+    "Npc1002"
+  ],
+  "region": "Summers and Toto_Stoic Club_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 617,
+    "flag_label": "MAGIC_CAKE_LADY_AT_BEACH"
+  }
+}

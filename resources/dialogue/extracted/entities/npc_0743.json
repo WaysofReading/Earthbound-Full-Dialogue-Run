@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0743",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0743",
+  "label": "sign_small",
+  "location": {
+    "x0": 536,
+    "x1": 536,
+    "x_sector": 2,
+    "x_tile": 16,
+    "y0": 7312,
+    "y1": 7312,
+    "y_sector": 28,
+    "y_tile": 228
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 213,
+    "sprite_label": "sign_small"
+  },
+  "reachable_nodes": [
+    "Npc0743"
+  ],
+  "region": "Saturn-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

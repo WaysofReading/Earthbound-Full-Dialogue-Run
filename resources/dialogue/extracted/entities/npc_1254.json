@@ -1,0 +1,65 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1254",
+      "role": "primary"
+    },
+    {
+      "node_id": "L_C9D6F8",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_1254",
+  "label": "tenda",
+  "location": {
+    "x0": 152,
+    "x1": 152,
+    "x_sector": 0,
+    "x_tile": 4,
+    "y0": 112,
+    "y1": 112,
+    "y_sector": 0,
+    "y_tile": 3
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 97,
+    "sprite_label": "tenda"
+  },
+  "reachable_nodes": [
+    "L_C5E456",
+    "L_C6505D",
+    "L_C650AC",
+    "L_C650C2",
+    "L_C650D6",
+    "L_C650EB",
+    "L_C65105",
+    "L_C6511C",
+    "L_C651CC",
+    "L_C651EF",
+    "L_C6521F",
+    "L_C65225",
+    "L_C6522B",
+    "L_C65231",
+    "L_C65237",
+    "L_C6523D",
+    "L_C7C6B6",
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "L_C9D6F8",
+    "L_C9D70B",
+    "L_C9D735",
+    "L_C9DB38",
+    "Npc1254"
+  ],
+  "region": "Deep Darkness_Tenda Village_Main",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

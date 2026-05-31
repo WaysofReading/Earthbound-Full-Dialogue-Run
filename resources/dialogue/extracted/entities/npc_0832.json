@@ -1,0 +1,54 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0832",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0832",
+  "label": "monster_mole_no-3",
+  "location": {
+    "x0": 6752,
+    "x1": 6752,
+    "x_sector": 26,
+    "x_tile": 211,
+    "y0": 6208,
+    "y1": 6208,
+    "y_sector": 24,
+    "y_tile": 194
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 600,
+    "npc_type": "person",
+    "sprite": 419,
+    "sprite_label": "monster_mole_no-3"
+  },
+  "reachable_nodes": [
+    "L_C613B3",
+    "L_C61443",
+    "L_C6146D",
+    "L_C614B1",
+    "L_C614F2",
+    "L_C615A7",
+    "L_C615E8",
+    "L_C615E9",
+    "L_C61609",
+    "L_C6160D",
+    "L_C61611",
+    "L_C61615",
+    "L_C68591",
+    "L_C7C588",
+    "L_C7DD74",
+    "L_C7DD85",
+    "Npc0463",
+    "Npc0832"
+  ],
+  "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Maze",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 278,
+    "flag_label": "GUARDIAN_MOLE_2_DEFEATED"
+  }
+}

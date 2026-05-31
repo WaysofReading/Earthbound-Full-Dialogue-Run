@@ -1,0 +1,47 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0016",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0016",
+  "label": "king_sleeping",
+  "location": {
+    "x0": 7684,
+    "x1": 7684,
+    "x_sector": 30,
+    "x_tile": 240,
+    "y0": 336,
+    "y1": 336,
+    "y_sector": 1,
+    "y_tile": 10
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 627,
+    "npc_type": "person",
+    "sprite": 359,
+    "sprite_label": "king_sleeping"
+  },
+  "reachable_nodes": [
+    "L_C680F2",
+    "L_C68139",
+    "L_C7576B",
+    "L_C7579E",
+    "L_C757CD",
+    "L_C757FB",
+    "L_C75827",
+    "L_C75865",
+    "L_C75899",
+    "L_C758CC",
+    "Npc0016"
+  ],
+  "region": "Onett_Ness' House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 19,
+    "flag_label": "SLEEPING_KING_ABSENT"
+  }
+}

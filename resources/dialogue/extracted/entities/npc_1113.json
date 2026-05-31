@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1113",
+  "label": "dalaam-spire",
+  "location": {
+    "x0": 4504,
+    "x1": 4504,
+    "x_sector": 17,
+    "x_tile": 140,
+    "y0": 3464,
+    "y1": 3464,
+    "y_sector": 13,
+    "y_tile": 108
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 423,
+    "sprite_label": "dalaam-spire"
+  },
+  "reachable_nodes": [],
+  "region": "Dalaam",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

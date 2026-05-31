@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0185",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0569",
+  "label": "sign_don't-enter",
+  "location": {
+    "x0": 5632,
+    "x1": 5632,
+    "x_sector": 22,
+    "x_tile": 176,
+    "y0": 8656,
+    "y1": 8656,
+    "y_sector": 33,
+    "y_tile": 270
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 228,
+    "sprite_label": "sign_don't-enter"
+  },
+  "reachable_nodes": [
+    "Npc0185"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0368",
+  "label": "streetsign_city",
+  "location": {
+    "x0": 1824,
+    "x1": 1824,
+    "x_sector": 7,
+    "x_tile": 57,
+    "y0": 7120,
+    "y1": 7120,
+    "y_sector": 27,
+    "y_tile": 222
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 204,
+    "sprite_label": "streetsign_city"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

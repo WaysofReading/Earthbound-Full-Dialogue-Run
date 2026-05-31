@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1206",
+  "label": "",
+  "location": {
+    "x0": 5672,
+    "x1": 5672,
+    "x_sector": 22,
+    "x_tile": 177,
+    "y0": 6488,
+    "y1": 6488,
+    "y_sector": 25,
+    "y_tile": 202
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 764,
+      "y": 797
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

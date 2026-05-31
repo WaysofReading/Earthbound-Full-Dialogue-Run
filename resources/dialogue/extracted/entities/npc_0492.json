@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0492",
+  "label": "Threed-hotel-woman",
+  "location": {
+    "x0": 7576,
+    "x1": 7576,
+    "x_sector": 29,
+    "x_tile": 236,
+    "y0": 9440,
+    "y1": 9440,
+    "y_sector": 36,
+    "y_tile": 295
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 80,
+    "npc_type": "person",
+    "sprite": 87,
+    "sprite_label": "Threed-hotel-woman"
+  },
+  "reachable_nodes": [],
+  "region": "Threed_Hotel_1F_Lobby_Left-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 298,
+    "flag_label": "ZOMBIE_CHICK_AT_HOTEL_3"
+  }
+}

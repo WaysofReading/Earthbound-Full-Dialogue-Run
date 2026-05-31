@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0859",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0859",
+  "label": "elevator_attendant",
+  "location": {
+    "x0": 5584,
+    "x1": 5584,
+    "x_sector": 21,
+    "x_tile": 174,
+    "y0": 5376,
+    "y1": 5376,
+    "y_sector": 21,
+    "y_tile": 168
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 67,
+    "sprite_label": "elevator_attendant"
+  },
+  "reachable_nodes": [
+    "L_C6E0B4",
+    "Npc0859"
+  ],
+  "region": "Fourside_Monotoli_L1_Lobby",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

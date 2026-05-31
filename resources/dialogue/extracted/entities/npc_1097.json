@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1097",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1097",
+  "label": "man_dalaamese_large-hat",
+  "location": {
+    "x0": 6968,
+    "x1": 6968,
+    "x_sector": 27,
+    "x_tile": 217,
+    "y0": 8008,
+    "y1": 8008,
+    "y_sector": 31,
+    "y_tile": 250
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 88,
+    "sprite_label": "man_dalaamese_large-hat"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "L_C9CF70",
+    "L_C9CF88",
+    "L_C9CFD1",
+    "Npc1097"
+  ],
+  "region": "Dalaam_Houses_South",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

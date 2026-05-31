@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0699",
+  "label": "ball-and-chain",
+  "location": {
+    "x0": 3160,
+    "x1": 3160,
+    "x_sector": 12,
+    "x_tile": 98,
+    "y0": 5648,
+    "y1": 5648,
+    "y_sector": 22,
+    "y_tile": 176
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 263,
+    "sprite_label": "ball-and-chain"
+  },
+  "reachable_nodes": [],
+  "region": "Grapefruit Falls_Belch's Base_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0222",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0222",
+  "label": "monster_mouse",
+  "location": {
+    "x0": 7768,
+    "x1": 7768,
+    "x_sector": 30,
+    "x_tile": 242,
+    "y0": 7920,
+    "y1": 7920,
+    "y_sector": 30,
+    "y_tile": 247
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 14,
+    "npc_type": "person",
+    "sprite": 281,
+    "sprite_label": "monster_mouse"
+  },
+  "reachable_nodes": [
+    "L_C79034",
+    "L_C7DC85",
+    "L_C7DCB6",
+    "L_C7DCDA",
+    "L_C81945",
+    "L_C81970",
+    "L_C819F1",
+    "L_C81A5D",
+    "L_C81A84",
+    "Npc0222"
+  ],
+  "region": "Twoson_Apple Kid's House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 339,
+    "flag_label": "APPLE_KID_NOT_AT_HIS_HOUSE"
+  }
+}

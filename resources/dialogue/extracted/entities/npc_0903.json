@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0903",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0903",
+  "label": "jukebox",
+  "location": {
+    "x0": 5456,
+    "x1": 5456,
+    "x_sector": 21,
+    "x_tile": 170,
+    "y0": 6592,
+    "y1": 6592,
+    "y_sector": 25,
+    "y_tile": 206
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 234,
+    "sprite_label": "jukebox"
+  },
+  "reachable_nodes": [
+    "Npc0903"
+  ],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

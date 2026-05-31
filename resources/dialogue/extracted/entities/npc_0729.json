@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0729",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0729",
+  "label": "george-montague",
+  "location": {
+    "x0": 330,
+    "x1": 330,
+    "x_sector": 1,
+    "x_tile": 10,
+    "y0": 7582,
+    "y1": 7582,
+    "y_sector": 29,
+    "y_tile": 236
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 172,
+    "sprite_label": "george-montague"
+  },
+  "reachable_nodes": [
+    "L_C7F71E",
+    "L_C7F7A5",
+    "L_C7F813",
+    "Npc0729"
+  ],
+  "region": "Saturn-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 651,
+    "flag_label": "UNDERWORLD_TENDA_GATE_OPEN"
+  }
+}

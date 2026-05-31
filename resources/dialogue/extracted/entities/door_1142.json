@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1142",
+  "label": "",
+  "location": {
+    "x0": 5872,
+    "x1": 5872,
+    "x_sector": 22,
+    "x_tile": 183,
+    "y0": 6248,
+    "y1": 6248,
+    "y_sector": 24,
+    "y_tile": 195
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 371,
+      "y": 457
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside_Hospital_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

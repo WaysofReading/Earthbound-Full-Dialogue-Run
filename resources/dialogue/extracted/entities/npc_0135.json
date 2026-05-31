@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0135",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0135",
+  "label": "man_blonde_blue-oxford",
+  "location": {
+    "x0": 1616,
+    "x1": 1616,
+    "x_sector": 6,
+    "x_tile": 50,
+    "y0": 1456,
+    "y1": 1456,
+    "y_sector": 5,
+    "y_tile": 45
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 609,
+    "npc_type": "person",
+    "sprite": 112,
+    "sprite_label": "man_blonde_blue-oxford"
+  },
+  "reachable_nodes": [
+    "L_C65A8C",
+    "L_C65AB6",
+    "Npc0135"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 375,
+    "flag_label": "PEOPLE_IN_ONETT"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0646",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0646",
+  "label": "sign_small",
+  "location": {
+    "x0": 808,
+    "x1": 808,
+    "x_sector": 3,
+    "x_tile": 25,
+    "y0": 4664,
+    "y1": 4664,
+    "y_sector": 18,
+    "y_tile": 145
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 213,
+    "sprite_label": "sign_small"
+  },
+  "reachable_nodes": [
+    "Npc0646"
+  ],
+  "region": "Winters",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

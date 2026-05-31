@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0013",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0861",
+  "label": "phone_payphone_left",
+  "location": {
+    "x0": 5496,
+    "x1": 5496,
+    "x_sector": 21,
+    "x_tile": 171,
+    "y0": 5384,
+    "y1": 5384,
+    "y_sector": 21,
+    "y_tile": 168
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 216,
+    "sprite_label": "phone_payphone_left"
+  },
+  "reachable_nodes": [
+    "L_C63033",
+    "Npc0013"
+  ],
+  "region": "Fourside_Monotoli_L1_Lobby",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

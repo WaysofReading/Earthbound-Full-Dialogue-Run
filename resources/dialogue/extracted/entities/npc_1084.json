@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1084",
+  "label": "potted-tree",
+  "location": {
+    "x0": 5384,
+    "x1": 5384,
+    "x_sector": 21,
+    "x_tile": 168,
+    "y0": 2744,
+    "y1": 2744,
+    "y_sector": 10,
+    "y_tile": 85
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 266,
+    "sprite_label": "potted-tree"
+  },
+  "reachable_nodes": [],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0332",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0332",
+  "label": "girl_blonde_pink-dress",
+  "location": {
+    "x0": 1989,
+    "x1": 1989,
+    "x_sector": 7,
+    "x_tile": 62,
+    "y0": 7192,
+    "y1": 7192,
+    "y_sector": 28,
+    "y_tile": 224
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 120,
+    "sprite_label": "girl_blonde_pink-dress"
+  },
+  "reachable_nodes": [
+    "L_C94C2E",
+    "Npc0332"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 372,
+    "flag_label": "PARTY_IS_ROBOTIFIED"
+  }
+}

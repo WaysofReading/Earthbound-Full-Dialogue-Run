@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1363",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1363",
+  "label": "monster_flame",
+  "location": {
+    "x0": 6440,
+    "x1": 6440,
+    "x_sector": 25,
+    "x_tile": 201,
+    "y0": 4968,
+    "y1": 4968,
+    "y_sector": 19,
+    "y_tile": 155
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 597,
+    "npc_type": "person",
+    "sprite": 279,
+    "sprite_label": "monster_flame"
+  },
+  "reachable_nodes": [
+    "L_C7C588",
+    "Npc0463",
+    "Npc1363"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 387,
+    "flag_label": "MOONSIDE_CAFE_ROBO_PUMP_DEFEATED"
+  }
+}

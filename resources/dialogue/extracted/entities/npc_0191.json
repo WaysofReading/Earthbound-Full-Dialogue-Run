@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0191",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0191",
+  "label": "hotel_sign",
+  "location": {
+    "x0": 2008,
+    "x1": 2008,
+    "x_sector": 7,
+    "x_tile": 62,
+    "y0": 1440,
+    "y1": 1440,
+    "y_sector": 5,
+    "y_tile": 45
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 442,
+    "sprite_label": "hotel_sign"
+  },
+  "reachable_nodes": [
+    "Npc0191"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

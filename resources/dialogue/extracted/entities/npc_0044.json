@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0044",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0044",
+  "label": "aloysius",
+  "location": {
+    "x0": 7056,
+    "x1": 7056,
+    "x_sector": 27,
+    "x_tile": 220,
+    "y0": 848,
+    "y1": 848,
+    "y_sector": 3,
+    "y_tile": 26
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 147,
+    "sprite_label": "aloysius"
+  },
+  "reachable_nodes": [
+    "L_C5F1D1",
+    "Npc0044"
+  ],
+  "region": "Onett_Minch House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 37,
+    "flag_label": "ALOYSIUS_AT_HOME"
+  }
+}

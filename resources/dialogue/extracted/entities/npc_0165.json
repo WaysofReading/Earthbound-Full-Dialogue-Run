@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0165",
+  "label": "man_glasses_orange-cardigan",
+  "location": {
+    "x0": 2073,
+    "x1": 2073,
+    "x_sector": 8,
+    "x_tile": 64,
+    "y0": 177,
+    "y1": 177,
+    "y_sector": 0,
+    "y_tile": 5
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 64,
+    "sprite_label": "man_glasses_orange-cardigan"
+  },
+  "reachable_nodes": [],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 469,
+    "flag_label": "POLICE_AT_METEORITE"
+  }
+}

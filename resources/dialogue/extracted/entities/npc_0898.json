@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0898",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0898",
+  "label": "woman_redhead_blue-dress",
+  "location": {
+    "x0": 5560,
+    "x1": 5560,
+    "x_sector": 21,
+    "x_tile": 173,
+    "y0": 6616,
+    "y1": 6616,
+    "y_sector": 25,
+    "y_tile": 206
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 108,
+    "sprite_label": "woman_redhead_blue-dress"
+  },
+  "reachable_nodes": [
+    "L_C6F2E7",
+    "L_C6F354",
+    "Npc0898"
+  ],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 139,
+    "flag_label": "DEPT_STORE_SPOOK_DEFEATED"
+  }
+}

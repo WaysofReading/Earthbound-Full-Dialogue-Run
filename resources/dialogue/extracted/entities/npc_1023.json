@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0013",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1023",
+  "label": "phone_payphone_left",
+  "location": {
+    "x0": 6720,
+    "x1": 6720,
+    "x_sector": 26,
+    "x_tile": 210,
+    "y0": 9408,
+    "y1": 9408,
+    "y_sector": 36,
+    "y_tile": 294
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 216,
+    "sprite_label": "phone_payphone_left"
+  },
+  "reachable_nodes": [
+    "L_C63033",
+    "Npc0013"
+  ],
+  "region": "Summers and Toto_Hotel_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

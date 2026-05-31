@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0515",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0515",
+  "label": "lookalike_shy-guy-mask",
+  "location": {
+    "x0": 5224,
+    "x1": 5224,
+    "x_sector": 20,
+    "x_tile": 163,
+    "y0": 9384,
+    "y1": 9384,
+    "y_sector": 36,
+    "y_tile": 293
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 119,
+    "sprite_label": "lookalike_shy-guy-mask"
+  },
+  "reachable_nodes": [
+    "L_C8E176",
+    "Npc0515"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

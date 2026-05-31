@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0475",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0475",
+  "label": "lookalike_teddy",
+  "location": {
+    "x0": 7960,
+    "x1": 7960,
+    "x_sector": 31,
+    "x_tile": 248,
+    "y0": 10168,
+    "y1": 10168,
+    "y_sector": 39,
+    "y_tile": 317
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 118,
+    "sprite_label": "lookalike_teddy"
+  },
+  "reachable_nodes": [
+    "L_C8F031",
+    "L_C8F066",
+    "L_C8F086",
+    "L_C8F0D2",
+    "Npc0475"
+  ],
+  "region": "Threed_Circus Tent_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 14,
+    "flag_label": "JEFF_JOINS"
+  }
+}

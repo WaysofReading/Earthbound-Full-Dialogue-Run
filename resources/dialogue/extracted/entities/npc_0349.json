@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0344",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0349",
+  "label": "monster_ghost",
+  "location": {
+    "x0": 6400,
+    "x1": 6400,
+    "x_sector": 25,
+    "x_tile": 200,
+    "y0": 10216,
+    "y1": 10216,
+    "y_sector": 39,
+    "y_tile": 319
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 86,
+    "npc_type": "person",
+    "sprite": 305,
+    "sprite_label": "monster_ghost"
+  },
+  "reachable_nodes": [
+    "Npc0344"
+  ],
+  "region": "Transitions_Twoson to Threed_Tunnel-A",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

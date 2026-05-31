@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9AED7",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0923",
+  "label": "",
+  "location": {
+    "x0": 1720,
+    "x1": 1720,
+    "x_sector": 6,
+    "x_tile": 53,
+    "y0": 5464,
+    "y1": 5464,
+    "y_sector": 21,
+    "y_tile": 170
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 828,
+      "y": 425
+    },
+    "direction": "left",
+    "gating_flag": 756,
+    "gating_flag_label": "DUNGEON_MAN_IN_PARTY",
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9AED7",
+    "L_C9B10B",
+    "L_C9B112"
+  ],
+  "region": "Scaraba",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

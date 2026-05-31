@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0161",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0161",
+  "label": "pokey",
+  "location": {
+    "x0": 2137,
+    "x1": 2137,
+    "x_sector": 8,
+    "x_tile": 66,
+    "y0": 247,
+    "y1": 247,
+    "y_sector": 0,
+    "y_tile": 7
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 629,
+    "npc_type": "person",
+    "sprite": 44,
+    "sprite_label": "pokey"
+  },
+  "reachable_nodes": [
+    "L_C6739F",
+    "Npc0161"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 469,
+    "flag_label": "POLICE_AT_METEORITE"
+  }
+}

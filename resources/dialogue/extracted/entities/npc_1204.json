@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1204",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1204",
+  "label": "bench",
+  "location": {
+    "x0": 4304,
+    "x1": 4304,
+    "x_sector": 16,
+    "x_tile": 134,
+    "y0": 691,
+    "y1": 691,
+    "y_sector": 2,
+    "y_tile": 21
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 198,
+    "sprite_label": "bench"
+  },
+  "reachable_nodes": [
+    "L_C57BDC",
+    "L_C57C10",
+    "L_C7E6D7",
+    "L_C90F7D",
+    "L_C91582",
+    "L_C915D6",
+    "Npc1204"
+  ],
+  "region": "Scaraba_Dungeon Man_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

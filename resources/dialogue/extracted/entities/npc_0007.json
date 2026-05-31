@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0007",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0007",
+  "label": "monster_shark",
+  "location": {
+    "x0": 8104,
+    "x1": 8104,
+    "x_sector": 31,
+    "x_tile": 253,
+    "y0": 1008,
+    "y1": 1008,
+    "y_sector": 3,
+    "y_tile": 31
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 598,
+    "npc_type": "person",
+    "sprite": 284,
+    "sprite_label": "monster_shark"
+  },
+  "reachable_nodes": [
+    "L_C683DF",
+    "Npc0007"
+  ],
+  "region": "Onett_Arcade_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 697,
+    "flag_label": "SHARK_AT_ARCADE_UPSTAIRS_DEFEATED"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9309E",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0149",
+  "label": "",
+  "location": {
+    "x0": 1728,
+    "x1": 1728,
+    "x_sector": 6,
+    "x_tile": 54,
+    "y0": 5032,
+    "y1": 5032,
+    "y_sector": 19,
+    "y_tile": 157
+  },
+  "properties": {
+    "gating_flag": 32920,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "switch"
+  },
+  "reachable_nodes": [
+    "L_C92FDA",
+    "L_C9309E",
+    "L_C930AD",
+    "L_C930C7",
+    "L_C930F7",
+    "L_C9310C"
+  ],
+  "region": "Scaraba",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

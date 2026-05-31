@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0013",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0276",
+  "label": "phone_payphone_left",
+  "location": {
+    "x0": 7344,
+    "x1": 7344,
+    "x_sector": 28,
+    "x_tile": 229,
+    "y0": 8512,
+    "y1": 8512,
+    "y_sector": 33,
+    "y_tile": 266
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 216,
+    "sprite_label": "phone_payphone_left"
+  },
+  "reachable_nodes": [
+    "L_C63033",
+    "Npc0013"
+  ],
+  "region": "Twoson_Bus Station_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

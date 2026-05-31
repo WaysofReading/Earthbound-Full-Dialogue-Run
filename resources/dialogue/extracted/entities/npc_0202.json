@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0202",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0202",
+  "label": "monster_frankystein",
+  "location": {
+    "x0": 1656,
+    "x1": 1656,
+    "x_sector": 6,
+    "x_tile": 51,
+    "y0": 1608,
+    "y1": 1608,
+    "y_sector": 6,
+    "y_tile": 50
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 401,
+    "sprite_label": "monster_frankystein"
+  },
+  "reachable_nodes": [
+    "Npc0202"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 64,
+    "flag_label": "FRANKYSTEIN_MKII_DEFEATED"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0366",
+  "label": "",
+  "location": {
+    "x0": 8080,
+    "x1": 8080,
+    "x_sector": 31,
+    "x_tile": 252,
+    "y0": 2056,
+    "y1": 2056,
+    "y_sector": 8,
+    "y_tile": 64
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 441,
+      "y": 996
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 10,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Happy Happy Village_Mr Saturn's House_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

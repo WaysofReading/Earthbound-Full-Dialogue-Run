@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1054",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1054",
+  "label": "man_blonde_resortwear",
+  "location": {
+    "x0": 5144,
+    "x1": 5144,
+    "x_sector": 20,
+    "x_tile": 160,
+    "y0": 2752,
+    "y1": 2752,
+    "y_sector": 10,
+    "y_tile": 86
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 71,
+    "sprite_label": "man_blonde_resortwear"
+  },
+  "reachable_nodes": [
+    "Npc1054"
+  ],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

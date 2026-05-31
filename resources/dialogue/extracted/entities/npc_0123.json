@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0123",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 7544,
+    "x1": 7544,
+    "x_sector": 29,
+    "x_tile": 235,
+    "y0": 1424,
+    "y1": 1424,
+    "y_sector": 5,
+    "y_tile": 44
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 863,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Scam House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

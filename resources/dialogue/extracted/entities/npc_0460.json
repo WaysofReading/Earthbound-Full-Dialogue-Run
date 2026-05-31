@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0460",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0460",
+  "label": "monster_zombie",
+  "location": {
+    "x0": 7962,
+    "x1": 7962,
+    "x_sector": 31,
+    "x_tile": 248,
+    "y0": 10130,
+    "y1": 10130,
+    "y_sector": 39,
+    "y_tile": 316
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 308,
+    "sprite_label": "monster_zombie"
+  },
+  "reachable_nodes": [
+    "Npc0460"
+  ],
+  "region": "Threed_Circus Tent_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

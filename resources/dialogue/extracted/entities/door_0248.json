@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0248",
+  "label": "",
+  "location": {
+    "x0": 7376,
+    "x1": 7376,
+    "x_sector": 28,
+    "x_tile": 230,
+    "y0": 1256,
+    "y1": 1256,
+    "y_sector": 4,
+    "y_tile": 39
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 914,
+      "y": 120
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Hospital_1F_Doctor's-Office",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

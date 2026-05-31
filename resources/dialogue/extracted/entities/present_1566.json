@@ -1,0 +1,51 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C7D84F",
+      "role": "primary"
+    }
+  ],
+  "id": "present_1566",
+  "label": "present",
+  "location": {
+    "x0": 3328,
+    "x1": 3328,
+    "x_sector": 13,
+    "x_tile": 104,
+    "y0": 2840,
+    "y1": 2840,
+    "y_sector": 11,
+    "y_tile": 88
+  },
+  "properties": {
+    "container": null,
+    "item": null,
+    "item_label": null,
+    "sprite": 195,
+    "sprite_label": "present"
+  },
+  "reachable_nodes": [
+    "L_C7D84F",
+    "L_C7D87F",
+    "L_C7D90D",
+    "L_C7D92A",
+    "L_C7D947",
+    "L_C7D958",
+    "L_C7D9EC",
+    "L_C7D9FC",
+    "L_C7DA0C",
+    "L_C7DA23",
+    "L_C7DA58",
+    "L_C7DA68",
+    "L_C7DA8F",
+    "L_C7DAA1",
+    "L_C7DC85"
+  ],
+  "region": "Deep Darkness_Lumine Hall_1F_2F",
+  "type": "present",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

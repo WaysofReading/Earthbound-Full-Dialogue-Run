@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1388",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1388",
+  "label": "man_mohawk_punk-clothes",
+  "location": {
+    "x0": 7784,
+    "x1": 7784,
+    "x_sector": 30,
+    "x_tile": 243,
+    "y0": 3768,
+    "y1": 3768,
+    "y_sector": 14,
+    "y_tile": 117
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 85,
+    "sprite_label": "man_mohawk_punk-clothes"
+  },
+  "reachable_nodes": [
+    "L_C9737F",
+    "L_C97394",
+    "Npc1388"
+  ],
+  "region": "Moonside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

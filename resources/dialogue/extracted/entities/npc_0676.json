@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0676",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0676",
+  "label": "monster_your-sanctuary",
+  "location": {
+    "x0": 5128,
+    "x1": 5128,
+    "x_sector": 20,
+    "x_tile": 160,
+    "y0": 168,
+    "y1": 168,
+    "y_sector": 0,
+    "y_tile": 5
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 693,
+    "npc_type": "person",
+    "sprite": 333,
+    "sprite_label": "monster_your-sanctuary"
+  },
+  "reachable_nodes": [
+    "L_C68417",
+    "L_C7C588",
+    "L_C7DC7F",
+    "Npc0463",
+    "Npc0676"
+  ],
+  "region": "Winters_Rainy Circle_1F_Hallway_Boss-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 192,
+    "flag_label": "CONQUERED_SANCTUARY_4"
+  }
+}

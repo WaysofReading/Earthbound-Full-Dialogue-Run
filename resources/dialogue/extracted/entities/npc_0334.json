@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0334",
+  "label": "everdred",
+  "location": {
+    "x0": 1368,
+    "x1": 1368,
+    "x_sector": 5,
+    "x_tile": 42,
+    "y0": 6872,
+    "y1": 6872,
+    "y_sector": 26,
+    "y_tile": 214
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 647,
+    "npc_type": "person",
+    "sprite": 157,
+    "sprite_label": "everdred"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 612,
+    "flag_label": "EVERDRED_NOT_AT_ROOF"
+  }
+}

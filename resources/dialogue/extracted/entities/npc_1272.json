@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1272",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1272",
+  "label": "mr-saturn",
+  "location": {
+    "x0": 6023,
+    "x1": 6023,
+    "x_sector": 23,
+    "x_tile": 188,
+    "y0": 278,
+    "y1": 278,
+    "y_sector": 1,
+    "y_tile": 8
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 171,
+    "sprite_label": "mr-saturn"
+  },
+  "reachable_nodes": [
+    "Npc1272"
+  ],
+  "region": "Lost Underworld_Cave of the Past_1F-Present",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 330,
+    "flag_label": "MR_SATURN_AT_CAVE_OF_THE_PRESENT"
+  }
+}

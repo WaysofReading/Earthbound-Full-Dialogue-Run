@@ -1,0 +1,73 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0014",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0014",
+  "label": "mom",
+  "location": {
+    "x0": 7584,
+    "x1": 7584,
+    "x_sector": 29,
+    "x_tile": 237,
+    "y0": 344,
+    "y1": 344,
+    "y_sector": 1,
+    "y_tile": 10
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 37,
+    "npc_type": "person",
+    "sprite": 145,
+    "sprite_label": "mom"
+  },
+  "reachable_nodes": [
+    "L_C64650",
+    "L_C685DA",
+    "L_C685FA",
+    "L_C68651",
+    "L_C69082",
+    "L_C695BA",
+    "L_C74FB6",
+    "L_C74FDE",
+    "L_C74FEC",
+    "L_C750B3",
+    "L_C750E3",
+    "L_C75124",
+    "L_C75176",
+    "L_C751F1",
+    "L_C75262",
+    "L_C752A3",
+    "L_C7533C",
+    "L_C7542C",
+    "L_C7544A",
+    "L_C7546F",
+    "L_C7547D",
+    "L_C7552D",
+    "L_C755AD",
+    "L_C755C4",
+    "L_C755FB",
+    "L_C7562F",
+    "L_C75695",
+    "L_C7CE73",
+    "L_C7DC7F",
+    "L_C7DD6B",
+    "L_C90F7D",
+    "L_C91582",
+    "L_C915D6",
+    "L_C91693",
+    "L_C9992F",
+    "L_C9C7FA",
+    "Npc0014"
+  ],
+  "region": "Onett_Ness' House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 469,
+    "flag_label": "POLICE_AT_METEORITE"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0617",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0617",
+  "label": "monkey-girl",
+  "location": {
+    "x0": 7832,
+    "x1": 7832,
+    "x_sector": 30,
+    "x_tile": 244,
+    "y0": 2920,
+    "y1": 2920,
+    "y_sector": 11,
+    "y_tile": 91
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 160,
+    "sprite_label": "monkey-girl"
+  },
+  "reachable_nodes": [
+    "Npc0617"
+  ],
+  "region": "Winters_Andonuts Lab_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 621,
+    "flag_label": "MONKEYS_AT_WINTERS_LAB"
+  }
+}

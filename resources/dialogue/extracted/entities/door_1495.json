@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_1495",
+  "label": "",
+  "location": {
+    "x0": 2480,
+    "x1": 2480,
+    "x_sector": 9,
+    "x_tile": 77,
+    "y0": 8336,
+    "y1": 8336,
+    "y_sector": 32,
+    "y_tile": 260
+  },
+  "properties": {
+    "destination": null,
+    "direction": null,
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "rope"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Giant Step_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

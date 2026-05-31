@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1164",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1164",
+  "label": "hotel_sign",
+  "location": {
+    "x0": 1304,
+    "x1": 1304,
+    "x_sector": 5,
+    "x_tile": 40,
+    "y0": 4136,
+    "y1": 4136,
+    "y_sector": 16,
+    "y_tile": 129
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 442,
+    "sprite_label": "hotel_sign"
+  },
+  "reachable_nodes": [
+    "Npc1164"
+  ],
+  "region": "Scaraba",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

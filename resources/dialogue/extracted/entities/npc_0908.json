@@ -1,0 +1,48 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0908",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 58,
+      "gated_by_flag_label": "FOURSIDE_SEWERS_OPEN",
+      "node_id": "L_C8258C",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0908",
+  "label": "museum-curator",
+  "location": {
+    "x0": 4408,
+    "x1": 4408,
+    "x_sector": 17,
+    "x_tile": 137,
+    "y0": 5320,
+    "y1": 5320,
+    "y_sector": 20,
+    "y_tile": 166
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 174,
+    "sprite_label": "museum-curator"
+  },
+  "reachable_nodes": [
+    "L_C7C6B6",
+    "L_C82468",
+    "L_C82565",
+    "L_C8258C",
+    "L_C8259F",
+    "Npc0908"
+  ],
+  "region": "Fourside_Museum_1F_Exhibit-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 58,
+    "flag_label": "FOURSIDE_SEWERS_OPEN"
+  }
+}

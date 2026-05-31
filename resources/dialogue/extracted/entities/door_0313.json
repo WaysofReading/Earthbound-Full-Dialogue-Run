@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0313",
+  "label": "",
+  "location": {
+    "x0": 6928,
+    "x1": 6928,
+    "x_sector": 27,
+    "x_tile": 216,
+    "y0": 1920,
+    "y1": 1920,
+    "y_sector": 7,
+    "y_tile": 60
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 992,
+      "y": 356
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 15,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Winters_Andonuts Lab_1F_2F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

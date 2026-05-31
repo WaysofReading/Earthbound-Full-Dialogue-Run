@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0358",
+  "label": "van",
+  "location": {
+    "x0": 1992,
+    "x1": 1992,
+    "x_sector": 7,
+    "x_tile": 62,
+    "y0": 6568,
+    "y1": 6568,
+    "y_sector": 25,
+    "y_tile": 205
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 589,
+    "npc_type": "object",
+    "sprite": 208,
+    "sprite_label": "van"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

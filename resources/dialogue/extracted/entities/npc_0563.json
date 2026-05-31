@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0563",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0563",
+  "label": "man_hat_black-suit",
+  "location": {
+    "x0": 6240,
+    "x1": 6240,
+    "x_sector": 24,
+    "x_tile": 195,
+    "y0": 8792,
+    "y1": 8792,
+    "y_sector": 34,
+    "y_tile": 274
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 63,
+    "sprite_label": "man_hat_black-suit"
+  },
+  "reachable_nodes": [
+    "L_C8F64D",
+    "L_C8F656",
+    "Npc0563"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 610,
+    "flag_label": "DETECTIVE_IN_THREED"
+  }
+}

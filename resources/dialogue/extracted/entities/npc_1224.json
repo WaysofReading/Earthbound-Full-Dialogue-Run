@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1131",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1224",
+  "label": "nurse",
+  "location": {
+    "x0": 6032,
+    "x1": 6032,
+    "x_sector": 23,
+    "x_tile": 188,
+    "y0": 6704,
+    "y1": 6704,
+    "y_sector": 26,
+    "y_tile": 209
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 140,
+    "sprite_label": "nurse"
+  },
+  "reachable_nodes": [
+    "L_C7DD5E",
+    "L_C7DD68",
+    "L_C900DD",
+    "L_C9128D",
+    "L_C9132E",
+    "L_C91345",
+    "L_C9155B",
+    "Npc1131"
+  ],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

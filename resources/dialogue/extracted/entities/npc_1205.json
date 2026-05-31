@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1205",
+  "label": "potted-tree",
+  "location": {
+    "x0": 4256,
+    "x1": 4256,
+    "x_sector": 16,
+    "x_tile": 133,
+    "y0": 688,
+    "y1": 688,
+    "y_sector": 2,
+    "y_tile": 21
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 266,
+    "sprite_label": "potted-tree"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Dungeon Man_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

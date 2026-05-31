@@ -1,0 +1,50 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0610",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0614",
+  "label": "phone_black",
+  "location": {
+    "x0": 7216,
+    "x1": 7216,
+    "x_sector": 28,
+    "x_tile": 225,
+    "y0": 1976,
+    "y1": 1976,
+    "y_sector": 7,
+    "y_tile": 61
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 215,
+    "sprite_label": "phone_black"
+  },
+  "reachable_nodes": [
+    "L_C63029",
+    "L_C630AE",
+    "L_C630C7",
+    "L_C6311E",
+    "L_C63146",
+    "L_C6314C",
+    "L_C6315A",
+    "L_C631A1",
+    "L_C631E3",
+    "L_C634EA",
+    "L_C6809E",
+    "L_C7DD4F",
+    "Npc0060",
+    "Npc0610"
+  ],
+  "region": "Winters_Tents_South-3_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

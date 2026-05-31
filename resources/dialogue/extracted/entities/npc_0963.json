@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0963",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0963",
+  "label": "man_cane_green-jacket",
+  "location": {
+    "x0": 3616,
+    "x1": 3616,
+    "x_sector": 14,
+    "x_tile": 113,
+    "y0": 4336,
+    "y1": 4336,
+    "y_sector": 16,
+    "y_tile": 135
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 52,
+    "sprite_label": "man_cane_green-jacket"
+  },
+  "reachable_nodes": [
+    "Npc0963"
+  ],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 146,
+    "flag_label": "RUNAWAY_FIVE_FREE_FROM_TOPOLLA_THEATER"
+  }
+}

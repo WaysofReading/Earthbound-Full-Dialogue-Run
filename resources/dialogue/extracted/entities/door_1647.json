@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1647",
+  "label": "",
+  "location": {
+    "x0": 7896,
+    "x1": 7896,
+    "x_sector": 30,
+    "x_tile": 246,
+    "y0": 9168,
+    "y1": 9168,
+    "y_sector": 35,
+    "y_tile": 286
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 706,
+      "y": 341
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 15,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Summers and Toto_Stoic Club_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

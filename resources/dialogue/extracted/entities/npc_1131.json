@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1131",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1131",
+  "label": "nurse",
+  "location": {
+    "x0": 7952,
+    "x1": 7952,
+    "x_sector": 31,
+    "x_tile": 248,
+    "y0": 8520,
+    "y1": 8520,
+    "y_sector": 33,
+    "y_tile": 266
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 140,
+    "sprite_label": "nurse"
+  },
+  "reachable_nodes": [
+    "L_C7DD5E",
+    "L_C7DD68",
+    "L_C900DD",
+    "L_C9128D",
+    "L_C9132E",
+    "L_C91345",
+    "L_C9155B",
+    "Npc1131"
+  ],
+  "region": "Scaraba_Hospital_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

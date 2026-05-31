@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0557",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0557",
+  "label": "man_blonde_blue-oxford",
+  "location": {
+    "x0": 6296,
+    "x1": 6296,
+    "x_sector": 24,
+    "x_tile": 196,
+    "y0": 9392,
+    "y1": 9392,
+    "y_sector": 36,
+    "y_tile": 293
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 112,
+    "sprite_label": "man_blonde_blue-oxford"
+  },
+  "reachable_nodes": [
+    "Npc0557"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 590,
+    "flag_label": "HAPPY_THREED_PEOPLE"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0803",
+  "label": "",
+  "location": {
+    "x0": 4208,
+    "x1": 4208,
+    "x_sector": 16,
+    "x_tile": 131,
+    "y0": 4808,
+    "y1": 4808,
+    "y_sector": 18,
+    "y_tile": 150
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 483,
+      "y": 393
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NW-Stairs_Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1342",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1342",
+  "label": "mom",
+  "location": {
+    "x0": 6312,
+    "x1": 6312,
+    "x_sector": 24,
+    "x_tile": 197,
+    "y0": 4416,
+    "y1": 4416,
+    "y_sector": 17,
+    "y_tile": 138
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 145,
+    "sprite_label": "mom"
+  },
+  "reachable_nodes": [
+    "L_C7728E",
+    "L_C772C8",
+    "L_C90F7D",
+    "L_C91582",
+    "L_C915D6",
+    "L_C915F4",
+    "L_C91693",
+    "Npc1342"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

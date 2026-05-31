@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1377",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1377",
+  "label": "lookalike_mr-t",
+  "location": {
+    "x0": 5448,
+    "x1": 5448,
+    "x_sector": 21,
+    "x_tile": 170,
+    "y0": 4440,
+    "y1": 4440,
+    "y_sector": 17,
+    "y_tile": 138
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 79,
+    "sprite_label": "lookalike_mr-t"
+  },
+  "reachable_nodes": [
+    "L_C97554",
+    "Npc1377"
+  ],
+  "region": "Moonside_Secret Room_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

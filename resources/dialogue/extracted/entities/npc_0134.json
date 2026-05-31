@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0134",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0134",
+  "label": "man_glasses_-black-suit",
+  "location": {
+    "x0": 2240,
+    "x1": 2240,
+    "x_sector": 8,
+    "x_tile": 70,
+    "y0": 1128,
+    "y1": 1128,
+    "y_sector": 4,
+    "y_tile": 35
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 609,
+    "npc_type": "person",
+    "sprite": 62,
+    "sprite_label": "man_glasses_-black-suit"
+  },
+  "reachable_nodes": [
+    "L_C65A38",
+    "Npc0134"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 375,
+    "flag_label": "PEOPLE_IN_ONETT"
+  }
+}

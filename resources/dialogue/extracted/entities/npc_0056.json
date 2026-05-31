@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0056",
+  "label": "curtains_closed_minch-house",
+  "location": {
+    "x0": 7171,
+    "x1": 7171,
+    "x_sector": 28,
+    "x_tile": 224,
+    "y0": 571,
+    "y1": 571,
+    "y_sector": 2,
+    "y_tile": 17
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 374,
+    "sprite_label": "curtains_closed_minch-house"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Minch House_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 422,
+    "flag_label": "ONETT_DAYTIME"
+  }
+}

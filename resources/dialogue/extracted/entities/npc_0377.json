@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0377",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0377",
+  "label": "man_hat_blue-suit",
+  "location": {
+    "x0": 8048,
+    "x1": 8048,
+    "x_sector": 31,
+    "x_tile": 251,
+    "y0": 1728,
+    "y1": 1728,
+    "y_sector": 6,
+    "y_tile": 54
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 55,
+    "sprite_label": "man_hat_blue-suit"
+  },
+  "reachable_nodes": [
+    "L_C9833F",
+    "Npc0377"
+  ],
+  "region": "Happy Happy Village_Happy Happy HQ_1F_Reception",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

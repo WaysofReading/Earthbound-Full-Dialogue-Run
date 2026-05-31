@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0365",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0365",
+  "label": "sign_orange-kid",
+  "location": {
+    "x0": 2032,
+    "x1": 2032,
+    "x_sector": 7,
+    "x_tile": 63,
+    "y0": 7256,
+    "y1": 7256,
+    "y_sector": 28,
+    "y_tile": 226
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 404,
+    "sprite_label": "sign_orange-kid"
+  },
+  "reachable_nodes": [
+    "Npc0365"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

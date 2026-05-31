@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1049",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1049",
+  "label": "doctor",
+  "location": {
+    "x0": 7264,
+    "x1": 7264,
+    "x_sector": 28,
+    "x_tile": 227,
+    "y0": 9672,
+    "y1": 9672,
+    "y_sector": 37,
+    "y_tile": 302
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 139,
+    "sprite_label": "doctor"
+  },
+  "reachable_nodes": [
+    "L_C7DD5E",
+    "L_C7DD68",
+    "L_C9006F",
+    "L_C90FEC",
+    "L_C91041",
+    "L_C9105F",
+    "Npc1049"
+  ],
+  "region": "Summers and Toto_Hospital_1F_Doctor's-Office",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

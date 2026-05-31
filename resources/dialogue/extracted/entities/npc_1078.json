@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0788",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1078",
+  "label": "food-cart",
+  "location": {
+    "x0": 6016,
+    "x1": 6016,
+    "x_sector": 23,
+    "x_tile": 188,
+    "y0": 2936,
+    "y1": 2936,
+    "y_sector": 11,
+    "y_tile": 91
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 886,
+    "npc_type": "object",
+    "sprite": 229,
+    "sprite_label": "food-cart"
+  },
+  "reachable_nodes": [
+    "L_C58555",
+    "L_C58EBB",
+    "L_C7C59E",
+    "Npc0788"
+  ],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

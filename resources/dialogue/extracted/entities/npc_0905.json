@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0905",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0905",
+  "label": "mani-mani-statue_broken",
+  "location": {
+    "x0": 4800,
+    "x1": 4800,
+    "x_sector": 18,
+    "x_tile": 150,
+    "y0": 5024,
+    "y1": 5024,
+    "y_sector": 19,
+    "y_tile": 157
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 246,
+    "sprite_label": "mani-mani-statue_broken"
+  },
+  "reachable_nodes": [
+    "Npc0905"
+  ],
+  "region": "Fourside_Jackie's Cafe_1F_Backroom",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

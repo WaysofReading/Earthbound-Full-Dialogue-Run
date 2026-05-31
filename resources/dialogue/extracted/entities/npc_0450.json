@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0450",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 284,
+      "gated_by_flag_label": "PEACEFUL_REST_PENCIL_ERASED",
+      "node_id": "L_C790C4",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0450",
+  "label": "pencil-statue",
+  "location": {
+    "x0": 4648,
+    "x1": 4648,
+    "x_sector": 18,
+    "x_tile": 145,
+    "y0": 1400,
+    "y1": 1400,
+    "y_sector": 5,
+    "y_tile": 43
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 107,
+    "npc_type": "object",
+    "sprite": 265,
+    "sprite_label": "pencil-statue"
+  },
+  "reachable_nodes": [
+    "L_C790C4",
+    "L_C7911E",
+    "L_C7DD2C",
+    "Npc0450"
+  ],
+  "region": "Peaceful-Rest-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 284,
+    "flag_label": "PEACEFUL_REST_PENCIL_ERASED"
+  }
+}

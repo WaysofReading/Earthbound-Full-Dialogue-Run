@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0233",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0233",
+  "label": "boy_fedora",
+  "location": {
+    "x0": 6816,
+    "x1": 6816,
+    "x_sector": 26,
+    "x_tile": 213,
+    "y0": 8632,
+    "y1": 8632,
+    "y_sector": 33,
+    "y_tile": 269
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 126,
+    "sprite_label": "boy_fedora"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "L_C81E38",
+    "L_C81E7A",
+    "Npc0233"
+  ],
+  "region": "Twoson_Chaos Theater_1F_Concert-Hall",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 751,
+    "flag_label": "CHAOS_THEATER_AUDIENCE_ABSENT"
+  }
+}

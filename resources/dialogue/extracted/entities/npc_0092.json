@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0092",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0092",
+  "label": "boy_bowler-hat",
+  "location": {
+    "x0": 7488,
+    "x1": 7488,
+    "x_sector": 29,
+    "x_tile": 234,
+    "y0": 1096,
+    "y1": 1096,
+    "y_sector": 4,
+    "y_tile": 34
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 125,
+    "sprite_label": "boy_bowler-hat"
+  },
+  "reachable_nodes": [
+    "L_C731BC",
+    "Npc0092"
+  ],
+  "region": "Onett_Houses_East-Blue-Roof_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

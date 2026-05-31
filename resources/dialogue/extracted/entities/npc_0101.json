@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0101",
+  "label": "man_hat_black-suit",
+  "location": {
+    "x0": 7136,
+    "x1": 7136,
+    "x_sector": 27,
+    "x_tile": 223,
+    "y0": 728,
+    "y1": 728,
+    "y_sector": 2,
+    "y_tile": 22
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 250,
+    "npc_type": "person",
+    "sprite": 63,
+    "sprite_label": "man_hat_black-suit"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Library_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 103,
+    "flag_label": "LIBRARY_BATHROOM_MAN"
+  }
+}

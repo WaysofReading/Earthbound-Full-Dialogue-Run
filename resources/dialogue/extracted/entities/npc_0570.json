@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0570",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0570",
+  "label": "sign_bus-stop",
+  "location": {
+    "x0": 5456,
+    "x1": 5456,
+    "x_sector": 21,
+    "x_tile": 170,
+    "y0": 8984,
+    "y1": 8984,
+    "y_sector": 35,
+    "y_tile": 280
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 202,
+    "sprite_label": "sign_bus-stop"
+  },
+  "reachable_nodes": [
+    "L_C5FDCA",
+    "L_C5FEAC",
+    "L_C5FEF4",
+    "L_C5FFB7",
+    "L_C9992F",
+    "Npc0570"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

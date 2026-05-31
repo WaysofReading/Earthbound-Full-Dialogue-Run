@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0426",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0426",
+  "label": "carpainter",
+  "location": {
+    "x0": 3752,
+    "x1": 3752,
+    "x_sector": 14,
+    "x_tile": 117,
+    "y0": 8120,
+    "y1": 8120,
+    "y_sector": 31,
+    "y_tile": 253
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 159,
+    "sprite_label": "carpainter"
+  },
+  "reachable_nodes": [
+    "Npc0426"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

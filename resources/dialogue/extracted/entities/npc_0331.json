@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0331",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0331",
+  "label": "man_redhead_green-oxford",
+  "location": {
+    "x0": 1840,
+    "x1": 1840,
+    "x_sector": 7,
+    "x_tile": 57,
+    "y0": 6320,
+    "y1": 6320,
+    "y_sector": 24,
+    "y_tile": 197
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 16,
+    "npc_type": "person",
+    "sprite": 113,
+    "sprite_label": "man_redhead_green-oxford"
+  },
+  "reachable_nodes": [
+    "L_C94B8E",
+    "L_C94BAD",
+    "Npc0331"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

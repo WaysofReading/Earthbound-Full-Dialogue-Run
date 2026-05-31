@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1367",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1367",
+  "label": "healer",
+  "location": {
+    "x0": 7264,
+    "x1": 7264,
+    "x_sector": 28,
+    "x_tile": 227,
+    "y0": 4936,
+    "y1": 4936,
+    "y_sector": 19,
+    "y_tile": 154
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 189,
+    "sprite_label": "healer"
+  },
+  "reachable_nodes": [
+    "L_C91805",
+    "L_C91A91",
+    "L_C91ABE",
+    "L_C91B24",
+    "L_C91B3D",
+    "L_C91B6F",
+    "L_C91BB8",
+    "L_C91C1B",
+    "Npc1367"
+  ],
+  "region": "Moonside_Hospital_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

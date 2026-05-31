@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1368",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1368",
+  "label": "woman_blonde_red-dress",
+  "location": {
+    "x0": 8040,
+    "x1": 8040,
+    "x_sector": 31,
+    "x_tile": 251,
+    "y0": 5848,
+    "y1": 5848,
+    "y_sector": 22,
+    "y_tile": 182
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 68,
+    "sprite_label": "woman_blonde_red-dress"
+  },
+  "reachable_nodes": [
+    "L_C96FAA",
+    "L_C96FD1",
+    "Npc1368"
+  ],
+  "region": "Moonside_Hospital_1F_Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

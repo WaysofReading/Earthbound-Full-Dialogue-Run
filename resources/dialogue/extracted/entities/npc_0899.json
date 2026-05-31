@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0899",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0899",
+  "label": "maxwell-labs",
+  "location": {
+    "x0": 5456,
+    "x1": 5456,
+    "x_sector": 21,
+    "x_tile": 170,
+    "y0": 6624,
+    "y1": 6624,
+    "y_sector": 25,
+    "y_tile": 207
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 69,
+    "sprite_label": "maxwell-labs"
+  },
+  "reachable_nodes": [
+    "L_C6F4B1",
+    "L_C6F584",
+    "Npc0899"
+  ],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

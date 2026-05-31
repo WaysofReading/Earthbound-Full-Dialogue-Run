@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0950",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0950",
+  "label": "cop",
+  "location": {
+    "x0": 3344,
+    "x1": 3344,
+    "x_sector": 13,
+    "x_tile": 104,
+    "y0": 4048,
+    "y1": 4048,
+    "y_sector": 15,
+    "y_tile": 126
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 74,
+    "sprite_label": "cop"
+  },
+  "reachable_nodes": [
+    "L_C7E6B3",
+    "L_C7E6BF",
+    "L_C83457",
+    "L_C834A8",
+    "Npc0950"
+  ],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

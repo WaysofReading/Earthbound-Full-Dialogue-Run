@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0122",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0122",
+  "label": "boy_baseball-helmet",
+  "location": {
+    "x0": 8040,
+    "x1": 8040,
+    "x_sector": 31,
+    "x_tile": 251,
+    "y0": 1360,
+    "y1": 1360,
+    "y_sector": 5,
+    "y_tile": 42
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 124,
+    "sprite_label": "boy_baseball-helmet"
+  },
+  "reachable_nodes": [
+    "L_C73F6C",
+    "L_C73FBC",
+    "L_C740AD",
+    "L_C7410C",
+    "L_C74141",
+    "L_C7DC7F",
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "Npc0122"
+  ],
+  "region": "Onett_Secret Hideout_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

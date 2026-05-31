@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0668",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0668",
+  "label": "dr-andonuts",
+  "location": {
+    "x0": 7822,
+    "x1": 7822,
+    "x_sector": 30,
+    "x_tile": 244,
+    "y0": 6126,
+    "y1": 6126,
+    "y_sector": 23,
+    "y_tile": 191
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 162,
+    "sprite_label": "dr-andonuts"
+  },
+  "reachable_nodes": [
+    "Npc0668"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 51,
+    "flag_label": "SHYNESS_BOOK_AT_LIBRARY"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1334",
+  "label": "",
+  "location": {
+    "x0": 896,
+    "x1": 896,
+    "x_sector": 3,
+    "x_tile": 28,
+    "y0": 7352,
+    "y1": 7352,
+    "y_sector": 28,
+    "y_tile": 229
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 52,
+      "y": 796
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 14,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Lost Underworld_Cave of the Past_1F-Past_2F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

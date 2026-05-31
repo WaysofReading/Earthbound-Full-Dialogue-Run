@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0677",
+  "label": "rope_coiled",
+  "location": {
+    "x0": 5028,
+    "x1": 5028,
+    "x_sector": 19,
+    "x_tile": 157,
+    "y0": 336,
+    "y1": 336,
+    "y_sector": 1,
+    "y_tile": 10
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 260,
+    "npc_type": "object",
+    "sprite": 356,
+    "sprite_label": "rope_coiled"
+  },
+  "reachable_nodes": [],
+  "region": "Winters_Rainy Circle_1F_Hallway_Boss-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 311,
+    "flag_label": "WINTERS_ROPE_LOWERED"
+  }
+}

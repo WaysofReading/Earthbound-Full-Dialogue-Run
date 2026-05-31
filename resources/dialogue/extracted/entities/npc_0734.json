@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0734",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 73,
+      "gated_by_flag_label": "GIYGAS_DEFEATED",
+      "node_id": "L_C69038",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0734",
+  "label": "jeff",
+  "location": {
+    "x0": 417,
+    "x1": 417,
+    "x_sector": 1,
+    "x_tile": 13,
+    "y0": 7663,
+    "y1": 7663,
+    "y_sector": 29,
+    "y_tile": 239
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 581,
+    "npc_type": "person",
+    "sprite": 3,
+    "sprite_label": "jeff"
+  },
+  "reachable_nodes": [
+    "L_C69038",
+    "Npc0734"
+  ],
+  "region": "Saturn-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 73,
+    "flag_label": "GIYGAS_DEFEATED"
+  }
+}

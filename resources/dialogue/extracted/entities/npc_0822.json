@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0822",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0822",
+  "label": "monkey-boy",
+  "location": {
+    "x0": 7723,
+    "x1": 7723,
+    "x_sector": 30,
+    "x_tile": 241,
+    "y0": 5957,
+    "y1": 5957,
+    "y_sector": 23,
+    "y_tile": 186
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 133,
+    "sprite_label": "monkey-boy"
+  },
+  "reachable_nodes": [
+    "L_C5E456",
+    "L_C6206B",
+    "L_C62089",
+    "L_C620E3",
+    "L_C62380",
+    "L_C62394",
+    "L_C7DD4F",
+    "Npc0822"
+  ],
+  "region": "Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hamburger,-King-Banana)",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 460,
+    "flag_label": "MONKEY_CAVE_HAMBURGER_3"
+  }
+}

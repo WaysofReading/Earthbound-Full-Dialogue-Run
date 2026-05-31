@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0765",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0765",
+  "label": "sanchez-brother",
+  "location": {
+    "x0": 3170,
+    "x1": 3170,
+    "x_sector": 12,
+    "x_tile": 99,
+    "y0": 9897,
+    "y1": 9897,
+    "y_sector": 38,
+    "y_tile": 309
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 110,
+    "sprite_label": "sanchez-brother"
+  },
+  "reachable_nodes": [
+    "Npc0765"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

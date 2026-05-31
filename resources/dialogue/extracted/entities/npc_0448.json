@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0448",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0448",
+  "label": "helpful-mole",
+  "location": {
+    "x0": 4504,
+    "x1": 4504,
+    "x_sector": 17,
+    "x_tile": 140,
+    "y0": 2224,
+    "y1": 2224,
+    "y_sector": 8,
+    "y_tile": 69
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 188,
+    "sprite_label": "helpful-mole"
+  },
+  "reachable_nodes": [
+    "L_EF98AD",
+    "L_EF98D3",
+    "Npc0448"
+  ],
+  "region": "Peaceful-Rest-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

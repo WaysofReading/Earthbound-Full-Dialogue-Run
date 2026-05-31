@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0262",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0262",
+  "label": "man_blonde_i-love-ny-shirt",
+  "location": {
+    "x0": 7829,
+    "x1": 7829,
+    "x_sector": 30,
+    "x_tile": 244,
+    "y0": 7764,
+    "y1": 7764,
+    "y_sector": 30,
+    "y_tile": 242
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 114,
+    "sprite_label": "man_blonde_i-love-ny-shirt"
+  },
+  "reachable_nodes": [
+    "L_C9633E",
+    "L_C9639F",
+    "L_C963CE",
+    "Npc0262"
+  ],
+  "region": "Twoson_Hotel_1F_Lobby_Right-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

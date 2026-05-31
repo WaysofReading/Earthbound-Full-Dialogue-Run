@@ -1,0 +1,51 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0012",
+      "role": "primary"
+    },
+    {
+      "node_id": "L_C680C2",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_1320",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 8070,
+    "x1": 8070,
+    "x_sector": 31,
+    "x_tile": 252,
+    "y0": 7863,
+    "y1": 7863,
+    "y_sector": 30,
+    "y_tile": 245
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [
+    "L_C62D91",
+    "L_C62D93",
+    "L_C62E6D",
+    "L_C62F99",
+    "L_C62FC5",
+    "L_C62FD6",
+    "L_C63004",
+    "L_C680C2",
+    "L_C680DC",
+    "Npc0012",
+    "Npc1375"
+  ],
+  "region": "Magicant_Southeast House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

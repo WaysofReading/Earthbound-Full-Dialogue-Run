@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0449",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0449",
+  "label": "streetsign_rural",
+  "location": {
+    "x0": 4808,
+    "x1": 4808,
+    "x_sector": 18,
+    "x_tile": 150,
+    "y0": 1856,
+    "y1": 1856,
+    "y_sector": 7,
+    "y_tile": 58
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 231,
+    "sprite_label": "streetsign_rural"
+  },
+  "reachable_nodes": [
+    "Npc0449"
+  ],
+  "region": "Peaceful-Rest-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

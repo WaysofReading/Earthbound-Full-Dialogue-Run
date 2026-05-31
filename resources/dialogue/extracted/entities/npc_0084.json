@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0084",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0084",
+  "label": "man_hat_blue-suit",
+  "location": {
+    "x0": 7760,
+    "x1": 7760,
+    "x_sector": 30,
+    "x_tile": 242,
+    "y0": 1128,
+    "y1": 1128,
+    "y_sector": 4,
+    "y_tile": 35
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 55,
+    "sprite_label": "man_hat_blue-suit"
+  },
+  "reachable_nodes": [
+    "Npc0084"
+  ],
+  "region": "Onett_Town Hall_1F_Right-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

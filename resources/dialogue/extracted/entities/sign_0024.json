@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C874D4",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0024",
+  "label": "",
+  "location": {
+    "x0": 4128,
+    "x1": 4128,
+    "x_sector": 16,
+    "x_tile": 129,
+    "y0": 296,
+    "y1": 296,
+    "y_sector": 1,
+    "y_tile": 9
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C874D4"
+  ],
+  "region": "Scaraba_Dungeon Man_1F",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

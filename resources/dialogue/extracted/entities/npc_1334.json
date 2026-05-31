@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1334",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1334",
+  "label": "rabbit-statue",
+  "location": {
+    "x0": 5234,
+    "x1": 5234,
+    "x_sector": 20,
+    "x_tile": 163,
+    "y0": 4605,
+    "y1": 4605,
+    "y_sector": 17,
+    "y_tile": 143
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 107,
+    "sprite_label": "rabbit-statue"
+  },
+  "reachable_nodes": [
+    "Npc1334"
+  ],
+  "region": "Magicant",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

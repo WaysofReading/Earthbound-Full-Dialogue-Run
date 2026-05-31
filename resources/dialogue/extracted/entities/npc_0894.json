@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0894",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0894",
+  "label": "man_blonde_blue-blazer",
+  "location": {
+    "x0": 5536,
+    "x1": 5536,
+    "x_sector": 21,
+    "x_tile": 173,
+    "y0": 6368,
+    "y1": 6368,
+    "y_sector": 24,
+    "y_tile": 199
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 70,
+    "sprite_label": "man_blonde_blue-blazer"
+  },
+  "reachable_nodes": [
+    "Npc0894"
+  ],
+  "region": "Fourside_Hotel_1F_Lobby",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

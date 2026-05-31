@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0872",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0874",
+  "label": "monotoli",
+  "location": {
+    "x0": 5544,
+    "x1": 5544,
+    "x_sector": 21,
+    "x_tile": 173,
+    "y0": 6016,
+    "y1": 6016,
+    "y_sector": 23,
+    "y_tile": 188
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 164,
+    "sprite_label": "monotoli"
+  },
+  "reachable_nodes": [
+    "L_C68253",
+    "L_C68264",
+    "L_C6EB2C",
+    "L_C6ED74",
+    "L_C6EE2E",
+    "L_C6EE6F",
+    "Npc0872",
+    "Npc0873"
+  ],
+  "region": "Fourside_Monotoli_L3_Left_Up_Left_Right_Left_Left-(Monotoli)",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 741,
+    "flag_label": "MONOTOLI_AT_48TH_FLOOR"
+  }
+}

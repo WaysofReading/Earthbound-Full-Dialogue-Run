@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0687",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0687",
+  "label": "sign_small",
+  "location": {
+    "x0": 1144,
+    "x1": 1144,
+    "x_sector": 4,
+    "x_tile": 35,
+    "y0": 3712,
+    "y1": 3712,
+    "y_sector": 14,
+    "y_tile": 116
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 213,
+    "sprite_label": "sign_small"
+  },
+  "reachable_nodes": [
+    "Npc0687"
+  ],
+  "region": "Winters_Brickroad Dungeon_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1335",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1335",
+  "label": "ness",
+  "location": {
+    "x0": 6032,
+    "x1": 6032,
+    "x_sector": 23,
+    "x_tile": 188,
+    "y0": 4072,
+    "y1": 4072,
+    "y_sector": 15,
+    "y_tile": 127
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 1,
+    "sprite_label": "ness"
+  },
+  "reachable_nodes": [
+    "L_C77683",
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "Npc1335"
+  ],
+  "region": "Magicant",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C869DD",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0119",
+  "label": "",
+  "location": {
+    "x0": 6184,
+    "x1": 6184,
+    "x_sector": 24,
+    "x_tile": 193,
+    "y0": 2744,
+    "y1": 2744,
+    "y_sector": 10,
+    "y_tile": 85
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C869DD"
+  ],
+  "region": "Summers-and-Toto",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

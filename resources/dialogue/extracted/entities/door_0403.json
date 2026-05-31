@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0403",
+  "label": "",
+  "location": {
+    "x0": 4872,
+    "x1": 4872,
+    "x_sector": 19,
+    "x_tile": 152,
+    "y0": 2504,
+    "y1": 2504,
+    "y_sector": 9,
+    "y_tile": 78
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 745,
+      "y": 197
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Transitions_Peaceful-Rest-Valley-to-Happy-Happy",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C86CF4",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0275",
+  "label": "",
+  "location": {
+    "x0": 7792,
+    "x1": 7792,
+    "x_sector": 30,
+    "x_tile": 243,
+    "y0": 9944,
+    "y1": 9944,
+    "y_sector": 38,
+    "y_tile": 310
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C86CF4"
+  ],
+  "region": "Threed_Hospital_1F_2F",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0047",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0047",
+  "label": "picky",
+  "location": {
+    "x0": 7320,
+    "x1": 7320,
+    "x_sector": 28,
+    "x_tile": 228,
+    "y0": 856,
+    "y1": 856,
+    "y_sector": 3,
+    "y_tile": 26
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 45,
+    "sprite_label": "picky"
+  },
+  "reachable_nodes": [
+    "L_C67412",
+    "L_C674AA",
+    "Npc0047"
+  ],
+  "region": "Onett_Minch House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 469,
+    "flag_label": "POLICE_AT_METEORITE"
+  }
+}

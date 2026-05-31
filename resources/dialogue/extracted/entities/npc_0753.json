@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0060",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0753",
+  "label": "phone_black",
+  "location": {
+    "x0": 8040,
+    "x1": 8040,
+    "x_sector": 31,
+    "x_tile": 251,
+    "y0": 1896,
+    "y1": 1896,
+    "y_sector": 7,
+    "y_tile": 59
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 215,
+    "sprite_label": "phone_black"
+  },
+  "reachable_nodes": [
+    "L_C63029",
+    "Npc0060"
+  ],
+  "region": "Dusty Dunes Desert_Construction Shack_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

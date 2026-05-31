@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0577",
+  "label": "lamppost",
+  "location": {
+    "x0": 6152,
+    "x1": 6152,
+    "x_sector": 24,
+    "x_tile": 192,
+    "y0": 9184,
+    "y1": 9184,
+    "y_sector": 35,
+    "y_tile": 287
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 201,
+    "sprite_label": "lamppost"
+  },
+  "reachable_nodes": [],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

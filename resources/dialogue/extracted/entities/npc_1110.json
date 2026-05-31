@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1110",
+  "label": "girl_dalaamese",
+  "location": {
+    "x0": 4392,
+    "x1": 4392,
+    "x_sector": 17,
+    "x_tile": 137,
+    "y0": 3472,
+    "y1": 3472,
+    "y_sector": 13,
+    "y_tile": 108
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 163,
+    "sprite_label": "girl_dalaamese"
+  },
+  "reachable_nodes": [],
+  "region": "Dalaam",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 372,
+    "flag_label": "PARTY_IS_ROBOTIFIED"
+  }
+}

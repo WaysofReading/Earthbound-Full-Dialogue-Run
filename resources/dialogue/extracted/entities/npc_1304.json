@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1304",
+  "label": "waterspout_healing",
+  "location": {
+    "x0": 2320,
+    "x1": 2320,
+    "x_sector": 9,
+    "x_tile": 72,
+    "y0": 2480,
+    "y1": 2480,
+    "y_sector": 9,
+    "y_tile": 77
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 673,
+    "npc_type": "object",
+    "sprite": 402,
+    "sprite_label": "waterspout_healing"
+  },
+  "reachable_nodes": [],
+  "region": "Lost-Underworld",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

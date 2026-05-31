@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1100",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1100",
+  "label": "man_meditating",
+  "location": {
+    "x0": 4560,
+    "x1": 4560,
+    "x_sector": 17,
+    "x_tile": 142,
+    "y0": 3728,
+    "y1": 3728,
+    "y_sector": 14,
+    "y_tile": 116
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 168,
+    "sprite_label": "man_meditating"
+  },
+  "reachable_nodes": [
+    "Npc1100"
+  ],
+  "region": "Dalaam",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

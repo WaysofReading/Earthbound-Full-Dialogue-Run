@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1295",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1295",
+  "label": "phone_bird_small",
+  "location": {
+    "x0": 2520,
+    "x1": 2520,
+    "x_sector": 9,
+    "x_tile": 78,
+    "y0": 2824,
+    "y1": 2824,
+    "y_sector": 11,
+    "y_tile": 88
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 427,
+    "sprite_label": "phone_bird_small"
+  },
+  "reachable_nodes": [
+    "L_C63029",
+    "Npc1295"
+  ],
+  "region": "Lost-Underworld",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0229",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0229",
+  "label": "girl_blonde_pink-dress",
+  "location": {
+    "x0": 7561,
+    "x1": 7561,
+    "x_sector": 29,
+    "x_tile": 236,
+    "y0": 7338,
+    "y1": 7338,
+    "y_sector": 28,
+    "y_tile": 229
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 120,
+    "sprite_label": "girl_blonde_pink-dress"
+  },
+  "reachable_nodes": [
+    "L_C79997",
+    "L_C81DB5",
+    "L_C81DC3",
+    "L_C9B4B8",
+    "Npc0229"
+  ],
+  "region": "Twoson_Chaos Theater_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 309,
+    "flag_label": "RUNAWAY_BUS_FROM_TWOSON_TO_THREED"
+  }
+}

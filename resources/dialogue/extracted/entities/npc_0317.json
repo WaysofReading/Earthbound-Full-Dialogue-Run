@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0317",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0317",
+  "label": "snake-salesman",
+  "location": {
+    "x0": 1632,
+    "x1": 1632,
+    "x_sector": 6,
+    "x_tile": 51,
+    "y0": 6880,
+    "y1": 6880,
+    "y_sector": 26,
+    "y_tile": 215
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 96,
+    "sprite_label": "snake-salesman"
+  },
+  "reachable_nodes": [
+    "L_C944AB",
+    "Npc0317"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

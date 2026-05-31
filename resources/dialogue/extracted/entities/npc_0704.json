@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0704",
+  "label": "milky-well-spout",
+  "location": {
+    "x0": 728,
+    "x1": 728,
+    "x_sector": 2,
+    "x_tile": 22,
+    "y0": 5312,
+    "y1": 5312,
+    "y_sector": 20,
+    "y_tile": 166
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 693,
+    "npc_type": "object",
+    "sprite": 257,
+    "sprite_label": "milky-well-spout"
+  },
+  "reachable_nodes": [],
+  "region": "Saturn Valley_Milky Well_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

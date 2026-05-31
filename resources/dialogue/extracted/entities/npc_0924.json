@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0924",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0924",
+  "label": "bodyguard",
+  "location": {
+    "x0": 4664,
+    "x1": 4664,
+    "x_sector": 18,
+    "x_tile": 145,
+    "y0": 6640,
+    "y1": 6640,
+    "y_sector": 25,
+    "y_tile": 207
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 109,
+    "sprite_label": "bodyguard"
+  },
+  "reachable_nodes": [
+    "L_C82A34",
+    "Npc0924"
+  ],
+  "region": "Fourside_Department Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 57,
+    "flag_label": "FOURSIDE_DEPT_BLACKOUT"
+  }
+}

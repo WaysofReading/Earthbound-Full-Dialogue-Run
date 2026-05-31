@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0166",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0166",
+  "label": "girl_redhead_pigtails",
+  "location": {
+    "x0": 1912,
+    "x1": 1912,
+    "x_sector": 7,
+    "x_tile": 59,
+    "y0": 1856,
+    "y1": 1856,
+    "y_sector": 7,
+    "y_tile": 58
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 128,
+    "sprite_label": "girl_redhead_pigtails"
+  },
+  "reachable_nodes": [
+    "Npc0166"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 105,
+    "flag_label": "PATH_TO_TWOSON_OPEN"
+  }
+}

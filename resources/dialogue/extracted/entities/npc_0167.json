@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0167",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0167",
+  "label": "man_hat_blue-suit",
+  "location": {
+    "x0": 1816,
+    "x1": 1816,
+    "x_sector": 7,
+    "x_tile": 56,
+    "y0": 1952,
+    "y1": 1952,
+    "y_sector": 7,
+    "y_tile": 61
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 55,
+    "sprite_label": "man_hat_blue-suit"
+  },
+  "reachable_nodes": [
+    "Npc0167"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 105,
+    "flag_label": "PATH_TO_TWOSON_OPEN"
+  }
+}

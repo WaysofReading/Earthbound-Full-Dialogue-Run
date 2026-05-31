@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0659",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0659",
+  "label": "mr-saturn",
+  "location": {
+    "x0": 7785,
+    "x1": 7785,
+    "x_sector": 30,
+    "x_tile": 243,
+    "y0": 6070,
+    "y1": 6070,
+    "y_sector": 23,
+    "y_tile": 189
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 171,
+    "sprite_label": "mr-saturn"
+  },
+  "reachable_nodes": [
+    "Npc0659"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 70,
+    "flag_label": "STARMAN_DX_DEFEATED"
+  }
+}

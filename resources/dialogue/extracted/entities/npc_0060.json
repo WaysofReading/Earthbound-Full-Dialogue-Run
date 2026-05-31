@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0060",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0060",
+  "label": "phone_black",
+  "location": {
+    "x0": 7986,
+    "x1": 7986,
+    "x_sector": 31,
+    "x_tile": 249,
+    "y0": 1472,
+    "y1": 1472,
+    "y_sector": 5,
+    "y_tile": 46
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 215,
+    "sprite_label": "phone_black"
+  },
+  "reachable_nodes": [
+    "L_C63029",
+    "Npc0060"
+  ],
+  "region": "Onett_Hotel_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

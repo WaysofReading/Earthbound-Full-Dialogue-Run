@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1107",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 652,
+      "gated_by_flag_label": "USED_CARROT_KEY",
+      "node_id": "L_C9D656",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_1109",
+  "label": "rabbit-statue",
+  "location": {
+    "x0": 4374,
+    "x1": 4374,
+    "x_sector": 17,
+    "x_tile": 136,
+    "y0": 4171,
+    "y1": 4171,
+    "y_sector": 16,
+    "y_tile": 130
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 107,
+    "sprite_label": "rabbit-statue"
+  },
+  "reachable_nodes": [
+    "L_C7DD2C",
+    "L_C7DD37",
+    "L_C9D656",
+    "Npc1107"
+  ],
+  "region": "Dalaam",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 652,
+    "flag_label": "USED_CARROT_KEY"
+  }
+}

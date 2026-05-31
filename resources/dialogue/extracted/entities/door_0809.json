@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99CCD",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0809",
+  "label": "",
+  "location": {
+    "x0": 6440,
+    "x1": 6440,
+    "x_sector": 25,
+    "x_tile": 201,
+    "y0": 4808,
+    "y1": 4808,
+    "y_sector": 18,
+    "y_tile": 150
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 399,
+      "y": 144
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 33,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C64650",
+    "L_C69082",
+    "L_C99CCD",
+    "L_C99CD8"
+  ],
+  "region": "Deep Darkness_Lumine Hall_1F_Sanctuary-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_1507",
+  "label": "",
+  "location": {
+    "x0": 4456,
+    "x1": 4456,
+    "x_sector": 17,
+    "x_tile": 139,
+    "y0": 8296,
+    "y1": 8296,
+    "y_sector": 32,
+    "y_tile": 259
+  },
+  "properties": {
+    "destination": null,
+    "direction": "ne",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "stairway"
+  },
+  "reachable_nodes": [],
+  "region": "Threed_Under Graveyard_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

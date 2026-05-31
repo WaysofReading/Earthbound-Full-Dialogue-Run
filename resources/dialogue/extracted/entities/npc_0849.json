@@ -1,0 +1,52 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0849",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 56,
+      "gated_by_flag_label": null,
+      "node_id": "L_C6DBCE",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0849",
+  "label": "man_blonde_black-suit",
+  "location": {
+    "x0": 4965,
+    "x1": 4965,
+    "x_sector": 19,
+    "x_tile": 155,
+    "y0": 5513,
+    "y1": 5513,
+    "y_sector": 21,
+    "y_tile": 172
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 61,
+    "sprite_label": "man_blonde_black-suit"
+  },
+  "reachable_nodes": [
+    "L_C6DB0A",
+    "L_C6DB2E",
+    "L_C6DBBF",
+    "L_C6DBCE",
+    "L_C6DBD5",
+    "L_C6DC0C",
+    "L_C7DC9B",
+    "L_C7DCB5",
+    "L_C8897F",
+    "Npc0849"
+  ],
+  "region": "Fourside_Topolla Theater_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 56,
+    "flag_label": null
+  }
+}

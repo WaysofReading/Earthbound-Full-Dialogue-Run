@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0372",
+  "label": "banana",
+  "location": {
+    "x0": 1456,
+    "x1": 1456,
+    "x_sector": 5,
+    "x_tile": 45,
+    "y0": 7048,
+    "y1": 7048,
+    "y_sector": 27,
+    "y_tile": 220
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 224,
+    "sprite_label": "banana"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

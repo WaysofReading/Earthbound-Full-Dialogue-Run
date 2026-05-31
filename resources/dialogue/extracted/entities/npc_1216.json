@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1216",
+  "label": "monster_little-pile",
+  "location": {
+    "x0": 4288,
+    "x1": 4288,
+    "x_sector": 16,
+    "x_tile": 134,
+    "y0": 6568,
+    "y1": 6568,
+    "y_sector": 25,
+    "y_tile": 205
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "object",
+    "sprite": 315,
+    "sprite_label": "monster_little-pile"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Dungeon Man_1F_2F_3F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

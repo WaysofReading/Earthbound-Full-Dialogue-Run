@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>npc_0001 — monster_shark</title>
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; padding: 1em; }
+  h1 { font-size: 1.2em; margin: 0 0 0.25em; }
+  .meta { color: #555; font-size: 0.9em; margin-bottom: 0.5em; }
+  .legend { font-size: 0.85em; margin-bottom: 0.5em; }
+  .entry-swatch { display: inline-block; width: 16px; height: 12px;
+                   background: #fef3c7; border: 2px solid #e63;
+                   vertical-align: middle; }
+  #graph { width: 100%; height: calc(100vh - 140px); border: 1px solid #ddd; }
+</style>
+</head><body>
+<h1>npc_0001 — monster_shark <span style="font-weight:normal;color:#888;">[npc]</span></h1>
+<div class="meta">
+  region: Onett_Arcade_1F
+  &nbsp;·&nbsp; reachable nodes: 7
+  &nbsp;·&nbsp; edges: 6
+  &nbsp;·&nbsp; entry points: 1
+</div>
+<div class="legend">
+  <span style="display:inline-block;margin-right:1em;"><span style="display:inline-block;width:24px;height:0;border-top:3px solid #888;vertical-align:middle;"></span> unconditional</span><span style="display:inline-block;margin-right:1em;"><span style="display:inline-block;width:24px;height:0;border-top:3px solid #3a7;vertical-align:middle;"></span> flag_test</span><span style="display:inline-block;margin-right:1em;"><span style="display:inline-block;width:24px;height:0;border-top:3px solid #e63;vertical-align:middle;"></span> menu_option</span><span style="display:inline-block;margin-right:1em;"><span style="display:inline-block;width:24px;height:0;border-top:3px solid #a4c;vertical-align:middle;"></span> case_branch</span><span style="display:inline-block;margin-right:1em;"><span style="display:inline-block;width:24px;height:0;border-top:3px dashed #36c;vertical-align:middle;"></span> function_call</span>
+  &nbsp;·&nbsp; <span class="entry-swatch"></span> entry point
+</div>
+<div id="graph"></div>
+<script>
+  const data = {
+    nodes: new vis.DataSet([{"id": "L_C683F4", "label": "L_C683F4\\n(no text)", "title": "<b>L_C683F4</b><br>effects: 1<br>referenced by 1 entity(ies)", "shape": "box", "color": {"background": "#fff", "border": "#888"}, "borderWidth": 1, "font": {"size": 11, "face": "monospace"}}, {"id": "L_C74C49", "label": "L_C74C49\\n\ufffdDon't be such a snob![PAUSE]", "title": "<b>L_C74C49</b><br><i>\ufffdDon't be such a snob![PAUSE]</i><br>effects: 2<br>referenced by 1 entity(ies)", "shape": "box", "color": {"background": "#fff", "border": "#888"}, "borderWidth": 1, "font": {"size": 11, "face": "monospace"}}, {"id": "L_C74C6C", "label": "L_C74C6C\\n\ufffdCome back after you finish Eart\u2026", "title": "<b>L_C74C6C</b><br><i>\ufffdCome back after you finish EarthBound![PAUSE]</i><br>referenced by 1 entity(ies)", "shape": "box", "color": {"background": "#fff", "border": "#888"}, "borderWidth": 1, "font": {"size": 11, "face": "monospace"}}, {"id": "L_C74C85", "label": "L_C74C85\\n\ufffdHello![PAUSE]", "title": "<b>L_C74C85</b><br><i>\ufffdHello![PAUSE]</i><br>referenced by 1 entity(ies)", "shape": "box", "color": {"background": "#fff", "border": "#888"}, "borderWidth": 1, "font": {"size": 11, "face": "monospace"}}, {"id": "L_C7C588", "label": "L_C7C588\\n\ufffdWho are you talking to?[PAUSE]", "title": "<b>L_C7C588</b><br><i>\ufffdWho are you talking to?[PAUSE]</i><br>referenced by 79 entity(ies)", "shape": "box", "color": {"background": "#fff", "border": "#888"}, "borderWidth": 1, "font": {"size": 11, "face": "monospace"}}, {"id": "Npc0001", "label": "Npc0001\\n\ufffdHey kid![PAUSE]  Do you wanna b\u2026", "title": "<b>Npc0001</b><br><i>\ufffdHey kid![PAUSE]  Do you wanna become a member?</i><br>referenced by 1 entity(ies)", "shape": "box", "color": {"background": "#fef3c7", "border": "#e63"}, "borderWidth": 3, "font": {"size": 11, "face": "monospace"}}, {"id": "Npc0463", "label": "Npc0463\\n\ufffd(There's no response.)[PAUSE]", "title": "<b>Npc0463</b><br><i>\ufffd(There's no response.)[PAUSE]</i><br>referenced by 83 entity(ies)", "shape": "box", "color": {"background": "#fff", "border": "#888"}, "borderWidth": 1, "font": {"size": 11, "face": "monospace"}}]),
+    edges: new vis.DataSet([{"from": "Npc0001", "to": "L_C7C588", "label": "if set SHARK_GUARDING_FRANK_DEFEATED", "arrows": "to", "color": "#3a7", "dashes": false, "font": {"size": 9, "align": "middle"}, "smooth": {"type": "dynamic"}}, {"from": "Npc0001", "to": "L_C74C85", "label": "if set FRANKYSTEIN_MKII_DEFEATED", "arrows": "to", "color": "#3a7", "dashes": false, "font": {"size": 9, "align": "middle"}, "smooth": {"type": "dynamic"}}, {"from": "Npc0001", "to": "L_C74C6C", "label": "\"Yes\"", "arrows": "to", "color": "#e63", "dashes": false, "font": {"size": 9, "align": "middle"}, "smooth": {"type": "dynamic"}}, {"from": "Npc0001", "to": "L_C74C49", "label": "\"No\"", "arrows": "to", "color": "#e63", "dashes": false, "font": {"size": 9, "align": "middle"}, "smooth": {"type": "dynamic"}}, {"from": "L_C74C49", "to": "L_C683F4", "label": "call", "arrows": "to", "color": "#36c", "dashes": [4, 4], "font": {"size": 9, "align": "middle"}, "smooth": {"type": "dynamic"}}, {"from": "L_C7C588", "to": "Npc0463", "label": "if set ALT_NO_TALK_TEXT", "arrows": "to", "color": "#3a7", "dashes": false, "font": {"size": 9, "align": "middle"}, "smooth": {"type": "dynamic"}}]),
+  };
+  const options = {
+    layout: { improvedLayout: true },
+    physics: {
+      solver: 'forceAtlas2Based',
+      forceAtlas2Based: { gravitationalConstant: -80, springLength: 120 },
+      stabilization: { iterations: 200 },
+    },
+    interaction: { hover: true, tooltipDelay: 100 },
+  };
+  new vis.Network(document.getElementById('graph'), data, options);
+</script>
+</body></html>

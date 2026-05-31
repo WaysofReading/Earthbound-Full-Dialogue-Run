@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_0546",
+  "label": "",
+  "location": {
+    "x0": 3544,
+    "x1": 3544,
+    "x_sector": 13,
+    "x_tile": 110,
+    "y0": 3168,
+    "y1": 3168,
+    "y_sector": 12,
+    "y_tile": 99
+  },
+  "properties": {
+    "destination": null,
+    "direction": null,
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "ladder"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside_Fourside Sewers_1F_Boss-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

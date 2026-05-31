@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1075",
+  "label": "woman_blonde_swimwear",
+  "location": {
+    "x0": 5480,
+    "x1": 5480,
+    "x_sector": 21,
+    "x_tile": 171,
+    "y0": 2824,
+    "y1": 2824,
+    "y_sector": 11,
+    "y_tile": 88
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 81,
+    "sprite_label": "woman_blonde_swimwear"
+  },
+  "reachable_nodes": [],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 372,
+    "flag_label": "PARTY_IS_ROBOTIFIED"
+  }
+}

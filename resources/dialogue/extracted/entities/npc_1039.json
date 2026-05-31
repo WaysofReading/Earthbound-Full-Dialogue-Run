@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1039",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1039",
+  "label": "monster_coffin",
+  "location": {
+    "x0": 8088,
+    "x1": 8088,
+    "x_sector": 31,
+    "x_tile": 252,
+    "y0": 9568,
+    "y1": 9568,
+    "y_sector": 37,
+    "y_tile": 299
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 599,
+    "npc_type": "object",
+    "sprite": 322,
+    "sprite_label": "monster_coffin"
+  },
+  "reachable_nodes": [
+    "L_C7C588",
+    "Npc0463",
+    "Npc1039"
+  ],
+  "region": "Summers and Toto_Museum_1F_Exhibit-Room_Upstairs_Mummy-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 601,
+    "flag_label": "SHATTERED_MAN_1_DEFEATED"
+  }
+}

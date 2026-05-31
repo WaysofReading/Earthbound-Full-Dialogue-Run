@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0548",
+  "label": "monster_dog",
+  "location": {
+    "x0": 5592,
+    "x1": 5592,
+    "x_sector": 21,
+    "x_tile": 174,
+    "y0": 9736,
+    "y1": 9736,
+    "y_sector": 38,
+    "y_tile": 304
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 330,
+    "sprite_label": "monster_dog"
+  },
+  "reachable_nodes": [],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

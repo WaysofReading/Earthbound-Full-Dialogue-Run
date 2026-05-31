@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0067",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0071",
+  "label": "captain-strong",
+  "location": {
+    "x0": 7057,
+    "x1": 7057,
+    "x_sector": 27,
+    "x_tile": 220,
+    "y0": 392,
+    "y1": 392,
+    "y_sector": 1,
+    "y_tile": 12
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 75,
+    "sprite_label": "captain-strong"
+  },
+  "reachable_nodes": [
+    "L_C5F859",
+    "L_C76A1F",
+    "L_C76AA7",
+    "L_C76AD6",
+    "L_C76B0B",
+    "L_C76B36",
+    "L_C9B4B8",
+    "Npc0067"
+  ],
+  "region": "Onett_Police Station_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 449,
+    "flag_label": "CAPTAIN_STRONG_AT_STATION_ENTRANCE"
+  }
+}

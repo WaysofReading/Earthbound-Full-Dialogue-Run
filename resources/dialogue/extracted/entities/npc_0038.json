@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0038",
+  "label": "frank",
+  "location": {
+    "x0": 7552,
+    "x1": 7552,
+    "x_sector": 29,
+    "x_tile": 236,
+    "y0": 494,
+    "y1": 494,
+    "y_sector": 1,
+    "y_tile": 15
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 153,
+    "sprite_label": "frank"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Burger Shop_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 372,
+    "flag_label": "PARTY_IS_ROBOTIFIED"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0450",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 516,
+      "gated_by_flag_label": "MONKEY_CAVE_PENCIL_ERASED",
+      "node_id": "L_C790E4",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0827",
+  "label": "pencil-statue",
+  "location": {
+    "x0": 7984,
+    "x1": 7984,
+    "x_sector": 31,
+    "x_tile": 249,
+    "y0": 5696,
+    "y1": 5696,
+    "y_sector": 22,
+    "y_tile": 178
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "object",
+    "sprite": 265,
+    "sprite_label": "pencil-statue"
+  },
+  "reachable_nodes": [
+    "L_C790E4",
+    "L_C7911E",
+    "L_C7DD2C",
+    "Npc0450"
+  ],
+  "region": "Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Pencil-Eraser)",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 516,
+    "flag_label": "MONKEY_CAVE_PENCIL_ERASED"
+  }
+}

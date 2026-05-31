@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0076",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0076",
+  "label": "cop",
+  "location": {
+    "x0": 7595,
+    "x1": 7595,
+    "x_sector": 29,
+    "x_tile": 237,
+    "y0": 171,
+    "y1": 171,
+    "y_sector": 0,
+    "y_tile": 5
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 74,
+    "sprite_label": "cop"
+  },
+  "reachable_nodes": [
+    "L_C68456",
+    "L_C68464",
+    "Npc0076"
+  ],
+  "region": "Onett_Police Station_1F_Cells_Backroom",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 292,
+    "flag_label": "ONETT_COP_4_DEFEATED"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0147",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 108,
+      "gated_by_flag_label": "ENTERTAINERS_SHACK_UNLOCKED",
+      "node_id": "L_EFA2D6",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0147",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 1456,
+    "x1": 1456,
+    "x_sector": 5,
+    "x_tile": 45,
+    "y0": 568,
+    "y1": 568,
+    "y_sector": 2,
+    "y_tile": 17
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 7,
+    "npc_type": "object",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [
+    "L_C6FB20",
+    "L_C6FB33",
+    "L_EFA2D5",
+    "L_EFA2D6",
+    "Npc0147"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 108,
+    "flag_label": "ENTERTAINERS_SHACK_UNLOCKED"
+  }
+}

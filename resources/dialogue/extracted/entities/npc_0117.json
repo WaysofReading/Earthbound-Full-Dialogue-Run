@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0117",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0117",
+  "label": "woman_blonde_blue-blazer",
+  "location": {
+    "x0": 7795,
+    "x1": 7795,
+    "x_sector": 30,
+    "x_tile": 243,
+    "y0": 1238,
+    "y1": 1238,
+    "y_sector": 4,
+    "y_tile": 38
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 65,
+    "sprite_label": "woman_blonde_blue-blazer"
+  },
+  "reachable_nodes": [
+    "L_C67AEB",
+    "L_C67B5E",
+    "Npc0117"
+  ],
+  "region": "Onett_Hospital_1F_2F_Right-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

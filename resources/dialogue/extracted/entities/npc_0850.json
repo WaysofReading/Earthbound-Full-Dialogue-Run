@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0850",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0850",
+  "label": "man_blonde_black-suit",
+  "location": {
+    "x0": 5008,
+    "x1": 5008,
+    "x_sector": 19,
+    "x_tile": 156,
+    "y0": 5520,
+    "y1": 5520,
+    "y_sector": 21,
+    "y_tile": 172
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 61,
+    "sprite_label": "man_blonde_black-suit"
+  },
+  "reachable_nodes": [
+    "Npc0850"
+  ],
+  "region": "Fourside_Topolla Theater_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 56,
+    "flag_label": null
+  }
+}

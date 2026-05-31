@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0457",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0457",
+  "label": "man_glasses_orange-cardigan",
+  "location": {
+    "x0": 8091,
+    "x1": 8091,
+    "x_sector": 31,
+    "x_tile": 252,
+    "y0": 10057,
+    "y1": 10057,
+    "y_sector": 39,
+    "y_tile": 314
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 64,
+    "sprite_label": "man_glasses_orange-cardigan"
+  },
+  "reachable_nodes": [
+    "L_C8DB92",
+    "L_C8DBBE",
+    "L_C8DC2F",
+    "Npc0457"
+  ],
+  "region": "Threed_Circus Tent_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 773,
+    "flag_label": "NERDY_GUY_AND_FAT_GUY_AT_CIRCUS_TENT"
+  }
+}

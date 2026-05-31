@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0672",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0672",
+  "label": "monster_starman",
+  "location": {
+    "x0": 8064,
+    "x1": 8064,
+    "x_sector": 31,
+    "x_tile": 252,
+    "y0": 4712,
+    "y1": 4712,
+    "y_sector": 18,
+    "y_tile": 147
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 303,
+    "sprite_label": "monster_starman"
+  },
+  "reachable_nodes": [
+    "L_C6CFC5",
+    "L_C7C588",
+    "L_C92BE3",
+    "L_C9992F",
+    "Npc0463",
+    "Npc0672"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules_Boss-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 434,
+    "flag_label": "STARMAN_DX_ABSENT"
+  }
+}

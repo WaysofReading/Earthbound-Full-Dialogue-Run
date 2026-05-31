@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0568",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 5600,
+    "x1": 5600,
+    "x_sector": 21,
+    "x_tile": 175,
+    "y0": 9112,
+    "y1": 9112,
+    "y_sector": 35,
+    "y_tile": 284
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 873,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

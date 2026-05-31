@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1021",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1021",
+  "label": "bellhop",
+  "location": {
+    "x0": 6864,
+    "x1": 6864,
+    "x_sector": 26,
+    "x_tile": 214,
+    "y0": 9440,
+    "y1": 9440,
+    "y_sector": 36,
+    "y_tile": 295
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 73,
+    "sprite_label": "bellhop"
+  },
+  "reachable_nodes": [
+    "L_C8A5BC",
+    "L_C8A5C8",
+    "Npc1021"
+  ],
+  "region": "Summers and Toto_Hotel_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

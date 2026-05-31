@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1154",
+  "label": "",
+  "location": {
+    "x0": 7112,
+    "x1": 7112,
+    "x_sector": 27,
+    "x_tile": 222,
+    "y0": 6184,
+    "y1": 6184,
+    "y_sector": 24,
+    "y_tile": 193
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 821,
+      "y": 707
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Maze",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

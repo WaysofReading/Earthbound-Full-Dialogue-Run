@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0430",
+  "label": "mailbox",
+  "location": {
+    "x0": 3640,
+    "x1": 3640,
+    "x_sector": 14,
+    "x_tile": 113,
+    "y0": 8152,
+    "y1": 8152,
+    "y_sector": 31,
+    "y_tile": 254
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 227,
+    "sprite_label": "mailbox"
+  },
+  "reachable_nodes": [],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

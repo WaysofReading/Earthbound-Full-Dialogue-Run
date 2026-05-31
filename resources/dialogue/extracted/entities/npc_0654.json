@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0654",
+  "label": "animation_tessie-water_fill-layer",
+  "location": {
+    "x0": 616,
+    "x1": 616,
+    "x_sector": 2,
+    "x_tile": 19,
+    "y0": 3572,
+    "y1": 3572,
+    "y_sector": 13,
+    "y_tile": 111
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 371,
+    "sprite_label": "animation_tessie-water_fill-layer"
+  },
+  "reachable_nodes": [],
+  "region": "Winters",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 344,
+    "flag_label": "LAKE_TESS_WIND_BLOWING"
+  }
+}

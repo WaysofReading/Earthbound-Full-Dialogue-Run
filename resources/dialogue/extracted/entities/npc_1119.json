@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1119",
+  "label": "ness_unconscious",
+  "location": {
+    "x0": 3562,
+    "x1": 3562,
+    "x_sector": 13,
+    "x_tile": 111,
+    "y0": 6228,
+    "y1": 6228,
+    "y_sector": 24,
+    "y_tile": 194
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 16,
+    "sprite_label": "ness_unconscious"
+  },
+  "reachable_nodes": [],
+  "region": "Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 349,
+    "flag_label": "JUST_WOKE_UP_FROM_MAGICANT"
+  }
+}

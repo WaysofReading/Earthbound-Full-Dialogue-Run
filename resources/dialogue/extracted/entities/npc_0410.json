@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0410",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0410",
+  "label": "nurse",
+  "location": {
+    "x0": 7608,
+    "x1": 7608,
+    "x_sector": 29,
+    "x_tile": 237,
+    "y0": 1752,
+    "y1": 1752,
+    "y_sector": 6,
+    "y_tile": 54
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 140,
+    "sprite_label": "nurse"
+  },
+  "reachable_nodes": [
+    "L_C7DD5E",
+    "L_C7DD68",
+    "L_C900B7",
+    "L_C9128D",
+    "L_C9132E",
+    "L_C91345",
+    "L_C9155B",
+    "Npc0410"
+  ],
+  "region": "Happy Happy Village_Hospital_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

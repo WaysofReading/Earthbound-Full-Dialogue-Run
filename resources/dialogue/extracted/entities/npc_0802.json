@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0800",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0802",
+  "label": "monkey-boy",
+  "location": {
+    "x0": 6238,
+    "x1": 6238,
+    "x_sector": 24,
+    "x_tile": 194,
+    "y0": 5419,
+    "y1": 5419,
+    "y_sector": 21,
+    "y_tile": 169
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 133,
+    "sprite_label": "monkey-boy"
+  },
+  "reachable_nodes": [
+    "L_C5E456",
+    "L_C61696",
+    "L_C616B2",
+    "L_C61702",
+    "L_C623AA",
+    "L_C623BE",
+    "L_C7DD4F",
+    "Npc0800"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 451,
+    "flag_label": "MONKEY_CAVE_SKIP_SANDWICH"
+  }
+}

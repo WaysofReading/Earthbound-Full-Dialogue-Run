@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0791",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0791",
+  "label": "sign_bus-stop",
+  "location": {
+    "x0": 1512,
+    "x1": 1512,
+    "x_sector": 5,
+    "x_tile": 47,
+    "y0": 10048,
+    "y1": 10048,
+    "y_sector": 39,
+    "y_tile": 314
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 202,
+    "sprite_label": "sign_bus-stop"
+  },
+  "reachable_nodes": [
+    "L_C5FDCA",
+    "L_C5FF30",
+    "L_C5FF82",
+    "L_C785F1",
+    "L_C9992F",
+    "Npc0791"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

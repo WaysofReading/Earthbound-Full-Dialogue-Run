@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0873",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0873",
+  "label": "paula",
+  "location": {
+    "x0": 5580,
+    "x1": 5580,
+    "x_sector": 21,
+    "x_tile": 174,
+    "y0": 6023,
+    "y1": 6023,
+    "y_sector": 23,
+    "y_tile": 188
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 2,
+    "sprite_label": "paula"
+  },
+  "reachable_nodes": [
+    "Npc0873"
+  ],
+  "region": "Fourside_Monotoli_L3_Left_Up_Left_Right_Left_Left-(Monotoli)",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 15,
+    "flag_label": "MONSTERS_IN_WINTERS"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C87D94",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0263",
+  "label": "",
+  "location": {
+    "x0": 5528,
+    "x1": 5528,
+    "x_sector": 21,
+    "x_tile": 172,
+    "y0": 9496,
+    "y1": 9496,
+    "y_sector": 37,
+    "y_tile": 296
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C87D94"
+  ],
+  "region": "Threed",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

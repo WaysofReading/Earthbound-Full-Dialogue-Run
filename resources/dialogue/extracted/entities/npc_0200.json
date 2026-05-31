@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0200",
+  "label": "police-car",
+  "location": {
+    "x0": 2296,
+    "x1": 2296,
+    "x_sector": 8,
+    "x_tile": 71,
+    "y0": 584,
+    "y1": 584,
+    "y_sector": 2,
+    "y_tile": 18
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 10,
+    "npc_type": "object",
+    "sprite": 377,
+    "sprite_label": "police-car"
+  },
+  "reachable_nodes": [],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 469,
+    "flag_label": "POLICE_AT_METEORITE"
+  }
+}

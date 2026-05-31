@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1165",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1165",
+  "label": "sign_small",
+  "location": {
+    "x0": 1664,
+    "x1": 1664,
+    "x_sector": 6,
+    "x_tile": 52,
+    "y0": 4096,
+    "y1": 4096,
+    "y_sector": 16,
+    "y_tile": 128
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 213,
+    "sprite_label": "sign_small"
+  },
+  "reachable_nodes": [
+    "Npc1165"
+  ],
+  "region": "Scaraba",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

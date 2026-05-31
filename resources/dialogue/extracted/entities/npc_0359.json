@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0359",
+  "label": "bicycle",
+  "location": {
+    "x0": 1488,
+    "x1": 1488,
+    "x_sector": 5,
+    "x_tile": 46,
+    "y0": 6528,
+    "y1": 6528,
+    "y_sector": 25,
+    "y_tile": 204
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 864,
+    "npc_type": "object",
+    "sprite": 211,
+    "sprite_label": "bicycle"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

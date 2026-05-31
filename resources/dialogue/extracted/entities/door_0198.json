@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0198",
+  "label": "",
+  "location": {
+    "x0": 168,
+    "x1": 168,
+    "x_sector": 0,
+    "x_tile": 5,
+    "y0": 784,
+    "y1": 784,
+    "y_sector": 3,
+    "y_tile": 24
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 485,
+      "y": 784
+    },
+    "direction": "up",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Dungeon Man_1F_2F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

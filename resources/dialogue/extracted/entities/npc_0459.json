@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0459",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0459",
+  "label": "prettyman",
+  "location": {
+    "x0": 8135,
+    "x1": 8135,
+    "x_sector": 31,
+    "x_tile": 254,
+    "y0": 10073,
+    "y1": 10073,
+    "y_sector": 39,
+    "y_tile": 314
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 59,
+    "sprite_label": "prettyman"
+  },
+  "reachable_nodes": [
+    "L_C8DD98",
+    "L_C8DE13",
+    "L_C8DE2C",
+    "L_C8DE88",
+    "L_C8DEF6",
+    "L_C8DF0D",
+    "L_C8DF28",
+    "Npc0459"
+  ],
+  "region": "Threed_Circus Tent_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 773,
+    "flag_label": "NERDY_GUY_AND_FAT_GUY_AT_CIRCUS_TENT"
+  }
+}

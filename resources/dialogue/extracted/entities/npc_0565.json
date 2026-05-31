@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0475",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0565",
+  "label": "lookalike_teddy",
+  "location": {
+    "x0": 5532,
+    "x1": 5532,
+    "x_sector": 21,
+    "x_tile": 172,
+    "y0": 9159,
+    "y1": 9159,
+    "y_sector": 35,
+    "y_tile": 286
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 666,
+    "npc_type": "person",
+    "sprite": 118,
+    "sprite_label": "lookalike_teddy"
+  },
+  "reachable_nodes": [
+    "L_C8F031",
+    "L_C8F066",
+    "L_C8F086",
+    "L_C8F0D2",
+    "Npc0475"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 626,
+    "flag_label": "MEN_ABOUT_TO_ENTER_CIRCUS_TENT"
+  }
+}

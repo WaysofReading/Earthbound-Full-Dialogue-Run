@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0470",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0543",
+  "label": "monster_zombie",
+  "location": {
+    "x0": 5056,
+    "x1": 5056,
+    "x_sector": 19,
+    "x_tile": 158,
+    "y0": 9560,
+    "y1": 9560,
+    "y_sector": 37,
+    "y_tile": 298
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 308,
+    "sprite_label": "monster_zombie"
+  },
+  "reachable_nodes": [
+    "Npc0470"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

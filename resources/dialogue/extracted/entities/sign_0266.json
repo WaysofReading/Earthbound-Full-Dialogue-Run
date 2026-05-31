@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C87DB4",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0266",
+  "label": "",
+  "location": {
+    "x0": 5992,
+    "x1": 5992,
+    "x_sector": 23,
+    "x_tile": 187,
+    "y0": 9528,
+    "y1": 9528,
+    "y_sector": 37,
+    "y_tile": 297
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C87DB4"
+  ],
+  "region": "Threed",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

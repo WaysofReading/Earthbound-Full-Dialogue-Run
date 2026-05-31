@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B10B",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1761",
+  "label": "",
+  "location": {
+    "x0": 4480,
+    "x1": 4480,
+    "x_sector": 17,
+    "x_tile": 140,
+    "y0": 10000,
+    "y1": 10000,
+    "y_sector": 39,
+    "y_tile": 312
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 1019,
+      "y": 1084
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9B10B",
+    "L_C9B112"
+  ],
+  "region": "Transitions_Dusty Dunes to Fourside_Fourside-Bridge",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

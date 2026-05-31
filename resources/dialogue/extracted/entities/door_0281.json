@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0281",
+  "label": "",
+  "location": {
+    "x0": 7640,
+    "x1": 7640,
+    "x_sector": 29,
+    "x_tile": 238,
+    "y0": 1488,
+    "y1": 1488,
+    "y_sector": 5,
+    "y_tile": 46
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 57,
+      "y": 220
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 10,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Scam House_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

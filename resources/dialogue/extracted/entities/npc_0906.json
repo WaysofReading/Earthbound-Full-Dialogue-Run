@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0906",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0906",
+  "label": "woman_blonde_red-dress",
+  "location": {
+    "x0": 5984,
+    "x1": 5984,
+    "x_sector": 23,
+    "x_tile": 187,
+    "y0": 6856,
+    "y1": 6856,
+    "y_sector": 26,
+    "y_tile": 214
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 68,
+    "sprite_label": "woman_blonde_red-dress"
+  },
+  "reachable_nodes": [
+    "L_C821B2",
+    "L_C821FE",
+    "L_C82285",
+    "L_C9992F",
+    "Npc0906"
+  ],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

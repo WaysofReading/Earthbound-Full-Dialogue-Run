@@ -1,0 +1,48 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9ADF2",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1683",
+  "label": "",
+  "location": {
+    "x0": 7784,
+    "x1": 7784,
+    "x_sector": 30,
+    "x_tile": 243,
+    "y0": 9272,
+    "y1": 9272,
+    "y_sector": 36,
+    "y_tile": 289
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 956,
+      "y": 1181
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C64650",
+    "L_C69082",
+    "L_C79D81",
+    "L_C915F4",
+    "L_C9ADF2",
+    "L_C9ADFA"
+  ],
+  "region": "Threed_Hotel_1F_Lobby",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

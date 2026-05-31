@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0090",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0090",
+  "label": "girl_blonde_ponytail",
+  "location": {
+    "x0": 7552,
+    "x1": 7552,
+    "x_sector": 29,
+    "x_tile": 236,
+    "y0": 608,
+    "y1": 608,
+    "y_sector": 2,
+    "y_tile": 19
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 127,
+    "sprite_label": "girl_blonde_ponytail"
+  },
+  "reachable_nodes": [
+    "L_C73039",
+    "L_C730CF",
+    "L_C7DC7F",
+    "Npc0090"
+  ],
+  "region": "Onett_Houses_West-Blue-Roof_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

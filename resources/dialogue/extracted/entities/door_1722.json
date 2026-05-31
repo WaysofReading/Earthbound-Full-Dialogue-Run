@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1722",
+  "label": "",
+  "location": {
+    "x0": 8176,
+    "x1": 8176,
+    "x_sector": 31,
+    "x_tile": 255,
+    "y0": 9704,
+    "y1": 9704,
+    "y_sector": 37,
+    "y_tile": 303
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 653,
+      "y": 1166
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 12,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Threed_Drug Store_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0969",
+  "label": "",
+  "location": {
+    "x0": 4104,
+    "x1": 4104,
+    "x_sector": 16,
+    "x_tile": 128,
+    "y0": 5456,
+    "y1": 5456,
+    "y_sector": 21,
+    "y_tile": 170
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 384,
+      "y": 830
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Lost Underworld_Fire Springs_1F_East-Hallway",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

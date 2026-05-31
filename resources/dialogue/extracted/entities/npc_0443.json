@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0443",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0443",
+  "label": "man_hat_blue-suit",
+  "location": {
+    "x0": 4947,
+    "x1": 4947,
+    "x_sector": 19,
+    "x_tile": 154,
+    "y0": 1860,
+    "y1": 1860,
+    "y_sector": 7,
+    "y_tile": 58
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 55,
+    "sprite_label": "man_hat_blue-suit"
+  },
+  "reachable_nodes": [
+    "Npc0443"
+  ],
+  "region": "Peaceful-Rest-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 68,
+    "flag_label": "CARPAINTER_DEFEATED"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0446",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 4976,
+    "x1": 4976,
+    "x_sector": 19,
+    "x_tile": 155,
+    "y0": 1176,
+    "y1": 1176,
+    "y_sector": 4,
+    "y_tile": 36
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 865,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Peaceful-Rest-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

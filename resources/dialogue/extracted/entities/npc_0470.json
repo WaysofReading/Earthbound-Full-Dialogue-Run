@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0470",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0470",
+  "label": "monster_zombie_lying-head-right",
+  "location": {
+    "x0": 8084,
+    "x1": 8084,
+    "x_sector": 31,
+    "x_tile": 252,
+    "y0": 10168,
+    "y1": 10168,
+    "y_sector": 39,
+    "y_tile": 317
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 438,
+    "sprite_label": "monster_zombie_lying-head-right"
+  },
+  "reachable_nodes": [
+    "Npc0470"
+  ],
+  "region": "Threed_Circus Tent_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 125,
+    "flag_label": "ZOMBIES_ON_TENT_FLOOR"
+  }
+}

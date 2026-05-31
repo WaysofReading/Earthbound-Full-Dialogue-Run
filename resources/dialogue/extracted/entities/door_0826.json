@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0826",
+  "label": "",
+  "location": {
+    "x0": 4328,
+    "x1": 4328,
+    "x_sector": 16,
+    "x_tile": 135,
+    "y0": 4960,
+    "y1": 4960,
+    "y_sector": 19,
+    "y_tile": 155
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 425,
+      "y": 404
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside_Fourside Sewers_1F_Boss-Room_Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

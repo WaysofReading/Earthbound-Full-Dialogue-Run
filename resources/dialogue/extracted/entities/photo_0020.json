@@ -1,0 +1,29 @@
+{
+  "entry_points": [],
+  "id": "photo_0020",
+  "label": "",
+  "location": {
+    "x0": 576,
+    "x1": 576,
+    "x_sector": 2,
+    "x_tile": 18,
+    "y0": 180,
+    "y1": 180,
+    "y_sector": 0,
+    "y_tile": 5
+  },
+  "properties": {
+    "gating_flag": 718,
+    "gating_flag_label": "GOT_PHOTO_POOS_PALACE_OUTSIDE",
+    "photo_index": 20,
+    "trigger": "region"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Tenda Village_Main",
+  "type": "photo_event",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "entry_points": [],
+  "id": "photo_0015",
+  "label": "",
+  "location": {
+    "x0": 399,
+    "x1": 399,
+    "x_sector": 1,
+    "x_tile": 12,
+    "y0": 20,
+    "y1": 20,
+    "y_sector": 0,
+    "y_tile": 0
+  },
+  "properties": {
+    "gating_flag": 713,
+    "gating_flag_label": "GOT_PHOTO_FOURSIDE_MUSEUM_OUTSIDE",
+    "photo_index": 15,
+    "trigger": "region"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Tenda Village_Main",
+  "type": "photo_event",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0922",
+  "label": "",
+  "location": {
+    "x0": 824,
+    "x1": 824,
+    "x_sector": 3,
+    "x_tile": 25,
+    "y0": 5600,
+    "y1": 5600,
+    "y_sector": 21,
+    "y_tile": 175
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 875,
+      "y": 268
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Saturn Valley_Milky Well_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

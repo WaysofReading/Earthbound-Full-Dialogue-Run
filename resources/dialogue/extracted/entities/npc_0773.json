@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0773",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0773",
+  "label": "monkey-boy",
+  "location": {
+    "x0": 1232,
+    "x1": 1232,
+    "x_sector": 4,
+    "x_tile": 38,
+    "y0": 10000,
+    "y1": 10000,
+    "y_sector": 39,
+    "y_tile": 312
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 133,
+    "sprite_label": "monkey-boy"
+  },
+  "reachable_nodes": [
+    "L_C628A1",
+    "L_C62A30",
+    "L_C62A75",
+    "L_C62B6F",
+    "L_C7DC7F",
+    "Npc0773"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 615,
+    "flag_label": "TELEPORT_MONKEY_NEAR_DESERT_ROAD"
+  }
+}

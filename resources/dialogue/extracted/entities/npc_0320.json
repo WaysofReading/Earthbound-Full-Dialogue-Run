@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0320",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0320",
+  "label": "runaway-5_lucky",
+  "location": {
+    "x0": 2224,
+    "x1": 2224,
+    "x_sector": 8,
+    "x_tile": 69,
+    "y0": 6576,
+    "y1": 6576,
+    "y_sector": 25,
+    "y_tile": 205
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 149,
+    "sprite_label": "runaway-5_lucky"
+  },
+  "reachable_nodes": [
+    "L_C94B15",
+    "L_C94B32",
+    "Npc0320"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 309,
+    "flag_label": "RUNAWAY_BUS_FROM_TWOSON_TO_THREED"
+  }
+}

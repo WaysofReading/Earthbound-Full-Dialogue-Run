@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B10B",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0530",
+  "label": "",
+  "location": {
+    "x0": 1872,
+    "x1": 1872,
+    "x_sector": 7,
+    "x_tile": 58,
+    "y0": 3088,
+    "y1": 3088,
+    "y_sector": 12,
+    "y_tile": 96
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 359,
+      "y": 849
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9B10B",
+    "L_C9B112"
+  ],
+  "region": "Lost-Underworld",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

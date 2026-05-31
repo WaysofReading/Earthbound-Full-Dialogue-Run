@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99B5C",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0844",
+  "label": "",
+  "location": {
+    "x0": 6896,
+    "x1": 6896,
+    "x_sector": 26,
+    "x_tile": 215,
+    "y0": 4960,
+    "y1": 4960,
+    "y_sector": 19,
+    "y_tile": 155
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 81,
+      "y": 609
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C99B5C"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

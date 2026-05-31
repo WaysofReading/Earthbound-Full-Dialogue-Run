@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0306",
+  "label": "",
+  "location": {
+    "x0": 7664,
+    "x1": 7664,
+    "x_sector": 29,
+    "x_tile": 239,
+    "y0": 1768,
+    "y1": 1768,
+    "y_sector": 6,
+    "y_tile": 55
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 514,
+      "y": 1004
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 10,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Happy Happy Village_Hospital_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

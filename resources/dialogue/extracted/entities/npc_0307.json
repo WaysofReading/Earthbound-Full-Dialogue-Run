@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0307",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0307",
+  "label": "woman_cane_pink-dress",
+  "location": {
+    "x0": 1588,
+    "x1": 1588,
+    "x_sector": 6,
+    "x_tile": 49,
+    "y0": 6610,
+    "y1": 6610,
+    "y_sector": 25,
+    "y_tile": 206
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 16,
+    "npc_type": "person",
+    "sprite": 53,
+    "sprite_label": "woman_cane_pink-dress"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "L_C93BA4",
+    "Npc0307"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

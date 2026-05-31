@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0876",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0876",
+  "label": "monster_bear",
+  "location": {
+    "x0": 5616,
+    "x1": 5616,
+    "x_sector": 21,
+    "x_tile": 175,
+    "y0": 5984,
+    "y1": 5984,
+    "y_sector": 23,
+    "y_tile": 187
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 331,
+    "sprite_label": "monster_bear"
+  },
+  "reachable_nodes": [
+    "Npc0876"
+  ],
+  "region": "Fourside_Monotoli_L3_Left_Up_Left_Right_Left_Left-(Monotoli)",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B221",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1478",
+  "label": "",
+  "location": {
+    "x0": 8120,
+    "x1": 8120,
+    "x_sector": 31,
+    "x_tile": 253,
+    "y0": 8144,
+    "y1": 8144,
+    "y_sector": 31,
+    "y_tile": 254
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 657,
+      "y": 524
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 10,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9B221"
+  ],
+  "region": "Magicant_Flying Man House_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0803",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0805",
+  "label": "monkey-girl",
+  "location": {
+    "x0": 6208,
+    "x1": 6208,
+    "x_sector": 24,
+    "x_tile": 194,
+    "y0": 5696,
+    "y1": 5696,
+    "y_sector": 22,
+    "y_tile": 178
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 160,
+    "sprite_label": "monkey-girl"
+  },
+  "reachable_nodes": [
+    "L_C5E456",
+    "L_C619EF",
+    "L_C61A14",
+    "L_C61A71",
+    "L_C62395",
+    "L_C623A9",
+    "L_C7DD4F",
+    "Npc0803"
+  ],
+  "region": "Dusty Dunes Desert_Monkey Cave_Start_Left-(Pizza,-Wet-Towel)",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 454,
+    "flag_label": "MONKEY_CAVE_PIZZA_1"
+  }
+}

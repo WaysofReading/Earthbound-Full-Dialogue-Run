@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0918",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0918",
+  "label": "woman_cane_pink-dress",
+  "location": {
+    "x0": 5960,
+    "x1": 5960,
+    "x_sector": 23,
+    "x_tile": 186,
+    "y0": 6360,
+    "y1": 6360,
+    "y_sector": 24,
+    "y_tile": 198
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 53,
+    "sprite_label": "woman_cane_pink-dress"
+  },
+  "reachable_nodes": [
+    "L_C6A9A9",
+    "L_C6A9C8",
+    "Npc0918"
+  ],
+  "region": "Fourside_Hospital_1F_2F_Left-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

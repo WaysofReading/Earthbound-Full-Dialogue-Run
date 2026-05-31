@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1081",
+  "label": "red-truck",
+  "location": {
+    "x0": 5232,
+    "x1": 5232,
+    "x_sector": 20,
+    "x_tile": 163,
+    "y0": 2800,
+    "y1": 2800,
+    "y_sector": 10,
+    "y_tile": 87
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 207,
+    "sprite_label": "red-truck"
+  },
+  "reachable_nodes": [],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

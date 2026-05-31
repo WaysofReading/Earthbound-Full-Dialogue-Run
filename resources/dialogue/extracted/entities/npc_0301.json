@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0301",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0301",
+  "label": "lookalike_teddy",
+  "location": {
+    "x0": 7016,
+    "x1": 7016,
+    "x_sector": 27,
+    "x_tile": 219,
+    "y0": 7480,
+    "y1": 7480,
+    "y_sector": 29,
+    "y_tile": 233
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 118,
+    "sprite_label": "lookalike_teddy"
+  },
+  "reachable_nodes": [
+    "Npc0301"
+  ],
+  "region": "Twoson_Department Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

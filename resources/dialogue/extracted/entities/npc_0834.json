@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0834",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0834",
+  "label": "exit-mouse-father",
+  "location": {
+    "x0": 7280,
+    "x1": 7280,
+    "x_sector": 28,
+    "x_tile": 227,
+    "y0": 6032,
+    "y1": 6032,
+    "y_sector": 23,
+    "y_tile": 188
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 451,
+    "sprite_label": "exit-mouse-father"
+  },
+  "reachable_nodes": [
+    "L_C67763",
+    "L_C677CC",
+    "L_C678ED",
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "Npc0834"
+  ],
+  "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Maze",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

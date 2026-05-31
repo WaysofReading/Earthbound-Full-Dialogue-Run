@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0945",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0945",
+  "label": "man_hat_black-suit",
+  "location": {
+    "x0": 2984,
+    "x1": 2984,
+    "x_sector": 11,
+    "x_tile": 93,
+    "y0": 4744,
+    "y1": 4744,
+    "y_sector": 18,
+    "y_tile": 148
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 63,
+    "sprite_label": "man_hat_black-suit"
+  },
+  "reachable_nodes": [
+    "L_C82FE7",
+    "Npc0945"
+  ],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

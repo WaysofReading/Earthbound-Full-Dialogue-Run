@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0939",
+  "label": "food-cart",
+  "location": {
+    "x0": 4608,
+    "x1": 4608,
+    "x_sector": 18,
+    "x_tile": 144,
+    "y0": 6664,
+    "y1": 6664,
+    "y_sector": 26,
+    "y_tile": 208
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 229,
+    "sprite_label": "food-cart"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside_Department Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 57,
+    "flag_label": "FOURSIDE_DEPT_BLACKOUT"
+  }
+}

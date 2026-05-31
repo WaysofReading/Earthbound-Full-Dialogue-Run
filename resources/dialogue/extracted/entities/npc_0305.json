@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0305",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0305",
+  "label": "boy_fedora",
+  "location": {
+    "x0": 2768,
+    "x1": 2768,
+    "x_sector": 10,
+    "x_tile": 86,
+    "y0": 7080,
+    "y1": 7080,
+    "y_sector": 27,
+    "y_tile": 221
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 17,
+    "npc_type": "person",
+    "sprite": 126,
+    "sprite_label": "boy_fedora"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "L_C93A82",
+    "L_C93AC1",
+    "Npc0305"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C87176",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0243",
+  "label": "",
+  "location": {
+    "x0": 6888,
+    "x1": 6888,
+    "x_sector": 26,
+    "x_tile": 215,
+    "y0": 8848,
+    "y1": 8848,
+    "y_sector": 34,
+    "y_tile": 276
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C87176"
+  ],
+  "region": "Summers and Toto_Museum_1F_Exhibit-Room",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

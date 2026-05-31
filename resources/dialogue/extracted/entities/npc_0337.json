@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0337",
+  "label": "cat_sleeping",
+  "location": {
+    "x0": 2124,
+    "x1": 2124,
+    "x_sector": 8,
+    "x_tile": 66,
+    "y0": 7008,
+    "y1": 7008,
+    "y_sector": 27,
+    "y_tile": 219
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 363,
+    "sprite_label": "cat_sleeping"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 73,
+    "flag_label": "GIYGAS_DEFEATED"
+  }
+}

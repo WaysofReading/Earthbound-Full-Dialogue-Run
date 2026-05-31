@@ -1,0 +1,48 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99CF6",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1538",
+  "label": "",
+  "location": {
+    "x0": 2768,
+    "x1": 2768,
+    "x_sector": 10,
+    "x_tile": 86,
+    "y0": 8608,
+    "y1": 8608,
+    "y_sector": 33,
+    "y_tile": 269
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 177,
+      "y": 63
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C5F83B",
+    "L_C74403",
+    "L_C74431",
+    "L_C99CF6",
+    "L_C99CFE",
+    "Npc0126"
+  ],
+  "region": "Onett_Giant Step_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0512",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0512",
+  "label": "man_hat_black-suit",
+  "location": {
+    "x0": 7008,
+    "x1": 7008,
+    "x_sector": 27,
+    "x_tile": 219,
+    "y0": 9688,
+    "y1": 9688,
+    "y_sector": 37,
+    "y_tile": 302
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 63,
+    "sprite_label": "man_hat_black-suit"
+  },
+  "reachable_nodes": [
+    "Npc0512"
+  ],
+  "region": "Threed_Houses_Southwest_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

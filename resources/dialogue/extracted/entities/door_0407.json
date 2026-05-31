@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0407",
+  "label": "",
+  "location": {
+    "x0": 5672,
+    "x1": 5672,
+    "x_sector": 22,
+    "x_tile": 177,
+    "y0": 2504,
+    "y1": 2504,
+    "y_sector": 9,
+    "y_tile": 78
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 223,
+      "y": 611
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Pyramid_Entryway",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

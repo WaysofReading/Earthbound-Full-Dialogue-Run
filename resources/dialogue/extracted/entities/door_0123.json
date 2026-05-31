@@ -1,0 +1,48 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99B75",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0123",
+  "label": "",
+  "location": {
+    "x0": 7800,
+    "x1": 7800,
+    "x_sector": 30,
+    "x_tile": 243,
+    "y0": 336,
+    "y1": 336,
+    "y_sector": 1,
+    "y_tile": 10
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 331,
+      "y": 43
+    },
+    "direction": "down",
+    "gating_flag": 467,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 10,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9992F",
+    "L_C99B75",
+    "L_C99BB2",
+    "L_C99BB6",
+    "L_C99C15",
+    "L_C99C24"
+  ],
+  "region": "Onett_Ness' House_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

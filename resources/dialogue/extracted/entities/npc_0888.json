@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0888",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0888",
+  "label": "runaway-5_groovy",
+  "location": {
+    "x0": 6047,
+    "x1": 6047,
+    "x_sector": 23,
+    "x_tile": 188,
+    "y0": 5988,
+    "y1": 5988,
+    "y_sector": 23,
+    "y_tile": 187
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 187,
+    "sprite_label": "runaway-5_groovy"
+  },
+  "reachable_nodes": [
+    "Npc0888"
+  ],
+  "region": "Fourside_Monotoli_L3_Left_Up_Left_Right_Left-(Clumsy-Robot)",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 318,
+    "flag_label": "RUNAWAY_FIVE_AT_CLUMSY_ROBOT_ROOM"
+  }
+}

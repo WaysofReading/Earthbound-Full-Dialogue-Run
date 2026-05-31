@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0189",
+  "label": "roadblock",
+  "location": {
+    "x0": 2722,
+    "x1": 2722,
+    "x_sector": 10,
+    "x_tile": 85,
+    "y0": 562,
+    "y1": 562,
+    "y_sector": 2,
+    "y_tile": 17
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 199,
+    "sprite_label": "roadblock"
+  },
+  "reachable_nodes": [],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 469,
+    "flag_label": "POLICE_AT_METEORITE"
+  }
+}

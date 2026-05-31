@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0988",
+  "label": "open-can",
+  "location": {
+    "x0": 3512,
+    "x1": 3512,
+    "x_sector": 13,
+    "x_tile": 109,
+    "y0": 3456,
+    "y1": 3456,
+    "y_sector": 13,
+    "y_tile": 108
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 225,
+    "sprite_label": "open-can"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

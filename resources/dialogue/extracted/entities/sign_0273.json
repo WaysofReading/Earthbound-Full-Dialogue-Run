@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C62D23",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0273",
+  "label": "",
+  "location": {
+    "x0": 4016,
+    "x1": 4016,
+    "x_sector": 15,
+    "x_tile": 125,
+    "y0": 9968,
+    "y1": 9968,
+    "y_sector": 38,
+    "y_tile": 311
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C62D23"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1126",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1126",
+  "label": "man_scaraban_blue-clothes",
+  "location": {
+    "x0": 7672,
+    "x1": 7672,
+    "x_sector": 29,
+    "x_tile": 239,
+    "y0": 7008,
+    "y1": 7008,
+    "y_sector": 27,
+    "y_tile": 219
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 95,
+    "sprite_label": "man_scaraban_blue-clothes"
+  },
+  "reachable_nodes": [
+    "L_C841DE",
+    "L_C842A5",
+    "L_C842A8",
+    "L_C842AB",
+    "L_C842AE",
+    "L_C842B1",
+    "L_C842B4",
+    "L_C842B7",
+    "L_C842BA",
+    "L_C842BD",
+    "L_C842C0",
+    "L_C842C3",
+    "L_C842C6",
+    "L_C842C9",
+    "L_C842CC",
+    "L_C842CF",
+    "L_C842D2",
+    "L_C842D5",
+    "L_C842D8",
+    "L_C842DB",
+    "L_C842DE",
+    "L_C842E1",
+    "L_C842E4",
+    "L_C842E7",
+    "L_C842EA",
+    "L_C842ED",
+    "L_C842F0",
+    "L_C842F3",
+    "L_C842F6",
+    "L_C85FF7",
+    "L_C8603C",
+    "L_C86059",
+    "L_C86088",
+    "L_C860B9",
+    "L_C860E4",
+    "L_C86112",
+    "L_C86147",
+    "L_C86186",
+    "Npc1126"
+  ],
+  "region": "Scaraba_Hotel_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 383,
+    "flag_label": "JUST_RESTED"
+  }
+}

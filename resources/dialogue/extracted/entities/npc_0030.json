@@ -1,0 +1,60 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0030",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0030",
+  "label": "tracy",
+  "location": {
+    "x0": 7568,
+    "x1": 7568,
+    "x_sector": 29,
+    "x_tile": 236,
+    "y0": 728,
+    "y1": 728,
+    "y_sector": 2,
+    "y_tile": 22
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 146,
+    "sprite_label": "tracy"
+  },
+  "reachable_nodes": [
+    "L_C5E431",
+    "L_C5E456",
+    "L_C64672",
+    "L_C646AE",
+    "L_C6474F",
+    "L_C66AFE",
+    "L_C66B33",
+    "L_C66BC0",
+    "L_C66BF6",
+    "L_C66C15",
+    "L_C66C7D",
+    "L_C66CC1",
+    "L_C761CC",
+    "L_C761D7",
+    "L_C761EB",
+    "L_C7625E",
+    "L_C76357",
+    "L_C76391",
+    "L_C7DC85",
+    "L_C7DCB6",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "Npc0020",
+    "Npc0030"
+  ],
+  "region": "Onett_Ness' House_1F_2F_Tracy's-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 530,
+    "flag_label": "TRACY_NOT_AT_HER_ROOM"
+  }
+}

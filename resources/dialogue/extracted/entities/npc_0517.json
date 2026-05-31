@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0517",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0517",
+  "label": "man_redhead_green-oxford",
+  "location": {
+    "x0": 5312,
+    "x1": 5312,
+    "x_sector": 20,
+    "x_tile": 166,
+    "y0": 9128,
+    "y1": 9128,
+    "y_sector": 35,
+    "y_tile": 285
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 113,
+    "sprite_label": "man_redhead_green-oxford"
+  },
+  "reachable_nodes": [
+    "L_C8E2C7",
+    "Npc0517"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 740,
+    "flag_label": "PEOPLE_IN_THREED_ABSENT"
+  }
+}

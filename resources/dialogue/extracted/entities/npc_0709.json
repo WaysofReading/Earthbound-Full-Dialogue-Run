@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0709",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 6488,
+    "x1": 6488,
+    "x_sector": 25,
+    "x_tile": 202,
+    "y0": 248,
+    "y1": 248,
+    "y_sector": 0,
+    "y_tile": 7
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 871,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Grapefruit-Falls",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

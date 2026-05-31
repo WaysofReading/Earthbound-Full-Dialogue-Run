@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1560",
+  "label": "",
+  "location": {
+    "x0": 8016,
+    "x1": 8016,
+    "x_sector": 31,
+    "x_tile": 250,
+    "y0": 8552,
+    "y1": 8552,
+    "y_sector": 33,
+    "y_tile": 267
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 164,
+      "y": 504
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Hospital_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

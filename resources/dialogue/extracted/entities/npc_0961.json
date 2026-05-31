@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0961",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0961",
+  "label": "man_glasses_-black-suit",
+  "location": {
+    "x0": 3248,
+    "x1": 3248,
+    "x_sector": 12,
+    "x_tile": 101,
+    "y0": 4528,
+    "y1": 4528,
+    "y_sector": 17,
+    "y_tile": 141
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 62,
+    "sprite_label": "man_glasses_-black-suit"
+  },
+  "reachable_nodes": [
+    "L_C83E3C",
+    "Npc0961"
+  ],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

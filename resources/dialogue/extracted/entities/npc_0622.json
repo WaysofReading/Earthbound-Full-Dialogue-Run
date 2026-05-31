@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0622",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0622",
+  "label": "rejuvenator",
+  "location": {
+    "x0": 8000,
+    "x1": 8000,
+    "x_sector": 31,
+    "x_tile": 250,
+    "y0": 2832,
+    "y1": 2832,
+    "y_sector": 11,
+    "y_tile": 88
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 429,
+    "sprite_label": "rejuvenator"
+  },
+  "reachable_nodes": [
+    "L_C915F4",
+    "Npc0622"
+  ],
+  "region": "Winters_Andonuts Lab_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

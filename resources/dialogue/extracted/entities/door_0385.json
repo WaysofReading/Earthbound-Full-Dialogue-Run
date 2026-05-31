@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_0385",
+  "label": "",
+  "location": {
+    "x0": 1072,
+    "x1": 1072,
+    "x_sector": 4,
+    "x_tile": 33,
+    "y0": 2472,
+    "y1": 2472,
+    "y_sector": 9,
+    "y_tile": 77
+  },
+  "properties": {
+    "destination": null,
+    "direction": null,
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "rope"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Giant Step_1F_Hallway_Boss-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

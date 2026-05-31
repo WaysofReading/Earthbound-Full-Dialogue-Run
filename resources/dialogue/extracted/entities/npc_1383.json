@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1383",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1383",
+  "label": "man_glasses_-black-suit",
+  "location": {
+    "x0": 7464,
+    "x1": 7464,
+    "x_sector": 29,
+    "x_tile": 233,
+    "y0": 4440,
+    "y1": 4440,
+    "y_sector": 17,
+    "y_tile": 138
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 62,
+    "sprite_label": "man_glasses_-black-suit"
+  },
+  "reachable_nodes": [
+    "L_C9701A",
+    "L_C97033",
+    "Npc1383"
+  ],
+  "region": "Moonside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

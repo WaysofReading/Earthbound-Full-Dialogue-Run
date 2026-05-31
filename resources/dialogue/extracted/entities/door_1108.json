@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1108",
+  "label": "",
+  "location": {
+    "x0": 7784,
+    "x1": 7784,
+    "x_sector": 30,
+    "x_tile": 243,
+    "y0": 5944,
+    "y1": 5944,
+    "y_sector": 23,
+    "y_tile": 185
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 892,
+      "y": 793
+    },
+    "direction": "left",
+    "gating_flag": 33227,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Dusty Dunes Desert_Monkey Cave_Start_Right_Left-(Hamburger,-King-Banana)",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

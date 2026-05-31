@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0216",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0216",
+  "label": "girl_redhead_pigtails",
+  "location": {
+    "x0": 7640,
+    "x1": 7640,
+    "x_sector": 29,
+    "x_tile": 238,
+    "y0": 7496,
+    "y1": 7496,
+    "y_sector": 29,
+    "y_tile": 234
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 128,
+    "sprite_label": "girl_redhead_pigtails"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "L_C80BC6",
+    "L_C80BF2",
+    "Npc0216"
+  ],
+  "region": "Twoson_Polestar_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

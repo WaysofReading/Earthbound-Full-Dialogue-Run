@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_0990",
+  "label": "",
+  "location": {
+    "x0": 6256,
+    "x1": 6256,
+    "x_sector": 24,
+    "x_tile": 195,
+    "y0": 5544,
+    "y1": 5544,
+    "y_sector": 21,
+    "y_tile": 173
+  },
+  "properties": {
+    "destination": null,
+    "direction": "se",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "stairway"
+  },
+  "reachable_nodes": [],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

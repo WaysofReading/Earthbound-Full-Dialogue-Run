@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1390",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1390",
+  "label": "lookalike_shy-guy-mask",
+  "location": {
+    "x0": 7856,
+    "x1": 7856,
+    "x_sector": 30,
+    "x_tile": 245,
+    "y0": 3864,
+    "y1": 3864,
+    "y_sector": 15,
+    "y_tile": 120
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 119,
+    "sprite_label": "lookalike_shy-guy-mask"
+  },
+  "reachable_nodes": [
+    "Npc1390"
+  ],
+  "region": "Moonside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0787",
+  "label": "van_duplicate",
+  "location": {
+    "x0": 1876,
+    "x1": 1876,
+    "x_sector": 7,
+    "x_tile": 58,
+    "y0": 10092,
+    "y1": 10092,
+    "y_sector": 39,
+    "y_tile": 315
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 460,
+    "sprite_label": "van_duplicate"
+  },
+  "reachable_nodes": [],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 136,
+    "flag_label": "TRAFFIC_JAM_CLEARED"
+  }
+}

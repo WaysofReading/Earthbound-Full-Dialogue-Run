@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99C4B",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1803",
+  "label": "",
+  "location": {
+    "x0": 7920,
+    "x1": 7920,
+    "x_sector": 30,
+    "x_tile": 247,
+    "y0": 10216,
+    "y1": 10216,
+    "y_sector": 39,
+    "y_tile": 319
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 561,
+      "y": 1179
+    },
+    "direction": "right",
+    "gating_flag": 32979,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C99C4B"
+  ],
+  "region": "Transitions_Twoson to Threed_Tunnel-A",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C86AD7",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0041",
+  "label": "",
+  "location": {
+    "x0": 7888,
+    "x1": 7888,
+    "x_sector": 30,
+    "x_tile": 246,
+    "y0": 568,
+    "y1": 568,
+    "y_sector": 2,
+    "y_tile": 17
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C86AD7"
+  ],
+  "region": "Onett_Town Hall_1F",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

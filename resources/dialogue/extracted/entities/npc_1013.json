@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1013",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1013",
+  "label": "woman_blonde_resortwear",
+  "location": {
+    "x0": 6784,
+    "x1": 6784,
+    "x_sector": 26,
+    "x_tile": 212,
+    "y0": 9192,
+    "y1": 9192,
+    "y_sector": 35,
+    "y_tile": 287
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 72,
+    "sprite_label": "woman_blonde_resortwear"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "L_C8A39B",
+    "L_C8A3DD",
+    "Npc1013"
+  ],
+  "region": "Summers and Toto_Summers Shop_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

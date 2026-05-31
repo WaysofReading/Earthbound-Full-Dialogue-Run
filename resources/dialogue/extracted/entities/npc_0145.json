@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0145",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0145",
+  "label": "cop",
+  "location": {
+    "x0": 1674,
+    "x1": 1674,
+    "x_sector": 6,
+    "x_tile": 52,
+    "y0": 1973,
+    "y1": 1973,
+    "y_sector": 7,
+    "y_tile": 61
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 74,
+    "sprite_label": "cop"
+  },
+  "reachable_nodes": [
+    "L_C65FA6",
+    "Npc0145"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 210,
+    "flag_label": "VISITED_TWOSON"
+  }
+}

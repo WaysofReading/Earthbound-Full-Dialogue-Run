@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1001",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1001",
+  "label": "woman_pink-maid-outfit",
+  "location": {
+    "x0": 7728,
+    "x1": 7728,
+    "x_sector": 30,
+    "x_tile": 241,
+    "y0": 9200,
+    "y1": 9200,
+    "y_sector": 35,
+    "y_tile": 287
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 142,
+    "sprite_label": "woman_pink-maid-outfit"
+  },
+  "reachable_nodes": [
+    "L_C8A174",
+    "Npc1001"
+  ],
+  "region": "Summers and Toto_Stoic Club_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

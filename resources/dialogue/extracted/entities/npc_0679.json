@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0679",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0679",
+  "label": "monster_duck",
+  "location": {
+    "x0": 1488,
+    "x1": 1488,
+    "x_sector": 5,
+    "x_tile": 46,
+    "y0": 3616,
+    "y1": 3616,
+    "y_sector": 14,
+    "y_tile": 113
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 598,
+    "npc_type": "person",
+    "sprite": 287,
+    "sprite_label": "monster_duck"
+  },
+  "reachable_nodes": [
+    "L_C7C588",
+    "Npc0463",
+    "Npc0679"
+  ],
+  "region": "Winters_Brickroad Dungeon_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 417,
+    "flag_label": "BRICK_ROAD_DUNGEON_DUCK_2_DEFEATED"
+  }
+}

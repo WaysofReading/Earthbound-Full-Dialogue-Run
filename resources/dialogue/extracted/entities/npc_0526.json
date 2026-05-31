@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0526",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0526",
+  "label": "man_hat_green-jacket",
+  "location": {
+    "x0": 6016,
+    "x1": 6016,
+    "x_sector": 23,
+    "x_tile": 188,
+    "y0": 9448,
+    "y1": 9448,
+    "y_sector": 36,
+    "y_tile": 295
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 54,
+    "sprite_label": "man_hat_green-jacket"
+  },
+  "reachable_nodes": [
+    "L_C8E7B3",
+    "Npc0526"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

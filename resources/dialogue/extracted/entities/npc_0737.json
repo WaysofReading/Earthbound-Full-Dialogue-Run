@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0737",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0737",
+  "label": "mr-saturn",
+  "location": {
+    "x0": 3144,
+    "x1": 3144,
+    "x_sector": 12,
+    "x_tile": 98,
+    "y0": 5248,
+    "y1": 5248,
+    "y_sector": 20,
+    "y_tile": 164
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 171,
+    "sprite_label": "mr-saturn"
+  },
+  "reachable_nodes": [
+    "L_C7EA71",
+    "L_C7EB16",
+    "L_C7EB38",
+    "L_C7EB3C",
+    "Npc0737"
+  ],
+  "region": "Saturn Valley_Ladder Room_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

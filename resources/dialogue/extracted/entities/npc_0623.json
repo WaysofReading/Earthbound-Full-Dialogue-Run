@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0623",
+  "label": "sky-runner",
+  "location": {
+    "x0": 7824,
+    "x1": 7824,
+    "x_sector": 30,
+    "x_tile": 244,
+    "y0": 2864,
+    "y1": 2864,
+    "y_sector": 11,
+    "y_tile": 89
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 209,
+    "sprite_label": "sky-runner"
+  },
+  "reachable_nodes": [],
+  "region": "Winters_Andonuts Lab_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 748,
+    "flag_label": "SKY_RUNNER_AT_WINTERS_LAB"
+  }
+}

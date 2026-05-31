@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1290",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1290",
+  "label": "tenda_tiny",
+  "location": {
+    "x0": 2344,
+    "x1": 2344,
+    "x_sector": 9,
+    "x_tile": 73,
+    "y0": 2480,
+    "y1": 2480,
+    "y_sector": 9,
+    "y_tile": 77
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 398,
+    "sprite_label": "tenda_tiny"
+  },
+  "reachable_nodes": [
+    "L_EF6038",
+    "Npc1290"
+  ],
+  "region": "Lost-Underworld",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

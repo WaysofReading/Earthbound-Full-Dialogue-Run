@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0120",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0120",
+  "label": "boy_bowler-hat",
+  "location": {
+    "x0": 7984,
+    "x1": 7984,
+    "x_sector": 31,
+    "x_tile": 249,
+    "y0": 1352,
+    "y1": 1352,
+    "y_sector": 5,
+    "y_tile": 42
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 125,
+    "sprite_label": "boy_bowler-hat"
+  },
+  "reachable_nodes": [
+    "L_C73CA6",
+    "L_C73CFA",
+    "L_C73D5E",
+    "L_C73D85",
+    "L_C7DC7F",
+    "Npc0120"
+  ],
+  "region": "Onett_Secret Hideout_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

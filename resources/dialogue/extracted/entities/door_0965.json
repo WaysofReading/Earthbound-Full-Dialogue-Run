@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0965",
+  "label": "",
+  "location": {
+    "x0": 4080,
+    "x1": 4080,
+    "x_sector": 15,
+    "x_tile": 127,
+    "y0": 5416,
+    "y1": 5416,
+    "y_sector": 21,
+    "y_tile": 169
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 482,
+      "y": 717
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Threed_Under Graveyard_1F_B1F_Stairs_B2F_Stairs",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

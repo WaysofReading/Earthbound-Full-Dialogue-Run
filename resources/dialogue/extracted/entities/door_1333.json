@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B10B",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1333",
+  "label": "",
+  "location": {
+    "x0": 552,
+    "x1": 552,
+    "x_sector": 2,
+    "x_tile": 17,
+    "y0": 7296,
+    "y1": 7296,
+    "y_sector": 28,
+    "y_tile": 228
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 899,
+      "y": 633
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9B10B",
+    "L_C9B112"
+  ],
+  "region": "Saturn-Valley",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

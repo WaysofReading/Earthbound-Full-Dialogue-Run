@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0540",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0540",
+  "label": "man_glasses_orange-cardigan",
+  "location": {
+    "x0": 5576,
+    "x1": 5576,
+    "x_sector": 21,
+    "x_tile": 174,
+    "y0": 9168,
+    "y1": 9168,
+    "y_sector": 35,
+    "y_tile": 286
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 64,
+    "sprite_label": "man_glasses_orange-cardigan"
+  },
+  "reachable_nodes": [
+    "Npc0540"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 125,
+    "flag_label": "ZOMBIES_ON_TENT_FLOOR"
+  }
+}

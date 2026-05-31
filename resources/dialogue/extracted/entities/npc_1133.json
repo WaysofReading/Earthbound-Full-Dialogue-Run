@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1133",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1133",
+  "label": "healer",
+  "location": {
+    "x0": 7768,
+    "x1": 7768,
+    "x_sector": 30,
+    "x_tile": 242,
+    "y0": 8528,
+    "y1": 8528,
+    "y_sector": 33,
+    "y_tile": 266
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 189,
+    "sprite_label": "healer"
+  },
+  "reachable_nodes": [
+    "L_C91805",
+    "L_C91A91",
+    "L_C91ABE",
+    "L_C91B24",
+    "L_C91B3D",
+    "L_C91B6F",
+    "L_C91BB8",
+    "L_C91C1B",
+    "Npc1133"
+  ],
+  "region": "Scaraba_Hospital_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

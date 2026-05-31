@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1353",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1353",
+  "label": "tentacle",
+  "location": {
+    "x0": 5552,
+    "x1": 5552,
+    "x_sector": 21,
+    "x_tile": 173,
+    "y0": 3912,
+    "y1": 3912,
+    "y_sector": 15,
+    "y_tile": 122
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 200,
+    "sprite_label": "tentacle"
+  },
+  "reachable_nodes": [
+    "Npc1353"
+  ],
+  "region": "Magicant",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

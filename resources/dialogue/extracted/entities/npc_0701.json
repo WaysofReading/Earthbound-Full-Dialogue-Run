@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0701",
+  "label": "paula",
+  "location": {
+    "x0": 768,
+    "x1": 768,
+    "x_sector": 3,
+    "x_tile": 24,
+    "y0": 5314,
+    "y1": 5314,
+    "y_sector": 20,
+    "y_tile": 166
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 2,
+    "sprite_label": "paula"
+  },
+  "reachable_nodes": [],
+  "region": "Saturn Valley_Milky Well_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 349,
+    "flag_label": "JUST_WOKE_UP_FROM_MAGICANT"
+  }
+}

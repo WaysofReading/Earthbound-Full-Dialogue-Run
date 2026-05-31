@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1076",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 6896,
+    "x1": 6896,
+    "x_sector": 26,
+    "x_tile": 215,
+    "y0": 2936,
+    "y1": 2936,
+    "y_sector": 11,
+    "y_tile": 91
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 887,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0252",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 119,
+      "gated_by_flag_label": "RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER",
+      "node_id": "L_C958D7",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0252",
+  "label": "runaway-5_groovy",
+  "location": {
+    "x0": 8032,
+    "x1": 8032,
+    "x_sector": 31,
+    "x_tile": 251,
+    "y0": 7504,
+    "y1": 7504,
+    "y_sector": 29,
+    "y_tile": 234
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 187,
+    "sprite_label": "runaway-5_groovy"
+  },
+  "reachable_nodes": [
+    "L_C957FF",
+    "L_C95881",
+    "L_C958D7",
+    "Npc0252"
+  ],
+  "region": "Twoson_Chaos Theater_1F_Concert-Hall_Dressing-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 119,
+    "flag_label": "RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER"
+  }
+}

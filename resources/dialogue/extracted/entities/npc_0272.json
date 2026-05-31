@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0272",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0272",
+  "label": "man_cane_green-jacket",
+  "location": {
+    "x0": 7344,
+    "x1": 7344,
+    "x_sector": 28,
+    "x_tile": 229,
+    "y0": 8552,
+    "y1": 8552,
+    "y_sector": 33,
+    "y_tile": 267
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 52,
+    "sprite_label": "man_cane_green-jacket"
+  },
+  "reachable_nodes": [
+    "Npc0272"
+  ],
+  "region": "Twoson_Bus Station_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

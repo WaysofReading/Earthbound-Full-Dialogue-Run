@@ -1,0 +1,51 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0012",
+      "role": "primary"
+    },
+    {
+      "node_id": "L_C680C2",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0061",
+  "label": "atm-machine",
+  "location": {
+    "x0": 7216,
+    "x1": 7216,
+    "x_sector": 28,
+    "x_tile": 225,
+    "y0": 1088,
+    "y1": 1088,
+    "y_sector": 4,
+    "y_tile": 34
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 259,
+    "sprite_label": "atm-machine"
+  },
+  "reachable_nodes": [
+    "L_C62D91",
+    "L_C62D93",
+    "L_C62E6D",
+    "L_C62F99",
+    "L_C62FC5",
+    "L_C62FD6",
+    "L_C63004",
+    "L_C680C2",
+    "L_C680DC",
+    "Npc0012",
+    "Npc1375"
+  ],
+  "region": "Onett_Hotel_1F_ATM",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

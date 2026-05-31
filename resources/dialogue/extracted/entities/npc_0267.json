@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0267",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0267",
+  "label": "nurse",
+  "location": {
+    "x0": 7824,
+    "x1": 7824,
+    "x_sector": 30,
+    "x_tile": 244,
+    "y0": 7384,
+    "y1": 7384,
+    "y_sector": 28,
+    "y_tile": 230
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 140,
+    "sprite_label": "nurse"
+  },
+  "reachable_nodes": [
+    "Npc0267"
+  ],
+  "region": "Twoson_Hospital_1F_Doctor's-Office",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

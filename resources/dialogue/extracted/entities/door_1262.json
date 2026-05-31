@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1262",
+  "label": "",
+  "location": {
+    "x0": 5888,
+    "x1": 5888,
+    "x_sector": 23,
+    "x_tile": 184,
+    "y0": 6880,
+    "y1": 6880,
+    "y_sector": 26,
+    "y_tile": 215
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 635,
+      "y": 663
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside_Hotel_1F_Lobby_Right-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

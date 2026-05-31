@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0106",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0184",
+  "label": "",
+  "location": {
+    "x0": 4704,
+    "x1": 4704,
+    "x_sector": 18,
+    "x_tile": 147,
+    "y0": 5968,
+    "y1": 5968,
+    "y_sector": 23,
+    "y_tile": 186
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "person"
+  },
+  "reachable_nodes": [
+    "L_C737A4",
+    "Npc0106"
+  ],
+  "region": "Fourside_Topolla Theater_1F_Concert-Hall",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0436",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 13,
+      "gated_by_flag_label": "PAULA_JOINS",
+      "node_id": "L_C795C1",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0436",
+  "label": "door_jail-cell",
+  "location": {
+    "x0": 7000,
+    "x1": 7000,
+    "x_sector": 27,
+    "x_tile": 218,
+    "y0": 9808,
+    "y1": 9808,
+    "y_sector": 38,
+    "y_tile": 306
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 249,
+    "sprite_label": "door_jail-cell"
+  },
+  "reachable_nodes": [
+    "L_C795C1",
+    "L_C7DC85",
+    "L_C7DCB6",
+    "L_C7DCDA",
+    "L_C7E6D7",
+    "L_C7E74E",
+    "L_EF95A3",
+    "L_EF970F",
+    "L_EF9737",
+    "L_EF976B",
+    "Npc0436"
+  ],
+  "region": "Peaceful Rest Valley_Paula's Cabin_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 13,
+    "flag_label": "PAULA_JOINS"
+  }
+}

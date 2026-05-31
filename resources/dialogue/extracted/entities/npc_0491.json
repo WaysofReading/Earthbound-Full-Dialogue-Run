@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0491",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0491",
+  "label": "bellhop",
+  "location": {
+    "x0": 7944,
+    "x1": 7944,
+    "x_sector": 31,
+    "x_tile": 248,
+    "y0": 9304,
+    "y1": 9304,
+    "y_sector": 36,
+    "y_tile": 290
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 73,
+    "sprite_label": "bellhop"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "Npc0491"
+  ],
+  "region": "Threed_Hotel_1F_Lobby",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 589,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0928",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0928",
+  "label": "girl_blonde_yellow-dress",
+  "location": {
+    "x0": 4560,
+    "x1": 4560,
+    "x_sector": 17,
+    "x_tile": 142,
+    "y0": 6168,
+    "y1": 6168,
+    "y_sector": 24,
+    "y_tile": 192
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 16,
+    "npc_type": "person",
+    "sprite": 122,
+    "sprite_label": "girl_blonde_yellow-dress"
+  },
+  "reachable_nodes": [
+    "L_C82B27",
+    "Npc0928"
+  ],
+  "region": "Fourside_Department Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 57,
+    "flag_label": "FOURSIDE_DEPT_BLACKOUT"
+  }
+}

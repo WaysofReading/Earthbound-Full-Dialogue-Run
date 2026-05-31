@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0671",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 299,
+      "gated_by_flag_label": "IRON_ERASER_ERASED",
+      "node_id": "L_C9FCD5",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0671",
+  "label": "eraser-statue",
+  "location": {
+    "x0": 6488,
+    "x1": 6488,
+    "x_sector": 25,
+    "x_tile": 202,
+    "y0": 6064,
+    "y1": 6064,
+    "y_sector": 23,
+    "y_tile": 189
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "object",
+    "sprite": 407,
+    "sprite_label": "eraser-statue"
+  },
+  "reachable_nodes": [
+    "L_C7DD2C",
+    "L_C7DD37",
+    "L_C9FCD5",
+    "Npc0671"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 299,
+    "flag_label": "IRON_ERASER_ERASED"
+  }
+}

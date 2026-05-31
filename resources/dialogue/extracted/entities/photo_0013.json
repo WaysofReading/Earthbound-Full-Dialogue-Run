@@ -1,0 +1,29 @@
+{
+  "entry_points": [],
+  "id": "photo_0013",
+  "label": "",
+  "location": {
+    "x0": 465,
+    "x1": 465,
+    "x_sector": 1,
+    "x_tile": 14,
+    "y0": 179,
+    "y1": 179,
+    "y_sector": 0,
+    "y_tile": 5
+  },
+  "properties": {
+    "gating_flag": 711,
+    "gating_flag_label": "GOT_PHOTO_DESERT_MINE",
+    "photo_index": 13,
+    "trigger": "region"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Tenda Village_Main",
+  "type": "photo_event",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

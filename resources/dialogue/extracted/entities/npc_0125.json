@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0125",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0125",
+  "label": "lier-x-agerate",
+  "location": {
+    "x0": 1828,
+    "x1": 1828,
+    "x_sector": 7,
+    "x_tile": 57,
+    "y0": 125,
+    "y1": 125,
+    "y_sector": 0,
+    "y_tile": 3
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 152,
+    "sprite_label": "lier-x-agerate"
+  },
+  "reachable_nodes": [
+    "L_C74207",
+    "L_C7434D",
+    "L_C7436C",
+    "Npc0125"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 104,
+    "flag_label": "POKEY_PUNISHED"
+  }
+}

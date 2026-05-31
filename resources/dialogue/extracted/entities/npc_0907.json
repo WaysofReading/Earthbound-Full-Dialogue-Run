@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0907",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 5993,
+    "x1": 5993,
+    "x_sector": 23,
+    "x_tile": 187,
+    "y0": 6834,
+    "y1": 6834,
+    "y_sector": 26,
+    "y_tile": 213
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0777",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 3728,
+    "x1": 3728,
+    "x_sector": 14,
+    "x_tile": 116,
+    "y0": 9592,
+    "y1": 9592,
+    "y_sector": 37,
+    "y_tile": 299
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 875,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 174,
+    "flag_label": "DESERT_MINE_EXPANDED"
+  }
+}

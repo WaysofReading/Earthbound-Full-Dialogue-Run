@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0867",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0867",
+  "label": "bodyguard",
+  "location": {
+    "x0": 5640,
+    "x1": 5640,
+    "x_sector": 22,
+    "x_tile": 176,
+    "y0": 5608,
+    "y1": 5608,
+    "y_sector": 21,
+    "y_tile": 175
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 109,
+    "sprite_label": "bodyguard"
+  },
+  "reachable_nodes": [
+    "Npc0867"
+  ],
+  "region": "Fourside_Monotoli_L2_Right-Room-(Pokey)",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 143,
+    "flag_label": "FOURSIDE_FREE_FROM_MONOTOLI"
+  }
+}

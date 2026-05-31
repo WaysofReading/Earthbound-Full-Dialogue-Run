@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0361",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0361",
+  "label": "sign_apple-kid",
+  "location": {
+    "x0": 1888,
+    "x1": 1888,
+    "x_sector": 7,
+    "x_tile": 59,
+    "y0": 7376,
+    "y1": 7376,
+    "y_sector": 28,
+    "y_tile": 230
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 403,
+    "sprite_label": "sign_apple-kid"
+  },
+  "reachable_nodes": [
+    "Npc0361"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

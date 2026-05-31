@@ -1,0 +1,56 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1065",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1065",
+  "label": "man_sailor_blue-clothes",
+  "location": {
+    "x0": 7264,
+    "x1": 7264,
+    "x_sector": 28,
+    "x_tile": 227,
+    "y0": 2928,
+    "y1": 2928,
+    "y_sector": 11,
+    "y_tile": 91
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 90,
+    "sprite_label": "man_sailor_blue-clothes"
+  },
+  "reachable_nodes": [
+    "L_C685AD",
+    "L_C7DD6B",
+    "L_C8B568",
+    "L_C8B57C",
+    "L_C8B57E",
+    "L_C8B64E",
+    "L_C8B680",
+    "L_C8B6D5",
+    "L_C8B77B",
+    "L_C8B7B4",
+    "L_C8B7E4",
+    "L_C8B851",
+    "L_C92C70",
+    "L_C92D92",
+    "L_C92DEE",
+    "L_C92E9E",
+    "L_C92F88",
+    "L_C92FB4",
+    "L_C9B4B8",
+    "Npc1065"
+  ],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

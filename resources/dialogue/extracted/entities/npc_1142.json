@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1142",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1142",
+  "label": "man_meditating",
+  "location": {
+    "x0": 1688,
+    "x1": 1688,
+    "x_sector": 6,
+    "x_tile": 52,
+    "y0": 4168,
+    "y1": 4168,
+    "y_sector": 16,
+    "y_tile": 130
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 168,
+    "sprite_label": "man_meditating"
+  },
+  "reachable_nodes": [
+    "L_C5725A",
+    "Npc1142"
+  ],
+  "region": "Scaraba",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C7D867",
+      "role": "primary"
+    }
+  ],
+  "id": "present_1543",
+  "label": "present_dalaam",
+  "location": {
+    "x0": 6744,
+    "x1": 6744,
+    "x_sector": 26,
+    "x_tile": 210,
+    "y0": 8352,
+    "y1": 8352,
+    "y_sector": 32,
+    "y_tile": 261
+  },
+  "properties": {
+    "container": null,
+    "item": null,
+    "item_label": null,
+    "sprite": 233,
+    "sprite_label": "present_dalaam"
+  },
+  "reachable_nodes": [
+    "L_C7D867",
+    "L_C7D87F",
+    "L_C7D90D",
+    "L_C7D92A",
+    "L_C7D947",
+    "L_C7D958",
+    "L_C7D9EC",
+    "L_C7D9FC",
+    "L_C7DA0C",
+    "L_C7DA23",
+    "L_C7DA58",
+    "L_C7DA68",
+    "L_C7DA8F",
+    "L_C7DAA1",
+    "L_C7DC85"
+  ],
+  "region": "Dalaam_Palace_1F_Throne-Room",
+  "type": "present",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

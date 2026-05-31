@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1337",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1337",
+  "label": "magicant-being_daisy",
+  "location": {
+    "x0": 6000,
+    "x1": 6000,
+    "x_sector": 23,
+    "x_tile": 187,
+    "y0": 4752,
+    "y1": 4752,
+    "y_sector": 18,
+    "y_tile": 148
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 100,
+    "sprite_label": "magicant-being_daisy"
+  },
+  "reachable_nodes": [
+    "Npc1337"
+  ],
+  "region": "Magicant",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

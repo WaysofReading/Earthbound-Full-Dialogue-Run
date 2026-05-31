@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0042",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0042",
+  "label": "woman_blonde_red-dress",
+  "location": {
+    "x0": 7192,
+    "x1": 7192,
+    "x_sector": 28,
+    "x_tile": 224,
+    "y0": 1384,
+    "y1": 1384,
+    "y_sector": 5,
+    "y_tile": 43
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 68,
+    "sprite_label": "woman_blonde_red-dress"
+  },
+  "reachable_nodes": [
+    "Npc0042"
+  ],
+  "region": "Onett_Bakery_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

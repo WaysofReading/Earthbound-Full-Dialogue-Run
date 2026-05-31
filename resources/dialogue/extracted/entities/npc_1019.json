@@ -1,0 +1,77 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1019",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1019",
+  "label": "bellhop",
+  "location": {
+    "x0": 7528,
+    "x1": 7528,
+    "x_sector": 29,
+    "x_tile": 235,
+    "y0": 8768,
+    "y1": 8768,
+    "y_sector": 34,
+    "y_tile": 274
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 73,
+    "sprite_label": "bellhop"
+  },
+  "reachable_nodes": [
+    "L_C841DE",
+    "L_C842A5",
+    "L_C842A8",
+    "L_C842AB",
+    "L_C842AE",
+    "L_C842B1",
+    "L_C842B4",
+    "L_C842B7",
+    "L_C842BA",
+    "L_C842BD",
+    "L_C842C0",
+    "L_C842C3",
+    "L_C842C6",
+    "L_C842C9",
+    "L_C842CC",
+    "L_C842CF",
+    "L_C842D2",
+    "L_C842D5",
+    "L_C842D8",
+    "L_C842DB",
+    "L_C842DE",
+    "L_C842E1",
+    "L_C842E4",
+    "L_C842E7",
+    "L_C842EA",
+    "L_C842ED",
+    "L_C842F0",
+    "L_C842F3",
+    "L_C842F6",
+    "L_C85C55",
+    "L_C85C76",
+    "L_C85C99",
+    "L_C85CD3",
+    "L_C85D13",
+    "L_C85D45",
+    "L_C85DE3",
+    "L_C85E27",
+    "L_C85E65",
+    "L_C85EB1",
+    "L_C85F32",
+    "Npc1019"
+  ],
+  "region": "Summers and Toto_Hotel_1F_Lobby",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 383,
+    "flag_label": "JUST_RESTED"
+  }
+}

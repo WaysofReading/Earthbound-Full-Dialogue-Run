@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0983",
+  "label": "streetsign_city",
+  "location": {
+    "x0": 2760,
+    "x1": 2760,
+    "x_sector": 10,
+    "x_tile": 86,
+    "y0": 4032,
+    "y1": 4032,
+    "y_sector": 15,
+    "y_tile": 126
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 204,
+    "sprite_label": "streetsign_city"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

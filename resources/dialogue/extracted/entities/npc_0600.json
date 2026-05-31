@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0600",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0600",
+  "label": "man_blonde_black-suit",
+  "location": {
+    "x0": 7952,
+    "x1": 7952,
+    "x_sector": 31,
+    "x_tile": 248,
+    "y0": 3104,
+    "y1": 3104,
+    "y_sector": 12,
+    "y_tile": 97
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 61,
+    "sprite_label": "man_blonde_black-suit"
+  },
+  "reachable_nodes": [
+    "Npc0600"
+  ],
+  "region": "Winters_Snow Wood_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

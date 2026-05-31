@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1278",
+  "label": "paula",
+  "location": {
+    "x0": 6188,
+    "x1": 6188,
+    "x_sector": 24,
+    "x_tile": 193,
+    "y0": 9762,
+    "y1": 9762,
+    "y_sector": 38,
+    "y_tile": 305
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 2,
+    "sprite_label": "paula"
+  },
+  "reachable_nodes": [],
+  "region": "Lost Underworld_Fire Springs_1F_Sanctuary-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 349,
+    "flag_label": "JUST_WOKE_UP_FROM_MAGICANT"
+  }
+}

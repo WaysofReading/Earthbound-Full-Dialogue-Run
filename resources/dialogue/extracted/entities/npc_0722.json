@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0722",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0722",
+  "label": "mr-saturn",
+  "location": {
+    "x0": 304,
+    "x1": 304,
+    "x_sector": 1,
+    "x_tile": 9,
+    "y0": 7304,
+    "y1": 7304,
+    "y_sector": 28,
+    "y_tile": 228
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 171,
+    "sprite_label": "mr-saturn"
+  },
+  "reachable_nodes": [
+    "L_C7ECBE",
+    "L_C7ECCD",
+    "L_C7ECDB",
+    "Npc0722"
+  ],
+  "region": "Saturn-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 372,
+    "flag_label": "PARTY_IS_ROBOTIFIED"
+  }
+}

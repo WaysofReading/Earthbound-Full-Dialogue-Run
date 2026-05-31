@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1245",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1245",
+  "label": "helicopter_crashed",
+  "location": {
+    "x0": 5496,
+    "x1": 5496,
+    "x_sector": 21,
+    "x_tile": 171,
+    "y0": 7880,
+    "y1": 7880,
+    "y_sector": 30,
+    "y_tile": 246
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 411,
+    "sprite_label": "helicopter_crashed"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "L_C9ECFE",
+    "Npc1245"
+  ],
+  "region": "Deep-Darkness",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

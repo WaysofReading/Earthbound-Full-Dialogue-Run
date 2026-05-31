@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1159",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 1256,
+    "x1": 1256,
+    "x_sector": 4,
+    "x_tile": 39,
+    "y0": 5400,
+    "y1": 5400,
+    "y_sector": 21,
+    "y_tile": 168
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 890,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

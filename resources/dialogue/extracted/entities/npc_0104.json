@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0104",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0104",
+  "label": "man_blonde_blue-oxford",
+  "location": {
+    "x0": 7024,
+    "x1": 7024,
+    "x_sector": 27,
+    "x_tile": 219,
+    "y0": 1128,
+    "y1": 1128,
+    "y_sector": 4,
+    "y_tile": 35
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 112,
+    "sprite_label": "man_blonde_blue-oxford"
+  },
+  "reachable_nodes": [
+    "Npc0104"
+  ],
+  "region": "Onett_Library_1F_Left-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

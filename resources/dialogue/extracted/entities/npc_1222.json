@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1133",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1222",
+  "label": "healer",
+  "location": {
+    "x0": 5944,
+    "x1": 5944,
+    "x_sector": 23,
+    "x_tile": 185,
+    "y0": 6736,
+    "y1": 6736,
+    "y_sector": 26,
+    "y_tile": 210
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 189,
+    "sprite_label": "healer"
+  },
+  "reachable_nodes": [
+    "L_C91805",
+    "L_C91A91",
+    "L_C91ABE",
+    "L_C91B24",
+    "L_C91B3D",
+    "L_C91B6F",
+    "L_C91BB8",
+    "L_C91C1B",
+    "Npc1133"
+  ],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

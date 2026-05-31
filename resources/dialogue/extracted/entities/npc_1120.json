@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1120",
+  "label": "paula",
+  "location": {
+    "x0": 3546,
+    "x1": 3546,
+    "x_sector": 13,
+    "x_tile": 110,
+    "y0": 6185,
+    "y1": 6185,
+    "y_sector": 24,
+    "y_tile": 193
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 2,
+    "sprite_label": "paula"
+  },
+  "reachable_nodes": [],
+  "region": "Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 349,
+    "flag_label": "JUST_WOKE_UP_FROM_MAGICANT"
+  }
+}

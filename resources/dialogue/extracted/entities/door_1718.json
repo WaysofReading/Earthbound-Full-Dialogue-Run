@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1718",
+  "label": "",
+  "location": {
+    "x0": 7752,
+    "x1": 7752,
+    "x_sector": 30,
+    "x_tile": 242,
+    "y0": 9688,
+    "y1": 9688,
+    "y_sector": 37,
+    "y_tile": 302
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 852,
+      "y": 1133
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Summers and Toto_Hospital_1F_2F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

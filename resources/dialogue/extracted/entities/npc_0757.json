@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0757",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0757",
+  "label": "lookalike_teddy",
+  "location": {
+    "x0": 1829,
+    "x1": 1829,
+    "x_sector": 7,
+    "x_tile": 57,
+    "y0": 9995,
+    "y1": 9995,
+    "y_sector": 39,
+    "y_tile": 312
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 118,
+    "sprite_label": "lookalike_teddy"
+  },
+  "reachable_nodes": [
+    "Npc0757"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 136,
+    "flag_label": "TRAFFIC_JAM_CLEARED"
+  }
+}

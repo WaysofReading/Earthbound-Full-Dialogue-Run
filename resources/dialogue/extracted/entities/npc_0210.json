@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0210",
+  "label": "king_flashback",
+  "location": {
+    "x0": 1672,
+    "x1": 1672,
+    "x_sector": 6,
+    "x_tile": 52,
+    "y0": 8824,
+    "y1": 8824,
+    "y_sector": 34,
+    "y_tile": 275
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 699,
+    "npc_type": "person",
+    "sprite": 399,
+    "sprite_label": "king_flashback"
+  },
+  "reachable_nodes": [],
+  "region": "Cutscenes_Flashback_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 372,
+    "flag_label": "PARTY_IS_ROBOTIFIED"
+  }
+}

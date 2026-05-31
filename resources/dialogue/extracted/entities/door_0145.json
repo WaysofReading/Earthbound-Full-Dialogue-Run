@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C5E840",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0145",
+  "label": "",
+  "location": {
+    "x0": 2792,
+    "x1": 2792,
+    "x_sector": 10,
+    "x_tile": 87,
+    "y0": 608,
+    "y1": 608,
+    "y_sector": 2,
+    "y_tile": 19
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 973,
+      "y": 42
+    },
+    "direction": "left",
+    "gating_flag": 33108,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 0,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C5E840"
+  ],
+  "region": "Onett",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

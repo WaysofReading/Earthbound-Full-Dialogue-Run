@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0840",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0840",
+  "label": "man_blonde_black-suit",
+  "location": {
+    "x0": 4504,
+    "x1": 4504,
+    "x_sector": 17,
+    "x_tile": 140,
+    "y0": 5864,
+    "y1": 5864,
+    "y_sector": 22,
+    "y_tile": 183
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 61,
+    "sprite_label": "man_blonde_black-suit"
+  },
+  "reachable_nodes": [
+    "L_C6D561",
+    "L_C6D5AE",
+    "L_C6D61E",
+    "L_C6D642",
+    "Npc0840"
+  ],
+  "region": "Fourside_Topolla Theater_1F_Concert-Hall",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 374,
+    "flag_label": "TOPOLLA_THEATER_BACKSTAGE_UNBLOCKED"
+  }
+}

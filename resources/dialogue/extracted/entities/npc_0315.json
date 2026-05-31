@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0315",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0315",
+  "label": "lookalike_teddy",
+  "location": {
+    "x0": 1728,
+    "x1": 1728,
+    "x_sector": 6,
+    "x_tile": 54,
+    "y0": 6912,
+    "y1": 6912,
+    "y_sector": 27,
+    "y_tile": 216
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 118,
+    "sprite_label": "lookalike_teddy"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "L_C9432B",
+    "L_C94359",
+    "Npc0315"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

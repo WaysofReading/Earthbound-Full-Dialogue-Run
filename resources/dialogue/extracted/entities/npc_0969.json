@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0969",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0969",
+  "label": "lookalike_pigpen",
+  "location": {
+    "x0": 3552,
+    "x1": 3552,
+    "x_sector": 13,
+    "x_tile": 111,
+    "y0": 3448,
+    "y1": 3448,
+    "y_sector": 13,
+    "y_tile": 107
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 115,
+    "sprite_label": "lookalike_pigpen"
+  },
+  "reachable_nodes": [
+    "Npc0969"
+  ],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

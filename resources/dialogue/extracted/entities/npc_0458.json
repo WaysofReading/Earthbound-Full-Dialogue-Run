@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0458",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0458",
+  "label": "woman_blonde_blue-blazer",
+  "location": {
+    "x0": 7997,
+    "x1": 7997,
+    "x_sector": 31,
+    "x_tile": 249,
+    "y0": 10213,
+    "y1": 10213,
+    "y_sector": 39,
+    "y_tile": 319
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 65,
+    "sprite_label": "woman_blonde_blue-blazer"
+  },
+  "reachable_nodes": [
+    "L_C8DC8D",
+    "L_C8DCB2",
+    "L_C8DCF9",
+    "L_C8DD12",
+    "Npc0458"
+  ],
+  "region": "Threed_Circus Tent_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 125,
+    "flag_label": "ZOMBIES_ON_TENT_FLOOR"
+  }
+}

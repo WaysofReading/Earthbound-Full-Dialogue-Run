@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1135",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1135",
+  "label": "man_scaraban_green-clothes",
+  "location": {
+    "x0": 1564,
+    "x1": 1564,
+    "x_sector": 6,
+    "x_tile": 48,
+    "y0": 4138,
+    "y1": 4138,
+    "y_sector": 16,
+    "y_tile": 129
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 93,
+    "sprite_label": "man_scaraban_green-clothes"
+  },
+  "reachable_nodes": [
+    "Npc1135"
+  ],
+  "region": "Scaraba",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

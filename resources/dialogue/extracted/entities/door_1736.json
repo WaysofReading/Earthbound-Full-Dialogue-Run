@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1736",
+  "label": "",
+  "location": {
+    "x0": 7608,
+    "x1": 7608,
+    "x_sector": 29,
+    "x_tile": 237,
+    "y0": 9936,
+    "y1": 9936,
+    "y_sector": 38,
+    "y_tile": 310
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 793,
+      "y": 1175
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 10,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Threed_Houses_Southeast_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

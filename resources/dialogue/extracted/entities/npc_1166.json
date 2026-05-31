@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1166",
+  "label": "monster_guardian-hieroglyph",
+  "location": {
+    "x0": 5744,
+    "x1": 5744,
+    "x_sector": 22,
+    "x_tile": 179,
+    "y0": 2488,
+    "y1": 2488,
+    "y_sector": 9,
+    "y_tile": 77
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 325,
+    "sprite_label": "monster_guardian-hieroglyph"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Pyramid_Entryway",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

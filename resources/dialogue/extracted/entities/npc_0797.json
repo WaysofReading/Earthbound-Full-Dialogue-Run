@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0797",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0797",
+  "label": "tala-lama",
+  "location": {
+    "x0": 7192,
+    "x1": 7192,
+    "x_sector": 28,
+    "x_tile": 224,
+    "y0": 5320,
+    "y1": 5320,
+    "y_sector": 20,
+    "y_tile": 166
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 177,
+    "sprite_label": "tala-lama"
+  },
+  "reachable_nodes": [
+    "Npc0797"
+  ],
+  "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Maze_Room-2",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 745,
+    "flag_label": "QUEST_TO_YOGURT_MACHINE"
+  }
+}

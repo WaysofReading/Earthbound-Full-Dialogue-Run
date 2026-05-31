@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0988",
+  "label": "",
+  "location": {
+    "x0": 6288,
+    "x1": 6288,
+    "x_sector": 24,
+    "x_tile": 196,
+    "y0": 5448,
+    "y1": 5448,
+    "y_sector": 21,
+    "y_tile": 170
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 899,
+      "y": 665
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

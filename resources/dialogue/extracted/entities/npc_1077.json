@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1077",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1077",
+  "label": "man_hat_green-jacket",
+  "location": {
+    "x0": 6808,
+    "x1": 6808,
+    "x_sector": 26,
+    "x_tile": 212,
+    "y0": 2840,
+    "y1": 2840,
+    "y_sector": 11,
+    "y_tile": 88
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 54,
+    "sprite_label": "man_hat_green-jacket"
+  },
+  "reachable_nodes": [
+    "Npc1077"
+  ],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

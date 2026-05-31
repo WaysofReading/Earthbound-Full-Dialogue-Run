@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0412",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0412",
+  "label": "maxwell-labs",
+  "location": {
+    "x0": 4040,
+    "x1": 4040,
+    "x_sector": 15,
+    "x_tile": 126,
+    "y0": 7776,
+    "y1": 7776,
+    "y_sector": 30,
+    "y_tile": 243
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 69,
+    "sprite_label": "maxwell-labs"
+  },
+  "reachable_nodes": [
+    "L_C6852A",
+    "L_C98DB4",
+    "L_C98DD9",
+    "L_C98DF9",
+    "L_C98E33",
+    "L_C98E5E",
+    "Npc0412"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 67,
+    "flag_label": "FOOD_STAND_MONITOR_DEFEATED"
+  }
+}

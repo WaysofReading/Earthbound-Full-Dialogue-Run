@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B0E3",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0886",
+  "label": "",
+  "location": {
+    "x0": 5160,
+    "x1": 5160,
+    "x_sector": 20,
+    "x_tile": 161,
+    "y0": 5304,
+    "y1": 5304,
+    "y_sector": 20,
+    "y_tile": 165
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 739,
+      "y": 813
+    },
+    "direction": "right",
+    "gating_flag": 350,
+    "gating_flag_label": "USED_ELEVATOR",
+    "kind": "interactive",
+    "style": 13,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9B0E3",
+    "L_C9B0EB"
+  ],
+  "region": "Fourside_Monotoli_L2_Lobby_Elevator-Down",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

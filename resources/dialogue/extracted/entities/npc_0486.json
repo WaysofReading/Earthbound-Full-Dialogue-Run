@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0486",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0486",
+  "label": "man_blonde_blue-blazer",
+  "location": {
+    "x0": 6824,
+    "x1": 6824,
+    "x_sector": 26,
+    "x_tile": 213,
+    "y0": 9296,
+    "y1": 9296,
+    "y_sector": 36,
+    "y_tile": 290
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 70,
+    "sprite_label": "man_blonde_blue-blazer"
+  },
+  "reachable_nodes": [
+    "L_C8F4D8",
+    "Npc0486"
+  ],
+  "region": "Threed_Hotel_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

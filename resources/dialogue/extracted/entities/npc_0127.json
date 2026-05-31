@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0127",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0127",
+  "label": "lookalike_pigpen",
+  "location": {
+    "x0": 1968,
+    "x1": 1968,
+    "x_sector": 7,
+    "x_tile": 61,
+    "y0": 776,
+    "y1": 776,
+    "y_sector": 3,
+    "y_tile": 24
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 607,
+    "npc_type": "person",
+    "sprite": 115,
+    "sprite_label": "lookalike_pigpen"
+  },
+  "reachable_nodes": [
+    "L_C744D7",
+    "L_C744E6",
+    "L_C74578",
+    "L_C7DC7F",
+    "Npc0127"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0518",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0518",
+  "label": "girl_blonde_yellow-dress",
+  "location": {
+    "x0": 6024,
+    "x1": 6024,
+    "x_sector": 23,
+    "x_tile": 188,
+    "y0": 8896,
+    "y1": 8896,
+    "y_sector": 34,
+    "y_tile": 278
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 16,
+    "npc_type": "person",
+    "sprite": 122,
+    "sprite_label": "girl_blonde_yellow-dress"
+  },
+  "reachable_nodes": [
+    "L_C8E33B",
+    "Npc0518"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 740,
+    "flag_label": "PEOPLE_IN_THREED_ABSENT"
+  }
+}

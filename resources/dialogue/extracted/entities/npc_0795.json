@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0795",
+  "label": "backhoe",
+  "location": {
+    "x0": 5008,
+    "x1": 5008,
+    "x_sector": 19,
+    "x_tile": 156,
+    "y0": 10000,
+    "y1": 10000,
+    "y_sector": 39,
+    "y_tile": 312
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 256,
+    "npc_type": "object",
+    "sprite": 254,
+    "sprite_label": "backhoe"
+  },
+  "reachable_nodes": [],
+  "region": "Transitions_Dusty Dunes to Fourside_Fourside-Bridge",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 272,
+    "flag_label": "DIAMOND_TO_BE_DELIVERED"
+  }
+}

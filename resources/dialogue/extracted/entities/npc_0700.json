@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0700",
+  "label": "ness_unconscious",
+  "location": {
+    "x0": 787,
+    "x1": 787,
+    "x_sector": 3,
+    "x_tile": 24,
+    "y0": 5340,
+    "y1": 5340,
+    "y_sector": 20,
+    "y_tile": 166
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 16,
+    "sprite_label": "ness_unconscious"
+  },
+  "reachable_nodes": [],
+  "region": "Saturn Valley_Milky Well_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 349,
+    "flag_label": "JUST_WOKE_UP_FROM_MAGICANT"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99D6A",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1256",
+  "label": "",
+  "location": {
+    "x0": 5616,
+    "x1": 5616,
+    "x_sector": 21,
+    "x_tile": 175,
+    "y0": 6760,
+    "y1": 6760,
+    "y_sector": 26,
+    "y_tile": 211
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 563,
+      "y": 733
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C88991",
+    "L_C88A47",
+    "L_C88D91",
+    "L_C88F35",
+    "L_C88FB2",
+    "L_C9992F",
+    "L_C99D6A",
+    "L_C99D78"
+  ],
+  "region": "Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

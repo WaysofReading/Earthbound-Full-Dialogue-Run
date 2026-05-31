@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0973",
+  "label": "bench",
+  "location": {
+    "x0": 2504,
+    "x1": 2504,
+    "x_sector": 9,
+    "x_tile": 78,
+    "y0": 5040,
+    "y1": 5040,
+    "y_sector": 19,
+    "y_tile": 157
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 198,
+    "sprite_label": "bench"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

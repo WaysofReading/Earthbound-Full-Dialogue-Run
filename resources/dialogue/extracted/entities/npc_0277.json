@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0277",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0277",
+  "label": "woman_blonde_black-dress",
+  "location": {
+    "x0": 8064,
+    "x1": 8064,
+    "x_sector": 31,
+    "x_tile": 252,
+    "y0": 7768,
+    "y1": 7768,
+    "y_sector": 30,
+    "y_tile": 242
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 178,
+    "sprite_label": "woman_blonde_black-dress"
+  },
+  "reachable_nodes": [
+    "L_C966D6",
+    "Npc0277"
+  ],
+  "region": "Twoson_Houses_East-Orange_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

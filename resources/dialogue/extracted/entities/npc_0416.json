@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0416",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0416",
+  "label": "man_blonde_blue-blazer",
+  "location": {
+    "x0": 4096,
+    "x1": 4096,
+    "x_sector": 16,
+    "x_tile": 128,
+    "y0": 7768,
+    "y1": 7768,
+    "y_sector": 30,
+    "y_tile": 242
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 70,
+    "sprite_label": "man_blonde_blue-blazer"
+  },
+  "reachable_nodes": [
+    "L_C9922D",
+    "L_C99260",
+    "Npc0416"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

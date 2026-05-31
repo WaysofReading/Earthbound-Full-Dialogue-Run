@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0028",
+  "label": "curtains_closed_ness-house",
+  "location": {
+    "x0": 8080,
+    "x1": 8080,
+    "x_sector": 31,
+    "x_tile": 252,
+    "y0": 1072,
+    "y1": 1072,
+    "y_sector": 4,
+    "y_tile": 33
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 373,
+    "sprite_label": "curtains_closed_ness-house"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Ness' House_1F_2F_Ness'-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 422,
+    "flag_label": "ONETT_DAYTIME"
+  }
+}

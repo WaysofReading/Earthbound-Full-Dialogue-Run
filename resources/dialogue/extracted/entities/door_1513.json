@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1513",
+  "label": "",
+  "location": {
+    "x0": 6992,
+    "x1": 6992,
+    "x_sector": 27,
+    "x_tile": 218,
+    "y0": 8328,
+    "y1": 8328,
+    "y_sector": 32,
+    "y_tile": 260
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 967,
+      "y": 1041
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Dalaam_Palace_1F_Throne-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

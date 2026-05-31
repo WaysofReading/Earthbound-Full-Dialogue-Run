@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0242",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0242",
+  "label": "rastaman",
+  "location": {
+    "x0": 7024,
+    "x1": 7024,
+    "x_sector": 27,
+    "x_tile": 219,
+    "y0": 8600,
+    "y1": 8600,
+    "y_sector": 33,
+    "y_tile": 268
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 78,
+    "sprite_label": "rastaman"
+  },
+  "reachable_nodes": [
+    "L_C95257",
+    "Npc0242"
+  ],
+  "region": "Twoson_Chaos Theater_1F_Concert-Hall",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 751,
+    "flag_label": "CHAOS_THEATER_AUDIENCE_ABSENT"
+  }
+}

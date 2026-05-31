@@ -1,0 +1,51 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0012",
+      "role": "primary"
+    },
+    {
+      "node_id": "L_C680C2",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0506",
+  "label": "atm-machine",
+  "location": {
+    "x0": 8040,
+    "x1": 8040,
+    "x_sector": 31,
+    "x_tile": 251,
+    "y0": 9664,
+    "y1": 9664,
+    "y_sector": 37,
+    "y_tile": 302
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 259,
+    "sprite_label": "atm-machine"
+  },
+  "reachable_nodes": [
+    "L_C62D91",
+    "L_C62D93",
+    "L_C62E6D",
+    "L_C62F99",
+    "L_C62FC5",
+    "L_C62FD6",
+    "L_C63004",
+    "L_C680C2",
+    "L_C680DC",
+    "Npc0012",
+    "Npc1375"
+  ],
+  "region": "Threed_Drug Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

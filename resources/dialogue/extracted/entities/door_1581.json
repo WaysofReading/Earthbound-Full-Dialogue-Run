@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_1581",
+  "label": "",
+  "location": {
+    "x0": 4520,
+    "x1": 4520,
+    "x_sector": 17,
+    "x_tile": 141,
+    "y0": 8808,
+    "y1": 8808,
+    "y_sector": 34,
+    "y_tile": 275
+  },
+  "properties": {
+    "destination": null,
+    "direction": null,
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "rope"
+  },
+  "reachable_nodes": [],
+  "region": "Dalaam_Pink Cloud_1F_Return-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

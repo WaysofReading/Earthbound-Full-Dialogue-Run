@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0150",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0150",
+  "label": "cop",
+  "location": {
+    "x0": 2752,
+    "x1": 2752,
+    "x_sector": 10,
+    "x_tile": 86,
+    "y0": 544,
+    "y1": 544,
+    "y_sector": 2,
+    "y_tile": 17
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 74,
+    "sprite_label": "cop"
+  },
+  "reachable_nodes": [
+    "Npc0150"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 469,
+    "flag_label": "POLICE_AT_METEORITE"
+  }
+}

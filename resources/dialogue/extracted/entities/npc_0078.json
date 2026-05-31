@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0078",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0078",
+  "label": "prettyman",
+  "location": {
+    "x0": 7848,
+    "x1": 7848,
+    "x_sector": 30,
+    "x_tile": 245,
+    "y0": 592,
+    "y1": 592,
+    "y_sector": 2,
+    "y_tile": 18
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 59,
+    "sprite_label": "prettyman"
+  },
+  "reachable_nodes": [
+    "Npc0078"
+  ],
+  "region": "Onett_Town Hall_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

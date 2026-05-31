@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1195",
+  "label": "hawk_eye",
+  "location": {
+    "x0": 4208,
+    "x1": 4208,
+    "x_sector": 16,
+    "x_tile": 131,
+    "y0": 5568,
+    "y1": 5568,
+    "y_sector": 21,
+    "y_tile": 174
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 353,
+    "sprite_label": "hawk_eye"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 348,
+    "flag_label": "GOT_HAWK_EYE"
+  }
+}

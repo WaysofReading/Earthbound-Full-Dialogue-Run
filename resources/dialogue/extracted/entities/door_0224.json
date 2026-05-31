@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9AE01",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0224",
+  "label": "",
+  "location": {
+    "x0": 7688,
+    "x1": 7688,
+    "x_sector": 30,
+    "x_tile": 240,
+    "y0": 872,
+    "y1": 872,
+    "y_sector": 3,
+    "y_tile": 27
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 963,
+      "y": 29
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 15,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C5F760",
+    "L_C9992F",
+    "L_C9AE01"
+  ],
+  "region": "Onett_Town Hall_1F_Reception",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

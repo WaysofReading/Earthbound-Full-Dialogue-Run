@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1048",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1048",
+  "label": "healer",
+  "location": {
+    "x0": 6824,
+    "x1": 6824,
+    "x_sector": 26,
+    "x_tile": 213,
+    "y0": 9688,
+    "y1": 9688,
+    "y_sector": 37,
+    "y_tile": 302
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 189,
+    "sprite_label": "healer"
+  },
+  "reachable_nodes": [
+    "L_C91805",
+    "L_C91A91",
+    "L_C91ABE",
+    "L_C91B24",
+    "L_C91B3D",
+    "L_C91B6F",
+    "L_C91BB8",
+    "L_C91C1B",
+    "Npc1048"
+  ],
+  "region": "Summers and Toto_Hospital_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

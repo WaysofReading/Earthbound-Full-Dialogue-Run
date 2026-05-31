@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_0573",
+  "label": "",
+  "location": {
+    "x0": 5456,
+    "x1": 5456,
+    "x_sector": 21,
+    "x_tile": 170,
+    "y0": 3496,
+    "y1": 3496,
+    "y_sector": 13,
+    "y_tile": 109
+  },
+  "properties": {
+    "destination": null,
+    "direction": "se",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "stairway"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

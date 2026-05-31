@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9AB01",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0465",
+  "label": "",
+  "location": {
+    "x0": 7256,
+    "x1": 7256,
+    "x_sector": 28,
+    "x_tile": 226,
+    "y0": 2768,
+    "y1": 2768,
+    "y_sector": 10,
+    "y_tile": 86
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 907,
+      "y": 347
+    },
+    "direction": "down",
+    "gating_flag": 33108,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 0,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9AB01",
+    "L_C9AB53"
+  ],
+  "region": "Summers-and-Toto",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

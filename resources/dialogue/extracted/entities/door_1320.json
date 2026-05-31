@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_1320",
+  "label": "",
+  "location": {
+    "x0": 296,
+    "x1": 296,
+    "x_sector": 1,
+    "x_tile": 9,
+    "y0": 7320,
+    "y1": 7320,
+    "y_sector": 28,
+    "y_tile": 228
+  },
+  "properties": {
+    "destination": null,
+    "direction": null,
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "ladder"
+  },
+  "reachable_nodes": [],
+  "region": "Saturn-Valley",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

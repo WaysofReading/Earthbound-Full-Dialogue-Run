@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0562",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0562",
+  "label": "lookalike_pigpen",
+  "location": {
+    "x0": 5144,
+    "x1": 5144,
+    "x_sector": 20,
+    "x_tile": 160,
+    "y0": 9032,
+    "y1": 9032,
+    "y_sector": 35,
+    "y_tile": 282
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 115,
+    "sprite_label": "lookalike_pigpen"
+  },
+  "reachable_nodes": [
+    "L_C8F590",
+    "Npc0562"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

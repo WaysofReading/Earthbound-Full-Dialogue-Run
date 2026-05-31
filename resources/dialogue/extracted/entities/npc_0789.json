@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0789",
+  "label": "red-truck",
+  "location": {
+    "x0": 2000,
+    "x1": 2000,
+    "x_sector": 7,
+    "x_tile": 62,
+    "y0": 10040,
+    "y1": 10040,
+    "y_sector": 39,
+    "y_tile": 313
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 207,
+    "sprite_label": "red-truck"
+  },
+  "reachable_nodes": [],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 136,
+    "flag_label": "TRAFFIC_JAM_CLEARED"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0634",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0634",
+  "label": "tony_prone",
+  "location": {
+    "x0": 492,
+    "x1": 492,
+    "x_sector": 1,
+    "x_tile": 15,
+    "y0": 2280,
+    "y1": 2280,
+    "y_sector": 8,
+    "y_tile": 71
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 357,
+    "sprite_label": "tony_prone"
+  },
+  "reachable_nodes": [
+    "Npc0634"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 335,
+    "flag_label": "TONY_AT_BOARDING_SCHOOL_GATE"
+  }
+}

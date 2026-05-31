@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1193",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1193",
+  "label": "sarcophagus",
+  "location": {
+    "x0": 890,
+    "x1": 890,
+    "x_sector": 3,
+    "x_tile": 27,
+    "y0": 3696,
+    "y1": 3696,
+    "y_sector": 14,
+    "y_tile": 115
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 221,
+    "sprite_label": "sarcophagus"
+  },
+  "reachable_nodes": [
+    "Npc1193"
+  ],
+  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 347,
+    "flag_label": "PYRAMID_HOLE_OPEN"
+  }
+}

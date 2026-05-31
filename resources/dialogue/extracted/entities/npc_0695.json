@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0695",
+  "label": "fly-honey-jar",
+  "location": {
+    "x0": 3192,
+    "x1": 3192,
+    "x_sector": 12,
+    "x_tile": 99,
+    "y0": 5656,
+    "y1": 5656,
+    "y_sector": 22,
+    "y_tile": 176
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 631,
+    "npc_type": "object",
+    "sprite": 248,
+    "sprite_label": "fly-honey-jar"
+  },
+  "reachable_nodes": [],
+  "region": "Grapefruit Falls_Belch's Base_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0828",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0828",
+  "label": "monkey-boy",
+  "location": {
+    "x0": 7528,
+    "x1": 7528,
+    "x_sector": 29,
+    "x_tile": 235,
+    "y0": 6824,
+    "y1": 6824,
+    "y_sector": 26,
+    "y_tile": 213
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 133,
+    "sprite_label": "monkey-boy"
+  },
+  "reachable_nodes": [
+    "L_C627CA",
+    "L_C62819",
+    "Npc0828"
+  ],
+  "region": "Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Talah-Rama-Room)",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 613,
+    "flag_label": "TELEPORT_MONKEY_NOT_AT_CAVE"
+  }
+}

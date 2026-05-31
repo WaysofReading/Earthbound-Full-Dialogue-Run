@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1229",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1229",
+  "label": "monster_barf",
+  "location": {
+    "x0": 5088,
+    "x1": 5088,
+    "x_sector": 19,
+    "x_tile": 159,
+    "y0": 7608,
+    "y1": 7608,
+    "y_sector": 29,
+    "y_tile": 237
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 299,
+    "sprite_label": "monster_barf"
+  },
+  "reachable_nodes": [
+    "L_C68570",
+    "L_C7C588",
+    "Npc0463",
+    "Npc1229"
+  ],
+  "region": "Deep-Darkness",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 276,
+    "flag_label": "MASTER_BARF_DEFEATED"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0336",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0336",
+  "label": "apple-kid",
+  "location": {
+    "x0": 1312,
+    "x1": 1312,
+    "x_sector": 5,
+    "x_tile": 41,
+    "y0": 7072,
+    "y1": 7072,
+    "y_sector": 27,
+    "y_tile": 221
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 176,
+    "sprite_label": "apple-kid"
+  },
+  "reachable_nodes": [
+    "L_C7DC85",
+    "L_C7DCB6",
+    "L_C7DCDA",
+    "L_C8207C",
+    "Npc0336"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 42,
+    "flag_label": "APPLE_KID_IN_BURGLIN_PARK"
+  }
+}

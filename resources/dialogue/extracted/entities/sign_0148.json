@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C7C59E",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0148",
+  "label": "",
+  "location": {
+    "x0": 7616,
+    "x1": 7616,
+    "x_sector": 29,
+    "x_tile": 238,
+    "y0": 4688,
+    "y1": 4688,
+    "y_sector": 18,
+    "y_tile": 146
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C58555",
+    "L_C58EBB",
+    "L_C7C59E"
+  ],
+  "region": "Moonside",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

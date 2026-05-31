@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1020",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1020",
+  "label": "man_bald_black-suit",
+  "location": {
+    "x0": 6768,
+    "x1": 6768,
+    "x_sector": 26,
+    "x_tile": 211,
+    "y0": 9416,
+    "y1": 9416,
+    "y_sector": 36,
+    "y_tile": 294
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 56,
+    "sprite_label": "man_bald_black-suit"
+  },
+  "reachable_nodes": [
+    "L_C7DD4D",
+    "L_C7E6B3",
+    "L_C7E6BF",
+    "L_C90999",
+    "L_C909D3",
+    "L_C90A62",
+    "L_C90F61",
+    "L_C90F7D",
+    "L_C91582",
+    "Npc1020"
+  ],
+  "region": "Summers and Toto_Hotel_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

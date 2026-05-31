@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1000",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1000",
+  "label": "lookalike_mr-t",
+  "location": {
+    "x0": 7744,
+    "x1": 7744,
+    "x_sector": 30,
+    "x_tile": 242,
+    "y0": 9160,
+    "y1": 9160,
+    "y_sector": 35,
+    "y_tile": 286
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 79,
+    "sprite_label": "lookalike_mr-t"
+  },
+  "reachable_nodes": [
+    "Npc1000"
+  ],
+  "region": "Summers and Toto_Stoic Club_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

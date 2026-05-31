@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1566",
+  "label": "",
+  "location": {
+    "x0": 8176,
+    "x1": 8176,
+    "x_sector": 31,
+    "x_tile": 255,
+    "y0": 8680,
+    "y1": 8680,
+    "y_sector": 33,
+    "y_tile": 271
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 562,
+      "y": 1254
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Transitions_Dusty Dunes to Fourside_Dusty-Dunes-to-Fourside-Bridge",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0758",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0758",
+  "label": "man_lying-down_swimwear",
+  "location": {
+    "x0": 2044,
+    "x1": 2044,
+    "x_sector": 7,
+    "x_tile": 63,
+    "y0": 9216,
+    "y1": 9216,
+    "y_sector": 36,
+    "y_tile": 288
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 103,
+    "sprite_label": "man_lying-down_swimwear"
+  },
+  "reachable_nodes": [
+    "Npc0758"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

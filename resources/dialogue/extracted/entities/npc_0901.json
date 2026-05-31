@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0901",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0901",
+  "label": "prettyman",
+  "location": {
+    "x0": 5528,
+    "x1": 5528,
+    "x_sector": 21,
+    "x_tile": 172,
+    "y0": 6624,
+    "y1": 6624,
+    "y_sector": 25,
+    "y_tile": 207
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 59,
+    "sprite_label": "prettyman"
+  },
+  "reachable_nodes": [
+    "L_C6F819",
+    "Npc0901"
+  ],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 73,
+    "flag_label": "GIYGAS_DEFEATED"
+  }
+}

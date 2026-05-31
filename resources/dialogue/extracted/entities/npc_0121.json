@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0121",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0121",
+  "label": "boy_fedora",
+  "location": {
+    "x0": 8016,
+    "x1": 8016,
+    "x_sector": 31,
+    "x_tile": 250,
+    "y0": 1328,
+    "y1": 1328,
+    "y_sector": 5,
+    "y_tile": 41
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 126,
+    "sprite_label": "boy_fedora"
+  },
+  "reachable_nodes": [
+    "L_C73E2A",
+    "L_C73E7D",
+    "L_C7DC7F",
+    "Npc0121"
+  ],
+  "region": "Onett_Secret Hideout_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

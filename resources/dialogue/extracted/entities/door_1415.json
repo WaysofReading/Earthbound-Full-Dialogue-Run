@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1415",
+  "label": "",
+  "location": {
+    "x0": 2544,
+    "x1": 2544,
+    "x_sector": 9,
+    "x_tile": 79,
+    "y0": 7688,
+    "y1": 7688,
+    "y_sector": 30,
+    "y_tile": 240
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 699,
+      "y": 1276
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Transitions_Twoson to Threed_Road-to-Threed",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

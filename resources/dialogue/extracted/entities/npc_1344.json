@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1344",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1344",
+  "label": "king",
+  "location": {
+    "x0": 6340,
+    "x1": 6340,
+    "x_sector": 24,
+    "x_tile": 198,
+    "y0": 4432,
+    "y1": 4432,
+    "y_sector": 17,
+    "y_tile": 138
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 40,
+    "sprite_label": "king"
+  },
+  "reachable_nodes": [
+    "Npc1344"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0288",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0288",
+  "label": "lookalike_marcie",
+  "location": {
+    "x0": 7088,
+    "x1": 7088,
+    "x_sector": 27,
+    "x_tile": 221,
+    "y0": 7456,
+    "y1": 7456,
+    "y_sector": 29,
+    "y_tile": 233
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 141,
+    "sprite_label": "lookalike_marcie"
+  },
+  "reachable_nodes": [
+    "L_C5E456",
+    "L_C64DD0",
+    "L_C64DEE",
+    "L_C64DF8",
+    "L_C64E04",
+    "L_C64E69",
+    "L_C64E6E",
+    "L_C64E86",
+    "L_C7DD4F",
+    "Npc0288"
+  ],
+  "region": "Twoson_Department Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

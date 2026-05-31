@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0409",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0409",
+  "label": "doctor",
+  "location": {
+    "x0": 7576,
+    "x1": 7576,
+    "x_sector": 29,
+    "x_tile": 236,
+    "y0": 1744,
+    "y1": 1744,
+    "y_sector": 6,
+    "y_tile": 54
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 139,
+    "sprite_label": "doctor"
+  },
+  "reachable_nodes": [
+    "L_C7DD5E",
+    "L_C7DD68",
+    "L_C90025",
+    "L_C90FEC",
+    "L_C91041",
+    "L_C9105F",
+    "Npc0409"
+  ],
+  "region": "Happy Happy Village_Hospital_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0020",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0020",
+  "label": "tracy",
+  "location": {
+    "x0": 7512,
+    "x1": 7512,
+    "x_sector": 29,
+    "x_tile": 234,
+    "y0": 336,
+    "y1": 336,
+    "y_sector": 1,
+    "y_tile": 10
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 146,
+    "sprite_label": "tracy"
+  },
+  "reachable_nodes": [
+    "L_C5E431",
+    "L_C5E456",
+    "L_C64672",
+    "L_C646AE",
+    "L_C6474F",
+    "L_C761CC",
+    "L_C761D7",
+    "L_C761EB",
+    "L_C7625E",
+    "L_C76357",
+    "L_C76391",
+    "L_C7DC85",
+    "L_C7DCB6",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "Npc0020"
+  ],
+  "region": "Onett_Ness' House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 531,
+    "flag_label": "TRACY_DOWNSTAIRS"
+  }
+}

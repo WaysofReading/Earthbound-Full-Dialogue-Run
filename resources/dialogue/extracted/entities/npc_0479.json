@@ -1,0 +1,52 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0479",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 541,
+      "gated_by_flag_label": "OPENED_THREED_CEMETERY_UNDREGROUND_DOOR",
+      "node_id": "L_C6FB02",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0479",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 6872,
+    "x1": 6872,
+    "x_sector": 26,
+    "x_tile": 214,
+    "y0": 10024,
+    "y1": 10024,
+    "y_sector": 39,
+    "y_tile": 313
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [
+    "L_C64650",
+    "L_C69082",
+    "L_C6FB02",
+    "L_C6FB20",
+    "L_C6FB33",
+    "L_C79E55",
+    "L_C79F33",
+    "L_C9992F",
+    "L_C9B4B8",
+    "Npc0479"
+  ],
+  "region": "Threed_Skyrunner_B1F_Skyrunner-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 541,
+    "flag_label": "OPENED_THREED_CEMETERY_UNDREGROUND_DOOR"
+  }
+}

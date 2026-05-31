@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0111",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0111",
+  "label": "healer",
+  "location": {
+    "x0": 7248,
+    "x1": 7248,
+    "x_sector": 28,
+    "x_tile": 226,
+    "y0": 1000,
+    "y1": 1000,
+    "y_sector": 3,
+    "y_tile": 31
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 189,
+    "sprite_label": "healer"
+  },
+  "reachable_nodes": [
+    "L_C91805",
+    "L_C91A91",
+    "L_C91ABE",
+    "L_C91B24",
+    "L_C91B3D",
+    "L_C91B6F",
+    "L_C91BB8",
+    "L_C91C1B",
+    "Npc0111"
+  ],
+  "region": "Onett_Hospital_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

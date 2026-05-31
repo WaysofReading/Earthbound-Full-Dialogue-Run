@@ -1,0 +1,81 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0895",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0895",
+  "label": "bellhop",
+  "location": {
+    "x0": 5640,
+    "x1": 5640,
+    "x_sector": 22,
+    "x_tile": 176,
+    "y0": 6336,
+    "y1": 6336,
+    "y_sector": 24,
+    "y_tile": 198
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 73,
+    "sprite_label": "bellhop"
+  },
+  "reachable_nodes": [
+    "L_C841DE",
+    "L_C842A5",
+    "L_C842A8",
+    "L_C842AB",
+    "L_C842AE",
+    "L_C842B1",
+    "L_C842B4",
+    "L_C842B7",
+    "L_C842BA",
+    "L_C842BD",
+    "L_C842C0",
+    "L_C842C3",
+    "L_C842C6",
+    "L_C842C9",
+    "L_C842CC",
+    "L_C842CF",
+    "L_C842D2",
+    "L_C842D5",
+    "L_C842D8",
+    "L_C842DB",
+    "L_C842DE",
+    "L_C842E1",
+    "L_C842E4",
+    "L_C842E7",
+    "L_C842EA",
+    "L_C842ED",
+    "L_C842F0",
+    "L_C842F3",
+    "L_C842F6",
+    "L_C856FC",
+    "L_C8574A",
+    "L_C85767",
+    "L_C85791",
+    "L_C857BB",
+    "L_C8581B",
+    "L_C858BA",
+    "L_C858F0",
+    "L_C85985",
+    "L_C859B5",
+    "L_C85A11",
+    "L_C85A6C",
+    "L_C85AD8",
+    "L_C85B55",
+    "L_C85BAB",
+    "Npc0895"
+  ],
+  "region": "Fourside_Hotel_1F_Lobby",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 383,
+    "flag_label": "JUST_RESTED"
+  }
+}

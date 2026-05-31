@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0289",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0289",
+  "label": "woman_blonde_blue-blazer",
+  "location": {
+    "x0": 7120,
+    "x1": 7120,
+    "x_sector": 27,
+    "x_tile": 222,
+    "y0": 7456,
+    "y1": 7456,
+    "y_sector": 29,
+    "y_tile": 233
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 65,
+    "sprite_label": "woman_blonde_blue-blazer"
+  },
+  "reachable_nodes": [
+    "L_C968F6",
+    "L_C9690D",
+    "L_C969B2",
+    "Npc0289"
+  ],
+  "region": "Twoson_Department Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0756",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0756",
+  "label": "man_blonde_resortwear",
+  "location": {
+    "x0": 1848,
+    "x1": 1848,
+    "x_sector": 7,
+    "x_tile": 57,
+    "y0": 10032,
+    "y1": 10032,
+    "y_sector": 39,
+    "y_tile": 313
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 71,
+    "sprite_label": "man_blonde_resortwear"
+  },
+  "reachable_nodes": [
+    "Npc0756"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 136,
+    "flag_label": "TRAFFIC_JAM_CLEARED"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0089",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0089",
+  "label": "man_blonde_blue-blazer",
+  "location": {
+    "x0": 8040,
+    "x1": 8040,
+    "x_sector": 31,
+    "x_tile": 251,
+    "y0": 320,
+    "y1": 320,
+    "y_sector": 1,
+    "y_tile": 10
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 70,
+    "sprite_label": "man_blonde_blue-blazer"
+  },
+  "reachable_nodes": [
+    "Npc0089"
+  ],
+  "region": "Onett_Houses_West-Violet-Roof_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99D05",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1794",
+  "label": "",
+  "location": {
+    "x0": 6920,
+    "x1": 6920,
+    "x_sector": 27,
+    "x_tile": 216,
+    "y0": 10056,
+    "y1": 10056,
+    "y_sector": 39,
+    "y_tile": 314
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 452,
+      "y": 888
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C7916C",
+    "L_C9992F",
+    "L_C99D05",
+    "L_C99D1C"
+  ],
+  "region": "Transitions_Twoson to Peaceful Rest Valley_Tunnel-1",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

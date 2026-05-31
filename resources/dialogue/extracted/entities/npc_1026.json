@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1026",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1026",
+  "label": "woman_pink-maid-outfit",
+  "location": {
+    "x0": 7240,
+    "x1": 7240,
+    "x_sector": 28,
+    "x_tile": 226,
+    "y0": 9088,
+    "y1": 9088,
+    "y_sector": 35,
+    "y_tile": 284
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 142,
+    "sprite_label": "woman_pink-maid-outfit"
+  },
+  "reachable_nodes": [
+    "Npc1026"
+  ],
+  "region": "Summers and Toto_Restaurant_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

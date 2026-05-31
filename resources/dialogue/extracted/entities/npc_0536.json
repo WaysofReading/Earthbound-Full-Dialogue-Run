@@ -1,0 +1,72 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0536",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0536",
+  "label": "arms-dealer",
+  "location": {
+    "x0": 5392,
+    "x1": 5392,
+    "x_sector": 21,
+    "x_tile": 168,
+    "y0": 9248,
+    "y1": 9248,
+    "y_sector": 36,
+    "y_tile": 289
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 144,
+    "sprite_label": "arms-dealer"
+  },
+  "reachable_nodes": [
+    "L_C50000",
+    "L_C51B12",
+    "L_C51CCB",
+    "L_C51EEA",
+    "L_C5211E",
+    "L_C522EF",
+    "L_C524F7",
+    "L_C527C7",
+    "L_C52ACC",
+    "L_C52D94",
+    "L_C530A2",
+    "L_C5341D",
+    "L_C5B3BA",
+    "L_C5B625",
+    "L_C5B896",
+    "L_C5BAA4",
+    "L_C5BB76",
+    "L_C5BC70",
+    "L_C5BD92",
+    "L_C5BEF9",
+    "L_C5C05F",
+    "L_C5C1E5",
+    "L_C5C32A",
+    "L_C5C59E",
+    "L_C5C71F",
+    "L_C5C845",
+    "L_C5C96A",
+    "L_C5CA56",
+    "L_C5CBC0",
+    "L_C5CD18",
+    "L_C5CE22",
+    "L_C5CF67",
+    "L_C5D050",
+    "L_C5D32F",
+    "L_C5DECB",
+    "Npc0536"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 740,
+    "flag_label": "PEOPLE_IN_THREED_ABSENT"
+  }
+}

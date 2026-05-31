@@ -1,0 +1,6123 @@
+{
+  "errors": {
+    "missing_labels_from_addresses_txt": [],
+    "provenance_inverse_mismatch": [],
+    "schema_violations": [],
+    "unresolved_edge_targets": [],
+    "unresolved_entity_entry_points": []
+  },
+  "findings": {
+    "addresses_txt_diagnostic": {
+      "in_range_count": 0,
+      "in_range_sample": [],
+      "out_of_range_count": 0,
+      "out_of_range_sample": []
+    },
+    "door_coord_units_unverified": [
+      {
+        "door_id": "door_0001",
+        "note": "first door with assigned region \u2014 verify pixel coords against in-game location to confirm tile-offset (\u00d78) assumption",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "x_pixel": 424,
+        "y_pixel": 112
+      }
+    ],
+    "duplicate_plaintext": [
+      {
+        "ids": [
+          "L_C51B28",
+          "L_C51C6E",
+          "L_C52299",
+          "L_C5BAB4",
+          "L_C5BB22",
+          "L_C5BC23",
+          "L_C5BD49",
+          "L_C5C74C",
+          "L_C5C7F1",
+          "L_C5C916",
+          "L_C5C920",
+          "L_C5CB67",
+          "L_C5CF1C",
+          "L_C5CF26",
+          "L_C5D00C",
+          "L_C5D015",
+          "L_C64E6E"
+        ],
+        "sample": "\ufffdThank you very much.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C51B31",
+          "L_C51BB7",
+          "L_C51C38",
+          "L_C521D3",
+          "L_C52D8C",
+          "L_C5BABD",
+          "L_C5BAE8",
+          "L_C5BBF2",
+          "L_C5BCCA",
+          "L_C5BCF4",
+          "L_C5BE45",
+          "L_C5CEC0",
+          "L_C5CEC8",
+          "L_C5CEF0",
+          "L_C5CF82",
+          "L_C63BDC",
+          "L_C6DA37"
+        ],
+        "sample": "\ufffdPlease come again.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C51C03",
+          "L_C51E14"
+        ],
+        "sample": "\ufffdWhat do you want to sell?[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C51C78",
+          "L_C5BC2D"
+        ],
+        "sample": "\ufffdThank you for shopping here.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C51CEF",
+          "L_C51E95",
+          "L_C52D2C"
+        ],
+        "sample": "\ufffdThanks a bunch![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C51D31",
+          "L_C51F74",
+          "L_C52163",
+          "L_C5234D",
+          "L_C52583",
+          "L_C52860",
+          "L_C52E1C",
+          "L_C5349F",
+          "L_C5B426",
+          "L_C5B6AF",
+          "L_C5B8F8",
+          "L_C5BAD3",
+          "L_C5BBDC",
+          "L_C5BCDD",
+          "L_C5C896",
+          "L_C5CEDC",
+          "L_C5CFA6",
+          "L_C64078"
+        ],
+        "sample": "\ufffd[ITEM:REG_ARGUMENT]?[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C51D39",
+          "L_C52355"
+        ],
+        "sample": "\ufffdWho's going to carry it?[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C51D5B",
+          "L_C52BBD"
+        ],
+        "sample": "\ufffdI can buy your\n  [ITEM:REG_ARGUMENT]\n  for $[NUM:0].[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C51EA9",
+          "L_C6491E"
+        ],
+        "sample": "\ufffdDo you need anything else from me?"
+      },
+      {
+        "ids": [
+          "L_C51EB6",
+          "L_C63BA1"
+        ],
+        "sample": "\ufffdWhat can I do for you?"
+      },
+      {
+        "ids": [
+          "L_C5209B",
+          "L_C9DC08"
+        ],
+        "sample": "\ufffdOK.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5216B",
+          "L_C52B9B"
+        ],
+        "sample": "\ufffdWho's going to carry this?[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5222E",
+          "L_C5241D"
+        ],
+        "sample": "\ufffdWhat can you sell me?[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C522A3",
+          "L_C5BEB3",
+          "L_C5BEBA",
+          "L_C5C025",
+          "L_C5C02C",
+          "L_C5C564",
+          "L_C5C56B",
+          "L_C5CD29"
+        ],
+        "sample": "\ufffdThank you.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5230C",
+          "L_C5BA5B",
+          "L_C5BA62",
+          "Npc0558"
+        ],
+        "sample": "\ufffdThank you![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C524B2",
+          "L_C5BD53",
+          "L_C5CA04",
+          "L_C5CA0A",
+          "L_C90D1E"
+        ],
+        "sample": "\ufffdThanks.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5256C",
+          "L_C5B9FE"
+        ],
+        "sample": "\ufffdPlease come again![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C52855",
+          "L_C5BCD2",
+          "L_C5C4E3",
+          "L_C5CED0",
+          "L_C5CF9B"
+        ],
+        "sample": "\ufffdWhat would you like?[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C528EB",
+          "L_C529D2"
+        ],
+        "sample": "\ufffdVery well then.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C53454",
+          "L_C5346F"
+        ],
+        "sample": "\ufffdBye bye!\n  Let's play again some time![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C534A7",
+          "L_C5BCE5",
+          "L_C5C4FD",
+          "L_C5C64D"
+        ],
+        "sample": "\ufffdWho is going to carry this?[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C53E8F",
+          "L_C55F16"
+        ],
+        "sample": "\ufffd[ITEM:PLATINUM_BAND]\ufffd[PAUSE]\n[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C57753",
+          "L_C5860E",
+          "L_C58636",
+          "L_C5A0FE",
+          "L_C5E5BC",
+          "L_C5E5EB",
+          "L_C5E605",
+          "L_C5E633",
+          "L_C5E655",
+          "L_C5E675",
+          "L_C5E691",
+          "L_C5E6AE",
+          "L_C5E6D7",
+          "L_C5E6F4",
+          "L_C5E7AC",
+          "L_C5EACF",
+          "L_C5F551",
+          "L_C5F643",
+          "L_C5F72E",
+          "L_C605D9",
+          "L_C6078B",
+          "L_C62865",
+          "L_C62D91",
+          "L_C64C52",
+          "L_C684A6",
+          "L_C6B759",
+          "L_C70000",
+          "L_C7030F",
+          "L_C73F6C",
+          "L_C75910",
+          "L_C78000",
+          "L_C78290",
+          "L_C78306",
+          "L_C78323",
+          "L_C78360",
+          "L_C78442",
+          "L_C785BD",
+          "L_C789DE",
+          "L_C78A5F",
+          "L_C78C7F",
+          "L_C78D8F",
+          "L_C78E11",
+          "L_C7905A",
+          "L_C79287",
+          "L_C79B98",
+          "L_C7B826",
+          "L_C7B88B",
+          "L_C7B8EF",
+          "L_C7B8F6",
+          "L_C7C39B",
+          "L_C7C57D",
+          "L_C7D87F",
+          "L_C7DB22",
+          "L_C7DCCF",
+          "L_C7DD6B",
+          "L_C7DD74",
+          "L_C7DE54",
+          "L_C7EB38",
+          "L_C7FD06",
+          "L_C7FE2F",
+          "L_C807AC",
+          "L_C807BA",
+          "L_C818A2",
+          "L_C81913",
+          "L_C862F8",
+          "L_C8672B",
+          "L_C87099",
+          "L_C8709B",
+          "L_C87E37",
+          "L_C88739",
+          "L_C88761",
+          "L_C88991",
+          "L_C88D91",
+          "L_C88EFE",
+          "L_C89036",
+          "L_C89498",
+          "L_C8AACF",
+          "L_C8B57C",
+          "L_C8E95B",
+          "L_C906D9",
+          "L_C90F7D",
+          "L_C91058",
+          "L_C919EF",
+          "L_C91B71",
+          "L_C9237E",
+          "L_C9242E",
+          "L_C925D0",
+          "L_C930F7",
+          "L_C93239",
+          "L_C93378",
+          "L_C99945",
+          "L_C99A7B",
+          "L_C99B75",
+          "L_C99CA9",
+          "L_C9AF4A",
+          "L_C9AF79",
+          "L_C9B20E",
+          "L_C9B4B8",
+          "L_C9BD52",
+          "L_C9C98A",
+          "L_C9E838",
+          "L_EF8837",
+          "L_EF883D",
+          "L_EF8847",
+          "L_EF88E9",
+          "L_EF88EC",
+          "L_EF88F6",
+          "L_EF8900",
+          "L_EF890A",
+          "L_EF8914",
+          "L_EF891E",
+          "L_EF8928",
+          "L_EF8932",
+          "L_EF8FCB",
+          "L_EF9041",
+          "L_EF9060",
+          "L_EFA6EC",
+          "Npc0479",
+          "Npc0590",
+          "Npc0672",
+          "Npc0678",
+          "Npc0679",
+          "Npc0680",
+          "Npc0681",
+          "Npc0682",
+          "Npc0683",
+          "Npc0831",
+          "Npc0832",
+          "Npc0833",
+          "Npc0837",
+          "Npc0838",
+          "Npc0879",
+          "Npc0880",
+          "Npc0881",
+          "Npc0882",
+          "Npc0883",
+          "Npc0889",
+          "Npc0967",
+          "Npc1039",
+          "Npc1040",
+          "Npc1168",
+          "Npc1169",
+          "Npc1170",
+          "Npc1171",
+          "Npc1172",
+          "Npc1173",
+          "Npc1174",
+          "Npc1175",
+          "Npc1176",
+          "Npc1177",
+          "Npc1178",
+          "Npc1179",
+          "Npc1180",
+          "Npc1181",
+          "Npc1182",
+          "Npc1183",
+          "Npc1184",
+          "Npc1185",
+          "Npc1186",
+          "Npc1187",
+          "Npc1188",
+          "Npc1189",
+          "Npc1190",
+          "Npc1191",
+          "Npc1192",
+          "Npc1354",
+          "Npc1355",
+          "Npc1356",
+          "Npc1363",
+          "Npc1366",
+          "Npc1371"
+        ],
+        "sample": "[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5B5CE",
+          "L_C5B5D8"
+        ],
+        "sample": "\ufffdHey, thanks![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5BADB",
+          "L_C5C77E",
+          "L_C5C9C2",
+          "L_C5CB12",
+          "L_C5CC83",
+          "L_C5CD73",
+          "L_C5CEE4",
+          "L_C5CFAE"
+        ],
+        "sample": "\ufffdWho is going to carry it?[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5BB36",
+          "L_C5BC3C"
+        ],
+        "sample": "\ufffdDo you have any other orders?"
+      },
+      {
+        "ids": [
+          "L_C5BBCE",
+          "L_C5BE16"
+        ],
+        "sample": "\ufffdWhat can I get for you?[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5BCC2",
+          "L_C5C7FB"
+        ],
+        "sample": "\ufffdThanks a lot.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5BD59",
+          "L_C5C033",
+          "L_C5C572",
+          "L_C5C6E3",
+          "L_C5C92A"
+        ],
+        "sample": "\ufffdDo you want to buy anything else?"
+      },
+      {
+        "ids": [
+          "L_C5BF87",
+          "L_C5BF8E",
+          "L_C5BFBF",
+          "L_C63BC1"
+        ],
+        "sample": "\ufffdCome again.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5BFA1",
+          "L_C5C4EE",
+          "L_C5C76F",
+          "L_C5CD64"
+        ],
+        "sample": "\ufffdYou want\n  the [ITEM:REG_ARGUMENT]?[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5C03C",
+          "L_C5CCF5",
+          "L_C5CF3D",
+          "L_C5D02D"
+        ],
+        "sample": "\ufffd[NAME:REG_ARGUMENT] is already carrying too many things.[PAUSE]\n\ufffdCan someone el\u2026"
+      },
+      {
+        "ids": [
+          "L_C5C0CB",
+          "L_C5C125"
+        ],
+        "sample": "\ufffdOh, no...[PAUSE]\n\ufffdYou dissssappoint me...[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5C2C6",
+          "L_C5C2D2",
+          "L_C5CDC0",
+          "L_C5CDCC"
+        ],
+        "sample": "\ufffdThank you, thank you.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5C2DE",
+          "L_C5C804"
+        ],
+        "sample": "\ufffdDo you need anything else?"
+      },
+      {
+        "ids": [
+          "L_C5C7AE",
+          "L_C5C9E7",
+          "L_C5CB29",
+          "L_C5CFD5"
+        ],
+        "sample": "\ufffdYou don't have enough money.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5C80D",
+          "L_C5C933"
+        ],
+        "sample": "\ufffd[NAME:REG_ARGUMENT] seems to have too many things already.[PAUSE]\n\ufffdI don't thin\u2026"
+      },
+      {
+        "ids": [
+          "L_C5C99A",
+          "L_C5C9A4"
+        ],
+        "sample": "\ufffdSee ya![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5CA1E",
+          "L_C5CB88"
+        ],
+        "sample": "\ufffd[NAME:REG_ARGUMENT]seems to have too many things already.[PAUSE]\n\ufffdI don't think\u2026"
+      },
+      {
+        "ids": [
+          "L_C5CAB4",
+          "L_C5CAD0"
+        ],
+        "sample": "\ufffdYou reminded me how much I love this job![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5CB7B",
+          "L_C5CF30"
+        ],
+        "sample": "\ufffdWould you like to buy anything else?"
+      },
+      {
+        "ids": [
+          "L_C5CCBD",
+          "L_C5CDB3"
+        ],
+        "sample": "\ufffdYou cannot carry any more.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5CCCA",
+          "L_C5CCDA"
+        ],
+        "sample": "\ufffdI think it was a good buy![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5E70B",
+          "L_C7BBF3",
+          "L_EF866E"
+        ],
+        "sample": "[PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C5F6B2",
+          "L_C5F6FA"
+        ],
+        "sample": "\ufffd'Scuse me!  Just ten more minutes, please![PAUSE]\n\ufffdShow some self control, will\u2026"
+      },
+      {
+        "ids": [
+          "L_C5F83B",
+          "L_C6DEFA",
+          "L_C6E71E",
+          "L_C6E884",
+          "L_C79223",
+          "L_C792DC",
+          "L_C7B4FB",
+          "L_C7D33E",
+          "L_C7DCB6",
+          "L_C7DE2F",
+          "L_C894AC",
+          "L_C8983B",
+          "L_C915D6",
+          "L_C91FFD",
+          "L_C9293F",
+          "L_C93005",
+          "L_C931D3",
+          "L_C99CD8",
+          "L_C9B60F",
+          "L_C9BC48",
+          "L_EF8814",
+          "L_EF893C",
+          "L_EF894C",
+          "L_EF895C",
+          "L_EF896C",
+          "L_EF897C",
+          "L_EF898C",
+          "L_EF899C",
+          "L_EF89AC"
+        ],
+        "sample": "[PAUSE][PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C607E4",
+          "L_C7C54B",
+          "L_C89CA5",
+          "L_EF864C",
+          "L_EF87F4"
+        ],
+        "sample": "[PAUSE][PAUSE][PAUSE][PAUSE][PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C60B71",
+          "L_C66ECA",
+          "L_C6847A",
+          "L_C7BC56",
+          "L_C92909",
+          "L_C92924",
+          "L_C92D92",
+          "L_C9A049",
+          "L_EF874A",
+          "L_EF875F",
+          "L_EF8777",
+          "L_EF8823",
+          "L_EF89BC",
+          "L_EF89CE",
+          "L_EF8F91"
+        ],
+        "sample": "[PAUSE][PAUSE][PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C61D50",
+          "L_C61E81"
+        ],
+        "sample": "\ufffd.....[PAUSE]\n\ufffd(.....)[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C62D8A",
+          "L_C64C6A"
+        ],
+        "sample": "\ufffdThank you very much."
+      },
+      {
+        "ids": [
+          "L_C62F1A",
+          "L_C62F72"
+        ],
+        "sample": "\ufffdYou are not allowed to carry more than\n  $99,999.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C63CA8",
+          "L_C63CEA"
+        ],
+        "sample": "\ufffdYou would like us to deliver something?  We can deliver up to three things.[PAU\u2026"
+      },
+      {
+        "ids": [
+          "L_C645F2",
+          "L_C64B0B"
+        ],
+        "sample": "\ufffd(Click!)[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C64983",
+          "L_C649E8"
+        ],
+        "sample": "\ufffdOh, that's not what you want?[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C64996",
+          "L_C649FB"
+        ],
+        "sample": "\ufffdWe'll send someone right away.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C6530C",
+          "L_C65713"
+        ],
+        "sample": "\ufffdYou have $[STAT:BANK_MONEY] in your account now."
+      },
+      {
+        "ids": [
+          "L_C6534A",
+          "L_C65751"
+        ],
+        "sample": "[PAUSE]\ufffdI have registered your deposit\n  of $[NUM:0].[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C65468",
+          "L_C65863"
+        ],
+        "sample": "[PAUSE]\ufffdYour withdrawal\n  is $[NUM:0].[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C654C4",
+          "L_C658BB"
+        ],
+        "sample": "\ufffdI don't think you can deposit any more money.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C654DE",
+          "L_C658D4"
+        ],
+        "sample": "\ufffdI don't think you have that much money.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C65DF2",
+          "Npc0140"
+        ],
+        "sample": "\ufffdHey![PAUSE]  You've got your own place now![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C680F2",
+          "L_C68139"
+        ],
+        "sample": "[PAUSE][PAUSE]\ufffd[STAT:PET_NAME] joins you.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C68174",
+          "L_C681B5"
+        ],
+        "sample": "[PAUSE][PAUSE]\ufffd(Pokey joins you.)[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C6829F",
+          "L_C682DD",
+          "L_C6831B",
+          "L_C68359",
+          "L_C68397"
+        ],
+        "sample": "[PAUSE][PAUSE]\ufffd(The Flying Man joins you.)[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C694B9",
+          "L_C69571"
+        ],
+        "sample": "\ufffdYou've really got too much stuff already.[PAUSE]\n\ufffdI hope I can deliver this to \u2026"
+      },
+      {
+        "ids": [
+          "L_C6B300",
+          "L_C6B317"
+        ],
+        "sample": "\ufffdWell, at least I asked...[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C6C6EC",
+          "L_C6C729"
+        ],
+        "sample": "\ufffdAre you feeling much better now?[PAUSE]  Good luck.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C75695",
+          "L_C7BB38",
+          "L_C88387"
+        ],
+        "sample": "[PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C77DCE",
+          "L_C77DF0"
+        ],
+        "sample": "\ufffd[ATTACKER] used\n  the [ITEM:REG_ARGUMENT].[PAUSE]\n\ufffdBut nothing happened.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C787A9",
+          "L_C78866"
+        ],
+        "sample": "\ufffdThis bus goes to Fourside.[PAUSE]\n\ufffdI can't let you on if you don't pay $[NUM:0]\u2026"
+      },
+      {
+        "ids": [
+          "L_C78806",
+          "L_C788C3"
+        ],
+        "sample": "\ufffdOk,[PAUSE] we're off![PAUSE]   [PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C78F12",
+          "L_C78F4A",
+          "L_C78FCA"
+        ],
+        "sample": "\ufffdWoooo![PAUSE]  Wooo![PAUSE]  Wooooooo![PAUSE]\n\ufffd(Go back![PAUSE]  Go back!)[PAUS\u2026"
+      },
+      {
+        "ids": [
+          "L_C79C46",
+          "L_C7BAC7"
+        ],
+        "sample": "[PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C7B9A1",
+          "L_EF8882"
+        ],
+        "sample": "[PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C7BC96",
+          "L_EF8698"
+        ],
+        "sample": "[PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PAUSE][PA\u2026"
+      },
+      {
+        "ids": [
+          "L_C7C59E",
+          "L_C86DFB",
+          "L_C86E2F"
+        ],
+        "sample": "\ufffdNo problem here.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C7D4AF",
+          "L_C7D630"
+        ],
+        "sample": "\ufffdHello, it's your dad.[PAUSE]\n\ufffdYou've been out there for a long time now...[PAUS\u2026"
+      },
+      {
+        "ids": [
+          "L_C7E5F3",
+          "L_C7E613",
+          "L_C7E656",
+          "L_C8AABE"
+        ],
+        "sample": "he"
+      },
+      {
+        "ids": [
+          "L_C7E5FE",
+          "L_C7E616",
+          "L_C7E659"
+        ],
+        "sample": "she"
+      },
+      {
+        "ids": [
+          "L_C7E61A",
+          "L_C7E65D"
+        ],
+        "sample": "it"
+      },
+      {
+        "ids": [
+          "L_C7E660",
+          "L_C7E67F",
+          "L_C7E69A"
+        ],
+        "sample": "his"
+      },
+      {
+        "ids": [
+          "L_C7E66B",
+          "L_C7E682",
+          "L_C7E69D",
+          "L_C7E6B0",
+          "L_C9EC71"
+        ],
+        "sample": "her"
+      },
+      {
+        "ids": [
+          "L_C7E685",
+          "L_C7E6A0"
+        ],
+        "sample": "its"
+      },
+      {
+        "ids": [
+          "L_C7E6A4",
+          "L_C9EC62"
+        ],
+        "sample": "him"
+      },
+      {
+        "ids": [
+          "L_C7E77F",
+          "L_C9F72F",
+          "L_C9F75F",
+          "L_C9F7C4",
+          "L_C9F80D"
+        ],
+        "sample": "[LETTER:0]"
+      },
+      {
+        "ids": [
+          "L_C7E7CC",
+          "L_C7E7D9"
+        ],
+        "sample": "\ufffdKay-o.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C7EA80",
+          "L_C7EABD"
+        ],
+        "sample": "\ufffdI hand you\n  [ITEM:REG_ARGUMENT].[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C87202",
+          "L_C8886A",
+          "L_C90E22",
+          "Npc0105",
+          "Npc0106",
+          "Npc0797"
+        ],
+        "sample": "\ufffd.....[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C886D7",
+          "L_C9C7FA",
+          "L_EF878F",
+          "L_EF87AC",
+          "L_EF87C3",
+          "L_EF87DA",
+          "L_EF8851",
+          "L_EF8868",
+          "L_EFA2FA"
+        ],
+        "sample": "[PAUSE][PAUSE][PAUSE][PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C8A792",
+          "L_C8A88C"
+        ],
+        "sample": "\ufffdSince the Hieroglyph display is closed,[PAUSE] people haven't wanted to visit.[\u2026"
+      },
+      {
+        "ids": [
+          "L_C8AC30",
+          "L_C8AD22"
+        ],
+        "sample": "\ufffdOh, you can't carry it 'cause you have too much stuff.[PAUSE]\n\ufffdIt's a pity.[PAU\u2026"
+      },
+      {
+        "ids": [
+          "L_C918BE",
+          "L_C919F6"
+        ],
+        "sample": "\ufffdMmm, come back when necessary.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C97DDC",
+          "L_C97E9E"
+        ],
+        "sample": "\ufffd[ATTACKER] fired\n  the [ITEM:REG_ARGUMENT]![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C9B62D",
+          "L_C9B6E3",
+          "L_C9B799"
+        ],
+        "sample": "[PAUSE][PAUSE][PAUSE][PAUSE]                         [PAUSE][PAUSE]"
+      },
+      {
+        "ids": [
+          "L_C9F7AF",
+          "L_C9F7B5",
+          "L_C9F7FE",
+          "L_C9F847"
+        ],
+        "sample": "#"
+      },
+      {
+        "ids": [
+          "L_C9F7BB",
+          "L_C9F804"
+        ],
+        "sample": "[PAUSE]\ufffd"
+      },
+      {
+        "ids": [
+          "L_C9F7EB",
+          "L_C9F834"
+        ],
+        "sample": "[PAUSE] kept praying.[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_EF75AB",
+          "L_EF75C2",
+          "L_EF75D9",
+          "L_EF75F0"
+        ],
+        "sample": "\ufffd[DELTA] HP of damage\n  to [TARGET]![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_EF7624",
+          "L_EF7630"
+        ],
+        "sample": "[SMASH]\n[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_EF763C",
+          "L_EF7655"
+        ],
+        "sample": "\ufffd[TARGET] dodged\n  quickly![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_EF766E",
+          "L_EF7682",
+          "L_EF76B3"
+        ],
+        "sample": "\ufffdIt did not work\n  on [TARGET]![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_EF790B",
+          "L_EF793C"
+        ],
+        "sample": "[ATTACKER] and its cohorts"
+      },
+      {
+        "ids": [
+          "L_EF794B",
+          "L_EF797F"
+        ],
+        "sample": "[ATTACKER] and its cohorts."
+      },
+      {
+        "ids": [
+          "L_EF798F",
+          "L_EF79C6"
+        ],
+        "sample": "[ATTACKER] and its cohorts's"
+      },
+      {
+        "ids": [
+          "L_EF79D7",
+          "L_EF7A14"
+        ],
+        "sample": "[YOU_WON]\n[PAUSE]"
+      },
+      {
+        "ids": [
+          "L_EF84A7",
+          "L_EF84B6"
+        ],
+        "sample": "\ufffd[ATTACKER] attacks![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_EF8543",
+          "L_EF8568"
+        ],
+        "sample": "\ufffd[ATTACKER] tried\n  [PSI:0]![PAUSE]"
+      },
+      {
+        "ids": [
+          "L_EF8E5E",
+          "L_EF8E7E",
+          "L_EF8E9E"
+        ],
+        "sample": "\ufffd[ATTACKER] used the\n  [ITEM:REG_ARGUMENT]![PAUSE][PAUSE][PAUSE]"
+      },
+      {
+        "ids": [
+          "L_EFA460",
+          "L_EFA566"
+        ],
+        "sample": "47A47B47C47D47E47F47G47H47I47-47#47J47K47L47M47N47O47P47Q47R47'47~47S47T47U47V47\u2026"
+      },
+      {
+        "ids": [
+          "L_EFA4E3",
+          "L_EFA5E9"
+        ],
+        "sample": "47a47b47c47d47e47f47g47h47i47-47#47j47k47l47m47n47o47p47q47r47'47~47s47t47u47v47\u2026"
+      },
+      {
+        "ids": [
+          "Npc0013",
+          "Npc0060"
+        ],
+        "sample": "\ufffd[NAME:REG_ARGUMENT] picked up the receiver.[PAUSE]"
+      },
+      {
+        "ids": [
+          "Npc0094",
+          "Npc0673",
+          "Npc0834"
+        ],
+        "sample": "\ufffd(Please take my son along.[PAUSE]\n\ufffdHe may look like a regular,[PAUSE] small mou\u2026"
+      },
+      {
+        "ids": [
+          "Npc0218",
+          "Npc1068"
+        ],
+        "sample": "\ufffdMeow.[PAUSE]"
+      },
+      {
+        "ids": [
+          "Npc0352",
+          "Npc0570",
+          "Npc0580"
+        ],
+        "sample": "\ufffd([NAME:REG_ARGUMENT] checked the bus schedule.)[PAUSE]\n\ufffd(It looks like the next\u2026"
+      },
+      {
+        "ids": [
+          "Npc0582",
+          "Npc0744",
+          "Npc0745",
+          "Npc0746"
+        ],
+        "sample": "[PAUSE]\n[PAUSE]"
+      },
+      {
+        "ids": [
+          "Npc0790",
+          "Npc0791"
+        ],
+        "sample": "\ufffd([NAME:REG_ARGUMENT] checked the bus schedule.[PAUSE]\n\ufffdIt looks like the next b\u2026"
+      },
+      {
+        "ids": [
+          "Npc1380",
+          "Npc1397",
+          "Npc1398",
+          "Npc1401",
+          "Npc1402",
+          "Npc1403",
+          "Npc1404"
+        ],
+        "sample": "\ufffdHello![PAUSE]\n\ufffdAnd...[PAUSE] good-bye![PAUSE][PAUSE]"
+      }
+    ],
+    "entities_without_entry_points": [
+      {
+        "entity": "npc_0022",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0023",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0024",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0026",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0027",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0028",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0029",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0031",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0032",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0038",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0049",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0050",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0051",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0054",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0055",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0056",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0057",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0101",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0123",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0164",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0165",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0168",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0169",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0170",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0171",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0172",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0173",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0174",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0175",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0176",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0177",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0178",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0179",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0180",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0181",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0182",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0183",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0184",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0186",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0187",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0188",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0189",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0190",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0193",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0194",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0195",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0196",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0197",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0199",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0200",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0201",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0203",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0204",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0205",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0206",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0210",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0211",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0223",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0224",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0225",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0263",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0323",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0334",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0337",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0350",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0351",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0353",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0354",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0355",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0358",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0359",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0360",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0362",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0363",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0364",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0366",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0368",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0370",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0371",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0372",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0428",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0429",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0430",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0431",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0434",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0438",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0440",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0441",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0442",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0446",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0447",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0452",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0453",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0454",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0455",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0484",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0489",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0492",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0493",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0494",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0495",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0496",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0497",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0531",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0532",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0533",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0538",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0546",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0547",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0548",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0549",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0550",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0567",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0568",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0571",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0572",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0573",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0574",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0575",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0576",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0577",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0578",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0579",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0581",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0584",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0592",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0593",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0621",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0623",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0632",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0640",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0641",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0642",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0643",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0644",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0647",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0648",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0649",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0650",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0651",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0652",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0653",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0654",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0655",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0656",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0663",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0667",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0677",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0695",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0696",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0698",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0699",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0700",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0701",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0702",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0703",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0704",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0709",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0735",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0736",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0741",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0776",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0777",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0785",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0786",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0787",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0789",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0793",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0795",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0796",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0878",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0907",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0913",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0935",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0939",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0971",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0973",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0974",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0975",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0976",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0977",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0978",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0979",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0980",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0981",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0982",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0983",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0984",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0985",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0986",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0987",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0988",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0989",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0990",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0991",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0992",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_0994",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1032",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1041",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1042",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1043",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1044",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1045",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1046",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1072",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1073",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1074",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1075",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1076",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1079",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1081",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1082",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1083",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1084",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1087",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1088",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1093",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1110",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1111",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1113",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1114",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1115",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1116",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1119",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1120",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1121",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1122",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1158",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1159",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1160",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1161",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1166",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1167",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1194",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1195",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1198",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1199",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1202",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1205",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1211",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1212",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1213",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1214",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1215",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1216",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1217",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1218",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1225",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1231",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1237",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1263",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1264",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1265",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1266",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1275",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1277",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1278",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1279",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1280",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1281",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1303",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1304",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1305",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1306",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1307",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1308",
+        "type": "npc"
+      },
+      {
+        "entity": "npc_1309",
+        "type": "npc"
+      }
+    ],
+    "photo_coords_unverified": [
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0000",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          76,
+          1,
+          43
+        ],
+        "unknown_b": 0,
+        "unknown_c": 0,
+        "x_pixel": 332,
+        "y_pixel": 43
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0001",
+        "region": "Onett",
+        "unknown_a": [
+          176,
+          3,
+          186
+        ],
+        "unknown_b": 49152,
+        "unknown_c": 0,
+        "x_pixel": 944,
+        "y_pixel": 186
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0002",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          185,
+          0,
+          46
+        ],
+        "unknown_b": 32771,
+        "unknown_c": 1,
+        "x_pixel": 185,
+        "y_pixel": 46
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0003",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          105,
+          2,
+          145
+        ],
+        "unknown_b": 16384,
+        "unknown_c": 2,
+        "x_pixel": 617,
+        "y_pixel": 145
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0004",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          217,
+          2,
+          155
+        ],
+        "unknown_b": 16384,
+        "unknown_c": 2,
+        "x_pixel": 729,
+        "y_pixel": 155
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0005",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          20,
+          1,
+          46
+        ],
+        "unknown_b": 32771,
+        "unknown_c": 1,
+        "x_pixel": 276,
+        "y_pixel": 46
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0006",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          73,
+          0,
+          168
+        ],
+        "unknown_b": 1,
+        "unknown_c": 3,
+        "x_pixel": 73,
+        "y_pixel": 168
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0007",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          195,
+          0,
+          186
+        ],
+        "unknown_b": 49153,
+        "unknown_c": 3,
+        "x_pixel": 195,
+        "y_pixel": 186
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0008",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          209,
+          2,
+          28
+        ],
+        "unknown_b": 32772,
+        "unknown_c": 4,
+        "x_pixel": 721,
+        "y_pixel": 28
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0009",
+        "region": "Onett",
+        "unknown_a": [
+          33,
+          3,
+          32
+        ],
+        "unknown_b": 16384,
+        "unknown_c": 5,
+        "x_pixel": 801,
+        "y_pixel": 32
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0010",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          70,
+          0,
+          152
+        ],
+        "unknown_b": 3,
+        "unknown_c": 6,
+        "x_pixel": 70,
+        "y_pixel": 152
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0011",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          188,
+          2,
+          114
+        ],
+        "unknown_b": 32772,
+        "unknown_c": 4,
+        "x_pixel": 700,
+        "y_pixel": 114
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0012",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          255,
+          0,
+          91
+        ],
+        "unknown_b": 49156,
+        "unknown_c": 6,
+        "x_pixel": 255,
+        "y_pixel": 91
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0013",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          209,
+          1,
+          179
+        ],
+        "unknown_b": 49156,
+        "unknown_c": 6,
+        "x_pixel": 465,
+        "y_pixel": 179
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0014",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          196,
+          2,
+          226
+        ],
+        "unknown_b": 49156,
+        "unknown_c": 6,
+        "x_pixel": 708,
+        "y_pixel": 226
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0015",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          143,
+          1,
+          20
+        ],
+        "unknown_b": 32770,
+        "unknown_c": 7,
+        "x_pixel": 399,
+        "y_pixel": 20
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0016",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          71,
+          2,
+          143
+        ],
+        "unknown_b": 16386,
+        "unknown_c": 8,
+        "x_pixel": 583,
+        "y_pixel": 143
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0017",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          192,
+          1,
+          238
+        ],
+        "unknown_b": 32769,
+        "unknown_c": 7,
+        "x_pixel": 448,
+        "y_pixel": 238
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0018",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          54,
+          2,
+          1
+        ],
+        "unknown_b": 3,
+        "unknown_c": 9,
+        "x_pixel": 566,
+        "y_pixel": 1
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0019",
+        "region": "Onett",
+        "unknown_a": [
+          88,
+          3,
+          13
+        ],
+        "unknown_b": 49156,
+        "unknown_c": 9,
+        "x_pixel": 856,
+        "y_pixel": 13
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0020",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          64,
+          2,
+          180
+        ],
+        "unknown_b": 32769,
+        "unknown_c": 10,
+        "x_pixel": 576,
+        "y_pixel": 180
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0021",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          39,
+          0,
+          40
+        ],
+        "unknown_b": 2,
+        "unknown_c": 3,
+        "x_pixel": 39,
+        "y_pixel": 40
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0022",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          53,
+          2,
+          87
+        ],
+        "unknown_b": 16385,
+        "unknown_c": 11,
+        "x_pixel": 565,
+        "y_pixel": 87
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0023",
+        "region": "Onett",
+        "unknown_a": [
+          120,
+          3,
+          110
+        ],
+        "unknown_b": 4,
+        "unknown_c": 12,
+        "x_pixel": 888,
+        "y_pixel": 110
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0024",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          248,
+          2,
+          114
+        ],
+        "unknown_b": 16385,
+        "unknown_c": 11,
+        "x_pixel": 760,
+        "y_pixel": 114
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0025",
+        "region": "Onett",
+        "unknown_a": [
+          100,
+          3,
+          106
+        ],
+        "unknown_b": 16385,
+        "unknown_c": 11,
+        "x_pixel": 868,
+        "y_pixel": 106
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0026",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          186,
+          0,
+          17
+        ],
+        "unknown_b": 49154,
+        "unknown_c": 12,
+        "x_pixel": 186,
+        "y_pixel": 17
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0027",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          224,
+          0,
+          99
+        ],
+        "unknown_b": 49154,
+        "unknown_c": 12,
+        "x_pixel": 224,
+        "y_pixel": 99
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0028",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          160,
+          0,
+          157
+        ],
+        "unknown_b": 49154,
+        "unknown_c": 12,
+        "x_pixel": 160,
+        "y_pixel": 157
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0029",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          145,
+          2,
+          190
+        ],
+        "unknown_b": 32771,
+        "unknown_c": 13,
+        "x_pixel": 657,
+        "y_pixel": 190
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0030",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          49,
+          0,
+          39
+        ],
+        "unknown_b": 16384,
+        "unknown_c": 14,
+        "x_pixel": 49,
+        "y_pixel": 39
+      },
+      {
+        "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
+        "photo_id": "photo_0031",
+        "region": "Deep Darkness_Tenda Village_Main",
+        "unknown_a": [
+          48,
+          0,
+          187
+        ],
+        "unknown_b": 3,
+        "unknown_c": 6,
+        "x_pixel": 48,
+        "y_pixel": 187
+      }
+    ],
+    "presents_missing_item": [],
+    "unknown_placeholders": [],
+    "unreachable_nodes": [
+      "L_C50198",
+      "L_C50330",
+      "L_C504C8",
+      "L_C50660",
+      "L_C507F8",
+      "L_C50990",
+      "L_C50A72",
+      "L_C50B54",
+      "L_C50C36",
+      "L_C50DCE",
+      "L_C50F66",
+      "L_C510FE",
+      "L_C511E0",
+      "L_C512C2",
+      "L_C513A4",
+      "L_C51486",
+      "L_C51568",
+      "L_C51700",
+      "L_C51898",
+      "L_C5197A",
+      "L_C51B28",
+      "L_C51B31",
+      "L_C51B39",
+      "L_C51B49",
+      "L_C51B57",
+      "L_C51B6A",
+      "L_C51B7E",
+      "L_C51B9D",
+      "L_C51BB7",
+      "L_C51BC0",
+      "L_C51BDE",
+      "L_C51C03",
+      "L_C51C0E",
+      "L_C51C38",
+      "L_C51C41",
+      "L_C51C56",
+      "L_C51C6E",
+      "L_C51C78",
+      "L_C51C87",
+      "L_C51C95",
+      "L_C51CA3",
+      "L_C51CEF",
+      "L_C51CFA",
+      "L_C51D20",
+      "L_C51D31",
+      "L_C51D39",
+      "L_C51D45",
+      "L_C51D5B",
+      "L_C51D7B",
+      "L_C51D96",
+      "L_C51DB0",
+      "L_C51DCB",
+      "L_C51E14",
+      "L_C51E1F",
+      "L_C51E4A",
+      "L_C51E67",
+      "L_C51E81",
+      "L_C51E95",
+      "L_C51EA1",
+      "L_C51EA9",
+      "L_C51EB6",
+      "L_C51EC4",
+      "L_C51F2C",
+      "L_C51F45",
+      "L_C51F62",
+      "L_C51F74",
+      "L_C51F7C",
+      "L_C51F91",
+      "L_C51FA7",
+      "L_C51FC8",
+      "L_C51FE7",
+      "L_C51FF8",
+      "L_C5201D",
+      "L_C52059",
+      "L_C5206D",
+      "L_C5209B",
+      "L_C520A2",
+      "L_C520B9",
+      "L_C520CF",
+      "L_C520D5",
+      "L_C520E1",
+      "L_C520F1",
+      "L_C520FA",
+      "L_C52130",
+      "L_C52139",
+      "L_C52154",
+      "L_C52163",
+      "L_C5216B",
+      "L_C5217A",
+      "L_C52189",
+      "L_C521AA",
+      "L_C521D3",
+      "L_C521DC",
+      "L_C521EC",
+      "L_C5222E",
+      "L_C5223C",
+      "L_C52261",
+      "L_C52272",
+      "L_C52288",
+      "L_C52299",
+      "L_C522A3",
+      "L_C522AA",
+      "L_C522BA",
+      "L_C522CA",
+      "L_C5230C",
+      "L_C52312",
+      "L_C52339",
+      "L_C5234D",
+      "L_C52355",
+      "L_C52361",
+      "L_C52371",
+      "L_C5238F",
+      "L_C523BE",
+      "L_C523CB",
+      "L_C523EF",
+      "L_C5241D",
+      "L_C5242B",
+      "L_C5244F",
+      "L_C52469",
+      "L_C52485",
+      "L_C5249A",
+      "L_C524B2",
+      "L_C524B8",
+      "L_C524C5",
+      "L_C524D2",
+      "L_C52546",
+      "L_C5256C",
+      "L_C52574",
+      "L_C52583",
+      "L_C5258B",
+      "L_C525A4",
+      "L_C525BB",
+      "L_C525E6",
+      "L_C52603",
+      "L_C52622",
+      "L_C5264B",
+      "L_C526A2",
+      "L_C526B8",
+      "L_C526E5",
+      "L_C5270F",
+      "L_C52732",
+      "L_C52750",
+      "L_C52764",
+      "L_C52776",
+      "L_C52788",
+      "L_C52796",
+      "L_C52809",
+      "L_C52836",
+      "L_C52855",
+      "L_C52860",
+      "L_C52868",
+      "L_C52885",
+      "L_C52893",
+      "L_C528BF",
+      "L_C528EB",
+      "L_C528F9",
+      "L_C52938",
+      "L_C52972",
+      "L_C52989",
+      "L_C529D2",
+      "L_C529E0",
+      "L_C52A09",
+      "L_C52A2A",
+      "L_C52A45",
+      "L_C52A5C",
+      "L_C52A82",
+      "L_C52A92",
+      "L_C52B37",
+      "L_C52B67",
+      "L_C52B82",
+      "L_C52B8D",
+      "L_C52B9B",
+      "L_C52BAA",
+      "L_C52BBD",
+      "L_C52BDD",
+      "L_C52C00",
+      "L_C52C1C",
+      "L_C52C3D",
+      "L_C52C81",
+      "L_C52C9B",
+      "L_C52CD4",
+      "L_C52CED",
+      "L_C52D03",
+      "L_C52D1E",
+      "L_C52D2C",
+      "L_C52D38",
+      "L_C52D54",
+      "L_C52D5F",
+      "L_C52D8C",
+      "L_C52DB6",
+      "L_C52DCC",
+      "L_C52DE8",
+      "L_C52E0D",
+      "L_C52E1C",
+      "L_C52E24",
+      "L_C52E3A",
+      "L_C52E59",
+      "L_C52E85",
+      "L_C52EB2",
+      "L_C52ED7",
+      "L_C52EF5",
+      "L_C52F4A",
+      "L_C52F5F",
+      "L_C52F94",
+      "L_C52FB6",
+      "L_C52FFA",
+      "L_C53018",
+      "L_C53037",
+      "L_C53063",
+      "L_C53072",
+      "L_C5307D",
+      "L_C530FC",
+      "L_C5310F",
+      "L_C5311F",
+      "L_C53134",
+      "L_C53144",
+      "L_C53161",
+      "L_C53172",
+      "L_C531BA",
+      "L_C531EA",
+      "L_C53212",
+      "L_C53259",
+      "L_C5328F",
+      "L_C532B3",
+      "L_C532FA",
+      "L_C53312",
+      "L_C53363",
+      "L_C5338F",
+      "L_C533A3",
+      "L_C533B6",
+      "L_C533D5",
+      "L_C533E5",
+      "L_C53454",
+      "L_C5346F",
+      "L_C5348A",
+      "L_C5349F",
+      "L_C534A7",
+      "L_C534B6",
+      "L_C534C8",
+      "L_C534E9",
+      "L_C53515",
+      "L_C5352C",
+      "L_C53562",
+      "L_C535D3",
+      "L_C535DF",
+      "L_C53615",
+      "L_C53645",
+      "L_C5366D",
+      "L_C53687",
+      "L_C5369D",
+      "L_C536C1",
+      "L_C536D2",
+      "L_C536E1",
+      "L_C53711",
+      "L_C53750",
+      "L_C53761",
+      "L_C53772",
+      "L_C537BC",
+      "L_C53809",
+      "L_C5382A",
+      "L_C5384D",
+      "L_C53870",
+      "L_C53897",
+      "L_C538BC",
+      "L_C538E0",
+      "L_C53908",
+      "L_C53929",
+      "L_C53960",
+      "L_C5398E",
+      "L_C539C4",
+      "L_C539D4",
+      "L_C539E4",
+      "L_C539F4",
+      "L_C53A04",
+      "L_C53A14",
+      "L_C53A47",
+      "L_C53A57",
+      "L_C53A67",
+      "L_C53A77",
+      "L_C53A9F",
+      "L_C53AE6",
+      "L_C53AF6",
+      "L_C53B06",
+      "L_C53B16",
+      "L_C53B26",
+      "L_C53B36",
+      "L_C53B46",
+      "L_C53B56",
+      "L_C53B76",
+      "L_C53B86",
+      "L_C53B96",
+      "L_C53BA6",
+      "L_C53BB6",
+      "L_C53BC6",
+      "L_C53BD6",
+      "L_C53BE6",
+      "L_C53BF6",
+      "L_C53C06",
+      "L_C53C16",
+      "L_C53C26",
+      "L_C53C36",
+      "L_C53C46",
+      "L_C53C5F",
+      "L_C53C7A",
+      "L_C53C95",
+      "L_C53CAF",
+      "L_C53CC8",
+      "L_C53CD8",
+      "L_C53D00",
+      "L_C53D21",
+      "L_C53D46",
+      "L_C53D6A",
+      "L_C53D8F",
+      "L_C53DB8",
+      "L_C53DE8",
+      "L_C53E23",
+      "L_C53E4F",
+      "L_C53E5F",
+      "L_C53E6F",
+      "L_C53E7F",
+      "L_C53E8F",
+      "L_C53E9F",
+      "L_C53EAF",
+      "L_C53EC6",
+      "L_C53EDD",
+      "L_C53EF4",
+      "L_C53F58",
+      "L_C53F89",
+      "L_C53FC9",
+      "L_C5400A",
+      "L_C54055",
+      "L_C54065",
+      "L_C54075",
+      "L_C54085",
+      "L_C54095",
+      "L_C540A5",
+      "L_C540B5",
+      "L_C540C5",
+      "L_C540D5",
+      "L_C540E5",
+      "L_C54106",
+      "L_C5411C",
+      "L_C54133",
+      "L_C54156",
+      "L_C5416D",
+      "L_C54197",
+      "L_C541CB",
+      "L_C54321",
+      "L_C54339",
+      "L_C543A4",
+      "L_C543DA",
+      "L_C543F5",
+      "L_C54451",
+      "L_C54471",
+      "L_C544AF",
+      "L_C544C6",
+      "L_C544DD",
+      "L_C5453E",
+      "L_C545A1",
+      "L_C545B7",
+      "L_C54660",
+      "L_C546BC",
+      "L_C54733",
+      "L_C5475A",
+      "L_C54789",
+      "L_C547B0",
+      "L_C547CB",
+      "L_C547E8",
+      "L_C54806",
+      "L_C54826",
+      "L_C54842",
+      "L_C54852",
+      "L_C54862",
+      "L_C54872",
+      "L_C54882",
+      "L_C54892",
+      "L_C548A2",
+      "L_C548B2",
+      "L_C548FC",
+      "L_C54952",
+      "L_C54979",
+      "L_C549C3",
+      "L_C549FF",
+      "L_C54A08",
+      "L_C54A3A",
+      "L_C54A6C",
+      "L_C54AA1",
+      "L_C54AF5",
+      "L_C54B67",
+      "L_C54BB0",
+      "L_C54BFA",
+      "L_C54C32",
+      "L_C54C6D",
+      "L_C54CEB",
+      "L_C54D10",
+      "L_C54D99",
+      "L_C54DDC",
+      "L_C54E01",
+      "L_C54E1D",
+      "L_C54E20",
+      "L_C54E54",
+      "L_C54EA7",
+      "L_C54EF7",
+      "L_C54F6A",
+      "L_C54FA2",
+      "L_C54FF0",
+      "L_C55057",
+      "L_C5509E",
+      "L_C550E3",
+      "L_C55105",
+      "L_C5514F",
+      "L_C5519F",
+      "L_C551CD",
+      "L_C551EA",
+      "L_C55230",
+      "L_C5528D",
+      "L_C552C4",
+      "L_C553D7",
+      "L_C55409",
+      "L_C55433",
+      "L_C5546C",
+      "L_C55496",
+      "L_C554B3",
+      "L_C554CF",
+      "L_C554F6",
+      "L_C5551D",
+      "L_C55546",
+      "L_C5558A",
+      "L_C555B8",
+      "L_C55602",
+      "L_C55627",
+      "L_C5566B",
+      "L_C5569C",
+      "L_C556C1",
+      "L_C556E3",
+      "L_C5570B",
+      "L_C55740",
+      "L_C5576A",
+      "L_C55794",
+      "L_C557E7",
+      "L_C55831",
+      "L_C5587E",
+      "L_C55897",
+      "L_C558CA",
+      "L_C55915",
+      "L_C5592C",
+      "L_C55943",
+      "L_C55957",
+      "L_C559A8",
+      "L_C559D9",
+      "L_C55AD5",
+      "L_C55B21",
+      "L_C55B79",
+      "L_C55BC1",
+      "L_C55C03",
+      "L_C55C46",
+      "L_C55CCE",
+      "L_C55D2E",
+      "L_C55D46",
+      "L_C55D82",
+      "L_C55DA1",
+      "L_C55DC8",
+      "L_C55DE0",
+      "L_C55DFE",
+      "L_C55E28",
+      "L_C55E77",
+      "L_C55EAB",
+      "L_C55EBB",
+      "L_C55EF6",
+      "L_C55F06",
+      "L_C55F16",
+      "L_C55F26",
+      "L_C55F36",
+      "L_C55F5D",
+      "L_C55F84",
+      "L_C55FCC",
+      "L_C55FDC",
+      "L_C55FEC",
+      "L_C56011",
+      "L_C56054",
+      "L_C56097",
+      "L_C560D3",
+      "L_C5610F",
+      "L_C5614B",
+      "L_C56187",
+      "L_C561C3",
+      "L_C561FF",
+      "L_C56230",
+      "L_C56253",
+      "L_C5629B",
+      "L_C562DD",
+      "L_C5630A",
+      "L_C563A9",
+      "L_C56417",
+      "L_C5645D",
+      "L_C564D1",
+      "L_C564FF",
+      "L_C565BC",
+      "L_C565D4",
+      "L_C566B7",
+      "L_C5678D",
+      "L_C567DC",
+      "L_C567F4",
+      "L_C56804",
+      "L_C5682E",
+      "L_C5687B",
+      "L_C56892",
+      "L_C5689F",
+      "L_C568C9",
+      "L_C56913",
+      "L_C56935",
+      "L_C56955",
+      "L_C5696C",
+      "L_C569A9",
+      "L_C569CA",
+      "L_C569DF",
+      "L_C56A14",
+      "L_C56A42",
+      "L_C56A8A",
+      "L_C56AA0",
+      "L_C56AC0",
+      "L_C56AC1",
+      "L_C56AC2",
+      "L_C56AD3",
+      "L_C56AE4",
+      "L_C56B0D",
+      "L_C56B3E",
+      "L_C56B5D",
+      "L_C56B6F",
+      "L_C56B8E",
+      "L_C56B97",
+      "L_C56BA0",
+      "L_C56BA9",
+      "L_C56BB2",
+      "L_C56BC0",
+      "L_C56BDF",
+      "L_C56BF4",
+      "L_C56C16",
+      "L_C56C40",
+      "L_C56C54",
+      "L_C56C6D",
+      "L_C56C91",
+      "L_C56CB5",
+      "L_C56CC5",
+      "L_C56CD6",
+      "L_C56CDB",
+      "L_C56D02",
+      "L_C56D36",
+      "L_C56D37",
+      "L_C56D38",
+      "L_C56D63",
+      "L_C56D9B",
+      "L_C56DAB",
+      "L_C56DB7",
+      "L_C56DC5",
+      "L_C56DDD",
+      "L_C570DB",
+      "L_C570F2",
+      "L_C572A0",
+      "L_C57399",
+      "L_C5739F",
+      "L_C573DC",
+      "L_C5749A",
+      "L_C57718",
+      "L_C577B2",
+      "L_C57C6F",
+      "L_C57CF3",
+      "L_C57D85",
+      "L_C57DA9",
+      "L_C57E1C",
+      "L_C58000",
+      "L_C580DA",
+      "L_C58103",
+      "L_C5812F",
+      "L_C58148",
+      "L_C581E7",
+      "L_C581EE",
+      "L_C58214",
+      "L_C5824B",
+      "L_C58250",
+      "L_C58262",
+      "L_C582F8",
+      "L_C58358",
+      "L_C58364",
+      "L_C58369",
+      "L_C584B4",
+      "L_C584BB",
+      "L_C584C2",
+      "L_C584C9",
+      "L_C584D0",
+      "L_C584D7",
+      "L_C584DE",
+      "L_C584E5",
+      "L_C584EC",
+      "L_C584F3",
+      "L_C584FA",
+      "L_C58501",
+      "L_C58508",
+      "L_C5850F",
+      "L_C58516",
+      "L_C5851D",
+      "L_C58524",
+      "L_C5852B",
+      "L_C58532",
+      "L_C58539",
+      "L_C58567",
+      "L_C58568",
+      "L_C58597",
+      "L_C58599",
+      "L_C585A7",
+      "L_C585BE",
+      "L_C585C4",
+      "L_C585C5",
+      "L_C585C7",
+      "L_C585DB",
+      "L_C585DC",
+      "L_C585F2",
+      "L_C5860E",
+      "L_C58614",
+      "L_C58624",
+      "L_C58636",
+      "L_C5863C",
+      "L_C58659",
+      "L_C5865B",
+      "L_C58669",
+      "L_C58680",
+      "L_C5869B",
+      "L_C5869C",
+      "L_C586BD",
+      "L_C586DE",
+      "L_C586FF",
+      "L_C58718",
+      "L_C587EE",
+      "L_C587F3",
+      "L_C58813",
+      "L_C5882E",
+      "L_C5882F",
+      "L_C58840",
+      "L_C58841",
+      "L_C5884D",
+      "L_C5884E",
+      "L_C5885A",
+      "L_C5885B",
+      "L_C58867",
+      "L_C58868",
+      "L_C58874",
+      "L_C58875",
+      "L_C58881",
+      "L_C58882",
+      "L_C5888E",
+      "L_C5888F",
+      "L_C5889B",
+      "L_C5889C",
+      "L_C588A8",
+      "L_C588A9",
+      "L_C588BA",
+      "L_C588BB",
+      "L_C588CC",
+      "L_C588CD",
+      "L_C589E6",
+      "L_C589EA",
+      "L_C589EE",
+      "L_C589F2",
+      "L_C589F6",
+      "L_C589FA",
+      "L_C589FE",
+      "L_C58A02",
+      "L_C58A06",
+      "L_C58A0A",
+      "L_C58A0E",
+      "L_C58A12",
+      "L_C58A16",
+      "L_C58A1A",
+      "L_C58A1E",
+      "L_C58A22",
+      "L_C58A26",
+      "L_C58A2A",
+      "L_C58A2E",
+      "L_C58A32",
+      "L_C58A36",
+      "L_C58A61",
+      "L_C58A8D",
+      "L_C58A92",
+      "L_C58A93",
+      "L_C58AD7",
+      "L_C58ADC",
+      "L_C58ADD",
+      "L_C58AFB",
+      "L_C58B6C",
+      "L_C58B88",
+      "L_C58BA0",
+      "L_C58BAB",
+      "L_C58BAC",
+      "L_C58BD1",
+      "L_C58BD2",
+      "L_C58C2A",
+      "L_C58C2F",
+      "L_C58C30",
+      "L_C58C54",
+      "L_C58C55",
+      "L_C58C5F",
+      "L_C58C69",
+      "L_C58C73",
+      "L_C58C7D",
+      "L_C58C88",
+      "L_C58D09",
+      "L_C58D46",
+      "L_C58D58",
+      "L_C58D70",
+      "L_C58D80",
+      "L_C58D96",
+      "L_C58DA9",
+      "L_C58DBF",
+      "L_C58DF1",
+      "L_C58E02",
+      "L_C58E13",
+      "L_C58E31",
+      "L_C58E4A",
+      "L_C58E73",
+      "L_C58E9F",
+      "L_C58EA6",
+      "L_C58EAD",
+      "L_C58EB4",
+      "L_C58ED1",
+      "L_C58EDD",
+      "L_C58F07",
+      "L_C58F35",
+      "L_C58F37",
+      "L_C58F61",
+      "L_C58F93",
+      "L_C58FC1",
+      "L_C58FEB",
+      "L_C59019",
+      "L_C5901C",
+      "L_C5901F",
+      "L_C59022",
+      "L_C59025",
+      "L_C59028",
+      "L_C5902B",
+      "L_C5902E",
+      "L_C59031",
+      "L_C59034",
+      "L_C59037",
+      "L_C5903A",
+      "L_C5903D",
+      "L_C59040",
+      "L_C59043",
+      "L_C59046",
+      "L_C59049",
+      "L_C5904C",
+      "L_C5904F",
+      "L_C59052",
+      "L_C59055",
+      "L_C59058",
+      "L_C5905B",
+      "L_C5905E",
+      "L_C59061",
+      "L_C59064",
+      "L_C59067",
+      "L_C5906A",
+      "L_C5906D",
+      "L_C59070",
+      "L_C59082",
+      "L_C59894",
+      "L_C59895",
+      "L_C599D0",
+      "L_C599F4",
+      "L_C59A15",
+      "L_C59A40",
+      "L_C59A72",
+      "L_C59AA4",
+      "L_C59ACE",
+      "L_C59AF5",
+      "L_C59B25",
+      "L_C59B45",
+      "L_C59B78",
+      "L_C59BB5",
+      "L_C59BD7",
+      "L_C59BFC",
+      "L_C59C39",
+      "L_C59C67",
+      "L_C59C84",
+      "L_C59CB5",
+      "L_C59CD9",
+      "L_C59D06",
+      "L_C59D30",
+      "L_C59D61",
+      "L_C59D7F",
+      "L_C59DA0",
+      "L_C59DBD",
+      "L_C59DE1",
+      "L_C59E01",
+      "L_C59E21",
+      "L_C59E40",
+      "L_C59E62",
+      "L_C59E84",
+      "L_C59EB2",
+      "L_C59F08",
+      "L_C59F44",
+      "L_C59F60",
+      "L_C59F80",
+      "L_C59FA0",
+      "L_C59FBD",
+      "L_C59FF1",
+      "L_C5A00C",
+      "L_C5A036",
+      "L_C5A05B",
+      "L_C5A07E",
+      "L_C5A0B3",
+      "L_C5A0DB",
+      "L_C5A0FE",
+      "L_C5A11A",
+      "L_C5A154",
+      "L_C5A17D",
+      "L_C5A1AE",
+      "L_C5A1CD",
+      "L_C5A1FF",
+      "L_C5A232",
+      "L_C5A25E",
+      "L_C5A27A",
+      "L_C5A29C",
+      "L_C5A2C2",
+      "L_C5A2EC",
+      "L_C5A318",
+      "L_C5A342",
+      "L_C5A36C",
+      "L_C5A396",
+      "L_C5A3C0",
+      "L_C5A3EA",
+      "L_C5A414",
+      "L_C5A43E",
+      "L_C5A465",
+      "L_C5A48B",
+      "L_C5A4B4",
+      "L_C5A4CD",
+      "L_C5A4EC",
+      "L_C5A50A",
+      "L_C5A512",
+      "L_C5A525",
+      "L_C5A526",
+      "L_C5A530",
+      "L_C5A54D",
+      "L_C5A572",
+      "L_C5A578",
+      "L_C5A579",
+      "L_C5A57F",
+      "L_C5B3EB",
+      "L_C5B3F6",
+      "L_C5B405",
+      "L_C5B426",
+      "L_C5B42E",
+      "L_C5B43C",
+      "L_C5B447",
+      "L_C5B468",
+      "L_C5B48C",
+      "L_C5B4D7",
+      "L_C5B507",
+      "L_C5B541",
+      "L_C5B551",
+      "L_C5B572",
+      "L_C5B591",
+      "L_C5B5B1",
+      "L_C5B5CE",
+      "L_C5B5D8",
+      "L_C5B5E2",
+      "L_C5B5F0",
+      "L_C5B5FE",
+      "L_C5B666",
+      "L_C5B674",
+      "L_C5B69D",
+      "L_C5B6AF",
+      "L_C5B6B7",
+      "L_C5B6CA",
+      "L_C5B6E2",
+      "L_C5B70B",
+      "L_C5B72D",
+      "L_C5B746",
+      "L_C5B76F",
+      "L_C5B799",
+      "L_C5B7A6",
+      "L_C5B7CD",
+      "L_C5B7F2",
+      "L_C5B807",
+      "L_C5B826",
+      "L_C5B833",
+      "L_C5B84E",
+      "L_C5B860",
+      "L_C5B86D",
+      "L_C5B8D6",
+      "L_C5B8DF",
+      "L_C5B8EB",
+      "L_C5B8F8",
+      "L_C5B900",
+      "L_C5B910",
+      "L_C5B92C",
+      "L_C5B94D",
+      "L_C5B971",
+      "L_C5B97E",
+      "L_C5B994",
+      "L_C5B9C1",
+      "L_C5B9D1",
+      "L_C5B9FE",
+      "L_C5BA07",
+      "L_C5BA28",
+      "L_C5BA5B",
+      "L_C5BA62",
+      "L_C5BA69",
+      "L_C5BA78",
+      "L_C5BA86",
+      "L_C5BAB4",
+      "L_C5BABD",
+      "L_C5BAC5",
+      "L_C5BAD3",
+      "L_C5BADB",
+      "L_C5BAE8",
+      "L_C5BAF1",
+      "L_C5BB02",
+      "L_C5BB22",
+      "L_C5BB2C",
+      "L_C5BB36",
+      "L_C5BB46",
+      "L_C5BB9A",
+      "L_C5BBB2",
+      "L_C5BBCE",
+      "L_C5BBDC",
+      "L_C5BBE4",
+      "L_C5BBF2",
+      "L_C5BBFB",
+      "L_C5BC0D",
+      "L_C5BC23",
+      "L_C5BC2D",
+      "L_C5BC3C",
+      "L_C5BC4C",
+      "L_C5BCC2",
+      "L_C5BCCA",
+      "L_C5BCD2",
+      "L_C5BCDD",
+      "L_C5BCE5",
+      "L_C5BCF4",
+      "L_C5BCFD",
+      "L_C5BD0C",
+      "L_C5BD49",
+      "L_C5BD53",
+      "L_C5BD59",
+      "L_C5BD62",
+      "L_C5BDE0",
+      "L_C5BE00",
+      "L_C5BE16",
+      "L_C5BE24",
+      "L_C5BE34",
+      "L_C5BE45",
+      "L_C5BE4E",
+      "L_C5BE6F",
+      "L_C5BEB3",
+      "L_C5BEBA",
+      "L_C5BEC1",
+      "L_C5BECD",
+      "L_C5BF87",
+      "L_C5BF8E",
+      "L_C5BF95",
+      "L_C5BFA1",
+      "L_C5BFB0",
+      "L_C5BFBF",
+      "L_C5BFC7",
+      "L_C5BFD3",
+      "L_C5C025",
+      "L_C5C02C",
+      "L_C5C033",
+      "L_C5C03C",
+      "L_C5C0AD",
+      "L_C5C0CB",
+      "L_C5C0E3",
+      "L_C5C0F3",
+      "L_C5C10F",
+      "L_C5C125",
+      "L_C5C13E",
+      "L_C5C161",
+      "L_C5C192",
+      "L_C5C19D",
+      "L_C5C1A7",
+      "L_C5C1BE",
+      "L_C5C203",
+      "L_C5C210",
+      "L_C5C22E",
+      "L_C5C23B",
+      "L_C5C252",
+      "L_C5C268",
+      "L_C5C27F",
+      "L_C5C2A5",
+      "L_C5C2C6",
+      "L_C5C2D2",
+      "L_C5C2DE",
+      "L_C5C2E7",
+      "L_C5C39E",
+      "L_C5C456",
+      "L_C5C4E3",
+      "L_C5C4EE",
+      "L_C5C4FD",
+      "L_C5C50D",
+      "L_C5C521",
+      "L_C5C536",
+      "L_C5C564",
+      "L_C5C56B",
+      "L_C5C572",
+      "L_C5C57B",
+      "L_C5C5DD",
+      "L_C5C5F3",
+      "L_C5C61A",
+      "L_C5C63A",
+      "L_C5C64D",
+      "L_C5C65C",
+      "L_C5C67A",
+      "L_C5C68A",
+      "L_C5C6C3",
+      "L_C5C6D2",
+      "L_C5C6E3",
+      "L_C5C6EC",
+      "L_C5C74C",
+      "L_C5C755",
+      "L_C5C765",
+      "L_C5C76F",
+      "L_C5C77E",
+      "L_C5C78A",
+      "L_C5C7AE",
+      "L_C5C7B9",
+      "L_C5C7F1",
+      "L_C5C7FB",
+      "L_C5C804",
+      "L_C5C80D",
+      "L_C5C86C",
+      "L_C5C876",
+      "L_C5C88A",
+      "L_C5C896",
+      "L_C5C89E",
+      "L_C5C8AA",
+      "L_C5C8C8",
+      "L_C5C8D8",
+      "L_C5C916",
+      "L_C5C920",
+      "L_C5C92A",
+      "L_C5C933",
+      "L_C5C99A",
+      "L_C5C9A4",
+      "L_C5C9AE",
+      "L_C5C9B7",
+      "L_C5C9C2",
+      "L_C5C9CE",
+      "L_C5C9E7",
+      "L_C5C9F2",
+      "L_C5CA04",
+      "L_C5CA0A",
+      "L_C5CA10",
+      "L_C5CA1E",
+      "L_C5CAB4",
+      "L_C5CAD0",
+      "L_C5CAEC",
+      "L_C5CAFE",
+      "L_C5CB12",
+      "L_C5CB1E",
+      "L_C5CB29",
+      "L_C5CB33",
+      "L_C5CB67",
+      "L_C5CB71",
+      "L_C5CB7B",
+      "L_C5CB88",
+      "L_C5CBDC",
+      "L_C5CC35",
+      "L_C5CC53",
+      "L_C5CC63",
+      "L_C5CC83",
+      "L_C5CC8F",
+      "L_C5CCAE",
+      "L_C5CCBD",
+      "L_C5CCCA",
+      "L_C5CCDA",
+      "L_C5CCEA",
+      "L_C5CCF5",
+      "L_C5CD29",
+      "L_C5CD2F",
+      "L_C5CD51",
+      "L_C5CD64",
+      "L_C5CD73",
+      "L_C5CD7F",
+      "L_C5CD97",
+      "L_C5CDB3",
+      "L_C5CDC0",
+      "L_C5CDCC",
+      "L_C5CDD8",
+      "L_C5CDF2",
+      "L_C5CEC0",
+      "L_C5CEC8",
+      "L_C5CED0",
+      "L_C5CEDC",
+      "L_C5CEE4",
+      "L_C5CEF0",
+      "L_C5CEF9",
+      "L_C5CF0A",
+      "L_C5CF1C",
+      "L_C5CF26",
+      "L_C5CF30",
+      "L_C5CF3D",
+      "L_C5CF60",
+      "L_C5CF82",
+      "L_C5CF8A",
+      "L_C5CF9B",
+      "L_C5CFA6",
+      "L_C5CFAE",
+      "L_C5CFBA",
+      "L_C5CFD5",
+      "L_C5CFDF",
+      "L_C5D00C",
+      "L_C5D015",
+      "L_C5D01E",
+      "L_C5D02D",
+      "L_C5D06D",
+      "L_C5D08D",
+      "L_C5D0AA",
+      "L_C5D0C9",
+      "L_C5D0DF",
+      "L_C5D104",
+      "L_C5D120",
+      "L_C5D148",
+      "L_C5D178",
+      "L_C5D19D",
+      "L_C5D1C7",
+      "L_C5D1ED",
+      "L_C5D26F",
+      "L_C5D2DB",
+      "L_C5D5AB",
+      "L_C5D742",
+      "L_C5D746",
+      "L_C5D74A",
+      "L_C5D74E",
+      "L_C5D752",
+      "L_C5D756",
+      "L_C5D75A",
+      "L_C5D75E",
+      "L_C5D762",
+      "L_C5D766",
+      "L_C5D76A",
+      "L_C5D76E",
+      "L_C5D772",
+      "L_C5D776",
+      "L_C5D77A",
+      "L_C5D77E",
+      "L_C5D782",
+      "L_C5D786",
+      "L_C5D78A",
+      "L_C5D78E",
+      "L_C5D792",
+      "L_C5D79D",
+      "L_C5D7A1",
+      "L_C5D7A5",
+      "L_C5D7A9",
+      "L_C5D7AD",
+      "L_C5D7B1",
+      "L_C5D7B5",
+      "L_C5D7B9",
+      "L_C5D7BD",
+      "L_C5D7C1",
+      "L_C5D7C5",
+      "L_C5D7C9",
+      "L_C5D7CD",
+      "L_C5D7D1",
+      "L_C5D7D5",
+      "L_C5D7D9",
+      "L_C5D7DD",
+      "L_C5D7E1",
+      "L_C5D7E5",
+      "L_C5D7E9",
+      "L_C5D7ED",
+      "L_C5D7F1",
+      "L_C5D7F5",
+      "L_C5D7F9",
+      "L_C5D7FD",
+      "L_C5D801",
+      "L_C5D805",
+      "L_C5D809",
+      "L_C5D80D",
+      "L_C5D811",
+      "L_C5D815",
+      "L_C5D819",
+      "L_C5D81D",
+      "L_C5D821",
+      "L_C5D825",
+      "L_C5D829",
+      "L_C5D82D",
+      "L_C5D831",
+      "L_C5D835",
+      "L_C5D840",
+      "L_C5D844",
+      "L_C5D858",
+      "L_C5D86C",
+      "L_C5D880",
+      "L_C5D894",
+      "L_C5D89E",
+      "L_C5D8D0",
+      "L_C5D8DA",
+      "L_C5D8FB",
+      "L_C5D905",
+      "L_C5D917",
+      "L_C5D936",
+      "L_C5D955",
+      "L_C5D974",
+      "L_C5D993",
+      "L_C5D9B2",
+      "L_C5D9D1",
+      "L_C5DA27",
+      "L_C5DA58",
+      "L_C5DA85",
+      "L_C5DAB3",
+      "L_C5DACB",
+      "L_C5DB01",
+      "L_C5DB32",
+      "L_C5DB54",
+      "L_C5DB7F",
+      "L_C5DBBF",
+      "L_C5DBEB",
+      "L_C5DC17",
+      "L_C5DC3C",
+      "L_C5DC63",
+      "L_C5DC91",
+      "L_C5DCC1",
+      "L_C5DCDF",
+      "L_C5DCF9",
+      "L_C5DD29",
+      "L_C5DD52",
+      "L_C5DD6C",
+      "L_C5DDA3",
+      "L_C5DDCC",
+      "L_C5DDF1",
+      "L_C5DED3",
+      "L_C5DEEF",
+      "L_C5DEFC",
+      "L_C5DF05",
+      "L_C5DF3A",
+      "L_C5DF56",
+      "L_C5DF61",
+      "L_C5DF7F",
+      "L_C5DF89",
+      "L_C5DFA7",
+      "L_C5DFBA",
+      "L_C5DFEF",
+      "L_C5DFFA",
+      "L_C5E013",
+      "L_C5E020",
+      "L_C5E029",
+      "L_C5E038",
+      "L_C5E069",
+      "L_C5E08D",
+      "L_C5E09A",
+      "L_C5E0A3",
+      "L_C5E0A9",
+      "L_C5E0CC",
+      "L_C5E0DE",
+      "L_C5E136",
+      "L_C5E17E",
+      "L_C5E188",
+      "L_C5E18B",
+      "L_C5E18F",
+      "L_C5E1AD",
+      "L_C5E1B7",
+      "L_C5E1D6",
+      "L_C5E1E0",
+      "L_C5E1EF",
+      "L_C5E22C",
+      "L_C5E236",
+      "L_C5E237",
+      "L_C5E241",
+      "L_C5E24B",
+      "L_C5E25B",
+      "L_C5E269",
+      "L_C5E26A",
+      "L_C5E277",
+      "L_C5E2B0",
+      "L_C5E2B5",
+      "L_C5E2BA",
+      "L_C5E2BF",
+      "L_C5E2C4",
+      "L_C5E2E3",
+      "L_C5E2E8",
+      "L_C5E2ED",
+      "L_C5E2F2",
+      "L_C5E2F7",
+      "L_C5E314",
+      "L_C5E31D",
+      "L_C5E326",
+      "L_C5E32F",
+      "L_C5E338",
+      "L_C5E34A",
+      "L_C5E353",
+      "L_C5E35C",
+      "L_C5E365",
+      "L_C5E36E",
+      "L_C5E37A",
+      "L_C5E387",
+      "L_C5E392",
+      "L_C5E3A5",
+      "L_C5E3BC",
+      "L_C5E3C9",
+      "L_C5E412",
+      "L_C5E419",
+      "L_C5E420",
+      "L_C5E427",
+      "L_C5E42E",
+      "L_C5E433",
+      "L_C5E453",
+      "L_C5E455",
+      "L_C5E48E",
+      "L_C5E499",
+      "L_C5E4C2",
+      "L_C5E4C3",
+      "L_C5E4F9",
+      "L_C5E504",
+      "L_C5E52D",
+      "L_C5E52E",
+      "L_C5E54A",
+      "L_C5E579",
+      "L_C5E584",
+      "L_C5E58B",
+      "L_C5E592",
+      "L_C5E599",
+      "L_C5E5A0",
+      "L_C5E5A7",
+      "L_C5E5AE",
+      "L_C5E5B5",
+      "L_C5E5BC",
+      "L_C5E5DF",
+      "L_C5E5EB",
+      "L_C5E605",
+      "L_C5E62C",
+      "L_C5E633",
+      "L_C5E655",
+      "L_C5E675",
+      "L_C5E691",
+      "L_C5E6AE",
+      "L_C5E6CB",
+      "L_C5E6D7",
+      "L_C5E6F4",
+      "L_C5E70B",
+      "L_C5E79F",
+      "L_C5E7AC",
+      "L_C5E820",
+      "L_C5E832",
+      "L_C5E833",
+      "L_C5E9A8",
+      "L_C5EA35",
+      "L_C5EA3D",
+      "L_C5EA45",
+      "L_C5EAA3",
+      "L_C5EABF",
+      "L_C5EACF",
+      "L_C5EB0B",
+      "L_C5EDD4",
+      "L_C5EE13",
+      "L_C5F551",
+      "L_C5F575",
+      "L_C5F642",
+      "L_C5F643",
+      "L_C5F650",
+      "L_C5F657",
+      "L_C5F679",
+      "L_C5F6B2",
+      "L_C5F6FA",
+      "L_C5F72E",
+      "L_C5F730",
+      "L_C5FF4E",
+      "L_C60006",
+      "L_C600A4",
+      "L_C604C9",
+      "L_C607AE",
+      "L_C60B13",
+      "L_C60DB8",
+      "L_C610F1",
+      "L_C624D6",
+      "L_C62641",
+      "L_C62865",
+      "L_C62A9B",
+      "L_C62AE7",
+      "L_C62D8A",
+      "L_C62DF3",
+      "L_C62E1B",
+      "L_C62E3B",
+      "L_C62EEA",
+      "L_C62EEF",
+      "L_C62F1A",
+      "L_C62F49",
+      "L_C62F72",
+      "L_C63032",
+      "L_C63042",
+      "L_C6314B",
+      "L_C6333C",
+      "L_C63352",
+      "L_C63382",
+      "L_C63388",
+      "L_C633C9",
+      "L_C63407",
+      "L_C63415",
+      "L_C63494",
+      "L_C634B4",
+      "L_C63506",
+      "L_C63593",
+      "L_C635B4",
+      "L_C636E5",
+      "L_C6372D",
+      "L_C63756",
+      "L_C63761",
+      "L_C63786",
+      "L_C63790",
+      "L_C6379F",
+      "L_C637E8",
+      "L_C63848",
+      "L_C63888",
+      "L_C638D4",
+      "L_C638F8",
+      "L_C6390C",
+      "L_C63916",
+      "L_C6393E",
+      "L_C63958",
+      "L_C63963",
+      "L_C639C9",
+      "L_C639CA",
+      "L_C63BA1",
+      "L_C63BB7",
+      "L_C63BC1",
+      "L_C63BDC",
+      "L_C63BE4",
+      "L_C63BEC",
+      "L_C63C2A",
+      "L_C63C59",
+      "L_C63C86",
+      "L_C63CA8",
+      "L_C63CEA",
+      "L_C63D25",
+      "L_C63D40",
+      "L_C63D54",
+      "L_C63D93",
+      "L_C63DC8",
+      "L_C63DE3",
+      "L_C63E5A",
+      "L_C63EB0",
+      "L_C63F1F",
+      "L_C63F42",
+      "L_C63F74",
+      "L_C63F80",
+      "L_C63FA2",
+      "L_C63FFD",
+      "L_C6400A",
+      "L_C64066",
+      "L_C64078",
+      "L_C640A1",
+      "L_C640F1",
+      "L_C64116",
+      "L_C64155",
+      "L_C64179",
+      "L_C64192",
+      "L_C6419C",
+      "L_C641A6",
+      "L_C641B0",
+      "L_C64240",
+      "L_C6427C",
+      "L_C642A3",
+      "L_C642FC",
+      "L_C64339",
+      "L_C6436A",
+      "L_C643A7",
+      "L_C643CE",
+      "L_C643DE",
+      "L_C6441D",
+      "L_C6442F",
+      "L_C6445F",
+      "L_C6449F",
+      "L_C644A0",
+      "L_C644E3",
+      "L_C64515",
+      "L_C645F2",
+      "L_C64600",
+      "L_C6462E",
+      "L_C64633",
+      "L_C64671",
+      "L_C646BB",
+      "L_C646FA",
+      "L_C647BD",
+      "L_C647EF",
+      "L_C6480C",
+      "L_C64823",
+      "L_C6483C",
+      "L_C64865",
+      "L_C648DA",
+      "L_C648E3",
+      "L_C648FC",
+      "L_C64916",
+      "L_C6491E",
+      "L_C64930",
+      "L_C64946",
+      "L_C64983",
+      "L_C64996",
+      "L_C649B7",
+      "L_C649E8",
+      "L_C649FB",
+      "L_C64A1C",
+      "L_C64A47",
+      "L_C64A92",
+      "L_C64AA0",
+      "L_C64AB8",
+      "L_C64ACF",
+      "L_C64AE6",
+      "L_C64B0B",
+      "L_C64B18",
+      "L_C64B59",
+      "L_C64BBF",
+      "L_C64C0A",
+      "L_C64C42",
+      "L_C64C52",
+      "L_C64C60",
+      "L_C64C6A",
+      "L_C64C9E",
+      "L_C64CC9",
+      "L_C64CF8",
+      "L_C64EA4",
+      "L_C64F9F",
+      "L_C64FAB",
+      "L_C64FB3",
+      "L_C64FC8",
+      "L_C64FDE",
+      "L_C64FF3",
+      "L_C65009",
+      "L_C651A6",
+      "L_C651BF",
+      "L_C654C4",
+      "L_C654DE",
+      "L_C654F3",
+      "L_C6550E",
+      "L_C65527",
+      "L_C65544",
+      "L_C658BB",
+      "L_C658D4",
+      "L_C658E8",
+      "L_C65900",
+      "L_C65923",
+      "L_C6593E",
+      "L_C659BF",
+      "L_C659C8",
+      "L_C663FE",
+      "L_C666EA",
+      "L_C66A06",
+      "L_C66D2B",
+      "L_C67501",
+      "L_C677EB",
+      "L_C67804",
+      "L_C68000",
+      "L_C68016",
+      "L_C68077",
+      "L_C680E2",
+      "L_C680E8",
+      "L_C680EE",
+      "L_C680F0",
+      "L_C681E6",
+      "L_C681EB",
+      "L_C6822A",
+      "L_C683D5",
+      "L_C683D9",
+      "L_C683DE",
+      "L_C68472",
+      "L_C68473",
+      "L_C684A6",
+      "L_C684CE",
+      "L_C68538",
+      "L_C68577",
+      "L_C685B4",
+      "L_C685BB",
+      "L_C68650",
+      "L_C68659",
+      "L_C68661",
+      "L_C68662",
+      "L_C6866A",
+      "L_C6866B",
+      "L_C686C8",
+      "L_C68726",
+      "L_C687A5",
+      "L_C687E4",
+      "L_C6880B",
+      "L_C68815",
+      "L_C6881F",
+      "L_C68829",
+      "L_C68833",
+      "L_C6883D",
+      "L_C68847",
+      "L_C68858",
+      "L_C68862",
+      "L_C6886C",
+      "L_C68876",
+      "L_C68887",
+      "L_C68891",
+      "L_C6889B",
+      "L_C688A5",
+      "L_C688AF",
+      "L_C688B9",
+      "L_C688C3",
+      "L_C688CD",
+      "L_C688D7",
+      "L_C688E1",
+      "L_C688EB",
+      "L_C688F5",
+      "L_C688FF",
+      "L_C68909",
+      "L_C68913",
+      "L_C6891D",
+      "L_C68927",
+      "L_C6893B",
+      "L_C6899A",
+      "L_C68B7D",
+      "L_C68C3F",
+      "L_C68CC2",
+      "L_C68CC3",
+      "L_C68D59",
+      "L_C68D5A",
+      "L_C68DB4",
+      "L_C68DB5",
+      "L_C68DC4",
+      "L_C68DD5",
+      "L_C690A6",
+      "L_C6943A",
+      "L_C694B9",
+      "L_C694F4",
+      "L_C69571",
+      "L_C695AC",
+      "L_C695B3",
+      "L_C6A725",
+      "L_C6ACDA",
+      "L_C6AE77",
+      "L_C6AEE1",
+      "L_C6AF8A",
+      "L_C6B087",
+      "L_C6B0F9",
+      "L_C6B871",
+      "L_C6BC42",
+      "L_C6BDD2",
+      "L_C6C081",
+      "L_C6C107",
+      "L_C6C118",
+      "L_C6C129",
+      "L_C6C13A",
+      "L_C6C168",
+      "L_C6C334",
+      "L_C6C744",
+      "L_C6C77B",
+      "L_C6C8A3",
+      "L_C6D4D5",
+      "L_C6D786",
+      "L_C6D8AF",
+      "L_C6DAA0",
+      "L_C6DAC0",
+      "L_C6DBAE",
+      "L_C6E33A",
+      "L_C6E426",
+      "L_C6E57D",
+      "L_C6F9BB",
+      "L_C6F9DC",
+      "L_C6FA68",
+      "L_C6FAB4",
+      "L_C6FB5D",
+      "L_C6FB6D",
+      "L_C6FBB5",
+      "L_C6FC1A",
+      "L_C6FC6D",
+      "L_C6FC94",
+      "L_C6FDBE",
+      "L_C6FED6",
+      "L_C6FF9B",
+      "L_C6FFBB",
+      "L_C70000",
+      "L_C70288",
+      "L_C70DB0",
+      "L_C7244E",
+      "L_C7246A",
+      "L_C724AB",
+      "L_C724D7",
+      "L_C7252B",
+      "L_C7259F",
+      "L_C72620",
+      "L_C72664",
+      "L_C726AA",
+      "L_C72D6E",
+      "L_C733A7",
+      "L_C73628",
+      "L_C73BCC",
+      "L_C73CB3",
+      "L_C73E4B",
+      "L_C73EE9",
+      "L_C73F83",
+      "L_C73FE9",
+      "L_C74046",
+      "L_C7407E",
+      "L_C74096",
+      "L_C74509",
+      "L_C74545",
+      "L_C74565",
+      "L_C74787",
+      "L_C74EF1",
+      "L_C752CE",
+      "L_C7531D",
+      "L_C761DD",
+      "L_C7623E",
+      "L_C763DC",
+      "L_C7689D",
+      "L_C76B0A",
+      "L_C76E0C",
+      "L_C77148",
+      "L_C7719D",
+      "L_C774C3",
+      "L_C77639",
+      "L_C77C4F",
+      "L_C77DCE",
+      "L_C77DF0",
+      "L_C77E11",
+      "L_C77E33",
+      "L_C77E85",
+      "L_C77EB6",
+      "L_C77EE8",
+      "L_C77EFF",
+      "L_C78000",
+      "L_C78033",
+      "L_C780B2",
+      "L_C780F7",
+      "L_C7814B",
+      "L_C78166",
+      "L_C781CE",
+      "L_C78208",
+      "L_C7823F",
+      "L_C78240",
+      "L_C7827C",
+      "L_C78290",
+      "L_C782A9",
+      "L_C782BD",
+      "L_C78306",
+      "L_C78323",
+      "L_C78360",
+      "L_C78394",
+      "L_C78433",
+      "L_C78442",
+      "L_C7847E",
+      "L_C784AC",
+      "L_C784EE",
+      "L_C78536",
+      "L_C7854A",
+      "L_C78569",
+      "L_C78592",
+      "L_C78595",
+      "L_C785A9",
+      "L_C785BD",
+      "L_C78689",
+      "L_C786E7",
+      "L_C78734",
+      "L_C787A9",
+      "L_C78806",
+      "L_C78852",
+      "L_C78866",
+      "L_C788C3",
+      "L_C78926",
+      "L_C78943",
+      "L_C78957",
+      "L_C78968",
+      "L_C78979",
+      "L_C789D0",
+      "L_C789DE",
+      "L_C78A1B",
+      "L_C78A2C",
+      "L_C78A3D",
+      "L_C78A4E",
+      "L_C78A5F",
+      "L_C78AF3",
+      "L_C78B4E",
+      "L_C78C71",
+      "L_C78C7F",
+      "L_C78CC0",
+      "L_C78D81",
+      "L_C78D8F",
+      "L_C78DD0",
+      "L_C78DFF",
+      "L_C78E11",
+      "L_C78E20",
+      "L_C78E49",
+      "L_C78E60",
+      "L_C78E98",
+      "L_C78ED8",
+      "L_C78F12",
+      "L_C78F4A",
+      "L_C78FB1",
+      "L_C78FCA",
+      "L_C7905A",
+      "L_C79077",
+      "L_C79287",
+      "L_C792DC",
+      "L_C7949E",
+      "L_C795BD",
+      "L_C796EE",
+      "L_C79707",
+      "L_C79796",
+      "L_C798FE",
+      "L_C79942",
+      "L_C79B12",
+      "L_C79B98",
+      "L_C79BEC",
+      "L_C79BFF",
+      "L_C79C1E",
+      "L_C79C32",
+      "L_C79C46",
+      "L_C79CC8",
+      "L_C79D27",
+      "L_C79D5F",
+      "L_C79D66",
+      "L_C79D73",
+      "L_C79D7A",
+      "L_C79F32",
+      "L_C7A04A",
+      "L_C7A1BA",
+      "L_C7A20C",
+      "L_C7A2F7",
+      "L_C7A300",
+      "L_C7A542",
+      "L_C7A63E",
+      "L_C7A6A9",
+      "L_C7A6EA",
+      "L_C7A72F",
+      "L_C7A754",
+      "L_C7A7A6",
+      "L_C7A7D8",
+      "L_C7A7D9",
+      "L_C7AB3F",
+      "L_C7AC3A",
+      "L_C7AC42",
+      "L_C7AF57",
+      "L_C7B0A0",
+      "L_C7B146",
+      "L_C7B1D8",
+      "L_C7B2BD",
+      "L_C7B318",
+      "L_C7B3C0",
+      "L_C7B4A2",
+      "L_C7B4FB",
+      "L_C7B7C8",
+      "L_C7B7C9",
+      "L_C7B826",
+      "L_C7B82D",
+      "L_C7B88B",
+      "L_C7B892",
+      "L_C7B8EF",
+      "L_C7B8F6",
+      "L_C7B920",
+      "L_C7B935",
+      "L_C7B941",
+      "L_C7B94D",
+      "L_C7B959",
+      "L_C7B965",
+      "L_C7B96C",
+      "L_C7B9A1",
+      "L_C7BA2C",
+      "L_C7BAC7",
+      "L_C7BB38",
+      "L_C7BBF3",
+      "L_C7BC56",
+      "L_C7BC96",
+      "L_C7BD89",
+      "L_C7BEB9",
+      "L_C7BECF",
+      "L_C7BF1E",
+      "L_C7BF94",
+      "L_C7BF95",
+      "L_C7BFE8",
+      "L_C7C058",
+      "L_C7C06A",
+      "L_C7C06E",
+      "L_C7C0C0",
+      "L_C7C129",
+      "L_C7C12A",
+      "L_C7C17B",
+      "L_C7C1F7",
+      "L_C7C204",
+      "L_C7C208",
+      "L_C7C258",
+      "L_C7C2C5",
+      "L_C7C2C6",
+      "L_C7C317",
+      "L_C7C38A",
+      "L_C7C397",
+      "L_C7C39B",
+      "L_C7C3C2",
+      "L_C7C412",
+      "L_C7C478",
+      "L_C7C479",
+      "L_C7C4C9",
+      "L_C7C53A",
+      "L_C7C547",
+      "L_C7C54B",
+      "L_C7C55D",
+      "L_C7C57D",
+      "L_C7C5B0",
+      "L_C7C5C0",
+      "L_C7C5C5",
+      "L_C7C5CD",
+      "L_C7C5E4",
+      "L_C7C5F7",
+      "L_C7C609",
+      "L_C7C655",
+      "L_C7C669",
+      "L_C7C693",
+      "L_C7C6C9",
+      "L_C7C6F1",
+      "L_C7C705",
+      "L_C7C742",
+      "L_C7C761",
+      "L_C7C77E",
+      "L_C7C78F",
+      "L_C7C7AF",
+      "L_C7C802",
+      "L_C7C823",
+      "L_C7C833",
+      "L_C7C850",
+      "L_C7C865",
+      "L_C7C8C0",
+      "L_C7C8E8",
+      "L_C7C912",
+      "L_C7C93F",
+      "L_C7C95E",
+      "L_C7C973",
+      "L_C7C9A8",
+      "L_C7CA3C",
+      "L_C7CB5F",
+      "L_C7CBBA",
+      "L_C7CC35",
+      "L_C7CCEC",
+      "L_C7CDAE",
+      "L_C7CE96",
+      "L_C7CF6C",
+      "L_C7D05A",
+      "L_C7D102",
+      "L_C7D1C1",
+      "L_C7D226",
+      "L_C7D2F6",
+      "L_C7D33E",
+      "L_C7D36E",
+      "L_C7D3F5",
+      "L_C7D43B",
+      "L_C7D4AF",
+      "L_C7D526",
+      "L_C7D585",
+      "L_C7D627",
+      "L_C7D630",
+      "L_C7D6AA",
+      "L_C7D748",
+      "L_C7D8D9",
+      "L_C7D8E6",
+      "L_C7D8EE",
+      "L_C7D907",
+      "L_C7D967",
+      "L_C7D991",
+      "L_C7D9AE",
+      "L_C7D9CF",
+      "L_C7DA33",
+      "L_C7DA7C",
+      "L_C7DAB6",
+      "L_C7DB22",
+      "L_C7DB34",
+      "L_C7DB82",
+      "L_C7DBD0",
+      "L_C7DC1E",
+      "L_C7DC29",
+      "L_C7DC3D",
+      "L_C7DC3E",
+      "L_C7DC3F",
+      "L_C7DC41",
+      "L_C7DC76",
+      "L_C7DC77",
+      "L_C7DC7E",
+      "L_C7DC97",
+      "L_C7DC98",
+      "L_C7DD03",
+      "L_C7DDE8",
+      "L_C7DDEF",
+      "L_C7DE11",
+      "L_C7DE2A",
+      "L_C7DE2B",
+      "L_C7DE2F",
+      "L_C7DE3D",
+      "L_C7DE54",
+      "L_C7DE72",
+      "L_C7DE7D",
+      "L_C7DEE0",
+      "L_C7DF3C",
+      "L_C7DF78",
+      "L_C7DFA4",
+      "L_C7DFB9",
+      "L_C7E3F9",
+      "L_C7E3FA",
+      "L_C7E42C",
+      "L_C7E468",
+      "L_C7E4A4",
+      "L_C7E4C3",
+      "L_C7E4E9",
+      "L_C7E51C",
+      "L_C7E559",
+      "L_C7E5A1",
+      "L_C7E5C2",
+      "L_C7E5F3",
+      "L_C7E5FE",
+      "L_C7E602",
+      "L_C7E613",
+      "L_C7E616",
+      "L_C7E61A",
+      "L_C7E61D",
+      "L_C7E62E",
+      "L_C7E631",
+      "L_C7E635",
+      "L_C7E638",
+      "L_C7E656",
+      "L_C7E659",
+      "L_C7E65D",
+      "L_C7E660",
+      "L_C7E66B",
+      "L_C7E66E",
+      "L_C7E67F",
+      "L_C7E682",
+      "L_C7E685",
+      "L_C7E689",
+      "L_C7E69A",
+      "L_C7E69D",
+      "L_C7E6A0",
+      "L_C7E6A4",
+      "L_C7E6B0",
+      "L_C7E6C5",
+      "L_C7E6D1",
+      "L_C7E6E1",
+      "L_C7E70E",
+      "L_C7E729",
+      "L_C7E72A",
+      "L_C7E735",
+      "L_C7E748",
+      "L_C7E779",
+      "L_C7E77F",
+      "L_C7E796",
+      "L_C7EA80",
+      "L_C7EABD",
+      "L_C7EAE1",
+      "L_C7EB25",
+      "L_C7EC5C",
+      "L_C7F949",
+      "L_C7F9F8",
+      "L_C7FB56",
+      "L_C7FB89",
+      "L_C7FBA1",
+      "L_C7FBEC",
+      "L_C7FC26",
+      "L_C7FC32",
+      "L_C7FC3E",
+      "L_C7FD06",
+      "L_C7FD22",
+      "L_C7FD8E",
+      "L_C7FDD6",
+      "L_C7FEB1",
+      "L_C7FEFA",
+      "L_C7FF06",
+      "L_C80276",
+      "L_C80277",
+      "L_C802E6",
+      "L_C803F8",
+      "L_C8042B",
+      "L_C8045B",
+      "L_C805BA",
+      "L_C80673",
+      "L_C80718",
+      "L_C807AC",
+      "L_C807BA",
+      "L_C8082A",
+      "L_C80997",
+      "L_C80B02",
+      "L_C80BE4",
+      "L_C80F94",
+      "L_C81027",
+      "L_C81392",
+      "L_C813D4",
+      "L_C817DC",
+      "L_C818DC",
+      "L_C818DD",
+      "L_C81A26",
+      "L_C81EA3",
+      "L_C82049",
+      "L_C82250",
+      "L_C82467",
+      "L_C82862",
+      "L_C82867",
+      "L_C82868",
+      "L_C8286D",
+      "L_C8286E",
+      "L_C82873",
+      "L_C82986",
+      "L_C829DF",
+      "L_C83515",
+      "L_C8361B",
+      "L_C83C2D",
+      "L_C86311",
+      "L_C86591",
+      "L_C865F3",
+      "L_C86646",
+      "L_C8672B",
+      "L_C8689C",
+      "L_C86B8F",
+      "L_C8709B",
+      "L_C87E8E",
+      "L_C87EB2",
+      "L_C88000",
+      "L_C8807D",
+      "L_C880B9",
+      "L_C88103",
+      "L_C8824A",
+      "L_C882BD",
+      "L_C88332",
+      "L_C88386",
+      "L_C88387",
+      "L_C884D0",
+      "L_C885E0",
+      "L_C88650",
+      "L_C886D7",
+      "L_C886F5",
+      "L_C886F9",
+      "L_C88739",
+      "L_C88761",
+      "L_C8888D",
+      "L_C888AF",
+      "L_C888C0",
+      "L_C88988",
+      "L_C889C7",
+      "L_C88A3B",
+      "L_C88E0A",
+      "L_C88EFE",
+      "L_C89032",
+      "L_C89036",
+      "L_C8905B",
+      "L_C89078",
+      "L_C89160",
+      "L_C89180",
+      "L_C891B7",
+      "L_C892C3",
+      "L_C89498",
+      "L_C894AC",
+      "L_C89530",
+      "L_C8955A",
+      "L_C89566",
+      "L_C89580",
+      "L_C896A7",
+      "L_C896F0",
+      "L_C897F3",
+      "L_C8995A",
+      "L_C89B4F",
+      "L_C89C1D",
+      "L_C89C2E",
+      "L_C89C3F",
+      "L_C89C50",
+      "L_C89C61",
+      "L_C89C72",
+      "L_C89C83",
+      "L_C89C94",
+      "L_C89CA5",
+      "L_C89D0A",
+      "L_C8A50C",
+      "L_C8A58F",
+      "L_C8A82E",
+      "L_C8A996",
+      "L_C8AA7E",
+      "L_C8AABD",
+      "L_C8AC30",
+      "L_C8AC6F",
+      "L_C8AD22",
+      "L_C8B22E",
+      "L_C8B292",
+      "L_C8B3C0",
+      "L_C8B3F7",
+      "L_C8B82D",
+      "L_C8B82E",
+      "L_C8DFBB",
+      "L_C8EB75",
+      "L_C8EBDD",
+      "L_C8EC0F",
+      "L_C8F296",
+      "L_C8F748",
+      "L_C8F77D",
+      "L_C8F79A",
+      "L_C8F7B8",
+      "L_C8F7D2",
+      "L_C8F7EE",
+      "L_C8F80A",
+      "L_C8F82F",
+      "L_C8F84C",
+      "L_C8F86B",
+      "L_C8F885",
+      "L_C8F8A2",
+      "L_C8F8C0",
+      "L_C8F8FD",
+      "L_C8F935",
+      "L_C8F956",
+      "L_C8F973",
+      "L_C8F992",
+      "L_C8F9B3",
+      "L_C8F9CE",
+      "L_C8F9F0",
+      "L_C8FA0D",
+      "L_C8FA2F",
+      "L_C8FA51",
+      "L_C8FA7B",
+      "L_C8FA90",
+      "L_C8FAAA",
+      "L_C8FAB8",
+      "L_C8FACA",
+      "L_C8FACD",
+      "L_C8FAF6",
+      "L_C8FB05",
+      "L_C8FB1B",
+      "L_C8FC2E",
+      "L_C8FD11",
+      "L_C8FF31",
+      "L_C90033",
+      "L_C900C5",
+      "L_C901A8",
+      "L_C902B5",
+      "L_C90322",
+      "L_C90387",
+      "L_C903E1",
+      "L_C9052E",
+      "L_C906D9",
+      "L_C906F0",
+      "L_C907B0",
+      "L_C908B0",
+      "L_C90A31",
+      "L_C90BFD",
+      "L_C90CE8",
+      "L_C90F0B",
+      "L_C90F90",
+      "L_C90FB1",
+      "L_C90FBE",
+      "L_C91058",
+      "L_C91099",
+      "L_C910C1",
+      "L_C910C9",
+      "L_C910E7",
+      "L_C910FB",
+      "L_C91113",
+      "L_C91140",
+      "L_C9115D",
+      "L_C91213",
+      "L_C91214",
+      "L_C91222",
+      "L_C91233",
+      "L_C91245",
+      "L_C91259",
+      "L_C913A4",
+      "L_C913C4",
+      "L_C913DD",
+      "L_C91401",
+      "L_C9142C",
+      "L_C9146D",
+      "L_C91486",
+      "L_C91581",
+      "L_C91584",
+      "L_C915B8",
+      "L_C915BE",
+      "L_C915F6",
+      "L_C91625",
+      "L_C9162B",
+      "L_C9162E",
+      "L_C9165A",
+      "L_C91674",
+      "L_C91709",
+      "L_C91745",
+      "L_C91748",
+      "L_C9174B",
+      "L_C9174E",
+      "L_C91751",
+      "L_C91754",
+      "L_C91757",
+      "L_C9175A",
+      "L_C9175D",
+      "L_C91799",
+      "L_C9179C",
+      "L_C9179F",
+      "L_C917A2",
+      "L_C917A5",
+      "L_C917A8",
+      "L_C917AB",
+      "L_C917AE",
+      "L_C917B1",
+      "L_C917ED",
+      "L_C917F0",
+      "L_C917F3",
+      "L_C917F6",
+      "L_C917F9",
+      "L_C917FC",
+      "L_C917FF",
+      "L_C91802",
+      "L_C9181F",
+      "L_C91838",
+      "L_C918BE",
+      "L_C918DA",
+      "L_C918F7",
+      "L_C91905",
+      "L_C9191E",
+      "L_C91936",
+      "L_C9194E",
+      "L_C91966",
+      "L_C9197E",
+      "L_C9199E",
+      "L_C919B5",
+      "L_C919CE",
+      "L_C919EF",
+      "L_C919F6",
+      "L_C91A11",
+      "L_C91A47",
+      "L_C91A51",
+      "L_C91A95",
+      "L_C91ABA",
+      "L_C91ABB",
+      "L_C91B71",
+      "L_C91BA6",
+      "L_C91BAC",
+      "L_C91BAE",
+      "L_C91C0F",
+      "L_C91C2E",
+      "L_C91F9C",
+      "L_C91FD9",
+      "L_C91FFA",
+      "L_C91FFD",
+      "L_C92203",
+      "L_C92417",
+      "L_C9242E",
+      "L_C92461",
+      "L_C9254A",
+      "L_C925D0",
+      "L_C925DB",
+      "L_C925E3",
+      "L_C92686",
+      "L_C9268E",
+      "L_C9271B",
+      "L_C92723",
+      "L_C927E2",
+      "L_C927EA",
+      "L_C92909",
+      "L_C92924",
+      "L_C9293F",
+      "L_C92955",
+      "L_C92958",
+      "L_C92A48",
+      "L_C92DDE",
+      "L_C931F1",
+      "L_C93239",
+      "L_C93258",
+      "L_C9329B",
+      "L_C932F6",
+      "L_C93378",
+      "L_C93381",
+      "L_C935B1",
+      "L_C93625",
+      "L_C93679",
+      "L_C93696",
+      "L_C936CA",
+      "L_C937D9",
+      "L_C93BE3",
+      "L_C93C38",
+      "L_C93F2E",
+      "L_C93F51",
+      "L_C94077",
+      "L_C94096",
+      "L_C94270",
+      "L_C94288",
+      "L_C943BD",
+      "L_C94402",
+      "L_C9442C",
+      "L_C9455F",
+      "L_C9484C",
+      "L_C94870",
+      "L_C94966",
+      "L_C949A2",
+      "L_C949CE",
+      "L_C94D0C",
+      "L_C94D5B",
+      "L_C95147",
+      "L_C95B63",
+      "L_C95E73",
+      "L_C95EA5",
+      "L_C9605D",
+      "L_C960AB",
+      "L_C962C2",
+      "L_C96625",
+      "L_C97689",
+      "L_C97705",
+      "L_C97728",
+      "L_C97780",
+      "L_C977A8",
+      "L_C977D1",
+      "L_C97AA4",
+      "L_C97AAA",
+      "L_C97B6B",
+      "L_C97BAB",
+      "L_C97BC4",
+      "L_C97C06",
+      "L_C97C30",
+      "L_C97C5F",
+      "L_C97C7B",
+      "L_C97C9D",
+      "L_C97CB0",
+      "L_C97CB1",
+      "L_C97CC9",
+      "L_C97CCA",
+      "L_C97D21",
+      "L_C97D43",
+      "L_C97D75",
+      "L_C97DA3",
+      "L_C97DDC",
+      "L_C97DF5",
+      "L_C97E24",
+      "L_C97E9E",
+      "L_C97EB7",
+      "L_C97ED1",
+      "L_C97EFA",
+      "L_C97F56",
+      "L_C97F72",
+      "L_C97F84",
+      "L_C97F89",
+      "L_C97F8A",
+      "L_C9817A",
+      "L_C9827C",
+      "L_C989E9",
+      "L_C989EA",
+      "L_C98AB2",
+      "L_C98AE8",
+      "L_C99D33",
+      "L_C99E1B",
+      "L_C99E48",
+      "L_C99EB1",
+      "L_C99EDD",
+      "L_C99F2D",
+      "L_C99F40",
+      "L_C99F41",
+      "L_C99FF9",
+      "L_C9A1A2",
+      "L_C9A4E6",
+      "L_C9A593",
+      "L_C9ABE5",
+      "L_C9AE0F",
+      "L_C9B118",
+      "L_C9B226",
+      "L_C9B230",
+      "L_C9B238",
+      "L_C9B240",
+      "L_C9B248",
+      "L_C9B250",
+      "L_C9B258",
+      "L_C9B260",
+      "L_C9B268",
+      "L_C9B270",
+      "L_C9B8DA",
+      "L_C9B900",
+      "L_C9B9D0",
+      "L_C9BA0A",
+      "L_C9BA78",
+      "L_C9BBD3",
+      "L_C9BC3C",
+      "L_C9BC48",
+      "L_C9BCA1",
+      "L_C9C293",
+      "L_C9C6B8",
+      "L_C9C85D",
+      "L_C9C98A",
+      "L_C9CB77",
+      "L_C9CB78",
+      "L_C9CD01",
+      "L_C9CD02",
+      "L_C9CDAF",
+      "L_C9CE4D",
+      "L_C9CFAC",
+      "L_C9D23F",
+      "L_C9D2A5",
+      "L_C9D6B7",
+      "L_C9D81F",
+      "L_C9D91B",
+      "L_C9E51F",
+      "L_C9E843",
+      "L_C9EB41",
+      "L_C9EE2F",
+      "L_C9EE68",
+      "L_C9EE7F",
+      "L_C9EE9F",
+      "L_C9EEC7",
+      "L_C9EEDE",
+      "L_C9EF00",
+      "L_C9EFB9",
+      "L_C9EFE1",
+      "L_C9EFF6",
+      "L_C9F020",
+      "L_C9F042",
+      "L_C9F052",
+      "L_C9F074",
+      "L_C9F090",
+      "L_C9F0B8",
+      "L_C9F134",
+      "L_C9F196",
+      "L_C9F1FD",
+      "L_C9F25E",
+      "L_C9F2BC",
+      "L_C9F325",
+      "L_C9F389",
+      "L_C9F3EC",
+      "L_C9F442",
+      "L_C9F4A2",
+      "L_C9F4F6",
+      "L_C9F557",
+      "L_C9F5A8",
+      "L_C9F60D",
+      "L_C9F66F",
+      "L_C9F6DE",
+      "L_C9F70C",
+      "L_C9F72F",
+      "L_C9F750",
+      "L_C9F756",
+      "L_C9F75F",
+      "L_C9F780",
+      "L_C9F786",
+      "L_C9F7AF",
+      "L_C9F7B5",
+      "L_C9F7BB",
+      "L_C9F7C4",
+      "L_C9F7E5",
+      "L_C9F7EB",
+      "L_C9F7FE",
+      "L_C9F804",
+      "L_C9F80D",
+      "L_C9F82E",
+      "L_C9F834",
+      "L_C9F847",
+      "L_C9F84D",
+      "L_C9F86A",
+      "L_C9F897",
+      "L_C9F936",
+      "L_C9F946",
+      "L_C9F970",
+      "L_C9F990",
+      "L_C9F995",
+      "L_C9F99E",
+      "L_C9F9A4",
+      "L_C9F9AD",
+      "L_C9F9B2",
+      "L_C9F9BD",
+      "L_C9F9C4",
+      "L_C9F9CF",
+      "L_C9F9F3",
+      "L_C9FA74",
+      "L_C9FAB9",
+      "L_C9FB43",
+      "L_C9FB4D",
+      "L_C9FB57",
+      "L_C9FB61",
+      "L_C9FB8B",
+      "L_C9FB9F",
+      "L_C9FBC4",
+      "L_C9FBF2",
+      "L_C9FC16",
+      "L_C9FC32",
+      "L_C9FC48",
+      "L_C9FC6F",
+      "L_C9FD2E",
+      "L_C9FD5A",
+      "L_C9FD60",
+      "L_C9FD82",
+      "L_C9FDBB",
+      "L_C9FDFB",
+      "L_C9FE1B",
+      "L_C9FE41",
+      "L_C9FE9D",
+      "L_C9FEE3",
+      "L_C9FEFD",
+      "L_EF4E20",
+      "L_EF4E38",
+      "L_EF4E51",
+      "L_EF4E6A",
+      "L_EF4E83",
+      "L_EF4E99",
+      "L_EF4EB0",
+      "L_EF4EC7",
+      "L_EF4EDE",
+      "L_EF4F06",
+      "L_EF4F2E",
+      "L_EF4F56",
+      "L_EF4F7E",
+      "L_EF4FA6",
+      "L_EF4FDC",
+      "L_EF5013",
+      "L_EF5049",
+      "L_EF506B",
+      "L_EF50AF",
+      "L_EF50E1",
+      "L_EF5131",
+      "L_EF5152",
+      "L_EF5173",
+      "L_EF5189",
+      "L_EF519F",
+      "L_EF51BB",
+      "L_EF51CF",
+      "L_EF51F0",
+      "L_EF5239",
+      "L_EF52A5",
+      "L_EF5301",
+      "L_EF5361",
+      "L_EF53C0",
+      "L_EF5428",
+      "L_EF548F",
+      "L_EF54E6",
+      "L_EF553C",
+      "L_EF55A0",
+      "L_EF5603",
+      "L_EF562E",
+      "L_EF5658",
+      "L_EF5687",
+      "L_EF56B9",
+      "L_EF56D0",
+      "L_EF56EB",
+      "L_EF5712",
+      "L_EF5739",
+      "L_EF574E",
+      "L_EF5766",
+      "L_EF5777",
+      "L_EF578B",
+      "L_EF57AE",
+      "L_EF5917",
+      "L_EF5AB5",
+      "L_EF6132",
+      "L_EF6247",
+      "L_EF66CA",
+      "L_EF6874",
+      "L_EF6954",
+      "L_EF69A1",
+      "L_EF69BA",
+      "L_EF69D2",
+      "L_EF69EA",
+      "L_EF69FF",
+      "L_EF6A0D",
+      "L_EF6A24",
+      "L_EF6A3C",
+      "L_EF6A54",
+      "L_EF6A6C",
+      "L_EF6A7F",
+      "L_EF6A99",
+      "L_EF6AB3",
+      "L_EF6AC7",
+      "L_EF6AE0",
+      "L_EF6AFB",
+      "L_EF6B18",
+      "L_EF6B2F",
+      "L_EF6B43",
+      "L_EF6B54",
+      "L_EF6B59",
+      "L_EF6B5F",
+      "L_EF6B64",
+      "L_EF6B75",
+      "L_EF6B79",
+      "L_EF6B7D",
+      "L_EF6B81",
+      "L_EF6B98",
+      "L_EF6BBB",
+      "L_EF6BD3",
+      "L_EF6BEF",
+      "L_EF6C0B",
+      "L_EF6C3A",
+      "L_EF6C55",
+      "L_EF6C6B",
+      "L_EF6C84",
+      "L_EF6CC7",
+      "L_EF6CD0",
+      "L_EF6CD9",
+      "L_EF6CE2",
+      "L_EF6CEB",
+      "L_EF6CFC",
+      "L_EF6D0A",
+      "L_EF6D18",
+      "L_EF6D26",
+      "L_EF6D2A",
+      "L_EF6D4C",
+      "L_EF6D71",
+      "L_EF6D83",
+      "L_EF6D96",
+      "L_EF6DA7",
+      "L_EF6DB8",
+      "L_EF6DD8",
+      "L_EF6DF0",
+      "L_EF6E03",
+      "L_EF6E19",
+      "L_EF6E31",
+      "L_EF6E4A",
+      "L_EF6E67",
+      "L_EF6E81",
+      "L_EF6E97",
+      "L_EF6EBC",
+      "L_EF6ED1",
+      "L_EF6EED",
+      "L_EF6F0B",
+      "L_EF6F1E",
+      "L_EF6F38",
+      "L_EF6F54",
+      "L_EF6F64",
+      "L_EF6F7C",
+      "L_EF6F8E",
+      "L_EF6F9A",
+      "L_EF6FBD",
+      "L_EF6FD3",
+      "L_EF6FF4",
+      "L_EF700C",
+      "L_EF7032",
+      "L_EF7050",
+      "L_EF707A",
+      "L_EF7099",
+      "L_EF70B1",
+      "L_EF70D2",
+      "L_EF70FA",
+      "L_EF7123",
+      "L_EF7142",
+      "L_EF7160",
+      "L_EF7186",
+      "L_EF7192",
+      "L_EF71B4",
+      "L_EF71CC",
+      "L_EF71DF",
+      "L_EF71F6",
+      "L_EF720C",
+      "L_EF721E",
+      "L_EF7221",
+      "L_EF7249",
+      "L_EF725A",
+      "L_EF727F",
+      "L_EF72A0",
+      "L_EF72B9",
+      "L_EF72DB",
+      "L_EF72F6",
+      "L_EF72F7",
+      "L_EF733D",
+      "L_EF7415",
+      "L_EF743B",
+      "L_EF745F",
+      "L_EF749D",
+      "L_EF74B0",
+      "L_EF74C9",
+      "L_EF74E6",
+      "L_EF74FA",
+      "L_EF7514",
+      "L_EF7530",
+      "L_EF7548",
+      "L_EF7569",
+      "L_EF7579",
+      "L_EF7591",
+      "L_EF7593",
+      "L_EF75AB",
+      "L_EF75C2",
+      "L_EF75D9",
+      "L_EF75F0",
+      "L_EF7607",
+      "L_EF7624",
+      "L_EF7630",
+      "L_EF763C",
+      "L_EF7655",
+      "L_EF766E",
+      "L_EF7682",
+      "L_EF7696",
+      "L_EF76B3",
+      "L_EF76C7",
+      "L_EF76D8",
+      "L_EF76FD",
+      "L_EF7710",
+      "L_EF7729",
+      "L_EF773F",
+      "L_EF7755",
+      "L_EF7768",
+      "L_EF7787",
+      "L_EF77B1",
+      "L_EF77DB",
+      "L_EF77FD",
+      "L_EF7810",
+      "L_EF7824",
+      "L_EF7830",
+      "L_EF7843",
+      "L_EF7858",
+      "L_EF7866",
+      "L_EF7879",
+      "L_EF788B",
+      "L_EF789C",
+      "L_EF78AB",
+      "L_EF78B8",
+      "L_EF78C7",
+      "L_EF78D8",
+      "L_EF78F7",
+      "L_EF790B",
+      "L_EF792B",
+      "L_EF792E",
+      "L_EF793C",
+      "L_EF794B",
+      "L_EF796C",
+      "L_EF7970",
+      "L_EF797F",
+      "L_EF798F",
+      "L_EF79B1",
+      "L_EF79B6",
+      "L_EF79C6",
+      "L_EF79D7",
+      "L_EF79E6",
+      "L_EF79EF",
+      "L_EF7A0A",
+      "L_EF7A14",
+      "L_EF7A28",
+      "L_EF7A4D",
+      "L_EF7A66",
+      "L_EF7A7D",
+      "L_EF7A97",
+      "L_EF7AB1",
+      "L_EF7AC9",
+      "L_EF7AE0",
+      "L_EF7AFB",
+      "L_EF7B11",
+      "L_EF7B28",
+      "L_EF7B46",
+      "L_EF7B64",
+      "L_EF7B83",
+      "L_EF7B9D",
+      "L_EF7BA0",
+      "L_EF7BBC",
+      "L_EF7BBF",
+      "L_EF7BDC",
+      "L_EF7BDF",
+      "L_EF7C42",
+      "L_EF7C73",
+      "L_EF7C89",
+      "L_EF7CB4",
+      "L_EF7CED",
+      "L_EF7CF8",
+      "L_EF7D0F",
+      "L_EF7D83",
+      "L_EF7DBE",
+      "L_EF7DD5",
+      "L_EF7E25",
+      "L_EF7E3E",
+      "L_EF7E55",
+      "L_EF7E70",
+      "L_EF7E88",
+      "L_EF7EAC",
+      "L_EF7ED5",
+      "L_EF7F02",
+      "L_EF7F1E",
+      "L_EF7F32",
+      "L_EF7F5A",
+      "L_EF7F7B",
+      "L_EF7F9A",
+      "L_EF7FC3",
+      "L_EF7FE0",
+      "L_EF7FFC",
+      "L_EF8010",
+      "L_EF8026",
+      "L_EF804B",
+      "L_EF806D",
+      "L_EF808D",
+      "L_EF80AC",
+      "L_EF80C4",
+      "L_EF80E4",
+      "L_EF8109",
+      "L_EF812B",
+      "L_EF814F",
+      "L_EF8167",
+      "L_EF8186",
+      "L_EF81A5",
+      "L_EF81C4",
+      "L_EF81D7",
+      "L_EF81F1",
+      "L_EF8211",
+      "L_EF8226",
+      "L_EF8239",
+      "L_EF825C",
+      "L_EF8281",
+      "L_EF8299",
+      "L_EF82BC",
+      "L_EF82D7",
+      "L_EF82F7",
+      "L_EF8317",
+      "L_EF833E",
+      "L_EF835C",
+      "L_EF838A",
+      "L_EF83A8",
+      "L_EF83CA",
+      "L_EF83ED",
+      "L_EF8413",
+      "L_EF843F",
+      "L_EF8444",
+      "L_EF8445",
+      "L_EF845D",
+      "L_EF8477",
+      "L_EF848C",
+      "L_EF84A7",
+      "L_EF84B6",
+      "L_EF84C6",
+      "L_EF84D4",
+      "L_EF84F3",
+      "L_EF8511",
+      "L_EF8530",
+      "L_EF8543",
+      "L_EF8568",
+      "L_EF857E",
+      "L_EF864C",
+      "L_EF866E",
+      "L_EF8698",
+      "L_EF86E2",
+      "L_EF874A",
+      "L_EF875F",
+      "L_EF8777",
+      "L_EF878F",
+      "L_EF87AC",
+      "L_EF87C3",
+      "L_EF87DA",
+      "L_EF87F4",
+      "L_EF8813",
+      "L_EF8814",
+      "L_EF8823",
+      "L_EF8837",
+      "L_EF883D",
+      "L_EF8847",
+      "L_EF8851",
+      "L_EF8868",
+      "L_EF8882",
+      "L_EF88B8",
+      "L_EF88E9",
+      "L_EF88EC",
+      "L_EF88F6",
+      "L_EF8900",
+      "L_EF890A",
+      "L_EF8914",
+      "L_EF891E",
+      "L_EF8928",
+      "L_EF8932",
+      "L_EF893C",
+      "L_EF894C",
+      "L_EF895C",
+      "L_EF896C",
+      "L_EF897C",
+      "L_EF898C",
+      "L_EF899C",
+      "L_EF89AC",
+      "L_EF89BC",
+      "L_EF89CE",
+      "L_EF89E0",
+      "L_EF89FE",
+      "L_EF8A18",
+      "L_EF8A33",
+      "L_EF8A52",
+      "L_EF8A6F",
+      "L_EF8A8C",
+      "L_EF8AA3",
+      "L_EF8AC2",
+      "L_EF8ADD",
+      "L_EF8AF8",
+      "L_EF8B11",
+      "L_EF8B2F",
+      "L_EF8B4A",
+      "L_EF8B65",
+      "L_EF8B89",
+      "L_EF8BA8",
+      "L_EF8BC0",
+      "L_EF8BE8",
+      "L_EF8BFB",
+      "L_EF8C1D",
+      "L_EF8C3A",
+      "L_EF8C58",
+      "L_EF8C75",
+      "L_EF8C92",
+      "L_EF8CAC",
+      "L_EF8CC7",
+      "L_EF8CDD",
+      "L_EF8CFB",
+      "L_EF8D17",
+      "L_EF8D2F",
+      "L_EF8D4C",
+      "L_EF8D72",
+      "L_EF8D9F",
+      "L_EF8DC1",
+      "L_EF8DDE",
+      "L_EF8E27",
+      "L_EF8E3C",
+      "L_EF8E5E",
+      "L_EF8E7E",
+      "L_EF8E9E",
+      "L_EF8EBE",
+      "L_EF8EE2",
+      "L_EF8F17",
+      "L_EF8F4A",
+      "L_EF8F91",
+      "L_EF8FAD",
+      "L_EF8FC9",
+      "L_EF8FCB",
+      "L_EF9041",
+      "L_EF9060",
+      "L_EF96D3",
+      "L_EF9A47",
+      "L_EF9A5E",
+      "L_EF9A7E",
+      "L_EF9A9E",
+      "L_EF9ABB",
+      "L_EF9AE8",
+      "L_EF9B02",
+      "L_EF9B20",
+      "L_EF9B43",
+      "L_EF9B73",
+      "L_EF9B96",
+      "L_EF9BC3",
+      "L_EF9BE6",
+      "L_EF9C02",
+      "L_EF9C30",
+      "L_EF9C51",
+      "L_EF9C7E",
+      "L_EF9CAD",
+      "L_EF9CD1",
+      "L_EF9CF1",
+      "L_EF9D14",
+      "L_EF9D3E",
+      "L_EF9D62",
+      "L_EF9D81",
+      "L_EF9DA1",
+      "L_EF9DBD",
+      "L_EF9DDA",
+      "L_EF9E05",
+      "L_EF9E22",
+      "L_EF9E47",
+      "L_EF9E69",
+      "L_EF9E92",
+      "L_EF9EB4",
+      "L_EF9ED7",
+      "L_EF9EF4",
+      "L_EF9F9F",
+      "L_EF9FE2",
+      "L_EFA002",
+      "L_EFA029",
+      "L_EFA07E",
+      "L_EFA0B7",
+      "L_EFA0DC",
+      "L_EFA2AB",
+      "L_EFA2B5",
+      "L_EFA2FA",
+      "L_EFA379",
+      "L_EFA3B6",
+      "L_EFA460",
+      "L_EFA4E3",
+      "L_EFA566",
+      "L_EFA5E9",
+      "L_EFA66C",
+      "L_EFA6A7",
+      "L_EFA6EB",
+      "L_EFA6EC"
+    ],
+    "unrecognized_menus": [
+      {
+        "node": "L_C58000",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "L_C58148",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "L_C58262",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "L_C58369",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "L_C58718",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "L_C588CD",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "L_C58AFB",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "L_C58C88",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "L_C58D09",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "L_C58EDD",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "L_C59070",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "L_C5D89E",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0760",
+        "reason": "other"
+      },
+      {
+        "node": "L_C6070C",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0800",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0799",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0804",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0803",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0814",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0813",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0808",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0807",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0823",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0822",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0818",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0817",
+        "reason": "other"
+      },
+      {
+        "node": "L_C6307C",
+        "reason": "other"
+      },
+      {
+        "node": "L_C630C7",
+        "reason": "other"
+      },
+      {
+        "node": "L_C6379F",
+        "reason": "other"
+      },
+      {
+        "node": "L_C637E8",
+        "reason": "other"
+      },
+      {
+        "node": "L_C638D4",
+        "reason": "other"
+      },
+      {
+        "node": "L_C63EB0",
+        "reason": "other"
+      },
+      {
+        "node": "L_C63FA2",
+        "reason": "other"
+      },
+      {
+        "node": "L_C6400A",
+        "reason": "other"
+      },
+      {
+        "node": "L_C640F1",
+        "reason": "other"
+      },
+      {
+        "node": "L_C642FC",
+        "reason": "other"
+      },
+      {
+        "node": "L_C64339",
+        "reason": "other"
+      },
+      {
+        "node": "L_C6436A",
+        "reason": "other"
+      },
+      {
+        "node": "L_C64687",
+        "reason": "other"
+      },
+      {
+        "node": "L_C64A47",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "L_C64C0A",
+        "reason": "other"
+      },
+      {
+        "node": "L_C64DD0",
+        "reason": "other"
+      },
+      {
+        "node": "L_C64E04",
+        "reason": "other"
+      },
+      {
+        "node": "L_C64E86",
+        "reason": "other"
+      },
+      {
+        "node": "L_C65243",
+        "reason": "other"
+      },
+      {
+        "node": "L_C653A5",
+        "reason": "other"
+      },
+      {
+        "node": "L_C6564D",
+        "reason": "other"
+      },
+      {
+        "node": "L_C65694",
+        "reason": "other"
+      },
+      {
+        "node": "L_C657AC",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0139",
+        "reason": "other"
+      },
+      {
+        "node": "L_C70198",
+        "reason": "other"
+      },
+      {
+        "node": "L_C70943",
+        "reason": "other"
+      },
+      {
+        "node": "L_C78033",
+        "reason": "other"
+      },
+      {
+        "node": "L_C78166",
+        "reason": "other"
+      },
+      {
+        "node": "L_C784AC",
+        "reason": "other"
+      },
+      {
+        "node": "L_C78689",
+        "reason": "other"
+      },
+      {
+        "node": "L_C787A9",
+        "reason": "other"
+      },
+      {
+        "node": "L_C78866",
+        "reason": "other"
+      },
+      {
+        "node": "L_C78AF3",
+        "reason": "other"
+      },
+      {
+        "node": "L_C78DD0",
+        "reason": "other"
+      },
+      {
+        "node": "L_C78E60",
+        "reason": "other"
+      },
+      {
+        "node": "L_C7B146",
+        "reason": "other"
+      },
+      {
+        "node": "L_C7DD5E",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "Npc0723",
+        "reason": "other"
+      },
+      {
+        "node": "L_C81286",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0221",
+        "reason": "other"
+      },
+      {
+        "node": "L_C8180C",
+        "reason": "other"
+      },
+      {
+        "node": "L_C81848",
+        "reason": "other"
+      },
+      {
+        "node": "L_C900F9",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0058",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0256",
+        "reason": "other"
+      },
+      {
+        "node": "L_C903ED",
+        "reason": "other"
+      },
+      {
+        "node": "L_C9058D",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0483",
+        "reason": "other"
+      },
+      {
+        "node": "Npc0748",
+        "reason": "other"
+      },
+      {
+        "node": "L_C90861",
+        "reason": "other"
+      },
+      {
+        "node": "Npc1020",
+        "reason": "other"
+      },
+      {
+        "node": "Npc1124",
+        "reason": "other"
+      },
+      {
+        "node": "Npc1372",
+        "reason": "other"
+      },
+      {
+        "node": "L_C90D23",
+        "reason": "other"
+      },
+      {
+        "node": "L_C90DEA",
+        "reason": "other"
+      },
+      {
+        "node": "Npc1298",
+        "reason": "other"
+      },
+      {
+        "node": "L_C91838",
+        "reason": "non_multigoto"
+      },
+      {
+        "node": "L_C91ABE",
+        "reason": "other"
+      },
+      {
+        "node": "L_C93181",
+        "reason": "other"
+      },
+      {
+        "node": "L_C9EA6F",
+        "reason": "other"
+      }
+    ]
+  },
+  "summary": {
+    "edge_count": 6449,
+    "entity_count_by_type": {
+      "door": 1805,
+      "npc": 1405,
+      "photo_event": 32,
+      "present": 177,
+      "sign": 275
+    },
+    "entity_count_total": 3694,
+    "node_count": 6153
+  }
+}

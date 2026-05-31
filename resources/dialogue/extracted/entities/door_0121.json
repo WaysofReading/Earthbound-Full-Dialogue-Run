@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0121",
+  "label": "",
+  "location": {
+    "x0": 7456,
+    "x1": 7456,
+    "x_sector": 29,
+    "x_tile": 233,
+    "y0": 336,
+    "y1": 336,
+    "y_sector": 1,
+    "y_tile": 10
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 931,
+      "y": 125
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 15,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Ness' House_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

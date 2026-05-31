@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0520",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0520",
+  "label": "man_blonde_blue-oxford",
+  "location": {
+    "x0": 5368,
+    "x1": 5368,
+    "x_sector": 20,
+    "x_tile": 167,
+    "y0": 9112,
+    "y1": 9112,
+    "y_sector": 35,
+    "y_tile": 284
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 112,
+    "sprite_label": "man_blonde_blue-oxford"
+  },
+  "reachable_nodes": [
+    "L_C8E501",
+    "Npc0520"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 366,
+    "flag_label": "SLIMY_LITTLE_PILE_1_DEFEATED_AND_THREED_BLOND_GUY_BY_TENT_ABSENT"
+  }
+}

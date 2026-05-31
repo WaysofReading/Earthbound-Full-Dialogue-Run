@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0858",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0858",
+  "label": "man_glasses_-black-suit",
+  "location": {
+    "x0": 5552,
+    "x1": 5552,
+    "x_sector": 21,
+    "x_tile": 173,
+    "y0": 5416,
+    "y1": 5416,
+    "y_sector": 21,
+    "y_tile": 169
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 62,
+    "sprite_label": "man_glasses_-black-suit"
+  },
+  "reachable_nodes": [
+    "L_C6E018",
+    "L_C6E05A",
+    "Npc0858"
+  ],
+  "region": "Fourside_Monotoli_L1_Lobby",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C7D84F",
+      "role": "primary"
+    }
+  ],
+  "id": "present_1456",
+  "label": "present",
+  "location": {
+    "x0": 6616,
+    "x1": 6616,
+    "x_sector": 25,
+    "x_tile": 206,
+    "y0": 4336,
+    "y1": 4336,
+    "y_sector": 16,
+    "y_tile": 135
+  },
+  "properties": {
+    "container": null,
+    "item": null,
+    "item_label": null,
+    "sprite": 195,
+    "sprite_label": "present"
+  },
+  "reachable_nodes": [
+    "L_C7D84F",
+    "L_C7D87F",
+    "L_C7D90D",
+    "L_C7D92A",
+    "L_C7D947",
+    "L_C7D958",
+    "L_C7D9EC",
+    "L_C7D9FC",
+    "L_C7DA0C",
+    "L_C7DA23",
+    "L_C7DA58",
+    "L_C7DA68",
+    "L_C7DA8F",
+    "L_C7DAA1",
+    "L_C7DC85"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room",
+  "type": "present",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

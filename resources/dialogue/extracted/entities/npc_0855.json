@@ -1,0 +1,47 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0855",
+      "role": "primary"
+    },
+    {
+      "node_id": "L_C6DD0A",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0855",
+  "label": "lookalike_mr-t",
+  "location": {
+    "x0": 5216,
+    "x1": 5216,
+    "x_sector": 20,
+    "x_tile": 163,
+    "y0": 5968,
+    "y1": 5968,
+    "y_sector": 23,
+    "y_tile": 186
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 79,
+    "sprite_label": "lookalike_mr-t"
+  },
+  "reachable_nodes": [
+    "L_C6DD0A",
+    "L_C6DD1D",
+    "L_C7C6B6",
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "Npc0855"
+  ],
+  "region": "Fourside_Bakery_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

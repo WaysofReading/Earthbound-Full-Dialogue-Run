@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0031",
+  "label": "curtains_closed_ness-house",
+  "location": {
+    "x0": 7568,
+    "x1": 7568,
+    "x_sector": 29,
+    "x_tile": 236,
+    "y0": 688,
+    "y1": 688,
+    "y_sector": 2,
+    "y_tile": 21
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 373,
+    "sprite_label": "curtains_closed_ness-house"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Ness' House_1F_2F_Tracy's-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 422,
+    "flag_label": "ONETT_DAYTIME"
+  }
+}

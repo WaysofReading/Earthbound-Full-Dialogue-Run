@@ -1,0 +1,29 @@
+{
+  "entry_points": [],
+  "id": "photo_0009",
+  "label": "",
+  "location": {
+    "x0": 801,
+    "x1": 801,
+    "x_sector": 3,
+    "x_tile": 25,
+    "y0": 32,
+    "y1": 32,
+    "y_sector": 0,
+    "y_tile": 1
+  },
+  "properties": {
+    "gating_flag": 707,
+    "gating_flag_label": "GOT_PHOTO_GRAPEFRUIT_FALLS",
+    "photo_index": 9,
+    "trigger": "region"
+  },
+  "reachable_nodes": [],
+  "region": "Onett",
+  "type": "photo_event",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

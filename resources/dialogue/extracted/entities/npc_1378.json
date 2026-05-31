@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1378",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1378",
+  "label": "invisible-man",
+  "location": {
+    "x0": 5504,
+    "x1": 5504,
+    "x_sector": 21,
+    "x_tile": 172,
+    "y0": 4456,
+    "y1": 4456,
+    "y_sector": 17,
+    "y_tile": 139
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 450,
+    "sprite_label": "invisible-man"
+  },
+  "reachable_nodes": [
+    "L_C975F1",
+    "L_C9763A",
+    "Npc1378"
+  ],
+  "region": "Moonside_Secret Room_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 165,
+    "flag_label": "INVISIBLE_MAN_JOINS"
+  }
+}

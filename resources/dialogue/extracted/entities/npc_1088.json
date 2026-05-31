@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1088",
+  "label": "boat",
+  "location": {
+    "x0": 7216,
+    "x1": 7216,
+    "x_sector": 28,
+    "x_tile": 225,
+    "y0": 2984,
+    "y1": 2984,
+    "y_sector": 11,
+    "y_tile": 93
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 212,
+    "sprite_label": "boat"
+  },
+  "reachable_nodes": [],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

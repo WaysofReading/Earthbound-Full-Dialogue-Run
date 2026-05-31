@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0085",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0085",
+  "label": "woman_blonde_blue-blazer",
+  "location": {
+    "x0": 7768,
+    "x1": 7768,
+    "x_sector": 30,
+    "x_tile": 242,
+    "y0": 840,
+    "y1": 840,
+    "y_sector": 3,
+    "y_tile": 26
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 65,
+    "sprite_label": "woman_blonde_blue-blazer"
+  },
+  "reachable_nodes": [
+    "L_C72A63",
+    "L_C72A76",
+    "L_C72AB6",
+    "L_C72AD6",
+    "Npc0085"
+  ],
+  "region": "Onett_Town Hall_1F_Reception",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

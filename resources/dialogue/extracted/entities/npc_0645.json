@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0450",
+      "role": "primary"
+    },
+    {
+      "gated_by_flag": 609,
+      "gated_by_flag_label": "WINTERS_PENCIL_ERASED",
+      "node_id": "L_C79101",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0645",
+  "label": "pencil-statue",
+  "location": {
+    "x0": 848,
+    "x1": 848,
+    "x_sector": 3,
+    "x_tile": 26,
+    "y0": 4736,
+    "y1": 4736,
+    "y_sector": 18,
+    "y_tile": 148
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "object",
+    "sprite": 265,
+    "sprite_label": "pencil-statue"
+  },
+  "reachable_nodes": [
+    "L_C79101",
+    "L_C7911E",
+    "L_C7DD2C",
+    "Npc0450"
+  ],
+  "region": "Winters",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 609,
+    "flag_label": "WINTERS_PENCIL_ERASED"
+  }
+}

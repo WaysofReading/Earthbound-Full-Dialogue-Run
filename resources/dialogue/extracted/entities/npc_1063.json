@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1063",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1063",
+  "label": "man_sailor_blue-clothes",
+  "location": {
+    "x0": 6968,
+    "x1": 6968,
+    "x_sector": 27,
+    "x_tile": 217,
+    "y0": 2872,
+    "y1": 2872,
+    "y_sector": 11,
+    "y_tile": 89
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 90,
+    "sprite_label": "man_sailor_blue-clothes"
+  },
+  "reachable_nodes": [
+    "L_C8B460",
+    "Npc1063"
+  ],
+  "region": "Summers-and-Toto",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

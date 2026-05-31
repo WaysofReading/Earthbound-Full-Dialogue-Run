@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0269",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0269",
+  "label": "man_glasses_orange-cardigan",
+  "location": {
+    "x0": 7280,
+    "x1": 7280,
+    "x_sector": 28,
+    "x_tile": 227,
+    "y0": 7616,
+    "y1": 7616,
+    "y_sector": 29,
+    "y_tile": 238
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 64,
+    "sprite_label": "man_glasses_orange-cardigan"
+  },
+  "reachable_nodes": [
+    "L_C94F01",
+    "Npc0269"
+  ],
+  "region": "Twoson_Hospital_1F_2F_Left-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

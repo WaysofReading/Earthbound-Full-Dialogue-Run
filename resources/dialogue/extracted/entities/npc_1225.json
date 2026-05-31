@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1225",
+  "label": "potted-tree",
+  "location": {
+    "x0": 5976,
+    "x1": 5976,
+    "x_sector": 23,
+    "x_tile": 186,
+    "y0": 6704,
+    "y1": 6704,
+    "y_sector": 26,
+    "y_tile": 209
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 266,
+    "sprite_label": "potted-tree"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

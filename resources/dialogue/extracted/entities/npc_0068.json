@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0068",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0068",
+  "label": "lookalike_marcie",
+  "location": {
+    "x0": 7112,
+    "x1": 7112,
+    "x_sector": 27,
+    "x_tile": 222,
+    "y0": 352,
+    "y1": 352,
+    "y_sector": 1,
+    "y_tile": 11
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 141,
+    "sprite_label": "lookalike_marcie"
+  },
+  "reachable_nodes": [
+    "L_C76BD2",
+    "Npc0068"
+  ],
+  "region": "Onett_Police Station_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

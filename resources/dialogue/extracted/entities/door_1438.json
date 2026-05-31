@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1438",
+  "label": "",
+  "location": {
+    "x0": 7944,
+    "x1": 7944,
+    "x_sector": 31,
+    "x_tile": 248,
+    "y0": 7784,
+    "y1": 7784,
+    "y_sector": 30,
+    "y_tile": 243
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 1016,
+      "y": 1005
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson_Houses_East-Orange_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

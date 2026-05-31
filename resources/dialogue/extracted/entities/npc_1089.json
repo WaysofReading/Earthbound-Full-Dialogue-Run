@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1089",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1089",
+  "label": "poo's-mentor",
+  "location": {
+    "x0": 6812,
+    "x1": 6812,
+    "x_sector": 26,
+    "x_tile": 212,
+    "y0": 8286,
+    "y1": 8286,
+    "y_sector": 32,
+    "y_tile": 258
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 166,
+    "sprite_label": "poo's-mentor"
+  },
+  "reachable_nodes": [
+    "L_C7DD6B",
+    "L_C915F4",
+    "L_C9237E",
+    "L_C92458",
+    "L_C9C9DB",
+    "L_C9C9E8",
+    "L_C9CB79",
+    "L_C9CBC4",
+    "Npc1089"
+  ],
+  "region": "Dalaam_Palace_1F_Throne-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

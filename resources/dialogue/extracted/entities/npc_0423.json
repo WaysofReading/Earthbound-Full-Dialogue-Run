@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0423",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0423",
+  "label": "man_glasses_orange-cardigan",
+  "location": {
+    "x0": 4152,
+    "x1": 4152,
+    "x_sector": 16,
+    "x_tile": 129,
+    "y0": 8232,
+    "y1": 8232,
+    "y_sector": 32,
+    "y_tile": 257
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 64,
+    "sprite_label": "man_glasses_orange-cardigan"
+  },
+  "reachable_nodes": [
+    "L_C98940",
+    "L_C98BE1",
+    "Npc0423"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0217",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0321",
+  "label": "paula's-dad",
+  "location": {
+    "x0": 2100,
+    "x1": 2100,
+    "x_sector": 8,
+    "x_tile": 65,
+    "y0": 7085,
+    "y1": 7085,
+    "y_sector": 27,
+    "y_tile": 221
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 155,
+    "sprite_label": "paula's-dad"
+  },
+  "reachable_nodes": [
+    "L_C7903B",
+    "L_C7970B",
+    "L_C798BF",
+    "L_C798F7",
+    "L_C7DC7F",
+    "L_C80CD4",
+    "L_C80DAB",
+    "L_C80DD8",
+    "L_C80E03",
+    "L_C80E61",
+    "L_C80EC3",
+    "L_C80EF3",
+    "L_C80F1C",
+    "L_C81087",
+    "L_C90F7D",
+    "L_C91582",
+    "L_C915D6",
+    "L_C91693",
+    "Npc0217"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 118,
+    "flag_label": "PAULAS_DAD_OUTSIDE"
+  }
+}

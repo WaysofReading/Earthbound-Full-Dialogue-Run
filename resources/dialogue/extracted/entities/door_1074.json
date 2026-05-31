@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1074",
+  "label": "",
+  "location": {
+    "x0": 7976,
+    "x1": 7976,
+    "x_sector": 31,
+    "x_tile": 249,
+    "y0": 5688,
+    "y1": 5688,
+    "y_sector": 22,
+    "y_tile": 177
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 948,
+      "y": 849
+    },
+    "direction": "left",
+    "gating_flag": 33284,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Pencil-Eraser)",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

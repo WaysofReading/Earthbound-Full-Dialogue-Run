@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0409",
+  "label": "",
+  "location": {
+    "x0": 5928,
+    "x1": 5928,
+    "x_sector": 23,
+    "x_tile": 185,
+    "y0": 2496,
+    "y1": 2496,
+    "y_sector": 9,
+    "y_tile": 78
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 140,
+      "y": 313
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Giant Step_1F_Hallway",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

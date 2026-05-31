@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1102",
+  "label": "",
+  "location": {
+    "x0": 6768,
+    "x1": 6768,
+    "x_sector": 26,
+    "x_tile": 211,
+    "y0": 5960,
+    "y1": 5960,
+    "y_sector": 23,
+    "y_tile": 186
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 837,
+      "y": 712
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Dusty Dunes Desert_Monkey Cave_Start_Right_Right_Left-(get-King-Banana)",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

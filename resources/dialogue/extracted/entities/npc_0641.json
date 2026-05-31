@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0641",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 592,
+    "x1": 592,
+    "x_sector": 2,
+    "x_tile": 18,
+    "y0": 3432,
+    "y1": 3432,
+    "y_sector": 13,
+    "y_tile": 107
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 868,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Winters",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

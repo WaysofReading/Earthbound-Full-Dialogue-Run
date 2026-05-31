@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0434",
+  "label": "banana",
+  "location": {
+    "x0": 3984,
+    "x1": 3984,
+    "x_sector": 15,
+    "x_tile": 124,
+    "y0": 7720,
+    "y1": 7720,
+    "y_sector": 30,
+    "y_tile": 241
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 224,
+    "sprite_label": "banana"
+  },
+  "reachable_nodes": [],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 68,
+    "flag_label": "CARPAINTER_DEFEATED"
+  }
+}

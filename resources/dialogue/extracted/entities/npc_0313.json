@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0313",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0313",
+  "label": "lookalike_shy-guy-mask",
+  "location": {
+    "x0": 1392,
+    "x1": 1392,
+    "x_sector": 5,
+    "x_tile": 43,
+    "y0": 6992,
+    "y1": 6992,
+    "y_sector": 27,
+    "y_tile": 218
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 119,
+    "sprite_label": "lookalike_shy-guy-mask"
+  },
+  "reachable_nodes": [
+    "L_C93FD8",
+    "L_C93FFA",
+    "L_C9403E",
+    "Npc0313"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1317",
+  "label": "",
+  "location": {
+    "x0": 8152,
+    "x1": 8152,
+    "x_sector": 31,
+    "x_tile": 254,
+    "y0": 7112,
+    "y1": 7112,
+    "y_sector": 27,
+    "y_tile": 222
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 53,
+      "y": 917
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Transitions_Belch's-Base-to-Saturn-Valley",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

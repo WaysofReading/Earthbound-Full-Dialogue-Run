@@ -1,0 +1,50 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0098",
+      "role": "primary"
+    },
+    {
+      "node_id": "L_C7343F",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0098",
+  "label": "woman_blonde_red-dress",
+  "location": {
+    "x0": 7984,
+    "x1": 7984,
+    "x_sector": 31,
+    "x_tile": 249,
+    "y0": 448,
+    "y1": 448,
+    "y_sector": 1,
+    "y_tile": 14
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 68,
+    "sprite_label": "woman_blonde_red-dress"
+  },
+  "reachable_nodes": [
+    "L_C73296",
+    "L_C732E1",
+    "L_C733EE",
+    "L_C73420",
+    "L_C7343F",
+    "L_C73470",
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "Npc0098"
+  ],
+  "region": "Onett_Library_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

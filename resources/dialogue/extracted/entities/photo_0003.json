@@ -1,0 +1,29 @@
+{
+  "entry_points": [],
+  "id": "photo_0003",
+  "label": "",
+  "location": {
+    "x0": 617,
+    "x1": 617,
+    "x_sector": 2,
+    "x_tile": 19,
+    "y0": 145,
+    "y1": 145,
+    "y_sector": 0,
+    "y_tile": 4
+  },
+  "properties": {
+    "gating_flag": 701,
+    "gating_flag_label": "GOT_PHOTO_PEACEFUL_REST_VALLEY",
+    "photo_index": 3,
+    "trigger": "region"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Tenda Village_Main",
+  "type": "photo_event",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

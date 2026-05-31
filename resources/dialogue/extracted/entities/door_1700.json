@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_1700",
+  "label": "",
+  "location": {
+    "x0": 6536,
+    "x1": 6536,
+    "x_sector": 25,
+    "x_tile": 204,
+    "y0": 9640,
+    "y1": 9640,
+    "y_sector": 37,
+    "y_tile": 301
+  },
+  "properties": {
+    "destination": null,
+    "direction": "sw",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "stairway"
+  },
+  "reachable_nodes": [],
+  "region": "Threed_Skyrunner_B1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C93181",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0160",
+  "label": "",
+  "location": {
+    "x0": 4208,
+    "x1": 4208,
+    "x_sector": 16,
+    "x_tile": 131,
+    "y0": 5584,
+    "y1": 5584,
+    "y_sector": 21,
+    "y_tile": 174
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C58555",
+    "L_C58EBB",
+    "L_C7C59E",
+    "L_C7DC85",
+    "L_C7DCB6",
+    "L_C7DCDA",
+    "L_C7DD4F",
+    "L_C93181",
+    "L_C931B7",
+    "L_C931D3",
+    "L_C93234"
+  ],
+  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0227",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0227",
+  "label": "man_blonde_blue-blazer",
+  "location": {
+    "x0": 7608,
+    "x1": 7608,
+    "x_sector": 29,
+    "x_tile": 237,
+    "y0": 7400,
+    "y1": 7400,
+    "y_sector": 28,
+    "y_tile": 231
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 16,
+    "npc_type": "person",
+    "sprite": 70,
+    "sprite_label": "man_blonde_blue-blazer"
+  },
+  "reachable_nodes": [
+    "L_C81C2F",
+    "Npc0227"
+  ],
+  "region": "Twoson_Chaos Theater_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

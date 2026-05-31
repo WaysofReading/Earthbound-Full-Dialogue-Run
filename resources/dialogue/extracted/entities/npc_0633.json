@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0633",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0633",
+  "label": "prettyman",
+  "location": {
+    "x0": 272,
+    "x1": 272,
+    "x_sector": 1,
+    "x_tile": 8,
+    "y0": 4568,
+    "y1": 4568,
+    "y_sector": 17,
+    "y_tile": 142
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 59,
+    "sprite_label": "prettyman"
+  },
+  "reachable_nodes": [
+    "L_C7E758",
+    "Npc0633"
+  ],
+  "region": "Winters",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 70,
+    "flag_label": "STARMAN_DX_DEFEATED"
+  }
+}

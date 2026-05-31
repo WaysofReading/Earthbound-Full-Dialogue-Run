@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1263",
+  "label": "tenda-cave-rock",
+  "location": {
+    "x0": 172,
+    "x1": 172,
+    "x_sector": 0,
+    "x_tile": 5,
+    "y0": 390,
+    "y1": 390,
+    "y_sector": 1,
+    "y_tile": 12
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 360,
+    "sprite_label": "tenda-cave-rock"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Tenda Village_Main",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 153,
+    "flag_label": "TENDA_VILLAGE_UNDERGROUND_OPEN"
+  }
+}

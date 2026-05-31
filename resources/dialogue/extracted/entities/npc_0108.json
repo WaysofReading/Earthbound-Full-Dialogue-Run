@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0108",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0108",
+  "label": "man_blonde_blue-blazer",
+  "location": {
+    "x0": 8016,
+    "x1": 8016,
+    "x_sector": 31,
+    "x_tile": 250,
+    "y0": 840,
+    "y1": 840,
+    "y_sector": 3,
+    "y_tile": 26
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 70,
+    "sprite_label": "man_blonde_blue-blazer"
+  },
+  "reachable_nodes": [
+    "L_C73849",
+    "Npc0108"
+  ],
+  "region": "Onett_Library_1F_2F_Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

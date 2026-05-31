@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0129",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0129",
+  "label": "girl_blonde_yellow-dress",
+  "location": {
+    "x0": 2152,
+    "x1": 2152,
+    "x_sector": 8,
+    "x_tile": 67,
+    "y0": 960,
+    "y1": 960,
+    "y_sector": 3,
+    "y_tile": 30
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 607,
+    "npc_type": "person",
+    "sprite": 122,
+    "sprite_label": "girl_blonde_yellow-dress"
+  },
+  "reachable_nodes": [
+    "L_C74802",
+    "L_C7484F",
+    "L_C74874",
+    "L_C7488D",
+    "L_C748BE",
+    "L_C7DC7F",
+    "Npc0129"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 375,
+    "flag_label": "PEOPLE_IN_ONETT"
+  }
+}

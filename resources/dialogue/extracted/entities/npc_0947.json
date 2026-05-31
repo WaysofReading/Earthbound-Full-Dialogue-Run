@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0947",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0947",
+  "label": "lookalike_teddy",
+  "location": {
+    "x0": 2968,
+    "x1": 2968,
+    "x_sector": 11,
+    "x_tile": 92,
+    "y0": 4112,
+    "y1": 4112,
+    "y_sector": 16,
+    "y_tile": 128
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 118,
+    "sprite_label": "lookalike_teddy"
+  },
+  "reachable_nodes": [
+    "L_C830F6",
+    "L_C83131",
+    "Npc0947"
+  ],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

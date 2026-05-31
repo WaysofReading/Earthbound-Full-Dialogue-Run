@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0355",
+  "label": "mailbox",
+  "location": {
+    "x0": 2168,
+    "x1": 2168,
+    "x_sector": 8,
+    "x_tile": 67,
+    "y0": 7480,
+    "y1": 7480,
+    "y_sector": 29,
+    "y_tile": 233
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 227,
+    "sprite_label": "mailbox"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

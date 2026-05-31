@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0298",
+  "label": "",
+  "location": {
+    "x0": 3112,
+    "x1": 3112,
+    "x_sector": 12,
+    "x_tile": 97,
+    "y0": 1672,
+    "y1": 1672,
+    "y_sector": 6,
+    "y_tile": 52
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 524,
+      "y": 964
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Happy Happy Village_Lilliput Steps_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

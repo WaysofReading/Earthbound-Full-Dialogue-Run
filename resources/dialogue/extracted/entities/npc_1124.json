@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1124",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1124",
+  "label": "man_scaraban_green-clothes",
+  "location": {
+    "x0": 7905,
+    "x1": 7905,
+    "x_sector": 30,
+    "x_tile": 247,
+    "y0": 6970,
+    "y1": 6970,
+    "y_sector": 27,
+    "y_tile": 217
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 93,
+    "sprite_label": "man_scaraban_green-clothes"
+  },
+  "reachable_nodes": [
+    "L_C7DD4D",
+    "L_C90B53",
+    "L_C90B90",
+    "L_C90C03",
+    "L_C90F61",
+    "L_C90F7D",
+    "L_C91582",
+    "Npc1124"
+  ],
+  "region": "Scaraba_Hotel_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0052",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0052",
+  "label": "pokey",
+  "location": {
+    "x0": 7080,
+    "x1": 7080,
+    "x_sector": 27,
+    "x_tile": 221,
+    "y0": 600,
+    "y1": 600,
+    "y_sector": 2,
+    "y_tile": 18
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 44,
+    "sprite_label": "pokey"
+  },
+  "reachable_nodes": [
+    "Npc0052"
+  ],
+  "region": "Onett_Minch House_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 35,
+    "flag_label": "POKEY_AT_HIS_ROOM"
+  }
+}

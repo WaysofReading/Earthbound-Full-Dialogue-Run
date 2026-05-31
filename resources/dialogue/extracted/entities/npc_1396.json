@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1396",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1396",
+  "label": "man_sailor_blue-clothes",
+  "location": {
+    "x0": 7720,
+    "x1": 7720,
+    "x_sector": 30,
+    "x_tile": 241,
+    "y0": 4600,
+    "y1": 4600,
+    "y_sector": 17,
+    "y_tile": 143
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 90,
+    "sprite_label": "man_sailor_blue-clothes"
+  },
+  "reachable_nodes": [
+    "L_C978AA",
+    "Npc1396"
+  ],
+  "region": "Moonside",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 63,
+    "flag_label": "PATH_TO_MANI_MANI_OPEN"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1249",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1249",
+  "label": "talking-rock",
+  "location": {
+    "x0": 3232,
+    "x1": 3232,
+    "x_sector": 12,
+    "x_tile": 101,
+    "y0": 2504,
+    "y1": 2504,
+    "y_sector": 9,
+    "y_tile": 78
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 260,
+    "sprite_label": "talking-rock"
+  },
+  "reachable_nodes": [
+    "Npc1249"
+  ],
+  "region": "Deep Darkness_Lumine Hall_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

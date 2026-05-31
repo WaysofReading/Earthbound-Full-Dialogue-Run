@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0501",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0501",
+  "label": "healer",
+  "location": {
+    "x0": 6840,
+    "x1": 6840,
+    "x_sector": 26,
+    "x_tile": 213,
+    "y0": 9936,
+    "y1": 9936,
+    "y_sector": 38,
+    "y_tile": 310
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 189,
+    "sprite_label": "healer"
+  },
+  "reachable_nodes": [
+    "L_C91805",
+    "L_C91A91",
+    "L_C91ABE",
+    "L_C91B24",
+    "L_C91B3D",
+    "L_C91B6F",
+    "L_C91BB8",
+    "L_C91C1B",
+    "Npc0501"
+  ],
+  "region": "Threed_Hospital_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

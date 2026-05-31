@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B221",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1712",
+  "label": "",
+  "location": {
+    "x0": 7312,
+    "x1": 7312,
+    "x_sector": 28,
+    "x_tile": 228,
+    "y0": 9544,
+    "y1": 9544,
+    "y_sector": 37,
+    "y_tile": 298
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 886,
+      "y": 355
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 10,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9B221"
+  ],
+  "region": "Summers and Toto_Toto Houses_West-2_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

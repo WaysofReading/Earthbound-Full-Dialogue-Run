@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0682",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0682",
+  "label": "monster_mouse",
+  "location": {
+    "x0": 1688,
+    "x1": 1688,
+    "x_sector": 6,
+    "x_tile": 52,
+    "y0": 3520,
+    "y1": 3520,
+    "y_sector": 13,
+    "y_tile": 110
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 600,
+    "npc_type": "person",
+    "sprite": 416,
+    "sprite_label": "monster_mouse"
+  },
+  "reachable_nodes": [
+    "L_C7C588",
+    "Npc0463",
+    "Npc0682"
+  ],
+  "region": "Winters_Brickroad Dungeon_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 420,
+    "flag_label": "BRICK_ROAD_DUNGEON_MOUSE_1_DEFEATED"
+  }
+}

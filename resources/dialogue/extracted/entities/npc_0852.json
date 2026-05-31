@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0852",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0852",
+  "label": "woman_blonde_resortwear",
+  "location": {
+    "x0": 4784,
+    "x1": 4784,
+    "x_sector": 18,
+    "x_tile": 149,
+    "y0": 5512,
+    "y1": 5512,
+    "y_sector": 21,
+    "y_tile": 172
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 72,
+    "sprite_label": "woman_blonde_resortwear"
+  },
+  "reachable_nodes": [
+    "Npc0852"
+  ],
+  "region": "Fourside_Topolla Theater_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 759,
+    "flag_label": "VENUS_AND_RUNAWAY_FANS_AT_TOPOLLA"
+  }
+}

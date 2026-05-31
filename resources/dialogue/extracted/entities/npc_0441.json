@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0441",
+  "label": "happy-happyist",
+  "location": {
+    "x0": 5840,
+    "x1": 5840,
+    "x_sector": 22,
+    "x_tile": 182,
+    "y0": 1336,
+    "y1": 1336,
+    "y_sector": 5,
+    "y_tile": 41
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 101,
+    "sprite_label": "happy-happyist"
+  },
+  "reachable_nodes": [],
+  "region": "Peaceful-Rest-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 45,
+    "flag_label": "POKEY_OUTSIDE_PAULA_CABIN"
+  }
+}

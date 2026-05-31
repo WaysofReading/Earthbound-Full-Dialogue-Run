@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0524",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0524",
+  "label": "ruffini",
+  "location": {
+    "x0": 5340,
+    "x1": 5340,
+    "x_sector": 20,
+    "x_tile": 166,
+    "y0": 9696,
+    "y1": 9696,
+    "y_sector": 37,
+    "y_tile": 303
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 130,
+    "sprite_label": "ruffini"
+  },
+  "reachable_nodes": [
+    "Npc0524"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

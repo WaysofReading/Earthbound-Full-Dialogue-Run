@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0027",
+  "label": "animation_zzz_white",
+  "location": {
+    "x0": 8138,
+    "x1": 8138,
+    "x_sector": 31,
+    "x_tile": 254,
+    "y0": 1061,
+    "y1": 1061,
+    "y_sector": 4,
+    "y_tile": 33
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 628,
+    "npc_type": "object",
+    "sprite": 384,
+    "sprite_label": "animation_zzz_white"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Ness' House_1F_2F_Ness'-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 477,
+    "flag_label": "NESS_SLEEPING_AT_HIS_BED"
+  }
+}

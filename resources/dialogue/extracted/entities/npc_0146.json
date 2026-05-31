@@ -1,0 +1,50 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0146",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0146",
+  "label": "frank",
+  "location": {
+    "x0": 1616,
+    "x1": 1616,
+    "x_sector": 6,
+    "x_tile": 50,
+    "y0": 1616,
+    "y1": 1616,
+    "y_sector": 6,
+    "y_tile": 50
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 153,
+    "sprite_label": "frank"
+  },
+  "reachable_nodes": [
+    "L_C66175",
+    "L_C66353",
+    "L_C66392",
+    "L_C663C5",
+    "L_C66469",
+    "L_C664BA",
+    "L_C664F2",
+    "L_C66523",
+    "L_C683FB",
+    "L_C68402",
+    "L_C7DC7F",
+    "L_C91582",
+    "L_C915D6",
+    "Npc0146"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 132,
+    "flag_label": "QUEST_TO_ZEXONYTE"
+  }
+}

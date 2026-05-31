@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0877",
+  "label": "",
+  "location": {
+    "x0": 5096,
+    "x1": 5096,
+    "x_sector": 19,
+    "x_tile": 159,
+    "y0": 5296,
+    "y1": 5296,
+    "y_sector": 20,
+    "y_tile": 165
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 738,
+      "y": 861
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside_Museum_1F_Exhibit-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

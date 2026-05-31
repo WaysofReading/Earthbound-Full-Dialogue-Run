@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0829",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0829",
+  "label": "tala-lama",
+  "location": {
+    "x0": 7552,
+    "x1": 7552,
+    "x_sector": 29,
+    "x_tile": 236,
+    "y0": 6816,
+    "y1": 6816,
+    "y_sector": 26,
+    "y_tile": 213
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 177,
+    "sprite_label": "tala-lama"
+  },
+  "reachable_nodes": [
+    "L_C60FF3",
+    "L_C61082",
+    "L_C610C1",
+    "L_C61139",
+    "L_C611E2",
+    "L_C7DC85",
+    "L_C7DCB6",
+    "L_C7DCDA",
+    "L_C91675",
+    "Npc0829"
+  ],
+  "region": "Dusty Dunes Desert_Monkey Cave_Start_Right_Left_Right-(Talah-Rama-Room)",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

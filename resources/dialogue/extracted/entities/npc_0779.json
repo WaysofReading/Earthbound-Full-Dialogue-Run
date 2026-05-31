@@ -1,0 +1,62 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0779",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0779",
+  "label": "arcade-game",
+  "location": {
+    "x0": 3160,
+    "x1": 3160,
+    "x_sector": 12,
+    "x_tile": 98,
+    "y0": 9944,
+    "y1": 9944,
+    "y_sector": 38,
+    "y_tile": 310
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 235,
+    "sprite_label": "arcade-game"
+  },
+  "reachable_nodes": [
+    "L_C606DE",
+    "L_C6070C",
+    "L_C6078B",
+    "L_C607A5",
+    "L_C607B9",
+    "L_C607E4",
+    "L_C6081D",
+    "L_C60829",
+    "L_C60844",
+    "L_C6085F",
+    "L_C6087A",
+    "L_C6088E",
+    "L_C6089A",
+    "L_C608B5",
+    "L_C608D0",
+    "L_C608EB",
+    "L_C608FF",
+    "L_C6090B",
+    "L_C60985",
+    "L_C60A0D",
+    "L_C60A97",
+    "L_C60B69",
+    "L_C60B71",
+    "L_C7DD4D",
+    "L_C7E6D7",
+    "Npc0779"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

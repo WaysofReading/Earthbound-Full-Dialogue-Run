@@ -1,0 +1,47 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9A01A",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1253",
+  "label": "",
+  "location": {
+    "x0": 5304,
+    "x1": 5304,
+    "x_sector": 20,
+    "x_tile": 165,
+    "y0": 6832,
+    "y1": 6832,
+    "y_sector": 26,
+    "y_tile": 213
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 450,
+      "y": 536
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 12,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C692F7",
+    "L_C69394",
+    "L_C693BE",
+    "L_C9992F",
+    "L_C9A01A"
+  ],
+  "region": "Fourside_Department Store_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

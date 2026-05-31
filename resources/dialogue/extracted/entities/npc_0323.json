@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0323",
+  "label": "lookalike_teddy",
+  "location": {
+    "x0": 2052,
+    "x1": 2052,
+    "x_sector": 8,
+    "x_tile": 64,
+    "y0": 7065,
+    "y1": 7065,
+    "y_sector": 27,
+    "y_tile": 220
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 118,
+    "sprite_label": "lookalike_teddy"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 611,
+    "flag_label": null
+  }
+}

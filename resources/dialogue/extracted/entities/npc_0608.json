@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0608",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0608",
+  "label": "lookalike_pigpen",
+  "location": {
+    "x0": 7472,
+    "x1": 7472,
+    "x_sector": 29,
+    "x_tile": 233,
+    "y0": 2552,
+    "y1": 2552,
+    "y_sector": 9,
+    "y_tile": 79
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 115,
+    "sprite_label": "lookalike_pigpen"
+  },
+  "reachable_nodes": [
+    "L_C6AF5D",
+    "Npc0608"
+  ],
+  "region": "Winters_Drug Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

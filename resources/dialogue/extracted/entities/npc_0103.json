@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0103",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0103",
+  "label": "man_blonde_i-love-ny-shirt",
+  "location": {
+    "x0": 7104,
+    "x1": 7104,
+    "x_sector": 27,
+    "x_tile": 222,
+    "y0": 1120,
+    "y1": 1120,
+    "y_sector": 4,
+    "y_tile": 35
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 114,
+    "sprite_label": "man_blonde_i-love-ny-shirt"
+  },
+  "reachable_nodes": [
+    "L_C73750",
+    "Npc0103"
+  ],
+  "region": "Onett_Library_1F_Left-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

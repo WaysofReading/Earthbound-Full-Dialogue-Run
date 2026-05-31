@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0583",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0583",
+  "label": "hotel_sign",
+  "location": {
+    "x0": 5496,
+    "x1": 5496,
+    "x_sector": 21,
+    "x_tile": 171,
+    "y0": 8976,
+    "y1": 8976,
+    "y_sector": 35,
+    "y_tile": 280
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 442,
+    "sprite_label": "hotel_sign"
+  },
+  "reachable_nodes": [
+    "Npc0583"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

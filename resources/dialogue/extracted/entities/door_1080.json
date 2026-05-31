@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1080",
+  "label": "",
+  "location": {
+    "x0": 1112,
+    "x1": 1112,
+    "x_sector": 4,
+    "x_tile": 34,
+    "y0": 5928,
+    "y1": 5928,
+    "y_sector": 23,
+    "y_tile": 185
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 152,
+      "y": 399
+    },
+    "direction": "up",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

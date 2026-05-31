@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0445",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0445",
+  "label": "man_glasses_orange-cardigan",
+  "location": {
+    "x0": 4904,
+    "x1": 4904,
+    "x_sector": 19,
+    "x_tile": 153,
+    "y0": 1856,
+    "y1": 1856,
+    "y_sector": 7,
+    "y_tile": 58
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 64,
+    "sprite_label": "man_glasses_orange-cardigan"
+  },
+  "reachable_nodes": [
+    "L_C99555",
+    "Npc0445"
+  ],
+  "region": "Peaceful-Rest-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 68,
+    "flag_label": "CARPAINTER_DEFEATED"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "entry_points": [],
+  "id": "photo_0021",
+  "label": "",
+  "location": {
+    "x0": 39,
+    "x1": 39,
+    "x_sector": 0,
+    "x_tile": 1,
+    "y0": 40,
+    "y1": 40,
+    "y_sector": 0,
+    "y_tile": 1
+  },
+  "properties": {
+    "gating_flag": 719,
+    "gating_flag_label": "GOT_PHOTO_STONEHENGE",
+    "photo_index": 21,
+    "trigger": "region"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Tenda Village_Main",
+  "type": "photo_event",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

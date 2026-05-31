@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0600",
+  "label": "",
+  "location": {
+    "x0": 6912,
+    "x1": 6912,
+    "x_sector": 27,
+    "x_tile": 216,
+    "y0": 3536,
+    "y1": 3536,
+    "y_sector": 13,
+    "y_tile": 110
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 765,
+      "y": 90
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside_Fourside Sewers_1F_Left-Hallway",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

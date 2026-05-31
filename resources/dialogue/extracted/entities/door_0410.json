@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0410",
+  "label": "",
+  "location": {
+    "x0": 6072,
+    "x1": 6072,
+    "x_sector": 23,
+    "x_tile": 189,
+    "y0": 2504,
+    "y1": 2504,
+    "y_sector": 9,
+    "y_tile": 78
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 253,
+      "y": 1011
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Giant Step_1F_Hallway",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

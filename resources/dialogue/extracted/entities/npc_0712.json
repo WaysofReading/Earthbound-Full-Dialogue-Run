@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0712",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0712",
+  "label": "mr-saturn",
+  "location": {
+    "x0": 7240,
+    "x1": 7240,
+    "x_sector": 28,
+    "x_tile": 226,
+    "y0": 7992,
+    "y1": 7992,
+    "y_sector": 31,
+    "y_tile": 249
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 171,
+    "sprite_label": "mr-saturn"
+  },
+  "reachable_nodes": [
+    "L_C901BB",
+    "L_C9023D",
+    "L_C9026F",
+    "L_C9029F",
+    "L_C9162C",
+    "Npc0712"
+  ],
+  "region": "Saturn Valley_Doctor Saturn_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

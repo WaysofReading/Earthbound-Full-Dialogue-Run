@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1387",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1387",
+  "label": "woman_dalaamese",
+  "location": {
+    "x0": 7880,
+    "x1": 7880,
+    "x_sector": 30,
+    "x_tile": 246,
+    "y0": 4760,
+    "y1": 4760,
+    "y_sector": 18,
+    "y_tile": 148
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 89,
+    "sprite_label": "woman_dalaamese"
+  },
+  "reachable_nodes": [
+    "Npc1387"
+  ],
+  "region": "Moonside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

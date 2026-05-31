@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_0510",
+  "label": "",
+  "location": {
+    "x0": 6232,
+    "x1": 6232,
+    "x_sector": 24,
+    "x_tile": 194,
+    "y0": 2872,
+    "y1": 2872,
+    "y_sector": 11,
+    "y_tile": 89
+  },
+  "properties": {
+    "destination": null,
+    "direction": "nw",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "stairway"
+  },
+  "reachable_nodes": [],
+  "region": "Summers-and-Toto",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

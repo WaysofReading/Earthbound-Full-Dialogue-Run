@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0927",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0927",
+  "label": "woman_purse_black-dress",
+  "location": {
+    "x0": 5016,
+    "x1": 5016,
+    "x_sector": 19,
+    "x_tile": 156,
+    "y0": 6440,
+    "y1": 6440,
+    "y_sector": 25,
+    "y_tile": 201
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 57,
+    "sprite_label": "woman_purse_black-dress"
+  },
+  "reachable_nodes": [
+    "L_C82AA8",
+    "Npc0927"
+  ],
+  "region": "Fourside_Department Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 57,
+    "flag_label": "FOURSIDE_DEPT_BLACKOUT"
+  }
+}

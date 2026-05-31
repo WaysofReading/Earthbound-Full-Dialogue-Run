@@ -1,0 +1,51 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C7D873",
+      "role": "primary"
+    }
+  ],
+  "id": "present_1435",
+  "label": "coffin",
+  "location": {
+    "x0": 3992,
+    "x1": 3992,
+    "x_sector": 15,
+    "x_tile": 124,
+    "y0": 5200,
+    "y1": 5200,
+    "y_sector": 20,
+    "y_tile": 162
+  },
+  "properties": {
+    "container": null,
+    "item": null,
+    "item_label": null,
+    "sprite": 262,
+    "sprite_label": "coffin"
+  },
+  "reachable_nodes": [
+    "L_C7D873",
+    "L_C7D87F",
+    "L_C7D90D",
+    "L_C7D92A",
+    "L_C7D947",
+    "L_C7D958",
+    "L_C7D9EC",
+    "L_C7D9FC",
+    "L_C7DA0C",
+    "L_C7DA23",
+    "L_C7DA58",
+    "L_C7DA68",
+    "L_C7DA8F",
+    "L_C7DAA1",
+    "L_C7DC85"
+  ],
+  "region": "Threed_Under Graveyard_1F_B1F_Stairs_B2F",
+  "type": "present",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

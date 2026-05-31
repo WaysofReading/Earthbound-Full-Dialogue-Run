@@ -1,0 +1,47 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0086",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0086",
+  "label": "mayor-pirkle",
+  "location": {
+    "x0": 7872,
+    "x1": 7872,
+    "x_sector": 30,
+    "x_tile": 246,
+    "y0": 200,
+    "y1": 200,
+    "y_sector": 0,
+    "y_tile": 6
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 154,
+    "sprite_label": "mayor-pirkle"
+  },
+  "reachable_nodes": [
+    "L_C72CAC",
+    "L_C72CEE",
+    "L_C72D2F",
+    "L_C72DD0",
+    "L_C72E08",
+    "L_C72EF1",
+    "L_C72F18",
+    "L_C7DC85",
+    "L_C7DCB6",
+    "L_C7DCDA",
+    "Npc0086"
+  ],
+  "region": "Onett_Town Hall_1F_Reception_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

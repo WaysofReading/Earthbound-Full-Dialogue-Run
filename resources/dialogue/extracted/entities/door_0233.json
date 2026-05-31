@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0233",
+  "label": "",
+  "location": {
+    "x0": 424,
+    "x1": 424,
+    "x_sector": 1,
+    "x_tile": 13,
+    "y0": 1128,
+    "y1": 1128,
+    "y_sector": 4,
+    "y_tile": 35
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 564,
+      "y": 83
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 5,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Dungeon Man_1F_2F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1341",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1341",
+  "label": "star-master",
+  "location": {
+    "x0": 6096,
+    "x1": 6096,
+    "x_sector": 23,
+    "x_tile": 190,
+    "y0": 4432,
+    "y1": 4432,
+    "y_sector": 17,
+    "y_tile": 138
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 98,
+    "sprite_label": "star-master"
+  },
+  "reachable_nodes": [
+    "Npc1341"
+  ],
+  "region": "Magicant",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

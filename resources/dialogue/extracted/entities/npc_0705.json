@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0705",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0705",
+  "label": "monster_your-sanctuary",
+  "location": {
+    "x0": 7344,
+    "x1": 7344,
+    "x_sector": 28,
+    "x_tile": 229,
+    "y0": 2304,
+    "y1": 2304,
+    "y_sector": 9,
+    "y_tile": 72
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 693,
+    "npc_type": "person",
+    "sprite": 333,
+    "sprite_label": "monster_your-sanctuary"
+  },
+  "reachable_nodes": [
+    "L_C6841E",
+    "L_C7C588",
+    "L_C7DC7F",
+    "Npc0463",
+    "Npc0705"
+  ],
+  "region": "Happy Happy Village_Lilliput Steps_1F_Hallway_Boss-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 193,
+    "flag_label": "CONQUERED_SANCTUARY_3"
+  }
+}

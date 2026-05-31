@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1149",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1149",
+  "label": "man_tribal",
+  "location": {
+    "x0": 1624,
+    "x1": 1624,
+    "x_sector": 6,
+    "x_tile": 50,
+    "y0": 5408,
+    "y1": 5408,
+    "y_sector": 21,
+    "y_tile": 169
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 102,
+    "sprite_label": "man_tribal"
+  },
+  "reachable_nodes": [
+    "L_C576E0",
+    "L_C692F7",
+    "L_C69394",
+    "L_C693BE",
+    "L_C7DC85",
+    "L_C7DCB6",
+    "L_C7DCDA",
+    "L_C9992F",
+    "Npc1149"
+  ],
+  "region": "Scaraba",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 445,
+    "flag_label": "TALKED_TO_BRICK_ROADS_HEAD"
+  }
+}

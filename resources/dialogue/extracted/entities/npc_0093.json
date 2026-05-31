@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0093",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0093",
+  "label": "girl_black-hair_red-jumper",
+  "location": {
+    "x0": 7032,
+    "x1": 7032,
+    "x_sector": 27,
+    "x_tile": 219,
+    "y0": 1248,
+    "y1": 1248,
+    "y_sector": 4,
+    "y_tile": 39
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 121,
+    "sprite_label": "girl_black-hair_red-jumper"
+  },
+  "reachable_nodes": [
+    "L_C73217",
+    "Npc0093"
+  ],
+  "region": "Onett_Houses_East-Orange_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

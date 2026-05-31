@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0697",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0697",
+  "label": "monster_belch",
+  "location": {
+    "x0": 4464,
+    "x1": 4464,
+    "x_sector": 17,
+    "x_tile": 139,
+    "y0": 4744,
+    "y1": 4744,
+    "y_sector": 18,
+    "y_tile": 148
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 328,
+    "sprite_label": "monster_belch"
+  },
+  "reachable_nodes": [
+    "L_C68554",
+    "L_C7C588",
+    "L_C7DC7F",
+    "L_EF6569",
+    "Npc0463",
+    "Npc0697"
+  ],
+  "region": "Grapefruit Falls_Belch's Base_1F_Boss-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

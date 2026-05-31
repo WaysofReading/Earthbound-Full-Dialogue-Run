@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1180",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1180",
+  "label": "monster_coffin",
+  "location": {
+    "x0": 4296,
+    "x1": 4296,
+    "x_sector": 16,
+    "x_tile": 134,
+    "y0": 8944,
+    "y1": 8944,
+    "y_sector": 34,
+    "y_tile": 279
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 322,
+    "sprite_label": "monster_coffin"
+  },
+  "reachable_nodes": [
+    "L_C7C588",
+    "Npc0463",
+    "Npc1180"
+  ],
+  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room_Stairs",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 435,
+    "flag_label": "GUARDIAN_GENERAL_DEFEATED"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0673",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0673",
+  "label": "exit-mouse-father",
+  "location": {
+    "x0": 6744,
+    "x1": 6744,
+    "x_sector": 26,
+    "x_tile": 210,
+    "y0": 5856,
+    "y1": 5856,
+    "y_sector": 22,
+    "y_tile": 183
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 451,
+    "sprite_label": "exit-mouse-father"
+  },
+  "reachable_nodes": [
+    "L_C67763",
+    "L_C677CC",
+    "L_C679CD",
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "Npc0673"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

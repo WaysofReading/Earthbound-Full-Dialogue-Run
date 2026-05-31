@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1211",
+  "label": "monster_duck",
+  "location": {
+    "x0": 3976,
+    "x1": 3976,
+    "x_sector": 15,
+    "x_tile": 124,
+    "y0": 6392,
+    "y1": 6392,
+    "y_sector": 24,
+    "y_tile": 199
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "object",
+    "sprite": 287,
+    "sprite_label": "monster_duck"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Dungeon Man_1F_2F_3F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

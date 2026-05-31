@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0397",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0397",
+  "label": "lookalike_teddy",
+  "location": {
+    "x0": 7488,
+    "x1": 7488,
+    "x_sector": 29,
+    "x_tile": 234,
+    "y0": 2160,
+    "y1": 2160,
+    "y_sector": 8,
+    "y_tile": 67
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 118,
+    "sprite_label": "lookalike_teddy"
+  },
+  "reachable_nodes": [
+    "L_C98940",
+    "L_C98FB9",
+    "L_C98FD3",
+    "L_C99002",
+    "Npc0397"
+  ],
+  "region": "Happy Happy Village_Town Hall_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

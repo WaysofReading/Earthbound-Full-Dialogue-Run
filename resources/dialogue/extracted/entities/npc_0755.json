@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0755",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0755",
+  "label": "man_blonde_blue-blazer",
+  "location": {
+    "x0": 1880,
+    "x1": 1880,
+    "x_sector": 7,
+    "x_tile": 58,
+    "y0": 10008,
+    "y1": 10008,
+    "y_sector": 39,
+    "y_tile": 312
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 70,
+    "sprite_label": "man_blonde_blue-blazer"
+  },
+  "reachable_nodes": [
+    "Npc0755"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 136,
+    "flag_label": "TRAFFIC_JAM_CLEARED"
+  }
+}

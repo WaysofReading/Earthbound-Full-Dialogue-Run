@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0414",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0414",
+  "label": "hippy",
+  "location": {
+    "x0": 3592,
+    "x1": 3592,
+    "x_sector": 14,
+    "x_tile": 112,
+    "y0": 8000,
+    "y1": 8000,
+    "y_sector": 31,
+    "y_tile": 250
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 361,
+    "sprite_label": "hippy"
+  },
+  "reachable_nodes": [
+    "L_C99061",
+    "L_C99088",
+    "Npc0414"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0744",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0744",
+  "label": "present",
+  "location": {
+    "x0": 392,
+    "x1": 392,
+    "x_sector": 1,
+    "x_tile": 12,
+    "y0": 7552,
+    "y1": 7552,
+    "y_sector": 29,
+    "y_tile": 236
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 708,
+    "npc_type": "object",
+    "sprite": 195,
+    "sprite_label": "present"
+  },
+  "reachable_nodes": [
+    "L_C7D947",
+    "L_C7D958",
+    "L_C7D9EC",
+    "L_C7D9FD",
+    "Npc0744"
+  ],
+  "region": "Saturn-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 628,
+    "flag_label": "PRESENTS_AT_SATURN_VALLEY"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0485",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0485",
+  "label": "man_glasses_-black-suit",
+  "location": {
+    "x0": 6768,
+    "x1": 6768,
+    "x_sector": 26,
+    "x_tile": 211,
+    "y0": 9312,
+    "y1": 9312,
+    "y_sector": 36,
+    "y_tile": 291
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 62,
+    "sprite_label": "man_glasses_-black-suit"
+  },
+  "reachable_nodes": [
+    "Npc0485"
+  ],
+  "region": "Threed_Hotel_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

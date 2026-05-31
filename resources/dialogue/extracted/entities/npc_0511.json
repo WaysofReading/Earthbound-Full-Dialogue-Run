@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0511",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0511",
+  "label": "boy_blue-ballcap",
+  "location": {
+    "x0": 7520,
+    "x1": 7520,
+    "x_sector": 29,
+    "x_tile": 235,
+    "y0": 9936,
+    "y1": 9936,
+    "y_sector": 38,
+    "y_tile": 310
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 123,
+    "sprite_label": "boy_blue-ballcap"
+  },
+  "reachable_nodes": [
+    "Npc0511"
+  ],
+  "region": "Threed_Houses_Southeast_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 214,
+    "flag_label": "VISITED_FOURSIDE"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0631",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0631",
+  "label": "brickroad",
+  "location": {
+    "x0": 712,
+    "x1": 712,
+    "x_sector": 2,
+    "x_tile": 22,
+    "y0": 4704,
+    "y1": 4704,
+    "y_sector": 18,
+    "y_tile": 147
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 161,
+    "sprite_label": "brickroad"
+  },
+  "reachable_nodes": [
+    "L_C6BC9B",
+    "L_C6BD9D",
+    "L_C6BDAB",
+    "L_C90F7D",
+    "L_C91582",
+    "L_C915D6",
+    "L_C91693",
+    "Npc0631"
+  ],
+  "region": "Winters",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 50,
+    "flag_label": "BRICK_ROAD_OUTSIDE_DUNGEON"
+  }
+}

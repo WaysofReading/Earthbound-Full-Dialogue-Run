@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0326",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0326",
+  "label": "man_glasses_orange-cardigan",
+  "location": {
+    "x0": 2192,
+    "x1": 2192,
+    "x_sector": 8,
+    "x_tile": 68,
+    "y0": 6531,
+    "y1": 6531,
+    "y_sector": 25,
+    "y_tile": 204
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 64,
+    "sprite_label": "man_glasses_orange-cardigan"
+  },
+  "reachable_nodes": [
+    "Npc0326"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 549,
+    "flag_label": "QUEUE_OUTSIDE_CHAOS_THEATER"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1122",
+  "label": "poo",
+  "location": {
+    "x0": 3592,
+    "x1": 3592,
+    "x_sector": 14,
+    "x_tile": 112,
+    "y0": 6208,
+    "y1": 6208,
+    "y_sector": 24,
+    "y_tile": 194
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 4,
+    "sprite_label": "poo"
+  },
+  "reachable_nodes": [],
+  "region": "Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 349,
+    "flag_label": "JUST_WOKE_UP_FROM_MAGICANT"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0811",
+  "label": "",
+  "location": {
+    "x0": 7944,
+    "x1": 7944,
+    "x_sector": 31,
+    "x_tile": 248,
+    "y0": 4744,
+    "y1": 4744,
+    "y_sector": 18,
+    "y_tile": 148
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 988,
+      "y": 765
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules_Boss-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

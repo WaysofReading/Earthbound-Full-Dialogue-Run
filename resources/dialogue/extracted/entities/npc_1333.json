@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1333",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1333",
+  "label": "boy_fedora",
+  "location": {
+    "x0": 5201,
+    "x1": 5201,
+    "x_sector": 20,
+    "x_tile": 162,
+    "y0": 4627,
+    "y1": 4627,
+    "y_sector": 18,
+    "y_tile": 144
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 126,
+    "sprite_label": "boy_fedora"
+  },
+  "reachable_nodes": [
+    "Npc1333"
+  ],
+  "region": "Magicant",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

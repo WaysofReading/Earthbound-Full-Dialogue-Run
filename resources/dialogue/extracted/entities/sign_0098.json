@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C67C40",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0098",
+  "label": "",
+  "location": {
+    "x0": 7600,
+    "x1": 7600,
+    "x_sector": 29,
+    "x_tile": 237,
+    "y0": 1472,
+    "y1": 1472,
+    "y_sector": 5,
+    "y_tile": 46
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C67C40",
+    "L_C67C7D",
+    "L_C67C98"
+  ],
+  "region": "Onett_Scam House_1F",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0595",
+      "role": "primary"
+    },
+    {
+      "node_id": "L_C6F913",
+      "role": "secondary"
+    }
+  ],
+  "id": "npc_0599",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 7200,
+    "x1": 7200,
+    "x_sector": 28,
+    "x_tile": 225,
+    "y0": 1632,
+    "y1": 1632,
+    "y_sector": 6,
+    "y_tile": 51
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [
+    "L_C6F913",
+    "L_C6F9FD",
+    "L_C6FA05",
+    "L_C6FA0C",
+    "L_C6FA2E",
+    "L_C7DD2C",
+    "Npc0595"
+  ],
+  "region": "Winters_Snow Wood_1F_Locker-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

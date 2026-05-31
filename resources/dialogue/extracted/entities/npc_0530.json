@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0530",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0530",
+  "label": "girl_blonde_pink-dress",
+  "location": {
+    "x0": 5915,
+    "x1": 5915,
+    "x_sector": 23,
+    "x_tile": 184,
+    "y0": 9471,
+    "y1": 9471,
+    "y_sector": 36,
+    "y_tile": 295
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 120,
+    "sprite_label": "girl_blonde_pink-dress"
+  },
+  "reachable_nodes": [
+    "Npc0530"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1096",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1096",
+  "label": "woman_dalaamese",
+  "location": {
+    "x0": 7472,
+    "x1": 7472,
+    "x_sector": 29,
+    "x_tile": 233,
+    "y0": 7872,
+    "y1": 7872,
+    "y_sector": 30,
+    "y_tile": 246
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 89,
+    "sprite_label": "woman_dalaamese"
+  },
+  "reachable_nodes": [
+    "L_C9CED1",
+    "Npc1096"
+  ],
+  "region": "Dalaam_Houses_East",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

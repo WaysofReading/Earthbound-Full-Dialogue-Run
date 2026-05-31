@@ -1,0 +1,48 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0017",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0019",
+  "label": "pokey",
+  "location": {
+    "x0": 7722,
+    "x1": 7722,
+    "x_sector": 30,
+    "x_tile": 241,
+    "y0": 332,
+    "y1": 332,
+    "y_sector": 1,
+    "y_tile": 10
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 45,
+    "npc_type": "person",
+    "sprite": 44,
+    "sprite_label": "pokey"
+  },
+  "reachable_nodes": [
+    "L_C68174",
+    "L_C681B5",
+    "L_C75E1C",
+    "L_C75E6D",
+    "L_C75EBC",
+    "L_C75F3B",
+    "L_C75F73",
+    "L_C75FB6",
+    "L_C7601A",
+    "L_C76080",
+    "L_C760B7",
+    "Npc0017"
+  ],
+  "region": "Onett_Ness' House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 310,
+    "flag_label": "POKEY_WAITING_AT_COUCH"
+  }
+}

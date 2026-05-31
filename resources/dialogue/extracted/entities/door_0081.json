@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9AC22",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0081",
+  "label": "",
+  "location": {
+    "x0": 8072,
+    "x1": 8072,
+    "x_sector": 31,
+    "x_tile": 252,
+    "y0": 88,
+    "y1": 88,
+    "y_sector": 0,
+    "y_tile": 2
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 1009,
+      "y": 12
+    },
+    "direction": "down",
+    "gating_flag": 33108,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 0,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9AC22"
+  ],
+  "region": "Onett_Police Station_1F_Cells",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

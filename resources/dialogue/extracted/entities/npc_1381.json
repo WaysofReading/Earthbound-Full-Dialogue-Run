@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1381",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1381",
+  "label": "woman_blonde_resortwear",
+  "location": {
+    "x0": 7472,
+    "x1": 7472,
+    "x_sector": 29,
+    "x_tile": 233,
+    "y0": 4528,
+    "y1": 4528,
+    "y_sector": 17,
+    "y_tile": 141
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 72,
+    "sprite_label": "woman_blonde_resortwear"
+  },
+  "reachable_nodes": [
+    "Npc1381"
+  ],
+  "region": "Moonside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

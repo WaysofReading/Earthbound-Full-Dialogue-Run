@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0625",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0625",
+  "label": "man_blonde_blue-blazer",
+  "location": {
+    "x0": 4132,
+    "x1": 4132,
+    "x_sector": 16,
+    "x_tile": 129,
+    "y0": 5973,
+    "y1": 5973,
+    "y_sector": 23,
+    "y_tile": 186
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 70,
+    "sprite_label": "man_blonde_blue-blazer"
+  },
+  "reachable_nodes": [
+    "L_C6C6EB",
+    "L_C6C6EC",
+    "L_C6C720",
+    "L_C6C729",
+    "L_C90F7D",
+    "L_C91582",
+    "L_C915D6",
+    "L_C91693",
+    "Npc0625"
+  ],
+  "region": "Winters_Tents_North_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 73,
+    "flag_label": "GIYGAS_DEFEATED"
+  }
+}

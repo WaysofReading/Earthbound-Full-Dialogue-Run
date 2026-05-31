@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1461",
+  "label": "",
+  "location": {
+    "x0": 6688,
+    "x1": 6688,
+    "x_sector": 26,
+    "x_tile": 209,
+    "y0": 8144,
+    "y1": 8144,
+    "y_sector": 31,
+    "y_tile": 254
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 835,
+      "y": 989
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 15,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson_Houses_Northwest-Red-Roof_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

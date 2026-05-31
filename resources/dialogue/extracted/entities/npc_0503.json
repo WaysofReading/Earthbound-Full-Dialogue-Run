@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0503",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0503",
+  "label": "doctor",
+  "location": {
+    "x0": 7264,
+    "x1": 7264,
+    "x_sector": 28,
+    "x_tile": 227,
+    "y0": 9928,
+    "y1": 9928,
+    "y_sector": 38,
+    "y_tile": 310
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 139,
+    "sprite_label": "doctor"
+  },
+  "reachable_nodes": [
+    "L_C7DD5E",
+    "L_C7DD68",
+    "L_C9002B",
+    "L_C90FEC",
+    "L_C91041",
+    "L_C9105F",
+    "Npc0503"
+  ],
+  "region": "Threed_Hospital_1F_Doctor's-Office",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

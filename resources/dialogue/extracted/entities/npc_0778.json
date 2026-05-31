@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0778",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0778",
+  "label": "sign_small",
+  "location": {
+    "x0": 2960,
+    "x1": 2960,
+    "x_sector": 11,
+    "x_tile": 92,
+    "y0": 9040,
+    "y1": 9040,
+    "y_sector": 35,
+    "y_tile": 282
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 213,
+    "sprite_label": "sign_small"
+  },
+  "reachable_nodes": [
+    "L_C60322",
+    "Npc0778"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

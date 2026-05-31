@@ -1,0 +1,72 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0292",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0292",
+  "label": "chef",
+  "location": {
+    "x0": 6720,
+    "x1": 6720,
+    "x_sector": 26,
+    "x_tile": 210,
+    "y0": 7240,
+    "y1": 7240,
+    "y_sector": 28,
+    "y_tile": 226
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 137,
+    "sprite_label": "chef"
+  },
+  "reachable_nodes": [
+    "L_C50000",
+    "L_C51B12",
+    "L_C51CCB",
+    "L_C51EEA",
+    "L_C5211E",
+    "L_C522EF",
+    "L_C524F7",
+    "L_C527C7",
+    "L_C52ACC",
+    "L_C52D94",
+    "L_C530A2",
+    "L_C5341D",
+    "L_C5B3BA",
+    "L_C5B625",
+    "L_C5B896",
+    "L_C5BAA4",
+    "L_C5BB76",
+    "L_C5BC70",
+    "L_C5BD92",
+    "L_C5BEF9",
+    "L_C5C05F",
+    "L_C5C1E5",
+    "L_C5C32A",
+    "L_C5C59E",
+    "L_C5C71F",
+    "L_C5C845",
+    "L_C5C96A",
+    "L_C5CA56",
+    "L_C5CBC0",
+    "L_C5CD18",
+    "L_C5CE22",
+    "L_C5CF67",
+    "L_C5D050",
+    "L_C5D293",
+    "L_C5DFB1",
+    "Npc0292"
+  ],
+  "region": "Twoson_Department Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_1313",
+  "label": "",
+  "location": {
+    "x0": 6944,
+    "x1": 6944,
+    "x_sector": 27,
+    "x_tile": 217,
+    "y0": 7128,
+    "y1": 7128,
+    "y_sector": 27,
+    "y_tile": 222
+  },
+  "properties": {
+    "destination": null,
+    "direction": "sw",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "escalator"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson_Department Store_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

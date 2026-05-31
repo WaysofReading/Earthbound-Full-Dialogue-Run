@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0373",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0374",
+  "label": "bus_runaway-5",
+  "location": {
+    "x0": 2304,
+    "x1": 2304,
+    "x_sector": 9,
+    "x_tile": 72,
+    "y0": 6520,
+    "y1": 6520,
+    "y_sector": 25,
+    "y_tile": 203
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 243,
+    "sprite_label": "bus_runaway-5"
+  },
+  "reachable_nodes": [
+    "Npc0373"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 119,
+    "flag_label": "RUNAWAY_FIVE_FREE_FROM_CHAOS_THEATER"
+  }
+}

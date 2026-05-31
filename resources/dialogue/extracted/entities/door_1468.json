@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B11E",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1468",
+  "label": "",
+  "location": {
+    "x0": 7640,
+    "x1": 7640,
+    "x_sector": 29,
+    "x_tile": 238,
+    "y0": 8016,
+    "y1": 8016,
+    "y_sector": 31,
+    "y_tile": 250
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 641,
+      "y": 592
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 10,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9992F",
+    "L_C99D92",
+    "L_C9B11E"
+  ],
+  "region": "Magicant_Hotel_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

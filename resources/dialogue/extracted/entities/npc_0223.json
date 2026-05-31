@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0223",
+  "label": "bench",
+  "location": {
+    "x0": 7768,
+    "x1": 7768,
+    "x_sector": 30,
+    "x_tile": 242,
+    "y0": 7880,
+    "y1": 7880,
+    "y_sector": 30,
+    "y_tile": 246
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 198,
+    "sprite_label": "bench"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson_Apple Kid's House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

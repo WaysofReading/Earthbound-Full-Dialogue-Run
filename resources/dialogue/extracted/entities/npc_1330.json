@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1330",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1330",
+  "label": "picky",
+  "location": {
+    "x0": 5097,
+    "x1": 5097,
+    "x_sector": 19,
+    "x_tile": 159,
+    "y0": 4592,
+    "y1": 4592,
+    "y_sector": 17,
+    "y_tile": 143
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 45,
+    "sprite_label": "picky"
+  },
+  "reachable_nodes": [
+    "Npc1330"
+  ],
+  "region": "Magicant",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

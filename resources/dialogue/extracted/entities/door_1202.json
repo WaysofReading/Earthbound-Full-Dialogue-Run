@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_1202",
+  "label": "",
+  "location": {
+    "x0": 4920,
+    "x1": 4920,
+    "x_sector": 19,
+    "x_tile": 153,
+    "y0": 6480,
+    "y1": 6480,
+    "y_sector": 25,
+    "y_tile": 202
+  },
+  "properties": {
+    "destination": null,
+    "direction": "nowhere",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "escalator"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside_Department Store_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

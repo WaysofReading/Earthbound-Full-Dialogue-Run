@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0692",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0692",
+  "label": "monster_little-pile",
+  "location": {
+    "x0": 2800,
+    "x1": 2800,
+    "x_sector": 10,
+    "x_tile": 87,
+    "y0": 5504,
+    "y1": 5504,
+    "y_sector": 21,
+    "y_tile": 172
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 600,
+    "npc_type": "person",
+    "sprite": 315,
+    "sprite_label": "monster_little-pile"
+  },
+  "reachable_nodes": [
+    "L_C6854D",
+    "L_C7C588",
+    "Npc0463",
+    "Npc0692"
+  ],
+  "region": "Grapefruit Falls_Belch's Base_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 368,
+    "flag_label": "SLIMY_LITTLE_PILE_3_DEFEATED"
+  }
+}

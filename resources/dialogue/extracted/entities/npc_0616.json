@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0616",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0616",
+  "label": "monster_mouse",
+  "location": {
+    "x0": 8096,
+    "x1": 8096,
+    "x_sector": 31,
+    "x_tile": 253,
+    "y0": 2904,
+    "y1": 2904,
+    "y_sector": 11,
+    "y_tile": 90
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 281,
+    "sprite_label": "monster_mouse"
+  },
+  "reachable_nodes": [
+    "L_C6C8D3",
+    "L_C6C8DD",
+    "L_C7DC85",
+    "L_C7DCB6",
+    "L_C7DCDA",
+    "Npc0616"
+  ],
+  "region": "Winters_Andonuts Lab_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 620,
+    "flag_label": "APPLE_MOUSE_AT_WINTERS_LAB"
+  }
+}

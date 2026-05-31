@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1162",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1163",
+  "label": "sesame-seed_black",
+  "location": {
+    "x0": 1832,
+    "x1": 1832,
+    "x_sector": 7,
+    "x_tile": 57,
+    "y0": 3992,
+    "y1": 3992,
+    "y_sector": 15,
+    "y_tile": 124
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 238,
+    "sprite_label": "sesame-seed_black"
+  },
+  "reachable_nodes": [
+    "Npc1162"
+  ],
+  "region": "Scaraba",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

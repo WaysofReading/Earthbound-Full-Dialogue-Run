@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B10B",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0182",
+  "label": "",
+  "location": {
+    "x0": 6760,
+    "x1": 6760,
+    "x_sector": 26,
+    "x_tile": 211,
+    "y0": 672,
+    "y1": 672,
+    "y_sector": 2,
+    "y_tile": 21
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 931,
+      "y": 411
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9B10B",
+    "L_C9B112"
+  ],
+  "region": "Grapefruit-Falls",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

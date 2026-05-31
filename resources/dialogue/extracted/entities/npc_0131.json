@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0131",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0131",
+  "label": "man_blonde_i-love-ny-shirt",
+  "location": {
+    "x0": 1872,
+    "x1": 1872,
+    "x_sector": 7,
+    "x_tile": 58,
+    "y0": 1168,
+    "y1": 1168,
+    "y_sector": 4,
+    "y_tile": 36
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 607,
+    "npc_type": "person",
+    "sprite": 114,
+    "sprite_label": "man_blonde_i-love-ny-shirt"
+  },
+  "reachable_nodes": [
+    "L_C749EF",
+    "Npc0131"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 375,
+    "flag_label": "PEOPLE_IN_ONETT"
+  }
+}

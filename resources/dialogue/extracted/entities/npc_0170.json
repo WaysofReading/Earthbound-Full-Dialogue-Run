@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0170",
+  "label": "streetsign_city",
+  "location": {
+    "x0": 1968,
+    "x1": 1968,
+    "x_sector": 7,
+    "x_tile": 61,
+    "y0": 1504,
+    "y1": 1504,
+    "y_sector": 5,
+    "y_tile": 47
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 204,
+    "sprite_label": "streetsign_city"
+  },
+  "reachable_nodes": [],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

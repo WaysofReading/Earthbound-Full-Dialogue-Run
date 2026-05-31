@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0920",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0920",
+  "label": "lookalike_marcie",
+  "location": {
+    "x0": 5112,
+    "x1": 5112,
+    "x_sector": 19,
+    "x_tile": 159,
+    "y0": 6784,
+    "y1": 6784,
+    "y_sector": 26,
+    "y_tile": 212
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 141,
+    "sprite_label": "lookalike_marcie"
+  },
+  "reachable_nodes": [
+    "L_C5E456",
+    "L_C64DD0",
+    "L_C64DEE",
+    "L_C64DF8",
+    "L_C64E04",
+    "L_C64E69",
+    "L_C64E6E",
+    "L_C64E86",
+    "L_C7DD4F",
+    "Npc0920"
+  ],
+  "region": "Fourside_Department Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 57,
+    "flag_label": "FOURSIDE_DEPT_BLACKOUT"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0212",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0212",
+  "label": "man_mohawk_punk-clothes",
+  "location": {
+    "x0": 7072,
+    "x1": 7072,
+    "x_sector": 27,
+    "x_tile": 221,
+    "y0": 7624,
+    "y1": 7624,
+    "y_sector": 29,
+    "y_tile": 238
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 85,
+    "sprite_label": "man_mohawk_punk-clothes"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "L_C80027",
+    "L_C800C1",
+    "L_C800F5",
+    "L_C8015A",
+    "L_C802B9",
+    "L_C8034D",
+    "L_C8037F",
+    "L_C803AC",
+    "Npc0212"
+  ],
+  "region": "Twoson_Cycle Shop_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

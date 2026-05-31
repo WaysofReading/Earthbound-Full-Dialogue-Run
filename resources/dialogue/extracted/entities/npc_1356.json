@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1356",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1356",
+  "label": "monster_kraken",
+  "location": {
+    "x0": 560,
+    "x1": 560,
+    "x_sector": 2,
+    "x_tile": 17,
+    "y0": 9176,
+    "y1": 9176,
+    "y_sector": 35,
+    "y_tile": 286
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 602,
+    "npc_type": "person",
+    "sprite": 295,
+    "sprite_label": "monster_kraken"
+  },
+  "reachable_nodes": [
+    "L_C7C588",
+    "Npc0463",
+    "Npc1356"
+  ],
+  "region": "Magicant_Sea of Eden_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 438,
+    "flag_label": "SEA_OF_EDEN_KRAKEN_3_DEFEATED"
+  }
+}

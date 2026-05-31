@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0435",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0435",
+  "label": "sign_small",
+  "location": {
+    "x0": 4096,
+    "x1": 4096,
+    "x_sector": 16,
+    "x_tile": 128,
+    "y0": 7616,
+    "y1": 7616,
+    "y_sector": 29,
+    "y_tile": 238
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 213,
+    "sprite_label": "sign_small"
+  },
+  "reachable_nodes": [
+    "L_C998FD",
+    "Npc0435"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

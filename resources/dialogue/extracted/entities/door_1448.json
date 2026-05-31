@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9AF82",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1448",
+  "label": "",
+  "location": {
+    "x0": 3096,
+    "x1": 3096,
+    "x_sector": 12,
+    "x_tile": 96,
+    "y0": 8096,
+    "y1": 8096,
+    "y_sector": 31,
+    "y_tile": 253
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 497,
+      "y": 139
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C7DD8D",
+    "L_C7DDE7",
+    "L_C7DE60",
+    "L_C9AF82"
+  ],
+  "region": "Happy Happy Village_Lilliput Steps_1F_Hallway",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

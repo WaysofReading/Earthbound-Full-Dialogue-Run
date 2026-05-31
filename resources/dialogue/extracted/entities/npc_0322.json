@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0322",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0322",
+  "label": "man_blonde_i-love-ny-shirt",
+  "location": {
+    "x0": 2118,
+    "x1": 2118,
+    "x_sector": 8,
+    "x_tile": 66,
+    "y0": 6544,
+    "y1": 6544,
+    "y_sector": 25,
+    "y_tile": 204
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 114,
+    "sprite_label": "man_blonde_i-love-ny-shirt"
+  },
+  "reachable_nodes": [
+    "Npc0322"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 549,
+    "flag_label": "QUEUE_OUTSIDE_CHAOS_THEATER"
+  }
+}

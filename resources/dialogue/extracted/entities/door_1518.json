@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B11E",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1518",
+  "label": "",
+  "location": {
+    "x0": 8144,
+    "x1": 8144,
+    "x_sector": 31,
+    "x_tile": 254,
+    "y0": 8328,
+    "y1": 8328,
+    "y_sector": 32,
+    "y_tile": 260
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 569,
+      "y": 442
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9992F",
+    "L_C99D92",
+    "L_C9B11E"
+  ],
+  "region": "Dalaam_Palace_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

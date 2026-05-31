@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0591",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0591",
+  "label": "tony_bed",
+  "location": {
+    "x0": 7208,
+    "x1": 7208,
+    "x_sector": 28,
+    "x_tile": 225,
+    "y0": 1888,
+    "y1": 1888,
+    "y_sector": 7,
+    "y_tile": 59
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 113,
+    "npc_type": "person",
+    "sprite": 183,
+    "sprite_label": "tony_bed"
+  },
+  "reachable_nodes": [
+    "Npc0591"
+  ],
+  "region": "Winters_Snow Wood_1F_2F_Jeff-and-Tony's-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 23,
+    "flag_label": "TONY_JOINS"
+  }
+}

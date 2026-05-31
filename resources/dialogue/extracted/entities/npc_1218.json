@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1218",
+  "label": "monster_goat",
+  "location": {
+    "x0": 4232,
+    "x1": 4232,
+    "x_sector": 16,
+    "x_tile": 132,
+    "y0": 6256,
+    "y1": 6256,
+    "y_sector": 24,
+    "y_tile": 195
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "object",
+    "sprite": 294,
+    "sprite_label": "monster_goat"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Dungeon Man_1F_2F_3F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0896",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0896",
+  "label": "bartender",
+  "location": {
+    "x0": 5496,
+    "x1": 5496,
+    "x_sector": 21,
+    "x_tile": 171,
+    "y0": 6592,
+    "y1": 6592,
+    "y_sector": 25,
+    "y_tile": 206
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 84,
+    "sprite_label": "bartender"
+  },
+  "reachable_nodes": [
+    "L_C6F1D6",
+    "Npc0896"
+  ],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

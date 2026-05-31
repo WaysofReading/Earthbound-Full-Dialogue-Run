@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0417",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0417",
+  "label": "saxophonist",
+  "location": {
+    "x0": 4064,
+    "x1": 4064,
+    "x_sector": 15,
+    "x_tile": 127,
+    "y0": 7888,
+    "y1": 7888,
+    "y_sector": 30,
+    "y_tile": 246
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 77,
+    "sprite_label": "saxophonist"
+  },
+  "reachable_nodes": [
+    "L_C992B6",
+    "L_C992D1",
+    "Npc0417"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

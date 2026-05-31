@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1732",
+  "label": "",
+  "location": {
+    "x0": 7088,
+    "x1": 7088,
+    "x_sector": 27,
+    "x_tile": 221,
+    "y0": 9832,
+    "y1": 9832,
+    "y_sector": 38,
+    "y_tile": 307
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 727,
+      "y": 154
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 10,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Peaceful Rest Valley_Paula's Cabin_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

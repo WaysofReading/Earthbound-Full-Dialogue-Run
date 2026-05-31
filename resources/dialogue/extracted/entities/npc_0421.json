@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0421",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0421",
+  "label": "lookalike_pigpen",
+  "location": {
+    "x0": 4184,
+    "x1": 4184,
+    "x_sector": 16,
+    "x_tile": 130,
+    "y0": 7704,
+    "y1": 7704,
+    "y_sector": 30,
+    "y_tile": 240
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 115,
+    "sprite_label": "lookalike_pigpen"
+  },
+  "reachable_nodes": [
+    "L_C995E4",
+    "L_C99635",
+    "L_C9966E",
+    "L_C99686",
+    "Npc0421"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

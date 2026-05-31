@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0181",
+  "label": "mailbox",
+  "location": {
+    "x0": 1080,
+    "x1": 1080,
+    "x_sector": 4,
+    "x_tile": 33,
+    "y0": 1400,
+    "y1": 1400,
+    "y_sector": 5,
+    "y_tile": 43
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 227,
+    "sprite_label": "mailbox"
+  },
+  "reachable_nodes": [],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

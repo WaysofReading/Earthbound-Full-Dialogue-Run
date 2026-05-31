@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0279",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0280",
+  "label": "boy_blue-ballcap",
+  "location": {
+    "x0": 6812,
+    "x1": 6812,
+    "x_sector": 26,
+    "x_tile": 212,
+    "y0": 8163,
+    "y1": 8163,
+    "y_sector": 31,
+    "y_tile": 255
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 123,
+    "sprite_label": "boy_blue-ballcap"
+  },
+  "reachable_nodes": [
+    "L_C967AA",
+    "L_C9680E",
+    "Npc0279"
+  ],
+  "region": "Twoson_Houses_Northwest-Red-Roof_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 68,
+    "flag_label": "CARPAINTER_DEFEATED"
+  }
+}

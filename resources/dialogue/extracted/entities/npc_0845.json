@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0845",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0845",
+  "label": "runaway-5_okay",
+  "location": {
+    "x0": 5488,
+    "x1": 5488,
+    "x_sector": 21,
+    "x_tile": 171,
+    "y0": 6736,
+    "y1": 6736,
+    "y_sector": 26,
+    "y_tile": 210
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 185,
+    "sprite_label": "runaway-5_okay"
+  },
+  "reachable_nodes": [
+    "Npc0845"
+  ],
+  "region": "Fourside_Topolla Theater_1F_Concert-Hall_Dressing-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 147,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0965",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0965",
+  "label": "man_orange-hair_sunglasses",
+  "location": {
+    "x0": 3824,
+    "x1": 3824,
+    "x_sector": 14,
+    "x_tile": 119,
+    "y0": 4056,
+    "y1": 4056,
+    "y_sector": 15,
+    "y_tile": 126
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 117,
+    "sprite_label": "man_orange-hair_sunglasses"
+  },
+  "reachable_nodes": [
+    "Npc0965"
+  ],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 194,
+    "flag_label": "CONQUERED_SANCTUARY_5"
+  }
+}

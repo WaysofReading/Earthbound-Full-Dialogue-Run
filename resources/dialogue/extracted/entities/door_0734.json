@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0734",
+  "label": "",
+  "location": {
+    "x0": 5256,
+    "x1": 5256,
+    "x_sector": 20,
+    "x_tile": 164,
+    "y0": 4184,
+    "y1": 4184,
+    "y_sector": 16,
+    "y_tile": 130
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 1013,
+      "y": 1018
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 4,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Magicant",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

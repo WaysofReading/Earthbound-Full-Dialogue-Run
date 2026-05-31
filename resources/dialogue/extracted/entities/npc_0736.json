@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0736",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 632,
+    "x1": 632,
+    "x_sector": 2,
+    "x_tile": 19,
+    "y0": 7376,
+    "y1": 7376,
+    "y_sector": 28,
+    "y_tile": 230
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 872,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Saturn-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

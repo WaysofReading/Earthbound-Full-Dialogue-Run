@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0045",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0045",
+  "label": "lardna",
+  "location": {
+    "x0": 7128,
+    "x1": 7128,
+    "x_sector": 27,
+    "x_tile": 222,
+    "y0": 864,
+    "y1": 864,
+    "y_sector": 3,
+    "y_tile": 27
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 13,
+    "npc_type": "person",
+    "sprite": 148,
+    "sprite_label": "lardna"
+  },
+  "reachable_nodes": [
+    "L_C76689",
+    "L_C766C5",
+    "Npc0045"
+  ],
+  "region": "Onett_Minch House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 742,
+    "flag_label": "LARDNA_AT_HOME"
+  }
+}

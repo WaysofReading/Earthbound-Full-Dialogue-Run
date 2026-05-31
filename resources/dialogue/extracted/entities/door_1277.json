@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1277",
+  "label": "",
+  "location": {
+    "x0": 4000,
+    "x1": 4000,
+    "x_sector": 15,
+    "x_tile": 125,
+    "y0": 6912,
+    "y1": 6912,
+    "y_sector": 27,
+    "y_tile": 216
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 940,
+      "y": 154
+    },
+    "direction": "up",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Lier X Agerate's Shack_1F_B1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

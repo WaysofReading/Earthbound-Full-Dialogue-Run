@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1199",
+  "label": "taxi",
+  "location": {
+    "x0": 4224,
+    "x1": 4224,
+    "x_sector": 16,
+    "x_tile": 132,
+    "y0": 152,
+    "y1": 152,
+    "y_sector": 0,
+    "y_tile": 4
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 206,
+    "sprite_label": "taxi"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Dungeon Man_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

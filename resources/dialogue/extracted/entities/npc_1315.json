@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1315",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1315",
+  "label": "flying-man",
+  "location": {
+    "x0": 8008,
+    "x1": 8008,
+    "x_sector": 31,
+    "x_tile": 250,
+    "y0": 8152,
+    "y1": 8152,
+    "y_sector": 31,
+    "y_tile": 254
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 39,
+    "sprite_label": "flying-man"
+  },
+  "reachable_nodes": [
+    "L_C6831B",
+    "L_C76FB2",
+    "L_C77007",
+    "L_C7703F",
+    "L_C7706A",
+    "L_C770B0",
+    "L_C7716D",
+    "L_C7719C",
+    "Npc1315"
+  ],
+  "region": "Magicant_Flying Man House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 27,
+    "flag_label": "FLYING_MAN_3_JOINS"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0343",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0343",
+  "label": "helpful-mole",
+  "location": {
+    "x0": 1272,
+    "x1": 1272,
+    "x_sector": 4,
+    "x_tile": 39,
+    "y0": 6064,
+    "y1": 6064,
+    "y_sector": 23,
+    "y_tile": 189
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 188,
+    "sprite_label": "helpful-mole"
+  },
+  "reachable_nodes": [
+    "L_C74999",
+    "Npc0343"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

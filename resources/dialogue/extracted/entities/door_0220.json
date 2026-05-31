@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0220",
+  "label": "",
+  "location": {
+    "x0": 7576,
+    "x1": 7576,
+    "x_sector": 29,
+    "x_tile": 236,
+    "y0": 848,
+    "y1": 848,
+    "y_sector": 3,
+    "y_tile": 26
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 133,
+      "y": 188
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 10,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Houses_West-Orange_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

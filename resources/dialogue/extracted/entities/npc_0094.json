@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0094",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0094",
+  "label": "exit-mouse-father",
+  "location": {
+    "x0": 7520,
+    "x1": 7520,
+    "x_sector": 29,
+    "x_tile": 235,
+    "y0": 1384,
+    "y1": 1384,
+    "y_sector": 5,
+    "y_tile": 43
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 451,
+    "sprite_label": "exit-mouse-father"
+  },
+  "reachable_nodes": [
+    "L_C67763",
+    "L_C6777F",
+    "L_C677CC",
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "Npc0094"
+  ],
+  "region": "Onett_Exit Mouse House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

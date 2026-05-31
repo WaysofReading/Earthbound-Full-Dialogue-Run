@@ -1,0 +1,50 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0221",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0221",
+  "label": "apple-kid",
+  "location": {
+    "x0": 7800,
+    "x1": 7800,
+    "x_sector": 30,
+    "x_tile": 243,
+    "y0": 7896,
+    "y1": 7896,
+    "y_sector": 30,
+    "y_tile": 246
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 14,
+    "npc_type": "person",
+    "sprite": 176,
+    "sprite_label": "apple-kid"
+  },
+  "reachable_nodes": [
+    "L_C5E456",
+    "L_C79028",
+    "L_C7DD4D",
+    "L_C7DD4F",
+    "L_C81751",
+    "L_C81789",
+    "L_C8180C",
+    "L_C81848",
+    "L_C818A2",
+    "L_C818B9",
+    "L_C818F1",
+    "L_C81913",
+    "L_C81915",
+    "Npc0221"
+  ],
+  "region": "Twoson_Apple Kid's House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 339,
+    "flag_label": "APPLE_KID_NOT_AT_HIS_HOUSE"
+  }
+}

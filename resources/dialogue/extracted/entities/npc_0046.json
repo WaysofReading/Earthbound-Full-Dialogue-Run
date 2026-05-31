@@ -1,0 +1,47 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0046",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0046",
+  "label": "buzz-buzz",
+  "location": {
+    "x0": 7112,
+    "x1": 7112,
+    "x_sector": 27,
+    "x_tile": 222,
+    "y0": 872,
+    "y1": 872,
+    "y_sector": 3,
+    "y_tile": 27
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 347,
+    "sprite_label": "buzz-buzz"
+  },
+  "reachable_nodes": [
+    "L_C5F2AD",
+    "L_C5F39D",
+    "L_C5F3D2",
+    "L_C5F4F4",
+    "L_C5F564",
+    "L_C7C588",
+    "L_C7DC85",
+    "L_C7DCB6",
+    "L_C7DCDA",
+    "Npc0046",
+    "Npc0463"
+  ],
+  "region": "Onett_Minch House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 303,
+    "flag_label": "BUZZ_BUZZ_DYING_ON_FLOOR"
+  }
+}

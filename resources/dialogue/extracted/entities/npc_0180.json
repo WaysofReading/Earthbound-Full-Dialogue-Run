@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0180",
+  "label": "roadblock",
+  "location": {
+    "x0": 1752,
+    "x1": 1752,
+    "x_sector": 6,
+    "x_tile": 54,
+    "y0": 2008,
+    "y1": 2008,
+    "y_sector": 7,
+    "y_tile": 62
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 199,
+    "sprite_label": "roadblock"
+  },
+  "reachable_nodes": [],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 105,
+    "flag_label": "PATH_TO_TWOSON_OPEN"
+  }
+}

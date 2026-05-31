@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0420",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0420",
+  "label": "girl_blonde_yellow-dress",
+  "location": {
+    "x0": 3640,
+    "x1": 3640,
+    "x_sector": 14,
+    "x_tile": 113,
+    "y0": 7800,
+    "y1": 7800,
+    "y_sector": 30,
+    "y_tile": 243
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 134,
+    "npc_type": "person",
+    "sprite": 122,
+    "sprite_label": "girl_blonde_yellow-dress"
+  },
+  "reachable_nodes": [
+    "L_C7907A",
+    "L_C79081",
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "L_C989C5",
+    "L_C98A27",
+    "L_C98B07",
+    "Npc0420"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

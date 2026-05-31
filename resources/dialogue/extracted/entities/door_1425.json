@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1425",
+  "label": "",
+  "location": {
+    "x0": 6688,
+    "x1": 6688,
+    "x_sector": 26,
+    "x_tile": 209,
+    "y0": 7760,
+    "y1": 7760,
+    "y_sector": 30,
+    "y_tile": 242
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 835,
+      "y": 1005
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 15,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson_Polestar_1F_Den",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0224",
+  "label": "junk-pile",
+  "location": {
+    "x0": 7832,
+    "x1": 7832,
+    "x_sector": 30,
+    "x_tile": 244,
+    "y0": 7896,
+    "y1": 7896,
+    "y_sector": 30,
+    "y_tile": 246
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 414,
+    "sprite_label": "junk-pile"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson_Apple Kid's House_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

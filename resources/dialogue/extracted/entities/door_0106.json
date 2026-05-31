@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_0106",
+  "label": "",
+  "location": {
+    "x0": 5296,
+    "x1": 5296,
+    "x_sector": 20,
+    "x_tile": 165,
+    "y0": 264,
+    "y1": 264,
+    "y_sector": 1,
+    "y_tile": 8
+  },
+  "properties": {
+    "destination": null,
+    "direction": null,
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "rope"
+  },
+  "reachable_nodes": [],
+  "region": "Winters_Rainy Circle_1F_Hallway_Boss-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

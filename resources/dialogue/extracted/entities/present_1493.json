@@ -1,0 +1,51 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C7D84F",
+      "role": "primary"
+    }
+  ],
+  "id": "present_1493",
+  "label": "present",
+  "location": {
+    "x0": 2416,
+    "x1": 2416,
+    "x_sector": 9,
+    "x_tile": 75,
+    "y0": 9296,
+    "y1": 9296,
+    "y_sector": 36,
+    "y_tile": 290
+  },
+  "properties": {
+    "container": null,
+    "item": null,
+    "item_label": null,
+    "sprite": 195,
+    "sprite_label": "present"
+  },
+  "reachable_nodes": [
+    "L_C7D84F",
+    "L_C7D87F",
+    "L_C7D90D",
+    "L_C7D92A",
+    "L_C7D947",
+    "L_C7D958",
+    "L_C7D9EC",
+    "L_C7D9FC",
+    "L_C7DA0C",
+    "L_C7DA23",
+    "L_C7DA58",
+    "L_C7DA68",
+    "L_C7DA8F",
+    "L_C7DAA1",
+    "L_C7DC85"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "present",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

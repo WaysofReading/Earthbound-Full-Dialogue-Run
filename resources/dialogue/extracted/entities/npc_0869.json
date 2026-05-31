@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0869",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0869",
+  "label": "elevator_attendant",
+  "location": {
+    "x0": 5184,
+    "x1": 5184,
+    "x_sector": 20,
+    "x_tile": 162,
+    "y0": 5568,
+    "y1": 5568,
+    "y_sector": 21,
+    "y_tile": 174
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 67,
+    "sprite_label": "elevator_attendant"
+  },
+  "reachable_nodes": [
+    "L_C6E71E",
+    "L_C6E759",
+    "L_C6E79A",
+    "L_C6E7E9",
+    "Npc0869"
+  ],
+  "region": "Fourside_Monotoli_L2_Lobby_Elevator-Up",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 142,
+    "flag_label": "CAN_ACCESS_48TH_MONOTILI_FLOOR"
+  }
+}

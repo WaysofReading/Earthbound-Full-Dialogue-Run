@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0132",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0132",
+  "label": "rastaman",
+  "location": {
+    "x0": 1320,
+    "x1": 1320,
+    "x_sector": 5,
+    "x_tile": 41,
+    "y0": 1136,
+    "y1": 1136,
+    "y_sector": 4,
+    "y_tile": 35
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 607,
+    "npc_type": "person",
+    "sprite": 78,
+    "sprite_label": "rastaman"
+  },
+  "reachable_nodes": [
+    "L_C74A4B",
+    "L_C74AD6",
+    "L_C74B4A",
+    "L_C74B6C",
+    "L_C7DC7F",
+    "Npc0132"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 375,
+    "flag_label": "PEOPLE_IN_ONETT"
+  }
+}

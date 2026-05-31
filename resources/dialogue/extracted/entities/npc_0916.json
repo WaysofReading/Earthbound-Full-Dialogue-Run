@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0916",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0916",
+  "label": "doctor",
+  "location": {
+    "x0": 4448,
+    "x1": 4448,
+    "x_sector": 17,
+    "x_tile": 139,
+    "y0": 5064,
+    "y1": 5064,
+    "y_sector": 19,
+    "y_tile": 158
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 139,
+    "sprite_label": "doctor"
+  },
+  "reachable_nodes": [
+    "L_C7DD5E",
+    "L_C7DD68",
+    "L_C90067",
+    "L_C90FEC",
+    "L_C91041",
+    "L_C9105F",
+    "Npc0916"
+  ],
+  "region": "Fourside_Hospital_1F_Doctor's-Office",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

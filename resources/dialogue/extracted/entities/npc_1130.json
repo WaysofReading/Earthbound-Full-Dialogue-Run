@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1130",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1130",
+  "label": "man_cane_green-jacket",
+  "location": {
+    "x0": 6504,
+    "x1": 6504,
+    "x_sector": 25,
+    "x_tile": 203,
+    "y0": 8128,
+    "y1": 8128,
+    "y_sector": 31,
+    "y_tile": 254
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 52,
+    "sprite_label": "man_cane_green-jacket"
+  },
+  "reachable_nodes": [
+    "Npc1130"
+  ],
+  "region": "Scaraba_Houses_South_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

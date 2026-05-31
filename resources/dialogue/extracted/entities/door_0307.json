@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0307",
+  "label": "",
+  "location": {
+    "x0": 7888,
+    "x1": 7888,
+    "x_sector": 30,
+    "x_tile": 246,
+    "y0": 1640,
+    "y1": 1640,
+    "y_sector": 6,
+    "y_tile": 51
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 977,
+      "y": 316
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 7,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Winters_Snow Wood_1F_Maxwell's-Room",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

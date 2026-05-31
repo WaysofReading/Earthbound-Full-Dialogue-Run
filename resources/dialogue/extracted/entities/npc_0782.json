@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0782",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0782",
+  "label": "sesame-seed_black",
+  "location": {
+    "x0": 2040,
+    "x1": 2040,
+    "x_sector": 7,
+    "x_tile": 63,
+    "y0": 8936,
+    "y1": 8936,
+    "y_sector": 34,
+    "y_tile": 279
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 238,
+    "sprite_label": "sesame-seed_black"
+  },
+  "reachable_nodes": [
+    "L_C60C95",
+    "L_C68880",
+    "L_C9992F",
+    "Npc0782"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

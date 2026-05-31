@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0405",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0405",
+  "label": "woman_blonde_black-dress",
+  "location": {
+    "x0": 6984,
+    "x1": 6984,
+    "x_sector": 27,
+    "x_tile": 218,
+    "y0": 1736,
+    "y1": 1736,
+    "y_sector": 6,
+    "y_tile": 54
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 178,
+    "sprite_label": "woman_blonde_black-dress"
+  },
+  "reachable_nodes": [
+    "Npc0405"
+  ],
+  "region": "Happy Happy Village_Drug Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

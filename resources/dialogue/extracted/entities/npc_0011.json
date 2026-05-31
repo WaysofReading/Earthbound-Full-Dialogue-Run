@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0011",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0011",
+  "label": "ruffini",
+  "location": {
+    "x0": 7756,
+    "x1": 7756,
+    "x_sector": 30,
+    "x_tile": 242,
+    "y0": 1480,
+    "y1": 1480,
+    "y_sector": 5,
+    "y_tile": 46
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 130,
+    "sprite_label": "ruffini"
+  },
+  "reachable_nodes": [
+    "L_C69AC6",
+    "Npc0011"
+  ],
+  "region": "Onett_Drug Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

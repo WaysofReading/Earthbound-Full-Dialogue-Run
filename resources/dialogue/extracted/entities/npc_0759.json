@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0759",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0759",
+  "label": "woman_lying-down_swimwear",
+  "location": {
+    "x0": 2060,
+    "x1": 2060,
+    "x_sector": 8,
+    "x_tile": 64,
+    "y0": 9232,
+    "y1": 9232,
+    "y_sector": 36,
+    "y_tile": 288
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 104,
+    "sprite_label": "woman_lying-down_swimwear"
+  },
+  "reachable_nodes": [
+    "Npc0759"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

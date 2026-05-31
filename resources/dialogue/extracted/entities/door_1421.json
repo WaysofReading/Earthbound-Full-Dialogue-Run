@@ -1,0 +1,46 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9A139",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1421",
+  "label": "",
+  "location": {
+    "x0": 3832,
+    "x1": 3832,
+    "x_sector": 14,
+    "x_tile": 119,
+    "y0": 7896,
+    "y1": 7896,
+    "y_sector": 30,
+    "y_tile": 246
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 1009,
+      "y": 290
+    },
+    "direction": "left",
+    "gating_flag": 211,
+    "gating_flag_label": "VISITED_THREED",
+    "kind": "interactive",
+    "style": 4,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9992F",
+    "L_C9A139",
+    "L_C9A142",
+    "L_C9A193"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

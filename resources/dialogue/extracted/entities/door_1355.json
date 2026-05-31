@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1355",
+  "label": "",
+  "location": {
+    "x0": 4336,
+    "x1": 4336,
+    "x_sector": 16,
+    "x_tile": 135,
+    "y0": 7344,
+    "y1": 7344,
+    "y_sector": 28,
+    "y_tile": 229
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 541,
+      "y": 522
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Dalaam_Pink Cloud_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0971",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 3536,
+    "x1": 3536,
+    "x_sector": 13,
+    "x_tile": 110,
+    "y0": 3960,
+    "y1": 3960,
+    "y_sector": 15,
+    "y_tile": 123
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 879,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

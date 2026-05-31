@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0664",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0664",
+  "label": "tessie-watcher",
+  "location": {
+    "x0": 7880,
+    "x1": 7880,
+    "x_sector": 30,
+    "x_tile": 246,
+    "y0": 6096,
+    "y1": 6096,
+    "y_sector": 23,
+    "y_tile": 190
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 83,
+    "sprite_label": "tessie-watcher"
+  },
+  "reachable_nodes": [
+    "Npc0664"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 51,
+    "flag_label": "SHYNESS_BOOK_AT_LIBRARY"
+  }
+}

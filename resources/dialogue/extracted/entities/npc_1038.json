@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1038",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1038",
+  "label": "man_scaraban_blue-clothes",
+  "location": {
+    "x0": 8016,
+    "x1": 8016,
+    "x_sector": 31,
+    "x_tile": 250,
+    "y0": 9560,
+    "y1": 9560,
+    "y_sector": 37,
+    "y_tile": 298
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 95,
+    "sprite_label": "man_scaraban_blue-clothes"
+  },
+  "reachable_nodes": [
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "L_C8ABB0",
+    "L_C9992F",
+    "Npc1038"
+  ],
+  "region": "Summers and Toto_Museum_1F_Exhibit-Room_Upstairs_Mummy-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 346,
+    "flag_label": "GAVE_RUBY_TO_HIEROGLYPHS_GUY"
+  }
+}

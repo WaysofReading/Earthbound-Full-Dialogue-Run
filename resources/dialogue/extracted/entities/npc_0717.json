@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0060",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0717",
+  "label": "phone_black",
+  "location": {
+    "x0": 7736,
+    "x1": 7736,
+    "x_sector": 30,
+    "x_tile": 241,
+    "y0": 7952,
+    "y1": 7952,
+    "y_sector": 31,
+    "y_tile": 248
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 215,
+    "sprite_label": "phone_black"
+  },
+  "reachable_nodes": [
+    "L_C63029",
+    "Npc0060"
+  ],
+  "region": "Saturn Valley_Saturn Shop_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

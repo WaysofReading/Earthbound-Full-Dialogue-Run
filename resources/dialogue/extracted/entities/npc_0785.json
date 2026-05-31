@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0785",
+  "label": "taxi",
+  "location": {
+    "x0": 1952,
+    "x1": 1952,
+    "x_sector": 7,
+    "x_tile": 61,
+    "y0": 10000,
+    "y1": 10000,
+    "y_sector": 39,
+    "y_tile": 312
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 206,
+    "sprite_label": "taxi"
+  },
+  "reachable_nodes": [],
+  "region": "Dusty-Dunes-Desert",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 136,
+    "flag_label": "TRAFFIC_JAM_CLEARED"
+  }
+}

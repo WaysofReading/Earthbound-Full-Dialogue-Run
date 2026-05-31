@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0266",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0266",
+  "label": "doctor",
+  "location": {
+    "x0": 7776,
+    "x1": 7776,
+    "x_sector": 30,
+    "x_tile": 243,
+    "y0": 7368,
+    "y1": 7368,
+    "y_sector": 28,
+    "y_tile": 230
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 139,
+    "sprite_label": "doctor"
+  },
+  "reachable_nodes": [
+    "L_C7DD5E",
+    "L_C7DD68",
+    "L_C90008",
+    "L_C90FEC",
+    "L_C91041",
+    "L_C9105F",
+    "Npc0266"
+  ],
+  "region": "Twoson_Hospital_1F_Doctor's-Office",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

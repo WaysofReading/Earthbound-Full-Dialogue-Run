@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0411",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0411",
+  "label": "pokey",
+  "location": {
+    "x0": 3736,
+    "x1": 3736,
+    "x_sector": 14,
+    "x_tile": 116,
+    "y0": 7856,
+    "y1": 7856,
+    "y_sector": 30,
+    "y_tile": 245
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 44,
+    "sprite_label": "pokey"
+  },
+  "reachable_nodes": [
+    "Npc0411"
+  ],
+  "region": "Happy-Happy-Village",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 44,
+    "flag_label": "POKEY_OUTSIDE_HH_HQ"
+  }
+}

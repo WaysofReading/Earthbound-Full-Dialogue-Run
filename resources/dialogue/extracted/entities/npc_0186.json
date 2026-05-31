@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0186",
+  "label": "taxi",
+  "location": {
+    "x0": 2072,
+    "x1": 2072,
+    "x_sector": 8,
+    "x_tile": 64,
+    "y0": 1496,
+    "y1": 1496,
+    "y_sector": 5,
+    "y_tile": 46
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 584,
+    "npc_type": "object",
+    "sprite": 206,
+    "sprite_label": "taxi"
+  },
+  "reachable_nodes": [],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 422,
+    "flag_label": "ONETT_DAYTIME"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1318",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1318",
+  "label": "magicant-being_troll",
+  "location": {
+    "x0": 7544,
+    "x1": 7544,
+    "x_sector": 29,
+    "x_tile": 235,
+    "y0": 8008,
+    "y1": 8008,
+    "y_sector": 31,
+    "y_tile": 250
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 99,
+    "sprite_label": "magicant-being_troll"
+  },
+  "reachable_nodes": [
+    "L_C77208",
+    "L_C7722D",
+    "L_C77236",
+    "L_C90F7D",
+    "L_C91582",
+    "L_C915D6",
+    "L_C91693",
+    "Npc1318"
+  ],
+  "region": "Magicant_Hotel_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

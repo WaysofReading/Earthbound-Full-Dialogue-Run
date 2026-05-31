@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1237",
+  "label": "entertainers-shack-door",
+  "location": {
+    "x0": 5168,
+    "x1": 5168,
+    "x_sector": 20,
+    "x_tile": 161,
+    "y0": 7720,
+    "y1": 7720,
+    "y_sector": 30,
+    "y_tile": 241
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 891,
+    "npc_type": "person",
+    "sprite": 381,
+    "sprite_label": "entertainers-shack-door"
+  },
+  "reachable_nodes": [],
+  "region": "Deep-Darkness",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

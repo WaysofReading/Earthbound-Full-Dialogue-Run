@@ -1,0 +1,29 @@
+{
+  "entry_points": [],
+  "id": "photo_0024",
+  "label": "",
+  "location": {
+    "x0": 760,
+    "x1": 760,
+    "x_sector": 2,
+    "x_tile": 23,
+    "y0": 114,
+    "y1": 114,
+    "y_sector": 0,
+    "y_tile": 3
+  },
+  "properties": {
+    "gating_flag": 722,
+    "gating_flag_label": "GOT_PHOTO_SUMMERS_BEACH",
+    "photo_index": 24,
+    "trigger": "region"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Tenda Village_Main",
+  "type": "photo_event",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

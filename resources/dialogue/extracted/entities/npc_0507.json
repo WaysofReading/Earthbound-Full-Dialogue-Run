@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0013",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0507",
+  "label": "phone_payphone_left",
+  "location": {
+    "x0": 8056,
+    "x1": 8056,
+    "x_sector": 31,
+    "x_tile": 251,
+    "y0": 9712,
+    "y1": 9712,
+    "y_sector": 37,
+    "y_tile": 303
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 216,
+    "sprite_label": "phone_payphone_left"
+  },
+  "reachable_nodes": [
+    "L_C63033",
+    "Npc0013"
+  ],
+  "region": "Threed_Drug Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1175",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1175",
+  "label": "monster_lethal-asp",
+  "location": {
+    "x0": 4136,
+    "x1": 4136,
+    "x_sector": 16,
+    "x_tile": 129,
+    "y0": 3288,
+    "y1": 3288,
+    "y_sector": 12,
+    "y_tile": 102
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 599,
+    "npc_type": "person",
+    "sprite": 320,
+    "sprite_label": "monster_lethal-asp"
+  },
+  "reachable_nodes": [
+    "L_C7C588",
+    "Npc0463",
+    "Npc1175"
+  ],
+  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NW-Stairs",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 409,
+    "flag_label": "LETHAL_ASP_HIEROGLYPH_3_DEFEATED"
+  }
+}

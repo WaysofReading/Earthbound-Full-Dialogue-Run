@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0399",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0399",
+  "label": "man_blonde_black-suit",
+  "location": {
+    "x0": 7576,
+    "x1": 7576,
+    "x_sector": 29,
+    "x_tile": 236,
+    "y0": 2136,
+    "y1": 2136,
+    "y_sector": 8,
+    "y_tile": 66
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 61,
+    "sprite_label": "man_blonde_black-suit"
+  },
+  "reachable_nodes": [
+    "Npc0399"
+  ],
+  "region": "Happy Happy Village_Town Hall_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 68,
+    "flag_label": "CARPAINTER_DEFEATED"
+  }
+}

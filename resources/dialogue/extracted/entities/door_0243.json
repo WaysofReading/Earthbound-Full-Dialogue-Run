@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0243",
+  "label": "",
+  "location": {
+    "x0": 5816,
+    "x1": 5816,
+    "x_sector": 22,
+    "x_tile": 181,
+    "y0": 1224,
+    "y1": 1224,
+    "y_sector": 4,
+    "y_tile": 38
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 884,
+      "y": 1229
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 4,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Peaceful-Rest-Valley",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

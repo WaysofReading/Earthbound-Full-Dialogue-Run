@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0339",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0339",
+  "label": "man_hat_black-suit",
+  "location": {
+    "x0": 2448,
+    "x1": 2448,
+    "x_sector": 9,
+    "x_tile": 76,
+    "y0": 7104,
+    "y1": 7104,
+    "y_sector": 27,
+    "y_tile": 222
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 63,
+    "sprite_label": "man_hat_black-suit"
+  },
+  "reachable_nodes": [
+    "L_C96479",
+    "Npc0339"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

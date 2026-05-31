@@ -1,0 +1,32 @@
+{
+  "entry_points": [],
+  "id": "door_0262",
+  "label": "",
+  "location": {
+    "x0": 336,
+    "x1": 336,
+    "x_sector": 1,
+    "x_tile": 10,
+    "y0": 1512,
+    "y1": 1512,
+    "y_sector": 5,
+    "y_tile": 47
+  },
+  "properties": {
+    "destination": null,
+    "direction": "ne",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": null,
+    "subtype": "stairway"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba_Pyramid_Entryway_Stairs",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

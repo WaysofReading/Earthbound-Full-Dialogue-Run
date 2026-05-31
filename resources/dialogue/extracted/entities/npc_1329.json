@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1329",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1329",
+  "label": "girl_redhead_pigtails",
+  "location": {
+    "x0": 5067,
+    "x1": 5067,
+    "x_sector": 19,
+    "x_tile": 158,
+    "y0": 4584,
+    "y1": 4584,
+    "y_sector": 17,
+    "y_tile": 143
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 128,
+    "sprite_label": "girl_redhead_pigtails"
+  },
+  "reachable_nodes": [
+    "Npc1329"
+  ],
+  "region": "Magicant",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

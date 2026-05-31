@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0516",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0516",
+  "label": "maxwell-labs",
+  "location": {
+    "x0": 5920,
+    "x1": 5920,
+    "x_sector": 23,
+    "x_tile": 185,
+    "y0": 9176,
+    "y1": 9176,
+    "y_sector": 35,
+    "y_tile": 286
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 69,
+    "sprite_label": "maxwell-labs"
+  },
+  "reachable_nodes": [
+    "L_C8E218",
+    "L_C8E251",
+    "Npc0516"
+  ],
+  "region": "Threed",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 71,
+    "flag_label": "MASTER_BELCH_DEFEATED"
+  }
+}

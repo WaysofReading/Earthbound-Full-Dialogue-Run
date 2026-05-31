@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0164",
+  "label": "captain-strong",
+  "location": {
+    "x0": 2104,
+    "x1": 2104,
+    "x_sector": 8,
+    "x_tile": 65,
+    "y0": 152,
+    "y1": 152,
+    "y_sector": 0,
+    "y_tile": 4
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 75,
+    "sprite_label": "captain-strong"
+  },
+  "reachable_nodes": [],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 469,
+    "flag_label": "POLICE_AT_METEORITE"
+  }
+}

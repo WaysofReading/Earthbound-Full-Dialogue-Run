@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1271",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1271",
+  "label": "apple-kid",
+  "location": {
+    "x0": 5931,
+    "x1": 5931,
+    "x_sector": 23,
+    "x_tile": 185,
+    "y0": 245,
+    "y1": 245,
+    "y_sector": 0,
+    "y_tile": 7
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 767,
+    "npc_type": "person",
+    "sprite": 176,
+    "sprite_label": "apple-kid"
+  },
+  "reachable_nodes": [
+    "Npc1271"
+  ],
+  "region": "Lost Underworld_Cave of the Past_1F-Present",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 329,
+    "flag_label": "APPLE_KID_AT_CAVE_OF_THE_PRESENT"
+  }
+}

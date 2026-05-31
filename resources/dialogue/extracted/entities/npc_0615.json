@@ -1,0 +1,53 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0615",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0615",
+  "label": "dr-andonuts",
+  "location": {
+    "x0": 7984,
+    "x1": 7984,
+    "x_sector": 31,
+    "x_tile": 249,
+    "y0": 2896,
+    "y1": 2896,
+    "y_sector": 11,
+    "y_tile": 90
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 178,
+    "npc_type": "person",
+    "sprite": 162,
+    "sprite_label": "dr-andonuts"
+  },
+  "reachable_nodes": [
+    "L_C6B28C",
+    "L_C6B2A3",
+    "L_C6B2CA",
+    "L_C6B300",
+    "L_C6B317",
+    "L_C6B329",
+    "L_C6B492",
+    "L_C6B4BB",
+    "L_C6B4FE",
+    "L_C6B516",
+    "L_C6B523",
+    "L_C6B56E",
+    "L_C6B5B4",
+    "L_C6B60B",
+    "L_C6B759",
+    "L_C6B75B",
+    "Npc0615"
+  ],
+  "region": "Winters_Andonuts Lab_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 379,
+    "flag_label": "ANDONUTS_AT_LAB_ABSENT"
+  }
+}

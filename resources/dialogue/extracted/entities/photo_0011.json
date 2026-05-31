@@ -1,0 +1,29 @@
+{
+  "entry_points": [],
+  "id": "photo_0011",
+  "label": "",
+  "location": {
+    "x0": 700,
+    "x1": 700,
+    "x_sector": 2,
+    "x_tile": 21,
+    "y0": 114,
+    "y1": 114,
+    "y_sector": 0,
+    "y_tile": 3
+  },
+  "properties": {
+    "gating_flag": 709,
+    "gating_flag_label": "GOT_PHOTO_CIRCUS_TENT",
+    "photo_index": 11,
+    "trigger": "region"
+  },
+  "reachable_nodes": [],
+  "region": "Deep Darkness_Tenda Village_Main",
+  "type": "photo_event",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

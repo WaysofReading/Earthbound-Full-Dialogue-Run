@@ -1,0 +1,43 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B21D",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0652",
+  "label": "",
+  "location": {
+    "x0": 1472,
+    "x1": 1472,
+    "x_sector": 5,
+    "x_tile": 46,
+    "y0": 4024,
+    "y1": 4024,
+    "y_sector": 15,
+    "y_tile": 125
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 820,
+      "y": 985
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9B21D"
+  ],
+  "region": "Scaraba",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

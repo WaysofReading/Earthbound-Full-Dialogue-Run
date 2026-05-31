@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9A8B2",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1639",
+  "label": "",
+  "location": {
+    "x0": 5784,
+    "x1": 5784,
+    "x_sector": 22,
+    "x_tile": 180,
+    "y0": 9160,
+    "y1": 9160,
+    "y_sector": 35,
+    "y_tile": 286
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 723,
+      "y": 1146
+    },
+    "direction": "down",
+    "gating_flag": 33108,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 0,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9A8B2",
+    "L_C9A8CF"
+  ],
+  "region": "Threed",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

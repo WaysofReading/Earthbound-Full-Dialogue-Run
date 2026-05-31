@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_1540",
+  "label": "",
+  "location": {
+    "x0": 3568,
+    "x1": 3568,
+    "x_sector": 13,
+    "x_tile": 111,
+    "y0": 8640,
+    "y1": 8640,
+    "y_sector": 33,
+    "y_tile": 270
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 775,
+      "y": 620
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Winters_Rainy Circle_1F_Hallway",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

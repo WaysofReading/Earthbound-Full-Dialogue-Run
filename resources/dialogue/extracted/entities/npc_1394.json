@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1394",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1394",
+  "label": "rastaman",
+  "location": {
+    "x0": 7352,
+    "x1": 7352,
+    "x_sector": 28,
+    "x_tile": 229,
+    "y0": 3640,
+    "y1": 3640,
+    "y_sector": 14,
+    "y_tile": 113
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 78,
+    "sprite_label": "rastaman"
+  },
+  "reachable_nodes": [
+    "Npc1394"
+  ],
+  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

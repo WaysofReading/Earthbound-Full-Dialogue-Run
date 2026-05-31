@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1043",
+  "label": "monster_coffin",
+  "location": {
+    "x0": 6992,
+    "x1": 6992,
+    "x_sector": 27,
+    "x_tile": 218,
+    "y0": 8824,
+    "y1": 8824,
+    "y_sector": 34,
+    "y_tile": 275
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 322,
+    "sprite_label": "monster_coffin"
+  },
+  "reachable_nodes": [],
+  "region": "Summers and Toto_Museum_1F_Exhibit-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

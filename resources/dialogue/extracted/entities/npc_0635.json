@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0635",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0635",
+  "label": "tessie-watcher",
+  "location": {
+    "x0": 624,
+    "x1": 624,
+    "x_sector": 2,
+    "x_tile": 19,
+    "y0": 3336,
+    "y1": 3336,
+    "y_sector": 13,
+    "y_tile": 104
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 83,
+    "sprite_label": "tessie-watcher"
+  },
+  "reachable_nodes": [
+    "L_C6C377",
+    "L_C6C38C",
+    "Npc0635"
+  ],
+  "region": "Winters",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

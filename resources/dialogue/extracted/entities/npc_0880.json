@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0880",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0880",
+  "label": "monster_securitybot",
+  "location": {
+    "x0": 6016,
+    "x1": 6016,
+    "x_sector": 23,
+    "x_tile": 188,
+    "y0": 5224,
+    "y1": 5224,
+    "y_sector": 20,
+    "y_tile": 163
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 602,
+    "npc_type": "person",
+    "sprite": 310,
+    "sprite_label": "monster_securitybot"
+  },
+  "reachable_nodes": [
+    "L_C68562",
+    "L_C6F054",
+    "L_C7C588",
+    "Npc0463",
+    "Npc0880"
+  ],
+  "region": "Fourside_Monotoli_L3_Left_Up_Up",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 358,
+    "flag_label": "SENTRY_ROBOT_2_DEFEATED"
+  }
+}

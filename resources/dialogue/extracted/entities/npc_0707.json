@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0707",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0707",
+  "label": "mr-saturn",
+  "location": {
+    "x0": 8104,
+    "x1": 8104,
+    "x_sector": 31,
+    "x_tile": 253,
+    "y0": 7112,
+    "y1": 7112,
+    "y_sector": 27,
+    "y_tile": 222
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 171,
+    "sprite_label": "mr-saturn"
+  },
+  "reachable_nodes": [
+    "L_C7FE2F",
+    "L_C7FE31",
+    "Npc0707"
+  ],
+  "region": "Transitions_Belch's-Base-to-Saturn-Valley",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 590,
+    "flag_label": "HAPPY_THREED_PEOPLE"
+  }
+}

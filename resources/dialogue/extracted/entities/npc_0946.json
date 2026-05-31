@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0946",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0946",
+  "label": "man_blonde_i-love-ny-shirt",
+  "location": {
+    "x0": 3184,
+    "x1": 3184,
+    "x_sector": 12,
+    "x_tile": 99,
+    "y0": 4424,
+    "y1": 4424,
+    "y_sector": 17,
+    "y_tile": 138
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 114,
+    "sprite_label": "man_blonde_i-love-ny-shirt"
+  },
+  "reachable_nodes": [
+    "L_C83060",
+    "Npc0946"
+  ],
+  "region": "Fourside",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

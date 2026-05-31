@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_1280",
+  "label": "poo",
+  "location": {
+    "x0": 6216,
+    "x1": 6216,
+    "x_sector": 24,
+    "x_tile": 194,
+    "y0": 9796,
+    "y1": 9796,
+    "y_sector": 38,
+    "y_tile": 306
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 4,
+    "sprite_label": "poo"
+  },
+  "reachable_nodes": [],
+  "region": "Lost Underworld_Fire Springs_1F_Sanctuary-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 349,
+    "flag_label": "JUST_WOKE_UP_FROM_MAGICANT"
+  }
+}

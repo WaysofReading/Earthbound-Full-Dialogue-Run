@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0904",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0904",
+  "label": "monster_mouse",
+  "location": {
+    "x0": 4712,
+    "x1": 4712,
+    "x_sector": 18,
+    "x_tile": 147,
+    "y0": 4968,
+    "y1": 4968,
+    "y_sector": 19,
+    "y_tile": 155
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 281,
+    "sprite_label": "monster_mouse"
+  },
+  "reachable_nodes": [
+    "L_C83FAF",
+    "Npc0904"
+  ],
+  "region": "Fourside_Jackie's Cafe_1F_Backroom",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

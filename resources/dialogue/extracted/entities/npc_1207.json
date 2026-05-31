@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0622",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1207",
+  "label": "rejuvenator",
+  "location": {
+    "x0": 4208,
+    "x1": 4208,
+    "x_sector": 16,
+    "x_tile": 131,
+    "y0": 88,
+    "y1": 88,
+    "y_sector": 0,
+    "y_tile": 2
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 8,
+    "npc_type": "object",
+    "sprite": 429,
+    "sprite_label": "rejuvenator"
+  },
+  "reachable_nodes": [
+    "L_C915F4",
+    "Npc0622"
+  ],
+  "region": "Scaraba_Dungeon Man_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

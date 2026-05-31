@@ -1,0 +1,40 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C86DFB",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0221",
+  "label": "",
+  "location": {
+    "x0": 5520,
+    "x1": 5520,
+    "x_sector": 21,
+    "x_tile": 172,
+    "y0": 6584,
+    "y1": 6584,
+    "y_sector": 25,
+    "y_tile": 205
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C64650",
+    "L_C69082",
+    "L_C86DFB",
+    "L_C86E14",
+    "L_C86E2F"
+  ],
+  "region": "Fourside_Hospital_1F_2F",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

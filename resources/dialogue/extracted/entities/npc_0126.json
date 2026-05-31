@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0126",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0126",
+  "label": "cop",
+  "location": {
+    "x0": 1456,
+    "x1": 1456,
+    "x_sector": 5,
+    "x_tile": 45,
+    "y0": 504,
+    "y1": 504,
+    "y_sector": 1,
+    "y_tile": 15
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 74,
+    "sprite_label": "cop"
+  },
+  "reachable_nodes": [
+    "L_C74403",
+    "L_C74431",
+    "Npc0126"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 36,
+    "flag_label": "COP_AT_ENTERTAINERS_SHACK"
+  }
+}

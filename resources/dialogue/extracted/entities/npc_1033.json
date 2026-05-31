@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1033",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1033",
+  "label": "woman_blonde_red-dress",
+  "location": {
+    "x0": 7024,
+    "x1": 7024,
+    "x_sector": 27,
+    "x_tile": 219,
+    "y0": 9544,
+    "y1": 9544,
+    "y_sector": 37,
+    "y_tile": 298
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 68,
+    "sprite_label": "woman_blonde_red-dress"
+  },
+  "reachable_nodes": [
+    "L_C8A792",
+    "L_C8A7C5",
+    "L_C8A805",
+    "L_C8A88C",
+    "L_C9992F",
+    "Npc1033"
+  ],
+  "region": "Summers and Toto_Museum_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 687,
+    "flag_label": "SCARABA_CULTURAL_MUSEUM_PHONE_RINGING"
+  }
+}

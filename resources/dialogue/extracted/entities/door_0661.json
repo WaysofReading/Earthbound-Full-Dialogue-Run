@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0661",
+  "label": "",
+  "location": {
+    "x0": 1632,
+    "x1": 1632,
+    "x_sector": 6,
+    "x_tile": 51,
+    "y0": 4088,
+    "y1": 4088,
+    "y_sector": 15,
+    "y_tile": 127
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 820,
+      "y": 953
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Scaraba",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

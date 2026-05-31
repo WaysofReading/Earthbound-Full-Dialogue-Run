@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0973",
+  "label": "",
+  "location": {
+    "x0": 4360,
+    "x1": 4360,
+    "x_sector": 17,
+    "x_tile": 136,
+    "y0": 5512,
+    "y1": 5512,
+    "y_sector": 21,
+    "y_tile": 172
+  },
+  "properties": {
+    "destination": {
+      "region": "Scaraba_Dungeon Man_1F_2F",
+      "x": 643,
+      "y": 749
+    },
+    "direction": "right",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 15,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Fourside_Bakery_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

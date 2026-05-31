@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0197",
+  "label": "cloud",
+  "location": {
+    "x0": 1768,
+    "x1": 1768,
+    "x_sector": 6,
+    "x_tile": 55,
+    "y0": 24,
+    "y1": 24,
+    "y_sector": 0,
+    "y_tile": 0
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 784,
+    "npc_type": "object",
+    "sprite": 203,
+    "sprite_label": "cloud"
+  },
+  "reachable_nodes": [],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 422,
+    "flag_label": "ONETT_DAYTIME"
+  }
+}

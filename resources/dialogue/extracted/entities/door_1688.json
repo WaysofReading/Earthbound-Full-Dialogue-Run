@@ -1,0 +1,44 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C9B10B",
+      "role": "primary"
+    }
+  ],
+  "id": "door_1688",
+  "label": "",
+  "location": {
+    "x0": 1544,
+    "x1": 1544,
+    "x_sector": 6,
+    "x_tile": 48,
+    "y0": 9704,
+    "y1": 9704,
+    "y_sector": 37,
+    "y_tile": 303
+  },
+  "properties": {
+    "destination": {
+      "region": "Onett",
+      "x": 952,
+      "y": 657
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C9B10B",
+    "L_C9B112"
+  ],
+  "region": "Dusty-Dunes-Desert",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

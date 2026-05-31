@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0238",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0238",
+  "label": "woman_purse_black-dress",
+  "location": {
+    "x0": 6917,
+    "x1": 6917,
+    "x_sector": 27,
+    "x_tile": 216,
+    "y0": 8565,
+    "y1": 8565,
+    "y_sector": 33,
+    "y_tile": 267
+  },
+  "properties": {
+    "direction": "up",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 57,
+    "sprite_label": "woman_purse_black-dress"
+  },
+  "reachable_nodes": [
+    "L_C79489",
+    "Npc0238"
+  ],
+  "region": "Twoson_Chaos Theater_1F_Concert-Hall",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 751,
+    "flag_label": "CHAOS_THEATER_AUDIENCE_ABSENT"
+  }
+}

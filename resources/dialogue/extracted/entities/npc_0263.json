@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0263",
+  "label": "mushroom",
+  "location": {
+    "x0": 7824,
+    "x1": 7824,
+    "x_sector": 30,
+    "x_tile": 244,
+    "y0": 7728,
+    "y1": 7728,
+    "y_sector": 30,
+    "y_tile": 241
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "object",
+    "sprite": 226,
+    "sprite_label": "mushroom"
+  },
+  "reachable_nodes": [],
+  "region": "Twoson_Hotel_1F_Lobby_Right-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

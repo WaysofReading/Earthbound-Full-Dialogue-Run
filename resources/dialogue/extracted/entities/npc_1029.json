@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1029",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1029",
+  "label": "prettyman",
+  "location": {
+    "x0": 7280,
+    "x1": 7280,
+    "x_sector": 28,
+    "x_tile": 227,
+    "y0": 9112,
+    "y1": 9112,
+    "y_sector": 35,
+    "y_tile": 284
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 59,
+    "sprite_label": "prettyman"
+  },
+  "reachable_nodes": [
+    "Npc1029"
+  ],
+  "region": "Summers and Toto_Restaurant_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

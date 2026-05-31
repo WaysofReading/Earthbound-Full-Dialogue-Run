@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1018",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1018",
+  "label": "woman_purse_green-dress",
+  "location": {
+    "x0": 7376,
+    "x1": 7376,
+    "x_sector": 28,
+    "x_tile": 230,
+    "y0": 8920,
+    "y1": 8920,
+    "y_sector": 34,
+    "y_tile": 278
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 58,
+    "sprite_label": "woman_purse_green-dress"
+  },
+  "reachable_nodes": [
+    "L_C8A4F0",
+    "Npc1018"
+  ],
+  "region": "Summers and Toto_Hotel_1F_Lobby",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

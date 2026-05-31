@@ -1,0 +1,51 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0408",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0408",
+  "label": "prettyman",
+  "location": {
+    "x0": 7088,
+    "x1": 7088,
+    "x_sector": 27,
+    "x_tile": 221,
+    "y0": 1616,
+    "y1": 1616,
+    "y_sector": 6,
+    "y_tile": 50
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 59,
+    "sprite_label": "prettyman"
+  },
+  "reachable_nodes": [
+    "L_C7DD4D",
+    "L_C7DD4F",
+    "L_C903ED",
+    "L_C904BA",
+    "L_C904E3",
+    "L_C90554",
+    "L_C9058D",
+    "L_C905FD",
+    "L_C90615",
+    "L_C90663",
+    "L_C90F7D",
+    "L_C91582",
+    "L_C915D6",
+    "L_C91693",
+    "Npc0408"
+  ],
+  "region": "Happy Happy Village_Hotel_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

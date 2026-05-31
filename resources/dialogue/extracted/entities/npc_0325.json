@@ -1,0 +1,38 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0325",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0325",
+  "label": "man_orange-hair_sunglasses",
+  "location": {
+    "x0": 1776,
+    "x1": 1776,
+    "x_sector": 6,
+    "x_tile": 55,
+    "y0": 6840,
+    "y1": 6840,
+    "y_sector": 26,
+    "y_tile": 213
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 10,
+    "npc_type": "person",
+    "sprite": 117,
+    "sprite_label": "man_orange-hair_sunglasses"
+  },
+  "reachable_nodes": [
+    "L_C9466C",
+    "Npc0325"
+  ],
+  "region": "Twoson",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

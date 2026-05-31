@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0219",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0219",
+  "label": "paula",
+  "location": {
+    "x0": 8056,
+    "x1": 8056,
+    "x_sector": 31,
+    "x_tile": 251,
+    "y0": 8912,
+    "y1": 8912,
+    "y_sector": 34,
+    "y_tile": 278
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 2,
+    "sprite_label": "paula"
+  },
+  "reachable_nodes": [
+    "Npc0219"
+  ],
+  "region": "Twoson_Polestar_1F_Den_Bedroom_Paula's-Room",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 638,
+    "flag_label": "PAULA_AT_HER_ROOM"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entry_points": [],
+  "id": "door_0197",
+  "label": "",
+  "location": {
+    "x0": 7984,
+    "x1": 7984,
+    "x_sector": 31,
+    "x_tile": 249,
+    "y0": 712,
+    "y1": 712,
+    "y_sector": 2,
+    "y_tile": 22
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 197,
+      "y": 218
+    },
+    "direction": "down",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "navigation",
+    "style": 12,
+    "subtype": "door"
+  },
+  "reachable_nodes": [],
+  "region": "Onett_Arcade_1F",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

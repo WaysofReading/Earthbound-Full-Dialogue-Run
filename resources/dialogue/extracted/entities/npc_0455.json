@@ -1,0 +1,30 @@
+{
+  "entry_points": [],
+  "id": "npc_0455",
+  "label": "poo",
+  "location": {
+    "x0": 3139,
+    "x1": 3139,
+    "x_sector": 12,
+    "x_tile": 98,
+    "y0": 8208,
+    "y1": 8208,
+    "y_sector": 32,
+    "y_tile": 256
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 8,
+    "npc_type": "person",
+    "sprite": 4,
+    "sprite_label": "poo"
+  },
+  "reachable_nodes": [],
+  "region": "Happy Happy Village_Lilliput Steps_1F_Hallway",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 349,
+    "flag_label": "JUST_WOKE_UP_FROM_MAGICANT"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C86E3D",
+      "role": "primary"
+    }
+  ],
+  "id": "sign_0272",
+  "label": "",
+  "location": {
+    "x0": 8040,
+    "x1": 8040,
+    "x_sector": 31,
+    "x_tile": 251,
+    "y0": 9560,
+    "y1": 9560,
+    "y_sector": 37,
+    "y_tile": 298
+  },
+  "properties": {
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "sprite": null,
+    "subtype": "object"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "L_C86E3D",
+    "L_C86E58",
+    "L_C87099",
+    "L_C8709D",
+    "L_C870A4"
+  ],
+  "region": "Summers and Toto_Museum_1F_Exhibit-Room_Upstairs_Mummy-Room",
+  "type": "sign",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

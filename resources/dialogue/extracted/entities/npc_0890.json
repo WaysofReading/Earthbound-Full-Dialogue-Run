@@ -1,0 +1,47 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0890",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0890",
+  "label": "man_bald_black-suit",
+  "location": {
+    "x0": 5976,
+    "x1": 5976,
+    "x_sector": 23,
+    "x_tile": 186,
+    "y0": 6080,
+    "y1": 6080,
+    "y_sector": 23,
+    "y_tile": 190
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 605,
+    "npc_type": "person",
+    "sprite": 56,
+    "sprite_label": "man_bald_black-suit"
+  },
+  "reachable_nodes": [
+    "L_C90861",
+    "L_C90872",
+    "L_C90878",
+    "L_C90894",
+    "L_C908B6",
+    "L_C90F3B",
+    "L_C90F67",
+    "L_C90FB2",
+    "L_C90FD4",
+    "L_C91582",
+    "Npc0890"
+  ],
+  "region": "Fourside_Hotel_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

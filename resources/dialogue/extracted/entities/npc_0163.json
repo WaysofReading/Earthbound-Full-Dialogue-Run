@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0163",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0163",
+  "label": "man_orange-hair_sunglasses",
+  "location": {
+    "x0": 1680,
+    "x1": 1680,
+    "x_sector": 6,
+    "x_tile": 52,
+    "y0": 1664,
+    "y1": 1664,
+    "y_sector": 6,
+    "y_tile": 52
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 117,
+    "sprite_label": "man_orange-hair_sunglasses"
+  },
+  "reachable_nodes": [
+    "Npc0163"
+  ],
+  "region": "Onett",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 64,
+    "flag_label": "FRANKYSTEIN_MKII_DEFEATED"
+  }
+}

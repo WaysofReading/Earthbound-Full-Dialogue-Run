@@ -1,0 +1,49 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0213",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0213",
+  "label": "paula's-mom",
+  "location": {
+    "x0": 7504,
+    "x1": 7504,
+    "x_sector": 29,
+    "x_tile": 234,
+    "y0": 7504,
+    "y1": 7504,
+    "y_sector": 29,
+    "y_tile": 234
+  },
+  "properties": {
+    "direction": "left",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 156,
+    "sprite_label": "paula's-mom"
+  },
+  "reachable_nodes": [
+    "L_C7DC7F",
+    "L_C7DC85",
+    "L_C7DCCF",
+    "L_C7DCDA",
+    "L_C8054D",
+    "L_C80579",
+    "L_C806BB",
+    "L_C807BC",
+    "L_C8087A",
+    "L_C808BD",
+    "L_C91582",
+    "L_C915D6",
+    "Npc0213"
+  ],
+  "region": "Twoson_Polestar_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0281",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0281",
+  "label": "man_blonde_black-suit",
+  "location": {
+    "x0": 6744,
+    "x1": 6744,
+    "x_sector": 26,
+    "x_tile": 210,
+    "y0": 8160,
+    "y1": 8160,
+    "y_sector": 31,
+    "y_tile": 255
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 12,
+    "npc_type": "person",
+    "sprite": 61,
+    "sprite_label": "man_blonde_black-suit"
+  },
+  "reachable_nodes": [
+    "Npc0281"
+  ],
+  "region": "Twoson_Houses_Northwest-Red-Roof_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_set",
+    "flag": 68,
+    "flag_label": "CARPAINTER_DEFEATED"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc0298",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_0298",
+  "label": "man_blonde_blue-oxford",
+  "location": {
+    "x0": 7128,
+    "x1": 7128,
+    "x_sector": 27,
+    "x_tile": 222,
+    "y0": 7056,
+    "y1": 7056,
+    "y_sector": 27,
+    "y_tile": 220
+  },
+  "properties": {
+    "direction": "down",
+    "movement": 606,
+    "npc_type": "person",
+    "sprite": 112,
+    "sprite_label": "man_blonde_blue-oxford"
+  },
+  "reachable_nodes": [
+    "L_C96C35",
+    "L_C96C57",
+    "L_C96C9C",
+    "L_C96CBA",
+    "L_C96CD4",
+    "Npc0298"
+  ],
+  "region": "Twoson_Department Store_1F",
+  "type": "npc",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}

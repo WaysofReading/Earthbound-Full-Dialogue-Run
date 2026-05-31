@@ -1,0 +1,39 @@
+{
+  "entry_points": [
+    {
+      "node_id": "Npc1189",
+      "role": "primary"
+    }
+  ],
+  "id": "npc_1189",
+  "label": "monster_guardian-hieroglyph",
+  "location": {
+    "x0": 6320,
+    "x1": 6320,
+    "x_sector": 24,
+    "x_tile": 197,
+    "y0": 3544,
+    "y1": 3544,
+    "y_sector": 13,
+    "y_tile": 110
+  },
+  "properties": {
+    "direction": "right",
+    "movement": 599,
+    "npc_type": "person",
+    "sprite": 325,
+    "sprite_label": "monster_guardian-hieroglyph"
+  },
+  "reachable_nodes": [
+    "L_C7C588",
+    "Npc0463",
+    "Npc1189"
+  ],
+  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room_Room_Exit-Hall",
+  "type": "npc",
+  "visibility": {
+    "condition": "flag_cleared",
+    "flag": 405,
+    "flag_label": "GUARDIAN_HIEROGLYPH_16_DEFEATED"
+  }
+}

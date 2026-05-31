@@ -1,0 +1,45 @@
+{
+  "entry_points": [
+    {
+      "node_id": "L_C99B60",
+      "role": "primary"
+    }
+  ],
+  "id": "door_0798",
+  "label": "",
+  "location": {
+    "x0": 784,
+    "x1": 784,
+    "x_sector": 3,
+    "x_tile": 24,
+    "y0": 4640,
+    "y1": 4640,
+    "y_sector": 18,
+    "y_tile": 145
+  },
+  "properties": {
+    "destination": {
+      "region": "Deep Darkness_Tenda Village_Main",
+      "x": 248,
+      "y": 440
+    },
+    "direction": "left",
+    "gating_flag": null,
+    "gating_flag_label": null,
+    "kind": "interactive",
+    "style": 1,
+    "subtype": "door"
+  },
+  "reachable_nodes": [
+    "L_C99B60",
+    "L_C9B10B",
+    "L_C9B112"
+  ],
+  "region": "Winters",
+  "type": "door",
+  "visibility": {
+    "condition": "always",
+    "flag": null,
+    "flag_label": null
+  }
+}
