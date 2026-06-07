@@ -202,7 +202,7 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 201,police-car,Onett,object,~POLICE_AT_METEORITE,377,69,6,2214,214
 202,monster_frankystein,Onett,object,~FRANKYSTEIN_MKII_DEFEATED,401,51,50,1656,1608
 203,lier-x-agerate,Onett_Lier X Agerate's Shack_1F_B1F,person,LIER_INSIDE_CAVE_1,152,122,222,3928,7112
-204,lier-x-agerate,Onett_Lier X Agerate's Shack_1F_B1F_B2F,person,LIER_INSIDE_CAVE_2,152,171,79,5496,2528
+204,lier-x-agerate,Peaceful-Rest-Valley,person,LIER_INSIDE_CAVE_2,152,171,79,5496,2528
 205,lier-x-agerate,Onett_Lier X Agerate's Shack_1F_B1F_B2F_B3F,person,LIER_INSIDE_CAVE_3,152,107,67,3448,2144
 206,lier-x-agerate,Onett_Lier X Agerate's Shack_1F_B1F_B2F_B3F,person,LIER_INSIDE_CAVE_4,152,99,67,3192,2144
 207,lier-x-agerate,Onett_Lier X Agerate's Shack_1F_B1F_B2F_B3F_B4F,person,LIER_BY_MANI_MANI,152,124,186,3984,5976
@@ -450,10 +450,10 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 449,streetsign_rural,Peaceful-Rest-Valley,object,always,231,150,58,4808,1856
 450,pencil-statue,Peaceful-Rest-Valley,object,~PEACEFUL_REST_PENCIL_ERASED,265,145,43,4648,1400
 451,monster_your-sanctuary,Happy Happy Village_Lilliput Steps_1F,person,~CONQUERED_SANCTUARY_2,333,124,35,3984,1120
-452,ness_unconscious,Happy Happy Village_Lilliput Steps_1F_Hallway,person,JUST_WOKE_UP_FROM_MAGICANT,16,97,256,3105,8218
-453,paula,Happy Happy Village_Lilliput Steps_1F_Hallway,person,JUST_WOKE_UP_FROM_MAGICANT,2,96,256,3075,8196
-454,jeff,Happy Happy Village_Lilliput Steps_1F_Hallway,person,JUST_WOKE_UP_FROM_MAGICANT,3,97,256,3112,8192
-455,poo,Happy Happy Village_Lilliput Steps_1F_Hallway,person,JUST_WOKE_UP_FROM_MAGICANT,4,98,256,3139,8208
+452,ness_unconscious,Twoson,person,JUST_WOKE_UP_FROM_MAGICANT,16,97,256,3105,8218
+453,paula,Twoson,person,JUST_WOKE_UP_FROM_MAGICANT,2,96,256,3075,8196
+454,jeff,Twoson,person,JUST_WOKE_UP_FROM_MAGICANT,3,97,256,3112,8192
+455,poo,Twoson,person,JUST_WOKE_UP_FROM_MAGICANT,4,98,256,3139,8208
 456,woman_blonde_red-blazer,Threed_Circus Tent_1F,person,~ZOMBIES_ON_TENT_FLOOR,66,253,316,8115,10114
 457,man_glasses_orange-cardigan,Threed_Circus Tent_1F,person,~NERDY_GUY_AND_FAT_GUY_AT_CIRCUS_TENT,64,252,314,8091,10057
 458,woman_blonde_blue-blazer,Threed_Circus Tent_1F,person,~ZOMBIES_ON_TENT_FLOOR,65,249,319,7997,10213
@@ -624,7 +624,7 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 623,sky-runner,Winters_Andonuts Lab_1F,object,~SKY_RUNNER_AT_WINTERS_LAB,209,244,89,7824,2864
 624,man_redhead_green-oxford,Winters_Tents_North_1F,person,~GIYGAS_DEFEATED,113,130,186,4168,5960
 625,man_blonde_blue-blazer,Winters_Tents_North_1F,person,~GIYGAS_DEFEATED,70,129,186,4132,5973
-626,maxwell-labs,Onett,person,CAPTIVES_AT_STONEHENGE,69,14,75,472,2408
+626,maxwell-labs,Winters,person,CAPTIVES_AT_STONEHENGE,69,14,75,472,2408
 627,tessie-watcher,Winters,person,always,83,12,106,400,3408
 628,tessie-watcher,Winters,person,always,83,9,106,304,3392
 629,tessie-watcher,Winters,person,~CAPTIVES_AT_STONEHENGE,83,15,106,480,3408
@@ -632,12 +632,12 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 631,brickroad,Winters,person,BRICK_ROAD_OUTSIDE_DUNGEON,161,22,147,712,4704
 632,monkey-girl,Winters,person,BUBBLE_MONKEY_IN_PARTY,160,13,134,432,4304
 633,prettyman,Winters,person,~STARMAN_DX_DEFEATED,59,8,142,272,4568
-634,tony_prone,Onett,person,TONY_AT_BOARDING_SCHOOL_GATE,357,15,71,492,2280
+634,tony_prone,Winters,person,TONY_AT_BOARDING_SCHOOL_GATE,357,15,71,492,2280
 635,tessie-watcher,Winters,person,always,83,19,104,624,3336
 636,tessie-watcher,Winters,person,always,83,23,104,760,3344
-637,monkey-girl,Onett,person,BUBBLE_MONKEYS_WIFE_AT_WINTERS,160,17,72,552,2304
-638,maxwell-labs,Onett,person,GIYGAS_DEFEATED,69,15,72,482,2317
-639,tony,Onett,person,GIYGAS_DEFEATED,182,16,72,522,2311
+637,monkey-girl,Winters,person,BUBBLE_MONKEYS_WIFE_AT_WINTERS,160,17,72,552,2304
+638,maxwell-labs,Winters,person,GIYGAS_DEFEATED,69,15,72,482,2317
+639,tony,Winters,person,GIYGAS_DEFEATED,182,16,72,522,2311
 640,entertainers-shack-door,Winters,person,always,381,10,136,344,4360
 641,entertainers-shack-door,Winters,person,always,381,18,107,592,3432
 642,animation_tessie-water_fill-layer,Winters,object,LAKE_TESS_WIND_BLOWING,371,19,109,626,3506
@@ -670,7 +670,7 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 669,lookalike_mr-t,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person,~STARMAN_DX_DEFEATED,79,244,189,7819,6069
 670,hippy,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules,person,~STARMAN_DX_DEFEATED,361,245,190,7848,6088
 671,eraser-statue,Winters_Stonehenge Base_B1F_B2F,object,~IRON_ERASER_ERASED,407,202,189,6488,6064
-672,monster_starman,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules_Boss-Room,person,~STARMAN_DX_ABSENT,303,252,147,8064,4712
+672,monster_starman,Moonside,person,~STARMAN_DX_ABSENT,303,252,147,8064,4712
 673,exit-mouse-father,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse,person,always,451,210,183,6744,5856
 674,exit-mouse,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse,person,~HAS_EXIT_MOUSE,436,211,182,6768,5824
 675,exit-mouse,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse,person,always,436,212,182,6808,5840
@@ -735,10 +735,10 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 734,jeff,Saturn-Valley,person,GIYGAS_DEFEATED,3,13,239,417,7663
 735,mr-saturn,Saturn-Valley,person,PARTY_IS_ROBOTIFIED,171,10,237,349,7607
 736,entertainers-shack-door,Saturn-Valley,person,always,381,19,230,632,7376
-737,mr-saturn,Saturn Valley_Ladder Room_1F,person,always,171,98,164,3144,5248
-738,mr-saturn,Saturn Valley_Ladder Room_1F,person,always,171,102,163,3280,5232
-739,mr-saturn,Saturn Valley_Ladder Room_1F,person,always,171,100,163,3216,5216
-740,mr-saturn,Saturn Valley_Ladder Room_1F,person,always,171,100,162,3200,5192
+737,mr-saturn,Fourside,person,always,171,98,164,3144,5248
+738,mr-saturn,Fourside,person,always,171,102,163,3280,5232
+739,mr-saturn,Fourside,person,always,171,100,163,3216,5216
+740,mr-saturn,Fourside,person,always,171,100,162,3200,5192
 741,phase-distorter,Saturn-Valley,object,NESS_NIGHTMARE_DEFEATED,210,12,237,385,7601
 742,sign_spa,Saturn-Valley,object,always,405,16,230,528,7376
 743,sign_small,Saturn-Valley,object,always,213,16,228,536,7312
@@ -860,8 +860,8 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 859,elevator_attendant,Fourside_Monotoli_L1_Lobby,person,always,67,174,168,5584,5376
 860,monotoli,Fourside_Monotoli_L1_Lobby,person,GIYGAS_DEFEATED,164,171,169,5480,5408
 861,phone_payphone_left,Fourside_Monotoli_L1_Lobby,person,always,216,171,168,5496,5384
-862,bodyguard,Fourside_Hospital_1F_2F,person,always,109,186,202,5976,6488
-863,bodyguard,Fourside_Hospital_1F_2F,person,always,109,188,203,6016,6496
+862,bodyguard,Fourside_Monotoli_L2_Lobby,person,always,109,186,202,5976,6488
+863,bodyguard,Fourside_Monotoli_L2_Lobby,person,always,109,188,203,6016,6496
 864,elevator_attendant,Fourside_Monotoli_L2_Lobby_Elevator-Down,person,always,67,162,166,5184,5312
 865,pokey_suit,Fourside_Monotoli_L2_Right-Room-(Pokey),person,~FOURSIDE_FREE_FROM_MONOTOLI,48,175,175,5600,5616
 866,bodyguard,Fourside_Monotoli_L2_Right-Room-(Pokey),person,~FOURSIDE_FREE_FROM_MONOTOLI,109,173,175,5560,5608
@@ -1117,10 +1117,10 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 1116,dalaam-spire,Dalaam,object,always,423,146,106,4672,3416
 1117,sign_small,Dalaam,object,always,213,135,123,4320,3936
 1118,monster_your-sanctuary,Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room,person,~CONQUERED_SANCTUARY_6,333,65,172,2080,5512
-1119,ness_unconscious,Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,16,111,194,3562,6228
-1120,paula,Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,2,110,193,3546,6185
-1121,jeff,Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,3,111,193,3577,6189
-1122,poo,Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,4,112,194,3592,6208
+1119,ness_unconscious,Twoson,person,JUST_WOKE_UP_FROM_MAGICANT,16,111,194,3562,6228
+1120,paula,Twoson,person,JUST_WOKE_UP_FROM_MAGICANT,2,110,193,3546,6185
+1121,jeff,Twoson,person,JUST_WOKE_UP_FROM_MAGICANT,3,111,193,3577,6189
+1122,poo,Twoson,person,JUST_WOKE_UP_FROM_MAGICANT,4,112,194,3592,6208
 1123,man_scaraban_blue-clothes,Scaraba_Shop_1F,person,always,95,203,237,6496,7608
 1124,man_scaraban_green-clothes,Scaraba_Hotel_1F,person,always,93,247,217,7905,6970
 1125,arms-dealer,Scaraba_Hotel_1F,person,always,144,234,217,7512,6968
@@ -1164,21 +1164,21 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 1163,sesame-seed_black,Scaraba,object,always,238,57,124,1832,3992
 1164,hotel_sign,Scaraba,object,always,442,40,129,1304,4136
 1165,sign_small,Scaraba,object,always,213,52,128,1664,4096
-1166,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway,object,always,325,179,77,5744,2488
-1167,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs,object,always,325,16,41,528,1336
+1166,monster_guardian-hieroglyph,Peaceful-Rest-Valley,object,always,325,179,77,5744,2488
+1167,monster_guardian-hieroglyph,Onett,object,always,325,16,41,528,1336
 1168,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room,person,~GUARDIAN_HIEROGLYPH_3_DEFEATED,325,131,141,4200,4536
-1169,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs,person,~GUARDIAN_HIEROGLYPH_4_DEFEATED,325,99,192,3184,6168
-1170,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs,person,~LETHAL_ASP_HIEROGLYPH_1_DEFEATED,320,98,192,3152,6168
-1171,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs,person,~LETHAL_ASP_HIEROGLYPH_2_DEFEATED,320,108,185,3464,5944
-1172,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room,person,~GUARDIAN_HIEROGLYPH_5_DEFEATED,325,26,114,840,3672
-1173,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room,person,~GUARDIAN_HIEROGLYPH_6_DEFEATED,325,29,114,936,3672
-1174,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NW-Stairs,person,~GUARDIAN_HIEROGLYPH_7_DEFEATED,325,128,102,4104,3288
-1175,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NW-Stairs,person,~LETHAL_ASP_HIEROGLYPH_3_DEFEATED,320,129,102,4136,3288
-1176,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs,person,~GUARDIAN_HIEROGLYPH_8_DEFEATED,325,137,301,4400,9656
-1177,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs,person,~LETHAL_ASP_HIEROGLYPH_4_DEFEATED,320,138,301,4432,9656
+1169,monster_guardian-hieroglyph,Twoson,person,~GUARDIAN_HIEROGLYPH_4_DEFEATED,325,99,192,3184,6168
+1170,monster_lethal-asp,Twoson,person,~LETHAL_ASP_HIEROGLYPH_1_DEFEATED,320,98,192,3152,6168
+1171,monster_lethal-asp,Twoson,person,~LETHAL_ASP_HIEROGLYPH_2_DEFEATED,320,108,185,3464,5944
+1172,monster_guardian-hieroglyph,Winters,person,~GUARDIAN_HIEROGLYPH_5_DEFEATED,325,26,114,840,3672
+1173,monster_guardian-hieroglyph,Winters,person,~GUARDIAN_HIEROGLYPH_6_DEFEATED,325,29,114,936,3672
+1174,monster_guardian-hieroglyph,Summers-and-Toto,person,~GUARDIAN_HIEROGLYPH_7_DEFEATED,325,128,102,4104,3288
+1175,monster_lethal-asp,Summers-and-Toto,person,~LETHAL_ASP_HIEROGLYPH_3_DEFEATED,320,129,102,4136,3288
+1176,monster_guardian-hieroglyph,Threed,person,~GUARDIAN_HIEROGLYPH_8_DEFEATED,325,137,301,4400,9656
+1177,monster_lethal-asp,Threed,person,~LETHAL_ASP_HIEROGLYPH_4_DEFEATED,320,138,301,4432,9656
 1178,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room,person,~GUARDIAN_HIEROGLYPH_9_DEFEATED,325,132,157,4240,5048
-1179,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room_Stairs,person,~LETHAL_ASP_HIEROGLYPH_5_DEFEATED,320,115,265,3696,8504
-1180,monster_coffin,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room_Stairs,object,~GUARDIAN_GENERAL_DEFEATED,322,134,279,4296,8944
+1179,monster_lethal-asp,Twoson,person,~LETHAL_ASP_HIEROGLYPH_5_DEFEATED,320,115,265,3696,8504
+1180,monster_coffin,Dusty-Dunes-Desert,object,~GUARDIAN_GENERAL_DEFEATED,322,134,279,4296,8944
 1181,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room_Stairs_Plate-Room,person,~GUARDIAN_HIEROGLYPH_10_DEFEATED,325,131,165,4216,5304
 1182,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room,person,~GUARDIAN_HIEROGLYPH_11_DEFEATED,325,132,173,4240,5560
 1183,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs,person,~GUARDIAN_HIEROGLYPH_12_DEFEATED,325,169,105,5424,3384
@@ -1191,10 +1191,10 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 1190,monster_guardian-hieroglyph,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room_Room_Exit-Hall,person,~GUARDIAN_HIEROGLYPH_17_DEFEATED,325,198,110,6352,3544
 1191,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room_Room_Exit-Hall,person,~LETHAL_ASP_HIEROGLYPH_8_DEFEATED,320,194,110,6232,3544
 1192,monster_lethal-asp,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room_Room_Exit-Hall,person,~LETHAL_ASP_HIEROGLYPH_9_DEFEATED,320,206,105,6608,3384
-1193,sarcophagus,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room,object,~PYRAMID_HOLE_OPEN,221,27,115,890,3696
-1194,sarcophagus,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room,object,PYRAMID_HOLE_OPEN,221,28,115,920,3696
+1193,sarcophagus,Winters,object,~PYRAMID_HOLE_OPEN,221,27,115,890,3696
+1194,sarcophagus,Winters,object,PYRAMID_HOLE_OPEN,221,28,115,920,3696
 1195,hawk_eye,Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room,object,~GOT_HAWK_EYE,353,131,174,4208,5568
-1196,brickroad_head,Scaraba_Dungeon Man_1F_2F_3F_4F,person,always,179,52,257,1664,8224
+1196,brickroad_head,Twoson,person,always,179,52,257,1664,8224
 1197,submarine,Scaraba_Dungeon Man_1F,object,~VISITED_DEEP_DARKNESS,244,130,2,4168,88
 1198,bicycle,Scaraba_Dungeon Man_1F,object,always,211,132,3,4240,96
 1199,taxi,Scaraba_Dungeon Man_1F,object,always,206,132,4,4224,152
@@ -1207,7 +1207,7 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 1206,atm-machine,Scaraba_Dungeon Man_1F,object,always,259,132,20,4224,664
 1207,rejuvenator,Scaraba_Dungeon Man_1F,object,always,429,131,2,4208,88
 1208,sign_small,Scaraba_Dungeon Man_1F,object,always,213,133,21,4264,696
-1209,bench,Scaraba_Dungeon Man_1F_2F,object,always,198,20,32,640,1024
+1209,bench,Onett,object,always,198,20,32,640,1024
 1210,bench,Scaraba_Dungeon Man_1F_2F_3F,object,always,198,123,205,3944,6576
 1211,monster_duck,Scaraba_Dungeon Man_1F_2F_3F,object,always,287,124,199,3976,6392
 1212,monster_duck,Scaraba_Dungeon Man_1F_2F_3F,object,always,287,123,200,3944,6416
@@ -1217,13 +1217,13 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 1216,monster_little-pile,Scaraba_Dungeon Man_1F_2F_3F,object,always,315,134,205,4288,6568
 1217,monster_goat,Scaraba_Dungeon Man_1F_2F_3F,object,always,294,130,196,4184,6280
 1218,monster_goat,Scaraba_Dungeon Man_1F_2F_3F,object,always,294,132,195,4232,6256
-1219,sign_small,Scaraba_Dungeon Man_1F_2F_3F_4F,object,~DUNGEON_MAN_GOODBYE_EXIT_SIGN,213,54,266,1744,8536
-1220,sign_small,Scaraba_Dungeon Man_1F_2F_3F_4F,object,DUNGEON_MAN_GOODBYE_EXIT_SIGN,213,53,267,1720,8560
-1221,sign_small,Scaraba_Dungeon Man_1F_2F_3F_4F,object,always,213,51,258,1640,8264
-1222,healer,Fourside_Hospital_1F_2F,person,always,189,185,210,5944,6736
-1223,doctor,Fourside_Hospital_1F_2F,person,always,139,187,209,6000,6688
-1224,nurse,Fourside_Hospital_1F_2F,person,always,140,188,209,6032,6704
-1225,potted-tree,Fourside_Hospital_1F_2F,object,always,266,186,209,5976,6704
+1219,sign_small,Twoson,object,~DUNGEON_MAN_GOODBYE_EXIT_SIGN,213,54,266,1744,8536
+1220,sign_small,Twoson,object,DUNGEON_MAN_GOODBYE_EXIT_SIGN,213,53,267,1720,8560
+1221,sign_small,Twoson,object,always,213,51,258,1640,8264
+1222,healer,Scaraba_Dungeon Man_1F_Doctor's-Office,person,always,189,185,210,5944,6736
+1223,doctor,Scaraba_Dungeon Man_1F_Doctor's-Office,person,always,139,187,209,6000,6688
+1224,nurse,Scaraba_Dungeon Man_1F_Doctor's-Office,person,always,140,188,209,6032,6704
+1225,potted-tree,Scaraba_Dungeon Man_1F_Doctor's-Office,object,always,266,186,209,5976,6704
 1226,monkey-boy,Deep-Darkness,person,always,133,193,223,6176,7144
 1227,monkey-boy,Deep-Darkness,person,always,133,181,225,5808,7208
 1228,monkey-boy,Deep-Darkness,person,always,133,171,229,5496,7344
@@ -1248,24 +1248,24 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 1247,talking-rock,Deep Darkness_Lumine Hall_1F_2F,person,always,260,122,83,3912,2664
 1248,talking-rock,Deep Darkness_Lumine Hall_1F_2F,person,always,260,105,89,3368,2872
 1249,talking-rock,Deep Darkness_Lumine Hall_1F_2F,person,always,260,101,78,3232,2504
-1250,tenda,Deep Darkness_Tenda Village_Main,person,always,97,17,6,568,192
-1251,tenda,Deep Darkness_Tenda Village_Main,person,always,97,14,3,464,112
-1252,tenda-chief,Deep Darkness_Tenda Village_Main,person,always,170,14,10,464,336
-1253,tenda,Deep Darkness_Tenda Village_Main,person,always,97,20,4,640,136
-1254,tenda,Deep Darkness_Tenda Village_Main,person,always,97,4,3,152,112
-1255,tenda,Deep Darkness_Tenda Village_Main,person,always,97,5,8,160,264
-1256,tenda,Deep Darkness_Tenda Village_Main,person,always,97,12,7,400,240
-1257,tenda,Deep Darkness_Tenda Village_Main,person,always,97,11,10,352,328
-1258,tenda,Deep Darkness_Tenda Village_Main,person,always,97,4,12,136,400
-1259,tenda,Deep Darkness_Tenda Village_Main,person,always,97,10,5,341,182
-1260,talking-rock,Deep Darkness_Tenda Village_Main_Talking-Rock-Room,person,always,260,36,85,1176,2720
-1261,tenda,Deep Darkness_Tenda Village_Main,person,always,97,2,13,80,416
-1262,phone_black,Deep Darkness_Tenda Village_Main,person,always,215,20,11,664,360
-1263,tenda-cave-rock,Deep Darkness_Tenda Village_Main,object,~TENDA_VILLAGE_UNDERGROUND_OPEN,360,5,12,172,390
-1264,open-can,Deep Darkness_Tenda Village_Main,object,always,225,19,11,608,352
-1265,mailbox,Deep Darkness_Tenda Village_Main,object,always,227,19,11,624,368
-1266,crt-monitor,Deep Darkness_Tenda Village_Main,object,always,270,20,9,648,304
-1267,sign_spa,Deep Darkness_Tenda Village_Main,object,always,405,9,5,304,160
+1250,tenda,Onett,person,always,97,17,6,568,192
+1251,tenda,Onett,person,always,97,14,3,464,112
+1252,tenda-chief,Onett,person,always,170,14,10,464,336
+1253,tenda,Onett,person,always,97,20,4,640,136
+1254,tenda,Onett,person,always,97,4,3,152,112
+1255,tenda,Onett,person,always,97,5,8,160,264
+1256,tenda,Onett,person,always,97,12,7,400,240
+1257,tenda,Onett,person,always,97,11,10,352,328
+1258,tenda,Onett,person,always,97,4,12,136,400
+1259,tenda,Onett,person,always,97,10,5,341,182
+1260,talking-rock,Onett,person,always,260,36,85,1176,2720
+1261,tenda,Onett,person,always,97,2,13,80,416
+1262,phone_black,Onett,person,always,215,20,11,664,360
+1263,tenda-cave-rock,Onett,object,~TENDA_VILLAGE_UNDERGROUND_OPEN,360,5,12,172,390
+1264,open-can,Onett,object,always,225,19,11,608,352
+1265,mailbox,Onett,object,always,227,19,11,624,368
+1266,crt-monitor,Onett,object,always,270,20,9,648,304
+1267,sign_spa,Onett,object,always,405,9,5,304,160
 1268,mr-saturn,Lost Underworld_Cave of the Past_1F-Present,person,KIDNAPPED_MR_SATURN_AT_CAVE_OF_THE_PRESENT,171,188,9,6040,296
 1269,dr-andonuts,Lost Underworld_Cave of the Past_1F-Present,person,ANDONUTS_AT_CAVE_OF_THE_PRESENT_1,162,185,6,5944,208
 1270,dr-andonuts,Lost Underworld_Cave of the Past_1F-Present,person,ANDONUTS_AT_CAVE_OF_THE_PRESENT_2,162,180,5,5760,176
@@ -1274,12 +1274,12 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 1273,sky-runner_broken,Lost Underworld_Cave of the Past_1F-Present,object,MANI_MANI_DEFEATED,240,189,8,6064,272
 1274,phase-distorter,Lost Underworld_Cave of the Past_1F-Present,object,PHASE_DISTORTER_V2_AT_CAVE_OF_THE_PRESENT,210,171,9,5488,304
 1275,phase-distorter,Lost Underworld_Cave of the Past_1F-Present,object,PHASE_DISTORTER_V3_AT_CAVE_OF_THE_PRESENT,210,186,8,5976,280
-1276,monster_your-sanctuary,Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room,person,~CONQUERED_SANCTUARY_8,333,104,199,3344,6368
-1277,ness_unconscious,Lost Underworld_Fire Springs_1F_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,16,192,306,6172,9800
-1278,paula,Lost Underworld_Fire Springs_1F_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,2,193,305,6188,9762
-1279,jeff,Lost Underworld_Fire Springs_1F_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,3,192,305,6149,9775
-1280,poo,Lost Underworld_Fire Springs_1F_Sanctuary-Room,person,JUST_WOKE_UP_FROM_MAGICANT,4,194,306,6216,9796
-1281,flame-spout,Lost Underworld_Fire Springs_1F_Sanctuary-Room,person,always,256,191,305,6120,9760
+1276,monster_your-sanctuary,Twoson,person,~CONQUERED_SANCTUARY_8,333,104,199,3344,6368
+1277,ness_unconscious,Threed,person,JUST_WOKE_UP_FROM_MAGICANT,16,192,306,6172,9800
+1278,paula,Threed,person,JUST_WOKE_UP_FROM_MAGICANT,2,193,305,6188,9762
+1279,jeff,Threed,person,JUST_WOKE_UP_FROM_MAGICANT,3,192,305,6149,9775
+1280,poo,Threed,person,JUST_WOKE_UP_FROM_MAGICANT,4,194,306,6216,9796
+1281,flame-spout,Threed,person,always,256,191,305,6120,9760
 1282,tenda_tiny,Lost-Underworld,person,always,398,71,82,2296,2631
 1283,tenda_tiny,Lost-Underworld,person,always,398,73,82,2352,2648
 1284,tenda_tiny,Lost-Underworld,person,always,398,73,82,2362,2634
@@ -1308,7 +1308,7 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 1307,robot_unconscious,Lost Underworld_Cave of the Past_1F-Past,object,GIYGAS_DEFEATED,26,6,190,212,6088
 1308,robot_unconscious,Lost Underworld_Cave of the Past_1F-Past,object,GIYGAS_DEFEATED,26,5,190,180,6096
 1309,ness_robot_unconscious,Lost Underworld_Cave of the Past_1F-Past,object,GIYGAS_DEFEATED,457,6,190,196,6104
-1310,phase-distorter,Lost Underworld_Cave of the Past_1F-Past,object,PARTY_IS_ROBOTIFIED,210,18,216,600,6936
+1310,phase-distorter,Twoson,object,PARTY_IS_ROBOTIFIED,210,18,216,600,6936
 1312,magicant-being_troll,Magicant_Shop_1F,person,always,99,236,242,7568,7752
 1313,flying-man,Magicant_Flying Man House_1F,person,~FLYING_MAN_1_JOINS,39,252,255,8080,8160
 1314,flying-man,Magicant_Flying Man House_1F,person,~FLYING_MAN_2_JOINS,39,251,254,8040,8128
@@ -1333,15 +1333,15 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 1333,boy_fedora,Magicant,person,always,126,162,144,5201,4627
 1334,rabbit-statue,Magicant,person,always,107,163,143,5234,4605
 1335,ness,Magicant,person,always,1,188,127,6032,4072
-1336,magicant-being_chicken,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person,always,129,193,142,6184,4552
+1336,magicant-being_chicken,Magicant,person,always,129,193,142,6184,4552
 1337,magicant-being_daisy,Magicant,person,always,100,187,148,6000,4752
 1338,magicant-being_daisy,Magicant,person,always,100,186,149,5976,4777
 1339,magicant-being_daisy,Magicant,person,always,100,188,149,6025,4779
 1340,star-master,Magicant,person,always,98,173,133,5544,4256
 1341,star-master,Magicant,person,always,98,190,138,6096,4432
-1342,mom,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person,always,145,197,138,6312,4416
-1343,tracy,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person,always,146,195,138,6264,4432
-1344,king,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person,always,40,198,138,6340,4432
+1342,mom,Magicant,person,always,145,197,138,6312,4416
+1343,tracy,Magicant,person,always,146,195,138,6264,4432
+1344,king,Magicant,person,always,40,198,138,6340,4432
 1345,pokey,Magicant,person,always,44,160,139,5128,4448
 1346,everdred,Magicant,person,~TALKED_TO_MAGICANT_EVERDRED,157,183,141,5872,4520
 1347,gravestone,Magicant,object,FLYING_MAN_1_DEAD,239,161,131,5168,4200
@@ -1351,11 +1351,11 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 1351,gravestone,Magicant,object,FLYING_MAN_5_DEAD,239,163,131,5232,4200
 1352,gravestone,Magicant,object,always,239,165,131,5296,4200
 1353,tentacle,Magicant,object,always,200,173,122,5552,3912
-1354,monster_kraken,Magicant_Sea of Eden_1F,person,~SEA_OF_EDEN_KRAKEN_1_DEFEATED,295,27,301,880,9656
-1355,monster_kraken,Magicant_Sea of Eden_1F,person,~SEA_OF_EDEN_KRAKEN_2_DEFEATED,295,22,289,720,9272
-1356,monster_kraken,Magicant_Sea of Eden_1F,person,~SEA_OF_EDEN_KRAKEN_3_DEFEATED,295,17,286,560,9176
-1357,tentacle,Magicant_Sea of Eden_1F,object,always,200,13,300,424,9600
-1358,monster_mani-mani-statue,Magicant_Sea of Eden_1F,object,~NESS_NIGHTMARE_DEFEATED,293,15,285,496,9128
+1354,monster_kraken,Dusty-Dunes-Desert,person,~SEA_OF_EDEN_KRAKEN_1_DEFEATED,295,27,301,880,9656
+1355,monster_kraken,Dusty-Dunes-Desert,person,~SEA_OF_EDEN_KRAKEN_2_DEFEATED,295,22,289,720,9272
+1356,monster_kraken,Dusty-Dunes-Desert,person,~SEA_OF_EDEN_KRAKEN_3_DEFEATED,295,17,286,560,9176
+1357,tentacle,Dusty-Dunes-Desert,object,always,200,13,300,424,9600
+1358,monster_mani-mani-statue,Dusty-Dunes-Desert,object,~NESS_NIGHTMARE_DEFEATED,293,15,285,496,9128
 1359,bartender,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person,always,84,203,154,6496,4928
 1360,woman_redhead_blue-dress,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person,always,108,203,155,6520,4960
 1361,drunk-man,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F,person,always,60,205,155,6560,4968
@@ -1366,35 +1366,35 @@ npc_id,sprite_label,map_location_label,npc_type,flag_condition,sprite,x_tile,y_t
 1366,monster_art,Moonside_Hospital_1F,person,~MOONSIDE_HOSPITAL_ABSTRACT_ART_DEFEATED,300,224,155,7192,4976
 1367,healer,Moonside_Hospital_1F,person,always,189,227,154,7264,4936
 1368,woman_blonde_red-dress,Moonside_Hospital_1F_Room,person,always,68,251,182,8040,5848
-1369,man_glasses_orange-cardigan,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person,always,64,193,132,6200,4224
-1370,museum-curator,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person,always,174,196,132,6288,4240
-1371,monster_flame,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person,~MOONSIDE_MUSEUM_ROBO_PUMP_DEFEATED,279,195,132,6240,4240
-1372,man_bald_black-suit,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,person,always,56,204,182,6540,5833
-1373,bellhop,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,person,JUST_RESTED,73,202,182,6480,5824
-1374,man_mohawk_punk-clothes,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,person,always,85,203,182,6509,5830
-1375,atm-machine,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,object,always,259,205,182,6584,5824
-1376,phone_black,Dusty Dunes Desert_Desert Gold Mine_1F-Maze,person,always,215,205,182,6576,5832
-1377,lookalike_mr-t,Moonside_Secret Room_1F,person,always,79,170,138,5448,4440
-1378,invisible-man,Moonside_Secret Room_1F,person,~INVISIBLE_MAN_JOINS,450,172,139,5504,4456
-1379,man_hat_black-suit,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person,always,63,227,117,7288,3768
-1380,man_blonde_resortwear,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person,always,71,225,127,7224,4080
+1369,man_glasses_orange-cardigan,Magicant,person,always,64,193,132,6200,4224
+1370,museum-curator,Magicant,person,always,174,196,132,6288,4240
+1371,monster_flame,Magicant,person,~MOONSIDE_MUSEUM_ROBO_PUMP_DEFEATED,279,195,132,6240,4240
+1372,man_bald_black-suit,Moonside_Hotel_1F,person,always,56,204,182,6540,5833
+1373,bellhop,Moonside_Hotel_1F,person,JUST_RESTED,73,202,182,6480,5824
+1374,man_mohawk_punk-clothes,Moonside_Hotel_1F,person,always,85,203,182,6509,5830
+1375,atm-machine,Moonside_Hotel_1F,object,always,259,205,182,6584,5824
+1376,phone_black,Moonside_Hotel_1F,person,always,215,205,182,6576,5832
+1377,lookalike_mr-t,Magicant,person,always,79,170,138,5448,4440
+1378,invisible-man,Magicant,person,~INVISIBLE_MAN_JOINS,450,172,139,5504,4456
+1379,man_hat_black-suit,Moonside,person,always,63,227,117,7288,3768
+1380,man_blonde_resortwear,Moonside,person,always,71,225,127,7224,4080
 1381,woman_blonde_resortwear,Moonside,person,always,72,233,141,7472,4528
 1382,lookalike_teddy,Moonside,person,always,118,233,129,7480,4128
 1383,man_glasses_-black-suit,Moonside,person,always,62,233,138,7464,4440
 1384,maxwell-labs,Moonside,person,always,69,253,123,8104,3960
-1385,man_glasses_orange-cardigan,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person,always,64,231,122,7408,3912
+1385,man_glasses_orange-cardigan,Moonside,person,always,64,231,122,7408,3912
 1386,lookalike_pigpen,Moonside,person,always,115,248,141,7960,4512
 1387,woman_dalaamese,Moonside,person,always,89,246,148,7880,4760
 1388,man_mohawk_punk-clothes,Moonside,person,always,85,243,117,7784,3768
 1389,bodyguard,Moonside,person,always,109,254,129,8144,4152
 1390,lookalike_shy-guy-mask,Moonside,person,always,119,245,120,7856,3864
-1391,man_blonde_black-suit,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person,always,61,227,121,7264,3880
+1391,man_blonde_black-suit,Moonside,person,always,61,227,121,7264,3880
 1392,man_orange-hair_sunglasses,Moonside,person,always,117,245,136,7840,4360
 1393,woman_black-hair_red-clothes,Moonside,person,always,116,248,131,7944,4200
-1394,rastaman,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person,always,78,229,113,7352,3640
+1394,rastaman,Moonside,person,always,78,229,113,7352,3640
 1395,monotoli,Moonside,person,~TALKED_TO_MOONSIDE_MONOTOLI,164,238,147,7624,4712
 1396,man_sailor_blue-clothes,Moonside,person,~PATH_TO_MANI_MANI_OPEN,90,241,143,7720,4600
-1397,man_blonde_resortwear,Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F,person,always,71,227,125,7272,4000
+1397,man_blonde_resortwear,Moonside,person,always,71,227,125,7272,4000
 1398,man_blonde_resortwear,Moonside,person,always,71,235,130,7544,4184
 1399,man_blonde_resortwear,Moonside,person,always,71,237,127,7592,4088
 1400,man_blonde_resortwear,Moonside,person,always,71,236,124,7568,3992
