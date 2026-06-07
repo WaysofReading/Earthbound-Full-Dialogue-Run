@@ -34,7 +34,7 @@
     "L_C9155B",
     "Npc1131"
   ],
-  "region": "Fourside_Hospital_1F_2F",
+  "region": "Scaraba_Dungeon Man_1F_Doctor's-Office",
   "type": "npc",
   "visibility": {
     "condition": "always",

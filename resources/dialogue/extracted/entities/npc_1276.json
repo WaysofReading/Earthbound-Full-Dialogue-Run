@@ -31,7 +31,7 @@
     "Npc0463",
     "Npc1276"
   ],
-  "region": "Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room",
+  "region": "Twoson",
   "type": "npc",
   "visibility": {
     "condition": "flag_cleared",

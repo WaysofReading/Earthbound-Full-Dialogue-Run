@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Deep Darkness_Tenda Village_Main",
+      "region": "Onett",
       "x": 103,
       "y": 461
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NW-Stairs",
+  "region": "Summers-and-Toto",
   "type": "door",
   "visibility": {
     "condition": "always",

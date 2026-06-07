@@ -20,7 +20,7 @@
     "sprite_label": "jeff"
   },
   "reachable_nodes": [],
-  "region": "Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room",
+  "region": "Twoson",
   "type": "npc",
   "visibility": {
     "condition": "flag_set",

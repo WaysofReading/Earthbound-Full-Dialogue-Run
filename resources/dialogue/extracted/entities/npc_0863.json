@@ -28,7 +28,7 @@
     "L_C6E1B9",
     "Npc0863"
   ],
-  "region": "Fourside_Hospital_1F_2F",
+  "region": "Fourside_Monotoli_L2_Lobby",
   "type": "npc",
   "visibility": {
     "condition": "always",

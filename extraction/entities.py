@@ -70,6 +70,41 @@ def _load_regions():
 
 # ───── helpers ──────────────────────────────────────────────────────────────
 
+def _normalize_region_name(name):
+    """
+    Normalize a region filename for ancestor lookup. Level-0 region names use
+    hyphens within a component (e.g. `Deep-Darkness`); child filenames use
+    spaces within components (e.g. `Deep Darkness_Tenda Village_Main`). Map
+    both forms to a common key so the child can find its level-0 ancestor.
+    """
+    return name.replace('-', ' ').lower()
+
+
+def _build_regions_by_name(regions):
+    return {_normalize_region_name(r['filename']): r for r in regions}
+
+
+def _ancestor_valid(region, x, y, regions_by_norm):
+    """
+    Some child regions in rooms_and_regions.csv have wrong coordinates (e.g.
+    start at world origin instead of their actual location). When the level-0
+    ancestor (by name path) exists in the CSV and does *not* contain the
+    point, the child's coordinates are bogus — drop the candidate.
+    """
+    name = region['filename']
+    if '_' not in name:
+        return True
+    level0_name = name.split('_', 1)[0]
+    parent = regions_by_norm.get(_normalize_region_name(level0_name))
+    if parent is None or parent is region:
+        return True
+    return parent['x0'] <= x <= parent['x1'] and parent['y0'] <= y <= parent['y1']
+
+
+def _any_level0_matches(matches):
+    return any(r.get('hierarchy_level', 0) == 0 for r in matches)
+
+
 def _extract_node_id(pointer, address_to_label=None):
     """
     Parse a YAML pointer like `data_28.l_0xc74c07` to the canonical label the
@@ -90,11 +125,44 @@ def _extract_node_id(pointer, address_to_label=None):
     return f'L_{address}'
 
 
-def _assign_region(x, y, regions):
-    for r in regions:
-        if r['x0'] <= x <= r['x1'] and r['y0'] <= y <= r['y1']:
-            return r.get('filename')
-    return None
+def _assign_region(x, y, regions, regions_by_norm):
+    """
+    Resolve a (x, y) pixel to a region filename. Prefers the deepest match
+    (highest `hierarchy_level`, smallest bounding box as tiebreaker).
+
+    Indoor rooms in EarthBound live in a "scratch" area of the global coord
+    space — far from any outdoor (level-0) region's footprint. So:
+    - If a level-0 region contains the point, we're outdoors; filter out
+      child matches whose level-0 ancestor (by name) doesn't also contain
+      the point (those rows have miscoded coordinates).
+    - If no level-0 region matches, we're indoors; accept matches as-is
+      because indoor rooms legitimately don't overlap their outdoor namesake.
+    """
+    matches = [r for r in regions
+               if r['x0'] <= x <= r['x1'] and r['y0'] <= y <= r['y1']]
+    if not matches:
+        return None
+
+    if _any_level0_matches(matches):
+        filtered = [r for r in matches if _ancestor_valid(r, x, y, regions_by_norm)]
+        if filtered:
+            matches = filtered
+
+    matches.sort(key=lambda r: (
+        -r.get('hierarchy_level', 0),
+        (r['x1'] - r['x0'] + 1) * (r['y1'] - r['y0'] + 1),
+    ))
+    return matches[0].get('filename')
+
+
+class RegionAssigner:
+    """Callable bundle: assign_region(x, y) → region filename or None."""
+    def __init__(self, regions):
+        self._regions = regions
+        self._by_norm = _build_regions_by_name(regions)
+
+    def __call__(self, x, y):
+        return _assign_region(x, y, self._regions, self._by_norm)
 
 
 def _point_location(x_px, y_px, x_sector, y_sector):
@@ -137,7 +205,7 @@ def _index_map_sprites(map_sprites):
 # ───── 4a/4b — NPC and present builders ────────────────────────────────────
 
 def _build_npc_or_present(npc_id, npc, map_sprite, sprite_labels, flag_labels,
-                          regions, address_to_label):
+                          assign_region, address_to_label):
     is_present = (npc.get('Type') == 'item')
 
     if map_sprite is None:
@@ -190,7 +258,7 @@ def _build_npc_or_present(npc_id, npc, map_sprite, sprite_labels, flag_labels,
         'id': f'{entity_type}_{npc_id:04d}',
         'type': entity_type,
         'label': sprite_label,
-        'region': _assign_region(x_px, y_px, regions),
+        'region': assign_region(x_px, y_px),
         'location': location,
         'visibility': visibility,
         'entry_points': entry_points,
@@ -200,7 +268,7 @@ def _build_npc_or_present(npc_id, npc, map_sprite, sprite_labels, flag_labels,
 
 
 def build_npcs_and_presents(npc_table, map_sprites, sprite_labels, flag_labels,
-                            regions, address_to_label):
+                            assign_region, address_to_label):
     sprite_index = _index_map_sprites(map_sprites)
     npcs, presents = {}, {}
     for npc_id, npc in (npc_table or {}).items():
@@ -210,7 +278,7 @@ def build_npcs_and_presents(npc_table, map_sprites, sprite_labels, flag_labels,
         if npc_type not in ('person', 'object', 'item'):
             continue
         entity = _build_npc_or_present(npc_id, npc, sprite_index.get(npc_id),
-                                       sprite_labels, flag_labels, regions,
+                                       sprite_labels, flag_labels, assign_region,
                                        address_to_label)
         if entity is None:
             continue
@@ -233,7 +301,7 @@ def _door_or_sign_location(x_sector, y_sector, tile_x, tile_y):
     return _point_location(x_px, y_px, x_sector, y_sector), x_px, y_px
 
 
-def _build_sign(seq, record, x_sector, y_sector, flag_labels, regions, address_to_label):
+def _build_sign(seq, record, x_sector, y_sector, flag_labels, assign_region, address_to_label):
     location, x_px, y_px = _door_or_sign_location(x_sector, y_sector,
                                                   record['X'], record['Y'])
     text_pointer = _extract_node_id(record.get('Text Pointer'), address_to_label)
@@ -243,7 +311,7 @@ def _build_sign(seq, record, x_sector, y_sector, flag_labels, regions, address_t
         'id': f'sign_{seq:04d}',
         'type': 'sign',
         'label': '',
-        'region': _assign_region(x_px, y_px, regions),
+        'region': assign_region(x_px, y_px),
         'location': location,
         'visibility': _visibility('always', 0, flag_labels),
         'entry_points': entry_points,
@@ -257,7 +325,7 @@ def _build_sign(seq, record, x_sector, y_sector, flag_labels, regions, address_t
     }
 
 
-def _build_door(seq, record, x_sector, y_sector, flag_labels, regions, address_to_label):
+def _build_door(seq, record, x_sector, y_sector, flag_labels, assign_region, address_to_label):
     location, x_px, y_px = _door_or_sign_location(x_sector, y_sector,
                                                   record['X'], record['Y'])
     text_pointer = _extract_node_id(record.get('Text Pointer'), address_to_label)
@@ -268,7 +336,7 @@ def _build_door(seq, record, x_sector, y_sector, flag_labels, regions, address_t
     dest_y = record.get('Destination Y')
     if dest_x is not None and dest_y is not None:
         destination = {
-            'region': _assign_region(dest_x, dest_y, regions),
+            'region': assign_region(dest_x, dest_y),
             'x': dest_x,
             'y': dest_y,
         }
@@ -280,7 +348,7 @@ def _build_door(seq, record, x_sector, y_sector, flag_labels, regions, address_t
         'id': f'door_{seq:04d}',
         'type': 'door',
         'label': '',
-        'region': _assign_region(x_px, y_px, regions),
+        'region': assign_region(x_px, y_px),
         'location': location,
         'visibility': _visibility('always', 0, flag_labels),
         'entry_points': entry_points,
@@ -297,7 +365,7 @@ def _build_door(seq, record, x_sector, y_sector, flag_labels, regions, address_t
     }
 
 
-def build_signs_and_doors(map_doors, flag_labels, regions, findings, address_to_label):
+def build_signs_and_doors(map_doors, flag_labels, assign_region, findings, address_to_label):
     signs, doors = {}, {}
     sign_seq, door_seq = 0, 0
     sample_door_recorded = False
@@ -312,12 +380,12 @@ def build_signs_and_doors(map_doors, flag_labels, regions, findings, address_to_
                 if rtype in _SIGN_TYPES:
                     sign_seq += 1
                     sign = _build_sign(sign_seq, record, x_sector, y_sector,
-                                       flag_labels, regions, address_to_label)
+                                       flag_labels, assign_region, address_to_label)
                     signs[sign['id']] = sign
                 elif rtype in _DOOR_TYPES:
                     door_seq += 1
                     door = _build_door(door_seq, record, x_sector, y_sector,
-                                       flag_labels, regions, address_to_label)
+                                       flag_labels, assign_region, address_to_label)
                     doors[door['id']] = door
                     if not sample_door_recorded and door['region']:
                         findings.append({
@@ -335,7 +403,7 @@ def build_signs_and_doors(map_doors, flag_labels, regions, findings, address_to_
 
 # ───── 4e — photo event builder ────────────────────────────────────────────
 
-def build_photo_events(photographer_table, flag_labels, regions, findings):
+def build_photo_events(photographer_table, flag_labels, assign_region, findings):
     photos = {}
     for entry_id, record in (photographer_table or {}).items():
         unknown_a = record.get('Unknown A') or []
@@ -353,7 +421,7 @@ def build_photo_events(photographer_table, flag_labels, regions, findings):
             'id': f'photo_{entry_id:04d}',
             'type': 'photo_event',
             'label': '',
-            'region': _assign_region(x_px, y_px, regions),
+            'region': assign_region(x_px, y_px),
             'location': location,
             'visibility': _visibility('always', 0, flag_labels),
             'entry_points': [],
@@ -398,14 +466,16 @@ def build_entities(address_to_label):
         'photo_coords_unverified': [],
     }
 
+    assign_region = RegionAssigner(regions)
+
     entities = {}
     npcs, presents = build_npcs_and_presents(npc_table, map_sprites,
-                                             sprite_labels, flag_labels, regions,
-                                             address_to_label)
-    signs, doors = build_signs_and_doors(map_doors, flag_labels, regions,
+                                             sprite_labels, flag_labels,
+                                             assign_region, address_to_label)
+    signs, doors = build_signs_and_doors(map_doors, flag_labels, assign_region,
                                          findings['door_coord_units_unverified'],
                                          address_to_label)
-    photos = build_photo_events(photographer_table, flag_labels, regions,
+    photos = build_photo_events(photographer_table, flag_labels, assign_region,
                                 findings['photo_coords_unverified'])
     entities.update(npcs)
     entities.update(presents)

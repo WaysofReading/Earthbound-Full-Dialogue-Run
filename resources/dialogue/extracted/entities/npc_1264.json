@@ -20,7 +20,7 @@
     "sprite_label": "open-can"
   },
   "reachable_nodes": [],
-  "region": "Deep Darkness_Tenda Village_Main",
+  "region": "Onett",
   "type": "npc",
   "visibility": {
     "condition": "always",

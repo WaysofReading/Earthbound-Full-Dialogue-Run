@@ -27,7 +27,7 @@
   "reachable_nodes": [
     "Npc1260"
   ],
-  "region": "Deep Darkness_Tenda Village_Main_Talking-Rock-Room",
+  "region": "Onett",
   "type": "npc",
   "visibility": {
     "condition": "always",

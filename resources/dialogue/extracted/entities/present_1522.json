@@ -41,7 +41,7 @@
     "L_C7DAA1",
     "L_C7DC85"
   ],
-  "region": "Fourside_Fourside Sewers_1F_Left-Hallway_Left-Hallway",
+  "region": "Onett",
   "type": "present",
   "visibility": {
     "condition": "always",

@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 485,
       "y": 784
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Scaraba_Dungeon Man_1F_2F",
+  "region": "Onett",
   "type": "door",
   "visibility": {
     "condition": "always",

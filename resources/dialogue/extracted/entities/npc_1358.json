@@ -54,7 +54,7 @@
     "Npc0463",
     "Npc1358"
   ],
-  "region": "Magicant_Sea of Eden_1F",
+  "region": "Dusty-Dunes-Desert",
   "type": "npc",
   "visibility": {
     "condition": "flag_cleared",

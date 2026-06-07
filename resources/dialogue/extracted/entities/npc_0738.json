@@ -29,7 +29,7 @@
     "L_C7EBCF",
     "Npc0738"
   ],
-  "region": "Saturn Valley_Ladder Room_1F",
+  "region": "Fourside",
   "type": "npc",
   "visibility": {
     "condition": "always",

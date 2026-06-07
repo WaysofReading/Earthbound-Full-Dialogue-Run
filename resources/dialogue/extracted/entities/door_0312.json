@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 24,
       "y": 756
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Lost Underworld_Cave of the Past_1F-Past_2F_Boss-Room",
+  "region": "Peaceful-Rest-Valley",
   "type": "door",
   "visibility": {
     "condition": "always",

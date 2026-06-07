@@ -31,7 +31,7 @@
     "L_C915F4",
     "Npc1196"
   ],
-  "region": "Scaraba_Dungeon Man_1F_2F_3F_4F",
+  "region": "Twoson",
   "type": "npc",
   "visibility": {
     "condition": "always",

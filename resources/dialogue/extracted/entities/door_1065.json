@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Maze",
+  "region": "Moonside_Hotel_1F",
   "type": "door",
   "visibility": {
     "condition": "always",

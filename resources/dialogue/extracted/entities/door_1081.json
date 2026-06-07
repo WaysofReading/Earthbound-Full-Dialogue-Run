@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Deep Darkness_Tenda Village_Main",
+      "region": "Onett",
       "x": 99,
       "y": 465
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs",
+  "region": "Twoson",
   "type": "door",
   "visibility": {
     "condition": "always",

@@ -1,5 +1,6 @@
 /.git/
-/__pycache__/
+__pycache__/
+*.pyc
 /.idea/
 /docs/
 /emuhawk-29.lnk

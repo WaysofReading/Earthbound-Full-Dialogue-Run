@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 473,
       "y": 697
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Onett_Giant Step_1F",
+  "region": "Twoson",
   "type": "door",
   "visibility": {
     "condition": "always",

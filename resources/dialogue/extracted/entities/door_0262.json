@@ -22,7 +22,7 @@
     "subtype": "stairway"
   },
   "reachable_nodes": [],
-  "region": "Scaraba_Pyramid_Entryway_Stairs",
+  "region": "Onett",
   "type": "door",
   "visibility": {
     "condition": "always",

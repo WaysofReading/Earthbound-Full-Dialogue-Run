@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 518,
       "y": 702
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room",
+  "region": "Winters",
   "type": "door",
   "visibility": {
     "condition": "always",

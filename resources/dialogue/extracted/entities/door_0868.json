@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 21,
       "y": 944
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Saturn Valley_Ladder Room_1F",
+  "region": "Fourside",
   "type": "door",
   "visibility": {
     "condition": "always",

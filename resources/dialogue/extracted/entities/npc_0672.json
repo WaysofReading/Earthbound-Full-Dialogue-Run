@@ -32,7 +32,7 @@
     "Npc0463",
     "Npc0672"
   ],
-  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules_Boss-Room",
+  "region": "Moonside",
   "type": "npc",
   "visibility": {
     "condition": "flag_cleared",

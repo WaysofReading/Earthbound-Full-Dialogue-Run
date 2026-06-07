@@ -41,7 +41,7 @@
     "L_C915F4",
     "Npc1274"
   ],
-  "region": "Lost Underworld_Cave of the Past_1F-Past",
+  "region": "Twoson",
   "type": "npc",
   "visibility": {
     "condition": "flag_set",

@@ -20,7 +20,7 @@
     "sprite_label": "lier-x-agerate"
   },
   "reachable_nodes": [],
-  "region": "Onett_Lier X Agerate's Shack_1F_B1F_B2F",
+  "region": "Peaceful-Rest-Valley",
   "type": "npc",
   "visibility": {
     "condition": "flag_set",

@@ -29,7 +29,7 @@
     "L_C9763A",
     "Npc1378"
   ],
-  "region": "Moonside_Secret Room_1F",
+  "region": "Magicant",
   "type": "npc",
   "visibility": {
     "condition": "flag_cleared",

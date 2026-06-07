@@ -22,7 +22,7 @@
     "subtype": "ladder"
   },
   "reachable_nodes": [],
-  "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F",
+  "region": "Magicant",
   "type": "door",
   "visibility": {
     "condition": "always",

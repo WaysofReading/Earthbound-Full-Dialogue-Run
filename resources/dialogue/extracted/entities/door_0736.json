@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 683,
       "y": 753
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Fourside_Monotoli_L3_Left_Up_Left_Right_Left_Left-(to-Roof)",
+  "region": "Magicant",
   "type": "door",
   "visibility": {
     "condition": "always",

@@ -22,7 +22,7 @@
     "subtype": "rope"
   },
   "reachable_nodes": [],
-  "region": "Scaraba_Dungeon Man_1F_2F",
+  "region": "Onett",
   "type": "door",
   "visibility": {
     "condition": "always",

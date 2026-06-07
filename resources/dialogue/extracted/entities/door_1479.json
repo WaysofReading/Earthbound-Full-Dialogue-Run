@@ -19,7 +19,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 457,
       "y": 1206
     },
@@ -34,7 +34,7 @@
     "L_C9992F",
     "L_C99E9B"
   ],
-  "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Initial",
+  "region": "Twoson",
   "type": "door",
   "visibility": {
     "condition": "always",

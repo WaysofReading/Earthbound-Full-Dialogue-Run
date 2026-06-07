@@ -20,7 +20,7 @@
     "sprite_label": "mailbox"
   },
   "reachable_nodes": [],
-  "region": "Deep Darkness_Tenda Village_Main",
+  "region": "Onett",
   "type": "npc",
   "visibility": {
     "condition": "always",

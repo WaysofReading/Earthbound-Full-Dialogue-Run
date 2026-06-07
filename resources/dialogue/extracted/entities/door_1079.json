@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 108,
       "y": 952
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Lost Underworld_Cave of the Past_1F-Past",
+  "region": "Twoson",
   "type": "door",
   "visibility": {
     "condition": "always",

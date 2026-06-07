@@ -33,7 +33,7 @@
     "L_C915D6",
     "Npc1209"
   ],
-  "region": "Scaraba_Dungeon Man_1F_2F",
+  "region": "Onett",
   "type": "npc",
   "visibility": {
     "condition": "always",

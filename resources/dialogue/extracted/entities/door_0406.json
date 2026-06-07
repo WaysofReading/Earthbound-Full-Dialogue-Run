@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Deep Darkness_Tenda Village_Main",
+      "region": "Onett",
       "x": 444,
       "y": 265
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Onett_Lier X Agerate's Shack_1F_B1F_B2F",
+  "region": "Peaceful-Rest-Valley",
   "type": "door",
   "visibility": {
     "condition": "always",

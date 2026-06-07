@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Fourside_Fourside Sewers_1F_Boss-Room",
+  "region": "Lost-Underworld",
   "type": "door",
   "visibility": {
     "condition": "always",

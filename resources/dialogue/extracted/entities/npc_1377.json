@@ -28,7 +28,7 @@
     "L_C97554",
     "Npc1377"
   ],
-  "region": "Moonside_Secret Room_1F",
+  "region": "Magicant",
   "type": "npc",
   "visibility": {
     "condition": "always",

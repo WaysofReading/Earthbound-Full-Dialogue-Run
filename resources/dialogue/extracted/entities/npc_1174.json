@@ -29,7 +29,7 @@
     "Npc0463",
     "Npc1174"
   ],
-  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NW-Stairs",
+  "region": "Summers-and-Toto",
   "type": "npc",
   "visibility": {
     "condition": "flag_cleared",

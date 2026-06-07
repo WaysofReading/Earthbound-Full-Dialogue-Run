@@ -27,7 +27,7 @@
   "reachable_nodes": [
     "Npc0740"
   ],
-  "region": "Saturn Valley_Ladder Room_1F",
+  "region": "Fourside",
   "type": "npc",
   "visibility": {
     "condition": "always",

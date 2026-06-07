@@ -20,7 +20,7 @@
     "sprite_label": "monster_guardian-hieroglyph"
   },
   "reachable_nodes": [],
-  "region": "Scaraba_Pyramid_Entryway_Stairs",
+  "region": "Onett",
   "type": "npc",
   "visibility": {
     "condition": "always",

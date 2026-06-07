@@ -19,7 +19,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 645,
       "y": 664
     },
@@ -33,7 +33,7 @@
   "reachable_nodes": [
     "L_C9B107"
   ],
-  "region": "Fourside_Hospital_1F_2F",
+  "region": "Fourside_Monotoli_L2_Lobby",
   "type": "door",
   "visibility": {
     "condition": "always",

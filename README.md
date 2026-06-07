@@ -136,6 +136,6 @@ It is impossible to reach 100% of all dialogue bytes and labels in Earthbound th
     * `Photoshop-Export-Layers-to-Files-Fast-2.7.1` Tool to split PSD by layer with options (https://github.com/antipalindrome/Photoshop-Export-Layers-to-Files-Fast)
     * `roms\` This run is based on an unmodified `EarthBound (USA).sfc` (CRC32 = `DC9BB451`)
 * `process-images.py` Yields trimmed and renamed versions of images output from `Photoshop-Export-Layers-to-Files-Fast-2.7.1`
-* `process-dialogue.py`. Recursively unrolls dumped script, and yields dialogue files and NPC tables
+* `process-dialogue.py`. Evaluates the game's dialogue as a set of nodes and edges, yielding a manipulable dataset.
 
 Additional documentation may be available in the Python source code and elsewhere.

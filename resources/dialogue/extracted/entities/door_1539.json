@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Deep Darkness_Tenda Village_Main",
+      "region": "Onett",
       "x": 664,
       "y": 52
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Winters_Rainy Circle_1F_Hallway",
+  "region": "Twoson",
   "type": "door",
   "visibility": {
     "condition": "always",

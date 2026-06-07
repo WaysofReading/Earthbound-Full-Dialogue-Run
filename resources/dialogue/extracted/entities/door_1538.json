@@ -19,7 +19,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Deep Darkness_Tenda Village_Main",
+      "region": "Onett",
       "x": 177,
       "y": 63
     },
@@ -38,7 +38,7 @@
     "L_C99CFE",
     "Npc0126"
   ],
-  "region": "Onett_Giant Step_1F",
+  "region": "Twoson",
   "type": "door",
   "visibility": {
     "condition": "always",

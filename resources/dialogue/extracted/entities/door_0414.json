@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 416,
       "y": 818
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Lost Underworld_Fire Springs_1F_Hallway-1_Hallway-2_Hallway-3",
+  "region": "Grapefruit-Falls",
   "type": "door",
   "visibility": {
     "condition": "always",

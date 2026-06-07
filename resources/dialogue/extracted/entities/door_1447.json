@@ -19,7 +19,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Deep Darkness_Tenda Village_Main",
+      "region": "Onett",
       "x": 497,
       "y": 139
     },
@@ -36,7 +36,7 @@
     "L_C7DE60",
     "L_C9AF82"
   ],
-  "region": "Happy Happy Village_Lilliput Steps_1F_Hallway",
+  "region": "Twoson",
   "type": "door",
   "visibility": {
     "condition": "always",

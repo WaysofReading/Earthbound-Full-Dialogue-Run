@@ -22,7 +22,7 @@
     "subtype": "ladder"
   },
   "reachable_nodes": [],
-  "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Initial",
+  "region": "Twoson",
   "type": "door",
   "visibility": {
     "condition": "always",

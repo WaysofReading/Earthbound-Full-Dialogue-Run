@@ -22239,14 +22239,6 @@
       "region": "Dalaam_Pink Cloud_1F"
     },
     {
-      "entity_count": 46,
-      "entity_count_by_type": {
-        "door": 45,
-        "present": 1
-      },
-      "region": "Dalaam_Pink Cloud_1F_Return-Room"
-    },
-    {
       "entity_count": 7,
       "entity_count_by_type": {
         "door": 6,
@@ -22261,14 +22253,6 @@
         "npc": 1
       },
       "region": "Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room"
-    },
-    {
-      "entity_count": 8,
-      "entity_count_by_type": {
-        "door": 3,
-        "npc": 5
-      },
-      "region": "Dalaam_Pink Cloud_1F_Top-Hole_Left-Hole_Boss-Room_Sanctuary-Room"
     },
     {
       "entity_count": 5,
@@ -22289,11 +22273,11 @@
       "region": "Deep Darkness_Lumine Hall_1F"
     },
     {
-      "entity_count": 77,
+      "entity_count": 74,
       "entity_count_by_type": {
-        "door": 68,
+        "door": 66,
         "npc": 3,
-        "present": 6
+        "present": 5
       },
       "region": "Deep Darkness_Lumine Hall_1F_2F"
     },
@@ -22303,32 +22287,6 @@
         "door": 2
       },
       "region": "Deep Darkness_Lumine Hall_1F_Sanctuary-Room"
-    },
-    {
-      "entity_count": 52,
-      "entity_count_by_type": {
-        "door": 4,
-        "npc": 17,
-        "photo_event": 27,
-        "present": 1,
-        "sign": 3
-      },
-      "region": "Deep Darkness_Tenda Village_Main"
-    },
-    {
-      "entity_count": 1,
-      "entity_count_by_type": {
-        "door": 1
-      },
-      "region": "Deep Darkness_Tenda Village_Main_Hotel-Room"
-    },
-    {
-      "entity_count": 12,
-      "entity_count_by_type": {
-        "door": 11,
-        "npc": 1
-      },
-      "region": "Deep Darkness_Tenda Village_Main_Talking-Rock-Room"
     },
     {
       "entity_count": 28,
@@ -22348,17 +22306,10 @@
       "region": "Dusty Dunes Desert_Construction Shack_1F"
     },
     {
-      "entity_count": 6,
+      "entity_count": 21,
       "entity_count_by_type": {
-        "door": 6
-      },
-      "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Initial"
-    },
-    {
-      "entity_count": 28,
-      "entity_count_by_type": {
-        "door": 11,
-        "npc": 10,
+        "door": 9,
+        "npc": 5,
         "present": 7
       },
       "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Maze"
@@ -22542,21 +22493,21 @@
       "region": "Dusty Dunes Desert_Monkey Cave_Start_Right_Right_Right-(Trash-can)"
     },
     {
-      "entity_count": 72,
+      "entity_count": 82,
       "entity_count_by_type": {
-        "door": 24,
-        "npc": 40,
-        "present": 7,
+        "door": 26,
+        "npc": 46,
+        "present": 9,
         "sign": 1
       },
       "region": "Dusty-Dunes-Desert"
     },
     {
-      "entity_count": 85,
+      "entity_count": 106,
       "entity_count_by_type": {
-        "door": 28,
-        "npc": 53,
-        "present": 1,
+        "door": 42,
+        "npc": 57,
+        "present": 4,
         "sign": 3
       },
       "region": "Fourside"
@@ -22616,9 +22567,9 @@
       "region": "Fourside_Fourside Sewers_1F"
     },
     {
-      "entity_count": 22,
+      "entity_count": 18,
       "entity_count_by_type": {
-        "door": 21,
+        "door": 17,
         "npc": 1
       },
       "region": "Fourside_Fourside Sewers_1F_Boss-Room"
@@ -22638,14 +22589,6 @@
         "present": 1
       },
       "region": "Fourside_Fourside Sewers_1F_Left-Hallway"
-    },
-    {
-      "entity_count": 5,
-      "entity_count_by_type": {
-        "door": 4,
-        "present": 1
-      },
-      "region": "Fourside_Fourside Sewers_1F_Left-Hallway_Left-Hallway"
     },
     {
       "entity_count": 1,
@@ -22680,10 +22623,10 @@
       "region": "Fourside_Hospital_1F"
     },
     {
-      "entity_count": 31,
+      "entity_count": 20,
       "entity_count_by_type": {
-        "door": 10,
-        "npc": 17,
+        "door": 5,
+        "npc": 11,
         "present": 2,
         "sign": 2
       },
@@ -22790,6 +22733,14 @@
       "region": "Fourside_Monotoli_L2_Left-Room-(Aloysius)"
     },
     {
+      "entity_count": 5,
+      "entity_count_by_type": {
+        "door": 3,
+        "npc": 2
+      },
+      "region": "Fourside_Monotoli_L2_Lobby"
+    },
+    {
       "entity_count": 2,
       "entity_count_by_type": {
         "door": 1,
@@ -22874,13 +22825,6 @@
         "npc": 7
       },
       "region": "Fourside_Monotoli_L3_Left_Up_Left_Right_Left_Left-(Monotoli)"
-    },
-    {
-      "entity_count": 2,
-      "entity_count_by_type": {
-        "door": 2
-      },
-      "region": "Fourside_Monotoli_L3_Left_Up_Left_Right_Left_Left-(to-Roof)"
     },
     {
       "entity_count": 2,
@@ -22988,14 +22932,6 @@
       "region": "Grapefruit Falls_Belch's Base_1F_Boss-Room"
     },
     {
-      "entity_count": 2,
-      "entity_count_by_type": {
-        "door": 1,
-        "present": 1
-      },
-      "region": "Grapefruit Falls_Belch's Base_1F_Room-1"
-    },
-    {
       "entity_count": 3,
       "entity_count_by_type": {
         "door": 1,
@@ -23019,9 +22955,9 @@
       "region": "Grapefruit Falls_Belch's Base_1F_Room-4"
     },
     {
-      "entity_count": 8,
+      "entity_count": 10,
       "entity_count_by_type": {
-        "door": 4,
+        "door": 6,
         "npc": 2,
         "present": 2
       },
@@ -23093,14 +23029,6 @@
       "region": "Happy Happy Village_Lilliput Steps_1F"
     },
     {
-      "entity_count": 6,
-      "entity_count_by_type": {
-        "door": 2,
-        "npc": 4
-      },
-      "region": "Happy Happy Village_Lilliput Steps_1F_Hallway"
-    },
-    {
       "entity_count": 5,
       "entity_count_by_type": {
         "door": 3,
@@ -23135,27 +23063,12 @@
       "region": "Happy-Happy-Village"
     },
     {
-      "entity_count": 11,
+      "entity_count": 5,
       "entity_count_by_type": {
-        "door": 5,
-        "npc": 5,
-        "present": 1
+        "door": 1,
+        "npc": 4
       },
       "region": "Lost Underworld_Cave of the Past_1F-Past"
-    },
-    {
-      "entity_count": 4,
-      "entity_count_by_type": {
-        "door": 4
-      },
-      "region": "Lost Underworld_Cave of the Past_1F-Past_2F"
-    },
-    {
-      "entity_count": 1,
-      "entity_count_by_type": {
-        "door": 1
-      },
-      "region": "Lost Underworld_Cave of the Past_1F-Past_2F_Boss-Room"
     },
     {
       "entity_count": 9,
@@ -23164,21 +23077,6 @@
         "npc": 8
       },
       "region": "Lost Underworld_Cave of the Past_1F-Present"
-    },
-    {
-      "entity_count": 60,
-      "entity_count_by_type": {
-        "door": 57,
-        "present": 3
-      },
-      "region": "Lost Underworld_Fire Springs_1F"
-    },
-    {
-      "entity_count": 1,
-      "entity_count_by_type": {
-        "door": 1
-      },
-      "region": "Lost Underworld_Fire Springs_1F_Center-Room"
     },
     {
       "entity_count": 2,
@@ -23203,9 +23101,9 @@
       "region": "Lost Underworld_Fire Springs_1F_Hallway-1_Hallway-2"
     },
     {
-      "entity_count": 3,
+      "entity_count": 1,
       "entity_count_by_type": {
-        "door": 3
+        "door": 1
       },
       "region": "Lost Underworld_Fire Springs_1F_Hallway-1_Hallway-2_Hallway-3"
     },
@@ -23218,10 +23116,9 @@
       "region": "Lost Underworld_Fire Springs_1F_SW-Room"
     },
     {
-      "entity_count": 7,
+      "entity_count": 2,
       "entity_count_by_type": {
-        "door": 2,
-        "npc": 5
+        "door": 2
       },
       "region": "Lost Underworld_Fire Springs_1F_Sanctuary-Room"
     },
@@ -23233,21 +23130,21 @@
       "region": "Lost Underworld_Fire Springs_1F_South-Hallway"
     },
     {
-      "entity_count": 31,
+      "entity_count": 35,
       "entity_count_by_type": {
-        "door": 2,
+        "door": 6,
         "npc": 24,
         "present": 5
       },
       "region": "Lost-Underworld"
     },
     {
-      "entity_count": 49,
+      "entity_count": 82,
       "entity_count_by_type": {
-        "door": 4,
-        "npc": 28,
+        "door": 27,
+        "npc": 37,
         "present": 5,
-        "sign": 12
+        "sign": 13
       },
       "region": "Magicant"
     },
@@ -23268,13 +23165,6 @@
       "region": "Magicant_Hotel_1F"
     },
     {
-      "entity_count": 5,
-      "entity_count_by_type": {
-        "npc": 5
-      },
-      "region": "Magicant_Sea of Eden_1F"
-    },
-    {
       "entity_count": 2,
       "entity_count_by_type": {
         "door": 1,
@@ -23291,11 +23181,11 @@
       "region": "Magicant_Southeast House_1F"
     },
     {
-      "entity_count": 35,
+      "entity_count": 46,
       "entity_count_by_type": {
-        "door": 7,
-        "npc": 22,
-        "present": 4,
+        "door": 10,
+        "npc": 29,
+        "present": 5,
         "sign": 2
       },
       "region": "Moonside"
@@ -23318,20 +23208,28 @@
       "region": "Moonside_Hospital_1F_Room"
     },
     {
-      "entity_count": 2,
+      "entity_count": 7,
       "entity_count_by_type": {
-        "npc": 2
+        "door": 2,
+        "npc": 5
       },
-      "region": "Moonside_Secret Room_1F"
+      "region": "Moonside_Hotel_1F"
     },
     {
-      "entity_count": 200,
+      "entity_count": 1,
       "entity_count_by_type": {
-        "door": 52,
-        "npc": 84,
-        "photo_event": 5,
-        "present": 5,
-        "sign": 54
+        "door": 1
+      },
+      "region": "Moonside_Hotel_1F_Room"
+    },
+    {
+      "entity_count": 304,
+      "entity_count_by_type": {
+        "door": 92,
+        "npc": 99,
+        "photo_event": 32,
+        "present": 12,
+        "sign": 69
       },
       "region": "Onett"
     },
@@ -23394,32 +23292,9 @@
       "entity_count": 36,
       "entity_count_by_type": {
         "door": 35,
-        "present": 1
-      },
-      "region": "Onett_Giant Step_1F"
-    },
-    {
-      "entity_count": 2,
-      "entity_count_by_type": {
-        "door": 2
-      },
-      "region": "Onett_Giant Step_1F_Hallway"
-    },
-    {
-      "entity_count": 36,
-      "entity_count_by_type": {
-        "door": 35,
         "npc": 1
       },
       "region": "Onett_Giant Step_1F_Hallway_Boss-Room"
-    },
-    {
-      "entity_count": 2,
-      "entity_count_by_type": {
-        "door": 1,
-        "present": 1
-      },
-      "region": "Onett_Giant Step_1F_Room-1"
     },
     {
       "entity_count": 1,
@@ -23631,14 +23506,6 @@
       "region": "Onett_Lier X Agerate's Shack_1F_B1F"
     },
     {
-      "entity_count": 3,
-      "entity_count_by_type": {
-        "door": 2,
-        "npc": 1
-      },
-      "region": "Onett_Lier X Agerate's Shack_1F_B1F_B2F"
-    },
-    {
       "entity_count": 4,
       "entity_count_by_type": {
         "door": 2,
@@ -23794,11 +23661,12 @@
       "region": "Peaceful Rest Valley_Paula's Cabin_1F"
     },
     {
-      "entity_count": 23,
+      "entity_count": 34,
       "entity_count_by_type": {
-        "door": 5,
-        "npc": 12,
-        "present": 6
+        "door": 13,
+        "npc": 14,
+        "present": 6,
+        "sign": 1
       },
       "region": "Peaceful-Rest-Valley"
     },
@@ -23817,14 +23685,6 @@
         "npc": 2
       },
       "region": "Saturn Valley_Hotel_1F"
-    },
-    {
-      "entity_count": 14,
-      "entity_count_by_type": {
-        "door": 10,
-        "npc": 4
-      },
-      "region": "Saturn Valley_Ladder Room_1F"
     },
     {
       "entity_count": 11,
@@ -23869,24 +23729,14 @@
       "region": "Scaraba"
     },
     {
-      "entity_count": 86,
+      "entity_count": 84,
       "entity_count_by_type": {
-        "door": 43,
+        "door": 42,
         "npc": 12,
         "present": 6,
-        "sign": 25
+        "sign": 24
       },
       "region": "Scaraba_Dungeon Man_1F"
-    },
-    {
-      "entity_count": 42,
-      "entity_count_by_type": {
-        "door": 22,
-        "npc": 1,
-        "present": 5,
-        "sign": 14
-      },
-      "region": "Scaraba_Dungeon Man_1F_2F"
     },
     {
       "entity_count": 28,
@@ -23899,13 +23749,12 @@
       "region": "Scaraba_Dungeon Man_1F_2F_3F"
     },
     {
-      "entity_count": 12,
+      "entity_count": 5,
       "entity_count_by_type": {
-        "door": 6,
-        "npc": 4,
-        "sign": 2
+        "door": 1,
+        "npc": 4
       },
-      "region": "Scaraba_Dungeon Man_1F_2F_3F_4F"
+      "region": "Scaraba_Dungeon Man_1F_Doctor's-Office"
     },
     {
       "entity_count": 4,
@@ -23940,22 +23789,6 @@
       "region": "Scaraba_Houses_South_1F"
     },
     {
-      "entity_count": 3,
-      "entity_count_by_type": {
-        "door": 2,
-        "npc": 1
-      },
-      "region": "Scaraba_Pyramid_Entryway"
-    },
-    {
-      "entity_count": 5,
-      "entity_count_by_type": {
-        "door": 4,
-        "npc": 1
-      },
-      "region": "Scaraba_Pyramid_Entryway_Stairs"
-    },
-    {
       "entity_count": 4,
       "entity_count_by_type": {
         "door": 2,
@@ -23963,22 +23796,6 @@
         "present": 1
       },
       "region": "Scaraba_Pyramid_Entryway_Stairs_Room"
-    },
-    {
-      "entity_count": 9,
-      "entity_count_by_type": {
-        "door": 6,
-        "npc": 3
-      },
-      "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs"
-    },
-    {
-      "entity_count": 9,
-      "entity_count_by_type": {
-        "door": 5,
-        "npc": 4
-      },
-      "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room"
     },
     {
       "entity_count": 4,
@@ -24023,14 +23840,6 @@
       "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_Hawk-Eye-Room_Stairs_Hole-Room_Room_Exit-Hall"
     },
     {
-      "entity_count": 6,
-      "entity_count_by_type": {
-        "door": 4,
-        "npc": 2
-      },
-      "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs"
-    },
-    {
       "entity_count": 5,
       "entity_count_by_type": {
         "door": 2,
@@ -24040,11 +23849,10 @@
       "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room"
     },
     {
-      "entity_count": 12,
+      "entity_count": 5,
       "entity_count_by_type": {
-        "door": 8,
-        "npc": 2,
-        "present": 2
+        "door": 4,
+        "present": 1
       },
       "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room_Stairs"
     },
@@ -24059,10 +23867,9 @@
       "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NE-Stairs_Room_Stairs_Plate-Room"
     },
     {
-      "entity_count": 6,
+      "entity_count": 3,
       "entity_count_by_type": {
-        "door": 4,
-        "npc": 2
+        "door": 3
       },
       "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs_Sarcophagus-Room_NW-Stairs"
     },
@@ -24265,19 +24072,19 @@
       "region": "Summers and Toto_Toto Shop_1F"
     },
     {
-      "entity_count": 102,
+      "entity_count": 105,
       "entity_count_by_type": {
-        "door": 52,
-        "npc": 38,
+        "door": 53,
+        "npc": 40,
         "sign": 12
       },
       "region": "Summers-and-Toto"
     },
     {
-      "entity_count": 135,
+      "entity_count": 192,
       "entity_count_by_type": {
-        "door": 37,
-        "npc": 70,
+        "door": 87,
+        "npc": 77,
         "present": 4,
         "sign": 24
       },
@@ -24459,19 +24266,19 @@
       "region": "Threed_Under Graveyard_1F"
     },
     {
-      "entity_count": 2,
-      "entity_count_by_type": {
-        "door": 2
-      },
-      "region": "Threed_Under Graveyard_1F_B1F_Stairs"
-    },
-    {
       "entity_count": 3,
       "entity_count_by_type": {
         "door": 2,
         "present": 1
       },
-      "region": "Threed_Under Graveyard_1F_B1F_Stairs_B2F"
+      "region": "Threed_Under Graveyard_1F_B1F"
+    },
+    {
+      "entity_count": 2,
+      "entity_count_by_type": {
+        "door": 2
+      },
+      "region": "Threed_Under Graveyard_1F_B1F_Stairs"
     },
     {
       "entity_count": 4,
@@ -24606,12 +24413,12 @@
       "region": "Transitions_Twoson to Threed_Tunnel-B"
     },
     {
-      "entity_count": 108,
+      "entity_count": 261,
       "entity_count_by_type": {
-        "door": 20,
-        "npc": 67,
-        "present": 1,
-        "sign": 20
+        "door": 148,
+        "npc": 85,
+        "present": 6,
+        "sign": 22
       },
       "region": "Twoson"
     },
@@ -24880,10 +24687,11 @@
       "region": "Twoson_Polestar_1F_Den_Bedroom_Paula's-Room"
     },
     {
-      "entity_count": 41,
+      "entity_count": 62,
       "entity_count_by_type": {
-        "door": 15,
-        "npc": 26
+        "door": 25,
+        "npc": 35,
+        "sign": 2
       },
       "region": "Winters"
     },
@@ -24919,13 +24727,6 @@
         "npc": 6
       },
       "region": "Winters_Drug Store_1F"
-    },
-    {
-      "entity_count": 2,
-      "entity_count_by_type": {
-        "door": 2
-      },
-      "region": "Winters_Rainy Circle_1F_Hallway"
     },
     {
       "entity_count": 38,
@@ -25026,12 +24827,10 @@
       "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F"
     },
     {
-      "entity_count": 106,
+      "entity_count": 68,
       "entity_count_by_type": {
-        "door": 89,
-        "npc": 13,
-        "present": 3,
-        "sign": 1
+        "door": 66,
+        "present": 2
       },
       "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F"
     },
@@ -25058,14 +24857,6 @@
         "npc": 14
       },
       "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules"
-    },
-    {
-      "entity_count": 2,
-      "entity_count_by_type": {
-        "door": 1,
-        "npc": 1
-      },
-      "region": "Winters_Stonehenge Base_B1F_B2F_B3F_B4F_B5F_B6F_B7F_Exit-Mouse_Blackout-Room_Capsules_Boss-Room"
     },
     {
       "entity_count": 3,

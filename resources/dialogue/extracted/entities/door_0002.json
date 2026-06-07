@@ -19,7 +19,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 562,
       "y": 881
     },
@@ -37,7 +37,7 @@
     "L_C99C98",
     "L_C99CA9"
   ],
-  "region": "Deep Darkness_Tenda Village_Main",
+  "region": "Onett",
   "type": "door",
   "visibility": {
     "condition": "always",

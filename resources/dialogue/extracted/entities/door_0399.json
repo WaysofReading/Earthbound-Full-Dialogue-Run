@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 572,
       "y": 1053
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Deep Darkness_Lumine Hall_1F_2F",
+  "region": "Threed_Under Graveyard_1F_B1F",
   "type": "door",
   "visibility": {
     "condition": "always",

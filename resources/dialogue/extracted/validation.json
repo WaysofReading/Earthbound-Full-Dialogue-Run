@@ -17,7 +17,7 @@
       {
         "door_id": "door_0001",
         "note": "first door with assigned region \u2014 verify pixel coords against in-game location to confirm tile-offset (\u00d78) assumption",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "x_pixel": 424,
         "y_pixel": 112
       }
@@ -2255,7 +2255,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0000",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           76,
           1,
@@ -2283,7 +2283,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0002",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           185,
           0,
@@ -2297,7 +2297,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0003",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           105,
           2,
@@ -2311,7 +2311,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0004",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           217,
           2,
@@ -2325,7 +2325,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0005",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           20,
           1,
@@ -2339,7 +2339,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0006",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           73,
           0,
@@ -2353,7 +2353,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0007",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           195,
           0,
@@ -2367,7 +2367,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0008",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           209,
           2,
@@ -2395,7 +2395,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0010",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           70,
           0,
@@ -2409,7 +2409,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0011",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           188,
           2,
@@ -2423,7 +2423,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0012",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           255,
           0,
@@ -2437,7 +2437,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0013",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           209,
           1,
@@ -2451,7 +2451,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0014",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           196,
           2,
@@ -2465,7 +2465,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0015",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           143,
           1,
@@ -2479,7 +2479,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0016",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           71,
           2,
@@ -2493,7 +2493,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0017",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           192,
           1,
@@ -2507,7 +2507,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0018",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           54,
           2,
@@ -2535,7 +2535,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0020",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           64,
           2,
@@ -2549,7 +2549,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0021",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           39,
           0,
@@ -2563,7 +2563,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0022",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           53,
           2,
@@ -2591,7 +2591,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0024",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           248,
           2,
@@ -2619,7 +2619,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0026",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           186,
           0,
@@ -2633,7 +2633,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0027",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           224,
           0,
@@ -2647,7 +2647,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0028",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           160,
           0,
@@ -2661,7 +2661,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0029",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           145,
           2,
@@ -2675,7 +2675,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0030",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           49,
           0,
@@ -2689,7 +2689,7 @@
       {
         "note": "Unknown A decoded as [X_lo, X_hi, Y_byte] \u2014 verify against in-game photo trigger location",
         "photo_id": "photo_0031",
-        "region": "Deep Darkness_Tenda Village_Main",
+        "region": "Onett",
         "unknown_a": [
           48,
           0,

@@ -19,7 +19,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Deep Darkness_Tenda Village_Main",
+      "region": "Onett",
       "x": 500,
       "y": 114
     },
@@ -35,7 +35,7 @@
     "L_C99CBC",
     "L_C99CC9"
   ],
-  "region": "Deep Darkness_Tenda Village_Main_Talking-Rock-Room",
+  "region": "Onett",
   "type": "door",
   "visibility": {
     "condition": "always",

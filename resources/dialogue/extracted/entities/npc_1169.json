@@ -29,7 +29,7 @@
     "Npc0463",
     "Npc1169"
   ],
-  "region": "Scaraba_Pyramid_Entryway_Stairs_Room_Stairs",
+  "region": "Twoson",
   "type": "npc",
   "visibility": {
     "condition": "flag_cleared",

@@ -19,7 +19,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 167,
       "y": 624
     },
@@ -35,7 +35,7 @@
     "L_C9AF75",
     "L_C9AF79"
   ],
-  "region": "Scaraba_Dungeon Man_1F",
+  "region": "Peaceful-Rest-Valley",
   "type": "door",
   "visibility": {
     "condition": "always",

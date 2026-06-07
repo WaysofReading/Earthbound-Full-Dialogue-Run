@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Scaraba_Dungeon Man_1F_2F",
+      "region": "Onett",
       "x": 482,
       "y": 685
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Threed_Under Graveyard_1F_B1F_Stairs_B2F",
+  "region": "Fourside",
   "type": "door",
   "visibility": {
     "condition": "always",

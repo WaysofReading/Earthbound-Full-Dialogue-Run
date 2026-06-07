@@ -27,7 +27,7 @@
   "reachable_nodes": [
     "Npc1357"
   ],
-  "region": "Magicant_Sea of Eden_1F",
+  "region": "Dusty-Dunes-Desert",
   "type": "npc",
   "visibility": {
     "condition": "always",

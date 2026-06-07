@@ -27,7 +27,7 @@
   "reachable_nodes": [
     "Npc0634"
   ],
-  "region": "Onett",
+  "region": "Winters",
   "type": "npc",
   "visibility": {
     "condition": "flag_set",

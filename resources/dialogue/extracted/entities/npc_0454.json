@@ -20,7 +20,7 @@
     "sprite_label": "jeff"
   },
   "reachable_nodes": [],
-  "region": "Happy Happy Village_Lilliput Steps_1F_Hallway",
+  "region": "Twoson",
   "type": "npc",
   "visibility": {
     "condition": "flag_set",

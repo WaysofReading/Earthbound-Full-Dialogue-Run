@@ -62,7 +62,7 @@
     "L_C5DFB1",
     "Npc1374"
   ],
-  "region": "Dusty Dunes Desert_Desert Gold Mine_1F-Maze",
+  "region": "Moonside_Hotel_1F",
   "type": "npc",
   "visibility": {
     "condition": "always",

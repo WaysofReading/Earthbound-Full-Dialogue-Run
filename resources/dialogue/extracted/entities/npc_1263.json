@@ -20,7 +20,7 @@
     "sprite_label": "tenda-cave-rock"
   },
   "reachable_nodes": [],
-  "region": "Deep Darkness_Tenda Village_Main",
+  "region": "Onett",
   "type": "npc",
   "visibility": {
     "condition": "flag_cleared",

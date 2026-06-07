@@ -20,7 +20,7 @@
     "sprite_label": "jeff"
   },
   "reachable_nodes": [],
-  "region": "Lost Underworld_Fire Springs_1F_Sanctuary-Room",
+  "region": "Threed",
   "type": "npc",
   "visibility": {
     "condition": "flag_set",

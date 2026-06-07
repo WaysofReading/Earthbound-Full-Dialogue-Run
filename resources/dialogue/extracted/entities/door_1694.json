@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Deep Darkness_Tenda Village_Main",
+      "region": "Onett",
       "x": 55,
       "y": 14
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Deep Darkness_Tenda Village_Main_Hotel-Room",
+  "region": "Threed",
   "type": "door",
   "visibility": {
     "condition": "always",

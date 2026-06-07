@@ -14,7 +14,7 @@
   },
   "properties": {
     "destination": {
-      "region": "Deep Darkness_Tenda Village_Main",
+      "region": "Onett",
       "x": 674,
       "y": 437
     },
@@ -26,7 +26,7 @@
     "subtype": "door"
   },
   "reachable_nodes": [],
-  "region": "Deep Darkness_Lumine Hall_1F_2F",
+  "region": "Threed_Under Graveyard_1F_B1F",
   "type": "door",
   "visibility": {
     "condition": "always",
