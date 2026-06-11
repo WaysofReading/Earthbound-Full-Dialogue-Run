@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+# data-prep outputs are generated at build time, never committed.
+public/data/
+public/sprites/
+public/maps/
