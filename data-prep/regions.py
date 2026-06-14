@@ -89,9 +89,10 @@ def build_world_tiles(world_img, out_dir, report):
     imageOverlay). Native resolution is zoom 0 (1 game px = 1 map unit, matching
     the client's latLng(-y, x) convention); negative zooms are downscaled mips.
 
-    Leaflet (CRS.Simple, this latLng(-y,x) convention) addresses the top image
-    row as tile y=-1 and increases downward (0, 1, 2, ...), so image row r maps to
-    tile y = r - 1. Column c maps to tile x = c. Transparent tiles are skipped.
+    CRS.Simple's transformation is (1,0,-1,0) — it flips Y — so a marker at
+    latLng(-gy, gx) projects to (gx*2^z, gy*2^z), both positive. A tile therefore
+    indexes as standard top-left XYZ: image cell (column c, row r) -> tile
+    (x=c, y=r). Transparent tiles are skipped.
     """
     base = os.path.join(out_dir, 'maps', 'world')
     w, h = world_img.size
@@ -111,7 +112,7 @@ def build_world_tiles(world_img, out_dir, report):
                 tile.paste(crop, (0, 0))
                 d = os.path.join(base, str(z), str(c))
                 os.makedirs(d, exist_ok=True)
-                tile.save(os.path.join(d, f'{r - 1}.png'))
+                tile.save(os.path.join(d, f'{r}.png'))
                 count += 1
     report.log(f"  world tiles: {count} tiles, zoom 0..{WORLD_MIN_ZOOM}")
     return {
