@@ -7,16 +7,20 @@ alpha-composite without opaque collisions. We assert that for the overworld as
 a build-time guard against a mis-classified detached world leaking in.
 """
 
+import math
 import os
 
 from PIL import Image, ImageChops
 
 import common
 
-# If the composited overworld exceeds either limit we warn — a future refinement
-# is a tile pyramid. v1 ships a single image per place.
+# If a single composited place image exceeds either limit we warn.
 _MAX_DIM_WARN = 16384
 _MAX_BYTES_WARN = 30 * 1024 * 1024
+
+TILE = 256
+WORLD_MIN_ZOOM = -5   # whole map fits in ~1 tile at this zoom
+WORLD_MAX_ZOOM = 3    # upscales native tiles for close-in sprite inspection
 
 
 def _open_region(filename):
@@ -51,41 +55,75 @@ def _composite(place, report):
     return canvas
 
 
-def build_world(out_dir, report, regions, user_map_path=None):
+def build_world_image(report, regions, user_map_path=None):
     """
-    Render the monolithic world map: the entire global coordinate space as one
-    image, so entities render at their raw global pixel (no per-region transform).
+    Produce the monolithic world image (in memory): the entire global coordinate
+    space, so entities render at their raw global pixel (no per-region transform).
 
-    Prefers a user-supplied blank full map (e.g. a CoilSnake export) when present
-    — that is the canonical single tilemap. Otherwise composites every region at
-    its global origin as a working stand-in (parents first so nested child rooms
-    paint on top; duplicate paint over identical tiles is harmless).
+    Prefers a user-supplied blank full map (e.g. a CoilSnake export). Otherwise
+    composites every region at its global origin as a working stand-in (parents
+    first so nested child rooms paint on top; duplicate paint is harmless).
     """
-    maps_dir = os.path.join(out_dir, 'maps')
-    os.makedirs(maps_dir, exist_ok=True)
-    rel = 'maps/world.png'
-    dest = os.path.join(out_dir, rel)
-
     w, h = common.world_extent(regions)
 
     if user_map_path and os.path.exists(user_map_path):
         img = Image.open(user_map_path).convert('RGBA')
-        img.save(dest)
         if abs(img.width - w) > 64 or abs(img.height - h) > 64:
             report.warn(f"provided world map is {img.width}x{img.height} but entity "
                         f"coordinates span {w}x{h} — placements may be offset")
         report.log(f"  world: using provided map ({img.width}x{img.height})")
-        return {'image': rel, 'size': [img.width, img.height]}
+        return img
 
     canvas = Image.new('RGBA', (w, h), (0, 0, 0, 0))
     for r in sorted(regions, key=lambda r: int(r['hierarchy_level'])):
-        img = _open_region(r['filename'])
-        canvas.alpha_composite(img, (int(r['x0']), int(r['y0'])))
-    canvas.save(dest, optimize=True)
-    nbytes = os.path.getsize(dest)
-    report.log(f"  world: composited {len(regions)} regions -> {w}x{h}, {nbytes // 1024}KB "
+        canvas.alpha_composite(_open_region(r['filename']), (int(r['x0']), int(r['y0'])))
+    report.log(f"  world: composited {len(regions)} regions -> {w}x{h} "
                f"(stand-in; drop a blank map at resources/maps/world-map.png to override)")
-    return {'image': rel, 'size': [w, h]}
+    return canvas
+
+
+def build_world_tiles(world_img, out_dir, report):
+    """
+    Slice the world image into a CRS.Simple tile pyramid so the client renders
+    only the tiles in view at the current zoom (huge pan/zoom win over one giant
+    imageOverlay). Native resolution is zoom 0 (1 game px = 1 map unit, matching
+    the client's latLng(-y, x) convention); negative zooms are downscaled mips.
+
+    Leaflet (CRS.Simple, this latLng(-y,x) convention) addresses the top image
+    row as tile y=-1 and increases downward (0, 1, 2, ...), so image row r maps to
+    tile y = r - 1. Column c maps to tile x = c. Transparent tiles are skipped.
+    """
+    base = os.path.join(out_dir, 'maps', 'world')
+    w, h = world_img.size
+    count = 0
+    for z in range(0, WORLD_MIN_ZOOM - 1, -1):
+        scale = 2.0 ** z
+        sw, sh = max(1, round(w * scale)), max(1, round(h * scale))
+        scaled = world_img if z == 0 else world_img.resize((sw, sh), Image.LANCZOS)
+        cols, rows = math.ceil(sw / TILE), math.ceil(sh / TILE)
+        for r in range(rows):
+            for c in range(cols):
+                crop = scaled.crop((c * TILE, r * TILE,
+                                    min((c + 1) * TILE, sw), min((r + 1) * TILE, sh)))
+                if crop.getchannel('A').getbbox() is None:
+                    continue  # fully transparent — don't emit
+                tile = Image.new('RGBA', (TILE, TILE), (0, 0, 0, 0))
+                tile.paste(crop, (0, 0))
+                d = os.path.join(base, str(z), str(c))
+                os.makedirs(d, exist_ok=True)
+                tile.save(os.path.join(d, f'{r - 1}.png'))
+                count += 1
+    report.log(f"  world tiles: {count} tiles, zoom 0..{WORLD_MIN_ZOOM}")
+    return {
+        'tiles': {
+            'url': 'maps/world/{z}/{x}/{y}.png',
+            'tileSize': TILE,
+            'minZoom': WORLD_MIN_ZOOM,
+            'maxZoom': WORLD_MAX_ZOOM,
+            'maxNativeZoom': 0,
+        },
+        'size': [w, h],
+    }
 
 
 def build(plan, out_dir, report):

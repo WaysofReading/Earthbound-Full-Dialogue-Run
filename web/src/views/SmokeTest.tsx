@@ -4,7 +4,7 @@
 // committed and survives as the regression guard for the coordinate transform.
 
 import { useMemo } from 'react'
-import { MapContainer, ImageOverlay, CircleMarker, Rectangle, useMap } from 'react-leaflet'
+import { MapContainer, ImageOverlay, TileLayer, CircleMarker, Rectangle, useMap } from 'react-leaflet'
 import { CRS } from 'leaflet'
 import { useStore } from '../lib/store'
 import { entityLatLng, entityBoundsLatLng, placeBounds } from '../lib/coords'
@@ -55,10 +55,19 @@ export default function SmokeTest() {
           className="h-full w-full"
           attributionControl={false}
         >
-          <ImageOverlay
-            url={assetUrl(overworld.image!)}
-            bounds={placeBounds(overworld)}
-          />
+          {overworld.tiles ? (
+            <TileLayer
+              url={assetUrl(overworld.tiles.url)}
+              tileSize={overworld.tiles.tileSize}
+              minZoom={overworld.tiles.minZoom}
+              maxZoom={overworld.tiles.maxZoom}
+              minNativeZoom={overworld.tiles.minZoom}
+              maxNativeZoom={overworld.tiles.maxNativeZoom}
+              noWrap
+            />
+          ) : (
+            <ImageOverlay url={assetUrl(overworld.image!)} bounds={placeBounds(overworld)} />
+          )}
           {box && <Rectangle bounds={box} pathOptions={{ color: '#3b82f6', weight: 2 }} />}
           {ll && (
             <CircleMarker

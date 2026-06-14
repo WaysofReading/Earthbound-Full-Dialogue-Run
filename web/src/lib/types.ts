@@ -98,7 +98,13 @@ export interface PlaceManifest {
   kind: 'world' | 'overworld' | 'image' | 'tiled'
   size: [number, number]
   image?: string
-  tiles?: { url: string; tileSize: number; minZoom: number; maxZoom: number }
+  tiles?: {
+    url: string
+    tileSize: number
+    minZoom: number
+    maxZoom: number
+    maxNativeZoom?: number
+  }
 }
 
 // Jump targets on the monolithic map (level-0 regions). bounds_global is

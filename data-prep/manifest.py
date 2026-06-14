@@ -108,16 +108,19 @@ def build_world(entities_full, regions, world, region_to_bundle, out_dir, report
             })
     areas.sort(key=lambda a: a['label'])
 
+    world_place = {
+        'id': 'world',
+        'label': 'EarthBound',
+        'kind': 'world',
+        'size': world['size'],
+    }
+    if 'tiles' in world:
+        world_place['tiles'] = world['tiles']
+    if 'image' in world:
+        world_place['image'] = world['image']
+
     manifest = {
-        'places': {
-            'world': {
-                'id': 'world',
-                'label': 'EarthBound',
-                'kind': 'world',
-                'size': world['size'],
-                'image': world['image'],
-            },
-        },
+        'places': {'world': world_place},
         'regions': region_map,
         'place_by_region': {fname: 'world' for fname in region_map},
         'areas': areas,

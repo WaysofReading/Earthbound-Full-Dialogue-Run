@@ -1,9 +1,10 @@
 // Imperative marker + cluster layer. 3,694 entities is too many for React-managed
-// markers, so we build an L.markerClusterGroup directly and rebuild it when the
-// active place or filters change. Photo events also get an L.rectangle of their
-// real footprint (added outside the cluster so the box is always visible).
+// markers, so we build an L.markerClusterGroup directly and rebuild it only when
+// the visible set or clustering changes — NOT on selection (that just pans).
+// markercluster culls to the viewport, so tile + cluster keep pan/zoom cheap.
+// Photo events also get an L.rectangle of their footprint (outside the cluster).
 
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { useMap } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet.markercluster'
@@ -43,21 +44,31 @@ export default function EntityMarkers({
   index,
   place,
   filters,
+  clusterRadius,
   selectedId,
 }: {
   manifest: Manifest
   index: EntityIndexRow[]
   place: string
   filters: Filters
+  clusterRadius: number
   selectedId?: string
 }) {
   const map = useMap()
   const navigate = useNavigate()
+  const navRef = useRef(navigate)
+  navRef.current = navigate
 
+  // Build (and rebuild only on visible-set / clustering changes) the marker layer.
   useEffect(() => {
     const cluster = L.markerClusterGroup({
-      maxClusterRadius: 40,
+      maxClusterRadius: clusterRadius,
       showCoverageOnHover: false,
+      removeOutsideVisibleBounds: true,
+      // Build markers in chunks so the ~1900-marker load doesn't block the main
+      // thread (which otherwise starves base-tile decoding on first paint).
+      chunkedLoading: true,
+      animate: false,
       iconCreateFunction: (c) =>
         L.divIcon({
           html: `<div>${c.getChildCount()}</div>`,
@@ -74,36 +85,38 @@ export default function EntityMarkers({
 
       const marker = L.marker(ll, { icon: iconFor(row) })
       marker.bindTooltip(`${row.label || row.id} · ${row.type}`, { direction: 'top' })
-      marker.on('click', () => navigate(`/entity/${row.id}`))
+      marker.on('click', () => navRef.current(`/entity/${row.id}`))
       cluster.addLayer(marker)
 
       if (row.type === 'photo_event') {
         const box = entityBoundsLatLng(manifest, row)
         if (box && (box[0][0] !== box[1][0] || box[0][1] !== box[1][1])) {
-          overlays.push(
-            L.rectangle(box, { color: '#3b82f6', weight: 1, fillOpacity: 0.08 }),
-          )
+          overlays.push(L.rectangle(box, { color: '#3b82f6', weight: 1, fillOpacity: 0.08 }))
         }
       }
     }
 
     map.addLayer(cluster)
     overlays.forEach((o) => map.addLayer(o))
-
-    // Pan to the selected entity if it's in this place.
-    if (selectedId) {
-      const sel = index.find((e) => e.id === selectedId)
-      if (sel) {
-        const ll = entityLatLng(manifest, sel)
-        if (ll) map.setView(ll, Math.max(map.getZoom(), 0))
-      }
-    }
-
     return () => {
+      // Guard against react-leaflet teardown races: if the map is already
+      // disposed (_mapPane gone), removeLayer -> onRemove throws.
+      if (!(map as unknown as { _mapPane?: unknown })._mapPane) return
       map.removeLayer(cluster)
       overlays.forEach((o) => map.removeLayer(o))
     }
-  }, [map, manifest, index, place, filters, selectedId, navigate])
+  }, [map, manifest, index, place, filters, clusterRadius])
+
+  // Pan to the selected entity without rebuilding the marker layer.
+  useEffect(() => {
+    if (!selectedId) return
+    const sel = index.find((e) => e.id === selectedId)
+    if (!sel) return
+    const ll = entityLatLng(manifest, sel)
+    if (!ll) return
+    const z = map.getZoom()
+    map.setView(ll, Number.isFinite(z) ? Math.max(z, 0) : 0)
+  }, [map, manifest, index, selectedId])
 
   return null
 }

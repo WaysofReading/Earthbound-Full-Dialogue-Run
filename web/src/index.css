@@ -24,6 +24,7 @@ body {
 
 /* Crisp pixel-art scaling for sprites and map tiles. */
 .leaflet-image-layer,
+.leaflet-tile,
 .eb-marker img {
   image-rendering: pixelated;
 }

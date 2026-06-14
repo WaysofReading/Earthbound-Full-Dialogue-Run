@@ -104,9 +104,10 @@ def main(argv=None):
         report.log('writing manifest + entity index...')
         manifest_mod.build(entities_full, plan, rendered, region_to_bundle, out_dir, report)
     else:
-        # Monolithic world map (default): the whole coordinate space as one image.
+        # Monolithic world map (default): the whole coordinate space, tiled.
         report.log('rendering monolithic world map...')
-        world = regions_mod.build_world(out_dir, report, regions, USER_WORLD_MAP)
+        world_img = regions_mod.build_world_image(report, regions, USER_WORLD_MAP)
+        world = regions_mod.build_world_tiles(world_img, out_dir, report)
         report.log('writing manifest + entity index...')
         manifest_mod.build_world(entities_full, regions, world, region_to_bundle, out_dir, report)
 

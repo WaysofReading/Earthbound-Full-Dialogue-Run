@@ -8,18 +8,31 @@ import type { Filters } from './EntityMarkers'
 
 const TYPES: EntityType[] = ['npc', 'sign', 'door', 'present', 'photo_event']
 
+// Clustering presets. "Off" keeps a tiny radius so markercluster still culls to
+// the viewport (the perf win) while only merging exact pixel overlaps.
+export const CLUSTER_PRESETS: { label: string; radius: number }[] = [
+  { label: 'Off', radius: 1 },
+  { label: 'Tight', radius: 20 },
+  { label: 'Default', radius: 40 },
+  { label: 'Loose', radius: 80 },
+]
+
 export default function FilterSidebar({
   manifest,
   index,
   place,
   filters,
   setFilters,
+  clusterRadius,
+  setClusterRadius,
 }: {
   manifest: Manifest
   index: EntityIndexRow[]
   place: string
   filters: Filters
   setFilters: (f: Filters) => void
+  clusterRadius: number
+  setClusterRadius: (r: number) => void
 }) {
   const [open, setOpen] = useState(false)
 
@@ -89,6 +102,23 @@ export default function FilterSidebar({
         />
         <span>Show entities with no dialogue ({manifest.counts.no_dialogue})</span>
       </label>
+
+      <label className="block text-xs text-neutral-400 mt-3 mb-1">Clustering</label>
+      <div className="flex gap-1">
+        {CLUSTER_PRESETS.map((p) => (
+          <button
+            key={p.label}
+            onClick={() => setClusterRadius(p.radius)}
+            className={`flex-1 px-1.5 py-1 rounded text-xs ${
+              clusterRadius === p.radius
+                ? 'bg-amber-700/50 text-amber-100'
+                : 'bg-neutral-800 hover:bg-neutral-700'
+            }`}
+          >
+            {p.label}
+          </button>
+        ))}
+      </div>
     </div>
   )
 }
