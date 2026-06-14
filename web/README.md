@@ -3,9 +3,10 @@
 A public-facing map + archive of every dialogue in EarthBound, built from the
 committed extraction outputs in `resources/dialogue/extracted/`.
 
-- **Map view** — the stitched overworld and detached/interior places, with every
-  map-present entity as a clickable marker (NPC sprites from the game's own
-  sprite groups; type glyphs for signs/doors/presents/photo events).
+- **Map view** — the entire game coordinate space as one monolithic map, with
+  every map-present entity as a clickable marker (NPC sprites from the game's own
+  sprite groups; type glyphs for signs/doors/presents/photo events). The Places
+  nav recenters the single map on an area rather than swapping images.
 - **Dialogue panel** — a structured tree of a node's reachable script (all five
   edge types, effects, cycles as back-references, function-call previews) with a
   graph-mode toggle.
@@ -26,9 +27,21 @@ web/         Vite + React + TS + Tailwind + react-leaflet (CRS.Simple)
 
 The web client does no geometry beyond reading the manifest's per-region
 `translate`: an entity at global game pixel `(gx,gy)` in region `R` renders at
-place-image pixel `(gx+tx, gy+ty)`, then `latLng(-y, x)` for CRS.Simple. The
+place-image pixel `(gx+tx, gy+ty)`, then `latLng(-y, x)` for CRS.Simple. On the
+monolithic map every region's `translate` is `(0,0)`, so markers sit at their raw
+global pixels — making NPC-placement errors directly visible against the map. The
 committed `/#/smoke` page asserts the verified anchor (Onett scam house photo at
 `(944,186)` → `latLng(-186,944)`) and is the regression guard for the transform.
+
+### Map modes
+
+`data-prep/prep.py` defaults to the **monolithic** world map: the whole
+coordinate space composited into one image (`maps/world.png`), so the overworld,
+detached worlds, and all interiors appear at their true global coordinates. Drop
+a blank full-map export at `resources/maps/world-map.png` to use it verbatim
+instead of the composited stand-in (which bakes in whatever the region tiles
+contain). The earlier multi-place model (overworld / detached / interior groups)
+is retained behind `prep.py --places` for future use.
 
 ## Build locally
 
@@ -66,8 +79,8 @@ Actions). The build uses `base: './'`, so it works under a project subpath.
 - Photo events have no reachable script in the current extraction (the
   SHOW_PHOTOGRAPHER engine infra is a v2 extraction earmark); they render as
   marker + footprint rectangle only.
-- The overworld ships as a single image (~6.8 MB). If the extent or size grows,
-  switch `data-prep/regions.py` to a tile pyramid (the manifest already carries a
-  `tiles` slot for places).
+- The monolithic world ships as a single image (~14 MB at 8192×10240). If size
+  becomes a problem, switch `data-prep/regions.py` to a tile pyramid (the manifest
+  already carries a `tiles` slot for places).
 - Navigation doors are off by default in the map filter to keep the dialogue map
   legible; enable the "door" checkbox to show them.

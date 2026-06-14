@@ -51,6 +51,43 @@ def _composite(place, report):
     return canvas
 
 
+def build_world(out_dir, report, regions, user_map_path=None):
+    """
+    Render the monolithic world map: the entire global coordinate space as one
+    image, so entities render at their raw global pixel (no per-region transform).
+
+    Prefers a user-supplied blank full map (e.g. a CoilSnake export) when present
+    — that is the canonical single tilemap. Otherwise composites every region at
+    its global origin as a working stand-in (parents first so nested child rooms
+    paint on top; duplicate paint over identical tiles is harmless).
+    """
+    maps_dir = os.path.join(out_dir, 'maps')
+    os.makedirs(maps_dir, exist_ok=True)
+    rel = 'maps/world.png'
+    dest = os.path.join(out_dir, rel)
+
+    w, h = common.world_extent(regions)
+
+    if user_map_path and os.path.exists(user_map_path):
+        img = Image.open(user_map_path).convert('RGBA')
+        img.save(dest)
+        if abs(img.width - w) > 64 or abs(img.height - h) > 64:
+            report.warn(f"provided world map is {img.width}x{img.height} but entity "
+                        f"coordinates span {w}x{h} — placements may be offset")
+        report.log(f"  world: using provided map ({img.width}x{img.height})")
+        return {'image': rel, 'size': [img.width, img.height]}
+
+    canvas = Image.new('RGBA', (w, h), (0, 0, 0, 0))
+    for r in sorted(regions, key=lambda r: int(r['hierarchy_level'])):
+        img = _open_region(r['filename'])
+        canvas.alpha_composite(img, (int(r['x0']), int(r['y0'])))
+    canvas.save(dest, optimize=True)
+    nbytes = os.path.getsize(dest)
+    report.log(f"  world: composited {len(regions)} regions -> {w}x{h}, {nbytes // 1024}KB "
+               f"(stand-in; drop a blank map at resources/maps/world-map.png to override)")
+    return {'image': rel, 'size': [w, h]}
+
+
 def build(plan, out_dir, report):
     """
     Render every place to web/public/maps/. Returns per-place render metadata

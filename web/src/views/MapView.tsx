@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useState } from 'react'
 import { MapContainer, ImageOverlay, useMap } from 'react-leaflet'
-import { CRS } from 'leaflet'
-import { useParams, useSearchParams } from 'react-router-dom'
+import { CRS, latLngBounds } from 'leaflet'
+import { useParams } from 'react-router-dom'
 import { useStore } from '../lib/store'
-import { placeBounds } from '../lib/coords'
+import { placeBounds, globalBoundsToLatLng } from '../lib/coords'
 import { assetUrl } from '../lib/paths'
-import type { EntityType } from '../lib/types'
+import type { Area, EntityType } from '../lib/types'
 import EntityMarkers, { type Filters } from '../components/EntityMarkers'
 import PlacesSidebar from '../components/PlacesSidebar'
 import FilterSidebar from '../components/FilterSidebar'
@@ -13,26 +13,33 @@ import DialoguePanel from '../components/DialoguePanel'
 import Banner from '../components/Banner'
 
 const DEFAULT_FILTERS: Filters = {
-  // Doors (1,805 navigation markers) are off by default to keep the dialogue
-  // map legible; everything else is on.
+  // Doors (navigation markers) are off by default to keep the dialogue map
+  // legible; everything else is on.
   types: { npc: true, sign: true, door: false, present: true, photo_event: true },
   showNoDialogue: false,
   region: null,
 }
 
-// Keeps the image overlay + view in sync when the active place changes.
-function PlaceLayer({ placeId }: { placeId: string }) {
-  const manifest = useStore((s) => s.manifest)!
+// Fits the world image on mount (unless an entity is selected — EntityMarkers
+// pans to it) and recenters when a jump target is set.
+function ViewController({
+  worldBounds,
+  jump,
+  skipInitialFit,
+}: {
+  worldBounds: [[number, number], [number, number]]
+  jump: [[number, number], [number, number]] | null
+  skipInitialFit: boolean
+}) {
   const map = useMap()
-  const place = manifest.places[placeId] ?? manifest.places['overworld']
-  const bounds = placeBounds(place)
-
   useEffect(() => {
-    map.fitBounds(bounds)
-    map.setMaxBounds(undefined as never)
-  }, [map, placeId]) // eslint-disable-line react-hooks/exhaustive-deps
-
-  return <ImageOverlay key={placeId} url={assetUrl(place.image!)} bounds={bounds} />
+    if (!skipInitialFit) map.fitBounds(worldBounds)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [map, worldBounds])
+  useEffect(() => {
+    if (jump) map.flyToBounds(latLngBounds(jump), { maxZoom: 1, duration: 0.5 })
+  }, [map, jump])
+  return null
 }
 
 export default function MapView() {
@@ -40,21 +47,13 @@ export default function MapView() {
   const index = useStore((s) => s.index)
   const indexById = useStore((s) => s.indexById)
   const { id: selectedId } = useParams()
-  const [searchParams, setSearchParams] = useSearchParams()
 
   const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS)
+  const [jump, setJump] = useState<[[number, number], [number, number]] | null>(null)
 
-  // Active place: explicit ?place=, else selected entity's place, else overworld.
+  const world = manifest.places['world']
+  const worldBounds = useMemo(() => placeBounds(world), [world])
   const selected = selectedId ? indexById.get(selectedId) : undefined
-  const placeParam = searchParams.get('place')
-  const activePlace =
-    placeParam || selected?.place || 'overworld'
-
-  // If the selected entity carries a region, scope the filter to it once.
-  useEffect(() => {
-    const regionParam = searchParams.get('region')
-    setFilters((f) => ({ ...f, region: regionParam }))
-  }, [searchParams])
 
   // Ensure the selected entity's type is visible even if its checkbox is off.
   const effectiveFilters = useMemo<Filters>(() => {
@@ -64,41 +63,40 @@ export default function MapView() {
     return filters
   }, [filters, selected])
 
-  const selectPlace = (place: string) => {
-    setSearchParams((prev) => {
-      const next = new URLSearchParams(prev)
-      next.set('place', place)
-      next.delete('region')
-      return next
-    })
-  }
+  const onJump = (area: Area) => setJump(globalBoundsToLatLng(area.bounds_global))
+  const onReset = () => setJump(worldBounds)
 
   return (
     <div className="absolute inset-0 flex">
       <div className="relative flex-1 min-w-0">
         <MapContainer
           crs={CRS.Simple}
-          minZoom={-4}
+          minZoom={-5}
           maxZoom={3}
           zoomSnap={0.25}
           className="h-full w-full"
           attributionControl={false}
         >
-          <PlaceLayer placeId={activePlace} />
+          <ImageOverlay url={assetUrl(world.image!)} bounds={worldBounds} />
           <EntityMarkers
             manifest={manifest}
             index={index}
-            place={activePlace}
+            place="world"
             filters={effectiveFilters}
             selectedId={selectedId}
           />
+          <ViewController
+            worldBounds={worldBounds}
+            jump={jump}
+            skipInitialFit={!!selectedId}
+          />
         </MapContainer>
 
-        <PlacesSidebar manifest={manifest} activePlace={activePlace} onSelect={selectPlace} />
+        <PlacesSidebar areas={manifest.areas ?? []} onJump={onJump} onReset={onReset} />
         <FilterSidebar
           manifest={manifest}
           index={index}
-          place={activePlace}
+          place="world"
           filters={filters}
           setFilters={setFilters}
         />

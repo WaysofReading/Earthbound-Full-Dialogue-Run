@@ -95,10 +95,18 @@ export interface Entity extends Omit<EntityIndexRow, 'place'> {
 export interface PlaceManifest {
   id: string
   label: string
-  kind: 'overworld' | 'image' | 'tiled'
+  kind: 'world' | 'overworld' | 'image' | 'tiled'
   size: [number, number]
   image?: string
   tiles?: { url: string; tileSize: number; minZoom: number; maxZoom: number }
+}
+
+// Jump targets on the monolithic map (level-0 regions). bounds_global is
+// [x0,y0,x1,y1] in global game pixels.
+export interface Area {
+  id: string
+  label: string
+  bounds_global: [number, number, number, number]
 }
 
 export interface RegionManifest {
@@ -111,6 +119,7 @@ export interface Manifest {
   places: Record<string, PlaceManifest>
   regions: Record<string, RegionManifest>
   place_by_region: Record<string, string>
+  areas?: Area[]
   counts: {
     npc: number
     door: number

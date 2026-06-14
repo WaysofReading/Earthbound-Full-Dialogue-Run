@@ -25,6 +25,10 @@ import sprites as sprites_mod
 import search as search_mod
 from extraction import sources
 
+# Optional user-supplied blank full-world map (e.g. a CoilSnake export). When
+# present it overrides the composited stand-in for the monolithic map.
+USER_WORLD_MAP = os.path.join(common.REPO_ROOT, 'resources', 'maps', 'world-map.png')
+
 
 class Report:
     def __init__(self):
@@ -70,6 +74,8 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description='Build web companion data.')
     parser.add_argument('--out', default=os.path.join(common.REPO_ROOT, 'web', 'public'))
     parser.add_argument('--skip-search', action='store_true')
+    parser.add_argument('--places', action='store_true',
+                        help='emit the multi-place model instead of the monolithic world map')
     args = parser.parse_args(argv)
 
     out_dir = os.path.abspath(args.out)
@@ -81,13 +87,8 @@ def main(argv=None):
     with open(sources.NODES_JSON, encoding='utf-8') as f:
         all_nodes = json.load(f)
     entities_full = _load_entities_full()
+    regions = common._load_regions()
     report.log(f'  {len(all_nodes)} nodes, {len(entities_full)} entities')
-
-    report.log('planning places...')
-    plan = common.plan_places()
-
-    report.log('rendering place images...')
-    rendered = regions_mod.build(plan, out_dir, report)
 
     report.log('cropping sprites...')
     sprites_mod.build(out_dir, report)
@@ -95,8 +96,19 @@ def main(argv=None):
     report.log('writing node bundles...')
     region_to_bundle = nodes_mod.build(all_nodes, entities_full, out_dir, report)
 
-    report.log('writing manifest + entity index...')
-    manifest_mod.build(entities_full, plan, rendered, region_to_bundle, out_dir, report)
+    if args.places:
+        # Multi-place model (overworld/detached/interiors) — retained for future use.
+        report.log('rendering place images...')
+        plan = common.plan_places(regions)
+        rendered = regions_mod.build(plan, out_dir, report)
+        report.log('writing manifest + entity index...')
+        manifest_mod.build(entities_full, plan, rendered, region_to_bundle, out_dir, report)
+    else:
+        # Monolithic world map (default): the whole coordinate space as one image.
+        report.log('rendering monolithic world map...')
+        world = regions_mod.build_world(out_dir, report, regions, USER_WORLD_MAP)
+        report.log('writing manifest + entity index...')
+        manifest_mod.build_world(entities_full, regions, world, region_to_bundle, out_dir, report)
 
     if not args.skip_search:
         report.log('building search indices...')

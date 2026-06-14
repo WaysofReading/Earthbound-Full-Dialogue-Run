@@ -62,3 +62,16 @@ export function placeBounds(place: PlaceManifest): [LatLng, LatLng] {
     [0, w],
   ]
 }
+
+// A global pixel bbox [x0,y0,x1,y1] as CRS.Simple bounds (SW, NE). Used to jump
+// the monolithic map to an area. On the world map translate is (0,0), so global
+// pixels are place pixels directly.
+export function globalBoundsToLatLng(
+  b: [number, number, number, number],
+): [LatLng, LatLng] {
+  const [x0, y0, x1, y1] = b
+  return [
+    [-y1, x0],
+    [-y0, x1],
+  ]
+}

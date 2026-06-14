@@ -40,6 +40,17 @@ DETACHED_WORLDS = {
 }
 
 OVERWORLD = 'overworld'
+WORLD = 'world'
+
+
+def world_extent(regions=None):
+    """Full global coordinate extent (W, H) covered by all regions — the size of
+    the monolithic world map. Origin is (0, 0)."""
+    if regions is None:
+        regions = _load_regions()
+    w = max(int(r['x1']) for r in regions)
+    h = max(int(r['y1']) for r in regions)
+    return w, h
 
 
 def slug(name):

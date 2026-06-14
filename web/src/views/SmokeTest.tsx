@@ -26,10 +26,10 @@ export default function SmokeTest() {
   const index = useStore((s) => s.index)
 
   const photo = index.find((e) => e.id === 'photo_0001')
-  const overworld = manifest.places['overworld']
+  const overworld = manifest.places['world'] ?? manifest.places['overworld']
 
   if (!photo || !overworld) {
-    return <div className="p-6 text-red-400">photo_0001 or overworld place missing.</div>
+    return <div className="p-6 text-red-400">photo_0001 or world place missing.</div>
   }
 
   const ll = entityLatLng(manifest, photo)
