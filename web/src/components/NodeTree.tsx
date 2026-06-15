@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 import { useStore } from '../lib/store'
 import type { DialogueNode, Edge } from '../lib/types'
 import { EDGE_COLOR, flagName } from '../lib/edges'
+import { displayDialogue } from '../lib/text'
 import { renderNodeAnnotations } from './annotations'
 
 function firstSentence(text: string, max = 90): string {
@@ -17,9 +18,10 @@ function firstSentence(text: string, max = 90): string {
   return s + (s.length < flat.length ? '…' : '')
 }
 
-function preview(node: DialogueNode | undefined): string {
+function preview(node: DialogueNode | undefined, showCodes: boolean): string {
   if (!node) return '(not loaded)'
-  if (node.plaintext?.trim()) return firstSentence(node.plaintext)
+  const text = displayDialogue(node.plaintext || '', showCodes)
+  if (text.trim()) return firstSentence(text)
   const menu = node.edges.filter((e) => e.type === 'menu_option').map((e) => e.label)
   if (menu.length) return 'menu: ' + menu.map((m) => `"${m}"`).join(' / ')
   return '(no text)'
@@ -55,6 +57,7 @@ function EdgeRow({
   depth: number
 }) {
   const nodeCache = useStore((s) => s.nodeCache)
+  const showCodes = useStore((s) => s.showControlCodes)
   const [open, setOpen] = useState(false)
   const isCycle = visited.has(target)
   const color = EDGE_COLOR[edge.type]
@@ -114,12 +117,15 @@ function EdgeRow({
             {target}
           </span>
           {edge.type === 'function_call' && !isCycle && !open && (
-            <span className="text-neutral-500 italic"> — {preview(nodeCache.get(target))}</span>
+            <span className="text-neutral-500 italic"> — {preview(nodeCache.get(target), showCodes)}</span>
           )}
         </span>
       </button>
       {open && !isCycle && (
-        <NodeTree nodeId={target} visited={visited} depth={depth + 1} />
+        // Indent branch content clearly beneath its conditional affordance.
+        <div className="ml-2 mt-1 pl-3 border-l-2 border-dashed" style={{ borderColor: color }}>
+          <NodeTree nodeId={target} visited={visited} depth={depth + 1} />
+        </div>
       )}
     </div>
   )
@@ -137,6 +143,7 @@ export default function NodeTree({
   isRoot?: boolean
 }) {
   const node = useStore((s) => s.nodeCache.get(nodeId))
+  const showCodes = useStore((s) => s.showControlCodes)
 
   if (!node) {
     return (
@@ -145,6 +152,8 @@ export default function NodeTree({
       </div>
     )
   }
+
+  const text = displayDialogue(node.plaintext || '', showCodes)
 
   const nextVisited = new Set(visited)
   nextVisited.add(nodeId)
@@ -158,8 +167,8 @@ export default function NodeTree({
   return (
     <div className={isRoot ? 'mb-4' : 'mt-1'}>
       <div className="text-[15px] leading-snug whitespace-pre-wrap">
-        {node.plaintext?.trim() ? (
-          node.plaintext
+        {text.trim() ? (
+          text
         ) : (
           <span className="text-neutral-600 italic">(no text)</span>
         )}

@@ -5,6 +5,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useStore } from '../lib/store'
+import { displayDialogue } from '../lib/text'
 
 export default function SearchView() {
   const ensureSearch = useStore((s) => s.ensureSearch)
@@ -13,6 +14,7 @@ export default function SearchView() {
   const fulltextSearch = useStore((s) => s.fulltextSearch)
   const nodeCache = useStore((s) => s.nodeCache)
   const indexById = useStore((s) => s.indexById)
+  const showCodes = useStore((s) => s.showControlCodes)
 
   const [params, setParams] = useSearchParams()
   const q = params.get('q') ?? ''
@@ -107,7 +109,11 @@ export default function SearchView() {
                       className="block px-2 py-1.5 rounded hover:bg-neutral-800"
                     >
                       <div className="text-sm text-neutral-200 line-clamp-2">
-                        {node?.plaintext || <span className="italic text-neutral-600">(no text)</span>}
+                        {node?.plaintext ? (
+                          displayDialogue(node.plaintext, showCodes)
+                        ) : (
+                          <span className="italic text-neutral-600">(no text)</span>
+                        )}
                       </div>
                       <div className="text-xs text-neutral-500 mt-0.5">
                         <span className="font-mono">{r.id}</span>

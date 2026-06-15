@@ -8,6 +8,7 @@ import { FixedSizeList } from 'react-window'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useStore } from '../lib/store'
 import type { DialogueNode } from '../lib/types'
+import { displayDialogue } from '../lib/text'
 import DialoguePanel from '../components/DialoguePanel'
 
 type SortKey = 'id' | 'excerpt' | 'reachable' | 'refby' | 'edges'
@@ -20,13 +21,13 @@ interface Row {
   edges: number
 }
 
-function buildRows(nodes: Map<string, DialogueNode>): Row[] {
+function buildRows(nodes: Map<string, DialogueNode>, showCodes: boolean): Row[] {
   const rows: Row[] = []
   for (const n of nodes.values()) {
     rows.push({
       id: n.id,
       kind: n.label_kind,
-      excerpt: (n.plaintext || '').replace(/\s+/g, ' ').trim(),
+      excerpt: displayDialogue(n.plaintext || '', showCodes).replace(/\s+/g, ' ').trim(),
       reachable: n.referenced_by.length > 0,
       refby: n.referenced_by.length,
       edges: n.edges.length,
@@ -39,6 +40,7 @@ export default function ArchiveView() {
   const ensureAllNodes = useStore((s) => s.ensureAllNodes)
   const nodeCache = useStore((s) => s.nodeCache)
   const allLoaded = useStore((s) => s.allNodesLoaded)
+  const showCodes = useStore((s) => s.showControlCodes)
   const { id: selectedId } = useParams()
   const navigate = useNavigate()
 
@@ -51,7 +53,10 @@ export default function ArchiveView() {
     ensureAllNodes()
   }, [ensureAllNodes])
 
-  const rows = useMemo(() => (allLoaded ? buildRows(nodeCache) : []), [allLoaded, nodeCache])
+  const rows = useMemo(
+    () => (allLoaded ? buildRows(nodeCache, showCodes) : []),
+    [allLoaded, nodeCache, showCodes],
+  )
 
   const filtered = useMemo(() => {
     let r = rows

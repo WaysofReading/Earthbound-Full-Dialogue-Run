@@ -94,10 +94,13 @@ export default function DialoguePanel({ anchor }: { anchor: Anchor }) {
   const getEntity = useStore((s) => s.getEntity)
   const loadBundle = useStore((s) => s.loadBundle)
   const ensureAllNodes = useStore((s) => s.ensureAllNodes)
+  const showCodes = useStore((s) => s.showControlCodes)
+  const setShowCodes = useStore((s) => s.setShowControlCodes)
 
   const [entity, setEntity] = useState<Entity | null>(null)
   const [ready, setReady] = useState(false)
   const [mode, setMode] = useState<'tree' | 'graph'>('tree')
+  const [wide, setWide] = useState(false) // graph-mode fly-out to ~67vw
 
   useEffect(() => {
     let cancelled = false
@@ -133,8 +136,13 @@ export default function DialoguePanel({ anchor }: { anchor: Anchor }) {
       ? (entity?.reachable_nodes ?? [])
       : neighborhood(anchor.id, nodeCache)
 
+  // 33vw by default; graph mode can fly out to ~67vw.
+  const widthClass = mode === 'graph' && wide ? 'w-[67vw]' : 'w-[33vw]'
+
   return (
-    <aside className="w-[440px] max-w-[45vw] h-full bg-neutral-900 border-l border-neutral-800 flex flex-col shrink-0">
+    <aside
+      className={`${widthClass} min-w-[360px] h-full bg-neutral-900 border-l border-neutral-800 flex flex-col shrink-0 transition-[width] duration-200`}
+    >
       <div className="flex items-start gap-2 p-3 border-b border-neutral-800">
         <div className="flex-1 min-w-0">
           {anchor.kind === 'entity' && entity && <EntityHeader entity={entity} />}
@@ -146,6 +154,24 @@ export default function DialoguePanel({ anchor }: { anchor: Anchor }) {
           )}
         </div>
         <div className="flex items-center gap-1 shrink-0">
+          <button
+            onClick={() => setShowCodes(!showCodes)}
+            title="Show control codes (� line markers, [PAUSE])"
+            className={`text-xs px-2 py-1 rounded font-mono ${
+              showCodes ? 'bg-amber-700/50 text-amber-100' : 'bg-neutral-800 hover:bg-neutral-700'
+            }`}
+          >
+            {'</>'}
+          </button>
+          {mode === 'graph' && (
+            <button
+              onClick={() => setWide((w) => !w)}
+              title={wide ? 'Narrow panel' : 'Widen panel'}
+              className="text-xs px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700"
+            >
+              {wide ? '⇥' : '⇤'}
+            </button>
+          )}
           <button
             onClick={() => setMode(mode === 'tree' ? 'graph' : 'tree')}
             className="text-xs px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700"

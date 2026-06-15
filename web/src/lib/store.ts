@@ -31,6 +31,10 @@ interface StoreState {
   fulltextSearch: MiniSearch | null
   error: string | null
 
+  // UI: show raw control codes (� line markers, [PAUSE]) in dialogue text.
+  showControlCodes: boolean
+  setShowControlCodes: (v: boolean) => void
+
   loadStartup: () => Promise<void>
   loadBundle: (bundle: string) => Promise<void>
   getEntity: (id: string) => Promise<Entity | null>
@@ -56,6 +60,9 @@ export const useStore = create<StoreState>((set, get) => ({
   entitySearch: null,
   fulltextSearch: null,
   error: null,
+
+  showControlCodes: false,
+  setShowControlCodes: (v) => set({ showControlCodes: v }),
 
   loadStartup: () =>
     once('startup', async () => {
