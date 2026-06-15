@@ -13,6 +13,7 @@ on:
       - 'extraction/**'
       - 'resources/dialogue/extracted/**'
       - 'resources/maps/regions-trimmed-flat-by-name/**'
+      - 'resources/maps/world-map.png'
       - 'resources/tables/**'
       - 'resources/labels/**'
       - 'resources/decompilations/**/SpriteGroups/**'
