@@ -1,2 +1,6 @@
 *
 !.gitignore
+# data-prep inputs (sprites.py) — needed by the web-companion CI build.
+!sprite_groups.yml
+!SpriteGroups
+!SpriteGroups/**
