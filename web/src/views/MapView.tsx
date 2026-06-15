@@ -10,7 +10,6 @@ import EntityMarkers, { type Filters } from '../components/EntityMarkers'
 import PlacesSidebar from '../components/PlacesSidebar'
 import FilterSidebar from '../components/FilterSidebar'
 import DialoguePanel from '../components/DialoguePanel'
-import Banner from '../components/Banner'
 import type { PlaceManifest } from '../lib/types'
 
 // The base map: a tile pyramid (preferred — only visible tiles render) or a
@@ -145,7 +144,6 @@ export default function MapView() {
           clusterRadius={clusterRadius}
           setClusterRadius={setClusterRadius}
         />
-        <Banner />
       </div>
 
       {selectedId && <DialoguePanel anchor={{ kind: 'entity', id: selectedId }} />}
