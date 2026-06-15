@@ -3,6 +3,13 @@ __pycache__/
 *.pyc
 /.idea/
 /docs/
+
+# Web companion: node deps, build output, and generated data-prep artifacts.
+/web/node_modules/
+/web/dist/
+/web/public/data/
+/web/public/sprites/
+/web/public/maps/
 /emuhawk-29.lnk
 resources/maps/layers_all-regions-and-rooms.psd
 resources/maps/layers_overworld-regions-only.psd
